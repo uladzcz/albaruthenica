@@ -1,0 +1,530 @@
+[
+  {
+    "id": "skaryna-prague-monument",
+    "title": {
+      "by": "Помнік Францыску Скарыну ў Празе",
+      "ru": "Памятник Франциску Скорине в Праге",
+      "en": "Monument to Francysk Skaryna in Prague"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "coordinates": [50.0933, 14.3986],
+    "description": {
+      "by": "Помнік вялікаму беларускаму першадрукару і асветніку Францыску Скарыну каля Градчанаў і Каралеўскага саду. Менавіта ў Празе ў 1517–1519 гадах Скарына надрукаваў сваю Біблію на старабеларускай мове.",
+      "ru": "Памятник великому белорусскому первопечатнику и просветителю Франциску Скорине возле Градчан и Королевского сада. Именно в Праге в 1517–1519 годах Скорина напечатал Библию на старобелорусском языке.",
+      "en": "Monument to the prominent Belarusian pioneer printer and humanist Francysk Skaryna near Prague Castle and the Royal Garden. Skaryna published his landmark Bible in Old Belarusian here in 1517–1519."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg/640px-Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/Францыск_Скарына"
+      }
+    ],
+    "tags": ["Скарына", "Асветніцтва", "XVI стагоддзе", "Прага"]
+  },
+  {
+    "id": "olsany-cemetery-prague",
+    "title": {
+      "by": "Магілы старшыняў Рады БНР на Альшанскіх могілках",
+      "ru": "Могилы председателей Рады БНР на Ольшанском кладбище",
+      "en": "Graves of BNR Council Presidents at Olšany Cemetery"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "coordinates": [50.0814, 14.4705],
+    "description": {
+      "by": "На знакамітых Альшанскіх могілках у Празе пахаваныя прэзідэнты Беларускай Народнай Рэспублікі Пётра Крэчэўскі (1879–1928) і Васіль Захарка (1877–1943), а таксама спявак Міхась Забейда-Суміцкі.",
+      "ru": "На знаменитом Ольшанском кладбище в Праге покоятся президенты Белорусской Народной Республики Пётр Кречевский (1879–1928) и Василий Захарко (1877–1943), а также певец Михаил Забейдо-Сумицкий.",
+      "en": "The historic Olšany Cemetery in Prague is the resting place of Presidents of the Belarusian Democratic Republic Council Pyotra Krecheuski (1879–1928) and Vasil Zacharka (1877–1943), as well as renowned tenor Michas Zabejda-Sumicki."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mahila_Kreceuskaha.jpg/640px-Mahila_Kreceuskaha.jpg",
+    "links": [
+      {
+        "title": "Рада БНР",
+        "url": "https://www.radabnr.org"
+      }
+    ],
+    "tags": ["БНР", "Рада БНР", "Пахаванні", "Прага"]
+  },
+  {
+    "id": "vilnius-rasos-kalinouski",
+    "title": {
+      "by": "Пантэон паўстанцаў 1863–1864 і Кастуся Каліноўскага на могілках Росы",
+      "ru": "Пантеон повстанцев 1863–1864 и Кастуся Калиновского на кладбище Росса",
+      "en": "Pantheon of 1863–1864 Insurgents and Kastus Kalinouski at Rasos Cemetery"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [54.6702, 25.3025],
+    "description": {
+      "by": "У капліцы на віленскіх могілках Росы ўрачыста перапахаваныя кіраўнік паўстання Кастусь Каліноўскі, Зыгмунт Серакоўскі і іх паплечнікі. Таксама на Росах спачываюць Іван Луцкевіч, Францішак Аляхновіч, Уладзіслаў Сыракомля.",
+      "ru": "В часовне на вильнюсском кладбище Росса торжественно перезахоронены лидер восстания Кастусь Калиновский, Зыгмунт Сераковский и их соратники. Также на Россе покоятся Иван Луцкевич, Франтишек Олехнович, Владислав Сырокомля.",
+      "en": "The chapel at Rasos Cemetery holds the crypt of the 1863–1864 Uprising heroes including leader Kastus Kalinouski and Zygmunt Sierakowski. Also buried here are key cultural figures Ivan Lutskevich and Francišak Alachnovič."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Vilnius_Rasos_Cemetery_Chapel.jpg/640px-Vilnius_Rasos_Cemetery_Chapel.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Кастусь Каліноўскі",
+        "url": "https://be.wikipedia.org/wiki/Кастусь_Каліноўскі"
+      }
+    ],
+    "tags": ["Каліноўскі", "Паўстанне 1863", "Вільня", "Росы"]
+  },
+  {
+    "id": "vilnius-ostra-brama",
+    "title": {
+      "by": "Вострая Брама (Капліца Маці Божай Вастрабрамскай)",
+      "ru": "Острая Брама (Часовня Матери Божьей Остробрамской)",
+      "en": "Gate of Dawn (Chapel of Our Lady of the Gate of Dawn)"
+    },
+    "category": "church",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [54.6744, 25.2894],
+    "description": {
+      "by": "Адзіная захаваная брама гарадскога мура Вільні з цудатворным абразом Маці Божай. Сакральнае месца для ўсіх земляў гістарычнага ВКЛ, апяванае Адамам Міцкевічам і Максімам Багдановічам («Пагоня»).",
+      "ru": "Единственные сохранившиеся ворота городской стены Вильнюса с чудотворной иконой Остробрамской Божией Матери. Сакральное место для земель ВКЛ, воспетое Адамом Мицкевичем и Максимом Богдановичем («Погоня»).",
+      "en": "The only remaining city gate of historical Vilnius, housing the revered icon of Our Lady of the Gate of Dawn. A major spiritual site deeply tied to Grand Duchy history and celebrated by poets Adam Mickiewicz and Maksim Bahdanovič."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gate_of_Dawn_Vilnius.jpg/640px-Gate_of_Dawn_Vilnius.jpg",
+    "links": [
+      {
+        "title": "Афіцыйны сайт",
+        "url": "https://ausrosvartai.lt"
+      }
+    ],
+    "tags": ["ВКЛ", "Багдановіч", "Святыні", "Вільня"]
+  },
+  {
+    "id": "vilnius-bazyliany-gymnasium",
+    "title": {
+      "by": "Базыльянскія муры і Віленская беларуская гімназія",
+      "ru": "Базилианские стены и Виленская белорусская гимназия",
+      "en": "Basilian Monastery and Vilnius Belarusian Gymnasium"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [54.6756, 25.2878],
+    "description": {
+      "by": "Гістарычны комплекс манастыра базыльянаў (Царква Святой Тройцы). У 1919–1944 гг. тут месцілася легендарная Віленская беларуская гімназія, Беларускі музей імя Івана Луцкевіча і беларускія выданні.",
+      "ru": "Исторический комплекс монастыря базилиан (Церковь Святой Троицы). В 1919–1944 гг. здесь находились Виленская белорусская гимназия, Белорусский музей имени Ивана Луцкевича и редакции изданий.",
+      "en": "Historic complex of the Basilian Monastery (Holy Trinity Church). From 1919 to 1944, it housed the famed Vilnius Belarusian Gymnasium, Ivan Lutskevich Museum, and key community organizations."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vilnius_Basilian_Church.jpg/640px-Vilnius_Basilian_Church.jpg",
+    "links": [
+      {
+        "title": "Віленская беларуская гімназія",
+        "url": "https://be.wikipedia.org/wiki/Віленская_беларуская_гімназія"
+      }
+    ],
+    "tags": ["Адукацыя", "Гімназія", "Луцкевіч", "Вільня"]
+  },
+  {
+    "id": "london-st-cyril-church",
+    "title": {
+      "by": "Беларуская царква св. Кірылы Тураўскага ў Лондане",
+      "ru": "Белорусская церковь св. Кирилла Туровского в Лондоне",
+      "en": "Belarusian Church of St Cyril of Turau in London"
+    },
+    "category": "church",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лондан",
+      "ru": "Лондон",
+      "en": "London"
+    },
+    "coordinates": [51.6186, -0.1834],
+    "description": {
+      "by": "Унікальная драўляная грэка-каталіцкая царква ў Паўночным Лондане (Woodside Park), збудаваная ў 2016 годзе ў памяць ахвяр Чарнобыльскай катастрофы па праекце Сфіна Цзы Чэня. Лаўрэат шматлікіх міжнародных архітэктурных прэмій.",
+      "ru": "Уникальная деревянная греко-католическая церковь в Северном Лондоне, построенная в 2016 году в память жертв Чернобыльской катастрофы по проекту Сфина Цзы Чэня. Лауреат престижных архитектурных премий.",
+      "en": "A world-renowned wooden Belarusian Greek Catholic memorial church in North London, built in 2016 to commemorate victims of the Chernobyl disaster. Designed by Spheron Architects, winner of multiple architectural awards."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People%2C_London.jpg/640px-Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People%2C_London.jpg",
+    "links": [
+      {
+        "title": "Belarusian Church in London",
+        "url": "https://belaruschurch.org.uk"
+      }
+    ],
+    "tags": ["Чарнобыль", "Драўляная архітэктура", "Лондан", "Дыяспара"]
+  },
+  {
+    "id": "london-skaryna-library",
+    "title": {
+      "by": "Беларуская бібліятэка і музей імя Францішка Скарыны ў Лондане",
+      "ru": "Белорусская библиотека и музей имени Франциска Скорины в Лондоне",
+      "en": "Francis Skaryna Belarusian Library and Museum in London"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лондан",
+      "ru": "Лондон",
+      "en": "London"
+    },
+    "coordinates": [51.6181, -0.1838],
+    "description": {
+      "by": "Заснаваная ў 1971 г. айцом Аляксандрам Надсанам і беларускімі дзеячамі. Найбуйнейшая за межамі Беларусі калекцыя беларускай літаратуры, гістарычных дакументаў, картаграфіі і мастацтва ў Заходняй Еўропе.",
+      "ru": "Основана в 1971 г. отцом Александром Надсоном и деятелями эмиграции. Крупнейшее собрание белорусики за пределами Беларуси в Западной Европе: редкие книги, архивы, карты и артефакты.",
+      "en": "Founded in 1971 by Father Alexander Nadson and Belarusian diaspora intellectuals. The largest collection of Belarusian books, manuscripts, and cultural artifacts in Western Europe."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Francis_Skaryna_Belarusian_Library_and_Museum.jpg/640px-Francis_Skaryna_Belarusian_Library_and_Museum.jpg",
+    "links": [
+      {
+        "title": "Афіцыйны сайт бібліятэкі",
+        "url": "https://skaryna.org.uk"
+      }
+    ],
+    "tags": ["Скарынаўка", "Надсан", "Архівы", "Лондан"]
+  },
+  {
+    "id": "warsaw-kosciuszko-monument",
+    "title": {
+      "by": "Помнік Тадэвушу Касцюшку на плошчы Жалезнай Брамы",
+      "ru": "Памятник Тадеушу Костюшко на площади Железных Ворот",
+      "en": "Monument to Tadeusz Kościuszko at Iron Gate Square"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [52.2393, 21.0028],
+    "description": {
+      "by": "Велічны помнік нацыянальнаму герою Беларусі, Польшчы, Літвы і ЗША, ураджэнцу Мерачоўшчыны (Івацэвіцкі раён) Тадэвушу Касцюшку. Копія знакамітага помніка ў Вашынгтоне.",
+      "ru": "Величественный монумент национальному герою Беларуси, Польши, Литвы и США, уроженцу Меречёвщины Тадеушу Костюшко. Точная копия памятника в Вашингтоне.",
+      "en": "Monument to the national hero of Belarus, Poland, Lithuania, and the United States, born in Mieračoŭščyna (Brest region). An exact replica of the bronze statue in Lafayette Square, Washington, D.C."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pomnik_Tadeusza_Ko%C5%9Bciuszki_w_Warszawie.JPG/640px-Pomnik_Tadeusza_Ko%C5%9Bciuszki_w_Warszawie.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя: Тадэвуш Касцюшка",
+        "url": "https://be.wikipedia.org/wiki/Тадэвуш_Касцюшка"
+      }
+    ],
+    "tags": ["Касцюшка", "Паўстанне 1794", "Варшава"]
+  },
+  {
+    "id": "warsaw-free-belarus-museum",
+    "title": {
+      "by": "Музей Вольнай Беларусі ў Варшаве",
+      "ru": "Музей Свободной Беларуси в Варшаве",
+      "en": "Free Belarus Museum in Warsaw"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [52.2341, 21.0205],
+    "description": {
+      "by": "Культурная прастора на вуліцы Foksal, створаная як асяродак сучаснай беларускай культуры, гісторыі, выстаў, дыскусій і прэзентацый беларускай дыяспары ў Варшаве.",
+      "ru": "Культурное пространство на улице Foksal, созданное как центр современной белорусской культуры, истории, выставок и встреч белорусской диаспоры в Варшаве.",
+      "en": "A cultural and community hub located on Foksal Street in central Warsaw, hosting art exhibitions, historical presentations, and events of the contemporary Belarusian diaspora."
+    },
+    "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=80",
+    "links": [
+      {
+        "title": "Музей Вольнай Беларусі",
+        "url": "https://freebelarusmuseum.pl"
+      }
+    ],
+    "tags": ["Сучаснасць", "Культура", "Варшава", "Фоксал"]
+  },
+  {
+    "id": "montmorency-polish-belarusian-pantheon",
+    "title": {
+      "by": "Могілкі Шампо ў Манмарансі (Пантэон эміграцыі)",
+      "ru": "Кладбище Шампо в Монморанси (Пантеон эмиграции)",
+      "en": "Champeaux Cemetery in Montmorency (Emigration Pantheon)"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Манмарансі",
+      "ru": "Монморанси",
+      "en": "Montmorency"
+    },
+    "coordinates": [48.9866, 2.3218],
+    "description": {
+      "by": "Галоўны гістарычны некропаль «Вялікай эміграцыі» пасля паўстанняў 1830–1831 і 1863 гадоў. Тут першапачаткова быў пахаваны паэт Адам Міцкевіч, а таксама Цыпрыян Норвід, дзеячы роду Чартарыйскіх і іншыя выбітныя асобы земляў ВКЛ.",
+      "ru": "Главный некрополь «Великой эмиграции» после восстаний 1830–1831 и 1863 гг. Здесь первоначально был погребён Адам Мицкевич, а также Циприан Норвид и соратники национально-освободительного движения.",
+      "en": "Historic cemetery near Paris known as the pantheon of the Great Emigration after the 1831 and 1863 uprisings. Initially the burial place of Adam Mickiewicz, as well as Cyprian Norwid and prominent figures of the former Grand Duchy."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg/640px-Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg",
+    "links": [
+      {
+        "title": "Манмарансі на Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Манмарансі"
+      }
+    ],
+    "tags": ["Міцкевіч", "Францыя", "Эміграцыя", "ХІХ стагоддзе"]
+  },
+  {
+    "id": "south-river-st-euphrosyne",
+    "title": {
+      "by": "Беларускі асяродак і могілкі ў Саўт-Рыверы",
+      "ru": "Белорусский центр и кладбище в Саут-Ривере",
+      "en": "Belarusian Center and Cemetery in South River"
+    },
+    "category": "grave",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Саўт-Рывер",
+      "ru": "Саут-Ривер",
+      "en": "South River, NJ"
+    },
+    "coordinates": [40.4485, -74.3644],
+    "description": {
+      "by": "Саўт-Рывер у штаце Нью-Джэрсі быў адным з галоўных цэнтраў беларускай паваеннай эміграцыі ў ЗША. Тут месціцца царква св. Еўфрасінні Полацкай і беларускія могілкі, дзе пахаваныя дзеячы Беларускай Цэнтральнай Рады, навукоўцы, вайскоўцы і пісьменнікі.",
+      "ru": "Саут-Ривер в штате Нью-Джерси — один из главных центров белорусской послевоенной эмиграции в США. Здесь находится церковь св. Евфросинии Полоцкой и белорусское кладбище, где покоятся видные деятели диаспоры.",
+      "en": "South River, New Jersey, served as a primary hub for post-WWII Belarusian emigration to the US. Home to St. Euphrosyne Belarusian Orthodox Church and cemetery, the resting place of many prominent diaspora leaders, scholars, and writers."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg/640px-St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg",
+    "links": [
+      {
+        "title": "Беларусы ў ЗША",
+        "url": "https://be.wikipedia.org/wiki/Беларусы_ў_ЗША"
+      }
+    ],
+    "tags": ["ЗША", "Саўт-Рывер", "Еўфрасіння Полацкая", "Дыяспара"]
+  },
+  {
+    "id": "toronto-st-cyril-center",
+    "title": {
+      "by": "Беларускі рэлігійна-грамадскі цэнтр і царква ў Таронта",
+      "ru": "Белорусский религиозно-общественный центр и церковь в Торонто",
+      "en": "Belarusian Religious & Community Center in Toronto"
+    },
+    "category": "church",
+    "country": {
+      "by": "Канада",
+      "ru": "Канада",
+      "en": "Canada"
+    },
+    "city": {
+      "by": "Таронта",
+      "ru": "Торонто",
+      "en": "Toronto"
+    },
+    "coordinates": [43.6521, -79.4812],
+    "description": {
+      "by": "Царква св. Кірылы Тураўскага БАПЦ і грамадскі дом на Dundas Street West — сэрца жыцця беларускай суполкі ў правінцыі Антарыё на працягу многіх дзесяцігоддзяў.",
+      "ru": "Церковь св. Кирилла Туровского БАПЦ и общественный дом на Dundas Street West — сердце белорусской общины в канадской провинции Онтарио на протяжении многих десятилетий.",
+      "en": "St. Cyril of Turau Belarusian Autocephalous Orthodox Church and Community Center on Dundas Street West, serving as the cultural and spiritual anchor for the Belarusian diaspora in Ontario."
+    },
+    "image": "https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=800&q=80",
+    "links": [
+      {
+        "title": "Згуртаванне беларусаў Канады",
+        "url": "https://belaruscand.org"
+      }
+    ],
+    "tags": ["Канада", "Таронта", "Кірыла Тураўскі", "Эміграцыя"]
+  },
+  {
+    "id": "santiago-domeiko-university",
+    "title": {
+      "by": "Помнік і спадчына Ігната Дамейкі ва Універсітэце Чылі",
+      "ru": "Памятник и наследие Игнатия Домейко в Университете Чили",
+      "en": "Ignacy Domeyko Monument and Legacy at University of Chile"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Чылі",
+      "ru": "Чили",
+      "en": "Chile"
+    },
+    "city": {
+      "by": "Сант'яга",
+      "ru": "Сантьяго",
+      "en": "Santiago"
+    },
+    "coordinates": [-33.4443, -70.6511],
+    "description": {
+      "by": "Ураджэнец Навагрудчыны, філамат і сябар Адама Міцкевіча Ігнат Дамейка стаў рэктарам Універсітэта Чылі, рэфарматарам сістэмы адукацыі і нацыянальным героем гэтай краіны. Яго імем названы мінерал дамейкіт, горад і горны хрыбет.",
+      "ru": "Уроженец Новогрудчины, филомат и друг Адама Мицкевича Игнатий Домейко стал ректором Чилийского университета, реформатором образования и национальным героем страны. Его именем назван минерал домекит, город и хребет Домейко.",
+      "en": "Born in Navahrudak region, philomath and close friend of Adam Mickiewicz, Ignacy Domeyko became rector of the University of Chile and a national hero. A mountain range, a city, and the mineral domeykite bear his name."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ignacy_Domeyko_monument_in_Santiago.jpg/640px-Ignacy_Domeyko_monument_in_Santiago.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Ігнат Дамейка",
+        "url": "https://be.wikipedia.org/wiki/Ігнат_Дамейка"
+      }
+    ],
+    "tags": ["Дамейка", "Навука", "Чылі", "Лацінская Амерыка"]
+  },
+  {
+    "id": "solothurn-kosciuszko-museum",
+    "title": {
+      "by": "Музей Тадэвуша Касцюшкі ў Залатурне",
+      "ru": "Музей Тадеуша Костюшко в Золотурне",
+      "en": "Tadeusz Kościuszko Museum in Solothurn"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Залатурн",
+      "ru": "Золотурн",
+      "en": "Solothurn"
+    },
+    "coordinates": [47.2081, 7.5375],
+    "description": {
+      "by": "Дом, у якім Касцюшка правёў апошнія гады жыцця (1815–1817) і дзе ён сканаў. Цяпер тут дзейнічае мемарыяльны музей з багатай экспазіцыяй асабістых рэчаў і дакументаў героя.",
+      "ru": "Дом, в котором Костюшко провёл последние годы жизни (1815–1817) и где он скончался. Сегодня здесь открыт музей с экспозицией личных вещей и реликвий героя.",
+      "en": "The house where Tadeusz Kościuszko lived in exile during his final years (1815–1817). Preserved as a memorial museum showcasing personal artifacts, letters, and documents."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kosciuszko-Museum_Solothurn.jpg/640px-Kosciuszko-Museum_Solothurn.jpg",
+    "links": [
+      {
+        "title": "Kosciuszko Museum Solothurn",
+        "url": "https://kosciuszkogalerie.ch"
+      }
+    ],
+    "tags": ["Касцюшка", "Швейцарыя", "Музей", "Гісторыя"]
+  },
+  {
+    "id": "padua-skaryna-aula-magna",
+    "title": {
+      "by": "Зала Сарока ў Падуанскім універсітэце (партрэт і герб Скарыны)",
+      "ru": "Зал Сорока в Падуанском университете (портрет Скорины)",
+      "en": "Sala dei Quaranta at University of Padua (Skaryna Portrait)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Падуя",
+      "ru": "Падуя",
+      "en": "Padua"
+    },
+    "coordinates": [45.4069, 11.8778],
+    "description": {
+      "by": "У знакамітай 'Sala dei Quaranta' Падуанскага ўніверсітэта (Palazzo Bo) сярод сарака выбітных выпускнікоў-чужынцаў змешчаны партрэт доктара лекарскіх навук Францыска Скарыны, які бліскуча абараніў тут доктарскую ступень у 1512 годзе.",
+      "ru": "В историческом зале 'Sala dei Quaranta' Падуанского университета (Палаццо Бо) среди 40 выдающихся иностранных выпускников выставлен портрет доктора лекарских наук Франциска Скорины, защитившего здесь степень в 1512 году.",
+      "en": "In the historic 'Sala dei Quaranta' of the University of Padua (Palazzo Bo), a portrait of Doctor of Medicine Francysk Skaryna is featured among the forty most distinguished international alumni."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Palazzo_Bo%2C_Padua.jpg/640px-Palazzo_Bo%2C_Padua.jpg",
+    "links": [
+      {
+        "title": "Падуанскі ўніверсітэт",
+        "url": "https://www.unipd.it"
+      }
+    ],
+    "tags": ["Скарына", "Падуя", "Адукацыя", "Рэнесанс", "Італія"]
+  },
+  {
+    "id": "hajnowka-museum-belarusian-culture",
+    "title": {
+      "by": "Музей беларускай культуры ў Гайнаўцы",
+      "ru": "Музей белорусской культуры в Гайновке",
+      "en": "Museum of Belarusian Culture in Hajnówka"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Гайнаўка",
+      "ru": "Гайновка",
+      "en": "Hajnówka"
+    },
+    "coordinates": [52.7431, 23.5786],
+    "description": {
+      "by": "Адзіны ў Польшчы комплексны музей традыцыйнай і сучаснай культуры аўтахтонных беларусаў Падляшша. Месціць этнаграфічныя экспазіцыі, мастацкія выставы і бібліятэку.",
+      "ru": "Единственный в Польше музей традиционной и современной культуры автохтонных белорусов Подляшья. Включает этнографические коллекции, художественные галереи и библиотеку.",
+      "en": "The premier cultural institution in Podlasie dedicated to the indigenous Belarusian heritage of the region, featuring ethnographic exhibitions, folk crafts, and fine arts."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Muzeum_Bialoruskie_Hajnowka.jpg/640px-Muzeum_Bialoruskie_Hajnowka.jpg",
+    "links": [
+      {
+        "title": "Muzeum Białoruskie w Hajnówce",
+        "url": "https://muzeumbialoruskie.hajnowka.pl"
+      }
+    ],
+    "tags": ["Падляшша", "Этнаграфія", "Польшча", "Традыцыі"]
+  }
+]

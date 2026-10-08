@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="be">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albaruthenica — Беларускія мясціны свету</title>
+  <meta name="description" content="Інтэрактыўная мапа беларускіх гістарычных мясцін, помнікаў, храмаў і культурных асяродкаў па ўсім свеце.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Albaruthenica — Беларускія мясціны свету">
+  <meta property="og:description" content="Інтэрактыўная мапа беларускіх гістарычных мясцін і культурнай спадчыны па ўсім свеце.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <!-- Leaflet MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
+
+  <!-- App Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="brand-wrapper" onclick="window.location.hash=''; if(window.closePlaceDetail) closePlaceDetail();">
+      <div class="brand-icon">A</div>
+      <div class="brand-titles">
+        <span class="brand-title" data-i18n="siteTitle">Albaruthenica</span>
+        <span class="brand-subtitle" data-i18n="siteSubtitle">Беларускія мясціны свету</span>
+      </div>
+    </div>
+
+    <!-- Search Input -->
+    <div class="header-search">
+      <div class="search-input-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Пошук па назве, горадзе, краіне...">
+        <button id="searchClear" class="search-clear">&times;</button>
+      </div>
+    </div>
+
+    <!-- Actions & Language Switcher -->
+    <div class="header-actions">
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="by">BY</button>
+        <button class="lang-btn" data-lang="ru">RU</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+
+      <button id="btnAbout" class="btn btn-secondary btn-sm">
+        ℹ️ <span class="btn-text-label" data-i18n="btnAbout">Пра праект</span>
+      </button>
+
+      <button id="btnAddPlace" class="btn btn-primary btn-sm">
+        ➕ <span class="btn-text-label" data-i18n="btnAddPlace">Дадаць месца</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main View -->
+  <main class="app-main">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-stats" id="statsCounter">
+          <!-- Populated by JS -->
+        </div>
+        <div class="category-filter-list" id="categoryFilters">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Places List -->
+      <div class="places-list" id="placesList">
+        <!-- Place cards populated by JS -->
+      </div>
+
+      <!-- Detail Drawer -->
+      <div class="place-detail-view" id="placeDetailDrawer">
+        <!-- Content injected when a place is clicked -->
+      </div>
+    </aside>
+
+    <!-- Map View -->
+    <section class="map-container">
+      <div id="map"></div>
+
+      <!-- Floating banner when user is picking coordinates on map -->
+      <div id="pickCoordsBanner" class="coords-picker-banner" style="display: none; position: absolute; top: 1rem; left: 50%; transform: translateX(-50%); z-index: 1000; box-shadow: var(--shadow-md); background: #ffffff;">
+        <span data-i18n="clickMapToPick">🎯 Клікніце ў любую кропку на карце для выбару каардынат</span>
+        <button id="btnCancelPick" class="btn btn-secondary btn-sm" style="margin-left: 1rem;">Адмена</button>
+      </div>
+
+      <!-- Mobile toggle button -->
+      <button class="mobile-sidebar-toggle" id="mobileSidebarToggle">
+        📋 <span data-i18n="sidebarTitle">Спіс мясцін</span>
+      </button>
+    </section>
+  </main>
+
+  <!-- About Modal -->
+  <div class="modal-overlay" id="aboutModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="aboutModalTitle">Пра праект Albaruthenica</h3>
+        <button class="modal-close-btn" onclick="closeModal('aboutModal')">&times;</button>
+      </div>
+      <div class="modal-body" data-i18n="aboutModalContent">
+        <!-- Injected via i18n -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="closeModal('aboutModal')" data-i18n="closeModal">Зразумела</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Place Modal -->
+  <div class="modal-overlay" id="addPlaceModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="addModalTitle">Прапанаваць новае месца</h3>
+        <button class="modal-close-btn" onclick="closeModal('addPlaceModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;" data-i18n="addModalIntro">
+          Клікніце на карту, каб аўтаматычна выставіць каардынаты, альбо запоўніце форму ніжэй.
+        </p>
+
+        <div style="margin-bottom: 1rem;">
+          <button id="btnPickOnMap" type="button" class="btn btn-secondary btn-sm">
+            🗺️ Выбраць каардынаты клікам на карце
+          </button>
+        </div>
+
+        <form id="addPlaceForm" class="form-grid">
+          <div class="form-group form-full">
+            <label class="form-label" data-i18n="formPlaceNameBy">Назва месца (па-беларуску) *</label>
+            <input type="text" id="formNameBy" class="form-input" required placeholder="напр., Помнік Кастусю Каліноўскаму">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formPlaceNameRu">Назва месца (па-руску)</label>
+            <input type="text" id="formNameRu" class="form-input" placeholder="напр., Памятник Кастусю Калиновскому">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formPlaceNameEn">Назва месца (па-англійску)</label>
+            <input type="text" id="formNameEn" class="form-input" placeholder="e.g., Kastus Kalinouski Monument">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formCategory">Катэгорыя</label>
+            <select id="formCategory" class="form-select">
+              <option value="monument">Памятнік</option>
+              <option value="grave">Пахаванне / Могілкі</option>
+              <option value="church">Храм / Святыня</option>
+              <option value="culture">Музей / Асяродак</option>
+              <option value="historical">Гістарычны будынак / Мясціна</option>
+              <option value="plaque">Мемарыяльная дошка</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formCountry">Краіна</label>
+            <input type="text" id="formCountry" class="form-input" placeholder="напр., Польшча / Lithuania / USA">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formCity">Горад</label>
+            <input type="text" id="formCity" class="form-input" placeholder="напр., Варшава / Вільня / London">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formLatitude">Шырата (Latitude) *</label>
+            <input type="number" step="any" id="formLat" class="form-input" required placeholder="54.6872">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formLongitude">Даўгата (Longitude) *</label>
+            <input type="number" step="any" id="formLng" class="form-input" required placeholder="25.2797">
+          </div>
+
+          <div class="form-group form-full">
+            <label class="form-label" data-i18n="formDescriptionBy">Апісанне (па-беларуску)</label>
+            <textarea id="formDescBy" class="form-textarea" placeholder="Гістарычная даведка, значэнне месца..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formDescriptionRu">Апісанне (па-руску)</label>
+            <textarea id="formDescRu" class="form-textarea" placeholder="Краткое описание..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formDescriptionEn">Апісанне (па-англійску)</label>
+            <textarea id="formDescEn" class="form-textarea" placeholder="Short description..."></textarea>
+          </div>
+
+          <div class="form-group form-full">
+            <label class="form-label" data-i18n="formImageUrl">Спасылка на выяву (URL)</label>
+            <input type="url" id="formImage" class="form-input" placeholder="https://example.com/photo.jpg">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formTags">Тэгі (праз коску)</label>
+            <input type="text" id="formTags" class="form-input" placeholder="Каліноўскі, 1863, Вільня">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="formSourceUrl">Спасылка на крыніцу / артыкул</label>
+            <input type="url" id="formSourceUrl" class="form-input" placeholder="https://be.wikipedia.org/wiki/...">
+          </div>
+        </form>
+
+        <!-- Result Box -->
+        <div id="jsonResultContainer" style="display: none; margin-top: 1.5rem;">
+          <h4 style="font-size: 0.9rem; font-weight: 700;" data-i18n="jsonGeneratedTitle">
+            Гатовы фрагмент JSON для дадання ў data/places.json:
+          </h4>
+          <pre id="jsonOutputBox" class="json-output-box"></pre>
+          <div style="margin-top: 0.75rem; display: flex; gap: 0.5rem;">
+            <button id="btnCopyJson" class="btn btn-primary btn-sm" data-i18n="btnCopyJson">📋 Скапіяваць JSON</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('addPlaceModal')" data-i18n="closeModal">Закрыць</button>
+        <button id="btnGenerateJson" class="btn btn-primary" data-i18n="btnGenerateJson">Згенераваць JSON</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- Leaflet MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- App scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
