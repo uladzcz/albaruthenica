@@ -127,15 +127,18 @@ async function loadPlaces() {
     const response = await fetch('data/places.json');
     if (!response.ok) throw new Error('Failed to load places.json');
     allPlaces = await response.json();
-    renderMarkers();
-    renderSidebarList();
-    updateStats();
-
-    // Check if initial hash matches a place
-    checkUrlHash();
   } catch (error) {
-    console.error('Error loading places:', error);
+    console.warn('Fetch places.json failed, falling back to window.INITIAL_PLACES:', error);
+    if (window.INITIAL_PLACES && Array.isArray(window.INITIAL_PLACES)) {
+      allPlaces = window.INITIAL_PLACES;
+    }
   }
+  renderMarkers();
+  renderSidebarList();
+  updateStats();
+
+  // Check if initial hash matches a place
+  checkUrlHash();
 }
 
 // Render category filter pills
