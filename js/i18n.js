@@ -55,7 +55,14 @@ const i18n = {
     jsonCopied: "JSON паспяхова скапіяваны!",
     closeModal: "Закрыць",
     clickMapToPick: "Клікніце ў любую кропку на карце для выбару каардынат",
-    coordsSelected: "Выбраныя каардынаты:"
+    coordsSelected: "Выбраныя каардынаты:",
+    layerOSM: "🗺️ OpenStreetMap",
+    layerSatellite: "🛰️ Спадарожнік (Esri)",
+    layerVoyager: "🎨 Светлая (CartoDB)",
+    nestedObjectsTitle: "🏛️ Укладзеныя аб’екты, творы і пахаванні:",
+    nestedObjectsBadge: "аб'ектаў",
+    formWikiUrl: "Спасылка на Вікіпедыю пра месца / музей",
+    formBackgroundArticle: "Спасылка на артыкул пра беларускі бэкграўнд"
   },
   ru: {
     siteTitle: "Albaruthenica",
@@ -113,7 +120,14 @@ const i18n = {
     jsonCopied: "JSON успешно скопирован!",
     closeModal: "Закрыть",
     clickMapToPick: "Кликните в любую точку на карте для выбора координат",
-    coordsSelected: "Выбранные координаты:"
+    coordsSelected: "Выбранные координаты:",
+    layerOSM: "🗺️ OpenStreetMap",
+    layerSatellite: "🛰️ Спутник (Esri)",
+    layerVoyager: "🎨 Светлая (CartoDB)",
+    nestedObjectsTitle: "🏛️ Вложенные объекты, произведения и захоронения:",
+    nestedObjectsBadge: "объектов",
+    formWikiUrl: "Ссылка на Википедию о месте / музее",
+    formBackgroundArticle: "Ссылка на статью о белорусском бэкграунде"
   },
   en: {
     siteTitle: "Albaruthenica",
@@ -171,7 +185,14 @@ const i18n = {
     jsonCopied: "JSON copied to clipboard!",
     closeModal: "Close",
     clickMapToPick: "Click anywhere on the map to select coordinates",
-    coordsSelected: "Selected coordinates:"
+    coordsSelected: "Selected coordinates:",
+    layerOSM: "🗺️ OpenStreetMap",
+    layerSatellite: "🛰️ Satellite (Esri)",
+    layerVoyager: "🎨 Light (CartoDB)",
+    nestedObjectsTitle: "🏛️ Nested Exhibits, Artworks & Graves:",
+    nestedObjectsBadge: "items",
+    formWikiUrl: "Wikipedia URL about the place/museum",
+    formBackgroundArticle: "Article URL exploring Belarusian background"
   }
 };
 

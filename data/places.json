@@ -1,5 +1,679 @@
 [
   {
+    "id": "paris-orangerie-soutine",
+    "title": {
+      "by": "Музей Аранжэры (калекцыя Хаіма Суціна)",
+      "ru": "Музей Оранжери (коллекция Хаима Сутина)",
+      "en": "Musée de l'Orangerie (Chaïm Soutine Collection)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [48.8638, 2.3227],
+    "description": {
+      "by": "Знакаміты парыжскі музей у садзе Цюільры валодае адным з найбуйнейшых у свеце збораў жывапісу Хаіма Суціна (22 арыгінальныя палатны з калекцыі Поля Гіёма). Суцін нарадзіўся ў мястэчку Смілавічы пад Мінскам і стаў адным з найяскравейшых лідараў сусветнага экспрэсіянізму і Парыжскай школы.",
+      "ru": "Знаменитый парижский музей в саду Тюильри обладает одним из крупнейших в мире собраний живописи Хаима Сутина (22 оригинальных полотна из коллекции Поля Гийома). Сутин родился в местечке Смиловичи под Минском и стал лидером мирового экспрессионизма и Парижской школы.",
+      "en": "The renowned Paris museum in the Tuileries Garden houses 22 major paintings by Chaïm Soutine from the Paul Guillaume collection. Born in Smilavichy near Minsk, Soutine became a towering figure of the School of Paris and modern expressionism."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg/640px-Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Музей Аранжэры",
+        "url": "https://be.wikipedia.org/wiki/Музей_Аранжэры"
+      },
+      {
+        "title": "Артыкул: Хаім Суцін і Смілавічы",
+        "url": "https://be.wikipedia.org/wiki/Хаім_Суцін"
+      },
+      {
+        "title": "Калекцыя Суціна ў Музеі Аранжэры",
+        "url": "https://www.musee-orangerie.fr/en/artworks/search?query=soutine"
+      }
+    ],
+    "tags": ["Суцін", "Смілавічы", "Парыжская школа", "Экспрэсіянізм", "Парыж"],
+    "items": [
+      {
+        "title": "«Маленькі кандытар» (Le Petit Pâtissier)",
+        "author": "Хаім Суцін (са Смілавіч)",
+        "year": "1922–1923",
+        "description": "Сусветна вядомы шэдэўр Суціна. Пасля таго, як амерыканскі мецэнат Альберт Барнс пабачыў гэтую карціну, ён выкупіў дзясяткі работ мастака, што імгненна прынесла выхадцу з Беларусі сусветную славу.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg/640px-Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg"
+      },
+      {
+        "title": "«Партрэт скульптара Аскара Мешчанінава»",
+        "author": "Хаім Суцін",
+        "year": "каля 1924",
+        "description": "Партрэт блізкага сябра і паплечніка па Парыжскай школе, скульптара Аскара Мешчанінава, які нарадзіўся ў Віцебску."
+      },
+      {
+        "title": "«Вялікае дрэва ў Вансе» (Le Grand Arbre à Vence)",
+        "author": "Хаім Суцін",
+        "year": "каля 1929",
+        "description": "Экспрэсіўны пейзаж з драматычным віхравым мазком, у якім спалучаецца французская прырода з глыбокім унутраным псіхалагізмам мастака."
+      }
+    ]
+  },
+  {
+    "id": "nice-chagall-museum",
+    "title": {
+      "by": "Нацыянальны музей Марка Шагала ў Ніцы",
+      "ru": "Национальный музей Марка Шагала в Ницце",
+      "en": "Musée National Marc Chagall in Nice"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Ніца",
+      "ru": "Ницца",
+      "en": "Nice"
+    },
+    "coordinates": [43.7093, 7.2700],
+    "description": {
+      "by": "Першы дзяржаўны музей Францыі, створаны пры жыцці мастака (1973). Экспазіцыя пабудавана вакол грандыёзнага цыкла з 17 вялікіх палотнаў «Біблейскае пасланне», а таксама шматлікіх карцін, дзе праз біблейскія вобразы паўстаюць родны Віцебск, драўляныя дамы, цэрквы і беларускі габрэйскі фальклор.",
+      "ru": "Первый государственный музей Франции, созданный при жизни художника (1973). Посвящён грандиозному циклу «Библейское послание» и полотнам, где оживают воспоминания о Витебске и деревянных белорусских улочках.",
+      "en": "The first national museum in France established during an artist's lifetime (1973). Built around the monumental 17-canvas 'Biblical Message' series, reflecting Chagall's deep memories of his native Vitebsk."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mus%C3%A9e_National_Marc_Chagall%2C_Nice%2C_France_-_panoramio_%281%29.jpg/640px-Mus%C3%A9e_National_Marc_Chagall%2C_Nice%2C_France_-_panoramio_%281%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Музей Марка Шагала ў Ніцы",
+        "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_National_Marc_Chagall"
+      },
+      {
+        "title": "Артыкул: Марк Шагал і віцебская школа",
+        "url": "https://be.wikipedia.org/wiki/Марк_Захаравіч_Шагал"
+      },
+      {
+        "title": "Афіцыйны сайт музея ў Ніцы",
+        "url": "https://musees-nationaux-alpesmaritimes.fr/chagall/"
+      }
+    ],
+    "tags": ["Шагал", "Віцебск", "Авангард", "Ніца", "Францыя"],
+    "items": [
+      {
+        "title": "«Стварэнне чалавека» (La Création de l'Homme)",
+        "author": "Марк Шагал (з Віцебска)",
+        "year": "1956–1958",
+        "description": "Цэнтральнае палатно залы Быцця з яркім каларытам і характэрнымі для Шагала лятучымі постацямі анёлаў і людзей."
+      },
+      {
+        "title": "Вітражы для музея ў Ніцы",
+        "author": "Марк Шагал",
+        "year": "1971–1972",
+        "description": "Тры манументальныя блакітныя вітражы, якія асвятляюць канцэртную залу музея."
+      }
+    ]
+  },
+  {
+    "id": "warsaw-mnw-wankowicz-ruszczyc",
+    "title": {
+      "by": "Нацыянальны музей у Варшаве (Ваньковіч, Рушчыц, Орда)",
+      "ru": "Национальный музей в Варшаве (Ванькович, Рущиц, Орда)",
+      "en": "National Museum in Warsaw (Wańkowicz & Ruszczyc Collections)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [52.2317, 21.0247],
+    "description": {
+      "by": "Адзін з галоўных мастацкіх музеяў Цэнтральнай Еўропы валодае фундаментальнымі шэдэўрамі мастакоў з Беларусі: культавым «Партрэтам Адама Міцкевіча» Валенція Ваньковіча (з Ігуменшчыны), а таксама манументальным сімвалісцкім палатном «Зямля» (1898) і краявідамі Багданава аўтарства Фердынанда Рушчыца.",
+      "ru": "Один из крупнейших музеев региона хранит знаковые шедевры художников из Беларуси: «Портрет Адама Мицкевича» Валентия Ваньковича, монументальную «Землю» (1898) и пейзажи Богданова кисти Фердинанда Рущица.",
+      "en": "One of Poland's premier art museums, holding landmark masterpieces by Belarusian-born masters: Walenty Wańkowicz's romantic 'Portrait of Adam Mickiewicz' and Ferdynand Ruszczyc's monumental symbolist canvas 'Earth' (1898)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ferdynand_Ruszczyc_-_Ziemia.jpg/640px-Ferdynand_Ruszczyc_-_Ziemia.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Нацыянальны музей у Варшаве",
+        "url": "https://pl.wikipedia.org/wiki/Muzeum_Narodowe_w_Warszawie"
+      },
+      {
+        "title": "Артыкул: Фердынанд Рушчыц і Багданава",
+        "url": "https://be.wikipedia.org/wiki/Фердынанд_Рушчыц"
+      },
+      {
+        "title": "Артыкул: Валенцій Ваньковіч",
+        "url": "https://be.wikipedia.org/wiki/Валенцій_Ваньковіч"
+      }
+    ],
+    "tags": ["Рушчыц", "Ваньковіч", "Багданава", "Жывапіс", "Варшава"],
+    "items": [
+      {
+        "title": "«Зямля» (Ziemia)",
+        "author": "Фердынанд Рушчыц (з Багданава)",
+        "year": "1898",
+        "description": "Эпахальнае палатно польска-беларускага сімвалізму. Араты з валамі на фоне драматычнага неба роднай зямлі.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ferdynand_Ruszczyc_-_Ziemia.jpg/640px-Ferdynand_Ruszczyc_-_Ziemia.jpg"
+      },
+      {
+        "title": "«Партрэт Адама Міцкевіча на скале Аю-Даг»",
+        "author": "Валенцій Ваньковіч (з Ігуменшчыны)",
+        "year": "1827–1828",
+        "description": "Культавы рамантычны вобраз паэта ў буйцы, натхнёны Крымскімі санетамі. Самы вядомы прыжыццёвы партрэт Міцкевіча."
+      },
+      {
+        "title": "«Стары дом» (Stary dom w Bohdanowie)",
+        "author": "Фердынанд Рушчыц",
+        "year": "1903",
+        "description": "Паэтычны вобраз роднай сядзібы Рушчыцаў у Багданаве на Валожыншчыне."
+      }
+    ]
+  },
+  {
+    "id": "krakow-mnk-napoleon-orda",
+    "title": {
+      "by": "Нацыянальны музей у Кракаве (збор Напалеона Орды)",
+      "ru": "Национальный музей в Кракове (коллекция Наполеона Орды)",
+      "en": "National Museum in Krakow (Napoleon Orda Collection)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [50.0601, 19.9234],
+    "description": {
+      "by": "Галоўны будынак і Сукенніцы Нацыянальнага музея ў Кракаве валодаюць найвялікшым у свеце зборам малюнкаў і акварэляў Напалеона Орды (больш за 1000 арыгіналаў) — ураджэнца Варацэвічаў на Піншчыне. Гэта бясцэнная графічная хроніка страчаных і захаваных замкаў, сядзіб і мястэчак Беларусі ХІХ ст.",
+      "ru": "Национальный музей в Кракове хранит крупнейшее в мире собрание графики Наполеона Орды (свыше 1000 работ) — уроженца Вороцевичей на Пинщине. Бесценная визуальная летопись белорусских замков и усадеб XIX века.",
+      "en": "The National Museum in Krakow holds the world's largest collection of drawings and watercolors by Napoleon Orda (over 1,000 works), depicting historic castles, churches, and manors across Belarus."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg/640px-Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Нацыянальны музей у Кракаве",
+        "url": "https://pl.wikipedia.org/wiki/Muzeum_Narodowe_w_Krakowie"
+      },
+      {
+        "title": "Артыкул: Напалеон Орда і беларускія замкі",
+        "url": "https://be.wikipedia.org/wiki/Напалеон_Орда"
+      },
+      {
+        "title": "Каталог графікі Напалеона Орды ў MNK",
+        "url": "https://zbiory.mnk.pl"
+      }
+    ],
+    "tags": ["Орда", "Замкі", "Графіка", "Кракаў", "Польшча"],
+    "items": [
+      {
+        "title": "«Мірскі замак» (акварэль)",
+        "author": "Напалеон Орда (з Варацэвічаў)",
+        "year": "1876",
+        "description": "Дакладны малюнак замка да перабудовы Святаполк-Мірскіх, які выкарыстоўваўся рэстаўратарамі пры аднаўленні помніка ЮНЕСКА."
+      },
+      {
+        "title": "«Руіны Навагрудскага замка»",
+        "author": "Напалеон Орда",
+        "year": "1876",
+        "description": "Гістарычная замалёўка Шчытоўскай і Касцельнай вежаў рэзідэнцыі вялікіх князёў літоўскіх."
+      },
+      {
+        "title": "«Нясвіжскі замак Радзівілаў»",
+        "author": "Напалеон Орда",
+        "year": "1876",
+        "description": "Від на палацава-паркавы комплекс з боку абарончых валоў і замкавага става."
+      }
+    ]
+  },
+  {
+    "id": "london-va-bakst",
+    "title": {
+      "by": "Музей Вікторыі і Альберта (калекцыя Леона Бакста)",
+      "ru": "Музей Виктории и Альберта (коллекция Леона Бакста)",
+      "en": "Victoria and Albert Museum (Léon Bakst Collection)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лондан",
+      "ru": "Лондон",
+      "en": "London"
+    },
+    "coordinates": [51.4966, -0.1722],
+    "description": {
+      "by": "Лонданскі музей V&A валодае выключным зборам сцэнічных касцюмаў, дэкарацый і жывапісных эскізаў Леона Бакста (Лейб-Хаіма Розэнберга), які нарадзіўся ў Гродне ў 1866 годзе. Яго рэвалюцыйныя работы для 'Рускіх сезонаў' Дзягілева перакулілі ўяўленні Еўропы пра моду і тэатральнае мастацтва.",
+      "ru": "Музей V&A хранит великолепное собрание костюмов, декораций и эскизов Леона Бакста, родившегося в Гродно в 1866 году. Его работы для сезонов Дягилева произвели революцию в мировом театре и моде.",
+      "en": "The V&A Museum houses an extraordinary collection of theatrical costumes and original set designs by Léon Bakst, born in Hrodna in 1866. His revolutionary designs transformed world ballet and international fashion."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Leon_Bakst_001.jpg/640px-Leon_Bakst_001.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Музей Вікторыі і Альберта",
+        "url": "https://be.wikipedia.org/wiki/Музей_Вікторыі_і_Альберта"
+      },
+      {
+        "title": "Артыкул: Леон Бакст і Гродна",
+        "url": "https://be.wikipedia.org/wiki/Леон_Бакст"
+      },
+      {
+        "title": "Калекцыя Бакста ў V&A",
+        "url": "https://collections.vam.ac.uk/search/?q=leon+bakst"
+      }
+    ],
+    "tags": ["Бакст", "Гродна", "Сцэнаграфія", "Мода", "Лондан"],
+    "items": [
+      {
+        "title": "Эскіз касцюма Жар-птушкі (The Firebird)",
+        "author": "Леон Бакст (з Гродна)",
+        "year": "1910",
+        "description": "Легендарны ўзор сцэнічнага авангарду для балета Ігара Стравінскага, набыты музеем у калекцыю тэатральнага дызайну."
+      },
+      {
+        "title": "Касцюм баярына для балета «Барыс Гадуноў»",
+        "author": "Леон Бакст",
+        "year": "1913",
+        "description": "Арыгінальны аўтэнтычны сцэнічны касцюм, створаны па эскізах Бакста з выкарыстаннем гістарычнага ткацтва."
+      }
+    ]
+  },
+  {
+    "id": "new-york-moma-chagall-soutine",
+    "title": {
+      "by": "Музей сучаснага мастацтва ў Нью-Ёрку (MoMA)",
+      "ru": "Музей современного искусства в Нью-Йорке (MoMA)",
+      "en": "Museum of Modern Art in New York (MoMA)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Нью-Ёрк",
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "coordinates": [40.7614, -73.9776],
+    "description": {
+      "by": "У адным з найбуйнейшых музеяў сучаснага мастацтва ў свеце захоўваецца знакавы шэдэўр Марка Шагала «Я і вёска» (1911), прасякнуты ўспамінамі пра Віцебшчыну і Лёзна, а таксама экспрэсіўныя работы Хаіма Суціна са Смілавічаў.",
+      "ru": "В одном из ведущих мировых музеев представлен легендарный шедевр Марка Шагала «Я и деревня» (1911), сотканный из воспоминаний о Витебске и Лиозно, а также экспрессивные картины Хаима Сутина.",
+      "en": "Home to Marc Chagall's iconic masterpiece 'I and the Village' (1911), depicting scenes of his native Belarusian homeland and Vitebsk, alongside compelling works by Chaïm Soutine."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/The_Museum_of_Modern_Art_%28MoMA%29%2C_New_York_City.jpg/640px-The_Museum_of_Modern_Art_%28MoMA%29%2C_New_York_City.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Музей сучаснага мастацтва (Нью-Ёрк)",
+        "url": "https://be.wikipedia.org/wiki/Музей_сучаснага_мастацтва_(Нью-Ёрк)"
+      },
+      {
+        "title": "Артыкул: Шэдэўр «Я і вёска» Марка Шагала",
+        "url": "https://en.wikipedia.org/wiki/I_and_the_Village"
+      },
+      {
+        "title": "Марк Шагал у калекцыі MoMA",
+        "url": "https://www.moma.org/artists/1055"
+      }
+    ],
+    "tags": ["Шагал", "Суцін", "Віцебск", "MoMA", "Нью-Ёрк"],
+    "items": [
+      {
+        "title": "«Я і вёска» (I and the Village)",
+        "author": "Марк Шагал (з Віцебска)",
+        "year": "1911",
+        "description": "Ключавы твор ранняга куба-футурыстычнага перыяду. Сімвалічная сустрэча селяніна і каровы на фоне віцебскай царквы і драўляных дамоў."
+      },
+      {
+        "title": "«Партрэт мужчыны» (Portrait of a Man)",
+        "author": "Хаім Суцін (са Смілавіч)",
+        "year": "1919",
+        "description": "Драматычны экспрэсіянісцкі партрэт ранняга парыжскага перыяду мастака."
+      }
+    ]
+  },
+  {
+    "id": "paris-centre-pompidou-chagall-zadkine",
+    "title": {
+      "by": "Цэнтр Пампіду (Нацыянальны музей сучаснага мастацтва)",
+      "ru": "Центр Помпиду (Национальный музей современного искусства)",
+      "en": "Centre Pompidou (National Museum of Modern Art)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [48.8606, 2.3522],
+    "description": {
+      "by": "Французскі нацыянальны музей сучаснага мастацтва захоўвае шырокую рэтраспектыву ўраджэнцаў Беларусі: Марка Шагала («Вяселле», «Праз акно»), выдатнага кубістычнага скульптара Восіпа Цадкіна (з Віцебшчыны), а таксама мастакоў Міхаіла Кікоіна (Рэчыца) і Пінхуса Крэменя (Жалудок).",
+      "ru": "Музей хранит обширную ретроспективу выходцев из Беларуси: Марка Шагала («Свадьба»), скульптора Осипа Цадкина (Витебщина), живописцев Михаила Кикоина (Речица) и Пинхуса Кременя (Желудок).",
+      "en": "Houses a major retrospective of Belarusian-born masters: Marc Chagall, avant-garde sculptor Ossip Zadkine (born near Vitebsk), and painters Michel Kikoine (Rechytsa) and Pinchus Kremegne (Zhaludok)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Centre_Georges-Pompidou_20110323_01.jpg/640px-Centre_Georges-Pompidou_20110323_01.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Цэнтр Жоржа Пампіду",
+        "url": "https://be.wikipedia.org/wiki/Цэнтр_Жоржа_Пампіду"
+      },
+      {
+        "title": "Артыкул: Восіп Цадкін з Беларусі",
+        "url": "https://be.wikipedia.org/wiki/Восіп_Цадкін"
+      },
+      {
+        "title": "Афіцыйная калекцыя Цэнтра Пампіду",
+        "url": "https://www.centrepompidou.fr"
+      }
+    ],
+    "tags": ["Пампіду", "Шагал", "Цадкін", "Парыжская школа", "Парыж"],
+    "items": [
+      {
+        "title": "«Вяселле» (Les Mariés)",
+        "author": "Марк Шагал",
+        "year": "1910",
+        "description": "Адна з першых парыжскіх работ Шагала, напісаная пад уражаннем ад традыцыйных беларускіх вяселляў."
+      },
+      {
+        "title": "Скульптура «Жанчына з веерам»",
+        "author": "Восіп Цадкін (з Віцебшчыны)",
+        "year": "1923",
+        "description": "Знакавая бронзавая скульптура геаметрычнага кубізму Цадкіна."
+      }
+    ]
+  },
+  {
+    "id": "vilnius-picture-gallery-rusiecki-ruszczyc",
+    "title": {
+      "by": "Віленская карцінная галерэя (Палац Хадкевічаў)",
+      "ru": "Виленская картинная галерея (Дворец Ходкевичей)",
+      "en": "Vilnius Picture Gallery (Chodkiewicz Palace)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [54.6806, 25.2917],
+    "description": {
+      "by": "Размешчаная ў велічным палацы Хадкевічаў, галерэя захоўвае багатую калекцыю выяўленчага мастацтва земляў былога ВКЛ XVI–XX ст. Сярод іх — шэдэўры Кануты Русецкага, Яна Дамеля, Валенція Ваньковіча і Фердынанда Рушчыца, які быў адным з заснавальнікаў мясцовага мастацкага жыцця.",
+      "ru": "Расположенная во дворце Ходкевичей, галерея хранит искусство земель ВКЛ XVI–XX вв.: шедевры Канутия Русецкого, Яна Дамеля, Валентия Ваньковича и Фердинанда Рущица.",
+      "en": "Housed in the neoclassical Chodkiewicz Palace, showcasing art of the Grand Duchy of Lithuania and Vilnius Art School, including Kanuty Rusiecki, Jan Damel, and Ferdynand Ruszczyc."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vilniaus_paveiksl%C5%B3_galerija.jpg/640px-Vilniaus_paveiksl%C5%B3_galerija.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Віленская карцінная галерэя",
+        "url": "https://lt.wikipedia.org/wiki/Vilniaus_paveikslų_galerija"
+      },
+      {
+        "title": "Артыкул: Кануты Русецкі і Віленская школа",
+        "url": "https://be.wikipedia.org/wiki/Кануты_Русецкі"
+      }
+    ],
+    "tags": ["Вільня", "Віленская школа", "Русецкі", "Хадкевічы", "Жывапіс"],
+    "items": [
+      {
+        "title": "«Літоўка з вербамі» (Lietuvaitė su verbomis)",
+        "author": "Кануты Русецкі (з Навагрудчыны/Вільні)",
+        "year": "1847",
+        "description": "Сімвал мастацтва віленскага краю ХІХ ст. Партрэт дзяўчыны ў традыцыйным убранні перад касцёлам Св. Ганны ў Вербную нядзелю."
+      },
+      {
+        "title": "«Вызваленне Т. Касцюшкі з цямніцы»",
+        "author": "Ян Дамель",
+        "year": "пачатак XIX ст.",
+        "description": "Гістарычнае палатно пра вызваленне лідара паўстання Тадэвуша Касцюшкі."
+      }
+    ]
+  },
+  {
+    "id": "vilnius-rasos-kalinouski",
+    "title": {
+      "by": "Пантэон паўстанцаў 1863–1864 і дзеячаў на могілках Росы",
+      "ru": "Пантеон повстанцев 1863–1864 и деятелей на кладбище Росса",
+      "en": "Pantheon of 1863–1864 Insurgents and Figures at Rasos Cemetery"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [54.6702, 25.3025],
+    "description": {
+      "by": "Галоўны гістарычны некропаль Вільні, дзе ў цэнтральнай капліцы спачываюць кіраўнікі паўстання 1863–1864 гадоў Кастусь Каліноўскі і Зыгмунт Серакоўскі, а таксама пачынальнікі беларускага Адраджэння ХХ стагоддзя.",
+      "ru": "Главный исторический некрополь Вильнюса, где в центральной часовне покоятся лидеры восстания 1863–1864 гг. Кастусь Калиновский и Зыгмунт Сераковский, а также ключевые деятели белорусского Возрождения.",
+      "en": "Historic cemetery where the leaders of the 1863–1864 Uprising, Kastus Kalinouski and Zygmunt Sierakowski, are interred alongside pioneers of the Belarusian national revival."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Vilnius_Rasos_Cemetery_Chapel.jpg/640px-Vilnius_Rasos_Cemetery_Chapel.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Могілкі Росы",
+        "url": "https://be.wikipedia.org/wiki/Могілкі_Росы"
+      },
+      {
+        "title": "Артыкул: Перапахаванне Кастуся Каліноўскага ў Вільні",
+        "url": "https://be.wikipedia.org/wiki/Кастусь_Каліноўскі"
+      }
+    ],
+    "tags": ["Каліноўскі", "Паўстанне 1863", "Вільня", "Росы", "Луцкевіч"],
+    "items": [
+      {
+        "title": "Капліца паўстанцаў 1863–1864 гадоў",
+        "person": "Кастусь Каліноўскі і Зыгмунт Серакоўскі",
+        "year": "Перапахаванне 2019 г.",
+        "description": "Урачысты пантэон знойдзеных на Замкавай гары і перапахаваных герояў вызваленчага паўстання."
+      },
+      {
+        "title": "Магіла Івана Луцкевіча",
+        "person": "Іван Луцкевіч (1881–1919)",
+        "year": "Перапахаваны ў 1991 г.",
+        "description": "Адзін з галоўных стваральнікаў «Нашай Нівы», Беларускага музея ў Вільні і заснавальнікаў ідэі незалежнасці БНР."
+      },
+      {
+        "title": "Магіла Францішка Аляхновіча",
+        "person": "Францішак Аляхновіч (1883–1944)",
+        "description": "Беларускі пісьменнік, драматург і тэатральны дзеяч, аўтар першай у свеце кнігі пра савецкі ГУЛАГ «У капцюрох ГПУ»."
+      },
+      {
+        "title": "Магіла Уладзіслава Сыракомлі",
+        "person": "Уладзіслаў Сыракомля (1823–1862)",
+        "description": "«Вясковы лірнік», паэт, які апяваў беларускі край, фальклор і гісторыю."
+      }
+    ]
+  },
+  {
+    "id": "olsany-cemetery-prague",
+    "title": {
+      "by": "Пантэон дзеячаў БНР на Альшанскіх могілках у Празе",
+      "ru": "Пантеон деятелей БНР на Ольшанском кладбище в Праге",
+      "en": "BNR Pantheon at Olšany Cemetery in Prague"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "coordinates": [50.0814, 14.4705],
+    "description": {
+      "by": "На знакамітых Альшанскіх могілках у Празе спачываюць прэзідэнты Беларускай Народнай Рэспублікі Пётра Крэчэўскі і Васіль Захарка, оперны пясняр Міхась Забейда-Суміцкі і прадстаўнікі беларускага студэнцтва міжваеннай Чэхаславакіі.",
+      "ru": "На знаменитом Ольшанском кладбище в Праге покоятся президенты Рады БНР Пётр Кречевский и Василий Захарко, певец Михаил Забейдо-Сумицкий и деятели диаспоры.",
+      "en": "The historic Olšany Cemetery in Prague holds the graves of Presidents of the BNR Council Pyotra Krecheuski and Vasil Zacharka, and tenor Michas Zabejda-Sumicki."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mahila_Kreceuskaha.jpg/640px-Mahila_Kreceuskaha.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Альшанскія могілкі",
+        "url": "https://be.wikipedia.org/wiki/Альшанскія_могілкі"
+      },
+      {
+        "title": "Артыкул: Прэзідэнты БНР у Празе",
+        "url": "https://www.radabnr.org"
+      }
+    ],
+    "tags": ["БНР", "Рада БНР", "Пахаванні", "Прага"],
+    "items": [
+      {
+        "title": "Магіла Пётры Крэчэўскага",
+        "person": "Пётра Крэчэўскі (1879–1928)",
+        "description": "Старшыня Рады Беларускай Народнай Рэспублікі (1919–1928), паэт, палітычны дзеяч, які арганізаваў захаванне дзяржаўнага архіва БНР у Празе."
+      },
+      {
+        "title": "Магіла Васіля Захаркі",
+        "person": "Васіль Захарка (1877–1943)",
+        "description": "Старшыня Рады БНР (1928–1943). Адхіліў прапановы супрацоўніцтва з гітлераўцамі падчас Другой сусветнай вайны."
+      },
+      {
+        "title": "Магіла Міхася Забейды-Суміцкага",
+        "person": "Міхась Забейда-Суміцкі (1900–1981)",
+        "description": "Выбітны беларускі оперны спявак (тэнар), саліст тэатра «Ла Скала» і Пражскай оперы."
+      }
+    ]
+  },
+  {
+    "id": "south-river-st-euphrosyne",
+    "title": {
+      "by": "Беларускія могілкі і цэнтр у Саўт-Рыверы",
+      "ru": "Белорусское кладбище и центр в Саут-Ривере",
+      "en": "Belarusian Center & Cemetery in South River"
+    },
+    "category": "grave",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Саўт-Рывер",
+      "ru": "Саут-Ривер",
+      "en": "South River, NJ"
+    },
+    "coordinates": [40.4485, -74.3644],
+    "description": {
+      "by": "Саўт-Рывер у штаце Нью-Джэрсі быў найважнейшым асяродкам паваеннай беларускай эміграцыі ў Паўночнай Амерыцы. Пры царкве св. Еўфрасінні Полацкай створаны беларускі некропаль, дзе пахаваныя выбітныя навукоўцы, вайскоўцы, грамадскія дзеячы і літаратары замежжа.",
+      "ru": "Саут-Ривер в Нью-Джерси — ключевой центр послевоенной белорусской эмиграции. При церкви св. Евфросинии Полоцкой находится некрополь видных деятелей диаспоры.",
+      "en": "South River, NJ, served as a premier center of post-war Belarusian diaspora in North America, featuring the cemetery of prominent leaders, writers, and scholars."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg/640px-St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Беларусы ў ЗША",
+        "url": "https://be.wikipedia.org/wiki/Беларусы_ў_ЗША"
+      },
+      {
+        "title": "Артыкул: Беларускі Саўт-Рывер",
+        "url": "https://be.wikipedia.org/wiki/Саўт-Рывер_(Нью-Джэрсі)"
+      }
+    ],
+    "tags": ["ЗША", "Саўт-Рывер", "Еўфрасіння Полацкая", "Дыяспара"],
+    "items": [
+      {
+        "title": "Магіла Радаслава Астроўскага",
+        "person": "Радаслаў Астроўскі (1887–1976)",
+        "description": "Прэзідэнт Беларускай Цэнтральнай Рады, грамадска-палітычны дзеяч эміграцыі."
+      },
+      {
+        "title": "Магіла Юркі Віцьбіча",
+        "person": "Юрка Віцьбіч (1905–1975)",
+        "description": "Пісьменнік, эсэіст і краязнаўца, аўтар кніг пра гісторыю Беларусі і савецкія рэпрэсіі."
+      },
+      {
+        "title": "Магіла Яўхіма Кіпеля",
+        "person": "Яўхім Кіпель (1896–1969)",
+        "description": "Беларускі педагог, грамадскі дзеяч, пачынальнік арганізацыі беларускага школьніцтва ў ЗША."
+      }
+    ]
+  },
+  {
+    "id": "montmorency-polish-belarusian-pantheon",
+    "title": {
+      "by": "Могілкі Шампо ў Манмарансі (Пантэон Вялікай эміграцыі)",
+      "ru": "Кладбище Шампо в Монморанси (Пантеон эмиграции)",
+      "en": "Champeaux Cemetery in Montmorency (Emigration Pantheon)"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Манмарансі",
+      "ru": "Монморанси",
+      "en": "Montmorency"
+    },
+    "coordinates": [48.9866, 2.3218],
+    "description": {
+      "by": "Галоўны некропаль удзельнікаў паўстанняў 1830–1831 і 1863 гадоў у Францыі. Тут першапачаткова быў пахаваны Адам Міцкевіч (да пераносу праху ў Кракаў), паэт Цыпрыян Норвід, прадстаўнікі шляхецкіх родаў ВКЛ і ўдзельнікі вызвольнага руху.",
+      "ru": "Главный некрополь участников восстаний 1830–1831 и 1863 гг. во Франции. Здесь первоначально был погребён Адам Мицкевич, а также поэт Циприан Норвид и соратники освободительного движения.",
+      "en": "The foremost burial ground of the Great Emigration after the 1831 and 1863 uprisings. Original resting place of Adam Mickiewicz before reburial at Wawel, as well as poet Cyprian Norwid."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg/640px-Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Могілкі Шампо ў Манмарансі",
+        "url": "https://be.wikipedia.org/wiki/Манмарансі"
+      },
+      {
+        "title": "Артыкул: Адам Міцкевіч і Вялікая эміграцыя",
+        "url": "https://be.wikipedia.org/wiki/Адам_Міцкевіч"
+      }
+    ],
+    "tags": ["Міцкевіч", "Францыя", "Эміграцыя", "ХІХ стагоддзе"],
+    "items": [
+      {
+        "title": "Першапачатковая магіла Адама Міцкевіча",
+        "person": "Адам Міцкевіч (1798–1855)",
+        "description": "Месца пахавання паэта з Навагрудчыны з 1856 да 1890 года, калі яго прах быў перавезены ў Вавельскі сабор у Кракаве."
+      },
+      {
+        "title": "Магіла Цыпрыяна Каміля Норвіда",
+        "person": "Цыпрыян Норвід (1821–1883)",
+        "description": "Выбітны паэт, мастак і мысліцель эпохі рамантызму."
+      }
+    ]
+  },
+  {
     "id": "skaryna-prague-monument",
     "title": {
       "by": "Помнік Францыску Скарыну ў Празе",
@@ -26,77 +700,11 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg/640px-Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg",
     "links": [
       {
-        "title": "Вікіпедыя",
+        "title": "Вікіпедыя: Францыск Скарына",
         "url": "https://be.wikipedia.org/wiki/Францыск_Скарына"
       }
     ],
     "tags": ["Скарына", "Асветніцтва", "XVI стагоддзе", "Прага"]
-  },
-  {
-    "id": "olsany-cemetery-prague",
-    "title": {
-      "by": "Магілы старшыняў Рады БНР на Альшанскіх могілках",
-      "ru": "Могилы председателей Рады БНР на Ольшанском кладбище",
-      "en": "Graves of BNR Council Presidents at Olšany Cemetery"
-    },
-    "category": "grave",
-    "country": {
-      "by": "Чэхія",
-      "ru": "Чехия",
-      "en": "Czech Republic"
-    },
-    "city": {
-      "by": "Прага",
-      "ru": "Прага",
-      "en": "Prague"
-    },
-    "coordinates": [50.0814, 14.4705],
-    "description": {
-      "by": "На знакамітых Альшанскіх могілках у Празе пахаваныя прэзідэнты Беларускай Народнай Рэспублікі Пётра Крэчэўскі (1879–1928) і Васіль Захарка (1877–1943), а таксама спявак Міхась Забейда-Суміцкі.",
-      "ru": "На знаменитом Ольшанском кладбище в Праге покоятся президенты Белорусской Народной Республики Пётр Кречевский (1879–1928) и Василий Захарко (1877–1943), а также певец Михаил Забейдо-Сумицкий.",
-      "en": "The historic Olšany Cemetery in Prague is the resting place of Presidents of the Belarusian Democratic Republic Council Pyotra Krecheuski (1879–1928) and Vasil Zacharka (1877–1943), as well as renowned tenor Michas Zabejda-Sumicki."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mahila_Kreceuskaha.jpg/640px-Mahila_Kreceuskaha.jpg",
-    "links": [
-      {
-        "title": "Рада БНР",
-        "url": "https://www.radabnr.org"
-      }
-    ],
-    "tags": ["БНР", "Рада БНР", "Пахаванні", "Прага"]
-  },
-  {
-    "id": "vilnius-rasos-kalinouski",
-    "title": {
-      "by": "Пантэон паўстанцаў 1863–1864 і Кастуся Каліноўскага на могілках Росы",
-      "ru": "Пантеон повстанцев 1863–1864 и Кастуся Калиновского на кладбище Росса",
-      "en": "Pantheon of 1863–1864 Insurgents and Kastus Kalinouski at Rasos Cemetery"
-    },
-    "category": "grave",
-    "country": {
-      "by": "Літва",
-      "ru": "Литва",
-      "en": "Lithuania"
-    },
-    "city": {
-      "by": "Вільня",
-      "ru": "Вильнюс",
-      "en": "Vilnius"
-    },
-    "coordinates": [54.6702, 25.3025],
-    "description": {
-      "by": "У капліцы на віленскіх могілках Росы ўрачыста перапахаваныя кіраўнік паўстання Кастусь Каліноўскі, Зыгмунт Серакоўскі і іх паплечнікі. Таксама на Росах спачываюць Іван Луцкевіч, Францішак Аляхновіч, Уладзіслаў Сыракомля.",
-      "ru": "В часовне на вильнюсском кладбище Росса торжественно перезахоронены лидер восстания Кастусь Калиновский, Зыгмунт Сераковский и их соратники. Также на Россе покоятся Иван Луцкевич, Франтишек Олехнович, Владислав Сырокомля.",
-      "en": "The chapel at Rasos Cemetery holds the crypt of the 1863–1864 Uprising heroes including leader Kastus Kalinouski and Zygmunt Sierakowski. Also buried here are key cultural figures Ivan Lutskevich and Francišak Alachnovič."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Vilnius_Rasos_Cemetery_Chapel.jpg/640px-Vilnius_Rasos_Cemetery_Chapel.jpg",
-    "links": [
-      {
-        "title": "Вікіпедыя: Кастусь Каліноўскі",
-        "url": "https://be.wikipedia.org/wiki/Кастусь_Каліноўскі"
-      }
-    ],
-    "tags": ["Каліноўскі", "Паўстанне 1863", "Вільня", "Росы"]
   },
   {
     "id": "vilnius-ostra-brama",
@@ -125,7 +733,11 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gate_of_Dawn_Vilnius.jpg/640px-Gate_of_Dawn_Vilnius.jpg",
     "links": [
       {
-        "title": "Афіцыйны сайт",
+        "title": "Вікіпедыя: Вострая брама",
+        "url": "https://be.wikipedia.org/wiki/Вострая_брама"
+      },
+      {
+        "title": "Афіцыйны сайт капліцы",
         "url": "https://ausrosvartai.lt"
       }
     ],
@@ -158,7 +770,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vilnius_Basilian_Church.jpg/640px-Vilnius_Basilian_Church.jpg",
     "links": [
       {
-        "title": "Віленская беларуская гімназія",
+        "title": "Вікіпедыя: Віленская беларуская гімназія",
         "url": "https://be.wikipedia.org/wiki/Віленская_беларуская_гімназія"
       }
     ],
@@ -190,6 +802,10 @@
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People%2C_London.jpg/640px-Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People%2C_London.jpg",
     "links": [
+      {
+        "title": "Вікіпедыя: Царква Святога Кірылы Тураўскага (Лондан)",
+        "url": "https://be.wikipedia.org/wiki/Царква_Святога_Кірылы_Тураўскага_(Лондан)"
+      },
       {
         "title": "Belarusian Church in London",
         "url": "https://belaruschurch.org.uk"
@@ -224,11 +840,27 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Francis_Skaryna_Belarusian_Library_and_Museum.jpg/640px-Francis_Skaryna_Belarusian_Library_and_Museum.jpg",
     "links": [
       {
+        "title": "Вікіпедыя: Беларуская бібліятэка і музей імя Францыска Скарыны",
+        "url": "https://be.wikipedia.org/wiki/Беларуская_бібліятэка_і_музей_імя_Францыска_Скарыны"
+      },
+      {
         "title": "Афіцыйны сайт бібліятэкі",
         "url": "https://skaryna.org.uk"
       }
     ],
-    "tags": ["Скарынаўка", "Надсан", "Архівы", "Лондан"]
+    "tags": ["Скарынаўка", "Надсан", "Архівы", "Лондан"],
+    "items": [
+      {
+        "title": "Арыгінальныя выданні Францыска Скарыны (1517–1519)",
+        "person": "Францыск Скарына",
+        "description": "Рэдкія фрагменты першадрукаў пражскай Бібліі Скарыны."
+      },
+      {
+        "title": "Архівы Беларускай Народнай Рэспублікі і дзеячаў эміграцыі",
+        "person": "Айцец Аляксандр Надсан",
+        "description": "Унікальныя лісты, рукапісы і перыёдыка беларускага нацыянальнага руху."
+      }
+    ]
   },
   {
     "id": "warsaw-kosciuszko-monument",
@@ -295,72 +927,6 @@
       }
     ],
     "tags": ["Сучаснасць", "Культура", "Варшава", "Фоксал"]
-  },
-  {
-    "id": "montmorency-polish-belarusian-pantheon",
-    "title": {
-      "by": "Могілкі Шампо ў Манмарансі (Пантэон эміграцыі)",
-      "ru": "Кладбище Шампо в Монморанси (Пантеон эмиграции)",
-      "en": "Champeaux Cemetery in Montmorency (Emigration Pantheon)"
-    },
-    "category": "grave",
-    "country": {
-      "by": "Францыя",
-      "ru": "Франция",
-      "en": "France"
-    },
-    "city": {
-      "by": "Манмарансі",
-      "ru": "Монморанси",
-      "en": "Montmorency"
-    },
-    "coordinates": [48.9866, 2.3218],
-    "description": {
-      "by": "Галоўны гістарычны некропаль «Вялікай эміграцыі» пасля паўстанняў 1830–1831 і 1863 гадоў. Тут першапачаткова быў пахаваны паэт Адам Міцкевіч, а таксама Цыпрыян Норвід, дзеячы роду Чартарыйскіх і іншыя выбітныя асобы земляў ВКЛ.",
-      "ru": "Главный некрополь «Великой эмиграции» после восстаний 1830–1831 и 1863 гг. Здесь первоначально был погребён Адам Мицкевич, а также Циприан Норвид и соратники национально-освободительного движения.",
-      "en": "Historic cemetery near Paris known as the pantheon of the Great Emigration after the 1831 and 1863 uprisings. Initially the burial place of Adam Mickiewicz, as well as Cyprian Norwid and prominent figures of the former Grand Duchy."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg/640px-Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg",
-    "links": [
-      {
-        "title": "Манмарансі на Вікіпедыі",
-        "url": "https://be.wikipedia.org/wiki/Манмарансі"
-      }
-    ],
-    "tags": ["Міцкевіч", "Францыя", "Эміграцыя", "ХІХ стагоддзе"]
-  },
-  {
-    "id": "south-river-st-euphrosyne",
-    "title": {
-      "by": "Беларускі асяродак і могілкі ў Саўт-Рыверы",
-      "ru": "Белорусский центр и кладбище в Саут-Ривере",
-      "en": "Belarusian Center and Cemetery in South River"
-    },
-    "category": "grave",
-    "country": {
-      "by": "ЗША",
-      "ru": "США",
-      "en": "United States"
-    },
-    "city": {
-      "by": "Саўт-Рывер",
-      "ru": "Саут-Ривер",
-      "en": "South River, NJ"
-    },
-    "coordinates": [40.4485, -74.3644],
-    "description": {
-      "by": "Саўт-Рывер у штаце Нью-Джэрсі быў адным з галоўных цэнтраў беларускай паваеннай эміграцыі ў ЗША. Тут месціцца царква св. Еўфрасінні Полацкай і беларускія могілкі, дзе пахаваныя дзеячы Беларускай Цэнтральнай Рады, навукоўцы, вайскоўцы і пісьменнікі.",
-      "ru": "Саут-Ривер в штате Нью-Джерси — один из главных центров белорусской послевоенной эмиграции в США. Здесь находится церковь св. Евфросинии Полоцкой и белорусское кладбище, где покоятся видные деятели диаспоры.",
-      "en": "South River, New Jersey, served as a primary hub for post-WWII Belarusian emigration to the US. Home to St. Euphrosyne Belarusian Orthodox Church and cemetery, the resting place of many prominent diaspora leaders, scholars, and writers."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg/640px-St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg",
-    "links": [
-      {
-        "title": "Беларусы ў ЗША",
-        "url": "https://be.wikipedia.org/wiki/Беларусы_ў_ЗША"
-      }
-    ],
-    "tags": ["ЗША", "Саўт-Рывер", "Еўфрасіння Полацкая", "Дыяспара"]
   },
   {
     "id": "toronto-st-cyril-center",
@@ -455,11 +1021,27 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kosciuszko-Museum_Solothurn.jpg/640px-Kosciuszko-Museum_Solothurn.jpg",
     "links": [
       {
+        "title": "Вікіпедыя: Музей Тадэвуша Касцюшкі ў Залатурне",
+        "url": "https://be.wikipedia.org/wiki/Музей_Тадэвуша_Касцюшкі_(Залатурн)"
+      },
+      {
         "title": "Kosciuszko Museum Solothurn",
         "url": "https://kosciuszkogalerie.ch"
       }
     ],
-    "tags": ["Касцюшка", "Швейцарыя", "Музей", "Гісторыя"]
+    "tags": ["Касцюшка", "Швейцарыя", "Музей", "Гісторыя"],
+    "items": [
+      {
+        "title": "Мемарыяльны пакой і пасмяротная маска",
+        "person": "Тадэвуш Касцюшка",
+        "description": "Пакой, дзе памёр герой, з захаванымі арыгінальнымі мэбляй, пасмяротнай маскай і асабістымі рэчамі."
+      },
+      {
+        "title": "Шабля і ўзнагароды Касцюшкі",
+        "person": "Тадэвуш Касцюшка",
+        "description": "Баявая зброя і ордэн Цынцыната, уручаны Джорджам Вашынгтонам за вызваленне ЗША."
+      }
+    ]
   },
   {
     "id": "padua-skaryna-aula-magna",
@@ -488,8 +1070,12 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Palazzo_Bo%2C_Padua.jpg/640px-Palazzo_Bo%2C_Padua.jpg",
     "links": [
       {
-        "title": "Падуанскі ўніверсітэт",
-        "url": "https://www.unipd.it"
+        "title": "Вікіпедыя: Падуанскі ўніверсітэт",
+        "url": "https://be.wikipedia.org/wiki/Падуанскі_ўніверсітэт"
+      },
+      {
+        "title": "Артыкул: Францыск Скарына ў Падуі",
+        "url": "https://be.wikipedia.org/wiki/Францыск_Скарына"
       }
     ],
     "tags": ["Скарына", "Падуя", "Адукацыя", "Рэнесанс", "Італія"]
@@ -520,6 +1106,10 @@
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Muzeum_Bialoruskie_Hajnowka.jpg/640px-Muzeum_Bialoruskie_Hajnowka.jpg",
     "links": [
+      {
+        "title": "Вікіпедыя: Музей беларускай культуры ў Гайнаўцы",
+        "url": "https://be.wikipedia.org/wiki/Музей_беларускай_культуры_ў_Гайнаўцы"
+      },
       {
         "title": "Muzeum Białoruskie w Hajnówce",
         "url": "https://muzeumbialoruskie.hajnowka.pl"

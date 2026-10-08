@@ -55,11 +55,16 @@ function initI18n() {
   updateStats();
 }
 
+let baseLayers = {};
+let layerControl = null;
+let activeBaseLayerKey = 'osm';
+
 function setLanguage(lang) {
   if (['by', 'ru', 'en'].includes(lang)) {
     currentLang = lang;
     localStorage.setItem('albaruthenica_lang', lang);
     initI18n();
+    updateLayerControl();
     renderSidebarList();
     if (selectedPlaceId) {
       showPlaceDetail(selectedPlaceId, false);
@@ -78,12 +83,7 @@ function initMap() {
     zoomControl: true
   });
 
-  // CartoDB Voyager tiles - elegant, light, no API key needed
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19
-  }).addTo(map);
+  setupBaseLayers();
 
   markerCluster = L.markerClusterGroup({
     showCoverageOnHover: false,
@@ -119,6 +119,61 @@ function initMap() {
       openModal('addPlaceModal');
     }
   });
+}
+
+// Setup base layers (OSM, Satellite, Light CartoDB)
+function setupBaseLayers() {
+  const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
+  });
+
+  const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+    maxZoom: 19
+  });
+
+  const voyagerLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
+  });
+
+  baseLayers = {
+    osm: osmLayer,
+    satellite: satelliteLayer,
+    voyager: voyagerLayer
+  };
+
+  // Add default layer (OSM)
+  baseLayers[activeBaseLayerKey].addTo(map);
+
+  map.on('baselayerchange', (e) => {
+    if (e.layer === baseLayers.satellite) activeBaseLayerKey = 'satellite';
+    else if (e.layer === baseLayers.voyager) activeBaseLayerKey = 'voyager';
+    else activeBaseLayerKey = 'osm';
+  });
+
+  updateLayerControl();
+}
+
+// Update layer control with current language labels
+function updateLayerControl() {
+  if (layerControl) {
+    map.removeControl(layerControl);
+  }
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  const layerLabels = {
+    [dict.layerOSM || '🗺️ OpenStreetMap']: baseLayers.osm,
+    [dict.layerSatellite || '🛰️ Спадарожнік (Esri)']: baseLayers.satellite,
+    [dict.layerVoyager || '🎨 Светлая (CartoDB)']: baseLayers.voyager
+  };
+
+  layerControl = L.control.layers(layerLabels, null, {
+    position: 'topright',
+    collapsed: false
+  }).addTo(map);
 }
 
 // Fetch places data
@@ -258,8 +313,18 @@ function getFilteredPlaces() {
       const tags = (place.tags || []).join(' ').toLowerCase();
       const desc = getLocalized(place.description).toLowerCase();
 
-      const matches = titleBy.includes(q) || titleRu.includes(q) || titleEn.includes(q) ||
-                      city.includes(q) || country.includes(q) || tags.includes(q) || desc.includes(q);
+      let matches = titleBy.includes(q) || titleRu.includes(q) || titleEn.includes(q) ||
+                    city.includes(q) || country.includes(q) || tags.includes(q) || desc.includes(q);
+
+      // Deep search within nested items (artists, paintings, graves)
+      if (!matches && place.items && Array.isArray(place.items)) {
+        matches = place.items.some(it => {
+          const itTitle = (it.title || '').toLowerCase();
+          const itAuthor = (it.author || it.person || '').toLowerCase();
+          const itDesc = (it.description || '').toLowerCase();
+          return itTitle.includes(q) || itAuthor.includes(q) || itDesc.includes(q);
+        });
+      }
 
       if (!matches) return false;
     }
@@ -280,11 +345,12 @@ function renderSidebarList() {
   if (!container) return;
 
   const filtered = getFilteredPlaces();
+  const dict = window.i18n[currentLang] || window.i18n.by;
 
   if (filtered.length === 0) {
     container.innerHTML = `
       <div style="padding: 2rem 1rem; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
-        ${window.i18n[currentLang].noResults}
+        ${dict.noResults}
       </div>
     `;
     return;
@@ -294,8 +360,14 @@ function renderSidebarList() {
     const title = getLocalized(place.title);
     const city = getLocalized(place.city);
     const country = getLocalized(place.country);
-    const categoryName = window.i18n[currentLang].categories[place.category] || place.category;
+    const categoryName = dict.categories[place.category] || place.category;
     const thumb = place.image || 'https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=200&q=80';
+
+    const nestedBadge = (place.items && place.items.length > 0) ? `
+      <span class="place-card-nested-badge">
+        📦 ${place.items.length} ${dict.nestedObjectsBadge || 'аб’ектаў'}
+      </span>
+    ` : '';
 
     return `
       <div class="place-card ${selectedPlaceId === place.id ? 'active' : ''}" 
@@ -307,9 +379,12 @@ function renderSidebarList() {
             <div class="place-card-title">${title}</div>
             <div class="place-card-meta">📍 ${city}, ${country}</div>
           </div>
-          <span class="place-card-category category-${place.category}">
-            ${CATEGORY_ICONS[place.category] || ''} ${categoryName}
-          </span>
+          <div class="place-card-badges">
+            <span class="place-card-category category-${place.category}">
+              ${CATEGORY_ICONS[place.category] || ''} ${categoryName}
+            </span>
+            ${nestedBadge}
+          </div>
         </div>
       </div>
     `;
@@ -389,11 +464,47 @@ function showPlaceDetail(placeId) {
 
   const tagsHtml = (place.tags || []).map(t => `<span class="detail-tag">#${t}</span>`).join('');
 
-  const linksHtml = (place.links || []).map(l => `
-    <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-      🔗 ${l.title}
-    </a>
-  `).join('');
+  // Nested sub-items (artworks, graves, exhibits)
+  let nestedItemsHtml = '';
+  if (place.items && Array.isArray(place.items) && place.items.length > 0) {
+    nestedItemsHtml = `
+      <div class="nested-items-section">
+        <strong style="font-size: 0.95rem; color: #0f172a;">${dict.nestedObjectsTitle || '🏛️ Укладзеныя аб’екты, творы і пахаванні:'}</strong>
+        ${place.items.map(it => `
+          <div class="nested-item-card">
+            <div class="nested-item-title">${it.title}</div>
+            <div class="nested-item-meta">
+              ${it.author ? `<span class="nested-item-author-badge">🎨 ${it.author}</span>` : ''}
+              ${it.person ? `<span class="nested-item-author-badge">🕯️ ${it.person}</span>` : ''}
+              ${it.year ? `<span>📅 ${it.year}</span>` : ''}
+            </div>
+            ${it.description ? `<div class="nested-item-desc">${it.description}</div>` : ''}
+            ${it.image ? `<img src="${it.image}" alt="${it.title}" class="nested-item-thumb" loading="lazy">` : ''}
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // Categorized links (Wikipedia, background articles, catalog)
+  const linksHtml = (place.links || []).map(l => {
+    let icon = '🔗';
+    const titleLower = (l.title || '').toLowerCase();
+    if (titleLower.includes('вікіпедыя') || titleLower.includes('wikipedia') || titleLower.includes('википедия')) {
+      icon = '🌐';
+    } else if (titleLower.includes('артыкул') || titleLower.includes('статья') || titleLower.includes('article') || titleLower.includes('бэкграўнд')) {
+      icon = '📖';
+    } else if (titleLower.includes('музей') || titleLower.includes('галерэя') || titleLower.includes('сайт') || titleLower.includes('калекцыя')) {
+      icon = '🏛️';
+    }
+    return `
+      <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="detail-link-item">
+        <span class="link-icon">${icon}</span>
+        <span class="link-text">${l.title}</span>
+        <span class="link-arrow">↗</span>
+      </a>
+    `;
+  }).join('');
 
   drawer.innerHTML = `
     <div class="detail-header-actions">
@@ -416,6 +527,9 @@ function showPlaceDetail(placeId) {
       <div class="detail-description">
         ${desc}
       </div>
+
+      ${nestedItemsHtml}
+
       ${tagsHtml ? `<div><strong>${dict.tagsHeading}:</strong><div class="detail-tags" style="margin-top:0.35rem">${tagsHtml}</div></div>` : ''}
       
       <div class="detail-actions-row">
@@ -427,8 +541,16 @@ function showPlaceDetail(placeId) {
            target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
           🧭 ${dict.btnOpenOSM}
         </a>
-        ${linksHtml}
       </div>
+
+      ${linksHtml ? `
+        <div style="margin-top: 0.5rem;">
+          <strong style="font-size: 0.85rem; color: #1e293b;">${dict.sourcesHeading}:</strong>
+          <div class="detail-links-list">
+            ${linksHtml}
+          </div>
+        </div>
+      ` : ''}
     </div>
   `;
 
@@ -576,7 +698,8 @@ function handleGenerateJson() {
   const descEn = document.getElementById('formDescEn')?.value.trim();
   const image = document.getElementById('formImage')?.value.trim();
   const tagsStr = document.getElementById('formTags')?.value.trim();
-  const sourceUrl = document.getElementById('formSourceUrl')?.value.trim();
+  const wikiUrl = document.getElementById('formWikiUrl')?.value.trim();
+  const articleUrl = document.getElementById('formArticleUrl')?.value.trim();
 
   if (!nameBy || isNaN(lat) || isNaN(lng)) {
     alert('Калі ласка, увядзіце назву і каардынаты (шырату і даўгату)!');
@@ -585,6 +708,14 @@ function handleGenerateJson() {
 
   // Generate safe ID
   const slug = nameEn ? nameEn.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-') : 'place-' + Date.now();
+
+  const links = [];
+  if (wikiUrl) {
+    links.push({ title: "Вікіпедыя пра аб’ект", url: wikiUrl });
+  }
+  if (articleUrl) {
+    links.push({ title: "Артыкул: Беларускі бэкграўнд", url: articleUrl });
+  }
 
   const newPlaceObj = {
     id: slug,
@@ -611,7 +742,7 @@ function handleGenerateJson() {
       en: descEn || descBy
     },
     image: image || '',
-    links: sourceUrl ? [{ title: "Крыніца / Спасылка", url: sourceUrl }] : [],
+    links: links,
     tags: tagsStr ? tagsStr.split(',').map(t => t.trim()).filter(Boolean) : []
   };
 
