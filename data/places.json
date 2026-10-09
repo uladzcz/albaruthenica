@@ -1524,7 +1524,7 @@
   {
     "id": "daugavpils-belarusian-gymnasium",
     "title": {
-      "by": "Дзвінская беларуская гімназія і дзеячы (Даўгаўпілс)",
+      "by": "Дзвінская беларуская гімназія і дзеячы",
       "ru": "Двинская белорусская гимназия (Даугавпилс)",
       "en": "Daugavpils Belarusian Gymnasium (Dvinsk, Latvia)"
     },
@@ -9215,8 +9215,8 @@
   {
     "id": "kosciuszko-monument-west-point",
     "title": {
-      "by": "Помнік Тадэвушу Касцюшку ў Ваеннай акадэміі ЗША (Вест-Пойнт)",
-      "ru": "Памятник Тадеушу Костюшко в Военной академии США (Вест-Пойнт)",
+      "by": "Помнік Тадэвушу Касцюшку ў Ваеннай акадэміі ЗША",
+      "ru": "Памятник Тадеушу Костюшко в Военной академии США",
       "en": "Kosciuszko's Monument at West Point"
     },
     "category": "monument",
@@ -10521,7 +10521,7 @@
   {
     "id": "vilnius-antakalnis-sapieha-palace",
     "title": {
-      "by": "Палац Сапегаў у Антокалі (Вільня)",
+      "by": "Палац Сапегаў у Антокалі",
       "ru": "Дворец Сапег на Антоколе (Вильнюс)",
       "en": "Sapieha Palace in Antakalnis (Vilnius)"
     },
@@ -11983,9 +11983,9 @@
   {
     "id": "warsaw-sigismund-column",
     "title": {
-      "by": "Калона караля Жыгімонта III Вазы (рэстаўрацыя Яна Завішы)",
-      "ru": "Колонна короля Сигизмунда III Вазы (реставрация Яна Завиши)",
-      "en": "Sigismund's Column (Restoration by Jan Zawisza)"
+      "by": "Калона караля Жыгімонта III Вазы",
+      "ru": "Колонна короля Сигизмунда III Вазы",
+      "en": "Sigismund's Column in Warsaw"
     },
     "category": "monument",
     "city": {
@@ -11999,16 +11999,16 @@
       "en": "Poland"
     },
     "coordinates": [
-      52.2472,
-      21.0143
+      52.24725,
+      21.01339
     ],
-    "unverifiedCoordinates": true,
+    "unverifiedCoordinates": false,
     "description": {
-      "by": "Славуты сімвал Варшавы на Замкавай плошчы. Кароль Жыгімонт III Ваза зацвердзіў Трэці Статут ВКЛ 1588 года на старабеларускай мове. У 1885–1887 гг. найбуйнейшую рэстаўрацыю калоны прафінансаваў беларускі археолаг і мецэнат граф Ян Завіша разам з Людовікам Красінскім: быў створаны новы ствол з ружовага італьянскага граніту. Разбураны ў 1944 г. гістарычны ствол Завішы экспануецца побач з плошчай.",
-      "ru": "Знаменитый символ Варшавы на Замковой площади. Сигизмунд III утвердил Третий Статут ВКЛ 1588 г. на старобеларусском языке. В 1885–1887 гг. крупнейшую реставрацию монумента профинансировал беларусский археолог Ян Завиша: ствол колонны изготовили из итальянского розового гранита. Его фрагменты экспонируются рядом.",
-      "en": "Iconic landmark on Castle Square in Warsaw. King Sigismund III confirmed the Third Statute of the GDL in 1588 in the Old Belarusian language. In 1885–1887, the major restoration was funded by Belarusian archaeologist and patron Jan Zawisza, who commissioned the pink Italian granite column."
+      "by": "Славуты 22-метровы сімвал Варшавы ў цэнтры Замкавай плошчы. Кароль Жыгімонт III Ваза зацвердзіў Трэці Статут ВКЛ 1588 года на старабеларускай мове — вяршыню прававой думкі Еўропы эпохі Адраджэння. Помнік ушаноўвае манарха, які кіраваў супольнай дзяржавай ВКЛ і Польшчы.",
+      "ru": "Знаменитый 22-метровый монумент в центре Замковой площади. Сигизмунд III Ваза утвердил Третий Статут ВКЛ 1588 года на старобелорусском языке.",
+      "en": "Iconic 22-meter monument in the center of Castle Square. King Sigismund III confirmed the Third Statute of the GDL in 1588 in the Old Belarusian language."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg/500px-Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg/960px-Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg",
     "personId": "jan-zawisza",
     "personIds": [
       "jan-zawisza",
@@ -12031,7 +12031,7 @@
         "url": "https://pl.wikipedia.org/wiki/Kolumna_Zygmunta_III_Wazy_w_Warszawie"
       }
     ],
-    "mustSee": false
+    "mustSee": true
   },
   {
     "id": "warsaw-przebendowski-palace",
@@ -15803,7 +15803,7 @@
   {
     "id": "lentvaris-tyszkiewicz-palace",
     "title": {
-      "by": "Неагатычны палац графаў Тышкевічаў у Ландвараве (Лентварыс)",
+      "by": "Неагатычны палац графаў Тышкевічаў у Ландвараве",
       "ru": "Неоготический дворец графов Тышкевичей в Ландворово (Лентварис)",
       "en": "Tyszkiewicz Neo-Gothic Palace in Lentvaris"
     },
@@ -16821,8 +16821,8 @@
   {
     "id": "warsaw-cmentarz-wojskowy-powazki",
     "title": {
-      "by": "Вайсковыя могілкі Павонзкі (Варшава)",
-      "ru": "Воинское кладбище Повонзки (Варшава)",
+      "by": "Вайсковыя могілкі Павонзкі",
+      "ru": "Воинское кладбище Повонзки",
       "en": "Powązki Military Cemetery in Warsaw"
     },
     "category": "grave",
@@ -16992,7 +16992,7 @@
   {
     "id": "paris-montparnasse-soutine-grave",
     "title": {
-      "by": "Могілкі Манпарнас — Магіла Хаіма Суціна (Парыж)",
+      "by": "Могілкі Манпарнас — Магіла Хаіма Суціна",
       "ru": "Кладбище Монпарнас — Могила Хаима Сутина (Париж)",
       "en": "Montparnasse Cemetery — Grave of Chaïm Soutine (Paris)"
     },
@@ -17030,7 +17030,7 @@
   {
     "id": "paris-batignolles-bakst-grave",
     "title": {
-      "by": "Баціньёльскія могілкі — Магіла Леона Бакста (Парыж)",
+      "by": "Баціньёльскія могілкі — Магіла Леона Бакста",
       "ru": "Батиньольское кладбище — Могила Леона Бакста (Париж)",
       "en": "Batignolles Cemetery — Grave of Léon Bakst (Paris)"
     },
@@ -17223,7 +17223,7 @@
   {
     "id": "jerusalem-beit-ben-yehuda",
     "title": {
-      "by": "Дом-музей Эліэзера Бэн-Егуды і магіла на Алейнай гары (Іерусалім)",
+      "by": "Дом-музей Эліэзера Бэн-Егуды і магіла на Алейнай гары",
       "ru": "Дом-музей Элиэзера Бен-Йехуды и могила на Масличной горе (Иерусалим)",
       "en": "Beit Ben-Yehuda Memorial Museum & Mount of Olives Tomb (Jerusalem)"
     },
@@ -18744,11 +18744,11 @@
     "mustSee": false
   },
   {
-    "id": "warsaw-powazki-stanislaw-moniuszko-grave",
+    "id": "warsaw-cmentarz-powazkowski-stare-powazki",
     "title": {
-      "by": "Магіла кампазітара Станіслава Манюшкі на Паванзках у Варшаве",
-      "ru": "Могила композитора Станислава Монюшко на Повонзках в Варшаве",
-      "en": "Grave of Composer Stanisław Moniuszko at Powązki Cemetery in Warsaw"
+      "by": "Старыя Павонзкі",
+      "ru": "Старые Повонзки",
+      "en": "Powązki Cemetery (Stare Powązki)"
     },
     "category": "grave",
     "country": {
@@ -18765,30 +18765,109 @@
       52.2536,
       20.9786
     ],
+    "unverifiedCoordinates": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Gr%C3%B3b_Stanis%C5%82awa_Moniuszki_Stare_Pow%C4%85zki.JPG/960px-Gr%C3%B3b_Stanis%C5%82awa_Moniuszki_Stare_Pow%C4%85zki.JPG",
     "description": {
-      "by": "Адрас: Cmentarz Powązkowski, Powązkowska 14, Warszawa (Aleja Katakumbowa, каля філаматаў).\n\nТут спачывае Станіслаў Манюшка (1819–1872) — вялікі кампазітар, ураджэнец фальварка Убель Ігуменскага павета (Чэрвеньскі раён). Стваральнік першай нацыянальнай беларускамоўнай оперы «Сялянка» («Ідылія») разам з Вінцэнтам Дуніным-Марцінкевічам, а таксама знакамітых опер «Галька», «Страшны двор» і зборнікаў песень «Хатні спеўнік».",
-      "ru": "Адрес: Cmentarz Powązkowski, Варшава.\n\nЗдесь похоронен Станислав Монюшко (1819–1872) — великий композитор, уроженец фольварка Убель (Червенский район). Создатель белорусской оперы «Селянка» (вместе с Дуниным-Марцинкевичем) и польской классической оперы.",
-      "en": "Address: Powązki Cemetery, Warsaw.\n\nTomb of composer Stanisław Moniuszko (1819–1872), born in Ubiel near Minsk. Creator of the first Belarusian-language opera 'Sielanka' with Vincent Dunin-Marcinkievič, and classic operas 'Halka' and 'The Haunted Manor'."
+      "by": "Найстарэйшы і найбольш велічны гістарычны некропаль Варшавы, заснаваны ў 1790 годзе (вул. Паванзкоўска 14). Тут спачываюць больш за 130 выдатных дзеячаў, народжаных у Беларусі або знітаваных з беларускай культурай: вялікі кампазітар Станіслаў Манюшка (з Убеля Ігуменскага павета), рок-легенда XX стагоддзя Чэслаў Немен (з в. Старыя Васілішкі Шчучынскага р-на), бацька мастацкай фатаграфіі Ян Булгак (з Асташына пад Навагрудкам), аўтар «Знахара» Тадэвуш Даленга-Мастовіч (з Акунёва каля Глыбокага), кампазітар Мечыслаў Карловіч (з Вішнева), паэт і філамат Антоні Эдвард Адынец (з Гейстунаў), фатографка Сафія Хамянтоўская (з Парахонска на Піншчыне) і гісторык ВКЛ Тадэвуш Корзан (з Мінска).",
+      "ru": "Старейший исторический некрополь Варшавы, основанный в 1790 году. Здесь похоронены более 130 выдающихся деятелей, рожденных в Беларуси: композитор Станислав Монюшко, рок-новатор Чеслав Немен, пионер фотографии Ян Булгак, писатель Тадеуш Доленга-Мостович, композитор Мечислав Карлович, поэт Антоний Эдвард Одынец, фотограф София Хоментовская, историк Тадеуш Корзон и др.",
+      "en": "Warsaw's oldest and grandest historical necropolis, founded in 1790. Over 130 notable figures born in Belarus or intimately tied to Belarusian culture rest here: composer Stanisław Moniuszko, rock innovator Czesław Niemen, photography pioneer Jan Bułhak, novelist Tadeusz Dołęga-Mostowicz, composer Mieczysław Karłowicz, poet Antoni Edward Odyniec, photographer Zofia Chomętowska, and historian Tadeusz Korzon."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gr%C3%B3b_Stanis%C5%82awa_Moniuszki.jpg/800px-Gr%C3%B3b_Stanis%C5%82awa_Moniuszki.jpg",
+    "items": [
+      {
+        "title": "Магіла Станіслава Манюшкі",
+        "description": "Вялікі кампазітар, ураджэнец фальварка Убель Ігуменскага павета (Чэрвеньскі раён). Стваральнік першай нацыянальнай беларускамоўнай оперы «Сялянка» («Ідылія») разам з Вінцэнтам Дуніным-Марцінкевічам, а таксама опер «Галька», «Страшны двор» і «Хатніх спеўнікаў» (Aleja Katakumbowa).",
+        "person": "Станіслаў Манюшка",
+        "personId": "stanislaw-moniuszko",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Gr%C3%B3b_Stanis%C5%82awa_Moniuszki_Stare_Pow%C4%85zki.JPG/960px-Gr%C3%B3b_Stanis%C5%82awa_Moniuszki_Stare_Pow%C4%85zki.JPG",
+        "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Манюшка"
+      },
+      {
+        "title": "Магіла Чэслава Немена (Выдрыцкага)",
+        "description": "Музыкант, спявак і рок-наватар сусветнага ўзроўню, ураджэнец вёскі Старыя Васілішкі (Шчучынскі раён). Узяў псеўданім у гонар ракі Нёман. Аўтар культавых песень «Dziwny jest ten świat», «Sen o Warszawie» і альбомаў на вершы Цыпрыяна Норвіда (Катакомбы, шэраг 94).",
+        "person": "Чэслаў Немен",
+        "personId": "czeslaw-niemen",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Czes%C5%82aw_Niemen_1975_%28cropped%29.jpg/960px-Czes%C5%82aw_Niemen_1975_%28cropped%29.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Чэслаў_Немен"
+      },
+      {
+        "title": "Магіла Яна Булгака",
+        "description": "«Бацька» беларускай і польскай мастацкай фатаграфіі, ураджэнец маёнтка Асташын каля Навагрудка. Заснавальнік піктарыялізму і канцэпцыі «айчыннай фатаграфікі», аўтар класічных фоталетапісаў Вільні, Навагрудка, Міра і Нясвіжа (кватэра 229-4-1).",
+        "person": "Ян Булгак",
+        "personId": "jan-bulhak",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Jan_Bu%C5%82hak_portrait.jpg/960px-Jan_Bu%C5%82hak_portrait.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Ян_Булгак"
+      },
+      {
+        "title": "Магіла Тадэвуша Далэнгі-Мастовіча",
+        "description": "Адзін з найбольш чытаных і экранізаваных еўрапейскіх пісьменнікаў міжваеннага часу, аўтар культавых раманаў «Знахар», «Прафесар Вільчур» і «Кар'ера Нікадзіма Дызмы». Нарадзіўся ў маёнтку Акунёва каля Глыбокага. Прах перапахаваны ў Катакомбах на Павонзках у 1978 г. (Катакомбы, ніша 108).",
+        "person": "Тадэвуш Даленга-Мастовіч",
+        "personId": "tadeusz-dolega-mostowicz",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Tadeusz_Do%C5%82%C4%99ga-Mostowicz_%281898-1939%29.jpg/960px-Tadeusz_Do%C5%82%C4%99ga-Mostowicz_%281898-1939%29.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Даленга-Мастовіч"
+      },
+      {
+        "title": "Магіла кампазітара Мечыслава Карловіча",
+        "description": "Выбітны кампазітар-неарамантык сімфанічнай музыкі і альпініст, ураджэнец маёнтка Вішнева (цяпер Валожынскі / Смаргонскі раён) у сям'і этнографа Яна Карловіча. Аўтар «Літоўскай рапсодыі» і «Адвечных песень» (кватэра 33-4-24).",
+        "person": "Мечыслаў Карловіч",
+        "personId": "mieczyslaw-karlowicz",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mieczyslaw_Karlowicz.jpg/960px-Mieczyslaw_Karlowicz.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Мечыслаў_Карловіч"
+      },
+      {
+        "title": "Магіла паэта Антонія Эдварда Адынца",
+        "description": "Паэт, перакладчык, сябра таварыства філаматаў і блізкі сябар Адама Міцкевіча, з якім вандраваў па Еўропе. Нарадзіўся ў фальварку Гейстуны Ашмянскага павета (кватэра 22-2-19).",
+        "person": "Антоні Эдвард Адынец",
+        "personId": "antoni-edward-odyniec",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Antoni_Edward_Odyniec_1858.jpg/960px-Antoni_Edward_Odyniec_1858.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Антоні_Эдвард_Адынец"
+      },
+      {
+        "title": "Сямейны склеп фатографкі Сафіі Хамянтоўскай (Друцкіх-Любецкіх)",
+        "description": "Выбітная жанчына-фатограф, князёўна з роду Друцкіх-Любецкіх, нарадзілася ў маёнтку Парахонск Пінскага павета. Аўтарка ўнікальнай фотахронікі жыцця Палесся і даваеннай Варшавы (кватэра 229-3-1).",
+        "person": "Сафія Хамянтоўская",
+        "personId": "zofia-chometowska",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Zofia_Chom%C4%99towska.jpg/960px-Zofia_Chom%C4%99towska.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Сафія_Хамянтоўская"
+      },
+      {
+        "title": "Магіла гісторыка Тадэвуша Корзана",
+        "description": "Прафесар, выбітны гісторык ВКЛ і Рэчы Паспалітай, аўтар фундаментальных даследаванняў пра ўнутраны лад ВКЛ і паўстанне Касцюшкі. Нарадзіўся ў Мінску (кватэра 74-2-1).",
+        "person": "Тадэвуш Корзан",
+        "personId": "tadeusz-korzon",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Marian_Falski.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Корзан"
+      }
+    ],
     "links": [
       {
-        "title": "Вікіпедыя: Станіслаў Манюшка",
-        "url": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0"
+        "title": "Cmentarz Powązkowski (Вікіпедыя)",
+        "url": "https://pl.wikipedia.org/wiki/Cmentarz_Pow%C4%85zkowski_w_Warszawie"
+      },
+      {
+        "title": "Паванзкоўскія могілкі (Беларуская Вікіпедыя)",
+        "url": "https://be.wikipedia.org/wiki/Паванзкоўскія_могілкі"
       }
+    ],
+    "personIds": [
+      "stanislaw-moniuszko",
+      "czeslaw-niemen",
+      "jan-bulhak",
+      "tadeusz-dolega-mostowicz",
+      "mieczyslaw-karlowicz",
+      "antoni-edward-odyniec",
+      "zofia-chometowska",
+      "tadeusz-korzon"
     ],
     "tags": [
       "Польшча",
       "Варшава",
-      "Паванзкі",
+      "Павонзкі",
       "Манюшка",
-      "опера",
-      "Убель",
+      "Немен",
+      "Булгак",
+      "Мастовіч",
+      "Карловіч",
       "grave"
-    ],
-    "personId": "stanislaw-moniuszko",
-    "personIds": [
-      "stanislaw-moniuszko"
     ],
     "mustSee": true
   },
@@ -18837,6 +18916,59 @@
     "personId": "radziwills",
     "personIds": [
       "radziwills"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "warsaw-sigismund-column-shaft",
+    "title": {
+      "by": "Гістарычныя ствалы Калоны Жыгімонта (ствол Яна Завішы)",
+      "ru": "Исторические стволы Колонны Сигизмунда (ствол Яна Завиши)",
+      "en": "Historical Shafts of Sigismund's Column (Jan Zawisza Shaft)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.24718,
+      21.01438
+    ],
+    "unverifiedCoordinates": false,
+    "description": {
+      "by": "Аўтэнтычныя гістарычныя ствалы Калоны караля Жыгімонта III Вазы, якія ляжаць у лапідарыі каля паўднёвай сцяны Каралеўскага замка. Другі па ліку ствол з ружовага італьянскага граніту Бавена быў створаны ў 1885–1887 гг. на сродкі беларускага археолага і мецэната графа Яна Завішы (бацькі княгіні Магдалены Радзівіл). Ствол Завішы быў расколаты на некалькі частак у час Варшаўскага паўстання 1944 г. выстралам нямецкага танка і цяпер захаваны як помнік-руіна.",
+      "ru": "Аутентичные исторические стволы Колонны Сигизмунда III Вазы в лапидарии у южной стены Королевского замка. Ствол из розового итальянского гранита Бавено был изготовлен в 1885–1887 гг. на средства белорусского археолога и мецената графа Яна Завиши. В 1944 г. он был разрушен немецким танком и сохранен как памятник.",
+      "en": "Authentic historical column shafts of Sigismund's Column resting near the Royal Castle wall. The second shaft made of pink Baveno granite was funded in 1885–1887 by Belarusian archaeologist and patron Count Jan Zawisza. Destroyed by German tank fire during the 1944 Warsaw Uprising, it is preserved today as an open-air memorial."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Trzony_Kolumny_Zygmunta_III_Wazy_przy_Zamku_Kr%C3%B3lewskim_w_Warszawie_2021.jpg/960px-Trzony_Kolumny_Zygmunta_III_Wazy_przy_Zamku_Kr%C3%B3lewskim_w_Warszawie_2021.jpg",
+    "personId": "jan-zawisza",
+    "personIds": [
+      "jan-zawisza",
+      "magdalena-radziwill"
+    ],
+    "tags": [
+      "warsaw",
+      "historical",
+      "zawisza",
+      "radziwill",
+      "monument"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларусская Варшава ч.1",
+        "url": "https://maldzis.world/belarusskaja-varshava-chast-i-kolonna-sigizmunda-tretego/"
+      },
+      {
+        "title": "Trzony Kolumny Zygmunta (Вікіпедыя)",
+        "url": "https://pl.wikipedia.org/wiki/Kolumna_Zygmunta_III_Wazy_w_Warszawie"
+      }
     ],
     "mustSee": false
   }

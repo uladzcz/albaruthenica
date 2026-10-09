@@ -418,9 +418,7 @@ window.INITIAL_PERSONS = [
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg/330px-Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Манюшка",
     "placeIds": [
-      "vilnia-dom-myulera-memaryyalnaya-shylda-s-manyushku",
-      "vilnia-haradskaya-ratusha",
-      "vilnia-pomnik-manyushku"
+      "warsaw-cmentarz-powazkowski-stare-powazki"
     ]
   },
   {
@@ -3183,6 +3181,174 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Юзаф_Панятоўскі",
     "placeIds": [
       "warsaw-poniatowski-monument"
+    ]
+  },
+  {
+    "id": "czeslaw-niemen",
+    "name": {
+      "by": "Чэслаў Немен (Выдрыцкі)",
+      "ru": "Чеслав Немен (Выдрицкий)",
+      "en": "Czesław Niemen (Wydrzycki)"
+    },
+    "role": {
+      "by": "Легендарны музыка, спявак, кампазітар і рок-наватар, ураджэнец Старых Васілішак",
+      "ru": "Легендарный музыкант, композитор и рок-новатор, уроженец Старых Василишек",
+      "en": "Legendary singer, composer, rock visionary, native of Stare Vasilishki"
+    },
+    "dates": "1939–2004",
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Старыя Васілішкі (цяпер Шчучынскі раён Гродзеншчыны). Свой псеўданім узяў у гонар ракі Нёман, ля якой правёў юнацтва. Адзін з найвыбітнейшых музыкаў XX стагоддзя ў Цэнтральнай Еўропе, які спалучаў рок, соўл, авангард і электронную музыку (славутыя песні «Dziwny jest ten świat», «Sen o Warszawie», альбомы на вершы Норвіда). Пахаваны ў Катакомбах на Старых Павонзках у Варшаве.",
+      "ru": "Родился в деревне Старые Василишки (Щучинский район Гродненской области). Взял псевдоним в честь реки Неман. Выдающийся рок-музыкант, композитор и певец XX века. Похоронен в Катакомбах на Старых Повонзках в Варшаве.",
+      "en": "Born in Stare Vasilishki (now Shchuchyn district, Hrodna region). Adopted his artistic surname from the Neman River. One of the most prominent rock and soul innovators of 20th-century Europe. Buried in the Catacombs at Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Czes%C5%82aw_Niemen_1975_%28cropped%29.jpg/960px-Czes%C5%82aw_Niemen_1975_%28cropped%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Чэслаў_Немен",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "jan-bulhak",
+    "name": {
+      "by": "Ян Булгак",
+      "ru": "Ян Булгак",
+      "en": "Jan Bułhak"
+    },
+    "role": {
+      "by": "«Бацька» беларускай і польскай мастацкай фатаграфіі, фатограф Вільні і Навагрудчыны",
+      "ru": "«Отец» белорусской и польской художественной фотографии, классик пикториализма",
+      "en": "Pioneer of artistic photography, chronicler of Vilnius and Navahrudak"
+    },
+    "dates": "1876–1950",
+    "bio": {
+      "by": "Нарадзіўся ў маёнтку Асташын каля Навагрудка. Заснавальнік піктарыяльнай школы, тэарэтык «фатаграфіі айчыннай» (fotografika ojczysta), стваральнік Віленскага фотаклуба і выкладчык Універсітэта Стэфана Баторыя. Стварыў непаўторны візуальны летапіс Вільні, Навагрудка, Міра, Нясвіжа і беларускіх краявідаў. Пахаваны на Старых Павонзках у Варшаве.",
+      "ru": "Родился в имении Осташин близ Новогрудка. Основоположник пикториальной художественной фотографии, теоретик «отечественной фотографики», создатель фотолетописи Вильны, Новогрудка и белорусских замков. Похоронен на Старых Повонзках в Варшаве.",
+      "en": "Born in Ostashyn near Navahrudak. Pioneer of pictorialist artistic photography in Belarus and Poland, founder of the Vilnius Photo Club and lecturer at Stefan Batory University. Created iconic photographic documentation of Vilnius and Navahrudak. Buried at Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Jan_Bu%C5%82hak_portrait.jpg/960px-Jan_Bu%C5%82hak_portrait.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Ян_Булгак",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "tadeusz-dolega-mostowicz",
+    "name": {
+      "by": "Тадэвуш Даленга-Мастовіч",
+      "ru": "Тадеуш Доленга-Мостович",
+      "en": "Tadeusz Dołęga-Mostowicz"
+    },
+    "role": {
+      "by": "Сусветна вядомы пісьменнік, сцэнарыст, аўтар раманаў «Знахар» і «Кар'ера Нікадзіма Дызмы»",
+      "ru": "Писатель, сценарист, автор романов «Знахарь» и «Карьера Никодима Дызмы»",
+      "en": "Novelist, author of 'The Quack' (Znachor) and 'Career of Nicodemus Dyzma'"
+    },
+    "dates": "1898–1939",
+    "bio": {
+      "by": "Нарадзіўся ў маёнтку Акунёва каля Глыбокага (Віцебская вобласць). Адзін з самых папулярных і экранiзаваных еўрапейскіх празаікаў міжваеннага часу, аўтар культавых раманаў «Знахар», «Прафесар Вільчур», «Кар'ера Нікадзіма Дызмы». Загінуў у верасні 1939 г., баронячы мястэчка Куты ад нападнікаў. У 1978 г. яго прах быў урачыста перанесены ў Катакомбы на Старых Павонзках у Варшаве.",
+      "ru": "Родился в имении Окунево близ Глубокого (Витебская область). Автор знаменитых романов «Знахарь» и «Карьера Никодима Дызмы». Погиб в сентябре 1939 года. Прах перезахоронен в Катакомбах на Старых Повонзках в Варшаве.",
+      "en": "Born in Okuniowo near Hlybokaye (Vitebsk region). One of the most widely read and adapted European novelists of the interwar era, author of 'The Quack' and 'The Career of Nicodemus Dyzma'. His ashes were interred in the Catacombs of Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Tadeusz_Do%C5%82%C4%99ga-Mostowicz_%281898-1939%29.jpg/960px-Tadeusz_Do%C5%82%C4%99ga-Mostowicz_%281898-1939%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Даленга-Мастовіч",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "mieczyslaw-karlowicz",
+    "name": {
+      "by": "Мечыслаў Карловіч",
+      "ru": "Мечислав Карлович",
+      "en": "Mieczysław Karłowicz"
+    },
+    "role": {
+      "by": "Выдатны кампазітар сімфанічнай музыкі, дырыжор, ураджэнец Вішнева",
+      "ru": "Выдающийся композитор-симфонист, дирижер, уроженец Вишнево",
+      "en": "Distinguished symphonic composer and conductor, native of Vishneva"
+    },
+    "dates": "1876–1909",
+    "bio": {
+      "by": "Нарадзіўся ў маёнтку Вішнева (Ашмянскі павет / цяпер Смаргонскі ці Валожынскі раён) у сям'і вядомага этнографа і мовазнаўцы Яна Карловіча. Стваральнік шэдэўраў неарамантычнай сімфанічнай музыкі («Адвечныя песні», «Літоўская рапсодыя», «Станіслаў і Ганна Асвяцімы»). Загінуў пад снежнай лавінай у Татрах у веку 32 гадоў. Пахаваны на Старых Павонзках у Варшаве.",
+      "ru": "Родился в имении Вишнево в семье этнографа Яна Карловича. Выдающийся композитор-неоромантик (симфоническая поэма «Литовская рапсодия», «Извечные песни»). Похоронен на Старых Повонзках в Варшаве.",
+      "en": "Born in Vishneva to the family of folklorist Jan Karłowicz. Outstanding late-Romantic symphonic composer ('Lithuanian Rhapsody', 'Eternal Songs'). Buried at Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mieczyslaw_Karlowicz.jpg/960px-Mieczyslaw_Karlowicz.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Мечыслаў_Карловіч",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "antoni-edward-odyniec",
+    "name": {
+      "by": "Антоні Эдвард Адынец",
+      "ru": "Антоний Эдвард Одынец",
+      "en": "Antoni Edward Odyniec"
+    },
+    "role": {
+      "by": "Паэт, перакладчык, філамат, блізкі сябар Адама Міцкевіча",
+      "ru": "Поэт, переводчик, филомат, близкий друг Адама Мицкевича",
+      "en": "Poet, translator, Philomath, close friend of Adam Mickiewicz"
+    },
+    "dates": "1804–1885",
+    "bio": {
+      "by": "Нарадзіўся ў фальварку Гейстуны каля Ашмян. Сябра таварыства філаматаў, паплечнік і спадарожнік Адама Міцкевіча ў яго падарожжы па Еўропе (Германія, Швейцарыя, Італія). Аўтар знакамітых «Лістоў з падарожжа», успамінаў пра Міцкевіча і перакладаў сусветнай класікі. Пахаваны на Старых Павонзках у Варшаве.",
+      "ru": "Родился в фольварке Гейстуны Ошмянского уезда. Член общества филоматов, спутник Адама Мицкевича в путешествии по Европе, автор «Писем из путешествия». Похоронен на Старых Повонзках в Варшаве.",
+      "en": "Born in Giejstuny near Ashmyany. Member of the secret Philomath Society and companion of Adam Mickiewicz during his grand tour of Europe. Author of 'Letters from a Journey'. Buried at Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Antoni_Edward_Odyniec_1858.jpg/960px-Antoni_Edward_Odyniec_1858.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Антоні_Эдвард_Адынец",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "zofia-chometowska",
+    "name": {
+      "by": "Сафія Хамянтоўская (Друцкая-Любецкая)",
+      "ru": "София Хоментовская (Друцкая-Любецкая)",
+      "en": "Zofia Chomętowska (Drucka-Lubecka)"
+    },
+    "role": {
+      "by": "Выбітная фатографка, летапісец Палесся, Пінска і Варшавы",
+      "ru": "Выдающийся фотограф, летописец Полесья, Пинска и Варшавы",
+      "en": "Pioneering documentary photographer, chronicler of Polesia, Pinsk, and Warsaw"
+    },
+    "dates": "1902–1991",
+    "bio": {
+      "by": "Нарадзілася ў маёнтку Парахонск Пінскага павета ў княжацкай сям'і Друцкіх-Любецкіх. Адна з самых смелых і наватарскіх жанчын-фатографаў Еўропы. Зафіксавала аўтэнтычнае жыццё палешукоў, кірмашы ў Пінску, некранутую прыроду і традыцыйны побыт, а пазней — жыццё і разбурэнне Варшавы. Пахаваная ў сямейным склепе на Старых Павонзках.",
+      "ru": "Родилась в имении Парохонск Пинского уезда (княжна Друцкая-Любецкая). Выдающийся фотограф-документалист, запечатлевшая аутентичную жизнь Полесья и Пинска 1920–1930-х годов. Похоронена на Старых Повонзках в Варшаве.",
+      "en": "Born in Parakhonsk near Pinsk into the princely Drucki-Lubecki family. One of the foremost documentary photographers of the 20th century, renowned for her extensive photographic records of Polesia, Pinsk, and Warsaw. Buried at Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Zofia_Chom%C4%99towska.jpg/960px-Zofia_Chom%C4%99towska.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Сафія_Хамянтоўская",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "tadeusz-korzon",
+    "name": {
+      "by": "Тадэвуш Корзан",
+      "ru": "Тадеуш Корзон",
+      "en": "Tadeusz Korzon"
+    },
+    "role": {
+      "by": "Выбітны гісторык ВКЛ і Рэчы Паспалітай, прафесар, ураджэнец Мінска",
+      "ru": "Выдающийся историк ВКЛ и Речи Посполитой, профессор, уроженец Минска",
+      "en": "Historian of the Grand Duchy of Lithuania and Polish-Lithuanian Commonwealth, native of Minsk"
+    },
+    "dates": "1839–1918",
+    "bio": {
+      "by": "Нарадзіўся ў Мінску. Выбітны гісторык, аўтар фундаментальных даследаванняў сацыяльна-эканамічнага і прававога ладу ВКЛ і Рэчы Паспалітай эпохі Асветніцтва, а таксама манаграфіі пра Тадэвуша Касцюшку. Пахаваны на Старых Павонзках у Варшаве.",
+      "ru": "Родился в Минске. Выдающийся историк, автор фундаментальных исследований строя ВКЛ и Речи Посполитой, биографии Тадеуша Костюшко. Похоронен на Старых Повонзках в Варшаве.",
+      "en": "Born in Minsk. Prominent historian, author of foundational studies on the internal history of the Grand Duchy of Lithuania and the Commonwealth during the Enlightenment, and biography of Tadeusz Kościuszko. Buried at Powązki Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Prince_Jozef_Poniatowski%2C_by_Josef_Grassi.jpg/960px-Prince_Jozef_Poniatowski%2C_by_Josef_Grassi.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Корзан",
+    "placeIds": [
+      "warsaw-cmentarz-powazkowski-stare-powazki"
     ]
   }
 ];

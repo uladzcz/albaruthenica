@@ -413,6 +413,25 @@ body {
   flex-shrink: 0;
 }
 
+.place-card-thumb-placeholder {
+  width: 76px;
+  height: 76px;
+  border-radius: var(--radius-sm);
+  background: #f1f5f9;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+}
+
+.place-card-thumb-placeholder svg {
+  width: 28px;
+  height: 28px;
+  opacity: 0.65;
+}
+
 .place-card-content {
   flex: 1;
   min-width: 0;

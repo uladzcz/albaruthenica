@@ -499,29 +499,43 @@ function escapeHtml(str) {
 }
 
 // Format title with subtitles in gray bold (падзагаловак)
-function formatPlaceTitle(title) {
+function formatPlaceTitle(title, city = '') {
   if (!title) return '';
   let str = String(title).trim();
 
   // 1. Strip redundant bracketed marker like "(комплексны аб’ект)" or "(комплексны аб'ект)"
   str = str.replace(/\s*\((?:комплексны аб[’']ект|комплексный объект|complex object|city hub)\)\s*/gi, '').trim();
 
-  // 2. Dash separator: "Main Title — Subtitle" or "Main Title – Subtitle"
-  // e.g. "Фларэнцыя — беларускія і рэнесансныя сляды"
-  // e.g. "Царква Фраўмюнстэр — вітражы Марка Шагала"
+  const cityStr = typeof city === 'string' ? city.trim().toLowerCase() : '';
+
+  // 2. Trailing parentheses: e.g. "Title (Subtitle)"
+  const trailingMatch = str.match(/^(.*?)\s*\(([^()]+)\)\s*$/);
+  if (trailingMatch && trailingMatch[1].trim()) {
+    const mainText = trailingMatch[1].trim();
+    const subText = trailingMatch[2].trim();
+    const subLower = subText.toLowerCase();
+
+    // If subtitle equals or contains city, or is a common city name in parentheses, do NOT duplicate it!
+    if (cityStr && (subLower === cityStr || subLower.includes(cityStr) || cityStr.includes(subLower))) {
+      return `<span class="title-main">${escapeHtml(mainText)}</span>`;
+    }
+    if (['варшава', 'warsaw', 'варшаве', 'парыж', 'paris', 'париж', 'вільня', 'vilnius', 'вильнюс', 'кракаў', 'krakow', 'краков', 'мінск', 'minsk', 'мінску', 'лондан', 'london', 'рым', 'rome', 'рыме', 'берлін', 'berlin', 'вест-пойнт', 'даўгаўпілс', 'дзвінск', 'лентварыс', 'кенгір', 'іерусалім', 'ерусалім'].includes(subLower)) {
+      return `<span class="title-main">${escapeHtml(mainText)}</span>`;
+    }
+
+    return `<span class="title-main">${escapeHtml(mainText)}</span><span class="title-sub">${escapeHtml(subText)}</span>`;
+  }
+
+  // 3. Dash separator: "Main Title — Subtitle" or "Main Title – Subtitle"
   const dashMatch = str.match(/^(.*?)\s+[—–]\s+(.+)$/);
   if (dashMatch && dashMatch[1].trim() && dashMatch[2].trim()) {
     const mainText = dashMatch[1].trim();
     let subText = dashMatch[2].trim();
     subText = subText.replace(/^\((.+)\)$/, '$1');
-    return `<span class="title-main">${escapeHtml(mainText)}</span><span class="title-sub">${escapeHtml(subText)}</span>`;
-  }
-
-  // 3. Trailing parentheses: e.g. "Дзяржаўная Траццякоўская галерэя (калекцыя Станіслава Жукоўскага)"
-  const trailingMatch = str.match(/^(.*?)\s*\(([^()]+)\)*\s*$/);
-  if (trailingMatch && trailingMatch[1].trim()) {
-    const mainText = trailingMatch[1].trim();
-    const subText = trailingMatch[2].trim();
+    const subLower = subText.toLowerCase();
+    if (cityStr && (subLower === cityStr || subLower.includes(cityStr) || cityStr.includes(subLower))) {
+      return `<span class="title-main">${escapeHtml(mainText)}</span>`;
+    }
     return `<span class="title-main">${escapeHtml(mainText)}</span><span class="title-sub">${escapeHtml(subText)}</span>`;
   }
 
@@ -630,7 +644,7 @@ function renderMarkers() {
       <div class="popup-card">
         ${place.image ? `
           <div class="popup-img-wrap">
-            <img src="${getWikimediaThumb(place.image, 500)}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer" onload="handlePopupImageOrientation(this)">
+            <img src="${getWikimediaThumb(place.image, 500)}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer" onload="handlePopupImageOrientation(this)" onerror="this.closest('.popup-img-wrap')?.remove()">
           </div>` : ''}
         <div class="popup-body">
           <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 4px; align-items: center;">
@@ -638,7 +652,7 @@ function renderMarkers() {
             ${nestedPopupNotice}
           </div>
           ${unverifiedPopupNotice}
-          <div class="popup-title">${formatPlaceTitle(title)}</div>
+          <div class="popup-title">${formatPlaceTitle(title, city)}</div>
           <div class="popup-loc">${city}, ${country}</div>
           <button class="btn btn-primary btn-sm" style="width: 100%" onclick="selectPlace('${place.id}')">
             ${window.i18n[currentLang].detailsHeading}
@@ -770,14 +784,25 @@ function renderSidebarList() {
       </span>
     ` : '';
 
+    const thumbImgHtml = place.image ? `
+      <img src="${getWikimediaThumb(place.image, 250)}" alt="${title}" class="place-card-thumb" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';">
+      <div class="place-card-thumb-placeholder" style="display:none;" title="${categoryName}">
+        ${(CATEGORY_CONFIG[place.category] || CATEGORY_CONFIG.historical).icon}
+      </div>
+    ` : `
+      <div class="place-card-thumb-placeholder" title="${categoryName}">
+        ${(CATEGORY_CONFIG[place.category] || CATEGORY_CONFIG.historical).icon}
+      </div>
+    `;
+
     return `
       <div class="place-card ${selectedPlaceId === place.id ? 'active' : ''}" 
            id="card-${place.id}"
            onclick="selectPlace('${place.id}')">
-        <img src="${thumb}" alt="${title}" class="place-card-thumb" loading="lazy" referrerpolicy="no-referrer">
+        ${thumbImgHtml}
         <div class="place-card-content">
           <div>
-            <div class="place-card-title">${formatPlaceTitle(title)}</div>
+            <div class="place-card-title">${formatPlaceTitle(title, city)}</div>
             <div class="place-card-meta">${city}, ${country}</div>
           </div>
           <div class="place-card-badges">
@@ -1100,12 +1125,14 @@ function showPlaceDetail(placeId) {
         ${categoryName}
       </span>
       ${place.isUserCreated ? '<span class="badge-user-created" style="display:inline-block; font-size:0.7rem; font-weight:700; background:#ecfdf5; color:#059669; border:1px solid #a7f3d0; padding:2px 8px; border-radius:4px; margin-left:6px;">👤 Створана вамі</span>' : ''}
-      <h2 class="detail-title">${formatPlaceTitle(title)}</h2>
+      <h2 class="detail-title">${formatPlaceTitle(title, city)}</h2>
       <div class="detail-location">
         <strong>${city}, ${country}</strong> &bull; <code id="detailCoordsCode">${lat.toFixed(4)}, ${lng.toFixed(4)}</code>
-        <button type="button" class="btn-text-action" onclick="startPlaceCoordinateCorrection('${place.id}')" title="${dict.btnPickOnMap || 'Указаць на карце'}" style="background:none; border:1px solid var(--border-color); border-radius:4px; padding:2px 6px; font-size:0.72rem; cursor:pointer; color:var(--primary); margin-left:6px; display:inline-flex; align-items:center; gap:3px;">
-          📍 ${dict.btnPickOnMap || 'Указаць на карце'}
+        ${!place.unverifiedCoordinates ? `
+        <button type="button" class="btn-text-action" onclick="startPlaceCoordinateCorrection('${place.id}')" title="${dict.btnRefineCoords || 'Удакладніць'}" style="background:none; border:1px solid var(--border-color); border-radius:4px; padding:2px 6px; font-size:0.72rem; cursor:pointer; color:var(--text-muted); margin-left:6px; display:inline-flex; align-items:center; gap:3px;">
+          📍 ${dict.btnRefineCoords || 'Удакладніць'}
         </button>
+        ` : ''}
       </div>
       <div class="detail-description">
         ${desc}
@@ -1658,7 +1685,7 @@ function openPersonDetail(personId, updateHash = true) {
         <div class="person-place-item" onclick="viewPersonPlaceOnMap('${pl.id}')">
           ${plThumb ? `<img src="${plThumb}" alt="${plTitle}" class="person-place-thumb" loading="lazy" referrerpolicy="no-referrer">` : `<div class="person-place-thumb" style="display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--text-muted);border:1px solid var(--border-color);"></div>`}
           <div class="person-place-info">
-            <div class="person-place-title">${formatPlaceTitle(plTitle)}</div>
+            <div class="person-place-title">${formatPlaceTitle(plTitle, plCity)}</div>
             <div class="person-place-meta">${plCity}, ${plCountry}</div>
           </div>
           <span class="person-place-btn">${dict.showOnMap || 'На карце &rarr;'}</span>
