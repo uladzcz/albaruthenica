@@ -3086,6 +3086,7 @@ window.INITIAL_PERSONS = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ba%C5%82achowicz.JPG",
     "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Нікадзімавіч_Булак-Балаховіч",
     "placeIds": [
+      "warsaw-bulak-balachowicz-plaque",
       "warsaw-cmentarz-wojskowy-powazki"
     ]
   },
