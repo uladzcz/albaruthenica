@@ -109,9 +109,12 @@
       <div id="map"></div>
 
       <!-- Floating banner when user is picking coordinates on map -->
-      <div id="pickCoordsBanner" class="coords-picker-banner" style="display: none; position: absolute; top: 1rem; left: 50%; transform: translateX(-50%); z-index: 1000; background: #ffffff;">
-        <span data-i18n="clickMapToPick">Клікніце ў пункт на карце для выбару каардынат</span>
-        <button id="btnCancelPick" class="btn btn-secondary btn-sm" style="margin-left: 1rem;">Адмена</button>
+      <div id="pickCoordsBanner" class="coords-picker-banner" style="display: none;">
+        <span id="pickCoordsBannerText" data-i18n="clickMapToPick">Клікніце ў пункт на карце для выбару каардынат</span>
+        <div class="coords-picker-actions">
+          <button id="btnConfirmPick" class="btn btn-primary btn-sm" style="display: none;" data-i18n="btnConfirmCoords">✅ Захаваць каардынаты</button>
+          <button id="btnCancelPick" class="btn btn-secondary btn-sm" data-i18n="btnCancel">Адмена</button>
+        </div>
       </div>
 
       <!-- Admin Top Floating Bar (Active only in Admin Mode) -->
@@ -291,7 +294,8 @@
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="closeModal('addPlaceModal')" data-i18n="closeModal">Закрыць</button>
-        <button id="btnGenerateJson" class="btn btn-primary" data-i18n="btnGenerateJson">Згенераваць JSON</button>
+        <button id="btnGenerateJson" class="btn btn-secondary" data-i18n="btnGenerateJson">Згенераваць JSON</button>
+        <button id="btnSavePlaceDirect" class="btn btn-primary" data-i18n="btnSavePlaceDirect">✅ Захаваць на карце</button>
       </div>
     </div>
   </div>
