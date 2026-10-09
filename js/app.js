@@ -3,29 +3,46 @@
 let map;
 let markerCluster;
 let allPlaces = [];
+let allPersons = [];
 let markersMap = new Map();
 let currentLang = localStorage.getItem('albaruthenica_lang') || 'by';
 let activeCategory = 'all';
 let searchQuery = '';
+let personsSearchQuery = '';
 let selectedPlaceId = null;
+let selectedPersonId = null;
 let pickCoordsMode = false;
 let tempPickMarker = null;
 
-// Category icons config
+// Admin moderation state
+let isAdminMode = localStorage.getItem('albaruthenica_admin_mode') === 'true';
+let filterOnlyUnverified = false;
+let adminPickMode = false;
+let activeDraggableMarker = null;
+
+// Category icons config (monochrome minimal design)
 const CATEGORY_ICONS = {
-  monument: '🏛️',
-  grave: '🕯️',
-  church: '⛪',
-  culture: '📚',
-  historical: '🏰',
-  plaque: '📜'
+  monument: '',
+  grave: '',
+  church: '',
+  culture: '',
+  historical: '',
+  plaque: ''
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Check admin parameter in URL query or hash: ?admin or #admin
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('admin') || window.location.hash === '#admin') {
+    isAdminMode = true;
+    localStorage.setItem('albaruthenica_admin_mode', 'true');
+  }
+
   initI18n();
   initMap();
   loadPlaces();
   setupEventListeners();
+  updateAdminUI();
   checkUrlHash();
 });
 
@@ -65,11 +82,18 @@ function setLanguage(lang) {
     localStorage.setItem('albaruthenica_lang', lang);
     initI18n();
     updateLayerControl();
+    updateAdminUI();
     renderSidebarList();
     if (selectedPlaceId) {
       showPlaceDetail(selectedPlaceId, false);
     }
     updateAllMarkersTooltips();
+    if (document.getElementById('allPersonsModal')?.classList.contains('open')) {
+      renderPersonsGrid();
+    }
+    if (selectedPersonId && document.getElementById('personModal')?.classList.contains('open')) {
+      openPersonDetail(selectedPersonId, false);
+    }
   }
 }
 
@@ -93,8 +117,13 @@ function initMap() {
 
   map.addLayer(markerCluster);
 
-  // Map click for coordinate picker in "Add Place" modal
+  // Map click for coordinate picker (Add Place modal OR Admin moderation)
   map.on('click', (e) => {
+    if (adminPickMode && selectedPlaceId) {
+      handleAdminMapClick(e.latlng);
+      return;
+    }
+
     if (pickCoordsMode) {
       const { lat, lng } = e.latlng;
       const latFixed = lat.toFixed(5);
@@ -176,7 +205,26 @@ function updateLayerControl() {
   }).addTo(map);
 }
 
-// Fetch places data
+// Client-side overrides for coordinates & verification status (moderation)
+function getPlaceOverrides() {
+  try {
+    return JSON.parse(localStorage.getItem('albaruthenica_place_overrides') || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function savePlaceOverride(placeId, data) {
+  const overrides = getPlaceOverrides();
+  overrides[placeId] = {
+    ...(overrides[placeId] || {}),
+    ...data
+  };
+  localStorage.setItem('albaruthenica_place_overrides', JSON.stringify(overrides));
+  updateAdminUI();
+}
+
+// Fetch places & persons data
 async function loadPlaces() {
   try {
     const response = await fetch('data/places.json');
@@ -188,12 +236,82 @@ async function loadPlaces() {
       allPlaces = window.INITIAL_PLACES;
     }
   }
+
+  // Apply localStorage overrides (from user moderation)
+  const overrides = getPlaceOverrides();
+  allPlaces.forEach(p => {
+    if (overrides[p.id]) {
+      if (Array.isArray(overrides[p.id].coordinates)) {
+        p.coordinates = overrides[p.id].coordinates;
+      }
+      if (typeof overrides[p.id].unverifiedCoordinates !== 'undefined') {
+        p.unverifiedCoordinates = overrides[p.id].unverifiedCoordinates;
+      }
+    }
+  });
+
+  try {
+    const responsePersons = await fetch('data/persons.json');
+    if (!responsePersons.ok) throw new Error('Failed to load persons.json');
+    allPersons = await responsePersons.json();
+  } catch (error) {
+    console.warn('Fetch persons.json failed, falling back to window.INITIAL_PERSONS:', error);
+    if (window.INITIAL_PERSONS && Array.isArray(window.INITIAL_PERSONS)) {
+      allPersons = window.INITIAL_PERSONS;
+    }
+  }
+
   renderMarkers();
   renderSidebarList();
   updateStats();
+  updateAdminUI();
 
-  // Check if initial hash matches a place
+  // Check if initial hash matches a place or person
   checkUrlHash();
+}
+
+// Get all persons connected to a place
+function getPersonsForPlace(place) {
+  if (!place) return [];
+  const personIds = new Set();
+  if (place.personId) personIds.add(place.personId);
+  if (Array.isArray(place.personIds)) {
+    place.personIds.forEach(id => personIds.add(id));
+  }
+  if (Array.isArray(place.items)) {
+    place.items.forEach(it => {
+      if (it.personId) personIds.add(it.personId);
+    });
+  }
+
+  // Also check persons whose placeIds include this place id
+  allPersons.forEach(p => {
+    if (Array.isArray(p.placeIds) && p.placeIds.includes(place.id)) {
+      personIds.add(p.id);
+    }
+  });
+
+  return Array.from(personIds)
+    .map(id => allPersons.find(p => p.id === id))
+    .filter(Boolean);
+}
+
+// Get all places connected to a person
+function getPlacesForPerson(person) {
+  if (!person) return [];
+  const placeIds = new Set(person.placeIds || []);
+
+  allPlaces.forEach(pl => {
+    if (pl.personId === person.id) placeIds.add(pl.id);
+    if (Array.isArray(pl.personIds) && pl.personIds.includes(person.id)) placeIds.add(pl.id);
+    if (Array.isArray(pl.items) && pl.items.some(it => it.personId === person.id)) {
+      placeIds.add(pl.id);
+    }
+  });
+
+  return Array.from(placeIds)
+    .map(id => allPlaces.find(pl => pl.id === id))
+    .filter(Boolean);
 }
 
 // Render category filter pills
@@ -234,15 +352,14 @@ function getLocalized(obj) {
   return obj[currentLang] || obj.by || obj.ru || obj.en || '';
 }
 
-// Create custom pin HTML icon
+// Create custom pin HTML icon (sharp minimal square with center dot)
 function createCustomMarkerIcon(category) {
-  const icon = CATEGORY_ICONS[category] || '📍';
   return L.divIcon({
     className: 'custom-pin-container',
-    html: `<div class="custom-pin category-${category}">${icon}</div>`,
-    iconSize: [32, 32],
-    iconAnchor: [16, 16],
-    popupAnchor: [0, -18]
+    html: `<div class="custom-pin category-${category}"><span class="custom-pin-core"></span></div>`,
+    iconSize: [16, 16],
+    iconAnchor: [8, 8],
+    popupAnchor: [0, -10]
   });
 }
 
@@ -265,13 +382,20 @@ function renderMarkers() {
     });
 
     // Custom popup
+    const unverifiedPopupNotice = place.unverifiedCoordinates ? `
+      <div class="unverified-coords-badge" style="margin-bottom: 5px;">
+        ${window.i18n[currentLang]?.unverifiedCoordsBadge || 'Неправераныя каардынаты'}
+      </div>
+    ` : '';
+
     const popupHtml = `
       <div class="popup-card">
         ${place.image ? `<img src="${place.image}" alt="${title}" class="popup-img" loading="lazy">` : ''}
         <div class="popup-body">
-          <span class="place-card-category category-${place.category}">${categoryName}</span>
+          <span class="place-card-category">${categoryName}</span>
+          ${unverifiedPopupNotice}
           <div class="popup-title">${title}</div>
-          <div class="popup-loc">📍 ${city}, ${country}</div>
+          <div class="popup-loc">${city}, ${country}</div>
           <button class="btn btn-primary btn-sm" style="width: 100%" onclick="selectPlace('${place.id}')">
             ${window.i18n[currentLang].detailsHeading}
           </button>
@@ -297,6 +421,11 @@ function updateAllMarkersTooltips() {
 // Filter logic
 function getFilteredPlaces() {
   return allPlaces.filter(place => {
+    // Admin filter for unverified coordinates only
+    if (filterOnlyUnverified && place.unverifiedCoordinates !== true) {
+      return false;
+    }
+
     // Category check
     if (activeCategory !== 'all' && place.category !== activeCategory) {
       return false;
@@ -323,6 +452,19 @@ function getFilteredPlaces() {
           const itAuthor = (it.author || it.person || '').toLowerCase();
           const itDesc = (it.description || '').toLowerCase();
           return itTitle.includes(q) || itAuthor.includes(q) || itDesc.includes(q);
+        });
+      }
+
+      // Deep search matching associated persons
+      if (!matches) {
+        const connectedPersons = getPersonsForPlace(place);
+        matches = connectedPersons.some(ap => {
+          const nameBy = (ap.name?.by || '').toLowerCase();
+          const nameRu = (ap.name?.ru || '').toLowerCase();
+          const nameEn = (ap.name?.en || '').toLowerCase();
+          const role = getLocalized(ap.role).toLowerCase();
+          const bio = getLocalized(ap.bio).toLowerCase();
+          return nameBy.includes(q) || nameRu.includes(q) || nameEn.includes(q) || role.includes(q) || bio.includes(q);
         });
       }
 
@@ -363,9 +505,15 @@ function renderSidebarList() {
     const categoryName = dict.categories[place.category] || place.category;
     const thumb = place.image || 'https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=200&q=80';
 
+    const unverifiedBadge = place.unverifiedCoordinates ? `
+      <span class="unverified-coords-badge" title="${dict.unverifiedCoordsNotice || ''}">
+        ${dict.unverifiedCoordsBadge || 'Неправерана'}
+      </span>
+    ` : '';
+
     const nestedBadge = (place.items && place.items.length > 0) ? `
       <span class="place-card-nested-badge">
-        📦 ${place.items.length} ${dict.nestedObjectsBadge || 'аб’ектаў'}
+        ${place.items.length} ${dict.nestedObjectsBadge || 'аб’ектаў'}
       </span>
     ` : '';
 
@@ -377,12 +525,13 @@ function renderSidebarList() {
         <div class="place-card-content">
           <div>
             <div class="place-card-title">${title}</div>
-            <div class="place-card-meta">📍 ${city}, ${country}</div>
+            <div class="place-card-meta">${city}, ${country}</div>
           </div>
           <div class="place-card-badges">
-            <span class="place-card-category category-${place.category}">
-              ${CATEGORY_ICONS[place.category] || ''} ${categoryName}
+            <span class="place-card-category">
+              ${categoryName}
             </span>
+            ${unverifiedBadge}
             ${nestedBadge}
           </div>
         </div>
@@ -464,88 +613,200 @@ function showPlaceDetail(placeId) {
 
   const tagsHtml = (place.tags || []).map(t => `<span class="detail-tag">#${t}</span>`).join('');
 
+  // Connected persons for this place
+  const connectedPersons = getPersonsForPlace(place);
+  let associatedPersonsHtml = '';
+  if (connectedPersons.length > 0) {
+    associatedPersonsHtml = `
+      <div class="associated-persons-section">
+        <strong style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-main);">${dict.associatedPersons || 'Звязаныя дзеячы і асобы:'}</strong>
+        <div class="associated-persons-list">
+          ${connectedPersons.map(p => `
+            <div class="associated-person-chip" onclick="openPersonDetail('${p.id}')" title="${getLocalized(p.role)}">
+              <img src="${p.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'}" 
+                   alt="${getLocalized(p.name)}" class="associated-person-avatar" loading="lazy"
+                   onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
+              <span>${getLocalized(p.name)}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }
+
   // Nested sub-items (artworks, graves, exhibits)
   let nestedItemsHtml = '';
   if (place.items && Array.isArray(place.items) && place.items.length > 0) {
     nestedItemsHtml = `
       <div class="nested-items-section">
-        <strong style="font-size: 0.95rem; color: #0f172a;">${dict.nestedObjectsTitle || '🏛️ Укладзеныя аб’екты, творы і пахаванні:'}</strong>
-        ${place.items.map(it => `
+        <strong style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-main);">${dict.nestedObjectsTitle || 'Укладзеныя аб’екты, творы і пахаванні:'}</strong>
+        ${place.items.map(it => {
+          const itPerson = it.personId ? allPersons.find(p => p.id === it.personId) : null;
+          const authorBadge = it.author ? (
+            itPerson ? `<button class="nested-item-person-link" onclick="event.stopPropagation(); openPersonDetail('${itPerson.id}')" title="Пра асобу">${it.author}</button>` : `<span class="nested-item-author-badge">${it.author}</span>`
+          ) : '';
+          const personBadge = it.person ? (
+            itPerson ? `<button class="nested-item-person-link" onclick="event.stopPropagation(); openPersonDetail('${itPerson.id}')" title="Пра асобу">${it.person}</button>` : `<span class="nested-item-author-badge">${it.person}</span>`
+          ) : '';
+
+          return `
           <div class="nested-item-card">
             <div class="nested-item-title">${it.title}</div>
             <div class="nested-item-meta">
-              ${it.author ? `<span class="nested-item-author-badge">🎨 ${it.author}</span>` : ''}
-              ${it.person ? `<span class="nested-item-author-badge">🕯️ ${it.person}</span>` : ''}
-              ${it.year ? `<span>📅 ${it.year}</span>` : ''}
+              ${authorBadge}
+              ${personBadge}
+              ${it.year ? `<span>${it.year}</span>` : ''}
             </div>
             ${it.description ? `<div class="nested-item-desc">${it.description}</div>` : ''}
             ${it.image ? `<img src="${it.image}" alt="${it.title}" class="nested-item-thumb" loading="lazy">` : ''}
           </div>
-        `).join('')}
+        `}).join('')}
       </div>
     `;
   }
 
   // Categorized links (Wikipedia, background articles, catalog)
   const linksHtml = (place.links || []).map(l => {
-    let icon = '🔗';
-    const titleLower = (l.title || '').toLowerCase();
-    if (titleLower.includes('вікіпедыя') || titleLower.includes('wikipedia') || titleLower.includes('википедия')) {
-      icon = '🌐';
-    } else if (titleLower.includes('артыкул') || titleLower.includes('статья') || titleLower.includes('article') || titleLower.includes('бэкграўнд')) {
-      icon = '📖';
-    } else if (titleLower.includes('музей') || titleLower.includes('галерэя') || titleLower.includes('сайт') || titleLower.includes('калекцыя')) {
-      icon = '🏛️';
-    }
     return `
       <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="detail-link-item">
-        <span class="link-icon">${icon}</span>
         <span class="link-text">${l.title}</span>
-        <span class="link-arrow">↗</span>
+        <span class="link-arrow">&rarr;</span>
       </a>
     `;
   }).join('');
 
+  // Draggable marker in admin mode
+  if (isAdminMode) {
+    const marker = markersMap.get(placeId);
+    if (marker && marker.dragging) {
+      if (activeDraggableMarker && activeDraggableMarker !== marker) {
+        activeDraggableMarker.dragging.disable();
+        const prevPin = activeDraggableMarker.getElement()?.querySelector('.custom-pin');
+        if (prevPin) prevPin.classList.remove('is-draggable');
+      }
+      marker.dragging.enable();
+      activeDraggableMarker = marker;
+      const pinEl = marker.getElement()?.querySelector('.custom-pin');
+      if (pinEl) pinEl.classList.add('is-draggable');
+
+      marker.off('dragend');
+      marker.on('dragend', (ev) => {
+        const newPos = ev.target.getLatLng();
+        const newLat = parseFloat(newPos.lat.toFixed(5));
+        const newLng = parseFloat(newPos.lng.toFixed(5));
+        place.coordinates = [newLat, newLng];
+        savePlaceOverride(place.id, { coordinates: place.coordinates });
+
+        const latInp = document.getElementById('adminInputLat');
+        const lngInp = document.getElementById('adminInputLng');
+        if (latInp) latInp.value = newLat;
+        if (lngInp) lngInp.value = newLng;
+
+        const locCoordEl = document.getElementById('detailCoordsCode');
+        if (locCoordEl) locCoordEl.textContent = `${newLat.toFixed(4)}, ${newLng.toFixed(4)}`;
+
+        const d = window.i18n[currentLang] || window.i18n.by;
+        showToast(`${d.coordsSelected || 'Каардынаты:'} ${newLat}, ${newLng}`);
+      });
+    }
+  }
+
+  // Unverified banner
+  const unverifiedBannerHtml = place.unverifiedCoordinates ? `
+    <div class="unverified-coords-banner">
+      <div style="font-weight: 700; color: var(--text-main); margin-bottom: 2px; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.04em;">
+        ${dict.unverifiedCoordsBadge || 'Неправераныя каардынаты'}
+      </div>
+      <div style="font-size: 0.78rem; color: #52525b; line-height: 1.4;">
+        ${dict.unverifiedCoordsNotice || 'Каардынаты гэтага пункта дададзены аўтаматычна з гістарычных крыніц і патрабуюць верыфікацыі.'}
+      </div>
+    </div>
+  ` : '';
+
+  // Admin moderation panel
+  let adminPanelHtml = '';
+  if (isAdminMode) {
+    adminPanelHtml = `
+      <div class="admin-detail-panel">
+        <div class="admin-detail-panel-title">
+          <span>${dict.adminPanelTitle || 'Мадэрацыя каардынат'}</span>
+          ${place.unverifiedCoordinates ? `<span class="unverified-coords-badge">Патрабуе праверкі</span>` : `<span style="font-size:0.7rem; color:#16a34a; font-weight:700; text-transform:uppercase;">Верыфікавана</span>`}
+        </div>
+        <div class="admin-coords-grid">
+          <div class="admin-coords-input-group">
+            <label>Шырата (Lat):</label>
+            <input type="number" step="0.00001" id="adminInputLat" class="admin-coords-input" value="${lat.toFixed(5)}" onchange="onAdminCoordInputChange('${place.id}')">
+          </div>
+          <div class="admin-coords-input-group">
+            <label>Даўгата (Lng):</label>
+            <input type="number" step="0.00001" id="adminInputLng" class="admin-coords-input" value="${lng.toFixed(5)}" onchange="onAdminCoordInputChange('${place.id}')">
+          </div>
+        </div>
+        <div class="admin-detail-panel-hint">
+          ${dict.adminDragMarkerHint || 'У рэжыме адміна можна перацягваць маркер на карце мышкай альбо выставіць кропку клікам.'}
+        </div>
+        <div class="admin-detail-actions">
+          <button type="button" class="btn btn-secondary btn-sm" onclick="startAdminPickMode('${place.id}')">
+            ${dict.adminPickOnMapBtn || 'Клікам на карце'}
+          </button>
+          ${place.unverifiedCoordinates ? `
+            <button type="button" class="btn btn-primary btn-sm" onclick="confirmPlaceCoordinates('${place.id}')">
+              ${dict.adminConfirmCoordsBtn || 'Пацвердзіць каардынаты'}
+            </button>
+          ` : `
+            <button type="button" class="btn btn-secondary btn-sm" onclick="savePlaceCoordinates('${place.id}')">
+              ${dict.adminSaveCoordsBtn || 'Захаваць каардынаты'}
+            </button>
+          `}
+        </div>
+      </div>
+    `;
+  }
+
   drawer.innerHTML = `
     <div class="detail-header-actions">
       <button class="btn btn-secondary btn-sm" onclick="closePlaceDetail()">
-        ← ${dict.sidebarTitle}
+        &larr; ${dict.sidebarTitle}
       </button>
       <button class="btn btn-secondary btn-sm" onclick="copyCurrentShareLink()">
-        📋 ${dict.btnCopyLink}
+        ${dict.btnCopyLink}
       </button>
     </div>
+    ${unverifiedBannerHtml}
+    ${adminPanelHtml}
     ${heroImg}
     <div class="detail-body">
-      <span class="place-card-category category-${place.category}">
-        ${CATEGORY_ICONS[place.category] || ''} ${categoryName}
+      <span class="place-card-category">
+        ${categoryName}
       </span>
       <h2 class="detail-title">${title}</h2>
       <div class="detail-location">
-        📍 <strong>${city}, ${country}</strong> &bull; <code>${lat.toFixed(4)}, ${lng.toFixed(4)}</code>
+        <strong>${city}, ${country}</strong> &bull; <code id="detailCoordsCode">${lat.toFixed(4)}, ${lng.toFixed(4)}</code>
       </div>
       <div class="detail-description">
         ${desc}
       </div>
 
+      ${associatedPersonsHtml}
+
       ${nestedItemsHtml}
 
-      ${tagsHtml ? `<div><strong>${dict.tagsHeading}:</strong><div class="detail-tags" style="margin-top:0.35rem">${tagsHtml}</div></div>` : ''}
+      ${tagsHtml ? `<div><strong style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.04em;">${dict.tagsHeading}:</strong><div class="detail-tags" style="margin-top:0.35rem">${tagsHtml}</div></div>` : ''}
       
       <div class="detail-actions-row">
         <a href="https://www.google.com/maps/search/?api=1&query=${lat},${lng}" 
            target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-          🗺️ ${dict.btnOpenGoogleMaps}
+          ${dict.btnOpenGoogleMaps}
         </a>
         <a href="https://www.openstreetmap.org/?mlat=${lat}&mlon=${lng}#map=16/${lat}/${lng}" 
            target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
-          🧭 ${dict.btnOpenOSM}
+          ${dict.btnOpenOSM}
         </a>
       </div>
 
       ${linksHtml ? `
         <div style="margin-top: 0.5rem;">
-          <strong style="font-size: 0.85rem; color: #1e293b;">${dict.sourcesHeading}:</strong>
+          <strong style="font-size: 0.75rem; text-transform: uppercase; letter-spacing:0.04em; color: var(--text-muted);">${dict.sourcesHeading}:</strong>
           <div class="detail-links-list">
             ${linksHtml}
           </div>
@@ -558,6 +819,13 @@ function showPlaceDetail(placeId) {
 }
 
 function closePlaceDetail() {
+  if (activeDraggableMarker) {
+    activeDraggableMarker.dragging?.disable();
+    const pinEl = activeDraggableMarker.getElement()?.querySelector('.custom-pin');
+    if (pinEl) pinEl.classList.remove('is-draggable');
+    activeDraggableMarker = null;
+  }
+
   const drawer = document.getElementById('placeDetailDrawer');
   if (drawer) {
     drawer.classList.remove('open');
@@ -581,6 +849,11 @@ function checkUrlHash() {
     const id = hash.replace('#place=', '');
     if (allPlaces.some(p => p.id === id)) {
       setTimeout(() => selectPlace(id, false), 300);
+    }
+  } else if (hash.startsWith('#person=')) {
+    const id = hash.replace('#person=', '');
+    if (allPersons.some(p => p.id === id)) {
+      setTimeout(() => openPersonDetail(id, false), 300);
     }
   }
 }
@@ -666,6 +939,35 @@ function setupEventListeners() {
   // Generate JSON button in Add modal
   document.getElementById('btnGenerateJson')?.addEventListener('click', handleGenerateJson);
   document.getElementById('btnCopyJson')?.addEventListener('click', handleCopyJson);
+
+  // Persons modal opener & search
+  document.getElementById('btnPersons')?.addEventListener('click', openAllPersonsModal);
+
+  const personsSearchInput = document.getElementById('personsSearchInput');
+  if (personsSearchInput) {
+    personsSearchInput.addEventListener('input', (e) => {
+      personsSearchQuery = e.target.value;
+      renderPersonsGrid();
+    });
+  }
+
+  // Admin keyboard shortcut (Ctrl+Shift+A / Cmd+Shift+A)
+  window.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === 'a') {
+      e.preventDefault();
+      toggleAdminMode();
+    }
+  });
+
+  // Admin bar buttons
+  document.getElementById('btnAdminToggleFilter')?.addEventListener('click', toggleAdminFilterUnverified);
+  document.getElementById('btnAdminQueue')?.addEventListener('click', openAdminQueueModal);
+  document.getElementById('btnAdminExport')?.addEventListener('click', openAdminExportModal);
+  document.getElementById('btnAdminExit')?.addEventListener('click', () => toggleAdminMode(false));
+
+  // Admin export modal buttons
+  document.getElementById('btnAdminDownloadJson')?.addEventListener('click', handleAdminDownloadJson);
+  document.getElementById('btnAdminCopyFullJson')?.addEventListener('click', handleAdminCopyJson);
 }
 
 // Modals management
@@ -765,9 +1067,458 @@ function handleCopyJson() {
   }
 }
 
+// ========================================================
+// Persons Feature Implementation
+// ========================================================
+
+// Open All Persons Modal
+function openAllPersonsModal() {
+  personsSearchQuery = '';
+  const searchInput = document.getElementById('personsSearchInput');
+  if (searchInput) searchInput.value = '';
+  renderPersonsGrid();
+  openModal('allPersonsModal');
+}
+
+// Render grid in All Persons Modal
+function renderPersonsGrid() {
+  const container = document.getElementById('personsGridContainer');
+  if (!container) return;
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  let filtered = allPersons;
+
+  if (personsSearchQuery.trim() !== '') {
+    const q = personsSearchQuery.toLowerCase().trim();
+    filtered = allPersons.filter(p => {
+      const nameBy = (p.name?.by || '').toLowerCase();
+      const nameRu = (p.name?.ru || '').toLowerCase();
+      const nameEn = (p.name?.en || '').toLowerCase();
+      const role = getLocalized(p.role).toLowerCase();
+      const bio = getLocalized(p.bio).toLowerCase();
+      return nameBy.includes(q) || nameRu.includes(q) || nameEn.includes(q) || role.includes(q) || bio.includes(q);
+    });
+  }
+
+  if (filtered.length === 0) {
+    container.innerHTML = `
+      <div style="grid-column: 1 / -1; padding: 2.5rem 1rem; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+        ${dict.noPersonsFound || 'Асоб не знойдзена'}
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = filtered.map(p => {
+    const name = getLocalized(p.name);
+    const role = getLocalized(p.role);
+    const places = getPlacesForPerson(p);
+    const countLabel = `${places.length} ${dict.personPlacesCount || 'месцаў'}`;
+    const avatar = p.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
+
+    return `
+      <div class="person-card" onclick="openPersonDetail('${p.id}')">
+        <img src="${avatar}" alt="${name}" class="person-avatar" loading="lazy" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
+        <div class="person-card-name">${name}</div>
+        <div class="person-card-dates">${p.dates || ''}</div>
+        <div class="person-card-role">${role}</div>
+        <span class="person-card-places-count">${countLabel}</span>
+      </div>
+    `;
+  }).join('');
+}
+
+// Open Person Detail Modal
+function openPersonDetail(personId, updateHash = true) {
+  const person = allPersons.find(p => p.id === personId);
+  if (!person) return;
+
+  selectedPersonId = personId;
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  const name = getLocalized(person.name);
+  const role = getLocalized(person.role);
+  const bio = getLocalized(person.bio);
+  const avatar = person.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
+  const places = getPlacesForPerson(person);
+
+  const titleEl = document.getElementById('personModalTitle');
+  if (titleEl) {
+    titleEl.textContent = name;
+  }
+
+  const bodyEl = document.getElementById('personModalBody');
+  if (bodyEl) {
+    const placesHtml = places.length > 0 ? places.map(pl => {
+      const plTitle = getLocalized(pl.title);
+      const plCity = getLocalized(pl.city);
+      const plCountry = getLocalized(pl.country);
+      const plThumb = pl.image || '';
+
+      return `
+        <div class="person-place-item" onclick="viewPersonPlaceOnMap('${pl.id}')">
+          ${plThumb ? `<img src="${plThumb}" alt="${plTitle}" class="person-place-thumb" loading="lazy">` : `<div class="person-place-thumb" style="display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--text-muted);border:1px solid var(--border-color);"></div>`}
+          <div class="person-place-info">
+            <div class="person-place-title">${plTitle}</div>
+            <div class="person-place-meta">${plCity}, ${plCountry}</div>
+          </div>
+          <span class="person-place-btn">${dict.showOnMap || 'На карце &rarr;'}</span>
+        </div>
+      `;
+    }).join('') : `
+      <div style="padding: 1rem; color: var(--text-muted); font-size: 0.85rem;">
+        ${dict.noResults || 'Мясцін пакуль не знойдзена'}
+      </div>
+    `;
+
+    bodyEl.innerHTML = `
+      <div class="person-detail-header">
+        <img src="${avatar}" alt="${name}" class="person-detail-avatar" loading="lazy" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
+        <div class="person-detail-info">
+          <div class="person-detail-name">${name}</div>
+          <div class="person-detail-meta">
+            ${person.dates ? `<span class="person-detail-dates">${person.dates}</span>` : ''}
+            <span class="person-detail-role">${role}</span>
+          </div>
+          ${person.wiki ? `
+            <div class="person-detail-actions">
+              <a href="${person.wiki}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="font-size:0.75rem;">
+                ${dict.personWikiLink || 'Вікіпедыя'} &rarr;
+              </a>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+
+      <div class="person-bio-box">
+        ${bio}
+      </div>
+
+      <div class="person-places-title">
+        ${dict.personConnectedPlaces || 'Звязаныя мясціны на карце'} (${places.length})
+      </div>
+      <div class="person-places-list">
+        ${placesHtml}
+      </div>
+    `;
+  }
+
+  closeModal('allPersonsModal');
+  openModal('personModal');
+
+  if (updateHash) {
+    window.location.hash = `person=${personId}`;
+  }
+}
+
+// Navigate from person modal to place on map
+function viewPersonPlaceOnMap(placeId) {
+  closeModal('personModal');
+  closeModal('allPersonsModal');
+  selectPlace(placeId);
+}
+
+// ==========================================
+// Admin Mode & Moderation Functions
+// ==========================================
+
+function updateAdminUI() {
+  const adminBar = document.getElementById('adminBar');
+  if (!adminBar) return;
+
+  if (isAdminMode) {
+    adminBar.style.display = 'flex';
+    document.body.classList.add('admin-mode-active');
+  } else {
+    adminBar.style.display = 'none';
+    document.body.classList.remove('admin-mode-active');
+  }
+
+  const unverifiedCount = allPlaces.filter(p => p.unverifiedCoordinates === true).length;
+  const countEl = document.getElementById('adminBarCount');
+  if (countEl) {
+    countEl.textContent = unverifiedCount;
+  }
+
+  const filterBtn = document.getElementById('btnAdminToggleFilter');
+  const filterLabel = document.getElementById('adminFilterLabel');
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  if (filterBtn && filterLabel) {
+    if (filterOnlyUnverified) {
+      filterBtn.classList.remove('btn-warning');
+      filterBtn.classList.add('btn-primary');
+      filterLabel.textContent = dict.adminShowAll || 'Усе месцы';
+    } else {
+      filterBtn.classList.remove('btn-primary');
+      filterBtn.classList.add('btn-warning');
+      filterLabel.textContent = dict.adminFilterUnverified || '⚠️ Толькі неправераныя';
+    }
+  }
+}
+
+function toggleAdminMode(forceState) {
+  if (typeof forceState === 'boolean') {
+    isAdminMode = forceState;
+  } else {
+    isAdminMode = !isAdminMode;
+  }
+
+  localStorage.setItem('albaruthenica_admin_mode', isAdminMode ? 'true' : 'false');
+  updateAdminUI();
+
+  if (!isAdminMode) {
+    filterOnlyUnverified = false;
+    adminPickMode = false;
+    if (activeDraggableMarker) {
+      activeDraggableMarker.dragging?.disable();
+      const pinEl = activeDraggableMarker.getElement()?.querySelector('.custom-pin');
+      if (pinEl) pinEl.classList.remove('is-draggable');
+      activeDraggableMarker = null;
+    }
+  }
+
+  filterAndRender();
+
+  if (selectedPlaceId) {
+    showPlaceDetail(selectedPlaceId);
+  }
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(isAdminMode ? (dict.adminModeTitle || 'Рэжым мадэрацыі актываваны') : (dict.adminExitBtn || 'Выхад з рэжыму мадэрацыі'));
+}
+
+function toggleAdminFilterUnverified() {
+  filterOnlyUnverified = !filterOnlyUnverified;
+  updateAdminUI();
+  filterAndRender();
+}
+
+function startAdminPickMode(placeId) {
+  adminPickMode = true;
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(dict.clickMapToPick || 'Клікніце ў пункт на карце для выбару каардынат');
+}
+
+function handleAdminMapClick(latlng) {
+  if (!selectedPlaceId) return;
+  const place = allPlaces.find(p => p.id === selectedPlaceId);
+  if (!place) return;
+
+  const newLat = parseFloat(latlng.lat.toFixed(5));
+  const newLng = parseFloat(latlng.lng.toFixed(5));
+  place.coordinates = [newLat, newLng];
+
+  const marker = markersMap.get(selectedPlaceId);
+  if (marker) {
+    marker.setLatLng([newLat, newLng]);
+  }
+
+  const latInp = document.getElementById('adminInputLat');
+  const lngInp = document.getElementById('adminInputLng');
+  if (latInp) latInp.value = newLat;
+  if (lngInp) lngInp.value = newLng;
+
+  const locCoordEl = document.getElementById('detailCoordsCode');
+  if (locCoordEl) locCoordEl.textContent = `${newLat.toFixed(4)}, ${newLng.toFixed(4)}`;
+
+  savePlaceOverride(place.id, {
+    coordinates: place.coordinates
+  });
+
+  adminPickMode = false;
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(`${dict.coordsSelected || 'Выбраныя каардынаты:'} ${newLat}, ${newLng}`);
+}
+
+function onAdminCoordInputChange(placeId) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place) return;
+  const latInp = document.getElementById('adminInputLat');
+  const lngInp = document.getElementById('adminInputLng');
+  if (latInp && lngInp) {
+    const lat = parseFloat(latInp.value);
+    const lng = parseFloat(lngInp.value);
+    if (!isNaN(lat) && !isNaN(lng)) {
+      place.coordinates = [lat, lng];
+      const marker = markersMap.get(placeId);
+      if (marker) {
+        marker.setLatLng([lat, lng]);
+      }
+      const locCoordEl = document.getElementById('detailCoordsCode');
+      if (locCoordEl) locCoordEl.textContent = `${lat.toFixed(4)}, ${lng.toFixed(4)}`;
+      savePlaceOverride(placeId, { coordinates: [lat, lng] });
+    }
+  }
+}
+
+function confirmPlaceCoordinates(placeId) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place) return;
+
+  const latInp = document.getElementById('adminInputLat');
+  const lngInp = document.getElementById('adminInputLng');
+  if (latInp && lngInp) {
+    const lat = parseFloat(latInp.value);
+    const lng = parseFloat(lngInp.value);
+    if (!isNaN(lat) && !isNaN(lng)) {
+      place.coordinates = [lat, lng];
+    }
+  }
+
+  place.unverifiedCoordinates = false;
+  savePlaceOverride(place.id, {
+    coordinates: place.coordinates,
+    unverifiedCoordinates: false
+  });
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(dict.adminCoordsUpdated || 'Каардынаты паспяхова захаваны і пацверджаны!');
+
+  renderMarkers();
+  renderSidebarList();
+  updateStats();
+  updateAdminUI();
+  showPlaceDetail(placeId);
+
+  if (document.getElementById('adminQueueModal')?.classList.contains('open')) {
+    renderAdminQueue();
+  }
+}
+
+function savePlaceCoordinates(placeId) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place) return;
+
+  const latInp = document.getElementById('adminInputLat');
+  const lngInp = document.getElementById('adminInputLng');
+  if (latInp && lngInp) {
+    const lat = parseFloat(latInp.value);
+    const lng = parseFloat(lngInp.value);
+    if (!isNaN(lat) && !isNaN(lng)) {
+      place.coordinates = [lat, lng];
+      const marker = markersMap.get(placeId);
+      if (marker) marker.setLatLng([lat, lng]);
+    }
+  }
+
+  savePlaceOverride(place.id, {
+    coordinates: place.coordinates
+  });
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(dict.adminCoordsUpdated || 'Каардынаты паспяхова захаваны!');
+
+  renderMarkers();
+  renderSidebarList();
+  updateAdminUI();
+}
+
+function openAdminQueueModal() {
+  renderAdminQueue();
+  openModal('adminQueueModal');
+}
+
+function renderAdminQueue() {
+  const container = document.getElementById('adminQueueListContainer');
+  if (!container) return;
+
+  const unverifiedList = allPlaces.filter(p => p.unverifiedCoordinates === true);
+  const subtitle = document.getElementById('adminQueueStatsSubtitle');
+  if (subtitle) {
+    subtitle.textContent = `Засталося неправераных: ${unverifiedList.length} з ${allPlaces.length}`;
+  }
+
+  if (unverifiedList.length === 0) {
+    container.innerHTML = `
+      <div style="padding: 2.5rem 1rem; text-align: center; color: #16a34a; font-weight: 600; font-size: 0.9rem;">
+        Усе каардынаты верыфікаваны. Неправераных кропак няма.
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = unverifiedList.map(place => {
+    const title = getLocalized(place.title);
+    const city = getLocalized(place.city);
+    const country = getLocalized(place.country);
+    const [lat, lng] = place.coordinates;
+
+    return `
+      <div class="admin-queue-item" id="queue-item-${place.id}">
+        <div class="admin-queue-info">
+          <div class="admin-queue-title">${title}</div>
+          <div class="admin-queue-meta">
+            <span>${city}, ${country}</span>
+            <span>&bull;</span>
+            <code>${lat.toFixed(5)}, ${lng.toFixed(5)}</code>
+          </div>
+        </div>
+        <div class="admin-queue-actions">
+          <button class="btn btn-secondary btn-sm" onclick="adminGoToPlace('${place.id}')">
+            На карту
+          </button>
+          <button class="btn btn-primary btn-sm" onclick="confirmPlaceCoordinates('${place.id}')">
+            Пацвердзіць
+          </button>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function adminGoToPlace(placeId) {
+  closeModal('adminQueueModal');
+  selectPlace(placeId);
+}
+
+function openAdminExportModal() {
+  const output = document.getElementById('adminExportOutput');
+  if (output) {
+    output.textContent = JSON.stringify(allPlaces, null, 2);
+  }
+  openModal('adminExportModal');
+}
+
+function handleAdminDownloadJson() {
+  const jsonStr = JSON.stringify(allPlaces, null, 2);
+  const blob = new Blob([jsonStr], { type: 'application/json;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'places.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('Файл places.json спампаваны');
+}
+
+function handleAdminCopyJson() {
+  const jsonStr = JSON.stringify(allPlaces, null, 2);
+  navigator.clipboard.writeText(jsonStr).then(() => {
+    showToast('Поўны places.json скапіяваны ў буфер абмену');
+  });
+}
+
 // Global scope exposures for inline onclick handlers
 window.selectPlace = selectPlace;
 window.closePlaceDetail = closePlaceDetail;
 window.copyCurrentShareLink = copyCurrentShareLink;
 window.openModal = openModal;
 window.closeModal = closeModal;
+window.openAllPersonsModal = openAllPersonsModal;
+window.openPersonDetail = openPersonDetail;
+window.viewPersonPlaceOnMap = viewPersonPlaceOnMap;
+
+// Admin functions global exposure
+window.toggleAdminMode = toggleAdminMode;
+window.confirmPlaceCoordinates = confirmPlaceCoordinates;
+window.savePlaceCoordinates = savePlaceCoordinates;
+window.startAdminPickMode = startAdminPickMode;
+window.onAdminCoordInputChange = onAdminCoordInputChange;
+window.openAdminQueueModal = openAdminQueueModal;
+window.openAdminExportModal = openAdminExportModal;
+window.adminGoToPlace = adminGoToPlace;
+window.toggleAdminFilterUnverified = toggleAdminFilterUnverified;
+window.handleAdminDownloadJson = handleAdminDownloadJson;
+window.handleAdminCopyJson = handleAdminCopyJson;
+

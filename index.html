@@ -40,7 +40,7 @@
     <!-- Search Input -->
     <div class="header-search">
       <div class="search-input-box">
-        <span class="search-icon">🔍</span>
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" id="searchInput" class="search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Пошук па назве, горадзе, краіне...">
         <button id="searchClear" class="search-clear">&times;</button>
       </div>
@@ -54,12 +54,16 @@
         <button class="lang-btn" data-lang="en">EN</button>
       </div>
 
+      <button id="btnPersons" class="btn btn-secondary btn-sm">
+        <span class="btn-text-label" data-i18n="btnPersons">Асобы</span>
+      </button>
+
       <button id="btnAbout" class="btn btn-secondary btn-sm">
-        ℹ️ <span class="btn-text-label" data-i18n="btnAbout">Пра праект</span>
+        <span class="btn-text-label" data-i18n="btnAbout">Пра праект</span>
       </button>
 
       <button id="btnAddPlace" class="btn btn-primary btn-sm">
-        ➕ <span class="btn-text-label" data-i18n="btnAddPlace">Дадаць месца</span>
+        <span class="btn-text-label" data-i18n="btnAddPlace">Дадаць месца</span>
       </button>
     </div>
   </header>
@@ -93,14 +97,37 @@
       <div id="map"></div>
 
       <!-- Floating banner when user is picking coordinates on map -->
-      <div id="pickCoordsBanner" class="coords-picker-banner" style="display: none; position: absolute; top: 1rem; left: 50%; transform: translateX(-50%); z-index: 1000; box-shadow: var(--shadow-md); background: #ffffff;">
-        <span data-i18n="clickMapToPick">🎯 Клікніце ў любую кропку на карце для выбару каардынат</span>
+      <div id="pickCoordsBanner" class="coords-picker-banner" style="display: none; position: absolute; top: 1rem; left: 50%; transform: translateX(-50%); z-index: 1000; background: #ffffff;">
+        <span data-i18n="clickMapToPick">Клікніце ў пункт на карце для выбару каардынат</span>
         <button id="btnCancelPick" class="btn btn-secondary btn-sm" style="margin-left: 1rem;">Адмена</button>
+      </div>
+
+      <!-- Admin Top Floating Bar (Active only in Admin Mode) -->
+      <div id="adminBar" class="admin-bar" style="display: none;">
+        <div class="admin-bar-info">
+          <span class="admin-bar-badge">Адмін</span>
+          <span id="adminBarCount">37</span>
+          <span style="font-size: 0.72rem; color: #a1a1aa;">неправераных</span>
+        </div>
+        <div class="admin-bar-actions">
+          <button id="btnAdminToggleFilter" class="btn btn-secondary btn-sm">
+            <span id="adminFilterLabel" data-i18n="adminFilterUnverified">Толькі неправераныя</span>
+          </button>
+          <button id="btnAdminQueue" class="btn btn-secondary btn-sm">
+            <span data-i18n="adminQueueBtn">Чарговыя на праверку</span>
+          </button>
+          <button id="btnAdminExport" class="btn btn-secondary btn-sm">
+            <span data-i18n="adminExportBtn">Экспарт JSON</span>
+          </button>
+          <button id="btnAdminExit" class="btn btn-secondary btn-sm" title="Выйсці з адмінкі">
+            &times;
+          </button>
+        </div>
       </div>
 
       <!-- Mobile toggle button -->
       <button class="mobile-sidebar-toggle" id="mobileSidebarToggle">
-        📋 <span data-i18n="sidebarTitle">Спіс мясцін</span>
+        <span data-i18n="sidebarTitle">Спіс мясцін</span>
       </button>
     </section>
   </main>
@@ -115,7 +142,8 @@
       <div class="modal-body" data-i18n="aboutModalContent">
         <!-- Injected via i18n -->
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center;">
+        <a href="javascript:void(0)" onclick="toggleAdminMode()" style="font-size: 0.75rem; color: var(--text-muted); text-decoration: none; opacity: 0.6;" title="Увайсці ў рэжым мадэрацыі (Ctrl+Shift+A)">Мадэрацыя</a>
         <button class="btn btn-primary" onclick="closeModal('aboutModal')" data-i18n="closeModal">Зразумела</button>
       </div>
     </div>
@@ -135,7 +163,7 @@
 
         <div style="margin-bottom: 1rem;">
           <button id="btnPickOnMap" type="button" class="btn btn-secondary btn-sm">
-            🗺️ Выбраць каардынаты клікам на карце
+            Выбраць каардынаты клікам на карце
           </button>
         </div>
 
@@ -230,13 +258,99 @@
           </h4>
           <pre id="jsonOutputBox" class="json-output-box"></pre>
           <div style="margin-top: 0.75rem; display: flex; gap: 0.5rem;">
-            <button id="btnCopyJson" class="btn btn-primary btn-sm" data-i18n="btnCopyJson">📋 Скапіяваць JSON</button>
+            <button id="btnCopyJson" class="btn btn-primary btn-sm" data-i18n="btnCopyJson">Скапіяваць JSON</button>
           </div>
         </div>
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="closeModal('addPlaceModal')" data-i18n="closeModal">Закрыць</button>
         <button id="btnGenerateJson" class="btn btn-primary" data-i18n="btnGenerateJson">Згенераваць JSON</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- All Persons Modal -->
+  <div class="modal-overlay" id="allPersonsModal">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" data-i18n="allPersonsTitle">Беларускія дзеячы і асобы</h3>
+          <p class="modal-subtitle" data-i18n="allPersonsSubtitle">Выбітныя мастакі, пісьменнікі, навукоўцы і асветнікі, звязаныя з мясцінамі на карце свету.</p>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('allPersonsModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="persons-search-box">
+          <input type="text" id="personsSearchInput" class="form-input" placeholder="Пошук па імені альбо сферы дзейнасці..." data-i18n-placeholder="searchPersonsPlaceholder">
+        </div>
+        <div class="persons-grid" id="personsGridContainer">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('allPersonsModal')" data-i18n="closeModal">Закрыць</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single Person Detail Modal -->
+  <div class="modal-overlay" id="personModal">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <button class="btn btn-secondary btn-sm" onclick="closeModal('personModal'); openModal('allPersonsModal');" data-i18n="viewAllPersons">← Усе асобы</button>
+          <h3 class="modal-title" id="personModalTitle">Асоба</h3>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('personModal')">&times;</button>
+      </div>
+      <div class="modal-body" id="personModalBody">
+        <!-- Injected by JS -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('personModal')" data-i18n="closeModal">Закрыць</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Queue Modal -->
+  <div class="modal-overlay" id="adminQueueModal">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" data-i18n="adminModalTitle">Мадэрацыя неправераных каардынат</h3>
+          <p class="modal-subtitle" id="adminQueueStatsSubtitle">Клікайце «На карту» каб адрэгуляваць кропку на мясцовасці</p>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('adminQueueModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="admin-queue-list" id="adminQueueListContainer">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('adminQueueModal')" data-i18n="closeModal">Закрыць</button>
+        <button class="btn btn-primary" onclick="openAdminExportModal()" data-i18n="adminExportBtn">Экспарт JSON</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Export Modal -->
+  <div class="modal-overlay" id="adminExportModal">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <h3 class="modal-title" data-i18n="adminExportModalTitle">Экспарт абноўленага places.json</h3>
+        <button class="modal-close-btn" onclick="closeModal('adminExportModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+          Скапіюйце гэты JSON альбо спампуйце файл для захавання ў <code>data/places.json</code> рэпазіторыя:
+        </p>
+        <pre id="adminExportOutput" class="json-output-box" style="max-height: 380px;"></pre>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('adminExportModal')" data-i18n="closeModal">Закрыць</button>
+        <button id="btnAdminCopyFullJson" class="btn btn-secondary" data-i18n="btnCopyJson">Скапіяваць JSON</button>
+        <button id="btnAdminDownloadJson" class="btn btn-primary" data-i18n="adminDownloadJson">Спампаваць places.json</button>
       </div>
     </div>
   </div>
@@ -248,6 +362,7 @@
 
   <!-- App scripts and data -->
   <script src="data/places.js"></script>
+  <script src="data/persons.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>

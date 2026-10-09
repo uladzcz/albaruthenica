@@ -1,4 +1,51 @@
-window.INITIAL_PLACES = [
+window.PLACES_DATA = [
+  {
+    "id": "vilnia-ferdynand-ruszczyc-maironio",
+    "title": {
+      "by": "Мемарыяльная шыльда Фердынанду Рушчыцу (Maironio, 6)",
+      "ru": "Мемориальная доска Фердинанду Рущицу (Maironio, 6)",
+      "en": "Ferdynand Ruszczyc Memorial Plaque (Maironio, 6)"
+    },
+    "category": "plaque",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.68305,
+      25.29345
+    ],
+    "description": {
+      "by": "Адрас: Maironio, 6. Мемарыяльная шыльда памяці мастака, прафесара і дэкана Фердынанда Рушчыца ў двары Віленскай мастацкай акадэміі (былы бернардзінскі кляштар). Менавіта тут ён адраджаў мастацкае навучанне, кіраваў кафедрай жывапісу і стварыў выдатную мастацкую школу.",
+      "ru": "Адрес: Maironio, 6. Мемориальная доска памяти художника, профессора и декана Фердинанда Рущица во дворе Вильнюсской художественной академии (бывший бернардинский монастырь). Здесь он возрождал художественное образование и руководил кафедрой живописи.",
+      "en": "Address: Maironio g. 6, Vilnius. Memorial plaque honoring artist, professor, and dean Ferdynand Ruszczyc in the courtyard of the Vilnius Academy of Arts (former Bernardine monastery), where he directed the department of painting."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ferdynand_Ruszczyc.jpg/480px-Ferdynand_Ruszczyc.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Фердынанд Рушчыц",
+        "url": "https://be.wikipedia.org/wiki/Фердынанд_Рушчыц"
+      },
+      {
+        "title": "Віленская мастацкая акадэмія",
+        "url": "https://www.vda.lt"
+      }
+    ],
+    "tags": [
+      "Рушчыц",
+      "Вільня",
+      "Шыльда",
+      "Акадэмія",
+      "Мастацтва"
+    ],
+    "personId": "ferdynand-ruszczyc"
+  },
   {
     "id": "paris-orangerie-soutine",
     "title": {
@@ -54,21 +101,25 @@ window.INITIAL_PLACES = [
         "author": "Хаім Суцін (са Смілавіч)",
         "year": "1922–1923",
         "description": "Сусветна вядомы шэдэўр Суціна. Пасля таго, як амерыканскі мецэнат Альберт Барнс пабачыў гэтую карціну, ён выкупіў дзясяткі работ мастака, што імгненна прынесла выхадцу з Беларусі сусветную славу.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg/640px-Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg/640px-Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg",
+        "personId": "chaim-soutine"
       },
       {
         "title": "«Партрэт скульптара Аскара Мешчанінава»",
         "author": "Хаім Суцін",
         "year": "каля 1924",
-        "description": "Партрэт блізкага сябра і паплечніка па Парыжскай школе, скульптара Аскара Мешчанінава, які нарадзіўся ў Віцебску."
+        "description": "Партрэт блізкага сябра і паплечніка па Парыжскай школе, скульптара Аскара Мешчанінава, які нарадзіўся ў Віцебску.",
+        "personId": "chaim-soutine"
       },
       {
         "title": "«Вялікае дрэва ў Вансе» (Le Grand Arbre à Vence)",
         "author": "Хаім Суцін",
         "year": "каля 1929",
-        "description": "Экспрэсіўны пейзаж з драматычным віхравым мазком, у якім спалучаецца французская прырода з глыбокім унутраным псіхалагізмам мастака."
+        "description": "Экспрэсіўны пейзаж з драматычным віхравым мазком, у якім спалучаецца французская прырода з глыбокім унутраным псіхалагізмам мастака.",
+        "personId": "chaim-soutine"
       }
-    ]
+    ],
+    "personId": "chaim-soutine"
   },
   {
     "id": "nice-chagall-museum",
@@ -124,15 +175,18 @@ window.INITIAL_PLACES = [
         "title": "«Стварэнне чалавека» (La Création de l'Homme)",
         "author": "Марк Шагал (з Віцебска)",
         "year": "1956–1958",
-        "description": "Цэнтральнае палатно залы Быцця з яркім каларытам і характэрнымі для Шагала лятучымі постацямі анёлаў і людзей."
+        "description": "Цэнтральнае палатно залы Быцця з яркім каларытам і характэрнымі для Шагала лятучымі постацямі анёлаў і людзей.",
+        "personId": "marc-chagall"
       },
       {
         "title": "Вітражы для музея ў Ніцы",
         "author": "Марк Шагал",
         "year": "1971–1972",
-        "description": "Тры манументальныя блакітныя вітражы, якія асвятляюць канцэртную залу музея."
+        "description": "Тры манументальныя блакітныя вітражы, якія асвятляюць канцэртную залу музея.",
+        "personId": "marc-chagall"
       }
-    ]
+    ],
+    "personId": "marc-chagall"
   },
   {
     "id": "warsaw-mnw-wankowicz-ruszczyc",
@@ -161,7 +215,7 @@ window.INITIAL_PLACES = [
       "ru": "Один из крупнейших музеев региона хранит знаковые шедевры художников из Беларуси: «Портрет Адама Мицкевича» Валентия Ваньковича, монументальную «Землю» (1898) и пейзажи Богданова кисти Фердинанда Рущица.",
       "en": "One of Poland's premier art museums, holding landmark masterpieces by Belarusian-born masters: Walenty Wańkowicz's romantic 'Portrait of Adam Mickiewicz' and Ferdynand Ruszczyc's monumental symbolist canvas 'Earth' (1898)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ferdynand_Ruszczyc_-_Ziemia.jpg/640px-Ferdynand_Ruszczyc_-_Ziemia.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ferdynand_Ruszczyc%2C_Ziemia.jpg/960px-Ferdynand_Ruszczyc%2C_Ziemia.jpg",
     "links": [
       {
         "title": "Вікіпедыя: Нацыянальны музей у Варшаве",
@@ -185,24 +239,34 @@ window.INITIAL_PLACES = [
     ],
     "items": [
       {
-        "title": "«Зямля» (Ziemia)",
-        "author": "Фердынанд Рушчыц (з Багданава)",
+        "title": "«Зямля» («Ziemia»)",
+        "author": "Фердынанд Рушчыц",
         "year": "1898",
-        "description": "Эпахальнае палатно польска-беларускага сімвалізму. Араты з валамі на фоне драматычнага неба роднай зямлі.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ferdynand_Ruszczyc_-_Ziemia.jpg/640px-Ferdynand_Ruszczyc_-_Ziemia.jpg"
+        "description": "Эпахальнае палатно сімвалізму. Араты з валамі на фоне бязмежнага драматычнага неба роднай зямлі.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ferdynand_Ruszczyc%2C_Ziemia.jpg/960px-Ferdynand_Ruszczyc%2C_Ziemia.jpg",
+        "personId": "ferdynand-ruszczyc"
       },
       {
         "title": "«Партрэт Адама Міцкевіча на скале Аю-Даг»",
-        "author": "Валенцій Ваньковіч (з Ігуменшчыны)",
+        "author": "Валенцій Ваньковіч",
         "year": "1827–1828",
-        "description": "Культавы рамантычны вобраз паэта ў буйцы, натхнёны Крымскімі санетамі. Самы вядомы прыжыццёвы партрэт Міцкевіча."
+        "description": "Культавы рамантычны вобраз паэта ў буйцы, натхнёны Крымскімі санетамі. Самы вядомы прыжыццёвы партрэт Міцкевіча.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Adam_Mickiewicz_na_Judahu_skale.jpg/960px-Adam_Mickiewicz_na_Judahu_skale.jpg",
+        "personId": "walenty-wankowicz"
       },
       {
-        "title": "«Стары дом» (Stary dom w Bohdanowie)",
+        "title": "«Стары дом» («Stary dom w Bohdanowie»)",
         "author": "Фердынанд Рушчыц",
         "year": "1903",
-        "description": "Паэтычны вобраз роднай сядзібы Рушчыцаў у Багданаве на Валожыншчыне."
+        "description": "Паэтычны вобраз роднай сядзібы Рушчыцаў у Багданаве на Валожыншчыне.",
+        "personId": "ferdynand-ruszczyc"
       }
+    ],
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "ferdynand-ruszczyc",
+      "walenty-wankowicz",
+      "adam-mickiewicz"
     ]
   },
   {
@@ -232,7 +296,7 @@ window.INITIAL_PLACES = [
       "ru": "Национальный музей в Кракове хранит крупнейшее в мире собрание графики Наполеона Орды (свыше 1000 работ) — уроженца Вороцевичей на Пинщине. Бесценная визуальная летопись белорусских замков и усадеб XIX века.",
       "en": "The National Museum in Krakow holds the world's largest collection of drawings and watercolors by Napoleon Orda (over 1,000 works), depicting historic castles, churches, and manors across Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg/640px-Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg/960px-Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg",
     "links": [
       {
         "title": "Вікіпедыя: Нацыянальны музей у Кракаве",
@@ -257,22 +321,29 @@ window.INITIAL_PLACES = [
     "items": [
       {
         "title": "«Мірскі замак» (акварэль)",
-        "author": "Напалеон Орда (з Варацэвічаў)",
+        "author": "Напалеон Орда",
         "year": "1876",
-        "description": "Дакладны малюнак замка да перабудовы Святаполк-Мірскіх, які выкарыстоўваўся рэстаўратарамі пры аднаўленні помніка ЮНЕСКА."
+        "description": "Дакладны малюнак замка да перабудовы Святаполк-Мірскіх, які выкарыстоўваўся рэстаўратарамі пры аднаўленні помніка ЮНЕСКА.",
+        "personId": "napoleon-orda"
       },
       {
         "title": "«Руіны Навагрудскага замка»",
         "author": "Напалеон Орда",
         "year": "1876",
-        "description": "Гістарычная замалёўка Шчытоўскай і Касцельнай вежаў рэзідэнцыі вялікіх князёў літоўскіх."
+        "description": "Гістарычная замалёўка Шчытоўскай і Касцельнай вежаў рэзідэнцыі вялікіх князёў літоўскіх.",
+        "personId": "napoleon-orda"
       },
       {
         "title": "«Нясвіжскі замак Радзівілаў»",
         "author": "Напалеон Орда",
         "year": "1876",
-        "description": "Від на палацава-паркавы комплекс з боку абарончых валоў і замкавага става."
+        "description": "Від на рэзідэнцыю Радзівілаў з боку абарончых валоў і замкавага става.",
+        "personId": "napoleon-orda"
       }
+    ],
+    "personId": "napoleon-orda",
+    "personIds": [
+      "napoleon-orda"
     ]
   },
   {
@@ -329,15 +400,18 @@ window.INITIAL_PLACES = [
         "title": "Эскіз касцюма Жар-птушкі (The Firebird)",
         "author": "Леон Бакст (з Гродна)",
         "year": "1910",
-        "description": "Легендарны ўзор сцэнічнага авангарду для балета Ігара Стравінскага, набыты музеем у калекцыю тэатральнага дызайну."
+        "description": "Легендарны ўзор сцэнічнага авангарду для балета Ігара Стравінскага, набыты музеем у калекцыю тэатральнага дызайну.",
+        "personId": "leon-bakst"
       },
       {
         "title": "Касцюм баярына для балета «Барыс Гадуноў»",
         "author": "Леон Бакст",
         "year": "1913",
-        "description": "Арыгінальны аўтэнтычны сцэнічны касцюм, створаны па эскізах Бакста з выкарыстаннем гістарычнага ткацтва."
+        "description": "Арыгінальны аўтэнтычны сцэнічны касцюм, створаны па эскізах Бакста з выкарыстаннем гістарычнага ткацтва.",
+        "personId": "leon-bakst"
       }
-    ]
+    ],
+    "personId": "leon-bakst"
   },
   {
     "id": "new-york-moma-chagall-soutine",
@@ -393,14 +467,21 @@ window.INITIAL_PLACES = [
         "title": "«Я і вёска» (I and the Village)",
         "author": "Марк Шагал (з Віцебска)",
         "year": "1911",
-        "description": "Ключавы твор ранняга куба-футурыстычнага перыяду. Сімвалічная сустрэча селяніна і каровы на фоне віцебскай царквы і драўляных дамоў."
+        "description": "Ключавы твор ранняга куба-футурыстычнага перыяду. Сімвалічная сустрэча селяніна і каровы на фоне віцебскай царквы і драўляных дамоў.",
+        "personId": "marc-chagall"
       },
       {
         "title": "«Партрэт мужчыны» (Portrait of a Man)",
         "author": "Хаім Суцін (са Смілавіч)",
         "year": "1919",
-        "description": "Драматычны экспрэсіянісцкі партрэт ранняга парыжскага перыяду мастака."
+        "description": "Драматычны экспрэсіянісцкі партрэт ранняга парыжскага перыяду мастака.",
+        "personId": "chaim-soutine"
       }
+    ],
+    "personId": "chaim-soutine",
+    "personIds": [
+      "marc-chagall",
+      "chaim-soutine"
     ]
   },
   {
@@ -457,14 +538,21 @@ window.INITIAL_PLACES = [
         "title": "«Вяселле» (Les Mariés)",
         "author": "Марк Шагал",
         "year": "1910",
-        "description": "Адна з першых парыжскіх работ Шагала, напісаная пад уражаннем ад традыцыйных беларускіх вяселляў."
+        "description": "Адна з першых парыжскіх работ Шагала, напісаная пад уражаннем ад традыцыйных беларускіх вяселляў.",
+        "personId": "marc-chagall"
       },
       {
         "title": "Скульптура «Жанчына з веерам»",
         "author": "Восіп Цадкін (з Віцебшчыны)",
         "year": "1923",
-        "description": "Знакавая бронзавая скульптура геаметрычнага кубізму Цадкіна."
+        "description": "Знакавая бронзавая скульптура геаметрычнага кубізму Цадкіна.",
+        "personId": "ossip-zadkine"
       }
+    ],
+    "personId": "marc-chagall",
+    "personIds": [
+      "marc-chagall",
+      "ossip-zadkine"
     ]
   },
   {
@@ -517,14 +605,22 @@ window.INITIAL_PLACES = [
         "title": "«Літоўка з вербамі» (Lietuvaitė su verbomis)",
         "author": "Кануты Русецкі (з Навагрудчыны/Вільні)",
         "year": "1847",
-        "description": "Сімвал мастацтва віленскага краю ХІХ ст. Партрэт дзяўчыны ў традыцыйным убранні перад касцёлам Св. Ганны ў Вербную нядзелю."
+        "description": "Сімвал мастацтва віленскага краю ХІХ ст. Партрэт дзяўчыны ў традыцыйным убранні перад касцёлам Св. Ганны ў Вербную нядзелю.",
+        "personId": "kanuty-rusiecki"
       },
       {
         "title": "«Вызваленне Т. Касцюшкі з цямніцы»",
         "author": "Ян Дамель",
         "year": "пачатак XIX ст.",
-        "description": "Гістарычнае палатно пра вызваленне лідара паўстання Тадэвуша Касцюшкі."
+        "description": "Гістарычнае палатно пра вызваленне лідара паўстання Тадэвуша Касцюшкі.",
+        "personId": "tadeusz-kosciuszko"
       }
+    ],
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "kanuty-rusiecki",
+      "ferdynand-ruszczyc",
+      "walenty-wankowicz"
     ]
   },
   {
@@ -577,13 +673,15 @@ window.INITIAL_PLACES = [
         "title": "Капліца паўстанцаў 1863–1864 гадоў",
         "person": "Кастусь Каліноўскі і Зыгмунт Серакоўскі",
         "year": "Перапахаванне 2019 г.",
-        "description": "Урачысты пантэон знойдзеных на Замкавай гары і перапахаваных герояў вызваленчага паўстання."
+        "description": "Урачысты пантэон знойдзеных на Замкавай гары і перапахаваных герояў вызваленчага паўстання.",
+        "personId": "kastus-kalinouski"
       },
       {
         "title": "Магіла Івана Луцкевіча",
         "person": "Іван Луцкевіч (1881–1919)",
         "year": "Перапахаваны ў 1991 г.",
-        "description": "Адзін з галоўных стваральнікаў «Нашай Нівы», Беларускага музея ў Вільні і заснавальнікаў ідэі незалежнасці БНР."
+        "description": "Адзін з галоўных стваральнікаў «Нашай Нівы», Беларускага музея ў Вільні і заснавальнікаў ідэі незалежнасці БНР.",
+        "personId": "ivan-lutskevich"
       },
       {
         "title": "Магіла Францішка Аляхновіча",
@@ -595,6 +693,11 @@ window.INITIAL_PLACES = [
         "person": "Уладзіслаў Сыракомля (1823–1862)",
         "description": "«Вясковы лірнік», паэт, які апяваў беларускі край, фальклор і гісторыю."
       }
+    ],
+    "personId": "kastus-kalinouski",
+    "personIds": [
+      "kastus-kalinouski",
+      "ivan-lutskevich"
     ]
   },
   {
@@ -769,14 +872,16 @@ window.INITIAL_PLACES = [
       {
         "title": "Першапачатковая магіла Адама Міцкевіча",
         "person": "Адам Міцкевіч (1798–1855)",
-        "description": "Месца пахавання паэта з Навагрудчыны з 1856 да 1890 года, калі яго прах быў перавезены ў Вавельскі сабор у Кракаве."
+        "description": "Месца пахавання паэта з Навагрудчыны з 1856 да 1890 года, калі яго прах быў перавезены ў Вавельскі сабор у Кракаве.",
+        "personId": "adam-mickiewicz"
       },
       {
         "title": "Магіла Цыпрыяна Каміля Норвіда",
         "person": "Цыпрыян Норвід (1821–1883)",
         "description": "Выбітны паэт, мастак і мысліцель эпохі рамантызму."
       }
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "skaryna-prague-monument",
@@ -817,7 +922,8 @@ window.INITIAL_PLACES = [
       "Асветніцтва",
       "XVI стагоддзе",
       "Прага"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnius-ostra-brama",
@@ -862,7 +968,8 @@ window.INITIAL_PLACES = [
       "Багдановіч",
       "Святыні",
       "Вільня"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnius-bazyliany-gymnasium",
@@ -903,7 +1010,8 @@ window.INITIAL_PLACES = [
       "Гімназія",
       "Луцкевіч",
       "Вільня"
-    ]
+    ],
+    "personId": "ivan-lutskevich"
   },
   {
     "id": "london-st-cyril-church",
@@ -998,14 +1106,16 @@ window.INITIAL_PLACES = [
       {
         "title": "Арыгінальныя выданні Францыска Скарыны (1517–1519)",
         "person": "Францыск Скарына",
-        "description": "Рэдкія фрагменты першадрукаў пражскай Бібліі Скарыны."
+        "description": "Рэдкія фрагменты першадрукаў пражскай Бібліі Скарыны.",
+        "personId": "francysk-skaryna"
       },
       {
         "title": "Архівы Беларускай Народнай Рэспублікі і дзеячаў эміграцыі",
         "person": "Айцец Аляксандр Надсан",
         "description": "Унікальныя лісты, рукапісы і перыёдыка беларускага нацыянальнага руху."
       }
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "warsaw-kosciuszko-monument",
@@ -1045,7 +1155,8 @@ window.INITIAL_PLACES = [
       "Касцюшка",
       "Паўстанне 1794",
       "Варшава"
-    ]
+    ],
+    "personId": "tadeusz-kosciuszko"
   },
   {
     "id": "warsaw-free-belarus-museum",
@@ -1168,7 +1279,8 @@ window.INITIAL_PLACES = [
       "Навука",
       "Чылі",
       "Лацінская Амерыка"
-    ]
+    ],
+    "personId": "ignacy-domeyko"
   },
   {
     "id": "solothurn-kosciuszko-museum",
@@ -1218,14 +1330,17 @@ window.INITIAL_PLACES = [
       {
         "title": "Мемарыяльны пакой і пасмяротная маска",
         "person": "Тадэвуш Касцюшка",
-        "description": "Пакой, дзе памёр герой, з захаванымі арыгінальнымі мэбляй, пасмяротнай маскай і асабістымі рэчамі."
+        "description": "Пакой, дзе памёр герой, з захаванымі арыгінальнымі мэбляй, пасмяротнай маскай і асабістымі рэчамі.",
+        "personId": "tadeusz-kosciuszko"
       },
       {
         "title": "Шабля і ўзнагароды Касцюшкі",
         "person": "Тадэвуш Касцюшка",
-        "description": "Баявая зброя і ордэн Цынцыната, уручаны Джорджам Вашынгтонам за вызваленне ЗША."
+        "description": "Баявая зброя і ордэн Цынцыната, уручаны Джорджам Вашынгтонам за вызваленне ЗША.",
+        "personId": "tadeusz-kosciuszko"
       }
-    ]
+    ],
+    "personId": "tadeusz-kosciuszko"
   },
   {
     "id": "padua-skaryna-aula-magna",
@@ -1271,7 +1386,8 @@ window.INITIAL_PLACES = [
       "Адукацыя",
       "Рэнесанс",
       "Італія"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "hajnowka-museum-belarusian-culture",
@@ -1519,6 +1635,11 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
+    ],
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "ignacy-domeyko",
+      "adam-mickiewicz"
     ]
   },
   {
@@ -1560,6 +1681,11 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
+    ],
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz",
+      "ignacy-domeyko"
     ]
   },
   {
@@ -1724,7 +1850,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "grave"
-    ]
+    ],
+    "personId": "kastus-kalinouski"
   },
   {
     "id": "vilnia-litowski-natsyyanalny-muzey",
@@ -1970,7 +2097,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "branislau-tarashkevich"
   },
   {
     "id": "vilnia-pasolski-klub-zmahanne",
@@ -2093,7 +2221,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-kavyarnya-krasnyy-shtral",
@@ -2134,7 +2263,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-arkhikafedralny-sabor",
@@ -2216,7 +2346,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-shpital-mishmeras-khoylem",
@@ -2380,7 +2511,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "ferdynand-ruszczyc"
   },
   {
     "id": "vilnia-palats-slushki",
@@ -2462,7 +2594,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-kryzh-pamyatsi-pawstantsaw",
@@ -2503,7 +2636,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "kastus-kalinouski"
   },
   {
     "id": "vilnia-byly-dom-prafsayuzaw",
@@ -2626,7 +2760,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-dom-vilenskaha-biskupa",
@@ -2790,7 +2925,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "ferdynand-ruszczyc"
   },
   {
     "id": "vilnia-dom-krashewskaha",
@@ -2954,7 +3090,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "francisak-bahusevic"
   },
   {
     "id": "vilnia-kastsyol-svyatykh-pyatra-i-pawla",
@@ -3036,7 +3173,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "ivan-lutskevich"
   },
   {
     "id": "vilnia-pomnik-adamu-mitskevichu",
@@ -3077,7 +3215,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-drukarnya-imya-f-skaryny-1930-36",
@@ -3118,7 +3257,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnia-dom-nahrodskaha",
@@ -3159,7 +3299,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "francisak-bahusevic"
   },
   {
     "id": "vilnia-dom-halkowskaha",
@@ -3200,7 +3341,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "grave"
-    ]
+    ],
+    "personId": "francisak-bahusevic"
   },
   {
     "id": "vilnia-vydavetstva-kletskina",
@@ -3241,7 +3383,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-syabryna",
@@ -3364,7 +3507,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnia-vilenskaya-katalitskaya-dukhownaya-seminaryya",
@@ -3446,7 +3590,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnia-drukarnya-mamonichaw-skulptura-letapisets",
@@ -3487,7 +3632,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "monument"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnia-tsentr-belarusistyki-vilenskaha-peduniversite",
@@ -3569,7 +3715,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-palats-radzivilaw-sapehaw-patsaw",
@@ -3610,7 +3757,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "kastus-kalinouski"
   },
   {
     "id": "vilnia-drukarnya-vilenskay-ezuitskay-akademii",
@@ -3651,7 +3799,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-kastsyol-svyatoha-yana",
@@ -3692,7 +3841,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "tadeusz-kosciuszko"
   },
   {
     "id": "vilnia-ulyubyony-bar-karatkevicha",
@@ -3774,7 +3924,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "grave"
-    ]
+    ],
+    "personId": "ivan-lutskevich"
   },
   {
     "id": "vilnia-administratsyya-ehu",
@@ -3897,6 +4048,11 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
+    ],
+    "personId": "francisak-bahusevic",
+    "personIds": [
+      "maksim-bahdanovich",
+      "francisak-bahusevic"
     ]
   },
   {
@@ -3979,7 +4135,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-kastsyol-svyatoha-bartalameya",
@@ -4061,7 +4218,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "ferdynand-ruszczyc"
   },
   {
     "id": "vilnia-kanstytutsyynaya-stsyana",
@@ -4143,7 +4301,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "ivan-lutskevich"
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1914-15-memaryyalnaya-",
@@ -4184,7 +4343,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-pershaya-redaktsyya-nashay-doli",
@@ -4307,7 +4467,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "stanislaw-moniuszko"
   },
   {
     "id": "vilnia-shtab-kvatera-zakhodnebelaruskikh-arhanizatsy",
@@ -4389,7 +4550,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-rezidentsyya-radzivilaw-belaruski-bank-i-reda",
@@ -4430,7 +4592,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "ivan-lutskevich"
   },
   {
     "id": "vilnia-dom-myulera-memaryyalnaya-shylda-s-manyushku",
@@ -4471,7 +4634,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "stanislaw-moniuszko"
   },
   {
     "id": "vilnia-palats-antoni-tyzenhawza",
@@ -4594,7 +4758,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "kastus-kalinouski"
   },
   {
     "id": "vilnia-redaktsyya-adnowlenay-nashay-nivy-1991-96",
@@ -4840,7 +5005,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-syadziba-tavarystva-belaruskay-kultury-w-litv",
@@ -4881,7 +5047,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "ivan-lutskevich"
   },
   {
     "id": "vilnia-pyatnitskaya-tsarkva",
@@ -5045,7 +5212,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-palats-abramovichaw",
@@ -5250,7 +5418,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personId": "ferdynand-ruszczyc"
   },
   {
     "id": "vilnia-prachystsenski-kafedralny-sabor",
@@ -5332,7 +5501,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "adam-mickiewicz"
   },
   {
     "id": "vilnia-kastsyol-svyatoha-mikalaya",
@@ -5496,7 +5666,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnia-dom-shyrmy",
@@ -5578,7 +5749,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personId": "francisak-bahusevic"
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1911-13-kvatera-lastow",
@@ -5619,6 +5791,11 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "plaque"
+    ],
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "vaclau-lastouski",
+      "ivan-lutskevich"
     ]
   },
   {
@@ -5660,7 +5837,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "kastus-kalinouski"
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1907",
@@ -5742,7 +5920,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-pershaya-redaktsyya-nashay-nivy",
@@ -5865,7 +6044,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-kvatera-sakalovay-lekant",
@@ -6070,7 +6250,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "yanka-kupala"
   },
   {
     "id": "vilnia-kvatera-paznyaka",
@@ -6111,7 +6292,8 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personId": "francysk-skaryna"
   },
   {
     "id": "vilnia-redaktsyya-chasopisa-malanka",
@@ -6234,6 +6416,5016 @@ window.INITIAL_PLACES = [
       "Вільня",
       "Гісторыя",
       "culture"
+    ],
+    "personId": "stanislaw-moniuszko"
+  },
+  {
+    "id": "riga-arhanizatsy-zbor-bel-kamitetu",
+    "title": {
+      "by": "Арганiзацы збор бел. камiтэту",
+      "ru": "Арганiзацы збор бел. камiтэту",
+      "en": "Riga: Арганiзацы збор бел. камiтэту"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94783,
+      24.10645
+    ],
+    "description": {
+      "by": "\"Организаціонный Бѣлорусскій комитеть проситъ товарищей бѣлоруссовъ 20 іюля, въ четвергъ, прибыть на собраніе въ г. Ригѣ, къ 18 1/2 час. (Ратушная пл. 1 пом. не п. к.) для разсмотрѣнія вопроса о націонализации группы и др\". \"Рижское обозрение\" Nr.161 ад 19.07.1917",
+      "ru": "\"Организаціонный Бѣлорусскій комитеть проситъ товарищей бѣлоруссовъ 20 іюля, въ четвергъ, прибыть на собраніе въ г. Ригѣ, къ 18 1/2 час. (Ратушная пл. 1 пом. не п. к.) для разсмотрѣнія вопроса о націонализации группы и др\". \"Рижское обозрение\" Nr.161 ад 19.07.1917",
+      "en": "\"Организаціонный Бѣлорусскій комитеть проситъ товарищей бѣлоруссовъ 20 іюля, въ четвергъ, прибыть на собраніе въ г. Ригѣ, къ 18 1/2 час. (Ратушная пл. 1 пом. не п. к.) для разсмотрѣнія вопроса о націонализации группы и др\". \"Рижское обозрение\" Nr.161 ад 19.07.1917"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-skhod-belarusaw-vayskowtsaw-paunochnaha-",
+    "title": {
+      "by": "Сход беларусаў-вайскоўцаў Пауночнага фронту",
+      "ru": "Сход беларусаў-вайскоўцаў Пауночнага фронту",
+      "en": "Riga: Сход беларусаў-вайскоўцаў Пауночнага фронту"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94725,
+      24.11395
+    ],
+    "description": {
+      "by": "2-га жнiўня 1917 года ў вялiкай зале будынака Нямецкага рамеснiцкага таварыства па ініцыятыве Язэпа Мамонька i Макарэвiча адбыўся вялiкi мiтынг якi стал пачаткам арганiзацыi беларусаў-вайскоўцаў Паўночнага фронту. (К.Езавiтаў \"Беларусы ў Латвii\") Рижское утро : ежедневная утренняя газета, Nr.186 (02.08.1917)",
+      "ru": "2-га жнiўня 1917 года ў вялiкай зале будынака Нямецкага рамеснiцкага таварыства па ініцыятыве Язэпа Мамонька i Макарэвiча адбыўся вялiкi мiтынг якi стал пачаткам арганiзацыi беларусаў-вайскоўцаў Паўночнага фронту. (К.Езавiтаў \"Беларусы ў Латвii\") Рижское утро : ежедневная утренняя газета, Nr.186 (02.08.1917)",
+      "en": "2-га жнiўня 1917 года ў вялiкай зале будынака Нямецкага рамеснiцкага таварыства па ініцыятыве Язэпа Мамонька i Макарэвiча адбыўся вялiкi мiтынг якi стал пачаткам арганiзацыi беларусаў-вайскоўцаў Паўночнага фронту. (К.Езавiтаў \"Беларусы ў Латвii\") Рижское утро : ежедневная утренняя газета, Nr.186 (02.08.1917)"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-1-y-skhod-belaruskoy-kalonii",
+    "title": {
+      "by": "1-ы сход беларуской калонii",
+      "ru": "1-ы сход беларуской калонii",
+      "en": "Riga: 1-ы сход беларуской калонii"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95219,
+      24.12209
+    ],
+    "description": {
+      "by": "У зале таварыства “Кармель” 7 верасня 1919 г. адбыўся 1-ым агульны сход Беларускай Калоніі ў Латвіі , якi сабраў 500 беларускiх грамадзян знаходзiўшыхся на той момант у Рызе. \"Тут можна было пабачыць простага рабочага побач з чыноўнікам, рамесніка побач з габрэйскім гандляром, сялянку з немаўлятамi на руках побач са шляцiчам.\"",
+      "ru": "У зале таварыства “Кармель” 7 верасня 1919 г. адбыўся 1-ым агульны сход Беларускай Калоніі ў Латвіі , якi сабраў 500 беларускiх грамадзян знаходзiўшыхся на той момант у Рызе. \"Тут можна было пабачыць простага рабочага побач з чыноўнікам, рамесніка побач з габрэйскім гандляром, сялянку з немаўлятамi на руках побач са шляцiчам.\"",
+      "en": "У зале таварыства “Кармель” 7 верасня 1919 г. адбыўся 1-ым агульны сход Беларускай Калоніі ў Латвіі , якi сабраў 500 беларускiх грамадзян знаходзiўшыхся на той момант у Рызе. \"Тут можна было пабачыць простага рабочага побач з чыноўнікам, рамесніка побач з габрэйскім гандляром, сялянку з немаўлятамi на руках побач са шляцiчам.\""
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-kansulat-bnr-z-26-9-19-pa-10-20",
+    "title": {
+      "by": "Кансулат БНР з 26.9.19 па 10.20",
+      "ru": "Кансулат БНР з 26.9.19 па 10.20",
+      "en": "Riga: Кансулат БНР з 26.9.19 па 10.20"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95054,
+      24.10241
+    ],
+    "description": {
+      "by": "У гэтым будынку (кватэра №3) пачал працу кансулат БНР i 26 верасня 1919 г. ўпершыню ў Рызе быў узняты беларускі сцяг: \"Вчера по Малой Замковой улицѣ № 3 у дома, гдѣ помѣщается бѣлорусскій рижскій представитель, быль поднять новый для Риги бѣлорусскій національный флагъ, составленный из трех параллельныхъ полось бѣло-красно-благо цвѣтовъ\". (газета «Сегодня» №12 ад 27.09.19).",
+      "ru": "У гэтым будынку (кватэра №3) пачал працу кансулат БНР i 26 верасня 1919 г. ўпершыню ў Рызе быў узняты беларускі сцяг: \"Вчера по Малой Замковой улицѣ № 3 у дома, гдѣ помѣщается бѣлорусскій рижскій представитель, быль поднять новый для Риги бѣлорусскій національный флагъ, составленный из трех параллельныхъ полось бѣло-красно-благо цвѣтовъ\". (газета «Сегодня» №12 ад 27.09.19).",
+      "en": "У гэтым будынку (кватэра №3) пачал працу кансулат БНР i 26 верасня 1919 г. ўпершыню ў Рызе быў узняты беларускі сцяг: \"Вчера по Малой Замковой улицѣ № 3 у дома, гдѣ помѣщается бѣлорусскій рижскій представитель, быль поднять новый для Риги бѣлорусскій національный флагъ, составленный из трех параллельныхъ полось бѣло-красно-благо цвѣтовъ\". (газета «Сегодня» №12 ад 27.09.19)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-vayskova-dyplyamatychnaya-misiya",
+    "title": {
+      "by": "Вайскова-дыпляматычная місія",
+      "ru": "Вайскова-дыпляматычная місія",
+      "en": "Riga: Вайскова-дыпляматычная місія"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95775,
+      24.11651
+    ],
+    "description": {
+      "by": "Тут працавала вайскова-дыпляматычная місія БНР ў Латвii i Эстонii пад кіраўніцтвам палкоўніка Кастуся Езавітава. У перыяд з кастрычншка 1919 г. па студзень 1920 г. размяшчаўся кансулат БНР.",
+      "ru": "Тут працавала вайскова-дыпляматычная місія БНР ў Латвii i Эстонii пад кіраўніцтвам палкоўніка Кастуся Езавітава. У перыяд з кастрычншка 1919 г. па студзень 1920 г. размяшчаўся кансулат БНР.",
+      "en": "Тут працавала вайскова-дыпляматычная місія БНР ў Латвii i Эстонii пад кіраўніцтвам палкоўніка Кастуся Езавітава. У перыяд з кастрычншка 1919 г. па студзень 1920 г. размяшчаўся кансулат БНР."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-kansulat-bnr-z-8-01-20-pa-1-02-21",
+    "title": {
+      "by": "Кансулат БНР з 8.01.20 па 1.02.21",
+      "ru": "Кансулат БНР з 8.01.20 па 1.02.21",
+      "en": "Riga: Кансулат БНР з 8.01.20 па 1.02.21"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9576,
+      24.10749
+    ],
+    "description": {
+      "by": "У гэтым будынку (кватэра №3) размяшчался Кансулат БНР у перыяд з 8 студзеня 1920 г. па 1 лютага 1921 г. Рэдакцыя часопiса \"На чужыне\"",
+      "ru": "У гэтым будынку (кватэра №3) размяшчался Кансулат БНР у перыяд з 8 студзеня 1920 г. па 1 лютага 1921 г. Рэдакцыя часопiса \"На чужыне\"",
+      "en": "У гэтым будынку (кватэра №3) размяшчался Кансулат БНР у перыяд з 8 студзеня 1920 г. па 1 лютага 1921 г. Рэдакцыя часопiса \"На чужыне\""
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-t-va-batskawshchyna",
+    "title": {
+      "by": "Т-ва \"Бацькаўшчына\"",
+      "ru": "Т-ва \"Бацькаўшчына\"",
+      "en": "Riga: Т-ва \"Бацькаўшчына\""
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95066,
+      24.10946
+    ],
+    "description": {
+      "by": "У гэтым будынку (Вялiкая Крэпасная 3/5) размяшчалася таварыства \"Бацькаўшчына\" \"Вчера (3 сакавiка) бѣлорусская колонія въ Ригѣ праздновала открытіе клуба культурно-просвѣтительнаго общества \"Батьковщина\". Клубь занимаетъ великолепное помѣщеніе, сь зрительнымъ заломъ, гостинными, буфе томъ и пр. На открытие собралось много публики\". (газета «Сегодня» №53 ад 05.03.1920).",
+      "ru": "У гэтым будынку (Вялiкая Крэпасная 3/5) размяшчалася таварыства \"Бацькаўшчына\" \"Вчера (3 сакавiка) бѣлорусская колонія въ Ригѣ праздновала открытіе клуба культурно-просвѣтительнаго общества \"Батьковщина\". Клубь занимаетъ великолепное помѣщеніе, сь зрительнымъ заломъ, гостинными, буфе томъ и пр. На открытие собралось много публики\". (газета «Сегодня» №53 ад 05.03.1920).",
+      "en": "У гэтым будынку (Вялiкая Крэпасная 3/5) размяшчалася таварыства \"Бацькаўшчына\" \"Вчера (3 сакавiка) бѣлорусская колонія въ Ригѣ праздновала открытіе клуба культурно-просвѣтительнаго общества \"Батьковщина\". Клубь занимаетъ великолепное помѣщеніе, сь зрительнымъ заломъ, гостинными, буфе томъ и пр. На открытие собралось много публики\". (газета «Сегодня» №53 ад 05.03.1920)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-t-va-belaruskae-moladzi",
+    "title": {
+      "by": "Т-ва беларускае моладзі",
+      "ru": "Т-ва беларускае моладзі",
+      "en": "Riga: Т-ва беларускае моладзі"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9468,
+      24.11083
+    ],
+    "description": {
+      "by": "У гэтым будынку па вул. Канюшаннай 2/4 ў памяшканнi школы танцаў Каўліня ладзіла свае спэктаклi і пастаноўкі Таварыства беларускае моладзі (К.Езавітаў \"Беларусы ў Рызе\" 1934).",
+      "ru": "У гэтым будынку па вул. Канюшаннай 2/4 ў памяшканнi школы танцаў Каўліня ладзіла свае спэктаклi і пастаноўкі Таварыства беларускае моладзі (К.Езавітаў \"Беларусы ў Рызе\" 1934).",
+      "en": "У гэтым будынку па вул. Канюшаннай 2/4 ў памяшканнi школы танцаў Каўліня ладзіла свае спэктаклi і пастаноўкі Таварыства беларускае моладзі (К.Езавітаў \"Беларусы ў Рызе\" 1934)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-t-va-belaruskaha-teatru",
+    "title": {
+      "by": "Т-ва беларускага тэатру",
+      "ru": "Т-ва беларускага тэатру",
+      "en": "Riga: Т-ва беларускага тэатру"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95314,
+      24.12129
+    ],
+    "description": {
+      "by": "У памяшканні № 25 будынка на Мельнічнай 66 размяшчалася Бюро Т-ва беларускага тэатру (К.Езавітаў \"Беларусы ў Рызе\" 1934). Першы арганізацыйны сход адбыўся 25 сакавіка 1927 году. Таварыства ўзьнікла зь Беларускіх (1-й і 2-й) драматычных дружын Ігната Дварчаніна і Я. Камаржынскага, драматычных гурткоў пры Дзьвінскай і Люцынскай беларускіх гімназіях, таварыстваў «Рунь» і «Беларуская хата», Беларускага народнага тэатру (І-га) у Рызе. Падрабязнее: https://w.wiki/7X8b",
+      "ru": "У памяшканні № 25 будынка на Мельнічнай 66 размяшчалася Бюро Т-ва беларускага тэатру (К.Езавітаў \"Беларусы ў Рызе\" 1934). Першы арганізацыйны сход адбыўся 25 сакавіка 1927 году. Таварыства ўзьнікла зь Беларускіх (1-й і 2-й) драматычных дружын Ігната Дварчаніна і Я. Камаржынскага, драматычных гурткоў пры Дзьвінскай і Люцынскай беларускіх гімназіях, таварыстваў «Рунь» і «Беларуская хата», Беларускага народнага тэатру (І-га) у Рызе. Падрабязнее: https://w.wiki/7X8b",
+      "en": "У памяшканні № 25 будынка на Мельнічнай 66 размяшчалася Бюро Т-ва беларускага тэатру (К.Езавітаў \"Беларусы ў Рызе\" 1934). Першы арганізацыйны сход адбыўся 25 сакавіка 1927 году. Таварыства ўзьнікла зь Беларускіх (1-й і 2-й) драматычных дружын Ігната Дварчаніна і Я. Камаржынскага, драматычных гурткоў пры Дзьвінскай і Люцынскай беларускіх гімназіях, таварыстваў «Рунь» і «Беларуская хата», Беларускага народнага тэатру (І-га) у Рызе. Падрабязнее: https://w.wiki/7X8b"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-belaruskaya-sinahoha",
+    "title": {
+      "by": "Беларуская сінагога",
+      "ru": "Беларуская сінагога",
+      "en": "Riga: Беларуская сінагога"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94066,
+      24.12624
+    ],
+    "description": {
+      "by": "Архітэрктар Паўл Мандэлштам у кнізе \"Будаўніцтва ў Рызе\" (Рыга, 1903) піша, што \"беларуская сінагога была пабудавана ў 1875 годзе па праекце губернскага архітэктара Паўля фон Гардэнака на Эласштрассе. Гэта быў прадаўгаваты будынак у рамантычным стылі, раз'яднаны на тры незалежныя памяшканні масіўнымі сценамі, каб было магчыма асобна праводзіць службы па абрадах розных традыцый\" (1). Праз 8 гадоў прадпрымальнік Шая Бярковіч Берлін (2) (1841-1908) замовіў рэканструцыю архітэктару Віктару дэ Грабе (3) i 25 жніўня 1985 г. адбылося адкрыцце новага будынка. Пабудаваная сінагога атрымала назву «Райсішэ міньянім» i стала цэнтральнай для беларускіх яўрэяў-хасідаў. Была спалена пад час другой сусветнай вайны 4 ліпеня 1941 года. Зараз на гэтым месцы знаходiцца будынак праектнага інстытута «Латгіпрасельбуд» (Elijas iela 17). У музеі Рыжскага гета зараз магчыма пабачыць рэканструяваны макет.",
+      "ru": "Архітэрктар Паўл Мандэлштам у кнізе \"Будаўніцтва ў Рызе\" (Рыга, 1903) піша, што \"беларуская сінагога была пабудавана ў 1875 годзе па праекце губернскага архітэктара Паўля фон Гардэнака на Эласштрассе. Гэта быў прадаўгаваты будынак у рамантычным стылі, раз'яднаны на тры незалежныя памяшканні масіўнымі сценамі, каб было магчыма асобна праводзіць службы па абрадах розных традыцый\" (1). Праз 8 гадоў прадпрымальнік Шая Бярковіч Берлін (2) (1841-1908) замовіў рэканструцыю архітэктару Віктару дэ Грабе (3) i 25 жніўня 1985 г. адбылося адкрыцце новага будынка. Пабудаваная сінагога атрымала назву «Райсішэ міньянім» i стала цэнтральнай для беларускіх яўрэяў-хасідаў. Была спалена пад час другой сусветнай вайны 4 ліпеня 1941 года. Зараз на гэтым месцы знаходiцца будынак праектнага інстытута «Латгіпрасельбуд» (Elijas iela 17). У музеі Рыжскага гета зараз магчыма пабачыць рэканструяваны макет.",
+      "en": "Архітэрктар Паўл Мандэлштам у кнізе \"Будаўніцтва ў Рызе\" (Рыга, 1903) піша, што \"беларуская сінагога была пабудавана ў 1875 годзе па праекце губернскага архітэктара Паўля фон Гардэнака на Эласштрассе. Гэта быў прадаўгаваты будынак у рамантычным стылі, раз'яднаны на тры незалежныя памяшканні масіўнымі сценамі, каб было магчыма асобна праводзіць службы па абрадах розных традыцый\" (1). Праз 8 гадоў прадпрымальнік Шая Бярковіч Берлін (2) (1841-1908) замовіў рэканструцыю архітэктару Віктару дэ Грабе (3) i 25 жніўня 1985 г. адбылося адкрыцце новага будынка. Пабудаваная сінагога атрымала назву «Райсішэ міньянім» i стала цэнтральнай для беларускіх яўрэяў-хасідаў. Была спалена пад час другой сусветнай вайны 4 ліпеня 1941 года. Зараз на гэтым месцы знаходiцца будынак праектнага інстытута «Латгіпрасельбуд» (Elijas iela 17). У музеі Рыжскага гета зараз магчыма пабачыць рэканструяваны макет."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-pazyka-dabrachynnae-tavarystva",
+    "title": {
+      "by": "Пазыка-дабрачыннае таварыства",
+      "ru": "Пазыка-дабрачыннае таварыства",
+      "en": "Riga: Пазыка-дабрачыннае таварыства"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94881,
+      24.12081
+    ],
+    "description": {
+      "by": "У памяшканні № 20 размяшчалася Рыжскае пазыка-дабрачыннае яўрэйскае таварыства, заснаванае беларускімі яўрэямі ў 1908 г.(\"Сегодня\" Nr.134 ад 27.06.1923).",
+      "ru": "У памяшканні № 20 размяшчалася Рыжскае пазыка-дабрачыннае яўрэйскае таварыства, заснаванае беларускімі яўрэямі ў 1908 г.(\"Сегодня\" Nr.134 ад 27.06.1923).",
+      "en": "У памяшканні № 20 размяшчалася Рыжскае пазыка-дабрачыннае яўрэйскае таварыства, заснаванае беларускімі яўрэямі ў 1908 г.(\"Сегодня\" Nr.134 ад 27.06.1923)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-bel-adzel-min-asvety",
+    "title": {
+      "by": "Бел. адзел Мiн. асветы",
+      "ru": "Бел. адзел Мiн. асветы",
+      "en": "Riga: Бел. адзел Мiн. асветы"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9594,
+      24.11934
+    ],
+    "description": {
+      "by": "У гэтым будынку (стары адрас K.Valdemāra iela 36/1) размяшчаўся Беларускi адзел Мiнiстэрства асветы Латвii з 1921 по 1934 г.г.",
+      "ru": "У гэтым будынку (стары адрас K.Valdemāra iela 36/1) размяшчаўся Беларускi адзел Мiнiстэрства асветы Латвii з 1921 по 1934 г.г.",
+      "en": "У гэтым будынку (стары адрас K.Valdemāra iela 36/1) размяшчаўся Беларускi адзел Мiнiстэрства асветы Латвii з 1921 по 1934 г.г."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-belaruskae-vydavetstva-w-latvii",
+    "title": {
+      "by": "Беларускае выдавецтва ў Латвii",
+      "ru": "Беларускае выдавецтва ў Латвii",
+      "en": "Riga: Беларускае выдавецтва ў Латвii"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94952,
+      24.13637
+    ],
+    "description": {
+      "by": "На гэтым месцы (вул. Гертрудзiнская 80, кв.4) знаходзiуся будынак ў якiм у 20-х гадах размяшчалiся Беларускае выдавецтва ў Латвii i рэдакцыя штомесячнiка \"Беларуская школа ў Латвii\" пад рэдакцыяй К.Езавiтава.",
+      "ru": "На гэтым месцы (вул. Гертрудзiнская 80, кв.4) знаходзiуся будынак ў якiм у 20-х гадах размяшчалiся Беларускае выдавецтва ў Латвii i рэдакцыя штомесячнiка \"Беларуская школа ў Латвii\" пад рэдакцыяй К.Езавiтава.",
+      "en": "На гэтым месцы (вул. Гертрудзiнская 80, кв.4) знаходзiуся будынак ў якiм у 20-х гадах размяшчалiся Беларускае выдавецтва ў Латвii i рэдакцыя штомесячнiка \"Беларуская школа ў Латвii\" пад рэдакцыяй К.Езавiтава."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-1-aya-belaruskaya-pachatkovaya-shkola",
+    "title": {
+      "by": "1-ая беларуская пачатковая школа",
+      "ru": "1-ая беларуская пачатковая школа",
+      "en": "Riga: 1-ая беларуская пачатковая школа"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.93543,
+      24.15634
+    ],
+    "description": {
+      "by": "У гэтым будынку (стары адрас вул. Маскоўская 140б) знаходзiлася 1-ая Рыжская гарадская беларуская пачатковая школа. З 20 лiстапада 1923 г. пры падтрымцы Беларускага адзела Мiнiстэрства асветы ў памяшканні школы былі дадаткова арганізаваны курсы падрыхтоўкi беларускiх настаўнiкаў. У 1933 годзе ужо працавала i беларуская вячэрняя гiмназiя",
+      "ru": "У гэтым будынку (стары адрас вул. Маскоўская 140б) знаходзiлася 1-ая Рыжская гарадская беларуская пачатковая школа. З 20 лiстапада 1923 г. пры падтрымцы Беларускага адзела Мiнiстэрства асветы ў памяшканні школы былі дадаткова арганізаваны курсы падрыхтоўкi беларускiх настаўнiкаў. У 1933 годзе ужо працавала i беларуская вячэрняя гiмназiя",
+      "en": "У гэтым будынку (стары адрас вул. Маскоўская 140б) знаходзiлася 1-ая Рыжская гарадская беларуская пачатковая школа. З 20 лiстапада 1923 г. пры падтрымцы Беларускага адзела Мiнiстэрства асветы ў памяшканні школы былі дадаткова арганізаваны курсы падрыхтоўкi беларускiх настаўнiкаў. У 1933 годзе ужо працавала i беларуская вячэрняя гiмназiя"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-pastanowka-pawlinki",
+    "title": {
+      "by": "Пастаноўка \"Паўлінкi\"",
+      "ru": "Пастаноўка \"Паўлінкi\"",
+      "en": "Riga: Пастаноўка \"Паўлінкi\""
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95359,
+      24.10484
+    ],
+    "description": {
+      "by": "10 сакавіка 1924 г. пры падтрымцы латышскага паэта Яна Райніса на сцэне Латвійскага нацыянальнага тэатра тэатральны гурток Дзвінскай беларускай гімназіі пад кіраўніцтвам Паўліны Мядзелкі прадставіў пастаноўку на беларускай мове \"Паўлінка\" Янкi Купалы.",
+      "ru": "10 сакавіка 1924 г. пры падтрымцы латышскага паэта Яна Райніса на сцэне Латвійскага нацыянальнага тэатра тэатральны гурток Дзвінскай беларускай гімназіі пад кіраўніцтвам Паўліны Мядзелкі прадставіў пастаноўку на беларускай мове \"Паўлінка\" Янкi Купалы.",
+      "en": "10 сакавіка 1924 г. пры падтрымцы латышскага паэта Яна Райніса на сцэне Латвійскага нацыянальнага тэатра тэатральны гурток Дзвінскай беларускай гімназіі пад кіраўніцтвам Паўліны Мядзелкі прадставіў пастаноўку на беларускай мове \"Паўлінка\" Янкi Купалы."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personId": "yanka-kupala"
+  },
+  {
+    "id": "riga-2-aya-belaruskaya-pachatkovaya-shkola",
+    "title": {
+      "by": "2-ая беларуская пачатковая школа",
+      "ru": "2-ая беларуская пачатковая школа",
+      "en": "Riga: 2-ая беларуская пачатковая школа"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.99393,
+      24.13094
+    ],
+    "description": {
+      "by": "2-ая беларуская пачтаковая школа. Таксам на базе яе былi арганизаваны вячэрняя школа для дарослых i дадатковая с электра-тэхнiчным адзяленнем. Тут Беларускае тэатральнае таварыства ў Латвii прадставіла сваю пастаноўку спектакля \"Паўлінка\" ў сакавіку 1928 г.",
+      "ru": "2-ая беларуская пачтаковая школа. Таксам на базе яе былi арганизаваны вячэрняя школа для дарослых i дадатковая с электра-тэхнiчным адзяленнем. Тут Беларускае тэатральнае таварыства ў Латвii прадставіла сваю пастаноўку спектакля \"Паўлінка\" ў сакавіку 1928 г.",
+      "en": "2-ая беларуская пачтаковая школа. Таксам на базе яе былi арганизаваны вячэрняя школа для дарослых i дадатковая с электра-тэхнiчным адзяленнем. Тут Беларускае тэатральнае таварыства ў Латвii прадставіла сваю пастаноўку спектакля \"Паўлінка\" ў сакавіку 1928 г."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-belaruskaya-vyachernyaya-himnaziya",
+    "title": {
+      "by": "Беларуская вячэрняя гiмназiя",
+      "ru": "Беларуская вячэрняя гiмназiя",
+      "en": "Riga: Беларуская вячэрняя гiмназiя"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94636,
+      24.10709
+    ],
+    "description": {
+      "by": "У пачатку 1929/30 вучэбнага года тут адчынiлася Беларуская вячэрняя гiмназiя",
+      "ru": "У пачатку 1929/30 вучэбнага года тут адчынiлася Беларуская вячэрняя гiмназiя",
+      "en": "У пачатку 1929/30 вучэбнага года тут адчынiлася Беларуская вячэрняя гiмназiя"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-pazyka-ashchadnae-tavarystva",
+    "title": {
+      "by": "Пазыка-ашчаднае таварыства",
+      "ru": "Пазыка-ашчаднае таварыства",
+      "en": "Riga: Пазыка-ашчаднае таварыства"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95456,
+      24.12351
+    ],
+    "description": {
+      "by": "У памяшканні № 4 (стары адрас вул. Дерптская 28) размяшчалася Беларускае цэнтральнае пазыка-ашчаднае таварыства (\"Сегодня\" Nr.143 ад 24.05.1932).",
+      "ru": "У памяшканні № 4 (стары адрас вул. Дерптская 28) размяшчалася Беларускае цэнтральнае пазыка-ашчаднае таварыства (\"Сегодня\" Nr.143 ад 24.05.1932).",
+      "en": "У памяшканні № 4 (стары адрас вул. Дерптская 28) размяшчалася Беларускае цэнтральнае пазыка-ашчаднае таварыства (\"Сегодня\" Nr.143 ад 24.05.1932)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-belaruskaya-pachatkovaya-torensberhskaya",
+    "title": {
+      "by": "Беларуская пачатковая торенсбэргская школа",
+      "ru": "Беларуская пачатковая торенсбэргская школа",
+      "en": "Riga: Беларуская пачатковая торенсбэргская школа"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.93044,
+      24.08618
+    ],
+    "description": {
+      "by": "\"Сегодня\" Nr.236 ад 27.08.1933 У будынку школы 19 лiстапада 1933 г. адбылся агульны сход Таварыства Беларускай Моладзi ў Латвii",
+      "ru": "\"Сегодня\" Nr.236 ад 27.08.1933 У будынку школы 19 лiстапада 1933 г. адбылся агульны сход Таварыства Беларускай Моладзi ў Латвii",
+      "en": "\"Сегодня\" Nr.236 ад 27.08.1933 У будынку школы 19 лiстапада 1933 г. адбылся агульны сход Таварыства Беларускай Моладзi ў Латвii"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-prawlenne-t-va-run",
+    "title": {
+      "by": "Праўленне т-ва \"Рунь\"",
+      "ru": "Праўленне т-ва \"Рунь\"",
+      "en": "Riga: Праўленне т-ва \"Рунь\""
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.93929,
+      24.13339
+    ],
+    "description": {
+      "by": "У адным з гэтых будынкаў памiж вулiцамi Bārddziņu i Īsā (стары адрас вул. Вялiкая Маскоўская 80, кв.18) размяшчалася праўленне таварыства \"Рунь\"",
+      "ru": "У адным з гэтых будынкаў памiж вулiцамi Bārddziņu i Īsā (стары адрас вул. Вялiкая Маскоўская 80, кв.18) размяшчалася праўленне таварыства \"Рунь\"",
+      "en": "У адным з гэтых будынкаў памiж вулiцамi Bārddziņu i Īsā (стары адрас вул. Вялiкая Маскоўская 80, кв.18) размяшчалася праўленне таварыства \"Рунь\""
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-mirny-sad",
+    "title": {
+      "by": "Мiрны сад",
+      "ru": "Мiрны сад",
+      "en": "Riga: Мiрны сад"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94529,
+      24.13816
+    ],
+    "description": {
+      "by": "У гэтым садзе таварыства \"Рунь\" i \"Беларуская хатка\" праводзiлi беларускiя вечары (\"Вечернее время\" Nr.101 ад 15.07.1924).",
+      "ru": "У гэтым садзе таварыства \"Рунь\" i \"Беларуская хатка\" праводзiлi беларускiя вечары (\"Вечернее время\" Nr.101 ад 15.07.1924).",
+      "en": "У гэтым садзе таварыства \"Рунь\" i \"Беларуская хатка\" праводзiлi беларускiя вечары (\"Вечернее время\" Nr.101 ад 15.07.1924)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-belaruskaya-shkola-w-latvii",
+    "title": {
+      "by": "\"Беларуская школа ў Латвii\"",
+      "ru": "\"Беларуская школа ў Латвii\"",
+      "en": "Riga: \"Беларуская школа ў Латвii\""
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94106,
+      24.12398
+    ],
+    "description": {
+      "by": "На гэтым месцы (Elijas iela 20, кв.25) знаходзiуся будынак ў якiм у 30-х гадах размяшчалася рэдакцыя штомесячнiка \"Беларуская школа ў Латвii\" пад рэдакцыяй К.Езавiтава",
+      "ru": "На гэтым месцы (Elijas iela 20, кв.25) знаходзiуся будынак ў якiм у 30-х гадах размяшчалася рэдакцыя штомесячнiка \"Беларуская школа ў Латвii\" пад рэдакцыяй К.Езавiтава",
+      "en": "На гэтым месцы (Elijas iela 20, кв.25) знаходзiуся будынак ў якiм у 30-х гадах размяшчалася рэдакцыя штомесячнiка \"Беларуская школа ў Латвii\" пад рэдакцыяй К.Езавiтава"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-shkola-i-zhytstsyo",
+    "title": {
+      "by": "\"Школа i жыццё\"",
+      "ru": "\"Школа i жыццё\"",
+      "en": "Riga: \"Школа i жыццё\""
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.91254,
+      24.11572
+    ],
+    "description": {
+      "by": "У будынку на гэтай вулiцы знаходзiлася рэдакцыя штомесячнiка \"Школа i жыццё\" на Tumes iela 2. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "ru": "У будынку на гэтай вулiцы знаходзiлася рэдакцыя штомесячнiка \"Школа i жыццё\" на Tumes iela 2. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "en": "У будынку на гэтай вулiцы знаходзiлася рэдакцыя штомесячнiка \"Школа i жыццё\" на Tumes iela 2. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-holas-belarusa",
+    "title": {
+      "by": "\"Голас беларуса\"",
+      "ru": "\"Голас беларуса\"",
+      "en": "Riga: \"Голас беларуса\""
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9458,
+      24.10856
+    ],
+    "description": {
+      "by": "У гэтым будынку знаходзiлася рэдакцыя першай газеты латвiйскiх беларусаў - «Голас Беларуса», якая выдавалася ў 1925–1929 гг. Свет пабачыў 61 нумар — гэта найбольшая колькасць перыядычных выданняў Латвіі. Друкавалася ў тыпаграфіі Е. Левіна якая знаходзiлася так сама тут. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "ru": "У гэтым будынку знаходзiлася рэдакцыя першай газеты латвiйскiх беларусаў - «Голас Беларуса», якая выдавалася ў 1925–1929 гг. Свет пабачыў 61 нумар — гэта найбольшая колькасць перыядычных выданняў Латвіі. Друкавалася ў тыпаграфіі Е. Левіна якая знаходзiлася так сама тут. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "en": "У гэтым будынку знаходзiлася рэдакцыя першай газеты латвiйскiх беларусаў - «Голас Беларуса», якая выдавалася ў 1925–1929 гг. Свет пабачыў 61 нумар — гэта найбольшая колькасць перыядычных выданняў Латвіі. Друкавалася ў тыпаграфіі Е. Левіна якая знаходзiлася так сама тут. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-haspadar",
+    "title": {
+      "by": "«Гаспадар»",
+      "ru": "«Гаспадар»",
+      "en": "Riga: «Гаспадар»"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95,
+      24.12337
+    ],
+    "description": {
+      "by": "У гэтым будынку спачатку знаходзiлася рэдакцыя газеты «Гаспадар» якая выдавалася ў 1926 г. Рэдактар Шчорс. Выдавец Беларускае Цэнтральнае Пазыкова-Ашчаднае таварыства. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "ru": "У гэтым будынку спачатку знаходзiлася рэдакцыя газеты «Гаспадар» якая выдавалася ў 1926 г. Рэдактар Шчорс. Выдавец Беларускае Цэнтральнае Пазыкова-Ашчаднае таварыства. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "en": "У гэтым будынку спачатку знаходзiлася рэдакцыя газеты «Гаспадар» якая выдавалася ў 1926 г. Рэдактар Шчорс. Выдавец Беларускае Цэнтральнае Пазыкова-Ашчаднае таварыства. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-haspadar-950",
+    "title": {
+      "by": "\"Гаспадар\"",
+      "ru": "\"Гаспадар\"",
+      "en": "Riga: \"Гаспадар\""
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95043,
+      24.11663
+    ],
+    "description": {
+      "by": "У гэтым будынку напрыканцы знаходзiлася рэдакцыя газеты «Гаспадар» якая выдавалася ў 1926 г. Рэдактар Шчорс. Выдавец Беларускае Цэнтральнае Пазыкова-Ашчаднае таварыства. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "ru": "У гэтым будынку напрыканцы знаходзiлася рэдакцыя газеты «Гаспадар» якая выдавалася ў 1926 г. Рэдактар Шчорс. Выдавец Беларускае Цэнтральнае Пазыкова-Ашчаднае таварыства. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "en": "У гэтым будынку напрыканцы знаходзiлася рэдакцыя газеты «Гаспадар» якая выдавалася ў 1926 г. Рэдактар Шчорс. Выдавец Беларускае Цэнтральнае Пазыкова-Ашчаднае таварыства. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-belaruskae-slova",
+    "title": {
+      "by": "\"Беларускае слова\"",
+      "ru": "\"Беларускае слова\"",
+      "en": "Riga: \"Беларускае слова\""
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94028,
+      24.07419
+    ],
+    "description": {
+      "by": "У гэтым будынку знаходзiлася рэдакцыя газеты «Беларускае слова» якая выдавалася ў 1931 г. Рэдактар П. Журкоўскi. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "ru": "У гэтым будынку знаходзiлася рэдакцыя газеты «Беларускае слова» якая выдавалася ў 1931 г. Рэдактар П. Журкоўскi. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")",
+      "en": "У гэтым будынку знаходзiлася рэдакцыя газеты «Беларускае слова» якая выдавалася ў 1931 г. Рэдактар П. Журкоўскi. (M. Jankowiak \"Prasa białoruska międzywojennej Łotwy\")"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-drukarnya-e-levina",
+    "title": {
+      "by": "Друкарня Е. Левіна",
+      "ru": "Друкарня Е. Левіна",
+      "en": "Riga: Друкарня Е. Левіна"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.958,
+      24.11363
+    ],
+    "description": {
+      "by": "У ёй друкавался газэта \"Голас беларуса\"",
+      "ru": "У ёй друкавался газэта \"Голас беларуса\"",
+      "en": "У ёй друкавался газэта \"Голас беларуса\""
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-kasa-belaruskaha-pazychkova-ashchadnaha-",
+    "title": {
+      "by": "Каса Беларускага пазычкова-ашчаднага таварыства",
+      "ru": "Каса Беларускага пазычкова-ашчаднага таварыства",
+      "en": "Riga: Каса Беларускага пазычкова-ашчаднага таварыства"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95272,
+      24.11443
+    ],
+    "description": {
+      "by": "У памяшканні № 18 будынка на б-ры Калпака 2 размяшчалася каса Беларускага пазычкова-ашчаднага таварыства (К.Езавітаў \"Беларусы ў Рызе\" 1934).",
+      "ru": "У памяшканні № 18 будынка на б-ры Калпака 2 размяшчалася каса Беларускага пазычкова-ашчаднага таварыства (К.Езавітаў \"Беларусы ў Рызе\" 1934).",
+      "en": "У памяшканні № 18 будынка на б-ры Калпака 2 размяшчалася каса Беларускага пазычкова-ашчаднага таварыства (К.Езавітаў \"Беларусы ў Рызе\" 1934)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-t-va-belaruskikh-nastawnikaw",
+    "title": {
+      "by": "Т-ва беларускіх настаўнiкаў",
+      "ru": "Т-ва беларускіх настаўнiкаў",
+      "en": "Riga: Т-ва беларускіх настаўнiкаў"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94839,
+      24.11953
+    ],
+    "description": {
+      "by": "У памяшканні № 5 будынка вуліцы Мэркеля 3 размяшчалася бюро Т-ва беларускіх вучыцялёў у Латвіі (К.Езавітаў \"Беларусы ў Рызе\" 1934).",
+      "ru": "У памяшканні № 5 будынка вуліцы Мэркеля 3 размяшчалася бюро Т-ва беларускіх вучыцялёў у Латвіі (К.Езавітаў \"Беларусы ў Рызе\" 1934).",
+      "en": "У памяшканні № 5 будынка вуліцы Мэркеля 3 размяшчалася бюро Т-ва беларускіх вучыцялёў у Латвіі (К.Езавітаў \"Беларусы ў Рызе\" 1934)."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-klub-uley",
+    "title": {
+      "by": "Клуб «Улей»",
+      "ru": "Клуб «Улей»",
+      "en": "Riga: Клуб «Улей»"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.94909,
+      24.10984
+    ],
+    "description": {
+      "by": "Беларускае культурна-асветнае таварыства «Рунь» у зале рускага клуба «Улей» 8 траўня 1926 г. паставiла драму Францішка Аляхновіча «Страхі жыцця». «Сегодня», Nr.101 ад 08.05.1926",
+      "ru": "Беларускае культурна-асветнае таварыства «Рунь» у зале рускага клуба «Улей» 8 траўня 1926 г. паставiла драму Францішка Аляхновіча «Страхі жыцця». «Сегодня», Nr.101 ад 08.05.1926",
+      "en": "Беларускае культурна-асветнае таварыства «Рунь» у зале рускага клуба «Улей» 8 траўня 1926 г. паставiла драму Францішка Аляхновіча «Страхі жыцця». «Сегодня», Nr.101 ад 08.05.1926"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-zalъ-latyshskoho-obщestva",
+    "title": {
+      "by": "Залъ Латышского Общества",
+      "ru": "Залъ Латышского Общества",
+      "en": "Riga: Залъ Латышского Общества"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.95033,
+      24.11758
+    ],
+    "description": {
+      "by": "Рада Белорусской Колоніи въ Латвіи 17 декабря 1919 г. въ день продекламированія Белорусской Народной Республики устраиваетъ торжественный концертъ-балъ съ благотворительиой целью в пользу нуждающихся белоруссовъ",
+      "ru": "Рада Белорусской Колоніи въ Латвіи 17 декабря 1919 г. въ день продекламированія Белорусской Народной Республики устраиваетъ торжественный концертъ-балъ съ благотворительиой целью в пользу нуждающихся белоруссовъ",
+      "en": "Рада Белорусской Колоніи въ Латвіи 17 декабря 1919 г. въ день продекламированія Белорусской Народной Республики устраиваетъ торжественный концертъ-балъ съ благотворительиой целью в пользу нуждающихся белоруссовъ"
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Дыяспара",
+      "Гісторыя",
+      "БНР"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      },
+      {
+        "title": "LSM: Беларускія мясціны ў Рызе",
+        "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-skaryna-square",
+    "title": {
+      "by": "Сквер імя Францыска Скарыны",
+      "ru": "Сквер имени Франциска Скорины",
+      "en": "Francysk Skaryna Square"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9507,
+      24.1235
+    ],
+    "description": {
+      "by": "Сквер уздоўж вуліцы Лачплеша (Lāčplēša iela / Ernesta Birznieka-Upīša iela), названы ў гонар беларускага першадрукара і гуманіста Францыска Скарыны па ініцыятыве дзеячаў беларускай дыяспары і дырэктара Нацыянальнай бібліятэкі Латвіі Андрыса Вілкса.",
+      "ru": "Сквер вдоль улицы Лачплеша, названный в честь белорусского первопечатника и гуманиста Франциска Скорины по инициативе диаспоры и Национальной библиотеки Латвии.",
+      "en": "Square along Lāčplēša Street in Riga named after the Belarusian printing pioneer and humanist Francysk Skaryna."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Скарына",
+      "Сквер",
+      "Дыяспара"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Сквер Францыска Скарыны ў Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      }
+    ],
+    "personId": "francysk-skaryna",
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-national-library-belarusian-solidarity",
+    "title": {
+      "by": "Латвійская нацыянальная бібліятэка (БЧБ-сцяг і мемарыял Алеся Пушкіна)",
+      "ru": "Латвийская национальная библиотека (БЧБ-флаг и мемориал Алеся Пушкина)",
+      "en": "National Library of Latvia (Belarusian Flag of Solidarity)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9408,
+      24.097
+    ],
+    "description": {
+      "by": "Адрас: Mūkusalas iela 3, Rīga. Знакавы асяродак салідарнасці: каля Нацыянальнай бібліятэкі Латвіі ўзвіўся бел-чырвона-белы сцяг Вольнай Беларусі. 12 ліпеня 2023 года сцяг быў прыспушчаны ў знак жалобы па палітвязню і мастаку Алесю Пушкіну, дзе прайшла маштабная акцыя памяці.",
+      "ru": "Адрес: Mūkusalas iela 3. Национальная библиотека Латвии, у которой поднят бело-красно-белый флаг свободной Беларуси. Место акций солидарности диаспоры.",
+      "en": "Address: Mūkusalas iela 3, Riga. The National Library of Latvia, flying the white-red-white flag of free Belarus and hosting diaspora solidarity gatherings."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Бібліятэка",
+      "Салідарнасць",
+      "Пушкін"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-kupala-belarusian-school",
+    "title": {
+      "by": "Рыжская беларуская асноўная школа імя Янкі Купалы",
+      "ru": "Рижская белорусская основная школа имени Янки Купалы",
+      "en": "Riga Belarusian Primary School named after Yanka Kupala"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9458,
+      24.1953
+    ],
+    "description": {
+      "by": "Адрас: Ilūkstes iela 109, Rīga. Заснаваная дзякуючы таварыству «Сьвітанак», школа забяспечвае вывучэнне беларускай мовы, літаратуры і культуры ў сталіцы Латвіі. Носіць імя народнага паэта Беларусі Янкі Купалы.",
+      "ru": "Адрес: Ilūkstes iela 109. Белорусская основная школа имени Янки Купалы в Риге.",
+      "en": "Address: Ilūkstes iela 109, Riga. Belarusian basic school in Riga named after classic poet Yanka Kupala."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Школа",
+      "Купала",
+      "Адукацыя"
+    ],
+    "links": [
+      {
+        "title": "Сайт школы",
+        "url": "https://rbbps.lv"
+      },
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      }
+    ],
+    "personId": "yanka-kupala",
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-svitanak-association",
+    "title": {
+      "by": "Латвійскае таварыства беларускай культуры «Сьвітанак»",
+      "ru": "Латвийское общество белорусской культуры «Сьвітанак»",
+      "en": "Latvian Society of Belarusian Culture 'Svitanak'"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9442,
+      24.0728
+    ],
+    "description": {
+      "by": "Адрас: Slokas iela 37, Rīga (будынак Асацыяцыі нацыянальных культурных таварыстваў імя Іты Казакевіч). Заснаванае ў 1988 годзе найстарэйшае адраджэнскае беларускае таварыства ў Латвіі, ініцыятар адкрыцця беларускай школы і культурных імпрэз.",
+      "ru": "Адрес: Slokas iela 37. Основанное в 1988 году старейшее национальное белорусское общество в Латвии.",
+      "en": "Address: Slokas iela 37, Riga. Founded in 1988, the oldest Belarusian cultural society in modern Latvia."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Сьвітанак",
+      "Культура",
+      "Дыяспара"
+    ],
+    "links": [
+      {
+        "title": "Сайт таварыства Сьвітанак",
+        "url": "https://www.svitanak.eu"
+      },
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "riga-mova-nanova-pils",
+    "title": {
+      "by": "Курсы «Мова нанова» ў Старой Рызе",
+      "ru": "Курсы «Мова нанова» в Старой Риге",
+      "en": "Mova Nanova Belarusian Language Club in Riga"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9509,
+      24.1037
+    ],
+    "description": {
+      "by": "Адрас: Pils iela 21, Rīga (Старая Рыга). Бясплатныя курсы беларускай мовы і культуры «Мова нанова Рыга», рэгулярныя сустрэчы беларусаў Латвіі, лекцыі па гісторыі і вечары памяці.",
+      "ru": "Адрес: Pils iela 21, Старая Рига. Бесплатные курсы белорусского языка «Мова нанова», встречи диаспоры.",
+      "en": "Address: Pils iela 21, Old Riga. Free Belarusian language courses and community gatherings in Riga."
+    },
+    "tags": [
+      "Рыга",
+      "Латвія",
+      "Мова нанова",
+      "Старая Рыга",
+      "Мова"
+    ],
+    "links": [
+      {
+        "title": "Будзьма: Гайд па беларускай Рызе",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
+      }
+    ],
+    "unverifiedCoordinates": true
+  },
+  {
+    "id": "skaryna-monument-prague",
+    "title": {
+      "by": "Помнік Францыску Скарыне ў Празе",
+      "ru": "Памятник Франциску Скорине в Праге",
+      "en": "Monument to Francysk Skaryna in Prague"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "coordinates": [
+      50.092472,
+      14.389694
+    ],
+    "description": {
+      "by": "Бронзавая скульптура першадрукара і асветніка Францыска Скарыны, створаная беларускім скульптарам Эдуардам Астаф'евым. Помнік быў усталяваны ў 1996 годзе на вуліцы Еленяй (Jelení) у раёне Градчаны, побач з Каралеўскім садам Пражскага Граду, дзе Скарына ў свой час служыў батанікам і каралеўскім лекарам.",
+      "ru": "Бронзовая скульптура первопечатника Франциска Скорины работы белорусского скульптора Эдуарда Астафьева. Памятник открыт в 1996 году на улице Елени (Jelení) в Градчанах, возле Королевского сада Пражского Града, где Скорина служил королевским ботаником и врачом.",
+      "en": "Bronze monument to pioneer printer Francysk Skaryna by Belarusian sculptor Eduard Astafiev, unveiled in 1996 on Jelení Street in Hradčany, adjacent to the Royal Garden of Prague Castle where Skaryna served as a royal gardener and physician."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/SkarynavjeleniuliciPRAHA.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%8B%D1%81%D0%BA_%D0%A1%D0%BA%D0%B0%D1%80%D1%8B%D0%BD%D0%B0"
+      }
+    ],
+    "tags": [
+      "Прага"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "francysk-skaryna",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "francysk-skaryna"
+    ]
+  },
+  {
+    "id": "skaryna-plaque-clementinum-prague",
+    "title": {
+      "by": "Мемарыяльная дошка Францыску Скарыне на Клеменцінуме ў Празе",
+      "ru": "Мемориальная доска Франциску Скорине на Клементинуме в Праге",
+      "en": "Memorial Plaque to Francysk Skaryna at Clementinum, Prague"
+    },
+    "category": "plaque",
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czechia"
+    },
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "coordinates": [
+      50.0864,
+      14.416453
+    ],
+    "description": {
+      "by": "Бронзавая мемарыяльная дошка з выявай Францыска Скарыны і надпісамі на беларускай і чэшскай мовах, адкрытая ў 1996 годзе ва ўнутраным двары Клеменцінума (Нацыянальная бібліятэка Чэхіі). Аўтар дошкі — беларускі скульптар Алесь Дранец. Менавіта ў Празе ў 1517–1519 гг. Скарына надрукаваў сваю Біблію.",
+      "ru": "Бронзовая мемориальная доска с барельефом Франциска Скорины и надписями на белорусском и чешском языках, открытая в 1996 году во дворе Клементинума (Национальная библиотека Чехии). Автор — белорусский скульптор Алесь Дранец.",
+      "en": "Bronze commemorative plaque featuring a bas-relief of Francysk Skaryna with inscriptions in Belarusian and Czech, unveiled in 1996 in the courtyard of the Clementinum (National Library of the Czech Republic). Created by Belarusian sculptor Ales Dranets."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Skaryna_Prague_Commemorative_Plaque.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%8B%D1%81%D0%BA_%D0%A1%D0%BA%D0%B0%D1%80%D1%8B%D0%BD%D0%B0"
+      }
+    ],
+    "tags": [
+      "Прага"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "francysk-skaryna",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "francysk-skaryna"
+    ]
+  },
+  {
+    "id": "skaryna-aula-dei-quaranta-padua",
+    "title": {
+      "by": "Партрэт Францыска Скарыны ў Зале сарака Падуанскага ўніверсітэта",
+      "ru": "Портрет Франциска Скорины в Зале сорока Падуанского университета",
+      "en": "Portrait of Francysk Skaryna in the Hall of the Forty, University of Padua"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Падуя",
+      "ru": "Падуя",
+      "en": "Padua"
+    },
+    "coordinates": [
+      45.40671,
+      11.87744
+    ],
+    "description": {
+      "by": "Партрэт Францыска Скарыны пэндзля Джан Джакама даль Форна (1942 г.) сярод партрэтаў сарака найбольш выбітных замежных выпускнікоў Падуанскага ўніверсітэта ў знакамітай Зале сарака (Sala dei Quaranta) палаца Палацца Бо. Менавіта ў Падуі Скарына паспяхова абараніў ступень доктара лекарскіх навук у 1512 годзе.",
+      "ru": "Портрет Франциска Скорины работы Джан Джакомо даль Форно (1942 г.) среди 40 выдающихся иностранных выпускников Падуанского университета в Зале сорока (Sala dei Quaranta) в историческом Палаццо Бо. В 1512 году Скорина защитил здесь степень доктора медицины.",
+      "en": "Portrait of Francysk Skaryna by Gian Giacomo dal Forno (1942), displayed among the forty most distinguished foreign alumni in the Hall of the Forty (Sala dei Quaranta) at Palazzo Bo, University of Padua. Skaryna successfully defended his doctoral degree in medicine here in 1512."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/AFFRESCHI_SALA_DEI_QUARANTA.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%8B%D1%81%D0%BA_%D0%A1%D0%BA%D0%B0%D1%80%D1%8B%D0%BD%D0%B0"
+      }
+    ],
+    "tags": [
+      "Падуя"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "francysk-skaryna",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "francysk-skaryna"
+    ]
+  },
+  {
+    "id": "skaryna-plaque-vilnius",
+    "title": {
+      "by": "Мемарыяльная дошка на месцы друкарні Францыска Скарыны ў Вільні",
+      "ru": "Мемориальная доска на месте типографии Франциска Скорины в Вильнюсе",
+      "en": "Memorial Plaque to Francysk Skaryna's Printing House in Vilnius"
+    },
+    "category": "plaque",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.67916,
+      25.28704
+    ],
+    "description": {
+      "by": "Мемарыяльная дошка на гістарычным будынку па адрасе вул. Вялікая (Didžioji g.), 19 / вул. Шкляная (Stiklių g.), дзе ў доме бурмістра Якуба Бабіча ў 1522–1525 гг. працавала першая друкарня Скарыны на тэрыторыі ВКЛ, у якой пабачылі свет «Малая падарожная кніжка» і «Апостал».",
+      "ru": "Мемориальная доска на историческом здании по адресу ул. Диджейи, 19 / Стиклю (дом бургомистра Якуба Бабича), где в 1522–1525 годах действовала первая типография Франциска Скорины в ВКЛ, в которой были изданы «Малая подорожная книжка» и «Апостол».",
+      "en": "Memorial plaque on the historic building at Didžioji g. 19 / Stiklių g. (former house of mayor Jakub Babič), where Francysk Skaryna established the first printing press in the Grand Duchy of Lithuania in 1522–1525, printing 'Little Travel Book' and 'Apostolos'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Didzioji_19.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%8B%D1%81%D0%BA_%D0%A1%D0%BA%D0%B0%D1%80%D1%8B%D0%BD%D0%B0"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "francysk-skaryna",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "francysk-skaryna"
+    ]
+  },
+  {
+    "id": "skaryna-monument-kaliningrad",
+    "title": {
+      "by": "Помнік Францыску Скарыне ў Калінінградзе",
+      "ru": "Памятник Франциску Скорине в Калининграде",
+      "en": "Monument to Francysk Skaryna in Kaliningrad"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Калінінград",
+      "ru": "Калининград",
+      "en": "Kaliningrad"
+    },
+    "coordinates": [
+      54.726257,
+      20.467188
+    ],
+    "description": {
+      "by": "Бронзавы помнік беларускаму першадрукару, выкананы скульптарам Анатолем Арцімовічам. Усталяваны ў 2004 годзе на тэрыторыі Балтыйскага федэральнага ўніверсітэта імя І. Канта (перанесены ў 2024 годзе ў сквер універсітэцкага корпуса на вул. Чарнышэўскага, 56). Сімвалізуе гістарычныя сувязі Скарыны з Кёнігсбергам і герцагам Альбрэхтам.",
+      "ru": "Бронзовый памятник первопечатнику Франциску Скорине работы скульптора Анатолия Артимовича, установленный в 2004 году у Балтийского федерального университета им. И. Канта (в 2024 перенесён к историческому корпусу на ул. Чернышевского, 56). Памятник напоминает о визите Скорины в Кёнигсберг к герцогу Альбрехту.",
+      "en": "Bronze monument to Francysk Skaryna created by sculptor Anatoly Artimovich, erected in 2004 at the Immanuel Kant Baltic Federal University (relocated in 2024 to the campus park at Chernyshevskogo St. 56). It commemorates Skaryna's historic ties with Königsberg and Duke Albert."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/IKSUR_Skaryna_statue.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D1%80%D0%B8%D0%BD%D0%B0,_%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA"
+      }
+    ],
+    "tags": [
+      "Калінінград"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "francysk-skaryna",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "francysk-skaryna"
+    ]
+  },
+  {
+    "id": "mickiewicz-monument-bourdelle-paris",
+    "title": {
+      "by": "Помнік Адаму Міцкевічу працы Бурдэля ў Парыжы",
+      "ru": "Памятник Адаму Мицкевичу работы Бурделя в Париже",
+      "en": "Monument to Adam Mickiewicz by Antoine Bourdelle in Paris"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.864344,
+      2.304931
+    ],
+    "description": {
+      "by": "Манументальная скульптура паэта ў выглядзе пілігрыма на высокай калоне-пастаменце, створаная выдатным французскім скульптарам Антуанам Бурдэлем. Размешчаны на Place de la Reine-Astrid уздоўж Cours Albert 1er ля моста Альма на правым беразе Сены.",
+      "ru": "Монументальный памятник поэту-пилигриму работы великого французского скульптора Антуана Бурделя, открытый в 1929 году на площади Королевы Астрид (Place de la Reine-Astrid) вдоль набережной Cours Albert 1er возле моста Альма.",
+      "en": "Monumental sculpture of the pilgrim-poet atop an allegorical column created by French sculptor Antoine Bourdelle. Unveiled in 1929, it stands on Place de la Reine-Astrid along Cours Albert 1er near the Pont de l'Alma by the Seine."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Monument_Mickievicz_%28Paris%29_b.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://fr.wikipedia.org/wiki/Monument_d%27Adam_Mickiewicz_(Paris)"
+      }
+    ],
+    "tags": [
+      "Парыж"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-museum-paris",
+    "title": {
+      "by": "Музей Адама Міцкевіча ў Парыжы",
+      "ru": "Музей Адама Мицкевича в Париже",
+      "en": "Adam Mickiewicz Museum in Paris"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.85125,
+      2.355694
+    ],
+    "description": {
+      "by": "Музей, заснаваны сынам паэта Уладзіславам у 1903 годзе ў будынку Польскай бібліятэкі на востраве Сен-Луі (6 Quai d'Orléans). Захоўвае асабістыя рэчы, рукапісы, карціны і архіў Адама Міцкевіча парыжскага перыяду яго жыцця.",
+      "ru": "Музей, основанный сыном поэта Владиславом в 1903 году в здании Польской библиотеки на острове Сен-Луи (6 Quai d'Orléans). В музее экспонируются личные вещи, рукописи, прижизненные портреты и архивы Адама Мицкевича.",
+      "en": "Museum founded in 1903 by the poet's son Władysław in the building of the Polish Library on Île Saint-Louis (6 Quai d'Orléans). It houses personal belongings, manuscripts, portraits, and archives from Mickiewicz's Parisian exile."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/P1020549_Paris_IV_Quai_d%27Orl%C3%A9ans_n%C2%B06_Biblioth%C3%A8que_polonaise_rwk.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Adam_Mickiewicz"
+      }
+    ],
+    "tags": [
+      "Парыж"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-monument-krakow",
+    "title": {
+      "by": "Помнік Адаму Міцкевічу ў Кракаве",
+      "ru": "Памятник Адаму Мицкевичу в Кракове",
+      "en": "Adam Mickiewicz Monument in Kraków"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [
+      50.061389,
+      19.937778
+    ],
+    "description": {
+      "by": "Адзін з найбольш знакамітых бронзавых помнікаў Міцкевічу, усталяваны ў 1898 годзе на Галоўным Рынкавым пляцы Кракава паводле праекта Тэадора Рыгера. На пастаменце размяшчаюцца алегарычныя постаці Бацькаўшчыны, Навукі, Мужнасці і Паэзіі.",
+      "ru": "Знаменитый монумент, установленный в 1898 году на площади Главный Рынок в Кракове по проекту Теодора Рыгера. Вокруг пьедестала расположены аллегорические скульптуры, символизирующие Отчизну, Науку, Мужество и Поэзию.",
+      "en": "Iconic bronze monument erected in 1898 on the Main Market Square in Kraków, designed by sculptor Teodor Rygier. The pedestal features four allegorical groups representing the Motherland, Science, Courage, and Poetry."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Adam_Mickiewicz_%28Polish_writer%29_Memorial%2C_1898_design._by_Teodor_Rygier%2C_Main_Market_square%2C_Krak%C3%B3w%2C_Poland.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Adam_Mickiewicz_Monument,_Krak%C3%B3w"
+      }
+    ],
+    "tags": [
+      "Кракаў"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-monument-vilnius",
+    "title": {
+      "by": "Помнік Адаму Міцкевічу ў Вільні",
+      "ru": "Памятник Адаму Мицкевичу в Вильнюсе",
+      "en": "Adam Mickiewicz Monument in Vilnius"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.682811,
+      25.293322
+    ],
+    "description": {
+      "by": "Гранітны манумент паэту працы скульптара Гедымінаса Якубоніса, узведзены ў 1984 годзе ў скверы каля ансамбля касцёлаў Святой Ганны і Бернардзінцаў. Гэты помнік стаў знакавым месцам для віленскіх беларусаў, палякаў і літоўцаў.",
+      "ru": "Гранитный монумент поэту работы литовского скульптора Гедиминаса Якубониса, открытый в 1984 году в сквере рядом с ансамблем костёлов Святой Анны и Бернардинцев в Старом городе Вильнюса.",
+      "en": "Granite monument to the poet created by Lithuanian sculptor Gediminas Jokūbonis, erected in 1984 in the square adjacent to St. Anne's and the Bernardine churches in Vilnius Old Town."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Adam_Mickiewicz_Vilnius_11.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Adam_Mickiewicz_Monument,_Vilnius"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-museum-istanbul",
+    "title": {
+      "by": "Музей Адама Міцкевіча ў Стамбуле",
+      "ru": "Музей Адама Мицкевича в Стамбуле",
+      "en": "Adam Mickiewicz Museum in Istanbul"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Турцыя",
+      "ru": "Турция",
+      "en": "Turkey"
+    },
+    "city": {
+      "by": "Стамбул",
+      "ru": "Стамбул",
+      "en": "Istanbul"
+    },
+    "coordinates": [
+      41.038777,
+      28.9771
+    ],
+    "description": {
+      "by": "Дом-музей у стамбульскім квартале Тарлабашы (раён Бейаглу), дзе Адам Міцкевіч пражыў апошнія месяцы жыцця і раптоўна памёр 26 лістапада 1855 года падчас фарміравання польскіх і казачых легіёнаў падчас Крымскай вайны.",
+      "ru": "Дом-музей в стамбульском районе Тарлабаши (Бейоглу), где Адам Мицкевич провел последние месяцы жизни и скончался 26 ноября 1855 года во время организации польских отрядов в ходе Крымской войны.",
+      "en": "Historic house museum in the Tarlabaşı neighborhood of Beyoğlu, Istanbul, where Adam Mickiewicz lived his final months and died on November 26, 1855, while organizing Polish legions during the Crimean War."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/%C4%B0stanbul_6133.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Adam_Mickiewicz_Museum,_Istanbul"
+      }
+    ],
+    "tags": [
+      "Стамбул"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-monument-lviv",
+    "title": {
+      "by": "Помнік Адаму Міцкевічу ў Львове",
+      "ru": "Памятник Адаму Мицкевичу во Львове",
+      "en": "Adam Mickiewicz Monument in Lviv"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Львоў",
+      "ru": "Львов",
+      "en": "Lviv"
+    },
+    "coordinates": [
+      49.83945,
+      24.03002
+    ],
+    "description": {
+      "by": "Выдатны манумент у выглядзе высокай калоны са скульптурай паэта і крылатым геніем на плошчы Міцкевіча. Створаны скульптарам Антоніем Папелем і архітэктарам Уладзіславам Садоўскім, урачыста адкрыты 30 кастрычніка 1904 года.",
+      "ru": "Памятник в виде высокой колонны с фигурой поэта и парящим крылатым гением на площади Мицкевича. Создан скульптором Антонием Попелем и архитектором Владиславом Садловским, открыт в 1904 году.",
+      "en": "Prominent monument featuring a tall column topped by an eternal flame, flanked by statues of the poet and a winged genius. Designed by Antoni Popiel and Władysław Sadłowski, it was unveiled in 1904 on Mickiewicz Square."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Ukraine-Lviv-Monument_to_Adam_Mickiewicz-2.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Adam_Mickiewicz_Monument,_Lviv"
+      }
+    ],
+    "tags": [
+      "Львоў"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-bust-weimar",
+    "title": {
+      "by": "Бюст Адама Міцкевіча ў Ваймары",
+      "ru": "Бюст Адама Мицкевича в Веймаре",
+      "en": "Adam Mickiewicz Bust in Weimar"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Ваймар",
+      "ru": "Веймар",
+      "en": "Weimar"
+    },
+    "coordinates": [
+      50.981392,
+      11.332991
+    ],
+    "description": {
+      "by": "Бронзавы бюст паэта працы скульптара Герхарда Тыме, усталяваны ў 1956 годзе ў парку на рацэ Ільм (Park an der Ilm) каля моста Кегельбруке. Нагадвае пра візіт Міцкевіча да Іагана Вольфганга Гётэ ў 1829 годзе на 80-годдзе класіка.",
+      "ru": "Бронзовый бюст поэта работы скульптора Герхарда Тиме, установленный в 1956 году в парке на реке Ильм (Park an der Ilm) возле моста Кегельбрюкке. Увековечивает визит Мицкевича к Гёте в Веймар в августе 1829 года.",
+      "en": "Bronze bust of the poet by German sculptor Gerhard Thieme, installed in 1956 in the Park on the Ilm near the Kegelbrücke bridge. It commemorates Mickiewicz's visit to Johann Wolfgang von Goethe in Weimar in August 1829."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Adam_Mickiewicz_B%C3%BCste.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://de.wikipedia.org/wiki/Adam-Mickiewicz-Denkmal_(Weimar)"
+      }
+    ],
+    "tags": [
+      "Ваймар"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "mickiewicz-plaque-rome",
+    "title": {
+      "by": "Мемарыяльная дошка і алея Адама Міцкевіча ў Рыме",
+      "ru": "Мемориальная доска и аллея Адама Мицкевича в Риме",
+      "en": "Memorial Plaque and Viale Adamo Mickievicz in Rome"
+    },
+    "category": "plaque",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "coordinates": [
+      41.90226,
+      12.48161
+    ],
+    "description": {
+      "by": "Мармуровая мемарыяльная дошка на будынку па адрасе Via del Pozzetto, 113, дзе Міцкевіч у 1848 годзе арганізоўваў Польскі легіён для падтрымкі вызваленчай барацьбы Італіі. Таксама ў Рыме ў парку Віла Баргезэ (на пагорку Пінча) яго імем названа маляўнічая алея — Viale Adamo Mickievicz.",
+      "ru": "Мраморная мемориальная доска на Via del Pozzetto, 113, где поэт в 1848 году формировал Польский легион для борьбы за независимость Италии. Также на холме Пинчо в парке Вилла Боргезе в Риме его именем названа аллея Viale Adamo Mickievicz.",
+      "en": "Marble commemorative plaque on Via del Pozzetto 113, where Mickiewicz organized the Polish Legion in 1848 to fight for Italian independence. Additionally, an avenue in Villa Borghese on the Pincian Hill is named Viale Adamo Mickievicz in his honor."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Viale_Adamo_Mickievicz.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Adam_Mickiewicz"
+      }
+    ],
+    "tags": [
+      "Рым"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "adam-mickiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "adam-mickiewicz"
+    ]
+  },
+  {
+    "id": "kosciuszko-monument-washington",
+    "title": {
+      "by": "Помнік Тадэвушу Касцюшку на плошчы Лафает у Вашынгтоне",
+      "ru": "Памятник Тадеушу Костюшко на площади Лафайет в Вашингтоне",
+      "en": "Brigadier General Thaddeus Kosciuszko Statue, Washington, D.C."
+    },
+    "category": "monument",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Вашынгтон",
+      "ru": "Вашингтон",
+      "en": "Washington, D.C."
+    },
+    "coordinates": [
+      38.9,
+      -77.035389
+    ],
+    "description": {
+      "by": "Бронзавы манумент генералу Тадэвушу Касцюшку на плошчы Лафает перад Белым домам у Вашынгтоне, створаны польскім скульптарам Антоніем Папелем і ўрачыста адкрыты прэзідэнтам Уільямам Тафтам у 1910 годзе.",
+      "ru": "Бронзовый монумент бригадному генералу Тадеушу Костюшко на площади Лафайет прямо напротив Белого дома в Вашингтоне. Создан скульптором Антонием Попелем и открыт президентом Уильямом Тафтом в 1910 году.",
+      "en": "Bronze statue of Brigadier General Thaddeus Kosciuszko by sculptor Antoni Popiel, unveiled in 1910 by President William Howard Taft at the northeast corner of Lafayette Square opposite the White House."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ko%C5%9Bciuszko_monument_Washington%2C_DC.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Statue_of_Tadeusz_Ko%C5%9Bciuszko_(Washington,_D.C.)"
+      }
+    ],
+    "tags": [
+      "Вашынгтон"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-memorial-philadelphia",
+    "title": {
+      "by": "Нацыянальны мемарыял Тадэвуша Касцюшкі ў Філадэльфіі",
+      "ru": "Национальный мемориал Тадеуша Костюшко в Филадельфии",
+      "en": "Thaddeus Kosciuszko National Memorial in Philadelphia"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Філадэльфія",
+      "ru": "Филадельфия",
+      "en": "Philadelphia"
+    },
+    "coordinates": [
+      39.943438,
+      -75.147276
+    ],
+    "description": {
+      "by": "Гістарычны дом-музей на рагу вуліц 3rd і Pine St (301 Pine St), дзе Касцюшка жыў і ачуньваў пасля расійскага палону ў 1797–1798 гг., сустракаючыся з Томасам Джэферсанам. Найменшы нацыянальны мемарыял у складзе Службы нацыянальных паркаў ЗША.",
+      "ru": "Исторический дом-музей на 301 Pine St, где Костюшко проживал в 1797–1798 годах после освобождения из российского плена и принимал Томаса Джефферсона. Самый компактный национальный мемориал в ведении Службы национальных парков США.",
+      "en": "Historic house museum at 301 Pine St, where Kosciuszko lived in 1797–1798 following his release from Russian imprisonment and hosted Thomas Jefferson. It is the smallest unit in the U.S. National Park System."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Thaddeus_Kosciuszko_National_Memorial%2C_Philadelphia%2C_PA.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Thaddeus_Kosciuszko_National_Memorial"
+      }
+    ],
+    "tags": [
+      "Філадэльфія"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-monument-west-point",
+    "title": {
+      "by": "Помнік Тадэвушу Касцюшку ў Ваеннай акадэміі ЗША (Вест-Пойнт)",
+      "ru": "Памятник Тадеушу Костюшко в Военной академии США (Вест-Пойнт)",
+      "en": "Kosciuszko's Monument at West Point"
+    },
+    "category": "monument",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Вест-Пойнт",
+      "ru": "Вест-Пойнт",
+      "en": "West Point, NY"
+    },
+    "coordinates": [
+      41.394628,
+      -73.952639
+    ],
+    "description": {
+      "by": "Помнік выбітнаму ваеннаму інжынеру і герою Амерыканскай рэвалюцыі, які сканструяваў непрыступныя ўмацаванні крэпасці Вест-Пойнт на рацэ Гудзон. Калона была пастаўлена кадэтамі акадэміі ў 1828 годзе, а бронзавая статуя дададзена ў 1913 годзе.",
+      "ru": "Монумент фортификатору и военному инженеру Костюшко, спроектировавшему укрепления форта Вест-Пойнт на реке Гудзон. Мраморная колонна возведена кадетами академии в 1828 году, бронзовая статуя установлена в 1913 году.",
+      "en": "Monument to the military engineer of the American Revolution who designed the fortifications of West Point on the Hudson River. The marble pedestal was erected by cadets in 1828, and the bronze statue was added in 1913."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Kosciuszko%27s_Monument_%28West_Point%29.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Kosciuszko%27s_Monument_(West_Point)"
+      }
+    ],
+    "tags": [
+      "Вест-Пойнт"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-mound-krakow",
+    "title": {
+      "by": "Курган Касцюшкі ў Кракаве",
+      "ru": "Курган Костюшко в Кракове",
+      "en": "Kościuszko Mound in Kraków"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [
+      50.054922,
+      19.893358
+    ],
+    "description": {
+      "by": "Грандыёзны мемарыяльны курган вышынёй 34 метры на ўзгорку Святой Браніславы, насыпаны ў 1820–1823 гадах з зямлі з палёў бітваў пад Рацлавіцамі, Дубенкай, Мацяёвіцамі і іншых знакавых месцаў жыцця нацыянальнага героя.",
+      "ru": "Мемориальный курган высотой 34 метра на холме Брониславы, насыпанный в 1820–1823 годах народом из земли с полей сражений под Рацлавицами, Дубенкой, Мацеёвицами и других памятных мест восстания.",
+      "en": "Monumental 34-meter memorial earthen mound erected between 1820 and 1823 on Bronisława Hill in Kraków, constructed using soil brought from Kosciuszko's battlefields, including Racławice, Dubienka, and Maciejowice."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/KopiecKo%C5%9BciuszkiOrazKaplicaB%C5%82Bronis%C5%82awy-WidokZPo%C5%82udnia-POL%2C_Krak%C3%B3w.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://pl.wikipedia.org/wiki/Kopiec_Ko%C5%9Bciuszki_w_Krakowie"
+      }
+    ],
+    "tags": [
+      "Кракаў"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-monument-wawel-krakow",
+    "title": {
+      "by": "Конны помнік Тадэвушу Касцюшку на Вавелі ў Кракаве",
+      "ru": "Конный памятник Тадеушу Костюшко на Вавеле в Кракове",
+      "en": "Tadeusz Kościuszko Monument at Wawel, Kraków"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [
+      50.055,
+      19.935
+    ],
+    "description": {
+      "by": "Конная статуя кіраўніка паўстання 1794 года ля ўваходу ў Каралеўскі замак на Вавелі, створаная Леанардам Марконі і Антоніем Папелем. Помнік быў знішчаны нацыстамі ў 1940 г. і адноўлены ў 1960 г. як падарунак ад жыхароў Дрэздэна.",
+      "ru": "Конный монумент предводителю восстания 1794 года у въезда в Вавельский королевский замок, созданный Леонардом Маркони и Антонием Попелем. Уничтоженный нацистами в 1940 году, памятник был воссоздан в 1960 году.",
+      "en": "Equestrian statue of the leader of the 1794 Uprising at the entrance to Wawel Royal Castle in Kraków, designed by Leonard Marconi and Antoni Popiel. Destroyed by the Nazis in 1940, it was recast in 1960 as a gift from Dresden."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Tadeusz_Ko%C5%9Bciuszko%27s_monument._In_front_of_Wawel._-_panoramio.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Tadeusz_Ko%C5%9Bciuszko_Monument,_Krak%C3%B3w"
+      }
+    ],
+    "tags": [
+      "Кракаў"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-museum-solothurn",
+    "title": {
+      "by": "Музей Тадэвуша Касцюшкі ў Залатурне",
+      "ru": "Музей Тадеуша Костюшко в Золотурне",
+      "en": "Kosciuszko Museum in Solothurn"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Залатурн",
+      "ru": "Золотурн",
+      "en": "Solothurn"
+    },
+    "coordinates": [
+      47.208031,
+      7.536346
+    ],
+    "description": {
+      "by": "Мемарыяльны музей у доме сям'і Цэльтнер на вуліцы Гурцэльнгасэ (Gurzelngasse 12), дзе Тадэвуш Касцюшка правёў апошнія гады жыцця і памёр 15 кастрычніка 1817 года. У будынку захоўваецца пакой героя, пасмяротная маска і асабістыя рэчы.",
+      "ru": "Мемориальный музей в доме семьи Цельтнер на улице Гурцельнгассе (Gurzelngasse 12), где Тадеуш Костюшко провел последние годы жизни и скончался 15 октября 1817 года. Экспозиция включает мемориальную комнату, посмертную маску и личные вещи.",
+      "en": "Memorial museum located in the Zeltner house at Gurzelngasse 12, where Tadeusz Kościuszko spent his final years in exile and passed away on October 15, 1817. The museum features his death room, personal relics, and death mask."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Kosciuszko_plaque%2C_Solothurn.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://de.wikipedia.org/wiki/Kosciuszko-Museum"
+      }
+    ],
+    "tags": [
+      "Залатурн"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-monument-chicago",
+    "title": {
+      "by": "Конны помнік Тадэвушу Касцюшку ў Чыкага",
+      "ru": "Конный памятник Тадеушу Костюшко в Чикаго",
+      "en": "Tadeusz Kościuszko Monument in Chicago"
+    },
+    "category": "monument",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Чыкага",
+      "ru": "Чикаго",
+      "en": "Chicago"
+    },
+    "coordinates": [
+      41.866277,
+      -87.61249
+    ],
+    "description": {
+      "by": "Конны помнік працы скульптара Казіміра Ходзінскага, адкрыты ў 1904 годзе ў парку Гумбальта і перанесены ў 1978 годзе на праспект Solidarity Drive у Музейным кампусе на беразе возера Мічыган.",
+      "ru": "Конный монумент Костюшко работы скульптора Казимира Ходзинского, открытый в 1904 году в Гумбольдт-парке и перенесенный в 1978 году на аллею Солидарности (Solidarity Drive) в Музейном кампусе у озера Мичиган.",
+      "en": "Equestrian bronze statue created by sculptor Kazimierz Chodziński, originally erected in 1904 in Humboldt Park and relocated in 1978 to Solidarity Drive on the Museum Campus along the Lake Michigan shoreline."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/KOSCIUSZKO_statue_Northerly_Island_Chicago_2015.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Tadeusz_Ko%C5%9Bciuszko_Monument_(Chicago)"
+      }
+    ],
+    "tags": [
+      "Чыкага"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "kosciuszko-summit-plaque-australia",
+    "title": {
+      "by": "Мемарыяльная дошка на вяршыні гары Касцюшка ў Аўстраліі",
+      "ru": "Мемориальная доска на вершине горы Косцюшко в Австралии",
+      "en": "Memorial Plaque on the Summit of Mount Kosciuszko, Australia"
+    },
+    "category": "plaque",
+    "country": {
+      "by": "Аўстралія",
+      "ru": "Австралия",
+      "en": "Australia"
+    },
+    "city": {
+      "by": "Нацыянальны парк Касцюшка",
+      "ru": "Национальный парк Косцюшко",
+      "en": "Kosciuszko National Park"
+    },
+    "coordinates": [
+      -36.45583,
+      148.26361
+    ],
+    "description": {
+      "by": "Мемарыяльны знак і бронзавая дошка на найвышэйшым пункце кантынентальнай Аўстраліі (2228 м). Гара была названа ў гонар Тадэвуша Касцюшкі польскім даследчыкам Паўлам Эдмундам Стшэлецкім у 1840 годзе, які ўбачыў падабенства гары з кракаўскім Курганам Касцюшкі.",
+      "ru": "Мемориальная доска на высочайшей вершине материковой Австралии (2228 м). Гора названа в честь Тадеуша Костюшко польским исследователем Павлом Эдмундом Стшелецким в 1840 году за сходство её очертаний с Курганом Костюшко в Кракове.",
+      "en": "Memorial plaque at the summit of mainland Australia's highest peak (2,228 m). Polish explorer Paweł Edmund Strzelecki climbed and named the mountain in 1840 after Tadeusz Kościuszko, noting its resemblance to the Kościuszko Mound in Kraków."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Mount_Kosciuszko_Summit_Plaque_-_panoramio.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Mount_Kosciuszko"
+      }
+    ],
+    "tags": [
+      "Нацыянальны парк Касцюшка"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "tadeusz-kosciuszko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
+  },
+  {
+    "id": "domeyko-bust-universidad-chile",
+    "title": {
+      "by": "Бюст Ігнацыя Дамейкі ва ўніверсітэце Чылі ў Сант'яга",
+      "ru": "Бюст Игнация Домейко в Чилийском университете в Сантьяго",
+      "en": "Bust of Ignacy Domeyko at the University of Chile, Santiago"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Чылі",
+      "ru": "Чили",
+      "en": "Chile"
+    },
+    "city": {
+      "by": "Сант'яга",
+      "ru": "Сантьяго",
+      "en": "Santiago"
+    },
+    "coordinates": [
+      -33.444561,
+      -70.650953
+    ],
+    "description": {
+      "by": "Бюст выдатнага геолага, мінеролага і шматгадовага рэктара Чылійскага ўніверсітэта (1867–1883) працы скульптара Тэрэзы Бжоскевіч у Дворыку Дамейкі (Patio Domeyko) гістарычнага Галоўнага корпуса на праспекце Аламеда (Av. Libertador Bernardo O'Higgins).",
+      "ru": "Бюст выдающегося геолога, исследователя и многолетнего ректора Чилийского университета (1867–1883) работы скульптора Терезы Бжоскевич в Патио Домейко (Patio Domeyko) исторического здания Casa Central на проспекте Аламеда.",
+      "en": "Bust of the renowned geologist, mineralogist, and long-standing rector of the University of Chile (1867–1883) by Teresa Brzóskiewicz, located in Patio Domeyko inside the Central Building on Avenida Libertador Bernardo O'Higgins (Alameda)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/BustoDomeyko.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://es.wikipedia.org/wiki/Ignacio_Domeyko"
+      }
+    ],
+    "tags": [
+      "Сант'яга"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "ignacy-domeyko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "ignacy-domeyko"
+    ]
+  },
+  {
+    "id": "domeyko-grave-santiago",
+    "title": {
+      "by": "Магіла Ігнацыя Дамейкі на Галоўных могілках Сант'яга",
+      "ru": "Могила Игнация Домейко на Главном кладбище Сантьяго",
+      "en": "Tomb of Ignacy Domeyko at Cementerio General in Santiago"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Чылі",
+      "ru": "Чили",
+      "en": "Chile"
+    },
+    "city": {
+      "by": "Сант'яга",
+      "ru": "Сантьяго",
+      "en": "Santiago"
+    },
+    "coordinates": [
+      -33.414928,
+      -70.649222
+    ],
+    "description": {
+      "by": "Надмагільны манумент нацыянальнага героя Чылі і ўраджэнца беларускай зямлі Ігнацыя Дамейкі на Панадворку 1 (Patio 1) Галоўных могілак Сант'яга-дэ-Чылі. Пахаванне мае статус нацыянальнага гістарычнага помніка.",
+      "ru": "Надгробный памятник национальному герою Чили и уроженцу белорусской земли Игнацию Домейко на участке Patio 1 Главного кладбища Сантьяго (Cementerio General). Захоронение объявлено национальным историческим памятником.",
+      "en": "Tomb monument of the national hero of Chile and Belarusian-born scholar Ignacy Domeyko, located in Patio 1 of the Cementerio General in Santiago de Chile. The grave is recognized as an official national historic site."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Ignacio_Domeyko.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://es.wikipedia.org/wiki/Ignacio_Domeyko"
+      }
+    ],
+    "tags": [
+      "Сант'яга"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "ignacy-domeyko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "ignacy-domeyko"
+    ]
+  },
+  {
+    "id": "domeyko-memorial-la-serena",
+    "title": {
+      "by": "Мемарыяльны комплекс і музей Ігнацыя Дамейкі ва ўніверсітэце Ла-Серэна",
+      "ru": "Мемориальный комплекс и музей Игнация Домейко в университете Ла-Серена",
+      "en": "Ignacio Domeyko Memorial Campus and Museum at the University of La Serena"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Чылі",
+      "ru": "Чили",
+      "en": "Chile"
+    },
+    "city": {
+      "by": "Ла-Серэна",
+      "ru": "Ла-Серена",
+      "en": "La Serena"
+    },
+    "coordinates": [
+      -29.9089,
+      -71.2469
+    ],
+    "description": {
+      "by": "Кампус Ігнацыя Дамейкі і Мінералагічны музей яго імя ва ўніверсітэце Ла-Серэна (вул. Benavente 980), дзе Дамейка выкладаў хімію і мінералогію з 1838 года ў суседнім ліцэі імя Грэгорыа Кардавеса, заснаваўшы чылійскую горную школу.",
+      "ru": "Кампус Игнасио Домейко и Минералогический музей его имени в Университете Ла-Серена (ул. Benavente 980), где Домейко преподавал химию и минералогию с 1838 года в соседнем Лицее Грегорио Кордовеса, основав основы горного образования Чили.",
+      "en": "Ignacio Domeyko Campus and Mineralogical Museum at the University of La Serena (Benavente 980), commemorating Domeyko's work teaching chemistry and mineralogy starting in 1838 at the local college and founding Chilean mining engineering."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Domeyko.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://es.wikipedia.org/wiki/Ignacio_Domeyko"
+      }
+    ],
+    "tags": [
+      "Ла-Серэна"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "ignacy-domeyko",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "ignacy-domeyko"
+    ]
+  },
+  {
+    "id": "sudzilouski-senate-iolani-palace",
+    "title": {
+      "by": "Палац Іалані — рэзідэнцыя Сената Гаваяў пад кіраўніцтвам Мікалая Судзілоўскага",
+      "ru": "Дворец Иолани — резиденция Сената Гавайев под председательством Николая Судзиловского",
+      "en": "ʻIolani Palace — Seat of Hawaii Senate Presided by Nikolai Sudzilovsky"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Ганалулу",
+      "ru": "Гонолулу",
+      "en": "Honolulu"
+    },
+    "coordinates": [
+      21.306667,
+      -157.858889
+    ],
+    "description": {
+      "by": "Гістарычны палац Іалані (ʻIolani Palace) у Ганалулу, які служыў будынкам Тэрытарыяльнага парламента. Менавіта тут у 1901 годзе праходзілі пасяджэнні першага Тэрытарыяльнага Сената Гаваяў, першым прэзідэнтам якога быў абраны ўраджэнец Магілёва Мікалай Судзілоўскі (донтэр Нікалас Расэль / Kauka Lukini).",
+      "ru": "Исторический дворец Иолани в Гонолулу, служивший Капитолием Территории Гавайи. Здесь в 1901 году заседал первый Сенат Гавайских островов, первым председателем (президентом) которого был избран выходец из Беларуси Николай Судзиловский (Николас Руссель / Каука Лукини).",
+      "en": "Historic ʻIolani Palace in Honolulu, which served as the Capitol of the Territory of Hawaii. Here in 1901, the first Territorial Senate convened, presided over by its first elected President, Belarusian-born revolutionary and physician Nikolai Sudzilovsky (Dr. Nicholas Russel / Kauka Lukini)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Iolani_Palace_%2851872681413%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Sudzilovsky"
+      }
+    ],
+    "tags": [
+      "Ганалулу"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "nikolai-sudzilovsky",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "nikolai-sudzilovsky"
+    ]
+  },
+  {
+    "id": "sudzilouski-grave-amakusa",
+    "title": {
+      "by": "Пахавальня Мікалая Судзілоўскага на востраве Амакуса",
+      "ru": "Усыпальница Николая Судзиловского на острове Амакуса",
+      "en": "Burial Crypt of Nikolai Sudzilovsky on Amakusa Island"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Японія",
+      "ru": "Япония",
+      "en": "Japan"
+    },
+    "city": {
+      "by": "Амакуса",
+      "ru": "Амакуса",
+      "en": "Amakusa"
+    },
+    "coordinates": [
+      32.4578,
+      130.1983
+    ],
+    "description": {
+      "by": "Месца спачыну выбітнага беларускага асветніка, медыка і палітыка Мікалая Судзілоўскага. Пасля смерці ў Кітаі ў 1930 годзе яго прах быў крэміраваны і ў 1946 годзе ўрачыста пахаваны ў сямейнай пахавальні сям'і яго жонкі Ахара на востраве Амакуса ў Японіі.",
+      "ru": "Место упокоения выдающегося деятеля Николая Судзиловского. После кончины в Китае в 1930 году его прах был кремирован в Японии и в 1946 году захоронен в семейном склепе Охара на острове Амакуса.",
+      "en": "Resting place of the prominent Belarusian revolutionary and physician Nikolai Sudzilovsky. Following his death in China in 1930, his ashes were cremated and interred in 1946 in the Ohara family crypt on Amakusa Island, Japan."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Sudzilovsky.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Nikolai_Sudzilovsky"
+      }
+    ],
+    "tags": [
+      "Амакуса"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "nikolai-sudzilovsky",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "nikolai-sudzilovsky"
+    ]
+  },
+  {
+    "id": "sienkiewicz-monument-rome",
+    "title": {
+      "by": "Помнік Генрыку Сенкевічу на Віле Баргезэ ў Рыме",
+      "ru": "Памятник Генрику Сенкевичу на Вилле Боргезе в Риме",
+      "en": "Monument to Henryk Sienkiewicz at Villa Borghese in Rome"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "coordinates": [
+      41.9186,
+      12.4764
+    ],
+    "description": {
+      "by": "Бронзавы помнік лаўрэату Нобелеўскай прэміі па літаратуры Генрыку Сенкевічу (аўтару рамана «Quo Vadis» пра старажытны Рым), створаны скульптарам Чэславам Дзвігаем у 2006 годзе на плошчы Piazzale Ferdowsi ў парку Віла Баргезэ.",
+      "ru": "Бронзовый памятник лауреату Нобелевской премии по литературе Генрику Сенкевичу (автору знаменитого римского романа «Камо грядеши»), установленный в 2006 году скульптором Чеславом Дзвигаем на Piazzale Ferdowsi в парке Вилла Боргезе.",
+      "en": "Bronze statue of Nobel laureate Henryk Sienkiewicz (author of the Roman epic 'Quo Vadis'), sculpted by Czesław Dźwigaj and unveiled in 2006 at Piazzale Ferdowsi within the Villa Borghese gardens in Rome."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Sienkiewicz_in_rome.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Henryk_Sienkiewicz"
+      }
+    ],
+    "tags": [
+      "Рым"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "henryk-sienkiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "henryk-sienkiewicz"
+    ]
+  },
+  {
+    "id": "sienkiewicz-monument-vevey",
+    "title": {
+      "by": "Помнік і мемарыяльная дошка Генрыку Сенкевічу ў Grand Hôtel du Lac у Веве",
+      "ru": "Памятник и мемориальная доска Генрику Сенкевичу в Grand Hôtel du Lac в Веве",
+      "en": "Monument and Memorial Plaque to Henryk Sienkiewicz at Grand Hôtel du Lac in Vevey"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Вевэ",
+      "ru": "Веве",
+      "en": "Vevey"
+    },
+    "coordinates": [
+      46.4575,
+      6.8522
+    ],
+    "description": {
+      "by": "Бронзавы помнік працы скульптара Густава Землы (2006 г.) у садзе атэля Grand Hôtel du Lac на беразе Жэнеўскага возера і мемарыяльная дошка на будынку, дзе Сенкевіч жыў у эміграцыі ў гады Першай сусветнай вайны і памёр 15 лістапада 1916 года.",
+      "ru": "Бронзовый памятник работы Казимежа Густава Землы (2006 г.) в саду отеля Grand Hôtel du Lac на Женевском озере и памятная доска на фасаде, где писатель жил в годы Первой мировой войны и скончался 15 ноября 1916 года.",
+      "en": "Bronze monument by sculptor Gustaw Zemła (2006) in the lakeside garden of the Grand Hôtel du Lac and a plaque on the building where Sienkiewicz lived during World War I and passed away on November 15, 1916."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Vevey_-_Grand_H%C3%B4tel_du_Lac_-_2022-06_-_01.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Henryk_Sienkiewicz"
+      }
+    ],
+    "tags": [
+      "Вевэ"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "henryk-sienkiewicz",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "henryk-sienkiewicz"
+    ]
+  },
+  {
+    "id": "azheshka-monument-ksiazecem-warsaw",
+    "title": {
+      "by": "Помнік Элізе Ажэшцы ў парку На Ксяжэнцэм у Варшаве",
+      "ru": "Памятник Элизе Ожешко в парке На Ксёнженцем в Варшаве",
+      "en": "Eliza Orzeszkowa Monument in Park Na Książęcem, Warsaw"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.230111,
+      21.02825
+    ],
+    "description": {
+      "by": "Помнік-бюст выбітнай пісьменніцы з пясчаніку працы скульптара Рамуальда Зэрыха, усталяваны ў 1958 годзе ў парку На Ксяжэнцэм (Park Na Książęcem) у цэнтры Варшавы (раён Срэдмесце, побач з Уяздоўскім паркам і Сеймам).",
+      "ru": "Песчаниковый памятник-бюст писательнице работы скульптора Ромуальда Зериха, открытый в 1958 году в парке На Ксёнженцем в варшавском Сьрудместье (неподалёку от Уяздовского парка и Сейма).",
+      "en": "Sandstone bust of writer Eliza Orzeszkowa by sculptor Romuald Zerych, unveiled in 1958 in Park Na Książęcem in central Warsaw (Śródmieście district, near Ujazdowski Park and the Sejm)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Popiersie_Elizy_Orzeszkowej_Park_na_Ksi%C4%85%C5%BC%C4%99cem_2017.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://pl.wikipedia.org/wiki/Pomnik_Elizy_Orzeszkowej_w_Warszawie_(Śródmieście)"
+      }
+    ],
+    "tags": [
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "eliza-orzeszkowa",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "eliza-orzeszkowa"
+    ]
+  },
+  {
+    "id": "azheshka-monument-praski-warsaw",
+    "title": {
+      "by": "Помнік Элізе Ажэшцы ў Пражскім парку ў Варшаве",
+      "ru": "Памятник Элизе Ожешко в Пражском парке в Варшаве",
+      "en": "Eliza Orzeszkowa Monument in Praski Park, Warsaw"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.25375,
+      21.025972
+    ],
+    "description": {
+      "by": "Бронзавы бюст Элізы Ажэшкі працы скульптара Генрыка Куны, урачыста адкрыты 30 кастрычніка 1938 года ў Пражскім парку на правым беразе Віслы. Помнік цудам ацалеў падчас разбурэння Варшавы ў Другую сусветную вайну.",
+      "ru": "Бронзовый бюст Элизы Ожешко работы скульптора Генрика Куны, открытый 30 октября 1938 года в Пражском парке на правом берегу Вислы. Монумент уцелел в годы Второй мировой войны.",
+      "en": "Bronze bust of Eliza Orzeszkowa by sculptor Henryk Kuna, unveiled on October 30, 1938, in Praski Park on the right bank of the Vistula River. The monument survived the destruction of Warsaw during World War II."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Popiersie_Elizy_Orzeszkowej_w_Parku_Praskim_w_Warszawie.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://pl.wikipedia.org/wiki/Pomnik_Elizy_Orzeszkowej_w_Warszawie_(park_Praski)"
+      }
+    ],
+    "tags": [
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "eliza-orzeszkowa",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "eliza-orzeszkowa"
+    ]
+  },
+  {
+    "id": "karski-institute-saint-petersburg",
+    "title": {
+      "by": "Інстытут лінгвістычных даследаванняў РАН на набярэжнай Макарава (месца працы Яўхіма Карскага)",
+      "ru": "Институт лингвистических исследований РАН на набережной Макарова (место работы Е. Ф. Карского)",
+      "en": "Institute of Linguistic Research RAS on Makarova Embankment (Workplace of Yauhim Karski)"
+    },
+    "category": "plaque",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Санкт-Пецярбург",
+      "ru": "Санкт-Петербург",
+      "en": "Saint Petersburg"
+    },
+    "coordinates": [
+      59.9464,
+      30.2982
+    ],
+    "description": {
+      "by": "Гістарычны будынак Акадэміі навук на набярэжнай Макарава (былой Тучкавай набярэжнай) на Васільеўскім востраве, дзе працаваў акадэмік Яўхім Карскі — заснавальнік беларускага навуковага мовазнаўства, дырэктар Музея антрапалогіі і этнаграфіі і аўтар фундаментальнай трохтамовай працы «Беларусы».",
+      "ru": "Исторический комплекс Академии наук на набережной Макарова (бывшей Тучковой набережной) на Васильевском острове, где работал академик Е. Ф. Карский — основатель белорусского научного языкознания, директор Музея антропологии и этнографии и автор трехтомника «Белорусы».",
+      "en": "Historic Academy of Sciences building on Makarova Embankment (formerly Tuchkova Embankment) on Vasilievsky Island, where academician Yauhim Karski worked as founder of modern Belarusian scientific linguistics and director of the Kunstkamera/MAE."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Yefim_Karskiy.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9,_%D0%95%D0%B2%D1%84%D0%B8%D0%BC%D0%B8%D0%B9_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87"
+      }
+    ],
+    "tags": [
+      "Санкт-Пецярбург"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "yafim-karski",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "yafim-karski"
+    ]
+  },
+  {
+    "id": "karski-grave-smolenskoye-spb",
+    "title": {
+      "by": "Магіла Яўхіма Карскага на Смаленскіх праваслаўных могілках у Санкт-Пецярбургу",
+      "ru": "Могила Е. Ф. Карского на Смоленском православном кладбище в Санкт-Петербурге",
+      "en": "Grave of Yauhim Karski at Smolenskoye Orthodox Cemetery, Saint Petersburg"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Санкт-Пецярбург",
+      "ru": "Санкт-Петербург",
+      "en": "Saint Petersburg"
+    },
+    "coordinates": [
+      59.9507,
+      30.2475
+    ],
+    "description": {
+      "by": "Магіла і надмагільны помнік акадэміка Яўхіма Карскага (1861–1931) на 1-й Надзеждзінскай дарожцы Смаленскіх праваслаўных могілак на Васільеўскім востраве. З'яўляецца месцам ушанавання памяці вялікага беларускага вучонага-славіста.",
+      "ru": "Могила и гранитный памятник академика Е. Ф. Карского (1861–1931) на 1-й Надеждинской дорожке Смоленского православного кладбища на Васильевском острове Санкт-Петербурга.",
+      "en": "Grave and granite headstone of academician Yauhim Karski (1861–1931) on the 1st Nadezhdinskaya path of the Smolenskoye Orthodox Cemetery on Vasilievsky Island in Saint Petersburg."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Yefim_Karskiy.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9,_%D0%95%D0%B2%D1%84%D0%B8%D0%BC%D0%B8%D0%B9_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87"
+      }
+    ],
+    "tags": [
+      "Санкт-Пецярбург"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "yafim-karski",
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "yafim-karski"
+    ]
+  },
+  {
+    "id": "berlin-palais-radziwill",
+    "title": {
+      "by": "Палац Радзівілаў у Берліне (Palais Radziwiłł / Wilhelmstraße 77)",
+      "ru": "Дворец Радзивиллов в Берлине (Palais Radziwiłł / Wilhelmstraße 77)",
+      "en": "Radziwiłł Palace in Berlin (Palais Radziwiłł / Wilhelmstraße 77)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Берлін",
+      "ru": "Берлин",
+      "en": "Berlin"
+    },
+    "coordinates": [
+      52.511667,
+      13.381944
+    ],
+    "description": {
+      "by": "Гістарычны палац на Wilhelmstraße 77, пабудаваны ў 1736–1739 гг. як Palais Schulenburg. У 1796 годзе набыты князем Антоніем Генрыхам Радзівілам і яго жонкай, прускай прынцэсай Луізай. Стаў галоўным асяродкам берлінскага культурнага і арыстакратычнага салона: тут князь Антон прымаў Фрыдэрыка Шапэна і Іагана Вольфганга фон Гётэ (у палацы ў 1820 годзе ўпершыню прагучала музыка Радзівіла да «Фаўста»). У 1875 годзе палац быў выкуплены нямецкай дзяржавай і пераўтвораны ў Рэйхсканцылярыю (Alte Reichskanzlei) — рэзідэнцыю Ота фон Бісмарка. Разбураны ў Другую сусветную вайну і знесены ў 1949 годзе.",
+      "ru": "Исторический дворец на Вильгельмштрассе 77, возведённый в 1736–1739 гг. как Palais Schulenburg. В 1796 году куплен князем Антонием Генрихом Радзивиллом и его супругой принцессой Луизой Прусской. Дворец стал знаменитым культурным салоном Берлина, где князь Антон принимал Фредерика Шопена и Иоганна Вольфганга Гёте (здесь впервые звучали сцены из «Фауста» с музыкой Радзивилла). В 1875 году выкуплен германским правительством и стал Старой Рейхсканцелярией — официальной резиденцией Отто фон Бисмарка. Разрушен во Вторую мировую войну и снесён в 1949 г.",
+      "en": "Historic palace at Wilhelmstraße 77, built in 1736–1739 as Palais Schulenburg. Acquired in 1796 by Prince Antoni Henryk Radziwiłł and his wife Princess Louise of Prussia. It became one of Berlin's most celebrated cultural salons, hosting Frédéric Chopin and Johann Wolfgang von Goethe (who collaborated with Radziwiłł on the musical composition for Faust). In 1875 purchased by the German Empire and became the Reich Chancellery (Old Reich Chancellery), the official residence of Chancellor Otto von Bismarck. Damaged during WWII and demolished in 1949."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Berlin_Palais_Radziwill.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://de.wikipedia.org/wiki/Reichskanzlerpalais"
+      }
+    ],
+    "tags": [
+      "Берлін"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "antoni-radziwill",
+    "personIds": [
+      "antoni-radziwill",
+      "radziwills"
+    ]
+  },
+  {
+    "id": "warszawa-palac-radziwillow",
+    "title": {
+      "by": "Прэзідэнцкі палац / Палац Радзівілаў у Варшаве",
+      "ru": "Президентский дворец / Дворец Радзивиллов в Варшаве",
+      "en": "Presidential Palace / Radziwiłł Palace in Warsaw"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.243008,
+      21.01625
+    ],
+    "description": {
+      "by": "Манументальны палацавы комплекс на Krakowskie Przedmieście 46/48. З 1674 года на працягу больш за 140 гадоў належаў роду Радзівілаў (Міхалу Казіміру, Каралю Станіславу «Пане Каханку»). У гэты перыяд палац быў цэнтрам палітычнага і свецкага жыцця сталіцы Рэчы Паспалітай з уласным прыватным тэатрам. У 1818 годзе набыты ўрадам Царства Польскага як рэзідэнцыя намесніка (менавіта тут 8-гадовы Фрыдэрык Шапэн даў свой першы публічны канцэрт). Сёння — афіцыйная рэзідэнцыя Прэзідэнта Рэспублікі Польшча.",
+      "ru": "Монументальный дворцовый ансамбль на Краковском предместье 46/48. С 1674 года более 140 лет принадлежал магнатскому роду Радзивиллов (Михаилу Казимиру, Каролю Станиславу «Пане Коханку»). В этот период дворец был центром политической и культурной жизни с собственным театром. В 1818 году перешёл государству как резиденция наместника Царства Польского (здесь дал первый публичный концерт 8-летний Шопен). Сегодня — официальная резиденция Президента Польши.",
+      "en": "Monumental palace at Krakowskie Przedmieście 46/48. Acquired in 1674 by the Radziwiłł family and held for over 140 years by prominent figures like Michał Kazimierz Radziwiłł and Karol Stanisław 'Panie Kochanku' Radziwiłł. The palace hosted legendary theatrical productions and grand assemblies. In 1818 acquired by the Kingdom of Poland as the Viceroy's seat (where 8-year-old Frédéric Chopin gave his first public concert). Today it serves as the official seat of the President of Poland."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Warszawa_Pa%C5%82ac_Prezydencki_2011.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Presidential_Palace,_Warsaw"
+      }
+    ],
+    "tags": [
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ]
+  },
+  {
+    "id": "nieborow-palac-radziwillow",
+    "title": {
+      "by": "Палац Радзівілаў у Нябораве",
+      "ru": "Дворец Радзивиллов в Неборове",
+      "en": "Radziwiłł Palace in Nieborów"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Нябораў",
+      "ru": "Неборов",
+      "en": "Nieborów"
+    },
+    "coordinates": [
+      52.066667,
+      20.070278
+    ],
+    "description": {
+      "by": "Барочны рэзідэнцыйны палац архітэктара Тыльмана ван Гамерэна, набыты ў 1774 годзе князем Міхалам Геранімам Радзівілам. Радзівілы валодалі ім да 1945 года, ператварыўшы ў скарбніцу сусветнага мастацтва з карціннай галерэяй, бібліятэкай, мануфактурай маёлікі і знакамітым рамантычным паркам «Аркадыя», закладзеным княгіняй Аленай Радзівіл. Цяпер філіял Нацыянальнага музея ў Варшаве з цалкам захаванымі гістарычнымі інтэр'ерамі.",
+      "ru": "Барочный дворцово-парковый ансамбль архитектора Тильмана ван Гамерена, приобретённый в 1774 г. князем Михалом Иеронимом Радзивиллом. Находился во владении рода до 1945 года. Включает богатейшие коллекции живописи, скульптуры, старинной мебели, редких книг, мануфактуру майолики и всемирно известный романтический пейзажный парк «Аркадия», разбитый княгиней Хеленой Радзивилл. Ныне филиал Национального музея в Варшаве.",
+      "en": "Baroque residential palace designed by Tylman van Gameren, acquired in 1774 by Prince Michał Hieronim Radziwiłł. The Radziwiłł family owned Nieborów until 1945, amassing extraordinary collections of European art, antique furniture, rare books, and establishing a famous majolica factory. Adjacent to it lies the famous romantic English landscape park 'Arkadia', created by Princess Helena Radziwiłł. Today it operates as a preserved museum branch of the National Museum in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/Pa%C5%82ac_w_Nieborowie%2C_widok_od_ogrodu.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Niebor%C3%B3w_Palace"
+      }
+    ],
+    "tags": [
+      "Нябораў"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ]
+  },
+  {
+    "id": "olyka-radziwill-castle",
+    "title": {
+      "by": "Замак Радзівілаў у Олыцы",
+      "ru": "Замок Радзивиллов в Олыке",
+      "en": "Radziwiłł Castle in Olyka"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Олыка",
+      "ru": "Олыка",
+      "en": "Olyka"
+    },
+    "coordinates": [
+      50.723333,
+      25.808611
+    ],
+    "description": {
+      "by": "Магутны бастыённы замак на Валыні, галоўная рэзідэнцыя олыцкай ардынацыі Радзівілаў. Закладзены ў XVI стагоддзі Мікалаем Радзівілам «Чорным» і дабудаваны яго сынам Станіславам. Квадратны ў плане комплекс з чатырма нарожнымі бастыёнамі, равамі, уязной вежай і ўнутраным рэзідэнцыйным палацам вытрымаў шматлікія аблогі. Заставаўся ў руках Радзівілаў аж да верасня 1939 года.",
+      "ru": "Мощный бастионный замок на Волыни, родовое гнездо олыкской ординации князей Радзивиллов. Заложен в XVI веке Николаем Радзивиллом «Чёрным» и расширен его сыном Станиславом. Квадратный в плане комплекс с 4 угловыми бастионами, глубокими рвами, надвратной башней и дворцом неоднократно выдерживал осады. Находился во владении Радзивиллов вплоть до сентября 1939 года.",
+      "en": "Formidable bastion fortress in Volhynia, principal residence of the Olyka fee tail (ordynacja) of the Radziwiłłs. Founded in the 16th century by Mikołaj 'the Black' Radziwiłł and expanded by his son Stanisław. Features a square plan with four corner bastions, moats, a monumental gateway tower, and a residential palace. It survived numerous sieges and remained a Radziwiłł property until September 1939."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Olyka_wieza2.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Olyka_Castle"
+      }
+    ],
+    "tags": [
+      "Олыка"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ]
+  },
+  {
+    "id": "olyka-holy-trinity-collegiate",
+    "title": {
+      "by": "Калегіята Святой Тройцы ў Олыцы (пантэон Радзівілаў)",
+      "ru": "Коллегиальный костёл Святой Троицы в Олыке (пантеон Радзивиллов)",
+      "en": "Collegiate Church of the Holy Trinity in Olyka (Radziwiłł Pantheon)"
+    },
+    "category": "church",
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Олыка",
+      "ru": "Олыка",
+      "en": "Olyka"
+    },
+    "coordinates": [
+      50.721944,
+      25.8115
+    ],
+    "description": {
+      "by": "Шэдэўр барочнай сакральнай архітэктуры (1635–1640), узведзены італьянскімі дойлідамі Бенедэта Молі і Джавані Маліверна па фундацыі князя Альбрэхта Станіслава Радзівіла. Храм быў узорам рымскага Іль-Джэзу і служыў сямейным пантэонам-пахавальняй валынскай галіны Радзівілаў. У падземных крыптах знаходзяцца саркафагі і мармуровыя надмагіллі князёў.",
+      "ru": "Выдающийся памятник раннего барокко (1635–1640), возведённый итальянскими архитекторами Бенедетто Молли и Джованни Маливерна на средства канцлера Альбрехта Станислава Радзивилла. Построен по образцу римской церкви Иль-Джезу. Служил духовным центром и родовой усыпальницей (пантеоном) волынской ветви Радзивиллов с богатыми криптами и мраморными надгробиями.",
+      "en": "Masterpiece of early baroque sacred architecture (1635–1640), designed by Italian architects Benedetto Molli and Giovanni Maliverna, funded by Grand Chancellor Albrecht Stanisław Radziwiłł. Modeled after the church of the Gesù in Rome, it served as the family pantheon and mausoleum for the Volhynian line of the Radziwiłł family, featuring crypts with historic marble sarcophagi."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/%D0%9E%D0%BB%D0%B8%D0%BA%D0%B0._%D0%9A%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D0%BA%D0%BE%D0%BB%D0%B5%D0%B3%D1%96%D0%B0%D1%82%D0%B8.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Collegiate_Church_of_the_Holy_Trinity,_Olyka"
+      }
+    ],
+    "tags": [
+      "Олыка"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ]
+  },
+  {
+    "id": "szydlowiec-radziwill-castle",
+    "title": {
+      "by": "Замак Радзівілаў у Шыдлоўцы",
+      "ru": "Замок Радзивиллов в Шидловце",
+      "en": "Radziwiłł Castle in Szydłowiec"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Шыдловец",
+      "ru": "Шидловец",
+      "en": "Szydłowiec"
+    },
+    "coordinates": [
+      51.233333,
+      20.85
+    ],
+    "description": {
+      "by": "Позднегатычны і рэнесансны водны замак на штучным востраве. У 1548 годзе ў выніку шлюбу Мікалая Радзівіла «Чорнага» з Альжбетай Шыдлавецкай перайшоў да Радзівілаў і стаў цэнтрам іх Шыдлавецкага графства аж да 1802 года. Радзівілы перабудавалі замак, дадаўшы рэнесансныя аркады і багаты дэкор. Цяпер тут размяшчаецца Музей народных музычных інструментаў.",
+      "ru": "Позднеготический и ренессансный замок на искусственном острове, окружённый рвом. В 1548 г. в результате брака Николая Радзивилла «Чёрного» с Эльжбетой Шидловецкой перешёл к роду Радзивиллов и стал центром Шидловецкого графства до 1802 г. Радзивиллы придали замку ренессансный лоск с аркадными галереями. Сегодня здесь открыт Музей народных музыкальных инструментов.",
+      "en": "Late Gothic and Renaissance water castle situated on an island in a moat. In 1548, through the marriage of Mikołaj 'the Black' Radziwiłł to Elżbieta Szydłowiecka, it became a prized Radziwiłł estate and center of the Szydłowiec countship until 1802. The Radziwiłłs upgraded the castle with Renaissance arcaded loggias and stone reliefs. Today it houses the Museum of Popular Musical Instruments."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Szyd%C5%82owiec._Zamek_5.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Szyd%C5%82owiec_Castle"
+      }
+    ],
+    "tags": [
+      "Шыдловец"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ]
+  },
+  {
+    "id": "palanga-tiskevicius-palace",
+    "title": {
+      "by": "Палац графаў Тышкевічаў і Музей бурштыну ў Паланзе",
+      "ru": "Дворец графов Тышкевичей и Музей янтаря в Паланге",
+      "en": "Tiškevičius Palace and Amber Museum in Palanga"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Паланга",
+      "ru": "Паланга",
+      "en": "Palanga"
+    },
+    "coordinates": [
+      55.90695,
+      21.05605
+    ],
+    "description": {
+      "by": "Неарэнесансны палацавы ансамбль графаў Тышкевічаў, збудаваны ў 1897 годзе нямецкім архітэктарам Францам Швехтэнам для графа Фелікса Тышкевіча. Палац акружаны батанічным паркам сусветнага ўзроўню, спраектаваным французскім ландшафтным архітэктарам Эдуарам Андрэ. З 1963 года ў залах палаца адкрыты знакаміты Палангскі музей бурштыну з унікальнай калекцыяй інклюзаў і велічэзным «Сонечным каменем».",
+      "ru": "Неоренессансный дворец графов Тышкевичей, построенный в 1897 г. немецким архитектором Францем Швехтеном для графа Феликса Тышкевича. Окружён великолепным ботаническим парком, созданным французским ландшафтным архитектором Эдуаром Андре. С 1963 года в залах дворца действует знаменитый Палангский музей янтаря, хранящий редчайшие инклюзы и гигантский самородок «Солнечный камень».",
+      "en": "Neo-Renaissance estate constructed in 1897 by German architect Franz Heinrich Schwechten for Count Feliks Tiškevičius (Tyszkiewicz). The palace is embraced by an exquisite botanical park created by famous French landscape designer Édouard André. Since 1963, the palace houses the Palanga Amber Museum, showcasing over 28,000 amber artifacts, including rare fossil inclusions and the famed 3.5 kg 'Sun Stone'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Ti%C5%A1kevi%C4%8Diai_Palace_at_dusk%2C_Palanga%2C_Lithuania_-_Diliff.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Palanga_Amber_Museum"
+      }
+    ],
+    "tags": [
+      "Паланга"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "tyszkiewicz",
+    "personIds": [
+      "tyszkiewicz"
+    ]
+  },
+  {
+    "id": "kretinga-tiskevicius-palace",
+    "title": {
+      "by": "Палац Тышкевічаў і Зімовы сад у Крэтынзе",
+      "ru": "Дворец Тышкевичей и Зимний сад в Кретинге",
+      "en": "Tiškevičius Palace and Winter Garden in Kretinga"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Крэтынга",
+      "ru": "Кретинга",
+      "en": "Kretinga"
+    },
+    "coordinates": [
+      55.9,
+      21.248611
+    ],
+    "description": {
+      "by": "Маёнтак графаў Тышкевічаў, набыты ў 1875 годзе графам Юзафам (Юозапасам) Тышкевічам. Ён перабудаваў палац і стварыў грандыёзную аранжарэю — Зімовы сад са шкляным скляпеннем, які быў найбуйнейшай прыватнай аранжарэяй у Еўропе канца XIX стагоддзя (з экзатычнымі пальмамі, кактусамі, каскадамі і вадаспадамі). Сёння тут дзейнічае Крэтынгскі краязнаўчы музей і адноўлены Зімовы сад.",
+      "ru": "Усадебный комплекс графов Тышкевичей, приобретённый в 1875 г. графом Юзефом Тышкевичем. Он реконструировал дворец и построил грандиозный Зимний сад под стеклянным куполом — крупнейшую в Европе конца XIX века частную оранжерею с экзотическими пальмами, кактусами, гротами и водопадами. Сегодня в залах открыт Кретингский музей и обновлённый Зимний сад.",
+      "en": "Estate of the counts Tyszkiewicz, bought in 1875 by Count Józef Tyszkiewicz. He renovated the manor and constructed a massive glass-roofed Winter Garden conservatory, which was the largest private greenhouse in Europe at the time, complete with tropical palms, waterfalls, and grottos. Today it hosts the Kretinga Regional Museum and the restored conservatory."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kretinga_palace.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Kretinga_Manor"
+      }
+    ],
+    "tags": [
+      "Крэтынга"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "tyszkiewicz",
+    "personIds": [
+      "tyszkiewicz"
+    ]
+  },
+  {
+    "id": "warszawa-palac-tyszkiewiczow",
+    "title": {
+      "by": "Палац Тышкевічаў-Патоцкіх у Варшаве",
+      "ru": "Дворец Тышкевичей-Потоцких в Варшаве",
+      "en": "Tyszkiewicz-Potocki Palace in Warsaw"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.240556,
+      21.017222
+    ],
+    "description": {
+      "by": "Адзін з найпрыгажэйшых класіцыстычных палацаў Варшавы на Krakowskie Przedmieście 32. Пабудаваны ў 1785–1792 гг. каралеўскім архітэктарам Янам Крысціянам Камзэтцэрам для польнага гетмана літоўскага Людвіка Скумін-Тышкевіча і яго жонкі Канстанцыі (пляменніцы караля Станіслава Аўгуста Панятоўскага). Галоўная адметнасць фасада — балкон, які падтрымліваюць чатыры каменныя фігуры Атлантаў працы Андрэ Лебрэна. Сёння належыць Варшаўскаму ўніверсітэту.",
+      "ru": "Один из красивейших классицистических дворцов Варшавы на Краковском предместье 32. Построен в 1785–1792 гг. королевским архитектором Яном Кристианом Камзетцером по заказу польного гетмана литовского Людвика Скумин-Тышкевича и его супруги Констанции Понятовской. Фасад украшен балконом с четырьмя фигурами могучих Атлантов работы скульптора Андре Лебрена. Сегодня здание принадлежит Варшавскому университету.",
+      "en": "One of the finest Neoclassical palaces in Warsaw, located at Krakowskie Przedmieście 32. Commissioned in 1785–1792 by Field Hetman of Lithuania Ludwik Skumin Tyszkiewicz and designed by royal architect Jan Chrystian Kamsetzer. The palace facade is celebrated for its stone balcony upheld by four monumental Atlantes carved by royal sculptor André Le Brun. Currently owned by the University of Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Pa%C5%82ac_Tyszkiewicz%C3%B3w-Potockich_w_Warszawie_2019a.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Tyszkiewicz_Palace,_Warsaw"
+      }
+    ],
+    "tags": [
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "tyszkiewicz",
+    "personIds": [
+      "tyszkiewicz"
+    ]
+  },
+  {
+    "id": "vilnius-chodkiewicz-palace",
+    "title": {
+      "by": "Палац Хадкевічаў у Вільні (Вільнюская карцінная галерэя)",
+      "ru": "Дворец Ходкевичей в Вильнюсе (Вильнюсская картинная галерея)",
+      "en": "Chodkiewicz Palace in Vilnius (Vilnius Picture Gallery)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.680556,
+      25.288889
+    ],
+    "description": {
+      "by": "Рэпрэзентатыўны палацавы ансамбль на Вялікай вуліцы (Didžioji g. 4), галоўная гарадская сядзіба магнатаў Хадкевічаў у сталіцы ВКЛ з XVI да пачатку XIX стагоддзя. Тут жыў славуты вялікі гетман літоўскі Ян Караль Хадкевіч. Палац быў капітальна перабудаваны ў стылі ампір/класіцызм архітэктарам Томашам Тышэцкім у 1834 годзе. З 1994 года ў палацы месціцца Вільнюская карцінная галерэя Нацыянальнага мастацкага музея Літвы з багатай калекцыяй жывапісу і скульптуры XVI–XX стст.",
+      "ru": "Представительный дворцовый ансамбль на Большой улице (Didžioji g. 4), родовая городская резиденция магнатов Ходкевичей в столице ВКЛ с XVI до начала XIX века. Здесь жил выдающийся полководец Ян Кароль Ходкевич. В 1834 году дворец приобрёл строгий ампирный облик по проекту архитектора Томаша Тышецкого. С 1994 года в залах дворца работает Вильнюсская картинная галерея Литовского национального художественного музея.",
+      "en": "Grand urban palace at Didžioji g. 4, the primary ancestral city residence of the Chodkiewicz magnate dynasty in the capital of the Grand Duchy of Lithuania from the 16th to 19th centuries. Home to Grand Hetman Jan Karol Chodkiewicz. In 1834 reconstructed into an imposing Empire/Neoclassical complex by Tomasz Tyszecki. Since 1994, it houses the Vilnius Picture Gallery of the Lithuanian National Museum of Art."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Art_Museum_of_Lithuania.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Chodkiewicz_Palace"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "jan-karol-chodkiewicz",
+    "personIds": [
+      "jan-karol-chodkiewicz"
+    ]
+  },
+  {
+    "id": "krakow-chodkiewicz-residence",
+    "title": {
+      "by": "Рэзідэнцыя магнатаў Хадкевічаў у Кракаве (вуліца Гродская)",
+      "ru": "Резиденция магнатов Ходкевичей в Кракове (улица Гродзкая)",
+      "en": "Chodkiewicz Magnate Residence in Kraków (Grodzka Street)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [
+      50.0577,
+      19.9381
+    ],
+    "description": {
+      "by": "Гістарычнае месца знаходжання кракаўскіх маёмасцяў і рэзідэнцыі роду Хадкевічаў на Каралеўскім тракце (вуліца Гродская), якая злучае Галоўны Рынак з каралеўскім замкам на Вавелі. Вялікі гетман літоўскі Ян Караль Хадкевіч і яго родзічы падчас каралеўскіх соймаў і ўрачыстасцяў у сталіцы Кароны спыняліся і валодалі тут камяніцамі (архіўныя зборы роду пасля перададзены ў Нацыянальны архіў у Кракаве). Таксама ў Варшаве на вул. Мядовай, 14 захаваўся класіцыстычны Палац Хадкевічаў канца XVIII ст.",
+      "ru": "Историческое место краковских владений рода Ходкевичей на Королевском тракте (улица Гродзкая), ведущем к Вавельскому замку. Великий гетман литовский Ян Кароль Ходкевич и представители рода владели городскими домами-резиденциями на Гродзкой во время заседаний сеймов и коронаций (родовой архив позже поступил в Национальный архив в Кракове). В Польше также сохранился столичный Дворец Ходкевичей в Варшаве на ул. Мёдовой, 14.",
+      "en": "Historical urban townhouse connection of the Chodkiewicz family situated along the historic Royal Route (Grodzka Street), connecting the Main Market Square to Wawel Castle in Kraków. Magnates of the Grand Duchy of Lithuania, particularly Grand Hetman Jan Karol Chodkiewicz, maintained urban estates here during royal coronations and general Sejms. (Note: In Warsaw, the surviving Neoclassical Chodkiewicz Palace stands at Miodowa 14)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ulica_Grodzka_w_Krakowie.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://pl.wikipedia.org/wiki/Ulica_Grodzka_w_Krakowie"
+      }
+    ],
+    "tags": [
+      "Кракаў"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "jan-karol-chodkiewicz",
+    "personIds": [
+      "jan-karol-chodkiewicz"
+    ]
+  },
+  {
+    "id": "khotyn-fortress-chodkiewicz",
+    "title": {
+      "by": "Хоцінская крэпасць — месца бітвы і гераічнай смерці Яна Караля Хадкевіча (1621)",
+      "ru": "Хотинская крепость — место битвы и гибели Яна Кароля Ходкевича (1621)",
+      "en": "Khotyn Fortress — Battle of Khotyn and Jan Karol Chodkiewicz Memorial (1621)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Хоцін",
+      "ru": "Хотин",
+      "en": "Khotyn"
+    },
+    "coordinates": [
+      48.521944,
+      26.498333
+    ],
+    "description": {
+      "by": "Велічная сярэднявечная цвярдыня на высокім правым беразе Днястра. У верасні-кастрычніку 1621 года тут разгарнулася знакамітая Хоцінская бітва, дзе аб'яднанае войска Рэчы Паспалітай і запарожскіх казакоў пад вярхоўным камандаваннем вялікага гетмана літоўскага Яна Караля Хадкевіча спыніла 150-тысячнае асманскае нашэсце султана Асмана II. Хворы і абяссілены гетман Хадкевіч кіраваў абаронай да апошняга дыхання і сканаў у лагеры крэпасці 24 верасня 1621 года, перадаўшы булаву Станіславу Любамірскаму.",
+      "ru": "Грандиозная средневековая твердыня на правом берегу Днестра. Осенью 1621 года здесь состоялась легендарная Хотинская битва, в которой объединённые силы Речи Посполитой и запорожских казаков под верховным командованием великого гетмана литовского Яна Кароля Ходкевича остановили гигантскую армию султана Османа II. Тяжело больной гетман Ходкевич руководил обороной и скончался в военном лагере 24 сентября 1621 года, исполнив свой воинский долг до конца.",
+      "en": "Imposing medieval and early-modern stronghold on the steep bank of the Dniester River. Site of the epic Battle of Khotyn in 1621, where allied Commonwealth and Zaporozhian Cossack forces under the supreme command of Grand Hetman of Lithuania Jan Karol Chodkiewicz halted the massive Ottoman invasion led by Sultan Osman II. Suffering from grave illness, Hetman Chodkiewicz directed the defense until his dying breath on September 24, 1621, saving the Commonwealth."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/df/73-250-0001_Khotyn_Fortress_RB_18.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Khotyn_Fortress"
+      }
+    ],
+    "tags": [
+      "Хоцін"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "jan-karol-chodkiewicz",
+    "personIds": [
+      "jan-karol-chodkiewicz"
+    ]
+  },
+  {
+    "id": "vilnius-st-michael-church-sapieha",
+    "title": {
+      "by": "Касцёл Святога Міхала Арханёла і пантэон Сапегаў у Вільні",
+      "ru": "Костёл Святого Михаила Архангела и пантеон Сапег в Вильнюсе",
+      "en": "Church of St. Michael the Archangel and Sapieha Pantheon in Vilnius"
+    },
+    "category": "church",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.6828,
+      25.2922
+    ],
+    "description": {
+      "by": "Рэнесансна-барочны храм, заснаваны ў 1594 годзе вялікім канцлерам літоўскім Львом Сапегам як родавая пахавальня Сапегаў пры кляштары бернардзінак. Галоўная святыня храма — манументальнае мармуровае надмагілле самога Льва Сапегі і яго дзвюх жонак (Дароты Фірлей і Альжбеты Радзівіл), якое лічыцца найбуйнейшым і найкаштоўнейшым скульптурным надмагіллем эпохі Рэнесансу ў Літве. Цяпер у храме працуе Музей царкоўнай спадчыны.",
+      "ru": "Ренессансно-барочный храм, заложенный в 1594 году канцлером великим литовским Львом Сапегой как семейный мавзолей рода Сапег при монастыре бернардинок. Внутри находится грандиозное мраморное надгробие самого Льва Сапеги и двух его жён (Дороты Фирлей и Эльжбеты Радзивилл) — шедевр ренессансной пластики и самое крупное надгробие в Литве. Сейчас в костёле открыт Музей церковного наследия.",
+      "en": "Renaissance-Baroque church founded in 1594 by Grand Chancellor of Lithuania Lew Sapieha as the family pantheon and mausoleum of the Sapieha dynasty. The church houses the monumental multicolored marble tomb of Lew Sapieha and his two wives (Dorota Firlej and Elżbieta Radziwiłł), considered the largest and most valuable Renaissance sculptural tombstone in Lithuania. Today it houses the Church Heritage Museum."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Church_of_St_Michael%2C_Vilnius%2C_Lithuania.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Church_of_St._Michael,_Vilnius"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "lew-sapieha",
+    "personIds": [
+      "lew-sapieha"
+    ]
+  },
+  {
+    "id": "vilnius-antakalnis-sapieha-palace",
+    "title": {
+      "by": "Палац Сапегаў у Антокалі (Вільня)",
+      "ru": "Дворец Сапег на Антоколе (Вильнюс)",
+      "en": "Sapieha Palace in Antakalnis (Vilnius)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.698611,
+      25.313889
+    ],
+    "description": {
+      "by": "Выдатны помнік сталага барока ў прадмесці Антокаль (L. Sapiegos g. 13), пабудаваны ў 1691–1697 гг. па праекце італьянскага дойліда Джавані Батыста Фрэдыяні для вялікага гетмана літоўскага Яна Казіміра Сапегі. Палац быў упрыгожаны ляпнінай П'етра Перці і фрэскамі Мікеланджэла Палоні. Вакол палаца быў закладзены французскі рэгулярны парк. Пасля маштабнай навуковай рэстаўрацыі ў 2024 годзе адкрыты як культурна-мастацкі цэнтр.",
+      "ru": "Выдающийся памятник зрелого барокко в предместье Антоколь (L. Sapiegos g. 13), возведённый в 1691–1697 гг. архитектором Джованни Баттиста Фредиани по заказу великого гетмана литовского Яна Казимира Сапеги. Дворец славился лепниной Пьетро Перти и фресками Микеланджело Паллони. Вокруг был разбит регулярный парк. После завершения фундаментальной реставрации в 2024 году открыт как центр современного искусства.",
+      "en": "Magnificent High Baroque palace in the Antakalnis district of Vilnius, built in 1691–1697 by Italian architect Giovanni Battista Frediani for Grand Hetman Jan Kazimierz Sapieha. Famous for stucco decorations by Pietro Perti and frescoes by Michelangelo Palloni. Surrounded by Lithuania's oldest formal baroque park. Following meticulous scientific restoration, it reopened in 2024 as an arts and contemporary culture center."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Main_fa%C3%A7ade_of_the_Sapiegos_Palace_in_Antakalnis_eldership_in_Vilnius%2C_Lithuania_in_2024_%282%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Sapieha_Palace,_Vilnius"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "lew-sapieha",
+    "personIds": [
+      "lew-sapieha"
+    ]
+  },
+  {
+    "id": "koden-sapieha-complex",
+    "title": {
+      "by": "Замкава-сакральны комплекс Сапегаў і Базіліка Св. Ганны ў Кодэні",
+      "ru": "Замково-сакральный комплекс Сапег и Базилика Св. Анны в Кодене",
+      "en": "Sapieha Castle Complex and Basilica of St. Anne in Kodeń"
+    },
+    "category": "church",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кодэнь",
+      "ru": "Кодень",
+      "en": "Kodeń"
+    },
+    "coordinates": [
+      51.91385,
+      23.607736
+    ],
+    "description": {
+      "by": "Гістарычнае гняздо кодзеньскай галіны роду Сапегаў на беразе Заходняга Буга. Уключае руіны рэнесанснага замка Сапегаў XVI ст., гатычна-рэнесансную замкавую царкву Св. Духа і манументальную барочную Базіліку Св. Ганны (1629–1635), заснаваную Мікалаем Сапегам «Піосем». Менавіта сюды князь Мікалай прывёз з Рыма цудатворны абраз Маці Божай Гвадэлупскай (Кодэньскай), каранаваны папскімі каронамі ў 1723 годзе.",
+      "ru": "Родовое гнездо коденьской ветви князей Сапег на берегу Западного Буга. Комплекс включает руины ренессансного замка Сапег XVI века, готическо-ренессансную замковую церковь Св. Духа и базилику Св. Анны (1629–1635), основанную Николаем Сапегой. Именно сюда князь Николай тайно вывез из Ватикана чудотворную икону Божией Матери Коденьской (Богоматерь Гваделупская), коронованную папскими коронами в 1723 г.",
+      "en": "Historic ancestral seat of the Kodeń line of the Sapieha family on the Bug River. The complex encompasses ruins of the 16th-century Sapieha Castle, the Gothic-Renaissance Castle Church of the Holy Spirit, and the Baroque Basilica of St. Anne (1629–1635) founded by Mikołaj Sapieha. It houses the miraculous Icon of Our Lady of Kodeń, brought by Mikołaj from Rome and crowned with papal crowns in 1723."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Kode%C5%84_church2.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://pl.wikipedia.org/wiki/Bazylika_%C5%9Bw._Anny_w_Kodniu"
+      }
+    ],
+    "tags": [
+      "Кодэнь"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "lew-sapieha",
+    "personIds": [
+      "lew-sapieha"
+    ]
+  },
+  {
+    "id": "krasiczyn-castle-sapieha",
+    "title": {
+      "by": "Замак у Красічыне (рэзідэнцыя Красіцкіх і Сапегаў)",
+      "ru": "Замок в Красичине (резиденция Красицких и Сапег)",
+      "en": "Krasiczyn Castle (Krasicki and Sapieha Residence)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Красічын",
+      "ru": "Красичин",
+      "en": "Krasiczyn"
+    },
+    "coordinates": [
+      49.7756,
+      22.6494
+    ],
+    "description": {
+      "by": "Шэдэўр рэнесансу і маньерызму (1580–1631) з чатырма адметнымі вежамі (Божай, Папскай, Каралеўскай, Шляхецкай) і ўнікальным сграфіта. У 1835 годзе замак набыў князь Леў Сапега, пасля чаго ён больш за стагоддзе (да 1944 г.) быў галоўнай вотчынай князёў Сапегаў. Тут у 1867 годзе нарадзіўся кардынал Адам Стэфан Сапега. У раскошным англійскім парку захаваліся імянныя дубы і ліпы, якія Сапегі саджалі ў гонар нараджэння кожнага сына ці дачкі.",
+      "ru": "Выдающийся памятник ренессанса и маньеризма (1580–1631) с четырьмя угловыми башнями (Божеской, Папской, Королевской, Дворянской) и уникальными сграффито. В 1835 г. замок приобрёл князь Леон Сапега; комплекс оставался главной резиденцией Сапег до 1944 года. Здесь родился кардинал Адам Стефан Сапега. В парке сохранились дубы и липы, высаживавшиеся князьями в честь рождения сыновей и дочерей.",
+      "en": "Remarkable Renaissance-Mannerist castle built in 1580–1631 with four distinctive towers (Divine, Papal, Royal, Noble) and thousands of square meters of sgraffito. In 1835 purchased by Prince Leon Sapieha and served as the principal ancestral home of the Sapieha family until 1944. Birthplace of Cardinal Adam Stefan Sapieha (1867). In the park, historic commemorative oak and linden trees planted at the birth of every Sapieha child still stand."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Krasiczyn%2C_zamek%2C_2011r..JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Krasiczyn_Castle"
+      }
+    ],
+    "tags": [
+      "Красічын"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "lew-sapieha",
+    "personIds": [
+      "lew-sapieha"
+    ]
+  },
+  {
+    "id": "ringsted-queen-sophia-of-minsk-tomb",
+    "title": {
+      "by": "Каралеўская магіла Сафіі Менскай (Валадараўны) у царкве Святога Бендта ў Рынгстэдзе",
+      "ru": "Королевская гробница Софии Минской (Володаревны) в церкви Святого Бендта в Рингстеде",
+      "en": "Royal Tomb of Queen Sophia of Minsk in St. Bendt's Church, Ringsted"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Данія",
+      "ru": "Дания",
+      "en": "Denmark"
+    },
+    "city": {
+      "by": "Рынгстэд",
+      "ru": "Рингстед",
+      "en": "Ringsted"
+    },
+    "coordinates": [
+      55.446,
+      11.787
+    ],
+    "description": {
+      "by": "Царква Святога Бендта (Sankt Bendts Kirke) у Рынгстэдзе — найстарэйшы цагляны храм Скандынавіі і галоўная каралеўская пахавальня дынастыі Вальдэмараў. Тут пахаваная князёўна менская Сафія Валадараўна (каля 1140–1198), дачка менскага князя Валадара Глебавіча, каралева Даніі і жонка караля Вальдэмара I Вялікага (маці каралёў Кнуда VI, Вальдэмара II і каралевы Францыі Інгеборгі). Пры адкрыцці магілы ў 1855 годзе былі знойдзены выдатна захаваныя парэшткі каралевы; на надмагіллі ў падлозе сабора высечаны лацінскі надпіс: «Regina Sophia Uxor Waldemari Primi» («Каралева Сафія, жонка Вальдэмара Першага»). Па злепку яе чэрапа ў Нацыянальным музеі Даніі была створана скульптурная рэканструкцыя.",
+      "ru": "Церковь Святого Бендта (Sankt Bendts Kirke) в Рингстеде — старейший кирпичный храм Дании и королевский пантеон династии Вальдемаров. Здесь погребена минская княжна София Володаревна (ок. 1140–1198), дочь минского князя Володаря Глебовича, королева Дании и супруга короля Вальдемара I Великого (мать датских королей Кнуда VI, Вальдемара II и королевы Франции Ингеборги). При вскрытии гробницы в 1855 году обнаружены прекрасно сохранившиеся останки; на плите высечена надпись: «Regina Sophia Uxor Waldemari Primi» («Королева София, супруга Вальдемара Первого»). По восковому слепку черепа был реконструирован бюст королевы, хранящийся в Национальном музее Дании.",
+      "en": "St. Bendt's Church (Sankt Bendts Kirke) in Ringsted is Scandinavia's oldest brick church and the royal burial pantheon of the medieval Valdemar dynasty. Interred here is Princess Sophia of Minsk (c. 1140–1198), daughter of Prince Valadar Hlebovich of Minsk, Queen of Denmark as consort to King Valdemar I the Great (and mother of kings Canute VI, Valdemar II, and Ingeborg, Queen of France). During the 1855 excavation, her tomb was opened, revealing well-preserved remains and a floor slab inscribed 'Regina Sophia Uxor Waldemari Primi' ('Queen Sophia, wife of Valdemar the First'). A forensic wax cast of her skull allowed the creation of an authentic reconstruction bust displayed in the National Museum of Denmark."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Begravede_kongelige_i_St_Bendts.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Sophia_of_Minsk"
+      }
+    ],
+    "tags": [
+      "Рынгстэд"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "sophia-of-minsk",
+    "personIds": [
+      "sophia-of-minsk"
+    ]
+  },
+  {
+    "id": "vilnius-cathedral-barbara-radziwill-crypt",
+    "title": {
+      "by": "Каралеўская крыпта і пахаванне Барбары Радзівіл у Віленскім кафедральным саборы",
+      "ru": "Королевская крипта и захоронение Барбары Радзивилл в Вильнюсском кафедральном соборе",
+      "en": "Royal Crypt and Burial of Queen Barbara Radziwiłł in Vilnius Cathedral"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.685833,
+      25.287778
+    ],
+    "description": {
+      "by": "Каралеўскі маўзалей у падземных крыптах Кафедральнага сабора Святых Станіслава і Уладзіслава ў Вільні. Барбара Радзівіл (1520–1551) — вялікая княгіня літоўская і каралева польская, каранаваная ў Вавельскім саборы ў Кракаве ў 1550 г. Пасля яе заўчаснай смерці ў Кракаве кароль Жыгімонт II Аўгуст выканаў яе запавет быць пахаванай у Вільні і пешшу суправаджаў труну праз усю краіну. У 1931 годзе падчас паводкі яе саркафаг быў знойдзены непарушным разам з каралеўскімі рэгаліямі і перапахаваны ў адмыслова створаным Маўзалеі каралеўскай крыпты.",
+      "ru": "Королевский мавзолей в подземных криптах Кафедрального собора Святых Станислава и Владислава в Вильнюсе. Барбара Радзивилл (1520–1551) — великая княгиня литовская и королева польская, венчанная на царство в Вавельском соборе Кракова. После её безвременной кончины Сигизмунд II Август исполнил её волю упокоиться в Вильнюсе и пешком шёл за траурным кортежем через всю Польшу и Литву. В 1931 году её нетронутый саркофаг с королевскими регалиями был обнаружен в подземельях собора и помещён в отреставрированный Королевский мавзолей.",
+      "en": "Royal mausoleum in the underground crypts of the Cathedral Basilica of St. Stanislaus and St. Ladislaus in Vilnius. Barbara Radziwiłł (1520–1551), Grand Duchess of Lithuania and Queen of Poland, was crowned in Wawel Cathedral in Kraków. Following her untimely death, King Sigismund II Augustus fulfilled her dying wish to be buried in Vilnius by escorting her funeral cortege on foot all the way from Kraków to Vilnius. Her intact sarcophagus and funerary regalia were rediscovered in 1931 and reinterred in the cathedral's dedicated Royal Mausoleum."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Remains_of_Barbara_Radziwi%C5%82%C5%82%C3%B3wna.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Barbara_Radziwi%C5%82%C5%82"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "barbara-radziwill",
+    "personIds": [
+      "barbara-radziwill",
+      "radziwills"
+    ]
+  },
+  {
+    "id": "warsaw-duchess-anna-radziwill-st-anne",
+    "title": {
+      "by": "Касцёл Святой Ганны і месца пахавання княгіні Мазавецкай Ганны Радзівіл у Варшаве",
+      "ru": "Костёл Святой Анны и место погребения княгини Мазовецкой Анны Радзивилл в Варшаве",
+      "en": "St. Anne's Church and Burial Site of Duchess of Masovia Anna Radziwiłł in Warsaw"
+    },
+    "category": "church",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.246389,
+      21.014167
+    ],
+    "description": {
+      "by": "Гістарычны касцёл Святой Ганны на Krakowskie Przedmieście 68, фундатаркай і апякункай якога была княгіня Мазавецкая Ганна Радзівіл (1476–1522), дачка канцлера Мікалая Радзівіла «Старога» і жонка мазавецкага князя Конрада III Рудога. Як рэгентка Мазовіі і кіраўніца Варшавы, яна пашырыла правы горада, узводзіла шпіталі (шпіталь Св. Духа) і храмы, умацоўвала муры Варшавы. Была пахаваная ў касцёле Святой Ганны / кляштары бернардзінцаў, якім апякалася на працягу ўсяго жыцця.",
+      "ru": "Исторический костёл Святой Анны на Краковском предместье 68, благотворительницей и ктитором которого выступала княгиня Мазовецкая Анна Радзивилл (1476–1522), дочь канцлера Николая Радзивилла «Старого» и супруга герцога Конрада III Рыжего. В качестве регента Мазовии и правительницы Варшавы она укрепила город, основала госпитали (госпиталь Св. Духа) и церкви, даровала торговые привилегии. Была погребена в основанном и опекаемом ею монастыре бернардинцев при костёле Святой Анны.",
+      "en": "Historic Church of St. Anne at Krakowskie Przedmieście 68, patronized and rebuilt by Duchess of Masovia Anna Radziwiłł (1476–1522), daughter of Grand Chancellor Mikołaj Radziwiłł 'the Old' and wife of Konrad III the Red. As regent of Masovia and ruler of Warsaw, she governed vigorously, expanding municipal charters, building city fortifications, founding hospitals (Holy Spirit Hospital), and endowing churches. She was laid to rest in St. Anne's Church / Bernardine monastery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/POL_Kosciol_sw_Anny_w_Warszawie_2008_%281%29.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Anna_Radziwi%C5%82%C5%82"
+      }
+    ],
+    "tags": [
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "anna-radziwill",
+    "personIds": [
+      "anna-radziwill",
+      "radziwills"
+    ]
+  },
+  {
+    "id": "vilnius-gediminas-monument",
+    "title": {
+      "by": "Помнік Вялікаму князю Гедзіміну ў Вільні (Кафедральная плошча)",
+      "ru": "Памятник Великому князю Гедимину в Вильнюсе (Кафедральная площадь)",
+      "en": "Monument to Grand Duke Gediminas in Vilnius (Cathedral Square)"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.6853,
+      25.2878
+    ],
+    "description": {
+      "by": "Велічны бронзавы манумент заснавальніку дынастыі Гедзімінавічаў і вялікаму князю літоўскаму Гедзіміну на Кафедральнай плошчы Вільні, створаны скульптарам Вітаўтасам Кашубам і адкрыты ў 1995 годзе. Князь прадстаўлены побач са сваім баявым каём, з апушчаным дадолу мячом у левай руцэ і бласлаўляючым жэстам правай рукі, увасабляючы мудрага гаспадара, дыпламата і абаронцу сваёй зямлі.",
+      "ru": "Бронзовый монумент основателю династии Гедиминовичей и великому князю литовскому Гедимину на Кафедральной площади Вильнюса, созданный скульптором Витаутасом Кашубой в 1995 году. Князь изображён спешившимся рядом со своим боевым конём, держа меч остриём вниз в левой руке и благословляя город правой рукой, что символизирует мудрого правителя, строителя столицы и дипломата.",
+      "en": "Bronze equestrian statue dedicated to the founder of the Gediminid dynasty and Grand Duke of Lithuania, Gediminas, unveiled in 1995 on Vilnius Cathedral Square. Sculpted by Vytautas Kašuba, it portrays the Grand Duke standing beside his warhorse with a downward-pointing sword in his left hand and blessing gesture with his right, celebrating him as a wise founder, diplomat, and protector of the realm."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Gediminas_statue.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Cathedral_Square,_Vilnius"
+      }
+    ],
+    "tags": [
+      "Вільня"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "gediminas",
+    "personIds": [
+      "gediminas"
+    ]
+  },
+  {
+    "id": "kaunas-vytautas-the-great-monument",
+    "title": {
+      "by": "Помнік Вітаўту Вялікаму ў Каўнасе (Алея Свабоды / Laisvės alėja)",
+      "ru": "Памятник Витовту Великому в Каунасе (Аллея Свободы / Laisvės alėja)",
+      "en": "Monument to Vytautas the Great in Kaunas (Laisvės alėja)"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Каўнас",
+      "ru": "Каунас",
+      "en": "Kaunas"
+    },
+    "coordinates": [
+      54.8972,
+      23.9181
+    ],
+    "description": {
+      "by": "Манументальны помнік аднаму з наймацнейшых кіраўнікоў ВКЛ — вялікаму князю Вітаўту Вялікаму на цэнтральным праспекце Каўнаса (Laisvės alėja, каля будынка Самакіравання). Створаны скульптарам Вінцасам Грыбасам у 1932 годзе і адноўлены ў 1990 годзе. Вітаўт у баявым даспеху трымае меч і стаіць на пастаменце над чатырма пераможанымі ваярамі (крыжаком, татарынам, палякам і маскавітам).",
+      "ru": "Монументальный памятник выдающемуся правителю Великого Княжества Литовского — великому князю Витовту Великому на центральном бульваре Каунаса (Laisvės alėja, у здания Самоуправления). Создан скульптором Винцасом Грибасом в 1932 году и воссоздан в 1990 году. Великий князь в доспехах опирается на меч, попирая четырёх поверженных воинов-противников.",
+      "en": "Monumental bronze statue dedicated to Grand Duke Vytautas the Great on Kaunas' central pedestrian boulevard (Laisvės alėja, near Kaunas City Municipality). Originally created in 1932 by sculptor Vincas Grybas and reconstructed in 1990. Depicts Vytautas in full battle armor resting on his broadsword atop a pedestal surrounded by four defeated warriors symbolizing past foes."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Vytautas_the_Great_Monument_in_Kaunas.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Vytautas_the_Great"
+      }
+    ],
+    "tags": [
+      "Каўнас"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "vytautas",
+    "personIds": [
+      "vytautas"
+    ]
+  },
+  {
+    "id": "senieji-trakai-vytautas-monument",
+    "title": {
+      "by": "Помнік Вітаўту Вялікаму ў Старых Троках (радзіма князя)",
+      "ru": "Памятник Витовту Великому в Старых Троках (родина князя)",
+      "en": "Monument to Vytautas the Great in Senieji Trakai (Birthplace of the Prince)"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Старыя Трокі",
+      "ru": "Старые Троки",
+      "en": "Senieji Trakai"
+    },
+    "coordinates": [
+      54.606,
+      24.981
+    ],
+    "description": {
+      "by": "Помнік у гістарычным паселішчы Старыя Трокі (Senieji Trakai) — месцы нараджэння князя Вітаўта Вялікага каля 1350 года ў замку яго бацькі Кейстута. Помнік і скульптурныя кампазіцыі «Шляху Вітаўта Вялікага» ўшаноўваюць памяць вялікага гаспадара на яго гістарычнай радзіме, дзе пазней быў заснаваны бенедыкцінскі кляштар.",
+      "ru": "Памятник в историческом поселении Старые Троки (Senieji Trakai) — месте рождения князя Витовта Великого около 1350 года в замке его отца Кейстута. Памятник и скульптурный ансамбль «Путь Витовта Великого» увековечивают память великого князя на его малой родине, где позднее был основан бенедиктинский монастырь.",
+      "en": "Memorial in historic Senieji Trakai (Old Trakai) — the birthplace of Grand Duke Vytautas the Great around 1350 in the castle of his father Kęstutis. This memorial and the historic 'Way of Vytautas the Great' route commemorate the birth and youth of the celebrated ruler on his ancestral estate."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Vytautas_monument_in_Old_Trakai.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Senieji_Trakai"
+      }
+    ],
+    "tags": [
+      "Старыя Трокі"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "vytautas",
+    "personIds": [
+      "vytautas"
+    ]
+  },
+  {
+    "id": "grunwald-battle-memorial-stebark",
+    "title": {
+      "by": "Мемарыял і поле Грунвальдскай бітвы 1410 года (Стэббарк / Грунвальд)",
+      "ru": "Мемориал и поле Грюнвальдской битвы 1410 года (Стембарк / Грюнвальд)",
+      "en": "Battle of Grunwald Memorial and Battlefield (Stębark / Grunwald)"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Стэббарк (Грунвальд)",
+      "ru": "Стембарк (Грюнвальд)",
+      "en": "Stębark (Grunwald)"
+    },
+    "coordinates": [
+      53.487056,
+      20.123583
+    ],
+    "description": {
+      "by": "Грандыёзны мемарыяльны комплекс на гістарычным полі бітвы 15 ліпеня 1410 года паміж вёскамі Грунвальд, Стэббарк і Ладвігава. Тут саюзныя войскі Вялікага Княства Літоўскага (пад камандаваннем Вітаўта) і Каралеўства Польскага (пад кіраўніцтвам Ягайлы) ушчэнт разграмілі войска Тэўтонскага ордэна. Мемарыял уключае 30-метровыя гранітныя пілоны з сімваламі сцягоў, скульптуру рыцараў, рэшткі капліцы ордэна і сучасны падземны музей бітвы.",
+      "ru": "Грандиозный мемориальный комплекс на историческом поле битвы 15 июля 1410 года между деревнями Грюнвальд, Стембарк и Лодвигово. Здесь объединённые войска Великого Княжества Литовского (под командованием Витовта) и Королевства Польского (под предводительством Ягайло) наголову разгромили Тевтонский орден. Мемориал включает 30-метровые гранитные пилоны со знамёнами союзников, скульптуру рыцарей и современный подземный музей.",
+      "en": "Grand memorial complex situated on the historic battlefield of July 15, 1410, between Grunwald, Stębark, and Łodwigowo. Here, the allied armies of the Grand Duchy of Lithuania (led by Vytautas) and the Kingdom of Poland (led by Jogaila) decisively crushed the Teutonic Order. The memorial features 30-meter stone obelisks, the Grunwald swords, knight sculptures, and a high-tech underground museum."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/2024-07_Grunwald_%2838%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Grunwald"
+      }
+    ],
+    "tags": [
+      "Стэббарк (Грунвальд)"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "vytautas",
+    "personIds": [
+      "vytautas"
+    ]
+  },
+  {
+    "id": "krakow-sukiennice-siemiradzki",
+    "title": {
+      "by": "Галерэя мастацтва XIX ст. у Сукенніцах (Зала Семірадскага)",
+      "ru": "Галерея искусства XIX века в Суконных рядах (Зал Семирадского)",
+      "en": "Gallery of 19th-Century Polish Art in the Cloth Hall (Siemiradzki Hall)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [
+      50.0617,
+      19.93735
+    ],
+    "description": {
+      "by": "Галерэя ў гістарычных Сукенніцах на галоўнай плошчы Кракава — старэйшы аддзел Нацыянальнага музея. Менавіта Генрых Семірадскі (ураджэнец беларускага шляхецкага роду з Навагрудчыны) запачаткаваў стварэнне музея ў 1879 годзе, урачыста падараваўшы гораду сваё грандыёзнае палатно «Светачы хрысціянства» («Pochodnie Nerona»). Галоўная зала галерэі носіць імя Семірадскага і экспануе яго манументальныя шэдэўры.",
+      "ru": "Галерея в исторических Сукенницах на Главном Рынке Кракова — старейший филиал Национального музея. Именно Генрих Семирадский (выходец из новогрудского шляхетского рода) положил начало созданию музея в 1879 году, торжественно подарив городу полотно «Светочи христианства» («Факелы Нерона»). Центральный зал галереи носит имя художника.",
+      "en": "The gallery in the historic Cloth Hall (Sukiennice) on Krakow's Main Market Square is the founding branch of the National Museum in Krakow. In 1879, Henryk Siemiradzki (descendant of a noble family from Navahrudak) initiated the founding of the museum by donating his monumental masterpiece 'Nero's Torches' ('Pochodnie Nerona'). The main hall is named in his honor."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Henryk_Siemiradzki_-_Pochodnie_Nerona.jpg/960px-Henryk_Siemiradzki_-_Pochodnie_Nerona.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Сукенніцы",
+        "url": "https://be.wikipedia.org/wiki/Сукенніцы_(Кракаў)"
+      },
+      {
+        "title": "Вікіпедыя: Генрых Семірадскі",
+        "url": "https://be.wikipedia.org/wiki/Генрых_Іпалітавіч_Семірадскі"
+      },
+      {
+        "title": "Афіцыйны сайт MNK Sukiennice",
+        "url": "https://mnk.pl/oddzial/sukiennice"
+      }
+    ],
+    "tags": [
+      "Семірадскі",
+      "Сукенніцы",
+      "Кракаў",
+      "Акадэмізм",
+      "Жывапіс"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "henryk-siemiradzki",
+    "items": [
+      {
+        "title": "«Светачы хрысціянства» / «Паходні Нерона» («Pochodnie Nerona»)",
+        "author": "Генрых Семірадскі",
+        "year": "1876",
+        "description": "Эпахальнае палатно (385 × 705 см), якое адлюстроўвае пакутніцтва першых хрысціян у садах Нерона. Карціна была падорана аўтарам у 1879 г. і стала сімвалам заснавання музея.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Henryk_Siemiradzki_-_Pochodnie_Nerona.jpg/960px-Henryk_Siemiradzki_-_Pochodnie_Nerona.jpg",
+        "personId": "henryk-siemiradzki"
+      },
+      {
+        "title": "«Танец сярод мячоў» («Taniec wśród mieczów»)",
+        "author": "Генрых Семірадскі",
+        "year": "1887",
+        "description": "Славуты антычны шэдэўр Семірадскага з выявай танцоўшчыцы на фоне Неапалітанскага заліва.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Henryk_Siemiradzki_-_Taniec_w%C5%9Br%C3%B3d_miecz%C3%B3w_%281887%29.jpg/960px-Henryk_Siemiradzki_-_Taniec_w%C5%9Br%C3%B3d_miecz%C3%B3w_%281887%29.jpg",
+        "personId": "henryk-siemiradzki"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "henryk-siemiradzki"
+    ]
+  },
+  {
+    "id": "lviv-art-gallery-siemiradzki",
+    "title": {
+      "by": "Львоўская нацыянальная галерэя мастацтваў імя Б. Р. Вазніцкага",
+      "ru": "Львовская национальная галерея искусств имени Б. Г. Возницкого",
+      "en": "Borys Voznytsky Lviv National Art Gallery (Siemiradzki Collection)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Львоў",
+      "ru": "Львов",
+      "en": "Lviv"
+    },
+    "coordinates": [
+      49.83715,
+      24.02535
+    ],
+    "description": {
+      "by": "Найбуйнейшы мастацкі музей Украіны (палац Лазінскага і палац Патоцкіх) валодае значным зборам жывапісу Генрыха Семірадскага («Хрыстос і грэшніца», антычныя сюжэты). Таксама Семірадскі стварыў знакамітую манументальную тэатральную заслону «Парнас» (1900) для Львоўскай оперы, якая знаходзіцца пад куратарствам і апекай музейных рэстаўратараў.",
+      "ru": "Крупнейший художественный музей Украины хранит ценные работы Генриха Семирадского («Христос и грешница», античные этюды). Кроме того, Семирадский создал легендарный парадный занавес «Парнас» (1900) для Львовской оперы.",
+      "en": "Ukraine's largest art museum preserves valuable works by Henryk Siemiradzki ('Christ and the Sinner', classical Roman scenes). Siemiradzki also created the legendary decorative stage curtain 'Parnassus' (1900) for the nearby Lviv Opera House."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Potocki_Palace%2C_Lviv_%281%29.jpg/960px-Potocki_Palace%2C_Lviv_%281%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Львоўская галерэя мастацтваў",
+        "url": "https://be.wikipedia.org/wiki/Львоўская_нацыянальная_галерэя_мастацтваў_імя_Барыса_Вазніцкага"
+      },
+      {
+        "title": "Афіцыйны сайт Lviv Art Gallery",
+        "url": "https://lvivgallery.org.ua"
+      }
+    ],
+    "tags": [
+      "Семірадскі",
+      "Львоў",
+      "Палац Патоцкіх",
+      "Жывапіс",
+      "Украіна"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "henryk-siemiradzki",
+    "items": [
+      {
+        "title": "«Хрыстос і грэшніца» («Chrystus i jawnogrzesznica»)",
+        "author": "Генрых Семірадскі",
+        "year": "каля 1873",
+        "description": "Эскіз і аўтарскі варыянт знакамітай евангельскай кампазіцыі Семірадскага, дзе спалучаецца акадэмічны рэалізм з псіхалагічнай экспрэсіяй.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Semiradsky_Christ_and_Sinner.jpg/960px-Semiradsky_Christ_and_Sinner.jpg",
+        "personId": "henryk-siemiradzki"
+      },
+      {
+        "title": "Манументальная заслона «Парнас» («Parnas»)",
+        "author": "Генрых Семірадскі",
+        "year": "1900",
+        "description": "Грандыёзная мастацкая заслона для Львоўскай оперы, якая алегарычна адлюстроўвае Парнас, Апалона і муз мастацтва.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/TeatrWielkiLwow-kurtyna.jpg/960px-TeatrWielkiLwow-kurtyna.jpg",
+        "personId": "henryk-siemiradzki"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "henryk-siemiradzki"
+    ]
+  },
+  {
+    "id": "warsaw-mnw-matejko-grunwald",
+    "title": {
+      "by": "Нацыянальны музей у Варшаве («Бітва пад Грунвальдам» Яна Матэйкі)",
+      "ru": "Национальный музей в Варшаве («Грюнвальдская битва» Яна Матейко)",
+      "en": "National Museum in Warsaw (Jan Matejko's 'Battle of Grunwald')"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.23169,
+      21.02477
+    ],
+    "description": {
+      "by": "Галоўны мастацкі музей Польшчы захоўвае манументальнае палатно Яна Матэйкі «Бітва пад Грунвальдам» (1878, памер 426 × 987 см). У цэнтры кампазіцыі намаляваны вялікі князь літоўскі Вітаўт у чырвоным строі з паднятым мячом і капелюшом. На карціне выяўлены харугвы Вялікага Княства Літоўскага (віленская, троцкая, смаленская, полацкая) і воіны з беларускіх зямель, якія зрабілі вырашальны ўнёсак у перамогу над Тэўтонскім ордэнам у 1410 годзе.",
+      "ru": "Главный художественный музей Польши хранит монументальное полотно Яна Матейко «Грюнвальдская битва» (1878). В центре композиции — великий князь литовский Витовт в красном облачении с поднятым мечом, а вокруг — хоругви ВКЛ (виленские, трокские, полоцкие, смоленские), отражающие решающий вклад предков белорусов в разгром крестоносцев.",
+      "en": "Poland's premier national gallery houses Jan Matejko's monumental masterpiece 'Battle of Grunwald' (1878). At the center stands Grand Duke Vytautas in scarlet attire with a raised sword, accompanied by banners of the Grand Duchy of Lithuania (Vilnius, Trakai, Polatsk, Smolensk) representing the decisive role of Belarusian and Lithuanian lands in defeating the Teutonic Order."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg/960px-Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Бітва пад Грунвальдам (карціна)",
+        "url": "https://be.wikipedia.org/wiki/Бітва_пад_Грунвальдам_(карціна_Яна_Матэйкі)"
+      },
+      {
+        "title": "Вікіпедыя: Нацыянальны музей у Варшаве",
+        "url": "https://pl.wikipedia.org/wiki/Muzeum_Narodowe_w_Warszawie"
+      }
+    ],
+    "tags": [
+      "Матэйка",
+      "Грунвальд",
+      "Вітаўт",
+      "ВКЛ",
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "items": [
+      {
+        "title": "«Бітва пад Грунвальдам» («Bitwa pod Grunwaldem»)",
+        "author": "Ян Матэйка",
+        "year": "1878",
+        "description": "Манументальнае гістарычнае палатно (426 × 987 см), дзе ў цэнтры бітвы выяўлены вялікі князь Вітаўт на белым кані і воіны харугваў ВКЛ.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg/960px-Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personId": "jan-matejko",
+    "personIds": [
+      "jan-matejko",
+      "vytautas"
+    ]
+  },
+  {
+    "id": "warsaw-royal-castle-matejko",
+    "title": {
+      "by": "Каралеўскі замак у Варшаве (палотны Матэйкі «Рэйтан» і «Стэфан Баторый»)",
+      "ru": "Королевский замок в Варшаве (полотна Матейко «Рейтан» и «Стефан Баторий»)",
+      "en": "Royal Castle in Warsaw (Matejko's 'Rejtan' and 'Stefan Batory at Pskov')"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.2479,
+      21.01528
+    ],
+    "description": {
+      "by": "Рэзідэнцыя манархаў Рэчы Паспалітай і месца пасяджэнняў Сейма экспануе два найважнейшыя палатны Яна Матэйкі, звязаныя з гісторыяй Беларусі і ВКЛ: «Рэйтан — Заняпад Польшчы» (гераічны пратэст пасла ад Новагародскага ваяводства Тадэвуша Рэйтана з вёскі Грушаўка Ляхавіцкага раёна на Падзельным сойме 1773 г.) і «Стэфан Баторый пад Псковам» (перамога ў Лівонскай вайне пасля вызвалення Полацка ў 1579 г., на палатне — канцлер ВКЛ Мікалай Радзівіл «Руды» і ваявода полацкі М. Дарагастайскі).",
+      "ru": "Резиденция монархов Речи Посполитой хранит фундаментальные шедевры Яна Матейко: «Рейтан — Упадок Польши» (подвиг посла от Новогрудского воеводства Тадеуша Рейтана из имения Грушевка) и «Стефан Баторий под Псковом» (триумф Ливонской войны после освобождения Полоцка, канцлер ВКЛ Николай Радзивилл «Рыжий»).",
+      "en": "The Royal Castle in Warsaw displays Jan Matejko's landmark historical canvases: 'Rejtan — The Fall of Poland' (the protest of Navahrudak envoy Tadeusz Rejtan from Hrushauka against the First Partition of Poland in 1773) and 'Stefan Batory at Pskov' (the triumph ending the Livonian War following the liberation of Polatsk, featuring GDL Chancellor Mikołaj 'the Red' Radziwiłł)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Warsaw_Royal_Castle%2C_Warsaw%2C_2019.jpg/960px-Warsaw_Royal_Castle%2C_Warsaw%2C_2019.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Каралеўскі замак у Варшаве",
+        "url": "https://be.wikipedia.org/wiki/Каралеўскі_замак_у_Варшаве"
+      },
+      {
+        "title": "Вікіпедыя: Рэйтан (карціна)",
+        "url": "https://be.wikipedia.org/wiki/Рэйтан_—_Заняпад_Польшчы"
+      },
+      {
+        "title": "Вікіпедыя: Стэфан Баторый пад Псковам",
+        "url": "https://be.wikipedia.org/wiki/Стэфан_Баторый_пад_Псковам_(карціна)"
+      }
+    ],
+    "tags": [
+      "Матэйка",
+      "Рэйтан",
+      "Грушаўка",
+      "Баторый",
+      "Полацк",
+      "Варшава"
+    ],
+    "isUnverifiedCoordinates": true,
+    "items": [
+      {
+        "title": "«Рэйтан — Заняпад Польшчы» («Rejtan — Upadek Polski»)",
+        "author": "Ян Матэйка",
+        "year": "1866",
+        "description": "Тадэвуш Рэйтан, навагрудскі шляхціц з Грушаўкі, раздзірае на сабе кашулю і кладзецца на парозе соймавай залы ў Варшаве, каб не дапусціць зацвярджэння Першага падзелу Рэчы Паспалітай.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jan_Matejko_-_Rejtan._Upadek_Polski.jpg/960px-Jan_Matejko_-_Rejtan._Upadek_Polski.jpg"
+      },
+      {
+        "title": "«Стэфан Баторый пад Псковам» («Stefan Batory pod Pskowem»)",
+        "author": "Ян Матэйка",
+        "year": "1872",
+        "description": "Кароль і вялікі князь прымае маскоўскіх паслоў пасля вызвалення Полацка і Вялікіх Лук. Побач — кіраўнікі войска і дзяржаўныя дзеячы ВКЛ.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jan_Matejko-Batory_pod_Pskowem.jpg/960px-Jan_Matejko-Batory_pod_Pskowem.jpg"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personId": "jan-matejko",
+    "personIds": [
+      "jan-matejko"
+    ]
+  },
+  {
+    "id": "lublin-castle-museum-unia-lubelska",
+    "title": {
+      "by": "Люблінскі замак (палатно Яна Матэйкі «Люблінская унія»)",
+      "ru": "Люблинский замок (полотно Яна Матейко «Люблинская уния»)",
+      "en": "Lublin Castle Museum (Jan Matejko's 'Union of Lublin')"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Люблін",
+      "ru": "Люблин",
+      "en": "Lublin"
+    },
+    "coordinates": [
+      51.25046,
+      22.57172
+    ],
+    "description": {
+      "by": "У Люблінскім замку, дзе ў 1569 годзе адбывалася падпісанне уніі паміж Каралеўствам Польскім і Вялікім Княствам Літоўскім, экспануецца манументальнае палатно Яна Матэйкі «Люблінская унія» (1869, 298 × 512 см). На карціне выяўлены гістарычны момант прысягі і ключавыя дзяржаўнікі ВКЛ: канцлер Мікалай Радзівіл «Руды», ваявода кіеўскі Канстанцін Астрожскі, кашталян віленскі Ян Геранім Хадкевіч і падканцлер Астафій Валовіч.",
+      "ru": "В Люблинском замке, где в 1569 году заключалась уния между Польшей и ВКЛ, экспонируется монументальное полотно Яна Матейко «Люблинская уния» (1869). Запечатлены величайшие деятели ВКЛ: канцлер Николай Радзивилл «Рыжий», князь Константин Острожский, Ян Иероним Ходкевич и Остафий Волович.",
+      "en": "Housed in Lublin Castle where the historic union of 1569 was concluded, Jan Matejko's monumental canvas 'Union of Lublin' (1869) commemorates the founding of the Polish-Lithuanian Commonwealth, depicting key statesmen of the Grand Duchy of Lithuania including Mikołaj 'the Red' Radziwiłł and Konstanty Ostrogski."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lublin_Zamek.JPG/960px-Lublin_Zamek.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя: Люблінская унія (карціна)",
+        "url": "https://be.wikipedia.org/wiki/Люблінская_унія_(карціна)"
+      },
+      {
+        "title": "Вікіпедыя: Люблінскі замак",
+        "url": "https://be.wikipedia.org/wiki/Люблінскі_замак"
+      },
+      {
+        "title": "Афіцыйны сайт Muzeum Narodowe w Lublinie",
+        "url": "https://zamek-lublin.pl"
+      }
+    ],
+    "tags": [
+      "Матэйка",
+      "Люблінская унія",
+      "ВКЛ",
+      "Люблін",
+      "Замак"
+    ],
+    "isUnverifiedCoordinates": true,
+    "items": [
+      {
+        "title": "«Люблінская унія» («Unia Lubelska»)",
+        "author": "Ян Матэйка",
+        "year": "1869",
+        "description": "Палатно памерам 298 × 512 см, напісанае да 300-годдзя уніі 1569 года, на якім паказаны магнаты і шляхта ВКЛ і Польшчы падчас урачыстай прысягі.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Unia_Lubelska.JPG/960px-Unia_Lubelska.JPG"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personId": "jan-matejko",
+    "personIds": [
+      "jan-matejko"
+    ]
+  },
+  {
+    "id": "vilnia-ndg-ruszczyc",
+    "title": {
+      "by": "Нацыянальная мастацкая галерэя Літвы (збор Фердынанда Рушчыца)",
+      "ru": "Национальная художественная галерея Литвы (коллекция Фердинанда Рущица)",
+      "en": "National Gallery of Art in Vilnius (Ferdynand Ruszczyc Collection)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.69719,
+      25.27046
+    ],
+    "description": {
+      "by": "Сучасны музейны комплекс на праспекце Канстытуцыі захоўвае значныя творы мастака з маёнтка Багданава (Валожынскі раён) Фердынанда Рушчыца — аднаго з заснавальнікаў віленскага мадэрну і дэкана факультэта мастацтваў Віленскага ўніверсітэта Стэфана Баторыя. Сярод іх — алегарычны сімвалісцкі шэдэўр «Nec mergitur» («Плыве і не тоне», 1904–1905), карціны «Эмігранты», «Восеньскі вецер» і тэатральныя эскізы.",
+      "ru": "Комплекс на проспекте Конституции хранит знаковые работы художника из имения Богданово Фердинанда Рущица — классика модерна и декана факультета искусств Виленского университета. Среди них — символистский шедевр «Nec mergitur» («Плывет и не тонет», 1904–1905) и «Эмигранты».",
+      "en": "The modern museum on Konstitucijos Avenue preserves prominent works by Ferdynand Ruszczyc (born in Bohdanava estate, Belarus), leading symbolist master and dean of arts at Stefan Batory University in Vilnius. The collection features his allegorical canvas 'Nec mergitur' (1904–1905) and 'Emigrants'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nacionalin%C4%97_dail%C4%97s_galerija%2C_Vilnius_-_52575860987.jpg/960px-Nacionalin%C4%97_dail%C4%97s_galerija%2C_Vilnius_-_52575860987.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Фердынанд Рушчыц",
+        "url": "https://be.wikipedia.org/wiki/Фердынанд_Рушчыц"
+      },
+      {
+        "title": "Афіцыйны сайт NDG Vilnius",
+        "url": "https://www.ndg.lt"
+      }
+    ],
+    "tags": [
+      "Рушчыц",
+      "Багданава",
+      "Вільня",
+      "Сімвалізм",
+      "Літва"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "ferdynand-ruszczyc",
+    "items": [
+      {
+        "title": "«Nec mergitur» («Плыве і не тоне»)",
+        "author": "Фердынанд Рушчыц",
+        "year": "1904–1905",
+        "description": "Манументальная алегорыя карабля сярод бурнага начнога акіяна з залатымі агнямі, сімвал духоўнай непакорлівасці і надзеі роднага краю.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Nec_Mergitur.jpg/960px-Nec_Mergitur.jpg",
+        "personId": "ferdynand-ruszczyc"
+      },
+      {
+        "title": "«Эмігранты» (Emigrantai)",
+        "author": "Фердынанд Рушчыц",
+        "year": "1902",
+        "description": "Драматычны пейзаж, які адлюстроўвае эміграцыю і развітанне з роднай зямлёй.",
+        "personId": "ferdynand-ruszczyc"
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "ferdynand-ruszczyc"
+    ]
+  },
+  {
+    "id": "moscow-tretyakov-gallery-zhukovsky",
+    "title": {
+      "by": "Дзяржаўная Траццякоўская галерэя (калекцыя Станіслава Жукоўскага)",
+      "ru": "Государственная Третьяковская галерея (коллекция Станислава Жуковского)",
+      "en": "State Tretyakov Gallery (Stanisław Żukowski Collection)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Масква",
+      "ru": "Москва",
+      "en": "Moscow"
+    },
+    "coordinates": [
+      55.74136,
+      37.62022
+    ],
+    "description": {
+      "by": "Траццякоўская галерэя валодае багатым зборам жывапісу Станіслава Жукоўскага (1873–1944) — выбітнага пейзажыста, ураджэнца вёскі Ендрыхаўцы Гродзенскай губерні (Ваўкавыскі раён). Жукоўскі быў віртуозным майстрам лірычнага імпрэсіяністычнага пейзажу, шляхецкіх двароў, сядзібных інтэр'ераў і залатой восені («Радасны май», «Брошаная тэраса», «Былое. Пакой панскага дома»).",
+      "ru": "Третьяковская галерея хранит великолепную коллекцию полотен Станислава Жуковского (1873–1944) — виртуоза усадебного пейзажа, родившегося в имении Ендриховцы Волковысского уезда Гродненской губернии («Радостный май», «Заброшенная терраса», «Былое. Комната барского дома»).",
+      "en": "The Tretyakov Gallery holds an extensive collection of works by Stanisław Żukowski (1873–1944), a celebrated master of nostalgic manor landscapes born in Yendrykhaŭtsy (Vawkavysk district, Belarus), renowned for canvases such as 'Joyous May' (1912) and 'Abandoned Terrace' (1911)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tretyakov_Gallery.jpg/960px-Tretyakov_Gallery.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Станіслаў Жукоўскі",
+        "url": "https://be.wikipedia.org/wiki/Станіслаў_Юльянавіч_Жукоўскі"
+      },
+      {
+        "title": "Вікіпедыя: Траццякоўская галерэя",
+        "url": "https://be.wikipedia.org/wiki/Дзяржаўная_Траццякоўская_галерэя"
+      },
+      {
+        "title": "Афіцыйны сайт ДТГ",
+        "url": "https://www.tretyakovgallery.ru"
+      }
+    ],
+    "tags": [
+      "Жукоўскі",
+      "Ендрыхаўцы",
+      "Сядзібы",
+      "Пейзаж",
+      "Масква"
+    ],
+    "isUnverifiedCoordinates": true,
+    "items": [
+      {
+        "title": "«Радасны май» («Радостный май»)",
+        "author": "Станіслаў Жукоўскі",
+        "year": "1912",
+        "description": "Шэдэўр лірычнага імпрэсіянізму з відам квітнеючага веснавога двара праз насцеж адчыненае вакно сядзібнага пакоя.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Zhukovsky-Joyful_May_1912.jpg/960px-Zhukovsky-Joyful_May_1912.jpg"
+      },
+      {
+        "title": "«Брошаная тэраса» («Брошенная терраса»)",
+        "author": "Станіслаў Жукоўскі",
+        "year": "1911",
+        "description": "Адзін з найвядомейшых настальгічных усадзебных пейзажаў майстра з апалым восеньскім лісцем на драўляным ганку.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/48/1911._%D0%91%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D1%82%D0%B5%D1%80%D1%80%D0%B0%D1%81%D0%B0.jpg"
+      },
+      {
+        "title": "«Былое. Пакой панскага дома» («Былое. Комната барского дома»)",
+        "author": "Станіслаў Жукоўскі",
+        "year": "1912",
+        "description": "Паэтычны інтэр'ер шляхецкага дома з антыкварнай мэбляй, старадаўнімі партрэтамі і цішынёй мінулых эпох."
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personId": "stanislaw-zukowski",
+    "personIds": [
+      "stanislaw-zukowski"
+    ]
+  },
+  {
+    "id": "los-angeles-walk-of-fame-louis-b-mayer",
+    "title": {
+      "by": "Зорка Луіса Б. Маера на Алеі славы ў Галівудзе",
+      "ru": "Звезда Луиса Б. Майера на Аллее славы в Голливуде",
+      "en": "Louis B. Mayer Star on the Hollywood Walk of Fame"
+    },
+    "category": "monument",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Лос-Анджэлес",
+      "ru": "Лос-Анджелес",
+      "en": "Los Angeles"
+    },
+    "coordinates": [
+      34.10096,
+      -118.32677
+    ],
+    "description": {
+      "by": "Адрас: 1637 Vine Street, Hollywood, CA. Зорка на знакамітай Галівудскай алеі славы ўшаноўвае легендарнага кінапрадзюсара Луіса Барта Маера (сапраўднае імя — Лазар Маер, 1884–1957), які нарадзіўся ў Мінску. Маер стаў шматгадовым кіраўніком наймагутнейшай кінакарпарацыі Metro-Goldwyn-Mayer (MGM) у яе «залаты век», а таксама галоўным ініцыятарам стварэння Амерыканскай акадэміі кінематаграфічных мастацтваў і прэміі «Оскар».",
+      "ru": "Адрес: 1637 Vine Street, Голливуд. Звезда на Аллее славы посвящена легендарному киномагнату Луису Барту Майеру (Лазарь Майер, 1884–1957), родившемуся в Минске. Майер возглавлял киностудию Metro-Goldwyn-Mayer (MGM) в её золотой век и стал главным создателем Американской киноакадемии и премии «Оскар».",
+      "en": "Located at 1637 Vine Street, Hollywood. A star on the Hollywood Walk of Fame honoring legendary movie mogul Louis B. Mayer (born Lazar Mayer in Minsk, 1884–1957). Mayer served as the head of Metro-Goldwyn-Mayer (MGM) during Hollywood's Golden Age and was the primary visionary behind the founding of the Academy of Motion Picture Arts and Sciences and the Oscars."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Louis_B._Mayer_star_on_Walk_of_Fame.jpg/960px-Louis_B._Mayer_star_on_Walk_of_Fame.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Луіс Барт Маер",
+        "url": "https://be.wikipedia.org/wiki/Луіс_Барт_Маер"
+      },
+      {
+        "title": "Hollywood Walk of Fame Directory",
+        "url": "https://walkoffame.com/louis-b-mayer"
+      }
+    ],
+    "tags": [
+      "Маер",
+      "Мінск",
+      "Галівуд",
+      "MGM",
+      "Оскар",
+      "ЗША"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "louis-b-mayer",
+    "personIds": [
+      "louis-b-mayer"
+    ]
+  },
+  {
+    "id": "new-york-music-box-theatre-irving-berlin",
+    "title": {
+      "by": "Тэатр «Music Box Theatre» Ірвінга Берліна",
+      "ru": "Театр «Music Box Theatre» Ирвинга Берлина",
+      "en": "Irving Berlin's Music Box Theatre"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Нью-Ёрк",
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "coordinates": [
+      40.75887,
+      -73.98715
+    ],
+    "description": {
+      "by": "Адрас: 239 West 45th Street, Manhattan, New York. Гістарычны брадвейскі тэатр, пабудаваны ў 1921 годзе выдатным кампазітарам Ірвінгам Берлінам (сапраўднае імя — Ізраіль Бейлін, 1888–1989), які нарадзіўся ў беларускім мястэчку Талачын, і прадзюсарам Сэмам Харысам спецыяльна для аўтарскіх мюзіклаў Берліна («Music Box Revue»). Берлін напісаў такія неўміручыя амерыканскія гімны, як «God Bless America», «White Christmas» і дзясяткі сусветна вядомых стандартаў.",
+      "ru": "Адрес: 239 West 45th Street, Манхэттен. Исторический бродвейский театр, построенный в 1921 году композитором Ирвингом Берлином (Израиль Бейлин, 1888–1989, родился в местечке Толочин) для собственных постановок («Music Box Revue»). Берлин создал «God Bless America», «White Christmas» и десятки всемирно известных песен.",
+      "en": "Address: 239 West 45th Street, New York. A Broadway theatre commissioned and built in 1921 by legendary songwriter Irving Berlin (born Israel Beilin in Talachyn, Belarus, 1888–1989) and Sam H. Harris specifically to stage Berlin's musical revues. Berlin composed enduring American classics such as 'God Bless America', 'White Christmas', and 'Cheek to Cheek'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Music_Box_Theatre.jpg/960px-Music_Box_Theatre.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Ірвінг Берлін",
+        "url": "https://be.wikipedia.org/wiki/Ірвінг_Берлін"
+      },
+      {
+        "title": "Вікіпедыя: Music Box Theatre",
+        "url": "https://en.wikipedia.org/wiki/Music_Box_Theatre_(New_York_City)"
+      },
+      {
+        "title": "Shubert Organization: Music Box Theatre",
+        "url": "https://shubert.nyc/theatres/music-box"
+      }
+    ],
+    "tags": [
+      "Берлін",
+      "Талачын",
+      "Брадвей",
+      "Музыка",
+      "Нью-Ёрк",
+      "ЗША"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "irving-berlin",
+    "personIds": [
+      "irving-berlin"
+    ]
+  },
+  {
+    "id": "new-york-rockefeller-center-david-sarnoff",
+    "title": {
+      "by": "Рокфелер-плаза, 30 (Штаб-кватэра RCA / NBC Давіда Сарнава)",
+      "ru": "Рокфеллер-плаза, 30 (Штаб-квартира RCA / NBC Дэвида Сарнова)",
+      "en": "30 Rockefeller Plaza (David Sarnoff's RCA & NBC Headquarters)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Нью-Ёрк",
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "coordinates": [
+      40.75912,
+      -73.97956
+    ],
+    "description": {
+      "by": "Адрас: 30 Rockefeller Plaza, Manhattan, New York. Знакаміты 70-павярховы хмарачос у стылі ар-дэко першапачаткова будаваўся як RCA Building — штаб-кватэра карпарацыі Radio Corporation of America (RCA) і вяшчальнай сеткі NBC, якую ўзначальваў Давід Сарнаў (1891–1971), ураджэнец вёскі Узляны (Пухавіцкі раён Мінскай вобласці). Сарнаў увайшоў у гісторыю як «бацька амерыканскага тэлебачання і радыёвяшчання», які з гэтага будынка кіраваў медыярэвалюцыяй XX стагоддзя.",
+      "ru": "Адрес: 30 Rockefeller Plaza, Нью-Йорк. Небоскреб в стиле ар-деко, известный как RCA Building, служил штаб-квартирой корпорации RCA и телерадиосети NBC, созданных уроженцем деревни Узляны под Минском Дэвидом Сарновым (1891–1971). Сарнов стал «отцом американского коммерческого радио и телевидения».",
+      "en": "Address: 30 Rockefeller Plaza, New York. The flagship 70-story Art Deco skyscraper in Rockefeller Center, originally built as the RCA Building, served as the nerve center for the Radio Corporation of America (RCA) and NBC under David Sarnoff (1891–1971, born in Uzlyany near Minsk), widely revered as the pioneer of commercial radio and television broadcasting."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/GE-Bldg_30-Rockefeller-Plaza_NYC_2012.jpg/960px-GE-Bldg_30-Rockefeller-Plaza_NYC_2012.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Давід Сарнаў",
+        "url": "https://be.wikipedia.org/wiki/Давід_Сарнаў"
+      },
+      {
+        "title": "Вікіпедыя: 30 Rockefeller Plaza",
+        "url": "https://en.wikipedia.org/wiki/30_Rockefeller_Plaza"
+      }
+    ],
+    "tags": [
+      "Сарнаў",
+      "Узляны",
+      "RCA",
+      "NBC",
+      "Тэлебачанне",
+      "Нью-Ёрк"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "david-sarnoff",
+    "personIds": [
+      "david-sarnoff"
+    ]
+  },
+  {
+    "id": "houston-rothko-chapel",
+    "title": {
+      "by": "Капліца Ротка ў Х'юстане",
+      "ru": "Часовня Ротко в Хьюстоне",
+      "en": "Rothko Chapel in Houston"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Х'юстан",
+      "ru": "Хьюстон",
+      "en": "Houston"
+    },
+    "coordinates": [
+      29.73762,
+      -95.3962
+    ],
+    "description": {
+      "by": "Адрас: 3900 Yupon Street, Houston, Texas. Сусветна вядомая міжканфесійная капліца і святыня сучаснага мастацтва, створаная па замове Джона і Дамінік дэ Меніл. Унутры знаходзяцца 14 манументальных карцін выдатнага піянера абстрактнага экспрэсіянізму і жывапісу каляровага поля Марка Ротка (Маркус Роткавіч, 1903–1970, нарадзіўся ў Дзвінску Віцебскай губерні). Гэта ўнікальны прастор для духоўнай медытацыі і месца правядзення міжнародных мерапрыемстваў па абароне правоў чалавека.",
+      "ru": "Адрес: 3900 Yupon Street, Хьюстон. Всемирно известная межконфессиональная часовня, хранящая 14 монументальных полотен лидера абстрактного экспрессионизма Марка Ротко (Маркус Роткович, 1903–1970, родился в Двинске Витебской губернии). Уникальный памятник искусства, духовной медитации и защиты прав человека.",
+      "en": "Address: 3900 Yupon Street, Houston, Texas. A non-denominational chapel founded by John and Dominique de Menil, housing 14 monumental black-and-purple paintings by Mark Rothko (born Markus Rotkovich in Dvinsk, Vitebsk Governorate, 1903–1970). A masterwork of color-field painting and a global sanctuary for reflection and human rights."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Rothko_Chapel.jpg/960px-Rothko_Chapel.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Марк Ротка",
+        "url": "https://be.wikipedia.org/wiki/Марк_Ротка"
+      },
+      {
+        "title": "Вікіпедыя: Капліца Ротка",
+        "url": "https://en.wikipedia.org/wiki/Rothko_Chapel"
+      },
+      {
+        "title": "Афіцыйны сайт Rothko Chapel",
+        "url": "https://www.rothkochapel.org"
+      }
+    ],
+    "tags": [
+      "Ротка",
+      "Дзвінск",
+      "Экспрэсіянізм",
+      "Капліца",
+      "Тэхас",
+      "ЗША"
+    ],
+    "isUnverifiedCoordinates": true,
+    "personId": "mark-rothko",
+    "items": [
+      {
+        "title": "«14 манументальных палотнаў Капліцы Ротка»",
+        "author": "Марк Ротка",
+        "year": "1964–1967",
+        "description": "Цыкл з чатырнаццаці манументальных манахраматычных жывапісных панэляў і трыпціхаў глыбокіх цёмна-фіялетавых і чорных тонаў, спецыяльна створаных мастаком для медытатыўнай атмасферы прасторы.",
+        "personId": "mark-rothko"
+      },
+      {
+        "title": "Скульптура «Зламаны абеліск» («Broken Obelisk»)",
+        "author": "Барнет Ньюман",
+        "year": "1963–1967",
+        "description": "Манументальная скульптура з кортэн-сталі перад капліцай у басейне адлюстраванняў, прысвечаная доктару Марціну Лютэру Кінгу."
+      }
+    ],
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "mark-rothko"
+    ]
+  },
+  {
+    "id": "rehovot-weizmann-house",
+    "title": {
+      "by": "Дом і інстытут Хаіма Вайцмана ў Рэхавоце",
+      "ru": "Дом и институт Хаима Вейцмана в Реховоте",
+      "en": "Chaim Weizmann House and Institute in Rehovot"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Рэхавот",
+      "ru": "Реховот",
+      "en": "Rehovot"
+    },
+    "coordinates": [
+      31.90785,
+      34.81334
+    ],
+    "description": {
+      "by": "Адрас: 234 Herzl Street, Rehovot. Гістарычная рэзідэнцыя і музей першага прэзідэнта Дзяржавы Ізраіль, выдатнага вучонага-хіміка Хаіма Вайцмана (1874–1952), які нарадзіўся ў вёсцы Моталь Іванаўскага раёна Брэсцкай вобласці. Мадэрнісцкі дом, спраектаваны славутым архітэктарам Эрыхам Мендэльзонам у 1936 годзе, размешчаны на тэрыторыі заснаванага Вайцманам сусветнага Навукова-даследчага інстытута імя Вайцмана. Побач знаходзіцца магіла Хаіма і Веры Вайцман.",
+      "ru": "Адрес: 234 Herzl Street, Реховот. Историческая резиденция и музей первого президента Государства Израиль, выдающегося химика Хаима Вейцмана (1874–1952, родился в деревне Мотоль Брестской области). Модернистский дом архитектора Эриха Мендельсона (1936 г.) расположен на территории Института Вейцмана.",
+      "en": "Address: 234 Herzl Street, Rehovot. The modernist residence and memorial museum of the first President of Israel and renowned chemist Chaim Weizmann (1874–1952, born in Motal, Brest Region). Designed in 1936 by architect Erich Mendelsohn on the campus of the prestigious Weizmann Institute of Science, which Weizmann founded."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Weizmann_House_Rehovot.jpg/960px-Weizmann_House_Rehovot.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Хаім Вайцман",
+        "url": "https://be.wikipedia.org/wiki/Хаім_Вайцман"
+      },
+      {
+        "title": "Вікіпедыя: Weizmann House",
+        "url": "https://en.wikipedia.org/wiki/Weizmann_House"
+      },
+      {
+        "title": "Інстытут імя Вайцмана",
+        "url": "https://www.weizmann.ac.il/weizmannhouse"
+      }
+    ],
+    "tags": [
+      "Вайцман",
+      "Моталь",
+      "Прэзідэнт",
+      "Хімія",
+      "Рэхавот",
+      "Ізраіль"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "chaim-weizmann",
+    "personIds": [
+      "chaim-weizmann"
+    ]
+  },
+  {
+    "id": "jaffa-peres-center-for-peace",
+    "title": {
+      "by": "Цэнтр міру і інавацый Шымона Перэса ў Яфе",
+      "ru": "Центр мира и инноваций Шимона Переса в Яффе",
+      "en": "Peres Center for Peace and Innovation in Jaffa"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Тэль-Авіў-Яфа",
+      "ru": "Тель-Авив-Яффа",
+      "en": "Tel Aviv-Yafo"
+    },
+    "coordinates": [
+      32.03742,
+      34.74586
+    ],
+    "description": {
+      "by": "Адрас: 132 Kedem Street, Jaffa. Заснаваны ў 1996 годзе 9-м прэзідэнтам Ізраіля і лаўрэатам Нобелеўскай прэміі міру Шымонам Перэсам (сапраўднае прозвішча — Перскі, 1923–2016), які нарадзіўся ў вёсцы Вішнева Валожынскага раёна Мінскай вобласці. Велічны будынак на беразе Міжземнага мора (архітэктар Масіміліяна Фуксас) аб'ядноўвае мемарыяльны кабінет Перэса, інтэрактыўную выставу ізраільскіх інавацый і адукацыйныя праграмы для супольнага мірнага суіснавання народаў Блізкага Усходу.",
+      "ru": "Адрес: 132 Kedem Street, Яффа. Основан в 1996 году 9-м президентом Израиля и лауреатом Нобелевской премии мира Шимоном Пересом (Перский, 1923–2016, родился в деревне Вишнево Минской области). Здание на берегу Средиземного моря объединяет музей израильских инноваций, кабинет Переса и программы диалога.",
+      "en": "Address: 132 Kedem Street, Jaffa. Established in 1996 by the 9th President of Israel and Nobel Peace Prize laureate Shimon Peres (born Szymon Perski in Vishneva, Belarus, 1923–2016). Designed by Massimiliano Fuksas overlooking the Mediterranean Sea, the center hosts Peres's memorial office and interactive innovation exhibitions."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Peres_Center_for_Peace115.jpg/960px-Peres_Center_for_Peace115.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Шымон Перэс",
+        "url": "https://be.wikipedia.org/wiki/Шымон_Перэс"
+      },
+      {
+        "title": "Вікіпедыя: Peres Center for Peace",
+        "url": "https://en.wikipedia.org/wiki/Peres_Center_for_Peace"
+      },
+      {
+        "title": "Афіцыйны сайт Peres Center",
+        "url": "https://www.peres-center.org"
+      }
+    ],
+    "tags": [
+      "Перэс",
+      "Вішнева",
+      "Нобель",
+      "Мір",
+      "Яфа",
+      "Ізраіль"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "shimon-peres",
+    "personIds": [
+      "shimon-peres"
+    ]
+  },
+  {
+    "id": "boston-university-asimov-archive",
+    "title": {
+      "by": "Мемарыяльны архіўны цэнтр Ісака Азімава ў Бостанскім універсітэце",
+      "ru": "Мемориальный архивный центр Айзека Азимова в Бостонском университете",
+      "en": "Isaac Asimov Collection at Boston University Gotlieb Center"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Бостан",
+      "ru": "Бостон",
+      "en": "Boston"
+    },
+    "coordinates": [
+      42.35101,
+      -71.10799
+    ],
+    "description": {
+      "by": "Адрас: 771 Commonwealth Avenue, Boston, MA (Mugar Memorial Library, Howard Gotlieb Archival Research Center). Бостанскі ўніверсітэт захоўвае найбуйнейшы асабісты архіў сусветна вядомага пісьменніка-фантаста і біяхіміка Ісака Азімава (1920–1992, нарадзіўся ў мястэчку Пятровічы тагачаснай Гомельскай губерні / БССР). Азімаў быў прафесарам медыцынскай школы Бостанскага ўніверсітэта. Калекцыя змяшчае 468 архіўных скрынь з рукапісамі культавых раманаў («Фундацыя», «Я, робат»), ліставаннем, друкавальнымі машынкамі і першымі выданнямі.",
+      "ru": "Адрес: 771 Commonwealth Avenue, Бостон (Mugar Memorial Library). Бостонский университет хранит личный архив писателя-фантаста и биохимика Айзека Азимова (1920–1992, родился в местечке Петровичи Гомельской губернии/БССР). Азимов был профессором Бостонского университета; архив содержит 468 коробок рукописей, писем и личных вещей.",
+      "en": "Address: 771 Commonwealth Avenue, Boston, MA. Located in the Mugar Memorial Library at Boston University, the Howard Gotlieb Center holds the comprehensive archive of legendary science-fiction author and biochemist Isaac Asimov (1920–1992, born in Petrovichi, Gomel Governorate/BSSR). Asimov was a professor at BU School of Medicine; the collection encompasses 468 boxes of manuscripts ('Foundation', 'I, Robot'), correspondence, and personal memorabilia."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mugar_Memorial_Library.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Ісак Азімаў",
+        "url": "https://be.wikipedia.org/wiki/Айзэк_Азімаў"
+      },
+      {
+        "title": "Boston University Gotlieb Center Asimov Collection",
+        "url": "https://www.bu.edu/gotlieb"
+      }
+    ],
+    "tags": [
+      "Азімаў",
+      "Пятровічы",
+      "Фантастыка",
+      "Бостан",
+      "Архіў",
+      "ЗША"
+    ],
+    "isUnverifiedCoordinates": true,
+    "unverifiedCoordinates": true,
+    "personId": "isaac-asimov",
+    "personIds": [
+      "isaac-asimov"
     ]
   }
 ];
