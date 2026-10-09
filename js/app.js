@@ -46,8 +46,9 @@ const CATEGORY_CONFIG = {
   },
   church: {
     color: '#7c3aed',
-    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M11 2h2v2h2v2h-2v2h2l1 2v12h-2v-4a2 2 0 0 0-4 0v4H4V10l1-2h2V6H5V4h2V2h2v2h2V2zm-3 8v2h8v-2H8z"/></svg>`
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M11 2h2v2h2v2h-2v2.24l6 3.6V22h-5v-5c0-1.1-.9-2-2-2s-2 .9-2 2v5H3v-10.16l6-3.6V6H7V4h2V2h2z"/></svg>`
   },
+
   plaque: {
     color: '#059669',
     icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M4 3h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2 4v2h12V7H6zm0 4v2h12v-2H6zm0 4v2h8v-2H6z"/></svg>`
@@ -694,7 +695,10 @@ function getFilteredPlaces() {
 
     // Search query check
     if (searchQuery.trim() !== '') {
-      const q = searchQuery.toLowerCase().trim();
+      let q = searchQuery.toLowerCase().trim();
+      if (q.startsWith('#')) q = q.slice(1).trim();
+      if (!q) return true;
+
       const titleBy = (place.title?.by || '').toLowerCase();
       const titleRu = (place.title?.ru || '').toLowerCase();
       const titleEn = (place.title?.en || '').toLowerCase();
@@ -891,10 +895,11 @@ function showPlaceDetail(placeId) {
   const [lat, lng] = place.coordinates;
   const dict = window.i18n[currentLang];
 
+  const heroThumb = place.image ? getWikimediaThumb(place.image, 960) : '';
   const heroImg = place.image ? `
     <div class="detail-hero-wrap" id="detailHeroWrap">
-      <img src="${getWikimediaThumb(place.image, 960)}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" 
-           onload="handleHeroImageOrientation(this)" 
+      <div class="detail-hero-bg" style="background-image: url('${heroThumb}')"></div>
+      <img src="${heroThumb}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" 
            onerror="handleHeroImageError('${place.id}')"
            onclick="openImageLightbox('${place.image}', '${title.replace(/'/g, "\\'")}')"
            title="Клікніце для прагляду на ўвесь экран">
@@ -926,7 +931,11 @@ function showPlaceDetail(placeId) {
     </div>
   `;
 
-  const tagsHtml = (place.tags || []).map(t => `<span class="detail-tag">#${t}</span>`).join('');
+  const tagsHtml = (place.tags || []).map(t => {
+    const safeTag = escapeHtml(t).replace(/'/g, "\\'");
+    return `<button type="button" class="detail-tag" onclick="filterByTag('${safeTag}')" title="Фільтраваць па тэгу #${escapeHtml(t)}">#${escapeHtml(t)}</button>`;
+  }).join('');
+
 
   // Connected persons for this place
   const connectedPersons = getPersonsForPlace(place);
@@ -1368,9 +1377,14 @@ function setupEventListeners() {
 
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
-      searchQuery = e.target.value;
+      const raw = e.target.value;
+      if (raw.startsWith('#')) {
+        searchQuery = raw.slice(1).trim();
+      } else {
+        searchQuery = raw.trim();
+      }
       if (searchClear) {
-        searchClear.style.display = searchQuery ? 'block' : 'none';
+        searchClear.style.display = raw ? 'block' : 'none';
       }
       filterAndRender();
     });
@@ -1386,6 +1400,35 @@ function setupEventListeners() {
       }
     });
   }
+}
+
+// Global handler to filter dataset by tag
+function filterByTag(tag) {
+  if (!tag) return;
+  const cleanTag = String(tag).replace(/^#/, '').trim();
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+  if (searchInput) {
+    searchInput.value = '#' + cleanTag;
+  }
+  if (searchClear) {
+    searchClear.style.display = 'block';
+  }
+  searchQuery = cleanTag;
+
+  // Reset category filter so tag search matches across all categories
+  activeCategory = 'all';
+  renderCategoryPills();
+
+  // Close detail view so user sees the filtered list and map markers
+  if (typeof closePlaceDetail === 'function') {
+    closePlaceDetail();
+  }
+
+  filterAndRender();
+}
+window.filterByTag = filterByTag;
+
 
   // Language buttons
   document.querySelectorAll('.lang-btn').forEach(btn => {

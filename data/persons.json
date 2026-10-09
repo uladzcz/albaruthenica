@@ -2590,7 +2590,10 @@
       "en": "Born in Žaludok, Hrodna region. Close associate of Kastuś Kalinoŭski, military commander during the 1863–1864 Uprising. Later General of the Paris Commune in France, commanding the left bank army. Buried at Père Lachaise Cemetery in Paris."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Valery_Antoni_%C5%ACruble%C5%ADski._%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96_%D0%8E%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96_%281860-69%29.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B%D0%B9_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%B9_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B%D0%B9_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%B9_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96",
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
   },
   {
     "id": "yagaila",
@@ -3349,6 +3352,167 @@
     "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Корзан",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
+    ]
+  },
+  {
+    "id": "mikola-abramchyk",
+    "name": {
+      "by": "Мікола Абрамчык",
+      "ru": "Николай Абрамчик",
+      "en": "Mikoła Abramčyk"
+    },
+    "dates": "1903–1970",
+    "role": {
+      "by": "Старшыня (Прэзідэнт) Рады БНР (1943–1970), грамадска-палітычны дзеяч эміграцыі",
+      "ru": "Председатель (Президент) Рады БНР (1943–1970), деятель эмиграции",
+      "en": "President of the Rada of the Belarusian Democratic Republic (1943–1970)"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/%D0%9C%D1%96%D0%BA%D0%BE%D0%BB%D0%B0_%D0%90%D0%B1%D1%80%D0%B0%D0%BC%D1%87%D1%8B%D0%BA.png/330px-%D0%9C%D1%96%D0%BA%D0%BE%D0%BB%D0%B0_%D0%90%D0%B1%D1%80%D0%B0%D0%BC%D1%87%D1%8B%D0%BA.png",
+    "bio": {
+      "by": "Нарадзіўся ў Сычавічах пад Радашковічамі. Вучыўся ў Празе, дзяяч БНР, выдавец і арганізатар беларускага жыцця ў Францыі і Еўропе, аўтар працы «Гісторыя Беларусі ў картах і малюнках». З 1943 па 1970 гг. — Старшыня Рады Беларускай Народнай Рэспублікі.",
+      "ru": "Родился под Радошковичами. Учился в Праге, председатель Рады БНР (1943–1970), издатель и организатор белорусской диаспоры во Франции.",
+      "en": "Born near Radaszkowiczy. Belarusian statesman and journalist, President of the Rada of the Belarusian Democratic Republic in exile from 1943 until his death in 1970."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
+  },
+  {
+    "id": "nina-abramchyk",
+    "name": {
+      "by": "Ніна Абрамчык",
+      "ru": "Нина Абрамчик",
+      "en": "Nina Abramčyk"
+    },
+    "dates": "1916–2004",
+    "role": {
+      "by": "Грамадска-палітычная дзяячка, пісьменніца, сакратарка Рады БНР",
+      "ru": "Общественный деятель диаспоры, писательница, секретарь Рады БНР",
+      "en": "Belarusian diaspora activist, writer, secretary of Rada BNR"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_Placeholder.png/440px-Portrait_Placeholder.png",
+    "bio": {
+      "by": "Нарадзілася ў Шацку (цяпер Пухавіцкі р-н). Беларуская грамадская дзяячка ў Францыі, рэдактарка часопіса «Раніца», адна з кіраўніц Беларускага хаўруса ў Францыі, аўтарка літаратурных і публіцыстычных твораў пад псеўданімам Ніна Раса.",
+      "ru": "Белорусская общественная деятельница во Франции, писательница (псевдоним Нина Роса), супруга президента Рады БНР Николая Абрамчика.",
+      "en": "Belarusian activist in Paris, writer (pen name Nina Rasa), secretary of Rada BNR and wife of Mikoła Abramčyk."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
+  },
+  {
+    "id": "tadeusz-tyszkiewicz",
+    "name": {
+      "by": "Тадэвуш Тышкевіч",
+      "ru": "Тадеуш Тышкевич",
+      "en": "Tadeusz Tyszkiewicz"
+    },
+    "dates": "1774–1852",
+    "role": {
+      "by": "Брыгадны генерал войскаў ВКЛ, сенатар, паўстанец 1794 і 1830–1831 гг.",
+      "ru": "Бригадный генерал войск ВКЛ, сенатор, участник восстаний 1794 и 1830–1831 гг.",
+      "en": "Brigadier General of the Grand Duchy of Lithuania, Senator, 1830 Insurgent"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Tadevu%C5%A1_Ty%C5%A1kievi%C4%8D._%D0%A2%D0%B0%D0%B4%D1%8D%D0%B2%D1%83%D1%88_%D0%A2%D1%8B%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%281910%29.jpg/330px-Tadevu%C5%A1_Ty%C5%A1kievi%C4%8D._%D0%A2%D0%B0%D0%B4%D1%8D%D0%B2%D1%83%D1%88_%D0%A2%D1%8B%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%281910%29.jpg",
+    "bio": {
+      "by": "Нарадзіўся ў Белавежы (Камянецкі р-н). Генерал-маёр, удзельнік паўстання Касцюшкі, кампаній Напалеона і паўстання 1830–1831 гадоў, старшыня Часовага цэнтральнага камітэта на Літве і ў Беларусі.",
+      "ru": "Родился в Беловеже. Бригадный генерал, участник восстания Костюшко, наполеоновских войн и восстания 1830–1831 гг. Возглавлял Временный комитет в Литве и Беларуси.",
+      "en": "Born in Belavezha. General of the Grand Duchy of Lithuania, veteran of Kościuszko Uprising, Napoleonic campaigns, and 1830 November Uprising."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
+  },
+  {
+    "id": "tytus-puslowski",
+    "name": {
+      "by": "Адам Цітус Пуслоўскі",
+      "ru": "Адам Тит Пусловский",
+      "en": "Adam Tytus Pusłowski"
+    },
+    "dates": "1803–1854",
+    "role": {
+      "by": "Паўстанец 1830–1831 гг. на Палессі і ў Белавежы, мецэнат",
+      "ru": "Повстанец 1830–1831 гг. на Полесье и в Беловеже",
+      "en": "1830 Insurgent in Polesia, nobleman of Pusłowski house"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_Placeholder.png/440px-Portrait_Placeholder.png",
+    "bio": {
+      "by": "Сын Войцеха Пуслоўскага, нарадзіўся ў маёнтку Пяскі (Бярозаўскі р-н). Камандзір паўстанцкага атрада на Палессі і ў Белавежскай пушчы ў 1831 годзе. Пасля паражэння паўстання эміграваў у Францыю.",
+      "ru": "Сын Войцеха Пусловского, родился в Песках. Командир повстанческого отряда на Полесье и в Беловежской пуще (1831 г.). Жил в эмиграции в Париже.",
+      "en": "Son of Wojciech Pusłowski, commander of insurgent unit in Polesia and Belovezha Forest in 1831. Exiled to France."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
+  },
+  {
+    "id": "jacob-balgley",
+    "name": {
+      "by": "Якаў Балглей",
+      "ru": "Яков Балглей",
+      "en": "Jacob Balgley"
+    },
+    "dates": "1891–1934",
+    "role": {
+      "by": "Мастак-жывапісец і гравёр Парыжскай школы (родам з Брэста)",
+      "ru": "Художник и гравер Парижской школы (уроженец Бреста)",
+      "en": "Painter and engraver of School of Paris, native of Brest"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Jacob_Balgley_self-portrait.jpg/330px-Jacob_Balgley_self-portrait.jpg",
+    "bio": {
+      "by": "Нарадзіўся ў Брэст-Літоўску ў сям'і рабіна. Выбітны прадстаўнік знакамітай Парыжскай школы (École de Paris), майстар афорта і жывапісу. Творы захоўваюцца ў музеях Парыжа, Іерусаліма і па ўсім свеце.",
+      "ru": "Родился в Брест-Литовске. Видный представитель Парижской школы, мастер офорта и живописи.",
+      "en": "Born in Brest-Litovsk. Notable painter and printmaker of the School of Paris."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
+  },
+  {
+    "id": "mikalaj-minski",
+    "name": {
+      "by": "Мікалай Мінскі (Віленкін)",
+      "ru": "Николай Минский (Виленкин)",
+      "en": "Nikolai Minsky"
+    },
+    "dates": "1855–1937",
+    "role": {
+      "by": "Паэт Срэбнага веку, філосаф, перакладчык «Іліяды» (родам з Глыбокага)",
+      "ru": "Поэт Серебряного века, философ, переводчик (уроженец Глубокого)",
+      "en": "Silver Age poet, philosopher, translator of Iliad (native of Hlybokaye)"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nikolay_Minsky.jpg/330px-Nikolay_Minsky.jpg",
+    "bio": {
+      "by": "Нарадзіўся ў Глыбокім Дзісненскага павета Віленскай губерні (цяпер Віцебская вобласць). Выдатны паэт-сімваліст, мысліцель, перакладчык Гамера, Персі Бішы Шэлі і Верлена. Памёр у Парыжы.",
+      "ru": "Родился в Глубоком. Поэт Серебряного века, один из зачинателей русского символизма, философ, переводчик Гомера.",
+      "en": "Born in Hlybokaye (Vitebsk Region). Prominent Silver Age symbolist poet, philosopher, and translator of Homer's Iliad."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
+    ]
+  },
+  {
+    "id": "ewelina-hanska",
+    "name": {
+      "by": "Эвеліна Ганская (Жавуская)",
+      "ru": "Эвелина Ганская (Ржевуская)",
+      "en": "Ewelina Hańska (Rzewuska)"
+    },
+    "dates": "1805–1882",
+    "role": {
+      "by": "Графіня з роду Жавускіх, муза і жонка Анарэ дэ Бальзака",
+      "ru": "Графиня из рода Ржевуских, муза и супруга Оноре де Бальзака",
+      "en": "Countess of Rzewuski house, wife and muse of Honoré de Balzac"
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ewelina_Hanska_circa_1825.jpg/330px-Ewelina_Hanska_circa_1825.jpg",
+    "bio": {
+      "by": "Графіня з магнацкага роду Жавускіх. Шматгадовая карэспандэнтка, каханая і законная жонка Анарэ дэ Бальзака, якая адыграла ключавую ролю ў яго творчасці. Пахаваная разам з Бальзакам на могілках Пер-Лашэз.",
+      "ru": "Графиня из рода Ржевуских, муза и супруга Оноре де Бальзака. Похоронена вместе с Бальзаком на кладбище Пер-Лашез.",
+      "en": "Noblewoman of Rzewuski family, longtime correspondent and wife of French novelist Honoré de Balzac. Interred with Balzac in division 48 of Père Lachaise."
+    },
+    "placeIds": [
+      "paris-cmentarz-pere-lachaise"
     ]
   }
 ]
