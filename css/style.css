@@ -344,6 +344,12 @@ body {
   color: #1d4ed8;
 }
 
+.category-pill.active.category-city {
+  background: #f5f3ff;
+  border-color: #7c3aed;
+  color: #6d28d9;
+}
+
 .category-pill.active.category-church {
   background: #f5f3ff;
   border-color: var(--cat-church);
@@ -460,6 +466,7 @@ body {
   letter-spacing: 0.04em;
 }
 
+.place-card-category.cat-city { background: #ede9fe; color: #6d28d9; }
 .place-card-category.cat-monument { background: #fef3c7; color: #b45309; }
 .place-card-category.cat-historical { background: #fee2e2; color: #b91c1c; }
 .place-card-category.cat-culture { background: #dbeafe; color: #1d4ed8; }
@@ -1657,6 +1664,125 @@ body {
   font-size: 0.72rem;
   font-weight: 600;
   color: var(--text-muted);
+}
+
+/* Person Related Figures / Family Members */
+.person-related-box {
+  margin-bottom: 1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.person-related-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.5rem;
+}
+
+.person-related-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.45rem 0.6rem;
+  background: #fafafa;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: all 0.12s ease;
+}
+
+.person-related-item:hover {
+  background: #ffffff;
+  border-color: var(--primary);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
+}
+
+.person-related-thumb {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border: 1px solid var(--border-color);
+  flex-shrink: 0;
+  background: #f4f4f5;
+}
+
+.person-related-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.person-related-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.person-related-role {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.person-related-arrow {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Must See & Coordinates Request Styles */
+.category-pill.active.category-mustSee {
+  background: #fffbeb;
+  border-color: #f59e0b;
+  color: #b45309;
+}
+
+.place-card-must-see-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.12rem 0.45rem;
+  border-radius: var(--radius-sm);
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  color: #b45309;
+  letter-spacing: 0.02em;
+}
+
+.coords-request-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.12rem 0.45rem;
+  border-radius: var(--radius-sm);
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+}
+
+.coords-request-callout {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  background: #fff7ed;
+  border: 1px dashed #fdba74;
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.coords-request-callout p {
+  font-size: 0.8rem;
+  color: #9a3412;
+  margin: 0;
+  line-height: 1.4;
 }
 
 .mobile-sidebar-toggle {

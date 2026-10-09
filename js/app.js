@@ -22,6 +22,14 @@ let activeDraggableMarker = null;
 
 // Category config with distinct colors and crisp SVG glyph icons
 const CATEGORY_CONFIG = {
+  mustSee: {
+    color: '#d97706',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>`
+  },
+  city: {
+    color: '#8b5cf6',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M15 11V5l-3-3-3 3v2H3v14h18V11h-6zm-8 7H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V8h2v2zm6 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V8h2v2zm0-4h-2V4.5l1-1 1 1V6zm6 12h-2v-2h2v2zm0-4h-2v-2h2v2z"/></svg>`
+  },
   monument: {
     color: '#d97706',
     icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-3 8a3 3 0 0 0-3 3v2h12v-2a3 3 0 0 0-3-3H9zm-5 7h16v2H4v-2zm-2 3h20v2H2v-2z"/></svg>`
@@ -393,6 +401,8 @@ function renderCategoryPills() {
   const dict = window.i18n[currentLang];
   const categories = [
     { id: 'all', label: dict.allCategories },
+    { id: 'mustSee', label: dict.filterMustSee || '⭐ Must-see' },
+    { id: 'city', label: dict.categories.city || 'Гарады' },
     { id: 'monument', label: dict.categories.monument },
     { id: 'grave', label: dict.categories.grave },
     { id: 'church', label: dict.categories.church },
@@ -511,6 +521,12 @@ function renderMarkers() {
       </div>
     ` : '';
 
+    const nestedPopupNotice = (place.items && place.items.length > 0) ? `
+      <div class="place-card-nested-badge" style="display: inline-block; margin-bottom: 5px; font-size: 0.72rem;">
+        ${place.items.length} ${place.category === 'city' ? (window.i18n[currentLang]?.nestedCityObjectsBadge || 'пад’аб’ектаў') : (window.i18n[currentLang]?.nestedObjectsBadge || 'аб’ектаў')}
+      </div>
+    ` : '';
+
     const popupHtml = `
       <div class="popup-card">
         ${place.image ? `
@@ -518,7 +534,10 @@ function renderMarkers() {
             <img src="${place.image}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer" onload="handlePopupImageOrientation(this)">
           </div>` : ''}
         <div class="popup-body">
-          <span class="place-card-category cat-${place.category}">${categoryName}</span>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 4px; align-items: center;">
+            <span class="place-card-category cat-${place.category}">${categoryName}</span>
+            ${nestedPopupNotice}
+          </div>
           ${unverifiedPopupNotice}
           <div class="popup-title">${title}</div>
           <div class="popup-loc">${city}, ${country}</div>
@@ -554,7 +573,9 @@ function getFilteredPlaces() {
     }
 
     // Category check
-    if (activeCategory !== 'all' && place.category !== activeCategory) {
+    if (activeCategory === 'mustSee') {
+      if (place.mustSee !== true) return false;
+    } else if (activeCategory !== 'all' && place.category !== activeCategory) {
       return false;
     }
 
@@ -640,7 +661,13 @@ function renderSidebarList() {
 
     const nestedBadge = (place.items && place.items.length > 0) ? `
       <span class="place-card-nested-badge">
-        ${place.items.length} ${dict.nestedObjectsBadge || 'аб’ектаў'}
+        ${place.items.length} ${place.category === 'city' ? (dict.nestedCityObjectsBadge || 'пад’аб’ектаў') : (dict.nestedObjectsBadge || 'аб’ектаў')}
+      </span>
+    ` : '';
+
+    const mustSeeBadge = place.mustSee ? `
+      <span class="place-card-must-see-badge" title="${dict.mustSeeBadge || 'Пабачыць абавязкова'}">
+        ⭐ Must-see
       </span>
     ` : '';
 
@@ -655,9 +682,10 @@ function renderSidebarList() {
             <div class="place-card-meta">${city}, ${country}</div>
           </div>
           <div class="place-card-badges">
-            <span class="place-card-category">
+            <span class="place-card-category cat-${place.category}">
               ${categoryName}
             </span>
+            ${mustSeeBadge}
             ${unverifiedBadge}
             ${nestedBadge}
           </div>
@@ -764,13 +792,18 @@ function showPlaceDetail(placeId) {
     `;
   }
 
-  // Nested sub-items (artworks, graves, exhibits)
+  // Nested sub-items (artworks, graves, exhibits, city historical spots)
   let nestedItemsHtml = '';
   if (place.items && Array.isArray(place.items) && place.items.length > 0) {
+    const isCity = place.category === 'city' || place.isCityHub;
+    const itemsHeaderTitle = isCity
+      ? (dict.nestedCityObjectsTitle || 'Гістарычныя мясціны, падзеі і сляды ў гэтым горадзе / паселішчы:')
+      : (dict.nestedObjectsTitle || 'Укладзеныя аб’екты, творы і пахаванні:');
+
     nestedItemsHtml = `
       <div class="nested-items-section">
         <div class="nested-items-header">
-          <strong>${dict.nestedObjectsTitle || 'Укладзеныя аб’екты, творы і пахаванні:'}</strong>
+          <strong>${itemsHeaderTitle}</strong>
           <span class="nested-items-count">${place.items.length}</span>
         </div>
         <div class="nested-items-grid">
@@ -785,10 +818,17 @@ function showPlaceDetail(placeId) {
             </button>
           ` : '';
 
+          const coordsBadge = (it.needsCoords || it.coordsRequest) ? `
+            <span class="coords-request-badge" title="${dict.coordsRequestPrompt || ''}">
+              🔍 ${dict.coordsRequestBadge || 'Запыт каардынат'}
+            </span>
+          ` : '';
+
           return `
-          <div class="nested-item-card" onclick="openNestedItemModal('${place.id}', ${idx})" title="${dict.clickToViewDetails || 'Націсніце для прагляду дэталяў'}">
+          <div class="nested-item-card ${(it.needsCoords || it.coordsRequest) ? 'has-coords-request' : ''}" onclick="openNestedItemModal('${place.id}', ${idx})" title="${dict.clickToViewDetails || 'Націсніце для прагляду дэталяў'}">
             <div class="nested-item-card-header">
               <div class="nested-item-title">${it.title}</div>
+              ${coordsBadge}
               ${it.year ? `<span class="nested-item-year">${it.year}</span>` : ''}
             </div>
             ${personBadge ? `<div class="nested-item-meta">${personBadge}</div>` : ''}
@@ -1065,6 +1105,18 @@ function openNestedItemModal(placeId, itemIdx) {
               ${it.description}
             </div>
           ` : ''}
+          ${(it.needsCoords || it.coordsRequest) ? `
+            <div class="coords-request-callout">
+              <div style="font-weight:700; color:#c2410c; display:flex; align-items:center; gap:0.4rem; font-size:0.85rem;">
+                <span>🔍</span>
+                <span>${dict.coordsRequestBadge || 'Запыт каардынат ад супольнасці'}</span>
+              </div>
+              <p>${dict.coordsRequestPrompt || 'Дакладны адрас або каардынаты гэтага аб’екта пакуль не лакалізаваны на карце. Калі вы маеце архіўныя звесткі — паведаміце нам!'}</p>
+              <button type="button" class="btn btn-primary btn-sm" onclick="suggestCoordsForSubItem('${place.id}', ${itemIdx})">
+                ${dict.suggestCoordsBtn || 'Паведаміць адрас / каардынаты'} &rarr;
+              </button>
+            </div>
+          ` : ''}
           <div class="nested-detail-parent-place">
             <div class="nested-parent-label">${dict.locatedInPlace || 'Знаходзіцца ў комплексе / аб’екце:'}</div>
             <div class="nested-parent-name" onclick="closeModal('nestedItemModal'); selectPlace('${place.id}')">
@@ -1077,6 +1129,26 @@ function openNestedItemModal(placeId, itemIdx) {
   }
   openModal('nestedItemModal');
 }
+
+// Prefill addPlaceModal for sub-item community coords submission
+function suggestCoordsForSubItem(placeId, itemIdx) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place || !place.items || !place.items[itemIdx]) return;
+  const it = place.items[itemIdx];
+  closeModal('nestedItemModal');
+  openAddPlaceModal();
+  setTimeout(() => {
+    const titleInp = document.getElementById('addTitle');
+    const cityInp = document.getElementById('addCity');
+    const countryInp = document.getElementById('addCountry');
+    const descInp = document.getElementById('addDescription');
+    if (titleInp) titleInp.value = it.title || '';
+    if (cityInp) cityInp.value = getLocalized(place.city) || '';
+    if (countryInp) countryInp.value = getLocalized(place.country) || '';
+    if (descInp) descInp.value = `[Удакладненне каардынат для: ${getLocalized(place.title)}] ${it.description || ''}`;
+  }, 100);
+}
+window.suggestCoordsForSubItem = suggestCoordsForSubItem;
 
 // Check url hash on load
 function checkUrlHash() {
@@ -1406,6 +1478,44 @@ function openPersonDetail(personId, updateHash = true) {
       </div>
     `;
 
+    // Related persons / clan members
+    let relatedPersons = [];
+    if (Array.isArray(person.relatedPersonIds) && person.relatedPersonIds.length > 0) {
+      relatedPersons = person.relatedPersonIds.map(id => allPersons.find(p => p.id === id)).filter(Boolean);
+    } else if (person.id === 'radziwills') {
+      relatedPersons = allPersons.filter(p => p.id !== 'radziwills' && p.id.includes('radziwill'));
+    }
+
+    let relatedPersonsHtml = '';
+    if (relatedPersons.length > 0) {
+      const relatedCards = relatedPersons.map(rp => {
+        const rpName = getLocalized(rp.name);
+        const rpRole = getLocalized(rp.role);
+        const rpAvatar = rp.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
+        return `
+          <div class="person-related-item" onclick="openPersonDetail('${rp.id}')" title="${rpRole}">
+            <img src="${rpAvatar}" alt="${rpName}" class="person-related-thumb" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
+            <div class="person-related-info">
+              <div class="person-related-name">${rpName}</div>
+              <div class="person-related-role">${rpRole}</div>
+            </div>
+            <span class="person-related-arrow">&rarr;</span>
+          </div>
+        `;
+      }).join('');
+
+      relatedPersonsHtml = `
+        <div class="person-related-box">
+          <div class="person-places-title">
+            ${dict.relatedPersonsTitle || 'Прадстаўнікі роду і звязаныя асобы'} (${relatedPersons.length})
+          </div>
+          <div class="person-related-list">
+            ${relatedCards}
+          </div>
+        </div>
+      `;
+    }
+
     bodyEl.innerHTML = `
       <div class="person-detail-header">
         <img src="${avatar}" alt="${name}" class="person-detail-avatar" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
@@ -1428,6 +1538,8 @@ function openPersonDetail(personId, updateHash = true) {
       <div class="person-bio-box">
         ${bio}
       </div>
+
+      ${relatedPersonsHtml}
 
       <div class="person-places-title">
         ${dict.personConnectedPlaces || 'Звязаныя мясціны на карце'} (${places.length})
