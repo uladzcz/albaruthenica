@@ -62,10 +62,7 @@
       "skaryna-prague-monument",
       "vilnia-belaruskaya-shkola-imya-f-skaryny",
       "vilnia-drukarnya-frantsishka-skaryny",
-      "vilnia-drukarnya-imya-f-skaryny-1926-30",
-      "vilnia-drukarnya-imya-f-skaryny-1930-36",
-      "vilnia-drukarnya-mamonichaw-skulptura-letapisets",
-      "vilnia-kvatera-paznyaka"
+      "vilnia-drukarnya-mamonichaw-skulptura-letapisets"
     ]
   },
   {
@@ -256,7 +253,8 @@
       "vilnia-dom-halkowskaha",
       "vilnia-dom-nahrodskaha",
       "vilnia-drukarnya-martsina-kukhty-1911-1921",
-      "vilnia-shylda-na-mestsy-doma-bahushevicha"
+      "vilnia-shylda-na-mestsy-doma-bahushevicha",
+      "vilnia-dom-pad-balvanami"
     ]
   },
   {
@@ -1563,6 +1561,128 @@
     "image": "",
     "placeIds": [
       "tbilisi-youth-palace-valkovich"
+    ]
+  },
+  {
+    "id": "yanka-paznyak",
+    "name": {
+      "by": "Янка Пазняк",
+      "ru": "Янка Позняк",
+      "en": "Yanka Paznyak"
+    },
+    "dates": "1887 — ~1940",
+    "role": {
+      "by": "Грамадска-палітычны дзеяч, публіцыст, выдавец, дзед Зянона Пазняка",
+      "ru": "Общественно-политический деятель, публицист, издатель, дед Зенона Позняка",
+      "en": "Socio-political activist, publisher, journalist, grandfather of Zianon Pazniak"
+    },
+    "bio": {
+      "by": "Ураджэнец мястэчка Самаравічы Ваўкавыскага павета. Выбітны дзеяч беларускага хрысціянска-дэмакратычнага руху на Віленшчыне і ў міжваеннай Польшчы, старшыня Беларускай хрысціянскай дэмакратыі (з 1936 г.), рэдактар газеты «Biełaruskaja krynica» і часопіса «Хрысьціянская думка». Жыў і кіраваў выдавецтвам у Вільні па вул. Liejyklos, 1. У кастрычніку 1939 г. арыштаваны органамі НКУС, загінуў у зняволенні.",
+      "ru": "Уроженец Волковысского уезда. Выдающийся деятель белорусского христианско-демократического движения в Вильне и межвоенной Польше, председатель Белорусской христианской демократии (с 1936 г.), редактор газеты «Biełaruskaja krynica» и журнала «Хрысьціянская думка». Жил и руководил издательской деятельностью в Вильнюсе на ул. Liejyklos, 1. В октябре 1939 г. арестован органами НКВД, погиб в заключении. Дед Зенона Позняка.",
+      "en": "Born in the Vawkavysk district. Leading figure of the Belarusian Christian democratic movement in Vilnius and interwar Poland, chairman of Belarusian Christian Democracy (from 1936), editor of Biełaruskaja krynica and Chryscijanskaja Dumka. Lived and ran publishing operations at Liejyklos 1 in Vilnius. Arrested by the NKVD in October 1939 and died in Soviet custody. Grandfather of Zianon Pazniak."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Jan_Po%C5%BAniak.png",
+    "wiki": "https://be.wikipedia.org/wiki/Ян_Пазняк",
+    "placeIds": [
+      "vilnia-kvatera-paznyaka",
+      "vilnia-drukarnya-imya-f-skaryny-1926-30"
+    ]
+  },
+  {
+    "id": "eustachy-tyszkiewicz",
+    "name": {
+      "by": "Яўстах Тышкевіч",
+      "ru": "Евстафий Тышкевич",
+      "en": "Eustachy Tyszkiewicz"
+    },
+    "dates": "1814 — 1873",
+    "role": {
+      "by": "Беларускі археолаг, гісторык, этнограф, стваральнік Віленскага музея старажытнасцяў",
+      "ru": "Белорусский археолог, историк, этнограф, основатель Виленского музея древностей",
+      "en": "Belarusian archaeologist, historian, ethnographer, founder of the Vilnius Museum of Antiquities"
+    },
+    "bio": {
+      "by": "Ураджэнец Лагойска. Заснавальнік беларускай навуковай археалогіі і музеязнаўства. Стварыў знакаміты Лагойскі музей старажытнасцей (1842) і Віленскі музей старажытнасцей (1855) разам з Віленскай археалагічнай камісіяй. Частку збораў захоўваў у сваім родавым палацы ў Вільні («Дом пад балванамі»). Ганаровы чалец Стакгольмскай каралеўскай акадэміі.",
+      "ru": "Уроженец Логойска. Один из основоположников белорусской научной археологии. Создал Логойский музей древностей (1842) и Виленский музей древностей (1855). Часть коллекций хранил в родовом дворце Тышкевичей («Дом под атлантами») в Вильнюсе.",
+      "en": "Born in Lahoysk. Founding pioneer of Belarusian scientific archaeology and museology. Founded the Lahoysk Museum of Antiquities (1842) and the Vilnius Museum of Antiquities (1855). Kept his personal archaeological collections at the Tyszkiewicz Palace ('House of Atlantes') in Vilnius."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Eustachy_Tyszkiewicz_%28before_1873%29.jpg/330px-Eustachy_Tyszkiewicz_%28before_1873%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Яўстах_Піевіч_Тышкевіч",
+    "placeIds": [
+      "vilnia-dom-pad-balvanami"
+    ]
+  },
+  {
+    "id": "yakub-kolas",
+    "name": {
+      "by": "Якуб Колас (Канстанцін Міцкевіч)",
+      "ru": "Якуб Колас (Константин Мицкевич)",
+      "en": "Yakub Kolas (Kanstantsin Mitskevich)"
+    },
+    "dates": "1882 — 1956",
+    "role": {
+      "by": "Класік беларускай літаратуры, народны паэт Беларусі, акадэмік",
+      "ru": "Классик белорусской литературы, народный поэт Беларуси, академик",
+      "en": "Classic of Belarusian literature, People's Poet of Belarus, academician"
+    },
+    "bio": {
+      "by": "Ураджэнец засценка Акінчыцы (Стаўбцоўшчына). Класік нацыянальнай літаратуры, аўтар эпапей «Новая зямля», «Сымон-музыка», трылогіі «На ростанях». У траўні 1907 г. прыехаў у Вільню ў рэдакцыю «Нашай Нівы» («Дом пад балванамі»), дзе распачаў працу як рэдактар літаратурнага аддзела.",
+      "ru": "Уроженец Столбцовского района. Классик белорусской литературы, автор поэм «Новая земля», «Сымон-музыкант», трилогии «На росстанях». В мае 1907 года впервые приехал в Вильнюс в редакцию «Нашай Нівы» («Дом под атлантами»), где начал работу редактором литературного отдела.",
+      "en": "Born near Stowbtsy. Titan of Belarusian literature, author of the national epic poems 'The New Land', 'Symon the Musician', and the trilogy 'At the Crossroads'. In May 1907, arrived in Vilnius at the 'Nasha Niva' editorial office in the 'House of Atlantes' on Trakų St."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kanstantyn_Mickievi%C4%8D_%28Jakub_Ko%C5%82as%29._%D0%9A%D0%B0%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B%D0%BD_%D0%9C%D1%96%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81%29_%281925%29.jpg/330px-Kanstantyn_Mickievi%C4%8D_%28Jakub_Ko%C5%82as%29._%D0%9A%D0%B0%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B%D0%BD_%D0%9C%D1%96%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81%29_%281925%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Якуб_Колас",
+    "placeIds": [
+      "vilnia-dom-pad-balvanami"
+    ]
+  },
+  {
+    "id": "alexander-kishchenko",
+    "name": {
+      "by": "Аляксандр Кішчанка",
+      "ru": "Александр Кищенко",
+      "en": "Alexander Kishchenko"
+    },
+    "dates": "1933 — 1997",
+    "role": {
+      "by": "Народны мастак Беларусі, аўтар манументальных мазаік і габеленаў",
+      "ru": "Народный художник Беларуси, автор монументальных мозаик и гобеленов",
+      "en": "People's Artist of Belarus, master of monumental mosaics and tapestries"
+    },
+    "bio": {
+      "by": "Выбітны беларускі мастак-манументаліст і жывапісец, народны мастак Беларусі. Стваральнік знакамітых мазаічных пано на праспекце Незалежнасці ў Мінску («Партызаны», «Горад-ваяр»), сусветна вядомага «Габелена стагоддзя» (занесены ў Кнігу рэкордаў Гінэса як самы вялікі ў свеце) і манументальнага габелена «Чарнобыль», які ў 1991 г. быў перададзены ў дар ААН і экспануецца ў штаб-кватэры ААН у Нью-Ёрку.",
+      "ru": "Выдающийся белорусский художник-монументалист, народный художник Беларуси. Создатель знаменитых мозаичных панно на проспекте Независимости в Минске («Партизаны», «Город-воин»), занесённого в Книгу рекордов Гиннесса «Гобелена века» и монументального гобелена «Чернобыль», переданного в дар ООН в 1991 году и украшающего штаб-квартиру ООН в Нью-Йорке.",
+      "en": "Prominent Belarusian monumental artist and painter, People's Artist of Belarus. Created the landmark mosaics on Independence Avenue in Minsk, the Guinness Record-holding 'Tapestry of the Century', and the hand-woven masterpiece 'Chernobyl' presented to the United Nations in 1991 and exhibited at UN Headquarters in New York."
+    },
+    "image": "https://www.un.org/ungifts/sites/www.un.org.ungifts/files/163g_belarus_2.jpg",
+    "wiki": "https://ru.wikipedia.org/wiki/Кищенко,_Александр_Михайлович",
+    "placeIds": [
+      "un-hq-chernobyl-tapestry"
+    ]
+  },
+  {
+    "id": "bona-sforza",
+    "name": {
+      "by": "Бона Сфорца",
+      "ru": "Бона Сфорца",
+      "en": "Bona Sforza"
+    },
+    "dates": "1494 — 1557",
+    "role": {
+      "by": "Вялікая княгіня літоўская і каралева польская, герцагіня Бары, рэфарматарка",
+      "ru": "Великая княгиня литовская и королева польская, герцогиня Бари, реформатор",
+      "en": "Grand Duchess of Lithuania and Queen of Poland, Duchess of Bari, reformer"
+    },
+    "bio": {
+      "by": "Вялікая княгіня літоўская і каралева польская (жонка Жыгімонта I Старога). Ініцыятарка найбуйнейшай аграрнай і эканамічнай рэформы ў ВКЛ — Валочнай памеры (1557), якая на стагоддзі вызначыла планіроўку беларускіх вёсак і землекарыстанне. Кіравала Пінскім, Кобрынскім, Гарадзенскім, Клецкім стараствамі, дзе развівала гандаль, будавала замкі і першыя меліярацыйныя каналы («Канал каралевы Боны»). Прывезла на беларускія землі майстроў і традыцыі італьянскага Рэнесансу. Апошнія гады правяла ў Швабскім замку ў Бары, дзе была атручана. Пахаваная ў базіліцы Святога Мікалая ў Бары.",
+      "ru": "Великая княгиня литовская и королева польская (супруга Сигизмунда I Старого). Инициатор масштабной аграрной реформы в ВКЛ — «Волочной померы» (1557), изменившей структуру белорусского села. Владела Пинском, Кобрином, Гродно, Клецком, строила замки и первые мелиорационные каналы («Канал Боны»). Привнесла в культуру ВКЛ идеи итальянского Возрождения. Последние годы провела в Швабском замке в Бари, где была отравлена. Похоронена в базилике Святого Николая в Бари.",
+      "en": "Grand Duchess of Lithuania and Queen of Poland (consort of Sigismund I the Old). Instigated the landmark agrarian and fiscal reform in the GDL — the Wallach Measurement ('Valochnaya pamiera', 1557). Governed Pinsk, Kobryn, Hrodna, and Kletsk, developing commerce, founding castles, and digging the first land drainage canals ('Bona Canal'). Championed Renaissance architecture and humanism in Belarus. Spent her final years in the Swabian Castle in Bari where she was poisoned. Buried in the Basilica of Saint Nicholas in Bari."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bona_Sforza_in_1517.jpg/330px-Bona_Sforza_in_1517.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Бона_Сфорца",
+    "placeIds": [
+      "bari-castello-svevo-bona-sforza",
+      "bari-basilica-san-nicola-bona-sforza-tomb"
     ]
   }
 ]

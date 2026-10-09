@@ -110,7 +110,7 @@ function initI18n() {
 
 let baseLayers = {};
 let layerControl = null;
-let activeBaseLayerKey = 'voyager';
+let activeBaseLayerKey = 'esriStreet';
 
 function setLanguage(lang) {
   if (['by', 'ru', 'en'].includes(lang)) {
@@ -153,6 +153,20 @@ function initMap() {
 
   map.addLayer(markerCluster);
 
+  // Handle adaptive popup image orientation dynamically
+  map.on('popupopen', (e) => {
+    const popupEl = e.popup?.getElement();
+    if (!popupEl) return;
+    const img = popupEl.querySelector('.popup-img');
+    if (img) {
+      if (img.complete && img.naturalWidth) {
+        handlePopupImageOrientation(img);
+      } else {
+        img.addEventListener('load', () => handlePopupImageOrientation(img), { once: true });
+      }
+    }
+  });
+
   // Map click for coordinate picker (Add Place modal OR Admin moderation)
   map.on('click', (e) => {
     if (adminPickMode && selectedPlaceId) {
@@ -186,11 +200,10 @@ function initMap() {
   });
 }
 
-// Setup base layers (Voyager, OSM, Satellite)
+// Setup base layers (Esri Street, OpenStreetMap, HOT, Topo, Satellite)
 function setupBaseLayers() {
-  const voyagerLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
+  const esriStreetLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, METI, TomTom',
     maxZoom: 19
   });
 
@@ -200,24 +213,43 @@ function setupBaseLayers() {
     referrerPolicy: 'strict-origin-when-cross-origin'
   });
 
+  const osmHotLayer = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles courtesy of Humanitarian OpenStreetMap Team',
+    maxZoom: 19
+  });
+
+  const esriTopoLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; USGS, Intermap, TomTom, FAO, NPS, NRCAN',
+    maxZoom: 19
+  });
+
   const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP',
     maxZoom: 19
   });
 
   baseLayers = {
-    voyager: voyagerLayer,
+    esriStreet: esriStreetLayer,
     osm: osmLayer,
+    osmHot: osmHotLayer,
+    esriTopo: esriTopoLayer,
     satellite: satelliteLayer
   };
 
-  // Add default layer (Voyager)
+  if (!baseLayers[activeBaseLayerKey]) {
+    activeBaseLayerKey = 'esriStreet';
+  }
+
+  // Add default layer (Esri Street)
   baseLayers[activeBaseLayerKey].addTo(map);
 
   map.on('baselayerchange', (e) => {
-    if (e.layer === baseLayers.satellite) activeBaseLayerKey = 'satellite';
-    else if (e.layer === baseLayers.osm) activeBaseLayerKey = 'osm';
-    else activeBaseLayerKey = 'voyager';
+    for (const [key, layer] of Object.entries(baseLayers)) {
+      if (e.layer === layer) {
+        activeBaseLayerKey = key;
+        break;
+      }
+    }
   });
 
   updateLayerControl();
@@ -231,14 +263,16 @@ function updateLayerControl() {
 
   const dict = window.i18n[currentLang] || window.i18n.by;
   const layerLabels = {
-    [dict.layerVoyager || '🎨 Светлая (CartoDB)']: baseLayers.voyager,
-    [dict.layerOSM || '🗺️ OpenStreetMap']: baseLayers.osm,
-    [dict.layerSatellite || '🛰️ Спадарожнік (Esri)']: baseLayers.satellite
+    [dict.layerStreet || 'Карта вуліц (Esri)']: baseLayers.esriStreet,
+    [dict.layerOSM || 'OpenStreetMap']: baseLayers.osm,
+    [dict.layerOSMHot || 'OpenStreetMap (HOT)']: baseLayers.osmHot,
+    [dict.layerTopo || 'Тапаграфічная (Esri)']: baseLayers.esriTopo,
+    [dict.layerSatellite || 'Спадарожнік (Esri)']: baseLayers.satellite
   };
 
   layerControl = L.control.layers(layerLabels, null, {
     position: 'topright',
-    collapsed: false
+    collapsed: true
   }).addTo(map);
 }
 
@@ -408,6 +442,50 @@ function createCustomMarkerIcon(category, isUnverified = false) {
   });
 }
 
+// Dynamic Image Orientation Handlers (portrait vs landscape)
+function handlePopupImageOrientation(img) {
+  if (!img) return;
+  const nw = img.naturalWidth;
+  const nh = img.naturalHeight;
+  if (!nw || !nh) return;
+
+  const wrap = img.closest('.popup-img-wrap');
+  const card = img.closest('.popup-card');
+  if (!wrap) return;
+
+  const ratio = nh / nw;
+
+  if (ratio > 1.12) {
+    // Strongly vertical/portrait (e.g. portraits, monuments, tall stelae)
+    wrap.classList.add('is-portrait');
+    wrap.classList.remove('is-landscape', 'is-square');
+    if (card) card.classList.add('has-portrait');
+  } else if (ratio < 0.88) {
+    // Landscape / panoramic
+    wrap.classList.add('is-landscape');
+    wrap.classList.remove('is-portrait', 'is-square');
+    if (card) card.classList.remove('has-portrait');
+  } else {
+    // Roughly square
+    wrap.classList.add('is-square');
+    wrap.classList.remove('is-portrait', 'is-landscape');
+    if (card) card.classList.remove('has-portrait');
+  }
+}
+
+function handleHeroImageOrientation(img) {
+  if (!img) return;
+  const nw = img.naturalWidth;
+  const nh = img.naturalHeight;
+  if (!nw || !nh) return;
+
+  if (nh / nw > 1.12) {
+    img.classList.add('is-portrait');
+  } else {
+    img.classList.remove('is-portrait');
+  }
+}
+
 // Render markers on map
 function renderMarkers() {
   markerCluster.clearLayers();
@@ -435,7 +513,10 @@ function renderMarkers() {
 
     const popupHtml = `
       <div class="popup-card">
-        ${place.image ? `<img src="${place.image}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer">` : ''}
+        ${place.image ? `
+          <div class="popup-img-wrap">
+            <img src="${place.image}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer" onload="handlePopupImageOrientation(this)">
+          </div>` : ''}
         <div class="popup-body">
           <span class="place-card-category cat-${place.category}">${categoryName}</span>
           ${unverifiedPopupNotice}
@@ -448,7 +529,7 @@ function renderMarkers() {
       </div>
     `;
 
-    marker.bindPopup(popupHtml, { maxWidth: 280, minWidth: 220 });
+    marker.bindPopup(popupHtml, { maxWidth: 290, minWidth: 230 });
     marker.on('click', () => {
       highlightSidebarCard(place.id);
     });
@@ -655,7 +736,10 @@ function showPlaceDetail(placeId) {
   const [lat, lng] = place.coordinates;
   const dict = window.i18n[currentLang];
 
-  const heroImg = place.image ? `<img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer">` : '';
+  const heroImg = place.image ? `
+    <div class="detail-hero-wrap">
+      <img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" onload="handleHeroImageOrientation(this)">
+    </div>` : '';
 
   const tagsHtml = (place.tags || []).map(t => `<span class="detail-tag">#${t}</span>`).join('');
 

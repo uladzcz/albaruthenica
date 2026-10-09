@@ -3386,10 +3386,8 @@
       "Гісторыя",
       "historical"
     ],
-    "personId": "francysk-skaryna",
-    "personIds": [
-      "francysk-skaryna"
-    ]
+    "personId": null,
+    "personIds": []
   },
   {
     "id": "vilnia-dom-nahrodskaha",
@@ -5904,9 +5902,9 @@
       "Гісторыя",
       "culture"
     ],
-    "personId": "francysk-skaryna",
+    "personId": "yanka-paznyak",
     "personIds": [
-      "francysk-skaryna"
+      "yanka-paznyak"
     ]
   },
   {
@@ -6082,8 +6080,11 @@
       "Гісторыя",
       "historical"
     ],
-    "personId": "kastus-kalinouski",
+    "personId": "eustachy-tyszkiewicz",
     "personIds": [
+      "eustachy-tyszkiewicz",
+      "francisak-bahusevic",
+      "yakub-kolas",
       "kastus-kalinouski"
     ]
   },
@@ -6520,8 +6521,8 @@
     "id": "vilnia-kvatera-paznyaka",
     "title": {
       "by": "Кватэра Пазьняка",
-      "ru": "Кватэра Пазьняка",
-      "en": "Кватэра Пазьняка"
+      "ru": "Квартира Янки Позняка",
+      "en": "Apartment of Yanka Paznyak"
     },
     "category": "culture",
     "country": {
@@ -6540,8 +6541,8 @@
     ],
     "description": {
       "by": "Адрас: Liejyklos, 1. \n\nУ доме, у панадворку якога размяшчалася друкарня імя Ф. Скарыны,  знаходзілася кнігарня “Пагоня” і жыў адзін з лідараў беларускага хрысьціянска-дэмакратычнага руху Янка Пазняк.",
-      "ru": "Адрас: Liejyklos, 1. \n\nУ доме, у панадворку якога размяшчалася друкарня імя Ф. Скарыны,  знаходзілася кнігарня “Пагоня” і жыў адзін з лідараў беларускага хрысьціянска-дэмакратычнага руху Янка Пазняк.",
-      "en": "Адрас: Liejyklos, 1. \n\nУ доме, у панадворку якога размяшчалася друкарня імя Ф. Скарыны,  знаходзілася кнігарня “Пагоня” і жыў адзін з лідараў беларускага хрысьціянска-дэмакратычнага руху Янка Пазняк."
+      "ru": "Адрес: Liejyklos, 1.\n\nВ доме, во дворе которого размещалась типография им. Ф. Скорины, находился книжный магазин «Пагоня» и жил один из лидеров белорусского христианско-демократического движения Янка Позняк.",
+      "en": "Address: Liejyklos, 1.\n\nIn the building where the F. Skaryna printing house was located in the courtyard, there was the Pahonia bookstore and the residence of Yanka Paznyak, one of the leaders of the Belarusian Christian Democratic movement."
     },
     "image": "",
     "links": [
@@ -6556,9 +6557,9 @@
       "Гісторыя",
       "culture"
     ],
-    "personId": "francysk-skaryna",
+    "personId": "yanka-paznyak",
     "personIds": [
-      "francysk-skaryna"
+      "yanka-paznyak"
     ]
   },
   {
@@ -13288,5 +13289,163 @@
         "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
       }
     ]
+  },
+  {
+    "id": "un-hq-chernobyl-tapestry",
+    "title": {
+      "by": "Габелен «Чарнобыль» у штаб-кватэры ААН (Аляксандр Кішчанка)",
+      "ru": "Гобелен «Чернобыль» в штаб-квартире ООН (Александр Кищенко)",
+      "en": "\"Chernobyl\" Tapestry at the United Nations Headquarters"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Нью-Ёрк",
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "coordinates": [
+      40.7499,
+      -73.9678
+    ],
+    "description": {
+      "by": "Манументальны сотканны ўручную габелен (памеры 3,8 × 10 метраў) створаны народным мастаком Беларусі Аляксандрам Кішчанкам у памяць пра Чарнобыльскую трагедыю 1986 года. 19 верасня 1991 года габелен быў урачыста перададзены ў дар Арганізацыі Аб'яднаных Нацый ад урада і народа Беларусі міністрам замежных спраў Пятром Краўчанкам і прыняты Генеральным сакратаром ААН Хаўерам Перэсам дэ Куэльлярам. Знаходзіцца ў будынку Генеральнай Асамблеі ААН (3-ці паверх).",
+      "ru": "Монументальный сотканный вручную гобелен (размеры 3,8 × 10 метров) создан народным художником Беларуси Александром Кищенко в память о Чернобыльской трагедии 1986 года. 19 сентября 1991 года гобелен был торжественно передан в дар Организации Объединенных Наций от правительства и народа Беларуси министром иностранных дел Петром Кравченко и принят Генеральным секретарем ООН Хавьером Пересом де Куэльяром. Размещен в здании Генеральной Ассамблеи ООН (3-й этаж).",
+      "en": "Monumental hand-woven tapestry (approx. 3.8 × 10 meters) created by People's Artist of Belarus Alexander Kishchenko to commemorate the 1986 Chernobyl nuclear disaster. Presented as an official gift to the United Nations from the government and people of Belarus on September 19, 1991 by Foreign Minister Pyotr Kravchenko and accepted by UN Secretary-General Javier Pérez de Cuéllar. Exhibited in the General Assembly Building (3rd floor)."
+    },
+    "image": "https://www.un.org/ungifts/sites/www.un.org.ungifts/files/163g_belarus_2.jpg",
+    "links": [
+      {
+        "title": "Афіцыйны рэестр падарункаў ААН: Гобелен «Чернобыль»",
+        "url": "https://www.un.org/ungifts/ru/%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%B1%D1%8B%D0%BB%D1%8C"
+      },
+      {
+        "title": "Аляксандр Кішчанка — Вікіпедыя",
+        "url": "https://ru.wikipedia.org/wiki/Кищенко,_Александр_Михайлович"
+      }
+    ],
+    "tags": [
+      "ААН",
+      "Нью-Ёрк",
+      "Кішчанка",
+      "Чарнобыль",
+      "Мастацтва",
+      "culture"
+    ],
+    "personId": "alexander-kishchenko",
+    "personIds": [
+      "alexander-kishchenko"
+    ],
+    "unverifiedCoordinates": false
+  },
+  {
+    "id": "bari-castello-svevo-bona-sforza",
+    "title": {
+      "by": "Швабскі замак і барэльеф Боне Сфорцы ў Бары",
+      "ru": "Швабский замок и барельеф Боне Сфорца в Бари",
+      "en": "Swabian Castle & Bona Sforza Bas-Relief in Bari"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Бары",
+      "ru": "Бари",
+      "en": "Bari"
+    },
+    "coordinates": [
+      41.1287,
+      16.8659
+    ],
+    "description": {
+      "by": "Рэнесансная рэзідэнцыя вялікай княгіні літоўскай і каралевы польскай Боны Сфорцы (1494–1557), якая правяла тут апошнія гады жыцця пасля вяртання з Рэчы Паспалітай і была атручана ў замку ў лістападзе 1557 г. Адна з кутніх вежаў замка носіць імя Боны Сфорцы. 7 кастрычніка 2026 г. у нішы замкавай сцяны адкрыты бронзавы барэльеф Боне Сфорцы з гербамі ВКЛ (Пагоня), Польшчы (Белы Арол), Сфорца і Арагона ды лацінскім тытулам «MAGNA DUX LITHUANIAE» (Вялікая княгіня літоўская).",
+      "ru": "Ренессансная резиденция великой княгини литовской и королевы польской Боны Сфорца (1494–1557), где она провела последние годы после отъезда из Речи Посполитой и была отравлена в ноябре 1557 г. 7 октября 2026 г. на замковой стене торжественно открыт бронзовый барельеф Боне Сфорца с гербами ВКЛ («Погоня»), Польши, Сфорца и Арагона, а также титулом «MAGNA DUX LITHUANIAE».",
+      "en": "Renaissance residence of Grand Duchess of Lithuania and Queen of Poland Bona Sforza (1494–1557), where she spent her final years after leaving the Polish-Lithuanian Commonwealth and was poisoned in November 1557. On October 7, 2026, a bronze bas-relief in honor of Bona Sforza featuring the GDL Pahonia coat of arms, the Polish White Eagle, and the Latin title 'MAGNA DUX LITHUANIAE' was unveiled on the castle wall."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Bari_BW_2016-10-19_12-32-30.jpg/960px-Bari_BW_2016-10-19_12-32-30.jpg",
+    "links": [
+      {
+        "title": "Наша Ніва: У Швабскім замку ў Бары адкрылі барэльеф Боне Сфорца",
+        "url": "https://nashaniva.com/406309"
+      },
+      {
+        "title": "Швабскі замак у Бары — Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Castello_Normanno-Svevo_(Bari)"
+      }
+    ],
+    "tags": [
+      "Бары",
+      "Італія",
+      "Бона Сфорца",
+      "ВКЛ",
+      "Пагоня",
+      "Рэнесанс",
+      "historical"
+    ],
+    "personId": "bona-sforza",
+    "personIds": [
+      "bona-sforza"
+    ],
+    "unverifiedCoordinates": false
+  },
+  {
+    "id": "bari-basilica-san-nicola-bona-sforza-tomb",
+    "title": {
+      "by": "Базіліка Святога Мікалая — манументальнае надмагілле Боны Сфорцы",
+      "ru": "Базилика Святого Николая — монументальное надгробие Боны Сфорца",
+      "en": "Basilica of Saint Nicholas — Mausoleum of Bona Sforza"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Бары",
+      "ru": "Бари",
+      "en": "Bari"
+    },
+    "coordinates": [
+      41.1306,
+      16.8705
+    ],
+    "description": {
+      "by": "У цэнтральнай апсідзе знакамітай базілікі Святога Мікалая ў Бары месціцца пышнае маньерысцкае надмагілле каралевы польскай і вялікай княгіні літоўскай Боны Сфорцы. Створана ў 1593 г. на замову яе дачкі Ганны Ягелонкі славутым скульптарам Санці Гучы (Santi Gucci). Кампазіцыя ўключае выяву каралевы на каленях перад Богам, статуі св. Мікалая і св. Станіслава (заступніка Польшчы і Літвы) ды гербы Польшчы і Вялікага Княства Літоўскага (Пагоня).",
+      "ru": "В центральной апсиде базилики Святого Николая в Бари находится величественное надгробие великой княгини литовской и королевы польской Боны Сфорца, созданное в 1593 году скульптором Санти Гуччи по заказу Анны Ягеллонки. Надгробие украшено статуями св. Николая и св. Станислава, а также гербами Польши и Великого Княжества Литовского («Погоня»).",
+      "en": "Inside the central apse of the renowned Basilica of Saint Nicholas in Bari stands the mannerist tomb and mausoleum of Grand Duchess of Lithuania and Queen of Poland Bona Sforza. Commissioned in 1593 by her daughter Anna Jagiellon and crafted by Florentine master Santi Gucci, it features kneeling Bona, statues of St. Nicholas and St. Stanislaus, and the coats of arms of Poland and the Grand Duchy of Lithuania (Pahonia)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bona_Sforza_tomb_IMG_4657.jpg/960px-Bona_Sforza_tomb_IMG_4657.jpg",
+    "links": [
+      {
+        "title": "Наша Ніва: У Швабскім замку ў Бары адкрылі барэльеф Боне Сфорца",
+        "url": "https://nashaniva.com/406309"
+      },
+      {
+        "title": "Базіліка Святога Мікалая ў Бары — Вікіпедыя",
+        "url": "https://en.wikipedia.org/wiki/Basilica_di_San_Nicola_(Bari)"
+      }
+    ],
+    "tags": [
+      "Бары",
+      "Італія",
+      "Бона Сфорца",
+      "ВКЛ",
+      "Пагоня",
+      "Санці Гучы",
+      "grave"
+    ],
+    "personId": "bona-sforza",
+    "personIds": [
+      "bona-sforza"
+    ],
+    "unverifiedCoordinates": false
   }
 ]
