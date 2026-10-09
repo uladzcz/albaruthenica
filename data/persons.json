@@ -2721,7 +2721,11 @@
       "en": "King of Poland and Grand Duke of Lithuania, commander who routed the Ottoman army at the Battle of Vienna (1683). Buried at Wawel Cathedral."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Jan_III_Sobieski_in_karacena.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%BD_III_%D0%A1%D0%B0%D0%B1%D0%B5%D1%81%D0%BA%D1%96"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%BD_III_%D0%A1%D0%B0%D0%B1%D0%B5%D1%81%D0%BA%D1%96",
+    "placeIds": [
+      "vienna-kahlenberg-st-joseph-sobieski",
+      "vienna-kahlenberg-sobieski-pedestal-monument"
+    ]
   },
   {
     "id": "stanislaw-august-poniatowski",
