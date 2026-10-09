@@ -116,7 +116,8 @@
     "placeIds": [
       "new-york-moma-chagall-soutine",
       "nice-chagall-museum",
-      "paris-centre-pompidou-chagall-zadkine"
+      "paris-centre-pompidou-chagall-zadkine",
+      "zurich-fraumunster-chagall"
     ]
   },
   {
@@ -180,7 +181,8 @@
       "solothurn-kosciuszko-museum",
       "vilnia-kastsyol-svyatoha-yana",
       "vilnius-picture-gallery-rusiecki-ruszczyc",
-      "warsaw-kosciuszko-monument"
+      "warsaw-kosciuszko-monument",
+      "zuchwil-kosciuszko-grave"
     ]
   },
   {
@@ -249,6 +251,7 @@
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Franci%C5%A1ak_Bahu%C5%A1evi%C4%8D._%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%96%D1%88%D0%B0%D0%BA_%D0%91%D0%B0%D0%B3%D1%83%D1%88%D1%8D%D0%B2%D1%96%D1%87_%281880-89%29_%284%29.jpg/330px-Franci%C5%A1ak_Bahu%C5%A1evi%C4%8D._%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%96%D1%88%D0%B0%D0%BA_%D0%91%D0%B0%D0%B3%D1%83%D1%88%D1%8D%D0%B2%D1%96%D1%87_%281880-89%29_%284%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Францішак_Багушэвіч",
     "placeIds": [
+      "krakow-anczyc-printing-bahusevic",
       "vilnia-belaruski-narodny-dom",
       "vilnia-dom-halkowskaha",
       "vilnia-dom-nahrodskaha",
@@ -279,6 +282,7 @@
     "placeIds": [
       "riga-kupala-belarusian-school",
       "riga-pastanowka-pawlinki",
+      "tskaltubo-kupala-kutateli",
       "vilnia-belaruskae-vydavetskae-tavarystva",
       "vilnia-bibliyateka-vedy-1908-11",
       "vilnia-kavyarnya-krasnyy-shtral",
@@ -787,9 +791,12 @@
     "wiki": "https://be.wikipedia.org/wiki/Радзівілы",
     "placeIds": [
       "berlin-palais-radziwill",
+      "krakow-peter-paul-church-bernardoni",
       "nieborow-palac-radziwillow",
       "olyka-holy-trinity-collegiate",
       "olyka-radziwill-castle",
+      "rome-il-gesu-radziwill",
+      "rome-radziwill-palace-boncompagni",
       "szydlowiec-radziwill-castle",
       "vilnius-cathedral-barbara-radziwill-crypt",
       "warsaw-duchess-anna-radziwill-st-anne",
@@ -1262,7 +1269,300 @@
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Adam_Maldzis.jpg/330px-Adam_Maldzis.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Адам_Іосіфавіч_Мальдзіс",
     "placeIds": [
-      "germany-schloss-hoechstaedt"
+      "germany-schloss-hoechstaedt",
+      "krakow-st-barbara-yuravichy-icon"
+    ]
+  },
+  {
+    "id": "magdalena-radziwill",
+    "name": {
+      "by": "Марыя Магдалена Радзівіл",
+      "ru": "Мария Магдалена Радзивилл",
+      "en": "Maria Magdalena Radziwiłł"
+    },
+    "dates": "1861 — 1945",
+    "role": {
+      "by": "Мецэнатка беларускага адраджэння, асветніца, графіня і княгіня",
+      "ru": "Меценатка беларусского возрождения, просветительница, графиня и княгиня",
+      "en": "Patroness of Belarusian national revival, philanthropist and noblewoman"
+    },
+    "bio": {
+      "by": "Выбітная дзяячка беларускага нацыянальна-культурнага адраджэння, дачка графа Яна Завішы. Фінансавала выданне першай кнігі Максіма Багдановіча «Вянок», твораў Якуба Коласа, Максіма Гарэцкага, газету «Наша Ніва», беларускія школы, шпіталі і таварыствы. У 1918 г. падтрымала Беларускую Народную Рэспубліку, адкрыла ў сваім варшаўскім палацы на вуліцы Фоксаль палітычны салон для дзеячаў БНР. Апошнія гады правяла ў Швейцарыі (Фрыбур).",
+      "ru": "Выдающаяся деятельница беларусского национально-культурного возрождения, дочь графа Яна Завиши. Финансировала издание первого сборника Максима Богдановича «Вянок», произведений Якуба Коласа, Максима Горецкого, газету «Наша Ніва», беларусские школы и больницы. В 1918 г. поддержала Белорусскую Народную Республику, открыла в своём варшавском дворце на улице Фоксаль политический салон деятелей БНР. Последние годы провела в Швейцарии (Фрибур).",
+      "en": "Prominent figure of the Belarusian national-cultural revival, daughter of Count Jan Zawisza. She funded the publication of Maksim Bahdanovich's landmark poetry book 'Vianok', works by Yakub Kolas, Maksim Haretski, the 'Nasha Niva' newspaper, and schools. In 1918 she actively backed the Belarusian Democratic Republic, hosting a political salon in her Warsaw palace on Foksal street. Spent her final years in Fribourg, Switzerland."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D1%8B%D1%8F_%D0%9C%D0%B0%D0%B3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Maryja_Magdalena_Radzivi%C5%82_%28Zavi%C5%A1a%29._%D0%9C%D0%B0%D1%80%D1%8B%D1%8F_%D0%9C%D0%B0%D0%B3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%28%D0%97%D0%B0%D0%B2%D1%96%D1%88%D0%B0%29.jpg/330px-Maryja_Magdalena_Radzivi%C5%82_%28Zavi%C5%A1a%29._%D0%9C%D0%B0%D1%80%D1%8B%D1%8F_%D0%9C%D0%B0%D0%B3%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%B0_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%28%D0%97%D0%B0%D0%B2%D1%96%D1%88%D0%B0%29.jpg",
+    "placeIds": [
+      "bourguillon-magdalena-radziwill",
+      "warsaw-foksal-palace-bourbon",
+      "warsaw-przebendowski-palace",
+      "warsaw-sigismund-column"
+    ]
+  },
+  {
+    "id": "jan-zawisza",
+    "name": {
+      "by": "Ян Тадэвуш Завіша",
+      "ru": "Ян Тадеушевич Завиша",
+      "en": "Jan Tadeusz Zawisza"
+    },
+    "dates": "1822 — 1887",
+    "role": {
+      "by": "Беларускі археолаг, этнограф, фалькларыст і мецэнат",
+      "ru": "Беларусский археолог, этнограф, фольклорист и меценат",
+      "en": "Belarusian archaeologist, folklorist and philanthropist"
+    },
+    "bio": {
+      "by": "Беларускі арыстакрат, ураджэнец Кухцічаў Ігуменскага павета (Міншчына). Піянер даследавання першабытнай археалогіі каменнага веку на тэрыторыі Беларусі, даследчык беларускага фальклору і звычаяў. У Варшаве заснаваў і выдаваў часопіс «Wiadomości archeologiczne». Прафінансаваў грандыёзную рэстаўрацыю Калоны караля Жыгімонта III у Варшаве з вырабам ствала з італьянскага ружовага граніту. Бацька Магдалены Радзівіл.",
+      "ru": "Беларусский аристократ, уроженец Кухтичей Минской губернии. Пионер исследования первобытной археологии каменного века на территории Беларуси, собиратель фольклора. Основал журнал «Wiadomości archeologiczne». Профинансировал масштабную реставрацию Колонны Сигизмунда III в Варшаве из итальянского гранита. Отец Магдалены Радзивилл.",
+      "en": "Belarusian aristocrat, born in Kukhtzichy (Minsk region). Pioneer in Stone Age archaeological research on the territory of Belarus, folklorist and patron of science. Funded the major restoration of the Sigismund Column in Warsaw using Italian pink granite. Father of Magdalena Radziwill."
+    },
+    "wiki": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B2%D0%B8%D1%88%D0%B0%2C_%D0%AF%D0%BD_%D0%A2%D0%B0%D0%B4%D0%B5%D1%83%D1%88%D0%B5%D0%B2%D0%B8%D1%87",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%D0%AF%D0%BD_%D0%9A%D0%B0%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%97%D0%B0%D0%B2%D1%96%D1%88%D0%B0.jpg/330px-%D0%AF%D0%BD_%D0%9A%D0%B0%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%97%D0%B0%D0%B2%D1%96%D1%88%D0%B0.jpg",
+    "placeIds": [
+      "warsaw-przebendowski-palace",
+      "warsaw-sigismund-column"
+    ]
+  },
+  {
+    "id": "yazep-khodzko",
+    "name": {
+      "by": "Язэп Ходзька",
+      "ru": "Иосиф (Юзеф) Ходзько",
+      "en": "Józef Chodźko"
+    },
+    "dates": "1800 — 1881",
+    "role": {
+      "by": "Геадэзіст, географ, тапограф, удзельнік паўстання 1830—1831 гг.",
+      "ru": "Геодезист, географ, топограф, участник восстания 1830—1831 гг.",
+      "en": "Geodesist, geographer, topographer, 1830 insurgent"
+    },
+    "bio": {
+      "by": "Выбітны беларускі геадэзіст і географ, ураджэнец мястэчка Крывічы (Мядзельшчына). Выпускнік Віленскага ўніверсітэта. Падчас паўстання 1830–1831 гг. планаваўся камендантам Вільні, пасля чаго высланы царызмам на Каўказ. Ажыццявіў манументальную Закаўказскую трыянгуляцыю, упершыню вымераў вяршыні Арарата і Эльбруса, уганараваны Залатым Канстанцінаўскім медалём. Пахаваны ў Тбілісі на Кукійскіх могілках.",
+      "ru": "Выдающийся беларусский геодезист и географ, уроженец Мядельщины. Выпускник Виленского университета. Участник восстания 1830–1831 гг., сослан царскими властями на Кавказ. Осуществил фундаментальную Закавказскую триангуляцию, измерил высоты Арарата и Эльбруса. Похоронен в Тбилиси на Кукийском кладбище.",
+      "en": "Prominent Belarusian geodesist and geographer, born near Myadzel. Graduate of Vilnius University. Participant in the 1830–1831 uprising, exiled by the tsarist regime to the Caucasus where he executed the comprehensive Transcaucasian triangulation. Buried in Tbilisi at the Kukiya cemetery."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8D%D0%BF_%D0%A5%D0%BE%D0%B4%D0%B7%D1%8C%D0%BA%D0%B0",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Chodzko%2C_General_Jozef%2C_par_W.Barkanov%2C_BNF_Gallica.jpg/330px-Chodzko%2C_General_Jozef%2C_par_W.Barkanov%2C_BNF_Gallica.jpg",
+    "placeIds": [
+      "tbilisi-kukiya-grave-chodzko"
+    ]
+  },
+  {
+    "id": "yanka-luchyna",
+    "name": {
+      "by": "Янка Лучына (Іван Неслухоўскі)",
+      "ru": "Янка Лучина (Иван Неслуховский)",
+      "en": "Yanka Luchyna (Ivan Niesluchowski)"
+    },
+    "dates": "1851 — 1897",
+    "role": {
+      "by": "Беларускі паэт, драматург і перакладчык",
+      "ru": "Беларусский поэт, драматург и переводчик",
+      "en": "Belarusian poet, playwright and translator"
+    },
+    "bio": {
+      "by": "Беларускі паэт шляхецкага роду Лучыўка-Неслухоўскіх, ураджэнец Мінска. Аўтар класічных паэтычных шэдэўраў «Роднай старонцы», «Вясновай песенькі», зборніка «Вязанка», вершаў пра палескі край. Пасля навучання ў Пецярбургу працаваў начальнікам чыгуначных складоў у Тыфлісе (Тбілісі) у 1877–1880 гг., дзе ў яго зарадзілася шмат вобразаў.",
+      "ru": "Беларусский поэт шляхетского рода Лучивка-Неслуховских, уроженец Минска. Автор классических стихотворений «Роднай старонцы», «Вязанка», шедевров о Полесье. После учёбы в Петербурге работал начальником железнодорожных складов в Тифлисе (Тбилиси) в 1877–1880 гг.",
+      "en": "Belarusian poet of the noble Luchyuka-Neslukhouski family, born in Minsk. Author of classic Belarusian lyrical poems 'Rodnay starontsy' and 'Viazanka'. Worked in Tiflis (Tbilisi) heading railway depots in 1877–1880."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9B%D1%83%D1%87%D1%8B%D0%BD%D0%B0",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Janka_%C5%81u%C4%8Dyna%2C_Belarussian_poet.jpg",
+    "placeIds": [
+      "tbilisi-railway-station-luchyna"
+    ]
+  },
+  {
+    "id": "pyotra-krecheuski",
+    "name": {
+      "by": "Пётр (Пётра) Крэчэўскі",
+      "ru": "Пётр Антонович Кречевский",
+      "en": "Pyotra Krechewski"
+    },
+    "dates": "1879 — 1928",
+    "role": {
+      "by": "Трэці Старшыня Рады БНР, гісторык, паэт, драматург",
+      "ru": "Третий Председатель Рады БНР, историк, поэт, драматург",
+      "en": "Third President of the Rada of BNR, historian, poet"
+    },
+    "bio": {
+      "by": "Выбітны дзяржаўны дзеяч Беларускай Народнай Рэспублікі, Старшыня Рады БНР у 1919–1928 гг., аўтар Трэцяй Устаўной граматы аб незалежнасці Беларусі. Перанёс кіраўніцтва БНР у Прагу, дабіўся чэшскіх дзяржаўных стыпендый для соцень беларускіх студэнтаў, заснаваў Беларускі замежны архіў. Пахаваны на Альшанскіх могілках у Празе.",
+      "ru": "Выдающийся государственный деятель Белорусской Народной Республики, Председатель Рады БНР в 1919–1928 гг. Перенёс центр БНР в Прагу, добился стипендий для беларусских студентов, основал Беларусский заграничный архив. Похоронен на Ольшанском кладбище в Праге.",
+      "en": "Prominent statesman of the Belarusian Democratic Republic, President of the Rada of the BNR in 1919–1928. Relocated the BNR council to Prague, secured Czechoslovak government scholarships for Belarusian students, and founded the Belarusian Foreign Archive. Buried at Olsany Cemetery in Prague."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9F%D1%91%D1%82%D1%80_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%9A%D1%80%D0%B0%D1%87%D1%8D%D1%9E%D1%81%D0%BA%D1%96",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Piotr_Kre%C4%8De%C5%ADski._%D0%9F%D1%91%D1%82%D1%80_%D0%9A%D1%80%D1%8D%D1%87%D1%8D%D1%9E%D1%81%D0%BA%D1%96.jpg/330px-Piotr_Kre%C4%8De%C5%ADski._%D0%9F%D1%91%D1%82%D1%80_%D0%9A%D1%80%D1%8D%D1%87%D1%8D%D1%9E%D1%81%D0%BA%D1%96.jpg",
+    "placeIds": [
+      "prague-krecheuski-house"
+    ]
+  },
+  {
+    "id": "larysa-heniyush",
+    "name": {
+      "by": "Ларыса Геніюш",
+      "ru": "Лариса Антоновна Гениюш",
+      "en": "Larysa Hienijuš"
+    },
+    "dates": "1910 — 1983",
+    "role": {
+      "by": "Класік беларускай літаратуры, паэтка, Генеральны сакратар Рады БНР",
+      "ru": "Классик беларусской литературы, поэтесса, Генеральный секретарь Рады БНР",
+      "en": "Classic Belarusian poet, General Secretary of the Rada of BNR"
+    },
+    "bio": {
+      "by": "Вялікая беларуская паэтка, сімвал нязломнасці духу, ураджэнка Ваўкавышчыны. Жыла ў Празе з 1937 г., сакратар Рады БНР, захавальніца дзяржаўнага архіва БНР і пячаткі з Пагоняй. Аўтар зборніка «Ад родных ніў» і аўтабіяграфічнай аповесці «Споведзь». Пасля выкрадання савецкімі органамі ў 1948 г. прайшла праз ГУЛАГ, адмовіўшыся прыняць савецкае грамадзянства.",
+      "ru": "Великая беларусская поэтесса, символ несокрушимости национального духа, уроженка Волковыщины. Жила в Праге с 1937 г., Генеральный секретарь Рады БНР, хранительница архива и печати БНР с Погоней. Автор книги «Споведзь». Прошла сталинские лагеря, наотрез отказавшись принять советское гражданство.",
+      "en": "Legendary Belarusian poet and symbol of unwavering national spirit. Lived in Prague from 1937, serving as General Secretary of the Rada of BNR and guardian of its state archives and seal. Author of the classic memoir 'Spovedz'. Endured years in the Soviet Gulag, firmly refusing Soviet citizenship."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/%C5%81arysa_Hieniju%C5%A1._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88_%281930-39%29.jpg/330px-%C5%81arysa_Hieniju%C5%A1._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88_%281930-39%29.jpg",
+    "placeIds": [
+      "prague-heniyush-hermanova"
+    ]
+  },
+  {
+    "id": "vasil-bykau",
+    "name": {
+      "by": "Васіль Быкаў",
+      "ru": "Василь Владимирович Быков",
+      "en": "Vasil Bykaŭ"
+    },
+    "dates": "1924 — 2003",
+    "role": {
+      "by": "Народны пісьменнік Беларусі, сусветна вядомы празаік і сумленне нацыі",
+      "ru": "Народный писатель Беларуси, всемирно известный прозаик и совесть нации",
+      "en": "People's Writer of Belarus, world-renowned author and moral conscience of Belarus"
+    },
+    "bio": {
+      "by": "Сусветна вядомы беларускі празаік, ураджэнец вёскі Бычкі на Вушаччыне. Аўтар шэдэўраў псіхалагічнай ваеннай прозы «Сотнікаў», «Знак бяды», «Жураўліны крык», «Альпійская балада», «Доўгі шлях дадому». У 1990–2000-я гады — маральны аўтарытэт і лідар беларускага дэмакратычнага руху. Апошні замежны перыяд жыцця (2002–2003) правёў у Празе на запрашэнне прэзідэнта Вацлава Гавела.",
+      "ru": "Всемирно известный беларусский прозаик, уроженец Ушаччины. Автор шедевров военной прозы «Сотников», «Знак беды», «Обелиск», «Долгая дорога домой». Моральный авторитет беларусского движения за свободу. Последний период эмиграции (2002–2003) провёл в Праге по личному приглашению Вацлава Гавела.",
+      "en": "World-renowned Belarusian novelist and moral compass of the nation, born in Bychki (Ushachy district). Master of psychological wartime prose ('Sotnikov', 'Sign of Misfortune', 'Alpine Ballad', 'Long Road Home'). Spent his final exile period in Prague (2002–2003) upon the personal invitation of President Václav Havel."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D1%81%D1%96%D0%BB%D1%8C_%D0%91%D1%8B%D0%BA%D0%B0%D1%9E",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Vasil_Bykov_%28cropped%29.jpg",
+    "placeIds": [
+      "prague-bykau-last-flat"
+    ]
+  },
+  {
+    "id": "hanna-tumarkina",
+    "name": {
+      "by": "Ганна Тумаркіна",
+      "ru": "Анна Павловна Тумаркина",
+      "en": "Anna Tumarkin"
+    },
+    "dates": "1875 — 1951",
+    "role": {
+      "by": "Першая ў Еўропе жанчына-прафесар філасофіі, навукоўца і выкладчыца",
+      "ru": "Первая в Европе женщина-профессор философии, учёная",
+      "en": "First female professor of philosophy in Europe, academic"
+    },
+    "bio": {
+      "by": "Выдатная філосафка і навукоўца, ураджэнка Дуброўна (Віцебшчына). У 1898 годзе ў Бернскім універсітэце (Швейцарыя) стала першай жанчынай-выкладчыцай філасофіі, а ў 1909 г. — першай ва ўсёй Еўропе жанчынай-экстраардынарным прафесарам. Аўтарка фундаментальных прац па эстэтыцы, гісторыі філасофіі і швейцарскай культуры. У Берне ў яе гонар названая вуліца Tumarkinweg.",
+      "ru": "Выдающийся философ и учёная, уроженка Дубровно (Витебская губ.). В Бернском университете стала первой женщиной-преподавателем философии в Швейцарии (1898) и первой в Европе женщиной — профессором философии (1909). В Берне в её честь названа улица Tumarkinweg.",
+      "en": "Pioneering philosopher, born in Dubrovno (Vitebsk region, Belarus). At the University of Bern in Switzerland, she became the first female philosophy lecturer (1898) and in 1909 the first female professor of philosophy in all of Europe. A street adjacent to the university in Bern is named Tumarkinweg in her honour."
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Anna_Tumarkin",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Anna_Tumarkin.jpg",
+    "placeIds": [
+      "bern-university-tumarkinweg"
+    ]
+  },
+  {
+    "id": "emeryk-hutten-czapski",
+    "name": {
+      "by": "Эмерык Гутэн-Чапскі",
+      "ru": "Эмерик фон Гуттен-Чапский",
+      "en": "Emeryk Hutten-Czapski"
+    },
+    "dates": "1828 — 1896",
+    "role": {
+      "by": "Дзяржаўны дзеяч, калекцыянер, нумізмат і бібліяфіл са Станькава",
+      "ru": "Государственный деятель, коллекционер, нумизмат и библиофил из Станьково",
+      "en": "Statesman, numismatist, collector from Stankava"
+    },
+    "bio": {
+      "by": "Беларускі магнат, граф са Станькава (пад Койданавам/Дзяржынскам). Сабраў у сваім станькаўскім маёнтку грандыёзную калекцыю старажытнасцей беларускай зямлі і ВКЛ: 30 тысяч манет і медалёў, 20 тысяч тамоў рэдкіх кніг, 16 слуцкіх паясоў, зброю і гравюры. У 1894 г. перавёз калекцыю ў Кракаў і стварыў знакаміты Музей Гутэн-Чапскага.",
+      "ru": "Беларусский магнат, граф из Станьково (Минщина). Собрал в имении колоссальную коллекцию древностей Беларуси и ВКЛ: 30 тысяч монет, 20 тысяч томов редких книг, 16 слуцких поясов, оружие и гравюры. В 1894 г. перевёз собрание в Краков, создав известный Музей Гуттен-Чапского.",
+      "en": "Belarusian magnate and count from Stankava (Minsk region). Assembled an immense private museum collection of Belarusian and GDL antiquities: 30,000 coins and medals, 20,000 rare books, 16 Slutsk sashes, arms, and engravings. In 1894 relocated it to Krakow, establishing the Hutten-Czapski Museum."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AD%D0%BC%D0%B5%D1%80%D1%8B%D0%BA_%D0%9A%D0%B0%D1%80%D0%B0%D0%BB%D0%B5%D0%B2%D1%96%D1%87_%D0%A7%D0%B0%D0%BF%D1%81%D0%BA%D1%96",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Emeryk_Hutten_Czapski.jpg/330px-Emeryk_Hutten_Czapski.jpg",
+    "placeIds": [
+      "krakow-hutten-czapski-museum"
+    ]
+  },
+  {
+    "id": "jazafat-kuncevic",
+    "name": {
+      "by": "Святы Язафат Кунцэвіч",
+      "ru": "Святой Иосафат Кунцевич",
+      "en": "Saint Josaphat Kuntsevych"
+    },
+    "dates": "1580 — 1623",
+    "role": {
+      "by": "Полацкі архіепіскап, святы і пакутнік Уніяцкай царквы",
+      "ru": "Полоцкий архиепископ, святой и мученик Униатской церкви",
+      "en": "Archbishop of Polotsk, saint and martyr of the Uniate Church"
+    },
+    "bio": {
+      "by": "Рэлігійны і грамадскі дзеяч Рэчы Паспалітай, полацкі архіепіскап, ігумен Жыровіцкага манастыра. Бараніў Берасцейскую унію і самабытнасць усходняга абраду ў адзінстве з Апостальскім Пасадам. Трагічна загінуў у Віцебску ў 1623 г. Кананізаваны папам Піем IX у 1867 г. Яго святыя мошчы захоўваюцца ў галоўнай святыні каталіцтва — саборы Святога Пятра ў Ватыкане.",
+      "ru": "Религиозный деятель Речи Посполитой, полоцкий архиепископ, игумен Жировичского монастыря. Поборник Брестской унии. Погиб в Витебске в 1623 г., канонизирован в 1867 г. Его мощи покоятся в соборе Святого Петра в Ватикане.",
+      "en": "Archbishop of Polotsk, prior of the Zyrovichy monastery, martyr of the Eastern Catholic (Uniate) Church in the Grand Duchy of Lithuania. Canonized in 1867. His holy relics rest in St. Peter's Basilica in the Vatican."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%86%D0%B0%D1%81%D0%B0%D1%84%D0%B0%D1%82_%D0%9A%D1%83%D0%BD%D1%86%D1%8D%D0%B2%D1%96%D1%87",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/JKuncewicz.jpg/330px-JKuncewicz.jpg",
+    "placeIds": [
+      "rome-st-peter-kuncevic"
+    ]
+  },
+  {
+    "id": "celina-borzencka",
+    "name": {
+      "by": "Блаславёная Цэліна Бажэнцкая",
+      "ru": "Блаженная Целина Боженцкая",
+      "en": "Blessed Celina Borzęcka"
+    },
+    "dates": "1833 — 1913",
+    "role": {
+      "by": "Заснавальніца Кангрэгацыі сясцёр-змартыхпаўстанак, блаславёная",
+      "ru": "Основательница Конгрегации сестёр-воскресенок, блаженная",
+      "en": "Foundress of the Sisters of the Resurrection, blessed"
+    },
+    "bio": {
+      "by": "Рэлігійная і грамадская дзяячка з роду Хлюдзінскіх, ураджэнка Антовіля каля Оршы. У маёнтку Абрэмбшчына пад Гроднам дапамагала сялянам, падчас паўстання 1863 г. хавала паўстанцаў Каліноўскага, сядзела ў гродзенскай турме з немаўлём. Пасля смерці мужа выехала ў Рым, дзе разам з дачкой Ядвігай заснавала Кангрэгацыю сясцёр Змёртвыхпаўстання (Casa Madre). Абвешчаная блаславёнай у 2007 г.",
+      "ru": "Религиозная деятельница из рода Хлюдзинских, уроженка Оршанщины. Под Гродно помогала крестьянам, скрывала повстанцев Калиновского в 1863 г., сидела в тюрьме. В Риме вместе с дочерью Ядвигой основала Конгрегацию сестёр Воскресения Господня (Casa Madre). Беатифицирована в 2007 г.",
+      "en": "Religious figure, born near Orsha. In her estate near Hrodna she aided peasants and sheltered Kastus Kalinouski's insurgents in 1863, enduring tsarist imprisonment. In Rome she co-founded the Congregation of the Sisters of the Resurrection (Casa Madre). Beatified in 2007."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A6%D1%8D%D0%BB%D1%96%D0%BD%D0%B0_%D0%91%D0%B0%D0%B6%D1%8D%D0%BD%D1%86%D0%BA%D0%B0%D1%8F",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Celina_Chludzi%C5%84ska-Borz%C4%99cka.jpg",
+    "placeIds": [
+      "rome-resurrectionists-casa-madre"
+    ]
+  },
+  {
+    "id": "aleksandr-valkovich",
+    "name": {
+      "by": "Аляксандр Вальковіч",
+      "ru": "Александр Иванович Валькович",
+      "en": "Alyaksandr Valkovich"
+    },
+    "dates": "1892 — 1937",
+    "role": {
+      "by": "Міністр фінансаў БНР, дыпламатычны прадстаўнік БНР у Грузіі",
+      "ru": "Министр финансов БНР, дипломатический представитель БНР в Грузии",
+      "en": "Finance Minister of BNR, diplomatic representative of BNR in Georgia"
+    },
+    "bio": {
+      "by": "Беларускі грамадска-палітычны дзеяч, ураджэнец Мінска. Удзельнік Першага Усебеларускага з'езда 1917 г., міністр фінансаў у Народным Сакратарыяце Беларускай Народнай Рэспублікі, дыпламатычны прадстаўнік урада БНР пры ўрадзе Грузінскай Дэмакратычнай Рэспублікі ў Тыфлісе (1918–1920 гг., Моладзевы палац). Рэпрэсаваны і расстраляны ў 1937 г.",
+      "ru": "Беларусский общественно-политический деятель, уроженец Минска. Министр финансов БНР, дипломатический представитель БНР при правительстве Грузии в Тифлисе (1918–1920 гг.). Репрессирован и расстрелян в 1937 г.",
+      "en": "Belarusian statesman, born in Minsk. Finance Minister of the Belarusian Democratic Republic (BNR) and diplomatic envoy to the Democratic Republic of Georgia in Tiflis (1918–1920). Executed in Soviet repressions in 1937."
+    },
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%92%D0%B0%D0%BB%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D1%87",
+    "image": "",
+    "placeIds": [
+      "tbilisi-youth-palace-valkovich"
     ]
   }
 ]

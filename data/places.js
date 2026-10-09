@@ -1,4 +1,5 @@
-window.PLACES_DATA = [
+// Albaruthenica Places Dataset
+window.INITIAL_PLACES = [
   {
     "id": "vilnia-ferdynand-ruszczyc-maironio",
     "title": {
@@ -44,7 +45,10 @@ window.PLACES_DATA = [
       "Акадэмія",
       "Мастацтва"
     ],
-    "personId": "ferdynand-ruszczyc"
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "ferdynand-ruszczyc"
+    ]
   },
   {
     "id": "paris-orangerie-soutine",
@@ -119,7 +123,10 @@ window.PLACES_DATA = [
         "personId": "chaim-soutine"
       }
     ],
-    "personId": "chaim-soutine"
+    "personId": "chaim-soutine",
+    "personIds": [
+      "chaim-soutine"
+    ]
   },
   {
     "id": "nice-chagall-museum",
@@ -186,7 +193,10 @@ window.PLACES_DATA = [
         "personId": "marc-chagall"
       }
     ],
-    "personId": "marc-chagall"
+    "personId": "marc-chagall",
+    "personIds": [
+      "marc-chagall"
+    ]
   },
   {
     "id": "warsaw-mnw-wankowicz-ruszczyc",
@@ -264,9 +274,9 @@ window.PLACES_DATA = [
     ],
     "personId": "ferdynand-ruszczyc",
     "personIds": [
+      "adam-mickiewicz",
       "ferdynand-ruszczyc",
-      "walenty-wankowicz",
-      "adam-mickiewicz"
+      "walenty-wankowicz"
     ]
   },
   {
@@ -411,7 +421,10 @@ window.PLACES_DATA = [
         "personId": "leon-bakst"
       }
     ],
-    "personId": "leon-bakst"
+    "personId": "leon-bakst",
+    "personIds": [
+      "leon-bakst"
+    ]
   },
   {
     "id": "new-york-moma-chagall-soutine",
@@ -480,8 +493,8 @@ window.PLACES_DATA = [
     ],
     "personId": "chaim-soutine",
     "personIds": [
-      "marc-chagall",
-      "chaim-soutine"
+      "chaim-soutine",
+      "marc-chagall"
     ]
   },
   {
@@ -618,8 +631,9 @@ window.PLACES_DATA = [
     ],
     "personId": "ferdynand-ruszczyc",
     "personIds": [
-      "kanuty-rusiecki",
       "ferdynand-ruszczyc",
+      "kanuty-rusiecki",
+      "tadeusz-kosciuszko",
       "walenty-wankowicz"
     ]
   },
@@ -696,8 +710,8 @@ window.PLACES_DATA = [
     ],
     "personId": "kastus-kalinouski",
     "personIds": [
-      "kastus-kalinouski",
-      "ivan-lutskevich"
+      "ivan-lutskevich",
+      "kastus-kalinouski"
     ]
   },
   {
@@ -760,7 +774,8 @@ window.PLACES_DATA = [
         "person": "Міхась Забейда-Суміцкі (1900–1981)",
         "description": "Выбітны беларускі оперны спявак (тэнар), саліст тэатра «Ла Скала» і Пражскай оперы."
       }
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "south-river-st-euphrosyne",
@@ -836,8 +851,8 @@ window.PLACES_DATA = [
       }
     ],
     "personIds": [
-      "radaslau-astrouski",
       "jurka-vicbic",
+      "radaslau-astrouski",
       "yauhim-kipel"
     ]
   },
@@ -898,7 +913,10 @@ window.PLACES_DATA = [
         "description": "Выбітны паэт, мастак і мысліцель эпохі рамантызму."
       }
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "skaryna-prague-monument",
@@ -940,7 +958,10 @@ window.PLACES_DATA = [
       "XVI стагоддзе",
       "Прага"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnius-ostra-brama",
@@ -986,7 +1007,10 @@ window.PLACES_DATA = [
       "Святыні",
       "Вільня"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnius-bazyliany-gymnasium",
@@ -1028,7 +1052,10 @@ window.PLACES_DATA = [
       "Луцкевіч",
       "Вільня"
     ],
-    "personId": "ivan-lutskevich"
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "ivan-lutskevich"
+    ]
   },
   {
     "id": "london-st-cyril-church",
@@ -1073,7 +1100,8 @@ window.PLACES_DATA = [
       "Драўляная архітэктура",
       "Лондан",
       "Дыяспара"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "london-skaryna-library",
@@ -1132,7 +1160,10 @@ window.PLACES_DATA = [
         "description": "Унікальныя лісты, рукапісы і перыёдыка беларускага нацыянальнага руху."
       }
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "warsaw-kosciuszko-monument",
@@ -1173,7 +1204,10 @@ window.PLACES_DATA = [
       "Паўстанне 1794",
       "Варшава"
     ],
-    "personId": "tadeusz-kosciuszko"
+    "personId": "tadeusz-kosciuszko",
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
   },
   {
     "id": "warsaw-free-belarus-museum",
@@ -1214,7 +1248,8 @@ window.PLACES_DATA = [
       "Культура",
       "Варшава",
       "Фоксал"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "toronto-st-cyril-center",
@@ -1255,7 +1290,8 @@ window.PLACES_DATA = [
       "Таронта",
       "Кірыла Тураўскі",
       "Эміграцыя"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "santiago-domeiko-university",
@@ -1297,7 +1333,10 @@ window.PLACES_DATA = [
       "Чылі",
       "Лацінская Амерыка"
     ],
-    "personId": "ignacy-domeyko"
+    "personId": "ignacy-domeyko",
+    "personIds": [
+      "ignacy-domeyko"
+    ]
   },
   {
     "id": "solothurn-kosciuszko-museum",
@@ -1357,7 +1396,10 @@ window.PLACES_DATA = [
         "personId": "tadeusz-kosciuszko"
       }
     ],
-    "personId": "tadeusz-kosciuszko"
+    "personId": "tadeusz-kosciuszko",
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
   },
   {
     "id": "padua-skaryna-aula-magna",
@@ -1404,7 +1446,10 @@ window.PLACES_DATA = [
       "Рэнесанс",
       "Італія"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "hajnowka-museum-belarusian-culture",
@@ -1449,7 +1494,8 @@ window.PLACES_DATA = [
       "Этнаграфія",
       "Польшча",
       "Традыцыі"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "suprasl-monastery",
@@ -1519,7 +1565,8 @@ window.PLACES_DATA = [
         "year": "1695–1803",
         "description": "Выдала больш за 80 старадрукаў кірыліцай для ўсяго рэгіёна ВКЛ."
       }
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "daugavpils-belarusian-gymnasium",
@@ -1565,7 +1612,8 @@ window.PLACES_DATA = [
       "Сахараў",
       "Гімназія",
       "Адукацыя"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "smolensk-ssrb-1919",
@@ -1611,7 +1659,8 @@ window.PLACES_DATA = [
       "ВКЛ",
       "Гісторыя",
       "1919"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-bazylyanskiya-mury-memaryyalnaya-shylda-damey",
@@ -1655,8 +1704,8 @@ window.PLACES_DATA = [
     ],
     "personId": "adam-mickiewicz",
     "personIds": [
-      "ignacy-domeyko",
-      "adam-mickiewicz"
+      "adam-mickiewicz",
+      "ignacy-domeyko"
     ]
   },
   {
@@ -1744,7 +1793,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-tsarkva-svyatoha-dukhu-z-klyashtaram",
@@ -1785,7 +1835,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "grave"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-pomnik-knyazyu-hedyminu",
@@ -1826,7 +1877,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "monument"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-zamkavaya-hara-z-vezhay-hedymina",
@@ -1868,7 +1920,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "grave"
     ],
-    "personId": "kastus-kalinouski"
+    "personId": "kastus-kalinouski",
+    "personIds": [
+      "kastus-kalinouski"
+    ]
   },
   {
     "id": "vilnia-litowski-natsyyanalny-muzey",
@@ -1909,7 +1964,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-pomnik-karalyu-mindowhu",
@@ -1950,7 +2006,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "monument"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kvatera-maysternya-pyotry-serhievicha",
@@ -1991,7 +2048,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-belaruski-instytut-haspadarki",
@@ -2032,7 +2090,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-akademiya-romeraw",
@@ -2073,7 +2132,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-tarashkevicha",
@@ -2115,7 +2175,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "branislau-tarashkevich"
+    "personId": "branislau-tarashkevich",
+    "personIds": [
+      "branislau-tarashkevich"
+    ]
   },
   {
     "id": "vilnia-pasolski-klub-zmahanne",
@@ -2156,7 +2219,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kastsyol-svyatoha-kazimira",
@@ -2197,7 +2261,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-bibliyateka-vedy-1908-11",
@@ -2239,7 +2304,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-kavyarnya-krasnyy-shtral",
@@ -2281,7 +2349,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-arkhikafedralny-sabor",
@@ -2322,7 +2393,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-belaruskae-vydavetskae-tavarystva",
@@ -2364,7 +2436,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-shpital-mishmeras-khoylem",
@@ -2405,7 +2480,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-antokalskiya-mohilki",
@@ -2446,7 +2522,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "grave"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-kulbaka",
@@ -2487,7 +2564,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-natsyyanalnaya-mastatskaya-halereya-litvy",
@@ -2529,7 +2607,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "ferdynand-ruszczyc"
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "ferdynand-ruszczyc"
+    ]
   },
   {
     "id": "vilnia-palats-slushki",
@@ -2570,7 +2651,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-dze-spynyawsya-mitskevich",
@@ -2612,7 +2694,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-kryzh-pamyatsi-pawstantsaw",
@@ -2654,7 +2739,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "kastus-kalinouski"
+    "personId": "kastus-kalinouski",
+    "personIds": [
+      "kastus-kalinouski"
+    ]
   },
   {
     "id": "vilnia-byly-dom-prafsayuzaw",
@@ -2695,7 +2783,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-serhievicha",
@@ -2736,7 +2825,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-brama-va-wniversitetski-dvor-imya-a-mitskevic",
@@ -2778,7 +2868,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-dom-vilenskaha-biskupa",
@@ -2819,7 +2912,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-narbuta",
@@ -2860,7 +2954,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-yundzila",
@@ -2901,7 +2996,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-batanichny-sad-zhylibera-dom-rushchytsa",
@@ -2943,7 +3039,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "ferdynand-ruszczyc"
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "ferdynand-ruszczyc"
+    ]
   },
   {
     "id": "vilnia-dom-krashewskaha",
@@ -2984,7 +3083,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-drukarnya-syrkina",
@@ -3025,7 +3125,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-ksyandza-stankevicha",
@@ -3066,7 +3167,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-shylda-na-mestsy-doma-bahushevicha",
@@ -3108,7 +3210,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "francisak-bahusevic"
+    "personId": "francisak-bahusevic",
+    "personIds": [
+      "francisak-bahusevic"
+    ]
   },
   {
     "id": "vilnia-kastsyol-svyatykh-pyatra-i-pawla",
@@ -3149,7 +3254,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-lukishskaya-turma",
@@ -3191,7 +3297,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "ivan-lutskevich"
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "ivan-lutskevich"
+    ]
   },
   {
     "id": "vilnia-pomnik-adamu-mitskevichu",
@@ -3233,7 +3342,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-drukarnya-imya-f-skaryny-1930-36",
@@ -3275,7 +3387,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnia-dom-nahrodskaha",
@@ -3317,7 +3432,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "francisak-bahusevic"
+    "personId": "francisak-bahusevic",
+    "personIds": [
+      "francisak-bahusevic"
+    ]
   },
   {
     "id": "vilnia-dom-halkowskaha",
@@ -3359,7 +3477,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "grave"
     ],
-    "personId": "francisak-bahusevic"
+    "personId": "francisak-bahusevic",
+    "personIds": [
+      "francisak-bahusevic"
+    ]
   },
   {
     "id": "vilnia-vydavetstva-kletskina",
@@ -3401,7 +3522,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-syabryna",
@@ -3442,7 +3566,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-palats-sapehaw",
@@ -3483,7 +3608,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "monument"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-belaruskaya-shkola-imya-f-skaryny",
@@ -3525,7 +3651,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnia-vilenskaya-katalitskaya-dukhownaya-seminaryya",
@@ -3566,7 +3695,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-drukarnya-frantsishka-skaryny",
@@ -3608,7 +3738,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnia-drukarnya-mamonichaw-skulptura-letapisets",
@@ -3650,7 +3783,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "monument"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnia-tsentr-belarusistyki-vilenskaha-peduniversite",
@@ -3691,7 +3827,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-urublewskaha",
@@ -3733,7 +3870,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-palats-radzivilaw-sapehaw-patsaw",
@@ -3775,7 +3915,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "kastus-kalinouski"
+    "personId": "kastus-kalinouski",
+    "personIds": [
+      "kastus-kalinouski"
+    ]
   },
   {
     "id": "vilnia-drukarnya-vilenskay-ezuitskay-akademii",
@@ -3817,7 +3960,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-kastsyol-svyatoha-yana",
@@ -3859,7 +4005,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "tadeusz-kosciuszko"
+    "personId": "tadeusz-kosciuszko",
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ]
   },
   {
     "id": "vilnia-ulyubyony-bar-karatkevicha",
@@ -3900,7 +4049,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kastsyol-svyatoha-mikhala",
@@ -3942,7 +4092,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "grave"
     ],
-    "personId": "ivan-lutskevich"
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "ivan-lutskevich"
+    ]
   },
   {
     "id": "vilnia-administratsyya-ehu",
@@ -3983,7 +4136,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-navuchalny-korpus-ehu",
@@ -4024,7 +4178,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-drukarnya-martsina-kukhty-1911-1921",
@@ -4068,8 +4223,8 @@ window.PLACES_DATA = [
     ],
     "personId": "francisak-bahusevic",
     "personIds": [
-      "maksim-bahdanovich",
-      "francisak-bahusevic"
+      "francisak-bahusevic",
+      "maksim-bahdanovich"
     ]
   },
   {
@@ -4111,7 +4266,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-vilenski-universitet-universitetskaya-bibliya",
@@ -4153,7 +4309,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-kastsyol-svyatoha-bartalameya",
@@ -4194,7 +4353,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-rushchytsa",
@@ -4236,7 +4396,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "ferdynand-ruszczyc"
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "ferdynand-ruszczyc"
+    ]
   },
   {
     "id": "vilnia-kanstytutsyynaya-stsyana",
@@ -4277,7 +4440,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-bibliyateka-vedy-1911-21",
@@ -4319,7 +4483,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "ivan-lutskevich"
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "ivan-lutskevich"
+    ]
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1914-15-memaryyalnaya-",
@@ -4361,7 +4528,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-pershaya-redaktsyya-nashay-doli",
@@ -4402,7 +4572,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-palats-radzivilaw-muzey",
@@ -4443,7 +4614,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-pomnik-manyushku",
@@ -4485,7 +4657,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "stanislaw-moniuszko"
+    "personId": "stanislaw-moniuszko",
+    "personIds": [
+      "stanislaw-moniuszko"
+    ]
   },
   {
     "id": "vilnia-shtab-kvatera-zakhodnebelaruskikh-arhanizatsy",
@@ -4526,7 +4701,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-klub-sokal",
@@ -4568,7 +4744,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-rezidentsyya-radzivilaw-belaruski-bank-i-reda",
@@ -4610,7 +4789,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "ivan-lutskevich"
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "ivan-lutskevich"
+    ]
   },
   {
     "id": "vilnia-dom-myulera-memaryyalnaya-shylda-s-manyushku",
@@ -4652,7 +4834,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "stanislaw-moniuszko"
+    "personId": "stanislaw-moniuszko",
+    "personIds": [
+      "stanislaw-moniuszko"
+    ]
   },
   {
     "id": "vilnia-palats-antoni-tyzenhawza",
@@ -4693,7 +4878,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-pomnik-b-radzivil",
@@ -4734,7 +4920,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "monument"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-bibliyateka-akademii-navuk-litvy-imya-urublew",
@@ -4776,7 +4963,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "kastus-kalinouski"
+    "personId": "kastus-kalinouski",
+    "personIds": [
+      "kastus-kalinouski"
+    ]
   },
   {
     "id": "vilnia-redaktsyya-adnowlenay-nashay-nivy-1991-96",
@@ -4817,7 +5007,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla",
@@ -4858,7 +5049,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "grave"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-muzey-akhvyaraw-henatsydu",
@@ -4899,7 +5091,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "monument"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kniharnya-belaruskaha-vydavetskaha-tavarystva",
@@ -4940,7 +5133,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-syrakomli-belaruski-bank",
@@ -4981,7 +5175,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-muzey-a-mitskevicha",
@@ -5023,7 +5218,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-syadziba-tavarystva-belaruskay-kultury-w-litv",
@@ -5065,7 +5263,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "ivan-lutskevich"
+    "personId": "ivan-lutskevich",
+    "personIds": [
+      "ivan-lutskevich"
+    ]
   },
   {
     "id": "vilnia-pyatnitskaya-tsarkva",
@@ -5106,7 +5307,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-palats-patsa",
@@ -5147,7 +5349,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-palats-hashtoldaw",
@@ -5188,7 +5391,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "plaque"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-aposhni-adras-a-mitskevicha",
@@ -5230,7 +5434,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-palats-abramovichaw",
@@ -5271,7 +5478,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-litowskaya-kniharnya",
@@ -5312,7 +5520,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-palats-zavishaw",
@@ -5353,7 +5562,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kastsyol-svyatoy-hanny",
@@ -5394,7 +5604,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-vilenskaya-mastatskaya-akademiya",
@@ -5436,7 +5647,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "plaque"
     ],
-    "personId": "ferdynand-ruszczyc"
+    "personId": "ferdynand-ruszczyc",
+    "personIds": [
+      "ferdynand-ruszczyc"
+    ]
   },
   {
     "id": "vilnia-prachystsenski-kafedralny-sabor",
@@ -5477,7 +5691,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-universitetski-panadvorak-imya-a-mitskevicha",
@@ -5519,7 +5734,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "adam-mickiewicz"
+    "personId": "adam-mickiewicz",
+    "personIds": [
+      "adam-mickiewicz"
+    ]
   },
   {
     "id": "vilnia-kastsyol-svyatoha-mikalaya",
@@ -5560,7 +5778,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-palats-bzhastowskikh",
@@ -5601,7 +5820,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-dom-zalkinda",
@@ -5642,7 +5862,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-drukarnya-imya-f-skaryny-1926-30",
@@ -5684,7 +5905,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnia-dom-shyrmy",
@@ -5725,7 +5949,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-belaruski-narodny-dom",
@@ -5767,7 +5992,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "church"
     ],
-    "personId": "francisak-bahusevic"
+    "personId": "francisak-bahusevic",
+    "personIds": [
+      "francisak-bahusevic"
+    ]
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1911-13-kvatera-lastow",
@@ -5811,8 +6039,8 @@ window.PLACES_DATA = [
     ],
     "personId": "ivan-lutskevich",
     "personIds": [
-      "vaclau-lastouski",
-      "ivan-lutskevich"
+      "ivan-lutskevich",
+      "vaclau-lastouski"
     ]
   },
   {
@@ -5855,7 +6083,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "kastus-kalinouski"
+    "personId": "kastus-kalinouski",
+    "personIds": [
+      "kastus-kalinouski"
+    ]
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1907",
@@ -5896,7 +6127,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-restaran-shuman",
@@ -5938,7 +6170,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-pershaya-redaktsyya-nashay-nivy",
@@ -5979,7 +6214,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-nizhni-zamak-palats-vyalikikh-knyazyow-litows",
@@ -6020,7 +6256,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kvatera-kupaly",
@@ -6062,7 +6299,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-kvatera-sakalovay-lekant",
@@ -6103,7 +6343,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kvatera-rak-mikhaylowskaha",
@@ -6144,7 +6385,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "church"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kvatera-stankevicha",
@@ -6185,7 +6427,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "culture"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-internat-belaruskay-himnazii",
@@ -6226,7 +6469,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-kvatera-samoyly",
@@ -6268,7 +6512,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "vilnia-kvatera-paznyaka",
@@ -6310,7 +6557,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "francysk-skaryna"
+    "personId": "francysk-skaryna",
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "vilnia-redaktsyya-chasopisa-malanka",
@@ -6351,7 +6601,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-belaruski-bank-pachatak-1930-kh",
@@ -6392,7 +6643,8 @@ window.PLACES_DATA = [
       "Вільня",
       "Гісторыя",
       "historical"
-    ]
+    ],
+    "personIds": []
   },
   {
     "id": "vilnia-haradskaya-ratusha",
@@ -6434,7 +6686,10 @@ window.PLACES_DATA = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "stanislaw-moniuszko"
+    "personId": "stanislaw-moniuszko",
+    "personIds": [
+      "stanislaw-moniuszko"
+    ]
   },
   {
     "id": "riga-arhanizatsy-zbor-bel-kamitetu",
@@ -6480,7 +6735,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-skhod-belarusaw-vayskowtsaw-paunochnaha-",
@@ -6526,7 +6782,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-1-y-skhod-belaruskoy-kalonii",
@@ -6572,7 +6829,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-kansulat-bnr-z-26-9-19-pa-10-20",
@@ -6618,7 +6876,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-vayskova-dyplyamatychnaya-misiya",
@@ -6664,7 +6923,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-kansulat-bnr-z-8-01-20-pa-1-02-21",
@@ -6710,7 +6970,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-t-va-batskawshchyna",
@@ -6756,7 +7017,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-t-va-belaruskae-moladzi",
@@ -6802,7 +7064,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-t-va-belaruskaha-teatru",
@@ -6848,7 +7111,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-belaruskaya-sinahoha",
@@ -6894,7 +7158,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-pazyka-dabrachynnae-tavarystva",
@@ -6940,7 +7205,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-bel-adzel-min-asvety",
@@ -6986,7 +7252,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-belaruskae-vydavetstva-w-latvii",
@@ -7032,7 +7299,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-1-aya-belaruskaya-pachatkovaya-shkola",
@@ -7078,7 +7346,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-pastanowka-pawlinki",
@@ -7125,7 +7394,10 @@ window.PLACES_DATA = [
       }
     ],
     "unverifiedCoordinates": true,
-    "personId": "yanka-kupala"
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "riga-2-aya-belaruskaya-pachatkovaya-shkola",
@@ -7171,7 +7443,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-belaruskaya-vyachernyaya-himnaziya",
@@ -7217,7 +7490,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-pazyka-ashchadnae-tavarystva",
@@ -7263,7 +7537,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-belaruskaya-pachatkovaya-torensberhskaya",
@@ -7309,7 +7584,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-prawlenne-t-va-run",
@@ -7355,7 +7631,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-mirny-sad",
@@ -7401,7 +7678,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-belaruskaya-shkola-w-latvii",
@@ -7447,7 +7725,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-shkola-i-zhytstsyo",
@@ -7493,7 +7772,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-holas-belarusa",
@@ -7539,7 +7819,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-haspadar",
@@ -7585,7 +7866,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-haspadar-950",
@@ -7631,7 +7913,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-belaruskae-slova",
@@ -7677,7 +7960,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-drukarnya-e-levina",
@@ -7723,7 +8007,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-kasa-belaruskaha-pazychkova-ashchadnaha-",
@@ -7769,7 +8054,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-t-va-belaruskikh-nastawnikaw",
@@ -7815,7 +8101,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-klub-uley",
@@ -7861,7 +8148,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-zalъ-latyshskoho-obщestva",
@@ -7907,7 +8195,8 @@ window.PLACES_DATA = [
         "url": "https://bel.lsm.lv/artikul/naviny/naviny/30.09.2023-belaruskiya-myasciny-ryze-yak-ucekacy-zgadvayuc-gistoryyu-svaigo-naroda.a525721/"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-skaryna-square",
@@ -7950,7 +8239,10 @@ window.PLACES_DATA = [
       }
     ],
     "personId": "francysk-skaryna",
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "francysk-skaryna"
+    ]
   },
   {
     "id": "riga-national-library-belarusian-solidarity",
@@ -7992,7 +8284,8 @@ window.PLACES_DATA = [
         "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-kupala-belarusian-school",
@@ -8039,7 +8332,10 @@ window.PLACES_DATA = [
       }
     ],
     "personId": "yanka-kupala",
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": [
+      "yanka-kupala"
+    ]
   },
   {
     "id": "riga-svitanak-association",
@@ -8085,7 +8381,8 @@ window.PLACES_DATA = [
         "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "riga-mova-nanova-pils",
@@ -8127,7 +8424,8 @@ window.PLACES_DATA = [
         "url": "https://budzma.org/news/gayd-pa-belaruskay-ryze-pakrokava-ad-gistoryi-da-nashykh-dzyen.html"
       }
     ],
-    "unverifiedCoordinates": true
+    "unverifiedCoordinates": true,
+    "personIds": []
   },
   {
     "id": "skaryna-monument-prague",
@@ -11501,5 +11799,1495 @@ window.PLACES_DATA = [
     ],
     "unverifiedCoordinates": false,
     "isUnverifiedCoordinates": false
+  },
+  {
+    "id": "warsaw-sigismund-column",
+    "title": {
+      "by": "Калона караля Жыгімонта III Вазы (рэстаўрацыя Яна Завішы)",
+      "ru": "Колонна короля Сигизмунда III Вазы (реставрация Яна Завиши)",
+      "en": "Sigismund's Column (Restoration by Jan Zawisza)"
+    },
+    "category": "monument",
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      52.2472,
+      21.0143
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Славуты сімвал Варшавы на Замкавай плошчы. Кароль Жыгімонт III Ваза зацвердзіў Трэці Статут ВКЛ 1588 года на старабеларускай мове. У 1885–1887 гг. найбуйнейшую рэстаўрацыю калоны прафінансаваў беларускі археолаг і мецэнат граф Ян Завіша разам з Людовікам Красінскім: быў створаны новы ствол з ружовага італьянскага граніту. Разбураны ў 1944 г. гістарычны ствол Завішы экспануецца побач з плошчай.",
+      "ru": "Знаменитый символ Варшавы на Замковой площади. Сигизмунд III утвердил Третий Статут ВКЛ 1588 г. на старобеларусском языке. В 1885–1887 гг. крупнейшую реставрацию монумента профинансировал беларусский археолог Ян Завиша: ствол колонны изготовили из итальянского розового гранита. Его фрагменты экспонируются рядом.",
+      "en": "Iconic landmark on Castle Square in Warsaw. King Sigismund III confirmed the Third Statute of the GDL in 1588 in the Old Belarusian language. In 1885–1887, the major restoration was funded by Belarusian archaeologist and patron Jan Zawisza, who commissioned the pink Italian granite column."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg/500px-Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg",
+    "personId": "jan-zawisza",
+    "personIds": [
+      "jan-zawisza",
+      "magdalena-radziwill"
+    ],
+    "tags": [
+      "warsaw",
+      "monument",
+      "zawisza",
+      "statut1588",
+      "sigismund"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларусская Варшава ч.1",
+        "url": "https://maldzis.world/belarusskaja-varshava-chast-i-kolonna-sigizmunda-tretego/"
+      },
+      {
+        "title": "Wikipedia: Kolumna Zygmunta",
+        "url": "https://pl.wikipedia.org/wiki/Kolumna_Zygmunta_III_Wazy_w_Warszawie"
+      }
+    ]
+  },
+  {
+    "id": "warsaw-przebendowski-palace",
+    "title": {
+      "by": "Палац Пшэбэндоўскіх / Завішаў / Радзівілаў (Музей незалежнасці)",
+      "ru": "Дворец Пшебендовских / Завишей / Радзивиллов (Музей независимости)",
+      "en": "Przebendowski-Zawisza-Radziwiłł Palace (Museum of Independence)"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      52.2452,
+      21.0028
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Барочны палац XVIII ст. на алеі «Салідарнасці», 62. У студзені 1863 г. палац набыў граф Ян Завіша з Кухцічаў. Тут жыла і расла яго дачка, будучая выдатная мецэнатка беларускага адраджэння Магдалена Радзівіл (Завіша). На фасадзе ўсталявана мемарыяльная дошка з імёнамі Завішаў і Радзівілаў. Цяпер тут месціцца Музей незалежнасці.",
+      "ru": "Барочный дворец на аллее «Солидарности», 62. В 1863 г. дворец приобрёл граф Ян Завиша из Кухтичей. Здесь росла его дочь, будущая главная меценатка беларусского возрождения Магдалена Радзивилл. На фасаде установлена мемориальная доска Завишей и Радзивиллов. Ныне Музей независимости.",
+      "en": "Baroque palace on Aleja Solidarności 62. In 1863 acquired by Count Jan Zawisza from Kukhtzichy. Here grew up his daughter, prominent Belarusian patroness Magdalena Radziwill. Today houses the Museum of Independence."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pa%C5%82ac_Przebendowskich_Radziwi%C5%82%C5%82%C3%B3w_w_Warszawie.jpg/500px-Pa%C5%82ac_Przebendowskich_Radziwi%C5%82%C5%82%C3%B3w_w_Warszawie.jpg",
+    "personId": "magdalena-radziwill",
+    "personIds": [
+      "jan-zawisza",
+      "magdalena-radziwill"
+    ],
+    "tags": [
+      "warsaw",
+      "palace",
+      "magdalena-radziwill",
+      "zawisza",
+      "museum"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларуская Варшава ч.3",
+        "url": "https://maldzis.world/belaruskaja-varshava-chastka-3-palac-zavisha/"
+      },
+      {
+        "title": "Wikipedia: Pałac Przebendowskich w Warszawie",
+        "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Przebendowskich_w_Warszawie"
+      }
+    ]
+  },
+  {
+    "id": "warsaw-foksal-palace-bourbon",
+    "title": {
+      "by": "Палац Валоўскага / Бурбона — рэзідэнцыя Магдалены Радзівіл",
+      "ru": "Дворец Воловского / Бурбона — резиденция Магдалены Радзивилл",
+      "en": "Wołowski / Bourbon Palace — Residence of Magdalena Radziwiłł"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      52.2338,
+      21.0205
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Палац на вул. Фоксаль 3/5, набыты Магдаленай Радзівіл у 1900 г. У 1918–1919 гг. палац стаў галоўным беларускім палітычным салонам у Варшаве: тут збіраліся Эдвард Вайніловіч, Раман Скірмунт, Лявон Вітан-Дубейкаўскі (консул БНР) для вырашэння лёсу беларускай дзяржаўнасці. Пазней перададзены праўнуку прынцу Антонію дэ Бурбону Сіцылійскаму.",
+      "ru": "Дворец на ул. Фоксаль 3/5, приобретённый Магдаленой Радзивилл в 1900 г. В 1918–1919 гг. служил главным беларусским политическим салоном в Варшаве: здесь собирались Эдвард Войнилович, Роман Скирмунт, Леон Витан-Дубейковский для решения судьбы беларусской государственности.",
+      "en": "Palace on Foksal Street 3/5, owned by Magdalena Radziwill from 1900. In 1918–1919 it hosted the main Belarusian political salon in Warsaw, gathering Edward Woynillowicz, Raman Skirmunt, and Leon Vitan-Dubeikauski to discuss Belarusian statehood."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Foksal_3-5_Warszawa.jpg/500px-Foksal_3-5_Warszawa.jpg",
+    "personId": "magdalena-radziwill",
+    "personIds": [
+      "magdalena-radziwill"
+    ],
+    "tags": [
+      "warsaw",
+      "palace",
+      "magdalena-radziwill",
+      "bnr",
+      "foksal"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларуская Варшава ч.4",
+        "url": "https://maldzis.world/belaruskaja-varshava-chastka-4-palac-burbona/"
+      },
+      {
+        "title": "Wikipedia: Pałac Wołowskiego w Warszawie",
+        "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Wo%C5%82owskiego_w_Warszawie"
+      }
+    ]
+  },
+  {
+    "id": "warsaw-poniatowski-monument",
+    "title": {
+      "by": "Помнік Юзафу Панятоўскаму (гамельскі след)",
+      "ru": "Памятник Юзефу Понятовскому (гомельский след)",
+      "en": "Monument to Prince Józef Poniatowski (Gomel Heritage)"
+    },
+    "category": "monument",
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      52.2431,
+      21.0163
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Конны помнік перад Прэзідэнцкім палацам на Кракаўскім прадмесці. Арыгінальная скульптура працы Бертэля Торвальдсена на працягу 82 гадоў (1840–1922) упрыгожвала парк палаца Паскевічаў у Гомелі, з'яўляючыся адзінай коннай статуяй у Беларусі, і была вернутая ў Варшаву паводле Рыжскага міру 1921 года.",
+      "ru": "Конный монумент перед Президентским дворцом в Варшаве. Оригинальная скульптура Торвальдсена на протяжении 82 лет (1840–1922) стояла на террасе парка Паскевичей в Гомеле — единственная конная статуя в Беларуси, возвращённая в Варшаву по Рижскому миру 1921 г.",
+      "en": "Equestrian monument in front of the Presidential Palace on Krakowskie Przedmieście. The original sculpture by Bertel Thorvaldsen stood for 82 years (1840–1922) in the park of the Paskevich Palace in Gomel as the only equestrian monument in Belarus before being returned under the Peace of Riga."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Pomnik_ksi%C4%99cia_J%C3%B3zefa_Poniatowskiego_w_Warszawie_2020.jpg/500px-Pomnik_ksi%C4%99cia_J%C3%B3zefa_Poniatowskiego_w_Warszawie_2020.jpg",
+    "tags": [
+      "warsaw",
+      "monument",
+      "gomel",
+      "poniatowski",
+      "thorvaldsen"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларусская Варшава ч.2",
+        "url": "https://maldzis.world/belarusskaja-varshava-chast-2-bronzovyj-vsadnik-bez-shtanov/"
+      },
+      {
+        "title": "Wikipedia: Pomnik Józefa Poniatowskiego w Warszawie",
+        "url": "https://pl.wikipedia.org/wiki/Pomnik_J%C3%B3zefa_Poniatowskiego_w_Warszawie"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "warsaw-belarusian-youth-hub",
+    "title": {
+      "by": "Беларускі моладзевы хаб у Варшаве",
+      "ru": "Белорусский молодёжный хаб в Варшаве",
+      "en": "Belarusian Youth Hub in Warsaw"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      52.2223,
+      21.0167
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Культурная і грамадская прастора на плошчы Канстытуцыі, 6. Размешчаны ў гістарычным будынку, дзе ў 1989 г. працаваў камітэт польскага руху «Салідарнасць». Арганізуе выставы, канцэрты, прэзентацыі кніг, тэатральныя і моўныя курсы.",
+      "ru": "Культурное и общественное пространство на площади Конституции, 6. Расположено в историческом здании штаба движения «Солидарность» 1989 года. Проводит выставки, концерты, презентации книг и курсы.",
+      "en": "Cultural and social community hub on Plac Konstytucji 6, situated in the historic building of the Polish 'Solidarność' committee from 1989. Hosts concerts, exhibitions, and lectures."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Plac_Konstytucji_w_Warszawie_2021.jpg/500px-Plac_Konstytucji_w_Warszawie_2021.jpg",
+    "tags": [
+      "warsaw",
+      "culture",
+      "diaspora",
+      "hub"
+    ],
+    "links": [
+      {
+        "title": "Budzma.org: Гайд па беларускай Варшаве",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-varshave.html"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "warsaw-belarusian-house",
+    "title": {
+      "by": "Беларускі дом у Варшаве",
+      "ru": "Белорусский дом в Варшаве",
+      "en": "Belarusian House in Warsaw"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      52.2268,
+      21.0267
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Грамадскі і культурны цэнтр беларускай дыяспары ў Польшчы на вул. Вейскай, 13/3 (ul. Wiejska 13/3). Дзейнічае з 2012 года як інфармацыйны і адукацыйны хаб, ладзіць выставы, трэнінгі і дабрачынныя імпрэзы.",
+      "ru": "Общественный и культурный центр беларусской диаспоры на ул. Вейской, 13/3. Действует с 2012 года как координационный центр, проводит выставки, встречи и культурные мероприятия.",
+      "en": "Public and cultural hub of the Belarusian diaspora in Poland located on Wiejska 13/3. Operating since 2012, hosting cultural events, meetings, and exhibitions."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ulica_Wiejska_w_Warszawie_2019.jpg/500px-Ulica_Wiejska_w_Warszawie_2019.jpg",
+    "tags": [
+      "warsaw",
+      "culture",
+      "diaspora",
+      "house"
+    ],
+    "links": [
+      {
+        "title": "Budzma.org: Гайд па беларускай Варшаве",
+        "url": "https://budzma.org/news/gayd-pa-belaruskay-varshave.html"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "tbilisi-railway-station-luchyna",
+    "title": {
+      "by": "Таварная чыгуначная станцыя — месца працы Янкі Лучыны",
+      "ru": "Товарная железнодорожная станция — место работы Янки Лучины",
+      "en": "Tiflis Goods Railway Station — Workplace of Yanka Luchyna"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Тбілісі",
+      "ru": "Тбилиси",
+      "en": "Tbilisi"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      41.7214,
+      44.7981
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Чыгуначны вузел Тбілісі, дзе ў 1877–1880 гг. пасля заканчэння Пецярбургскага тэхналагічнага інстытута служыў начальнікам складоў беларускі паэт Іван Неслухоўскі (Янка Лучына). Тут малады інжынер натхняўся каўказскімі краявідамі перад вяртаннем у Мінск.",
+      "ru": "Железнодорожный узел Тбилиси, где в 1877–1880 гг. работал начальником складов классик беларусской литературы Иван Неслуховский (Янка Лучина).",
+      "en": "Railway depot area in Tbilisi where classic Belarusian poet Ivan Niesluchowski (Yanka Luchyna) served as chief of warehouses from 1877 to 1880 after engineering studies."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Janka_%C5%81u%C4%8Dyna.jpg/330px-Janka_%C5%81u%C4%8Dyna.jpg",
+    "personId": "yanka-luchyna",
+    "personIds": [
+      "yanka-luchyna"
+    ],
+    "tags": [
+      "georgia",
+      "tbilisi",
+      "luchyna",
+      "railway",
+      "literature"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ]
+  },
+  {
+    "id": "tbilisi-youth-palace-valkovich",
+    "title": {
+      "by": "Моладзевы (Варанцоўскі) палац — Аляксандр Вальковіч",
+      "ru": "Молодёжный (Воронцовский) дворец — Александр Валькович",
+      "en": "Youth (Vorontsov) Palace — Alyaksandr Valkovich"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Тбілісі",
+      "ru": "Тбилиси",
+      "en": "Tbilisi"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      41.6961,
+      44.7997
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Гістарычны палац намесніка на праспекце Руставелі, 6, дзе зараджалася Грузінская Дэмакратычная Рэспубліка. Тут працаваў міністр фінансаў БНР Аляксандр Вальковіч — афіцыйны дыпламатычны прадстаўнік Беларускай Народнай Рэспублікі пры ўрадзе Грузіі ў 1918–1920 гг.",
+      "ru": "Исторический дворец на проспекте Руставели, 6. Здесь работал министр финансов БНР Александр Валькович — дипломатический представитель Белорусской Народной Республики при правительстве Грузии в 1918–1920 гг.",
+      "en": "Historic palace on Rustaveli Avenue 6. Seat where the diplomatic mission of the Belarusian Democratic Republic (BNR) operated under Finance Minister and envoy Alyaksandr Valkovich in 1918–1920."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Youth_Palace%2C_Tbilisi.jpg/500px-Youth_Palace%2C_Tbilisi.jpg",
+    "personId": "aleksandr-valkovich",
+    "personIds": [
+      "aleksandr-valkovich"
+    ],
+    "tags": [
+      "georgia",
+      "tbilisi",
+      "bnr",
+      "valkovich",
+      "diplomacy"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ]
+  },
+  {
+    "id": "tbilisi-unr-bnr-mission",
+    "title": {
+      "by": "Дыпламатычная місія на праспекце Руставелі — Іван Краскоўскі",
+      "ru": "Дипломатическая миссия на проспекте Руставели — Иван Красковский",
+      "en": "Diplomatic Mission on Rustaveli Avenue — Ivan Kraskouski"
+    },
+    "category": "plaque",
+    "city": {
+      "by": "Тбілісі",
+      "ru": "Тбилиси",
+      "en": "Tbilisi"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      41.7012,
+      44.7925
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Будынак на праспекце Руставелі, 37, дзе працаваў дзеяч БНР і УНР Іван Краскоўскі (ураджэнец Гродзеншчыны). Краскоўскі ўзначальваў дыпламатычную місію на Каўказе і выступаў дарадцам дэлегацыі БНР. На будынку адкрыта мемарыяльная дошка.",
+      "ru": "Здание на проспекте Руставели, 37, где работал деятель БНР и УНР Иван Красковский (уроженец Гродненщины), возглавлявший дипломатическую миссию на Кавказе. Установлена памятная доска.",
+      "en": "Building at Rustaveli Avenue 37 where Belarusian-Ukrainian diplomat and BNR figure Ivan Kraskouski led the diplomatic mission to the Caucasus. Marked with a commemorative plaque."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_Kraskouski.jpg/330px-Jan_Kraskouski.jpg",
+    "tags": [
+      "georgia",
+      "tbilisi",
+      "plaque",
+      "bnr",
+      "kraskouski"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "tbilisi-philharmonic-staver",
+    "title": {
+      "by": "Тбіліская філармонія — «Жураўлі на Палессе ляцяць»",
+      "ru": "Тбилисская филармония — «Жураўлі на Палессе ляцяць»",
+      "en": "Tbilisi Philharmonic — 'Cranes Fly to Polesia'"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Тбілісі",
+      "ru": "Тбилиси",
+      "en": "Tbilisi"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      41.7089,
+      44.7836
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Канцэртная зала Тбіліскай філармоніі на вул. Мелікішвілі. Тут у 1970-х і 2001 гг. з аншлагамі выступалі «Песняры». Знаходзячыся ў Тбілісі, беларускі паэт Алесь Ставер на карабку запалак запісаў першыя радкі легендарнай песні «Жураўлі на Палессе ляцяць».",
+      "ru": "Концертный зал Тбилисской филармонии. Здесь с триумфом выступали «Песняры». Находясь в Тбилиси, беларусский поэт Алесь Ставер написал на коробке спичек строки легендарной песни «Жураўлі на Палессе ляцяць».",
+      "en": "Tbilisi State Concert Hall where the famous Belarusian band 'Pesnyary' performed. While in Tbilisi, Belarusian poet Ales Staver jotted down the lyrics to the beloved national song 'Cranes Fly to Polesia' on a matchbox."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tbilisi_Concert_Hall_2011.jpg/500px-Tbilisi_Concert_Hall_2011.jpg",
+    "tags": [
+      "georgia",
+      "tbilisi",
+      "culture",
+      "pesnyary",
+      "music"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "tbilisi-art-academy-azgur",
+    "title": {
+      "by": "Тбіліская акадэмія мастацтваў — Заір Азгур і генерал Кандратовіч",
+      "ru": "Тбилисская академия художеств — Заир Азгур и генерал Кондратович",
+      "en": "Tbilisi State Academy of Arts — Zair Azgur & Gen. Kandratovich"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Тбілісі",
+      "ru": "Тбилиси",
+      "en": "Tbilisi"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      41.7011,
+      44.7961
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Акадэмія мастацтваў на вул. Грыбаедава, 22. Тут у 1929 г. вучыўся і працаваў народны мастак Беларусі Заір Азгур у майстэрні Якава Нікаладзэ. Раней у гэтым жа будынку размяшчаўся штаб 1-га Каўказскага армейскага корпуса генерала Кіпрыяна Кандратовіча — ураджэнца Лідчыны, галоўнакамандуючага войскаў БНР.",
+      "ru": "Академия художеств на ул. Грибоедова, 22. Здесь в 1929 г. учился классик беларусской скульптуры Заир Азгур. Ранее в здании находился штаб 1-го Кавказского корпуса генерала Киприана Кондратовича — главнокомандующего войсками БНР.",
+      "en": "Academy of Arts on Griboedov Street 22. Here renowned Belarusian sculptor Zair Azgur refined his craft in 1929. Previously housed the military headquarters of Gen. Kipryan Kandratovich, commander-in-chief of the BNR forces."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tbilisi_State_Academy_of_Arts.jpg/500px-Tbilisi_State_Academy_of_Arts.jpg",
+    "tags": [
+      "georgia",
+      "tbilisi",
+      "azgur",
+      "art",
+      "kandratovich"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "tbilisi-kukiya-grave-chodzko",
+    "title": {
+      "by": "Кукійскія могілкі — магіла Язэпа Ходзькі",
+      "ru": "Кукийское кладбище — могила Иосифа (Юзефа) Ходзько",
+      "en": "Kukiya Cemetery — Grave of Józef Chodźko"
+    },
+    "category": "grave",
+    "city": {
+      "by": "Тбілісі",
+      "ru": "Тбилиси",
+      "en": "Tbilisi"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      41.7161,
+      44.8131
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Гістарычныя могілкі Кукія ў Тбілісі ля царквы Св. Ніно. Тут у каталіцкай частцы спачывае выбітны беларускі географ, геадэзіст, генерал і паўстанец 1830 г. Язэп Ходзька (1800–1881), кіраўнік Закаўказскай трыянгуляцыі.",
+      "ru": "Историческое кладбище Кукия в Тбилиси. В католической части похоронен выдающийся беларусский географ, геодезист и повстанец 1830 г. Иосиф (Юзеф) Ходзько (1800–1881).",
+      "en": "Historic Kukiya Cemetery in Tbilisi near St. Nino's Church, where prominent Belarusian geographer, geodesist, and 1830 insurgent Józef Chodźko (1800–1881) is buried."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Chodzko%2C_General_Geodesist.jpg/330px-Chodzko%2C_General_Geodesist.jpg",
+    "personId": "yazep-khodzko",
+    "personIds": [
+      "yazep-khodzko"
+    ],
+    "tags": [
+      "georgia",
+      "tbilisi",
+      "grave",
+      "chodzko",
+      "science"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ]
+  },
+  {
+    "id": "tskaltubo-kupala-kutateli",
+    "title": {
+      "by": "Курорт Цхалтуба — экспазіцыя Янкі Купалы ў Art House Kutateli",
+      "ru": "Курорт Цхалтубо — экспозиция Янки Купалы в Art House Kutateli",
+      "en": "Tskaltubo Resort — Yanka Kupala Memorial in Art House Kutateli"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Цхалтуба",
+      "ru": "Цхалтубо",
+      "en": "Tskaltubo"
+    },
+    "country": {
+      "by": "Грузія",
+      "ru": "Грузия",
+      "en": "Georgia"
+    },
+    "coordinates": [
+      42.3275,
+      42.5978
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Любімы курорт Янкі Купалы ў Сакартвела, дзе пясняр рэгулярна адпачываў у 1938–1941 гг. Тут ён пазнаёміўся са сваёй музай Эліко Метэхелі і напісаў славуты верш «Генацвале». У гасцявым доме Art House Kutateli дзейнічае экспазіцыя, прысвечаная песняру.",
+      "ru": "Любимый курорт Янки Купалы в Грузии, где классик отдыхал в 1938–1941 гг. Здесь он создал стихотворение «Генацвале». В гостевом доме Art House Kutateli открыта экспозиция памяти поэта.",
+      "en": "Beloved Georgian resort of Yanka Kupala, where he vacationed between 1938 and 1941, writing the famous lyric 'Genatsvale'. A permanent Kupala memorial exhibit is open in Art House Kutateli."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Janka_Kupa%C5%82a._%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0_%281930%29.jpg/330px-Janka_Kupa%C5%82a._%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0_%281930%29.jpg",
+    "personId": "yanka-kupala",
+    "personIds": [
+      "yanka-kupala"
+    ],
+    "tags": [
+      "georgia",
+      "tskaltubo",
+      "kupala",
+      "literature"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Гайд па беларускіх мясцінах Сакартвэла",
+        "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
+      }
+    ]
+  },
+  {
+    "id": "rome-st-peter-kuncevic",
+    "title": {
+      "by": "Сабор Святога Пятра — рэліквіі святога Язафата Кунцэвіча",
+      "ru": "Собор Святого Петра — реликвии святого Иосафата Кунцевича",
+      "en": "St. Peter's Basilica — Relics of Saint Josaphat Kuntsevych"
+    },
+    "category": "grave",
+    "city": {
+      "by": "Ватыкан / Рым",
+      "ru": "Ватикан / Рим",
+      "en": "Vatican / Rome"
+    },
+    "country": {
+      "by": "Ватыкан",
+      "ru": "Ватикан",
+      "en": "Vatican"
+    },
+    "coordinates": [
+      41.9022,
+      12.4539
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Галоўная святыня Каталіцкага касцёла. Каля алтара святога Васіля Вялікага спачываюць нятленныя мошчы беларускага святога і мучаніка Язафата Кунцэвіча (1580–1623), полацкага архіепіскапа і ігумена Жыровіцкага манастыра.",
+      "ru": "Главный собор христианского мира. Возле алтаря святого Василия Великого покоятся нетленные мощи беларусского святого и мученика Иосафата Кунцевича (1580–1623), полоцкого архиепископа.",
+      "en": "The central sanctuary of Catholicism. Near the altar of St. Basil the Great rest the sacred relics of Belarusian saint and martyr Josaphat Kuntsevych (1580–1623), Archbishop of Polotsk."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/JKuncewicz.jpg/330px-JKuncewicz.jpg",
+    "personId": "jazafat-kuncevic",
+    "personIds": [
+      "jazafat-kuncevic"
+    ],
+    "tags": [
+      "vatican",
+      "rome",
+      "church",
+      "kuncevic",
+      "relics"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларускія мясціны ў Вечным горадзе",
+        "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
+      },
+      {
+        "title": "Wikipedia: Базіліка Святога Пятра",
+        "url": "https://be.wikipedia.org/wiki/Базіліка_Святога_Пятра"
+      }
+    ]
+  },
+  {
+    "id": "rome-sergius-bacchus-zyrovici",
+    "title": {
+      "by": "Царква святых Сяргея і Вакха — цудатворны Жыровіцкі абраз",
+      "ru": "Церковь святых Сергия и Вакха — чудотворная Жировичская икона",
+      "en": "Church of Sts. Sergius & Bacchus — Zyrovichy Madonna"
+    },
+    "category": "church",
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "coordinates": [
+      41.8942,
+      12.4908
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Старадаўні храм на Piazza della Madonna dei Monti, 3. Ад 1641 г. — галоўны рымскі асяродак манахаў-базыльянаў з Жыровічаў. У 1718 г. тут адшукалі цудатворную фрэску Маці Божай Жыровіцкай («Madonna del Pascolo / Багародзіца з пашы»), якая праславілася шматлікімі вылячэннямі. Купал увянчаны крыжам, падобным да Пагоні.",
+      "ru": "Древний храм на Piazza della Madonna dei Monti, 3. С 1641 г. — римская резиденция монахов-базилиан из Жировичей. В 1718 г. здесь обнаружили чудотворную фреску Матери Божьей Жировичской («Madonna del Pascolo»), прославившуюся исцелениями.",
+      "en": "Historic church on Piazza della Madonna dei Monti 3. From 1641, the main Roman seat of Basilian monks from Zyrovichy. In 1718, a miraculous fresco of the Mother of God of Zyrovichy ('Madonna del Pascolo') was rediscovered beneath the plaster."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Santi_Sergio_e_Bacco_a_Roma.jpg/500px-Santi_Sergio_e_Bacco_a_Roma.jpg",
+    "tags": [
+      "rome",
+      "church",
+      "zyrovici",
+      "basilian",
+      "icon"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларускія мясціны ў Вечным горадзе",
+        "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
+      },
+      {
+        "title": "Wikipedia: Santi Sergio e Bacco degli Armeni",
+        "url": "https://en.wikipedia.org/wiki/Santi_Sergio_e_Bacco_degli_Armeni"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "rome-il-gesu-radziwill",
+    "title": {
+      "by": "Касцёл Іль-Джэзу — кардынал Юры Радзівіл і Андрэй Баболя",
+      "ru": "Костёл Иль-Джезу — кардинал Юрий Радзивилл и Андрей Боболя",
+      "en": "Church of the Gesù — Cardinal Jerzy Radziwiłł"
+    },
+    "category": "church",
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "coordinates": [
+      41.8959,
+      12.4798
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Галоўны храм ордэна езуітаў у Рыме на Via degli Astalli, 16. Паслужыў прамым архітэктурным правобразам для касцёла Божага Цела ў Нясвіжы. Тут пахаваны першы кардынал у гісторыі ВКЛ Юры Радзівіл (1556–1600) з мармуровым надмагіллем і гербам «Трубы», а ў капліцы захоўваюцца мошчы святога Андрэя Баболі.",
+      "ru": "Главный храм ордена иезуитов в Риме, архитектурный прообраз костёла Божьего Тела в Несвиже. Здесь погребён первый кардинал в истории ВКЛ Юрий Радзивилл (1556–1600) с мраморной плитой с гербом «Трубы», а также хранятся мощи св. Андрея Боболи.",
+      "en": "Mother church of the Jesuit Order in Rome, architectural prototype for the Corpus Christi Church in Nesvizh. Tomb of the first cardinal of the GDL, Jerzy Radziwiłł (1556–1600), adorned with the 'Trąby' coat of arms, and relics of St. Andrew Bobola."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gesu_Church_Rome.jpg/500px-Gesu_Church_Rome.jpg",
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ],
+    "tags": [
+      "rome",
+      "church",
+      "radziwill",
+      "nesvizh",
+      "bobola"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларускія мясціны ў Вечным горадзе",
+        "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
+      },
+      {
+        "title": "Wikipedia: Church of the Gesù",
+        "url": "https://en.wikipedia.org/wiki/Church_of_the_Ges%C3%B9"
+      }
+    ]
+  },
+  {
+    "id": "rome-radziwill-palace-boncompagni",
+    "title": {
+      "by": "Палац Марыі Ружы Радзівіл на Via Boncompagni 22",
+      "ru": "Дворец Марии Розы Радзивилл на Via Boncompagni 22",
+      "en": "Maria Roza Radziwiłł Palace on Via Boncompagni 22"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "coordinates": [
+      41.9079,
+      12.4947
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Неакласічны палац Радзівілаў на вуліцы Бонкампаньі, 22. Належаў княгіні Марыі Ружы Радзівіл (з Браніцкіх, 1863–1941) — гаспадыні Нясвіжскага замка. У гэтым палацы княгіня прымала каралеву Італіі Алену Савойскую і еўрапейскіх манархаў.",
+      "ru": "Неоклассический дворец Радзивиллов на ул. Бонкомпаньи, 22. Принадлежал хозяйке Несвижского замка княгине Марии Розе Радзивилл. Здесь княгиня принимала королеву Италии Елену Савойскую и европейскую аристократию.",
+      "en": "Neoclassical Radziwill palace on Via Boncompagni 22, owned by Princess Maria Roza Radziwiłł of Nesvizh Castle, where she hosted Queen Elena of Italy and European dignitaries."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Palazzo_Boncompagni_Corcos_Roma.jpg/500px-Palazzo_Boncompagni_Corcos_Roma.jpg",
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ],
+    "tags": [
+      "rome",
+      "palace",
+      "radziwill",
+      "nesvizh"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларускія мясціны ў Вечным горадзе",
+        "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
+      }
+    ]
+  },
+  {
+    "id": "rome-resurrectionists-casa-madre",
+    "title": {
+      "by": "Генеральны дом сясцёр-змартыхпаўстанак (Casa Madre) — Цэліна Бажэнцкая",
+      "ru": "Генеральный дом сестёр-воскресенок (Casa Madre) — Целина Боженцкая",
+      "en": "Resurrectionist Sisters Motherhouse (Casa Madre) — Celina Borzęcka"
+    },
+    "category": "church",
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "coordinates": [
+      41.9114,
+      12.4667
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Галоўны манастырскі дом Кангрэгацыі сясцёр Змёртвыхпаўстання (Casa Madre) на Via Marcantonio Colonna, 52. Заснаваны ўраджэнкай Аршаншчыны, блаславёнай Цэлінай Бажэнцкай і яе дачкой Ядвігай (з-пад Гродна). Дзейнічае да сёння.",
+      "ru": "Главный дом Конгрегации сестёр Воскресения Господня (Casa Madre) на Via Marcantonio Colonna, 52, основанный блаженной Целиной Боженцкой (уроженкой Оршанщины) и её дочерью Ядвигой.",
+      "en": "The Motherhouse (Casa Madre) of the Sisters of the Resurrection on Via Marcantonio Colonna 52, established by Blessed Celina Borzęcka (born near Orsha) and her daughter Jadwiga."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Celina_Chludzi%C5%84ska_Borz%C4%99cka.jpg",
+    "personId": "celina-borzencka",
+    "personIds": [
+      "celina-borzencka"
+    ],
+    "tags": [
+      "rome",
+      "church",
+      "borzencka",
+      "monastery"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларускія мясціны ў Вечным горадзе",
+        "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
+      }
+    ]
+  },
+  {
+    "id": "rome-palazzo-pio-vatican-radio",
+    "title": {
+      "by": "Палацца Пія — Беларуская рэдакцыя Ватыканскага радыё",
+      "ru": "Палаццо Пиа — Белорусская редакция Ватиканского радио",
+      "en": "Palazzo Pio — Belarusian Editorial Office of Vatican Radio"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "coordinates": [
+      41.9028,
+      12.4631
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Гістарычны палац на Piazza Pia, 3 каля замка Святога Анёла. Ад 1950 г. тут працуе Беларуская рэдакцыя Ватыканскага радыё, якую ўзначальвалі ксёндз Пётр Татарыновіч, айцец Леў Гарошка, архімандрыт Роберт Тамушанскі і біскуп Часлаў Сіповіч.",
+      "ru": "Исторический дворец на Piazza Pia, 3. С 1950 г. здесь работает Белорусская редакция Ватиканского радио, которую возглавляли священники Пётр Татаринович, Лев Горошко и епископ Чеслав Сипович.",
+      "en": "Historic palace on Piazza Pia 3 near Castel Sant'Angelo. Since 1950, home to the Belarusian editorial desk of Vatican Radio, led by notable émigré cultural leaders."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Palazzo_Pio%2C_Rome.jpg/500px-Palazzo_Pio%2C_Rome.jpg",
+    "tags": [
+      "rome",
+      "culture",
+      "vatican",
+      "radio",
+      "media"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларускія мясціны ў Вечным горадзе",
+        "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "krakow-hutten-czapski-museum",
+    "title": {
+      "by": "Музей і палац Эмерыка Гутэн-Чапскага ў Кракаве",
+      "ru": "Музей и дворец Эмерика Гуттен-Чапского в Кракове",
+      "en": "Emeryk Hutten-Czapski Museum and Palace in Krakow"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      50.0597,
+      19.9322
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Філіял Нацыянальнага музея на вул. Пілсудскага, 12 (ul. Piłsudskiego 12). Палац набыў і абсталяваў у 1894 г. граф Эмерык Гутэн-Чапскі са Станькава для сваёй неацэннай калекцыі: 30 тысяч манет, 20 тысяч тамоў станькаўскай бібліятэкі, слуцкія паясы, граматы і экслібрысы.",
+      "ru": "Филиал Национального музея на ул. Пилсудского, 12. Дворец приобрёл в 1894 г. граф Эмерик Гуттен-Чапский из Станьково для сокровищницы: 30 тысяч монет, 20 тысяч томов станьковской библиотеки, слуцкие пояса, медали и грамоты.",
+      "en": "Branch of the National Museum on Piłsudskiego 12. Palace acquired in 1894 by Count Emeryk Hutten-Czapski of Stankava to preserve his immense collection: 30,000 coins, 20,000 rare books, Slutsk sashes, and manuscripts."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emeryk_Hutten-Czapski._%D0%AD%D0%BC%D0%B5%D1%80%D1%8B%D0%BA_%D0%93%D1%83%D1%82%D1%8D%D0%BD-%D0%A7%D0%B0%D0%BF%D1%81%D0%BA%D1%96_%281896%29.jpg/330px-Emeryk_Hutten-Czapski._%D0%AD%D0%BC%D0%B5%D1%80%D1%8B%D0%BA_%D0%93%D1%83%D1%82%D1%8D%D0%BD-%D0%A7%D0%B0%D0%BF%D1%81%D0%BA%D1%96_%281896%29.jpg",
+    "personId": "emeryk-hutten-czapski",
+    "personIds": [
+      "emeryk-hutten-czapski"
+    ],
+    "tags": [
+      "krakow",
+      "museum",
+      "czapski",
+      "stankava",
+      "numismatics"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Дзе на карце Кракава знайсці Беларусь",
+        "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
+      },
+      {
+        "title": "Wikipedia: Muzeum im. Emeryka Hutten-Czapskiego",
+        "url": "https://pl.wikipedia.org/wiki/Muzeum_im._Emeryka_Hutten-Czapskiego_w_Krakowie"
+      }
+    ]
+  },
+  {
+    "id": "krakow-peter-paul-church-bernardoni",
+    "title": {
+      "by": "Касцёл святых Пятра і Паўла — архітэктар Бернардоні (копія Нясвіжа)",
+      "ru": "Костёл святых Петра и Павла — архитектор Бернардони (копия Несвижа)",
+      "en": "Church of Sts. Peter & Paul — Bernardoni (Nesvizh Model)"
+    },
+    "category": "church",
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      50.0569,
+      19.9389
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Першы барочны касцёл Кракава на вул. Гродскай, 52A (ul. Grodzka 52A). Узведзены па праекце Джавані Бернардоні — слыннага «беларускага італьянца», які 13 гадоў жыў у Нясвіжы на запрашэнне Радзівіла Сіроткі і стварыў касцёл як прамую копію нясвіжскага касцёла Божага Цела.",
+      "ru": "Первый барочный храм Кракова на ул. Гродзкой, 52A. Построен Джованни Бернардони — «беларусским итальянцем», прожившим 13 лет в Несвиже по приглашению Радзивилла Сиротки; собор возведён как близкая копия несвижского костёла Божьего Тела.",
+      "en": "The first Baroque church in Krakow on Grodzka 52A, designed by Giovanni Maria Bernardoni who lived 13 years in Nesvizh and modeled this church directly after the Corpus Christi Church in Nesvizh."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Krak%C3%B3w_-_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a.JPG/500px-Krak%C3%B3w_-_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a.JPG",
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ],
+    "tags": [
+      "krakow",
+      "church",
+      "bernardoni",
+      "nesvizh",
+      "baroque"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Дзе на карце Кракава знайсці Беларусь",
+        "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
+      },
+      {
+        "title": "Wikipedia: Kościół Świętych Apostołów Piotra i Pawła w Krakowie",
+        "url": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a_w_Krakowie"
+      }
+    ]
+  },
+  {
+    "id": "krakow-anczyc-printing-bahusevic",
+    "title": {
+      "by": "Друкарня Анчыца — першае выданне «Дудкі беларускай» Багушэвіча",
+      "ru": "Типография Анчица — первое издание «Дудкі беларускай» Богушевича",
+      "en": "Anczyc Printing House — 1st Edition of Bahusevic's 'Dudka Bielaruskaja'"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      50.0558,
+      19.9378
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Будынак на вул. Кананічай, 9 (ul. Kanonicza 9). Тут у друкарні Уладзіслава Анчыца ў 1891 г. упершыню пабачыла свет «Дудка беларуская» Францішка Багушэвіча (пад псеўданімам Мацей Бурачок) з гістарычным маніфестам: «Не пакідайце ж мовы нашай беларускай, каб не ўмёрлі!»",
+      "ru": "Здание на ул. Каноничей, 9. Здесь в типографии Владислава Анчица в 1891 г. впервые вышла в свет книга «Дудка беларуская» Францишка Богушевича со знаменитым заветом: «Не пакідайце ж мовы нашай беларускай, каб не ўмёрлі!»",
+      "en": "Building on Kanonicza 9 in Krakow. In 1891, the printing house of Władysław Anczyc published the first edition of Francišak Bahuševič's seminal poetry book 'Dudka Bielaruskaja' with the famous manifesto on preserving the Belarusian language."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dudka_bie%C5%82aruskaja.jpg/330px-Dudka_bie%C5%82aruskaja.jpg",
+    "personId": "francisak-bahusevic",
+    "personIds": [
+      "francisak-bahusevic"
+    ],
+    "tags": [
+      "krakow",
+      "printing",
+      "bahusevic",
+      "literature",
+      "history"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Дзе на карце Кракава знайсці Беларусь",
+        "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
+      }
+    ]
+  },
+  {
+    "id": "krakow-st-barbara-yuravichy-icon",
+    "title": {
+      "by": "Касцёл святой Барбары — цудатворны абраз Маці Божай Юравіцкай",
+      "ru": "Костёл святой Барбары — чудотворная икона Матери Божьей Юровичской",
+      "en": "St. Barbara's Church — Miraculous Icon of Our Lady of Yuravichy"
+    },
+    "category": "church",
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "coordinates": [
+      50.0617,
+      19.9403
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Касцёл на Малым Рынку, 9 (ul. Mały Rynek 9). Тут захоўваецца арыгінал славутага цудатворнага абраза Маці Божай Юравіцкай (з вёскі Юравічы Калінкавіцкага р-на Гомельшчыны), які ў 1885 г. перавезла сюды Габрыэля Горват з пісьмовым запаветам вярнуць у Юравічы пасля адраджэння святыні. Адшуканы Адамам Мальдзісам.",
+      "ru": "Костёл на Малом Рынке, 9. Здесь хранится оригинал чудотворной иконы Матери Божьей Юровичской (из деревни Юровичи Калинковичского р-на), перевезённый в 1885 г. Габриэлой Горватт. Местонахождение иконы разыскал Адам Мальдис.",
+      "en": "Church on Mały Rynek 9 housing the original miraculous icon of Our Lady of Yuravichy (from Yuravichy, Gomel region), secretly relocated to Krakow in 1885 by Gabriela Horwatt to save it from tsarist persecution. Identified by Adam Maldis."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Barbary_w_Krakowie.jpg/500px-Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Barbary_w_Krakowie.jpg",
+    "personId": "adam-maldis",
+    "personIds": [
+      "adam-maldis"
+    ],
+    "tags": [
+      "krakow",
+      "church",
+      "yuravichy",
+      "icon",
+      "maldis"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Дзе на карце Кракава знайсці Беларусь",
+        "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
+      }
+    ]
+  },
+  {
+    "id": "prague-krecheuski-house",
+    "title": {
+      "by": "Дом Пётры Крэчэўскага на Брусэльскай, 1",
+      "ru": "Дом Петра Кречевского на Брюссельской, 1",
+      "en": "Pyotra Krechewski's Residence on Bruselská 1"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "coordinates": [
+      50.0722,
+      14.4358
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Дом у раёне Вінаграды (Bruselská 1), дзе ў 1923–1928 гг. жыў Старшыня Рады БНР Пётра Крэчэўскі. Тут месцілася прадстаўніцтва Рады БНР, ствараўся Беларускі замежны архіў і выдаваўся альманах «Замежная Беларусь».",
+      "ru": "Дом в районе Винограды (Bruselská 1), где в 1923–1928 гг. жил Председатель Рады БНР Пётр Кречевский. Здесь находилось представительство Рады БНР, создавался архив БНР и издавался альманах «Замежная Беларусь».",
+      "en": "Residence on Bruselská 1 in Prague-Vinohrady where the 3rd President of the Rada of BNR Pyotra Krechewski lived from 1923 until his death in 1928, creating the Belarusian Foreign Archive."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Piotr_Kre%C4%8De%C5%ADski.jpg/330px-Piotr_Kre%C4%8De%C5%ADski.jpg",
+    "personId": "pyotra-krecheuski",
+    "personIds": [
+      "pyotra-krecheuski"
+    ],
+    "tags": [
+      "prague",
+      "bnr",
+      "krecheuski",
+      "history"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларуская Прага",
+        "url": "https://maldzis.world/belaruskaja-praga-sabrali-gistoryi-pra-ajchynnyh-litaratara-i-zvjazanyja-z-imi-mescy-stalicy-chjehii/"
+      }
+    ]
+  },
+  {
+    "id": "prague-heniyush-hermanova",
+    "title": {
+      "by": "Дом Ларысы і Янкі Геніюшаў на Германавай, 7",
+      "ru": "Дом Ларисы и Янки Гениюш на Гержмановой, 7",
+      "en": "Larysa & Yanka Hienijuš Residence on Heřmanova 7"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "coordinates": [
+      50.1006,
+      14.4372
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Галоўны пражскі адрас выдатнай паэткі Ларысы Геніюш і доктара Янкі Геніюша ў раёне Галяшовіцы (Heřmanova 7). Тут літаратарка напісала кнігу «Ад родных ніў», даглядала хворага прэзідэнта БНР Васіля Захарку і захоўвала дзяржаўны архіў БНР разам з пячаткай з Пагоняй.",
+      "ru": "Главный пражский адрес Ларисы Гениюш и доктора Янки Гениюша на улице Heřmanova 7. Здесь поэтесса создавала свои книги, ухаживала за президентом БНР Василием Захарко и хранила государственный архив и печать БНР.",
+      "en": "The main Prague home of Belarusian poet Larysa Hienijuš and Dr. Yanka Hienijuš on Heřmanova 7 in Holešovice. Here she safeguarded the archives and seal of the Belarusian Democratic Republic."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%C5%81arysa_Hieniju%C5%A1._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88_%281937%29.jpg/330px-%C5%81arysa_Hieniju%C5%A1._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88_%281937%29.jpg",
+    "personId": "larysa-heniyush",
+    "personIds": [
+      "larysa-heniyush"
+    ],
+    "tags": [
+      "prague",
+      "heniyush",
+      "bnr",
+      "literature"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларуская Прага",
+        "url": "https://maldzis.world/belaruskaja-praga-sabrali-gistoryi-pra-ajchynnyh-litaratara-i-zvjazanyja-z-imi-mescy-stalicy-chjehii/"
+      }
+    ]
+  },
+  {
+    "id": "prague-bykau-last-flat",
+    "title": {
+      "by": "Апошняя кватэра Васіля Быкава і Гаўлічкавы сады",
+      "ru": "Последняя квартира Василя Быкова и Гавличковы сады",
+      "en": "Vasil Bykaŭ's Last Residence & Havlíčkovy Sady"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "coordinates": [
+      50.0678,
+      14.4489
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Кватэра на вуліцы U Vršovického nádraží, дзе народны пісьменнік Васіль Быкаў з жонкай Ірынай жыў у пачатку 2003 г. падчас свайго апошняга замежнага перыяду. Побач — рамантычныя Гаўлічкавы сады (Havlíčkovy sady), дзе любіў гуляць пісьменнік.",
+      "ru": "Квартира на улице U Vršovického nádraží, где Василь Быков жил в начале 2003 г. во время последнего периода эмиграции. Рядом — Гавличковы сады, где любил гулять писатель.",
+      "en": "Apartment on U Vršovického nádraží where People's Writer of Belarus Vasil Bykaŭ spent his final months in early 2003, walking in the nearby Havlíčkovy Sady park before returning home."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Vasil_Bykov_%28cropped%29.jpg",
+    "personId": "vasil-bykau",
+    "personIds": [
+      "vasil-bykau"
+    ],
+    "tags": [
+      "prague",
+      "bykau",
+      "literature",
+      "memory"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Беларуская Прага",
+        "url": "https://maldzis.world/belaruskaja-praga-sabrali-gistoryi-pra-ajchynnyh-litaratara-i-zvjazanyja-z-imi-mescy-stalicy-chjehii/"
+      }
+    ]
+  },
+  {
+    "id": "zurich-fraumunster-chagall",
+    "title": {
+      "by": "Царква Фраўмюнстэр — вітражы Марка Шагала",
+      "ru": "Церковь Фраумюнстер — витражи Марка Шагала",
+      "en": "Fraumünster Church — Chagall's Stained Glass Windows"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Цюрых",
+      "ru": "Цюрих",
+      "en": "Zurich"
+    },
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "coordinates": [
+      47.3697,
+      8.5414
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Славутая бажніца на Münsterhof 2 у Цюрыху. Сусветную славу царкве прынеслі 5 унікальных вітражных вокнаў хору і рузе-вітражы дыяметрам 2,7 м, створаныя ўраджэнцам Віцебска Маркам Шагалам у 1970 і 1978 гадах. Шагал уласнаручна апрацоўваў паверхню шкла ва ўзросце 83 і 90 гадоў.",
+      "ru": "Знаменитая церковь на Münsterhof 2. Мировую известность ей принесли 5 уникальных витражных окон хора и окно-роза, созданные уроженцем Витебска Марком Шагалом в 1970 и 1978 гг.",
+      "en": "Historic abbey church on Münsterhof 2 in Zurich. Famous worldwide for the five stunning stained glass choir windows and the rose window created by Vitebsk-born artist Marc Chagall in 1970 and 1978."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg/500px-Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg",
+    "personId": "marc-chagall",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "items": [
+      {
+        "title": "Вітражныя вокны хору Фраўмюнстэр (Прарокі, Закон, Якаў, Сіён, Хрыстос)",
+        "author": "Марк Шагал",
+        "personId": "marc-chagall",
+        "year": "1970",
+        "description": "Пяць манументальных вітражных вокнаў вышынёй амаль 10 метраў, уласнаручна створаных Шагалам.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg/500px-Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg"
+      },
+      {
+        "title": "Ружа-вітраж на паўднёвай сцяне нефа",
+        "author": "Марк Шагал",
+        "personId": "marc-chagall",
+        "year": "1978",
+        "description": "Круглае вітражнае акно дыяметрам 2,7 метра, выкананае майстрам у 90-гадовым узросце.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg/500px-Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg"
+      }
+    ],
+    "tags": [
+      "zurich",
+      "chagall",
+      "church",
+      "art",
+      "stained-glass"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Шагал па Цюрыху",
+        "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
+      },
+      {
+        "title": "Wikipedia: Fraumünster",
+        "url": "https://en.wikipedia.org/wiki/Fraum%C3%BCnster"
+      }
+    ]
+  },
+  {
+    "id": "bern-university-tumarkinweg",
+    "title": {
+      "by": "Бернскі ўніверсітэт і вуліца Тумаркінвег — Ганна Тумаркіна",
+      "ru": "Бернский университет и улица Тумаркинвег — Анна Тумаркина",
+      "en": "University of Bern & Tumarkinweg — Anna Tumarkin"
+    },
+    "category": "historical",
+    "city": {
+      "by": "Берн",
+      "ru": "Берн",
+      "en": "Bern"
+    },
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "coordinates": [
+      46.9506,
+      7.4378
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Галоўны корпус Бернскага ўніверсітэта на Hochschulstrasse 4 і прылеглая вуліца Tumarkinweg. Прысвечаны выбітнай ураджэнцы Дуброўна (Беларусь) Ганне Тумаркінай (1875–1951) — першай у Швейцарыі і ва ўсёй Еўропе жанчыне-прафесару філасофіі.",
+      "ru": "Главный корпус Бернского университета на Hochschulstrasse 4 и прилегающая улица Tumarkinweg в честь Анны Тумаркиной — уроженки Дубровно, первой в Европе женщины-профессора философии.",
+      "en": "Main building of the University of Bern on Hochschulstrasse 4 and adjacent Tumarkinweg street, honoring Dubrovno-born Anna Tumarkin, Europe's first female philosophy professor."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Anna_Tumarkin.jpg",
+    "personId": "hanna-tumarkina",
+    "personIds": [
+      "hanna-tumarkina"
+    ],
+    "tags": [
+      "bern",
+      "university",
+      "tumarkin",
+      "philosophy",
+      "science"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Шагал па Цюрыху",
+        "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
+      },
+      {
+        "title": "Wikipedia: Anna Tumarkin",
+        "url": "https://en.wikipedia.org/wiki/Anna_Tumarkin"
+      }
+    ]
+  },
+  {
+    "id": "bourguillon-magdalena-radziwill",
+    "title": {
+      "by": "Царква Нотр-Дам-дэ-Бургійон — мемарыял Магдалены Радзівіл",
+      "ru": "Церковь Нотр-Дам-де-Бургийон — мемориал Магдалены Радзивилл",
+      "en": "Church of Notre-Dame de Bourguillon — Magdalena Radziwiłł Memorial"
+    },
+    "category": "plaque",
+    "city": {
+      "by": "Фрыбур",
+      "ru": "Фрибур",
+      "en": "Fribourg"
+    },
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "coordinates": [
+      46.8042,
+      7.1758
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Гістарычная царква ў прадмесці Фрыбура (Route de Bourguillon 21). Тут на прысядзібных могілках з 1945 па 2017 гг. спачываў прах выбітнай беларускай мецэнаткі княгіні Магдалены Радзівіл (перапахавана ў Мінску). На муры царквы ўсталявана мемарыяльная дошка аўтарства беларускага скульптара Максіма Петруля.",
+      "ru": "Церковь в предместье Фрибура, где с 1945 по 2017 гг. покоился прах меценатки Магдалены Радзивилл (ныне перезахоронена в Минске). На стене установлена памятная доска работы Максима Петруля.",
+      "en": "Church in the suburbs of Fribourg where Princess Magdalena Radziwill was buried from 1945 until her reburial in Minsk in 2017. A bronze commemorative plaque by Belarusian sculptor Maksim Petrul is placed on the wall."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Maryja_Magdalena_Radzivi%C5%82_%28Zavi%C5%A1a%29.jpg/330px-Maryja_Magdalena_Radzivi%C5%82_%28Zavi%C5%A1a%29.jpg",
+    "personId": "magdalena-radziwill",
+    "personIds": [
+      "magdalena-radziwill"
+    ],
+    "tags": [
+      "fribourg",
+      "switzerland",
+      "radziwill",
+      "plaque",
+      "memory"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Шагал па Цюрыху",
+        "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
+      }
+    ]
+  },
+  {
+    "id": "rapperswil-polish-museum-sluck",
+    "title": {
+      "by": "Замак Раперсвіль — слуцкія паясы і гербы ВКЛ",
+      "ru": "Замок Рапперсвиль — слуцкие пояса и гербы ВКЛ",
+      "en": "Rapperswil Castle — Slutsk Sashes and GDL Heraldry"
+    },
+    "category": "culture",
+    "city": {
+      "by": "Раперсвіль",
+      "ru": "Рапперсвиль",
+      "en": "Rapperswil"
+    },
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "coordinates": [
+      47.2269,
+      8.8156
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Сярэднявечны замак на Цюрыхскім возеры. У зборах музея захоўваюцца аўтэнтычныя слуцкія паясы з шаўкова-залатымі ніткамі, старадаўнія гербы гарадоў Вялікага Княства Літоўскага, а таксама доўгі час захоўвалася сэрца Тадэвуша Касцюшкі перад вяртаннем у Варшаву.",
+      "ru": "Средневековый замок на Цюрихском озере. В собрании музея хранятся подлинные слуцкие пояса, старинные гербы городов ВКЛ; здесь же хранилось сердце Тадеуша Костюшко до отправки в Варшаву.",
+      "en": "Medieval castle on Lake Zurich housing genuine Slutsk sashes, Grand Duchy of Lithuania heraldry, and previously the urn with Tadeusz Kosciuszko's heart before it was transferred to Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Schloss_Rapperswil_2011.jpg/500px-Schloss_Rapperswil_2011.jpg",
+    "tags": [
+      "rapperswil",
+      "switzerland",
+      "castle",
+      "slutsk-sash",
+      "vkl"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Шагал па Цюрыху",
+        "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
+      },
+      {
+        "title": "Wikipedia: Rapperswil Castle",
+        "url": "https://en.wikipedia.org/wiki/Rapperswil_Castle"
+      }
+    ],
+    "personIds": []
+  },
+  {
+    "id": "zuchwil-kosciuszko-grave",
+    "title": {
+      "by": "Помнік на месцы пахавання вантробаў Тадэвуша Касцюшкі ў Цухвілі",
+      "ru": "Памятник на месте захоронения внутренностей Тадеуша Костюшко в Цухвиле",
+      "en": "Monument at the Entrails Burial Site of Tadeusz Kosciuszko in Zuchwil"
+    },
+    "category": "grave",
+    "city": {
+      "by": "Цухвіль (Залатурн)",
+      "ru": "Цухвиль (Золотурн)",
+      "en": "Zuchwil (Solothurn)"
+    },
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "coordinates": [
+      47.1997,
+      7.5583
+    ],
+    "unverifiedCoordinates": true,
+    "description": {
+      "by": "Мемарыяльны помнік на могілках у мястэчку Цухвіль (прыгарад Залатурна). Пасля бальзамавання цела Касцюшкі ў 1817 г. яго вантробы былі асобна пахаваныя тут, дзе помнік стаіць і дагэтуль.",
+      "ru": "Памятник на кладбище в городке Цухвиль (пригород Золотурна), где в 1817 г. после бальзамирования были захоронены внутренности Тадеуша Костюшко.",
+      "en": "Memorial marker at the cemetery in Zuchwil near Solothurn where Tadeusz Kosciuszko's internal organs were interred following his embalming in 1817."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tadeusz_Kosciuszko_portrait.jpg/330px-Tadeusz_Kosciuszko_portrait.jpg",
+    "personId": "tadeusz-kosciuszko",
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ],
+    "tags": [
+      "switzerland",
+      "solothurn",
+      "zuchwil",
+      "kosciuszko",
+      "grave"
+    ],
+    "links": [
+      {
+        "title": "Maldzis.world: Шагал па Цюрыху",
+        "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
+      }
+    ]
   }
 ];

@@ -49,6 +49,23 @@ const CATEGORY_CONFIG = {
 };
 const CATEGORY_ICONS = CATEGORY_CONFIG;
 
+// Ensure any image loaded dynamically or statically sends no-referrer to avoid 403 on Wikimedia
+const imgReferrerObserver = new MutationObserver((mutations) => {
+  mutations.forEach((mutation) => {
+    mutation.addedNodes.forEach((node) => {
+      if (node.nodeType === 1) {
+        if (node.tagName === 'IMG' && !node.hasAttribute('referrerpolicy')) {
+          node.setAttribute('referrerpolicy', 'no-referrer');
+        }
+        node.querySelectorAll?.('img:not([referrerpolicy])').forEach(img => {
+          img.setAttribute('referrerpolicy', 'no-referrer');
+        });
+      }
+    });
+  });
+});
+imgReferrerObserver.observe(document.documentElement, { childList: true, subtree: true });
+
 document.addEventListener('DOMContentLoaded', () => {
   // Check admin parameter in URL query or hash: ?admin or #admin
   const urlParams = new URLSearchParams(window.location.search);
@@ -93,7 +110,7 @@ function initI18n() {
 
 let baseLayers = {};
 let layerControl = null;
-let activeBaseLayerKey = 'osm';
+let activeBaseLayerKey = 'voyager';
 
 function setLanguage(lang) {
   if (['by', 'ru', 'en'].includes(lang)) {
@@ -169,11 +186,18 @@ function initMap() {
   });
 }
 
-// Setup base layers (OSM, Satellite, Light CartoDB)
+// Setup base layers (Voyager, OSM, Satellite)
 function setupBaseLayers() {
+  const voyagerLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
+  });
+
   const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 19
+    maxZoom: 19,
+    referrerPolicy: 'strict-origin-when-cross-origin'
   });
 
   const satelliteLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -181,25 +205,19 @@ function setupBaseLayers() {
     maxZoom: 19
   });
 
-  const voyagerLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 19
-  });
-
   baseLayers = {
+    voyager: voyagerLayer,
     osm: osmLayer,
-    satellite: satelliteLayer,
-    voyager: voyagerLayer
+    satellite: satelliteLayer
   };
 
-  // Add default layer (OSM)
+  // Add default layer (Voyager)
   baseLayers[activeBaseLayerKey].addTo(map);
 
   map.on('baselayerchange', (e) => {
     if (e.layer === baseLayers.satellite) activeBaseLayerKey = 'satellite';
-    else if (e.layer === baseLayers.voyager) activeBaseLayerKey = 'voyager';
-    else activeBaseLayerKey = 'osm';
+    else if (e.layer === baseLayers.osm) activeBaseLayerKey = 'osm';
+    else activeBaseLayerKey = 'voyager';
   });
 
   updateLayerControl();
@@ -213,9 +231,9 @@ function updateLayerControl() {
 
   const dict = window.i18n[currentLang] || window.i18n.by;
   const layerLabels = {
+    [dict.layerVoyager || '🎨 Светлая (CartoDB)']: baseLayers.voyager,
     [dict.layerOSM || '🗺️ OpenStreetMap']: baseLayers.osm,
-    [dict.layerSatellite || '🛰️ Спадарожнік (Esri)']: baseLayers.satellite,
-    [dict.layerVoyager || '🎨 Светлая (CartoDB)']: baseLayers.voyager
+    [dict.layerSatellite || '🛰️ Спадарожнік (Esri)']: baseLayers.satellite
   };
 
   layerControl = L.control.layers(layerLabels, null, {
@@ -549,7 +567,7 @@ function renderSidebarList() {
       <div class="place-card ${selectedPlaceId === place.id ? 'active' : ''}" 
            id="card-${place.id}"
            onclick="selectPlace('${place.id}')">
-        <img src="${thumb}" alt="${title}" class="place-card-thumb" loading="lazy">
+        <img src="${thumb}" alt="${title}" class="place-card-thumb" loading="lazy" referrerpolicy="no-referrer">
         <div class="place-card-content">
           <div>
             <div class="place-card-title">${title}</div>
@@ -637,7 +655,7 @@ function showPlaceDetail(placeId) {
   const [lat, lng] = place.coordinates;
   const dict = window.i18n[currentLang];
 
-  const heroImg = place.image ? `<img src="${place.image}" alt="${title}" class="detail-hero-img">` : '';
+  const heroImg = place.image ? `<img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer">` : '';
 
   const tagsHtml = (place.tags || []).map(t => `<span class="detail-tag">#${t}</span>`).join('');
 
@@ -652,7 +670,7 @@ function showPlaceDetail(placeId) {
           ${connectedPersons.map(p => `
             <div class="associated-person-chip" onclick="openPersonDetail('${p.id}')" title="${getLocalized(p.role)}">
               <img src="${p.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'}" 
-                   alt="${getLocalized(p.name)}" class="associated-person-avatar" loading="lazy"
+                   alt="${getLocalized(p.name)}" class="associated-person-avatar" loading="lazy" referrerpolicy="no-referrer"
                    onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
               <span>${getLocalized(p.name)}</span>
             </div>
@@ -1252,7 +1270,7 @@ function renderPersonsGrid() {
 
     return `
       <div class="person-card" onclick="openPersonDetail('${p.id}')">
-        <img src="${avatar}" alt="${name}" class="person-avatar" loading="lazy" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
+        <img src="${avatar}" alt="${name}" class="person-avatar" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
         <div class="person-card-name">${name}</div>
         <div class="person-card-dates">${p.dates || ''}</div>
         <div class="person-card-role">${role}</div>
@@ -1290,7 +1308,7 @@ function openPersonDetail(personId, updateHash = true) {
 
       return `
         <div class="person-place-item" onclick="viewPersonPlaceOnMap('${pl.id}')">
-          ${plThumb ? `<img src="${plThumb}" alt="${plTitle}" class="person-place-thumb" loading="lazy">` : `<div class="person-place-thumb" style="display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--text-muted);border:1px solid var(--border-color);"></div>`}
+          ${plThumb ? `<img src="${plThumb}" alt="${plTitle}" class="person-place-thumb" loading="lazy" referrerpolicy="no-referrer">` : `<div class="person-place-thumb" style="display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--text-muted);border:1px solid var(--border-color);"></div>`}
           <div class="person-place-info">
             <div class="person-place-title">${plTitle}</div>
             <div class="person-place-meta">${plCity}, ${plCountry}</div>
@@ -1306,7 +1324,7 @@ function openPersonDetail(personId, updateHash = true) {
 
     bodyEl.innerHTML = `
       <div class="person-detail-header">
-        <img src="${avatar}" alt="${name}" class="person-detail-avatar" loading="lazy" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
+        <img src="${avatar}" alt="${name}" class="person-detail-avatar" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
         <div class="person-detail-info">
           <div class="person-detail-name">${name}</div>
           <div class="person-detail-meta">

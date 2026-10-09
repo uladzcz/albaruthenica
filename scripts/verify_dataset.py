@@ -20,13 +20,13 @@ def verify():
     # 3. Check data/places.js
     with open('data/places.js', 'r', encoding='utf-8') as f:
         pjs = f.read()
-    assert pjs.startswith('window.PLACES_DATA = [') and pjs.strip().endswith('];')
+    assert 'window.INITIAL_PLACES = [' in pjs and pjs.strip().endswith('];')
     print("data/places.js is valid JS syntax structure")
     
     # 4. Check data/persons.js
     with open('data/persons.js', 'r', encoding='utf-8') as f:
         perjs = f.read()
-    assert perjs.startswith('window.PERSONS_DATA = [') and perjs.strip().endswith('];')
+    assert 'window.INITIAL_PERSONS = [' in perjs and perjs.strip().endswith('];')
     print("data/persons.js is valid JS syntax structure")
     
     # Check Places Schema
