@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
   <title>Albaruthenica — Беларускія мясціны свету</title>
   <meta name="description" content="Інтэрактыўная мапа беларускіх гістарычных мясцін, помнікаў, храмаў і культурных асяродкаў па ўсім свеце.">
   
@@ -308,6 +309,25 @@
       </div>
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="closeModal('personModal')" data-i18n="closeModal">Закрыць</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nested Item Detail Modal -->
+  <div class="modal-overlay" id="nestedItemModal">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" id="nestedItemModalTitle">Укладзены аб’ект</h3>
+          <p class="modal-subtitle" id="nestedItemModalSubtitle"></p>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('nestedItemModal')">&times;</button>
+      </div>
+      <div class="modal-body" id="nestedItemModalBody">
+        <!-- Injected by JS -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('nestedItemModal')" data-i18n="closeModal">Закрыць</button>
       </div>
     </div>
   </div>

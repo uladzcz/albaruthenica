@@ -20,15 +20,34 @@ let filterOnlyUnverified = false;
 let adminPickMode = false;
 let activeDraggableMarker = null;
 
-// Category icons config (monochrome minimal design)
-const CATEGORY_ICONS = {
-  monument: '',
-  grave: '',
-  church: '',
-  culture: '',
-  historical: '',
-  plaque: ''
+// Category config with distinct colors and crisp SVG glyph icons
+const CATEGORY_CONFIG = {
+  monument: {
+    color: '#d97706',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-3 8a3 3 0 0 0-3 3v2h12v-2a3 3 0 0 0-3-3H9zm-5 7h16v2H4v-2zm-2 3h20v2H2v-2z"/></svg>`
+  },
+  historical: {
+    color: '#dc2626',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M2 4h4v3h2V4h4v3h2V4h4v3h2V4h2v16H2V4zm2 14h16V9h-2v2h-4V9h-2v2h-4V9H4v9zm7-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h-4v-5z"/></svg>`
+  },
+  culture: {
+    color: '#2563eb',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2L2 7v2h20V7L12 2zM4 11v7h3v-7H4zm6 0v7h4v-7h-4zm7 0v7h3v-7h-3zM2 20v2h20v-2H2z"/></svg>`
+  },
+  church: {
+    color: '#7c3aed',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M11 2h2v2h2v2h-2v2h2l1 2v12h-2v-4a2 2 0 0 0-4 0v4H4V10l1-2h2V6H5V4h2V2h2v2h2V2zm-3 8v2h8v-2H8z"/></svg>`
+  },
+  plaque: {
+    color: '#059669',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M4 3h16a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm2 4v2h12V7H6zm0 4v2h12v-2H6zm0 4v2h8v-2H6z"/></svg>`
+  },
+  grave: {
+    color: '#475569',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C8.69 2 6 4.69 6 8v12h12V8c0-3.31-2.69-6-6-6zm0 4c.55 0 1 .45 1 1v1h1c.55 0 1 .45 1 1s-.45 1-1 1h-1v4c0 .55-.45 1-1 1s-1-.45-1-1v-4H9c-.55 0-1-.45-1-1s.45-1 1-1h1V7c0-.55.45-1 1-1zm-8 16h16v2H4v-2z"/></svg>`
+  }
 };
+const CATEGORY_ICONS = CATEGORY_CONFIG;
 
 document.addEventListener('DOMContentLoaded', () => {
   // Check admin parameter in URL query or hash: ?admin or #admin
@@ -330,11 +349,17 @@ function renderCategoryPills() {
     { id: 'plaque', label: dict.categories.plaque }
   ];
 
-  container.innerHTML = categories.map(cat => `
-    <button class="category-pill ${activeCategory === cat.id ? 'active' : ''}" data-cat="${cat.id}">
-      ${cat.label}
-    </button>
-  `).join('');
+  container.innerHTML = categories.map(cat => {
+    const isAct = activeCategory === cat.id;
+    const conf = CATEGORY_CONFIG[cat.id];
+    const iconHtml = conf ? `<span class="category-pill-icon" style="background-color: ${conf.color}">${conf.icon}</span>` : '';
+    return `
+      <button class="category-pill ${isAct ? 'active' : ''} category-${cat.id}" data-cat="${cat.id}">
+        ${iconHtml}
+        <span>${cat.label}</span>
+      </button>
+    `;
+  }).join('');
 
   container.querySelectorAll('.category-pill').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -352,14 +377,16 @@ function getLocalized(obj) {
   return obj[currentLang] || obj.by || obj.ru || obj.en || '';
 }
 
-// Create custom pin HTML icon (sharp minimal square with center dot)
-function createCustomMarkerIcon(category) {
+// Create custom pin HTML icon (round colored pin with centered white SVG icon)
+function createCustomMarkerIcon(category, isUnverified = false) {
+  const conf = CATEGORY_CONFIG[category] || CATEGORY_CONFIG.historical;
+  const unverifiedClass = isUnverified ? ' unverified-pin' : '';
   return L.divIcon({
-    className: 'custom-pin-container',
-    html: `<div class="custom-pin category-${category}"><span class="custom-pin-core"></span></div>`,
-    iconSize: [16, 16],
-    iconAnchor: [8, 8],
-    popupAnchor: [0, -10]
+    className: 'custom-pin-wrapper',
+    html: `<div class="custom-pin category-${category}${unverifiedClass}" style="--pin-color: ${conf.color};" title="${category}">${conf.icon}</div>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -16]
   });
 }
 
@@ -378,7 +405,7 @@ function renderMarkers() {
     const categoryName = window.i18n[currentLang].categories[place.category] || place.category;
 
     const marker = L.marker([lat, lng], {
-      icon: createCustomMarkerIcon(place.category)
+      icon: createCustomMarkerIcon(place.category, place.unverifiedCoordinates)
     });
 
     // Custom popup
@@ -390,9 +417,9 @@ function renderMarkers() {
 
     const popupHtml = `
       <div class="popup-card">
-        ${place.image ? `<img src="${place.image}" alt="${title}" class="popup-img" loading="lazy">` : ''}
+        ${place.image ? `<img src="${place.image}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer">` : ''}
         <div class="popup-body">
-          <span class="place-card-category">${categoryName}</span>
+          <span class="place-card-category cat-${place.category}">${categoryName}</span>
           ${unverifiedPopupNotice}
           <div class="popup-title">${title}</div>
           <div class="popup-loc">${city}, ${country}</div>
@@ -403,8 +430,7 @@ function renderMarkers() {
       </div>
     `;
 
-    marker.bindPopup(popupHtml);
-
+    marker.bindPopup(popupHtml, { maxWidth: 280, minWidth: 220 });
     marker.on('click', () => {
       highlightSidebarCard(place.id);
     });
@@ -412,6 +438,8 @@ function renderMarkers() {
     markerCluster.addLayer(marker);
     markersMap.set(place.id, marker);
   });
+
+  map.addLayer(markerCluster);
 }
 
 function updateAllMarkersTooltips() {
@@ -639,28 +667,37 @@ function showPlaceDetail(placeId) {
   if (place.items && Array.isArray(place.items) && place.items.length > 0) {
     nestedItemsHtml = `
       <div class="nested-items-section">
-        <strong style="font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-main);">${dict.nestedObjectsTitle || 'Укладзеныя аб’екты, творы і пахаванні:'}</strong>
-        ${place.items.map(it => {
-          const itPerson = it.personId ? allPersons.find(p => p.id === it.personId) : null;
-          const authorBadge = it.author ? (
-            itPerson ? `<button class="nested-item-person-link" onclick="event.stopPropagation(); openPersonDetail('${itPerson.id}')" title="Пра асобу">${it.author}</button>` : `<span class="nested-item-author-badge">${it.author}</span>`
-          ) : '';
-          const personBadge = it.person ? (
-            itPerson ? `<button class="nested-item-person-link" onclick="event.stopPropagation(); openPersonDetail('${itPerson.id}')" title="Пра асобу">${it.person}</button>` : `<span class="nested-item-author-badge">${it.person}</span>`
-          ) : '';
+        <div class="nested-items-header">
+          <strong>${dict.nestedObjectsTitle || 'Укладзеныя аб’екты, творы і пахаванні:'}</strong>
+          <span class="nested-items-count">${place.items.length}</span>
+        </div>
+        <div class="nested-items-grid">
+        ${place.items.map((it, idx) => {
+          const itPerson = resolvePersonForSubItem(it);
+          const personName = it.person || it.author || (itPerson ? getLocalized(itPerson.name) : '');
+          const personBadge = personName ? `
+            <button type="button" class="nested-item-person-btn" onclick="event.stopPropagation(); handlePersonClickFromItem('${itPerson ? itPerson.id : ''}', '${encodeURIComponent(personName)}')" title="${dict.aboutPerson || 'Пра асобу'}">
+              <span class="person-icon-dot"></span>
+              <span>${personName}</span>
+              <span class="person-btn-arrow">&rarr;</span>
+            </button>
+          ` : '';
 
           return `
-          <div class="nested-item-card">
-            <div class="nested-item-title">${it.title}</div>
-            <div class="nested-item-meta">
-              ${authorBadge}
-              ${personBadge}
-              ${it.year ? `<span>${it.year}</span>` : ''}
+          <div class="nested-item-card" onclick="openNestedItemModal('${place.id}', ${idx})" title="${dict.clickToViewDetails || 'Націсніце для прагляду дэталяў'}">
+            <div class="nested-item-card-header">
+              <div class="nested-item-title">${it.title}</div>
+              ${it.year ? `<span class="nested-item-year">${it.year}</span>` : ''}
             </div>
+            ${personBadge ? `<div class="nested-item-meta">${personBadge}</div>` : ''}
             ${it.description ? `<div class="nested-item-desc">${it.description}</div>` : ''}
-            ${it.image ? `<img src="${it.image}" alt="${it.title}" class="nested-item-thumb" loading="lazy">` : ''}
+            ${it.image ? `<div class="nested-item-image-wrapper"><img src="${it.image}" alt="${it.title}" class="nested-item-thumb" loading="lazy" referrerpolicy="no-referrer"></div>` : ''}
+            <div class="nested-item-card-footer">
+              <span class="nested-item-view-btn">${dict.viewDetails || 'Падрабязней'} &rarr;</span>
+            </div>
           </div>
         `}).join('')}
+        </div>
       </div>
     `;
   }
@@ -840,6 +877,103 @@ function copyCurrentShareLink() {
   navigator.clipboard.writeText(url).then(() => {
     showToast(window.i18n[currentLang].linkCopied);
   });
+}
+
+// Resolve associated person from nested item metadata
+function resolvePersonForSubItem(it) {
+  if (!it) return null;
+  if (it.personId) {
+    const p = allPersons.find(p => p.id === it.personId);
+    if (p) return p;
+  }
+  const rawStr = (it.person || it.author || '').toLowerCase();
+  if (!rawStr) return null;
+  const cleanStr = rawStr.replace(/\(.*?\)/g, '').trim();
+  if (!cleanStr) return null;
+  return allPersons.find(p => {
+    const pBy = (p.name?.by || '').toLowerCase();
+    const pRu = (p.name?.ru || '').toLowerCase();
+    const pEn = (p.name?.en || '').toLowerCase();
+    return cleanStr.includes(pBy) || pBy.includes(cleanStr) ||
+           cleanStr.includes(pRu) || pRu.includes(cleanStr) ||
+           cleanStr.includes(pEn) || pEn.includes(cleanStr);
+  });
+}
+
+// Handle clicking person button from within a sub-item card
+function handlePersonClickFromItem(personId, rawEncodedName) {
+  if (personId && allPersons.some(p => p.id === personId)) {
+    closeModal('nestedItemModal');
+    openPersonDetail(personId);
+    return;
+  }
+  const rawName = decodeURIComponent(rawEncodedName || '');
+  const p = resolvePersonForSubItem({ author: rawName, person: rawName });
+  if (p) {
+    closeModal('nestedItemModal');
+    openPersonDetail(p.id);
+    return;
+  }
+  closeModal('nestedItemModal');
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) {
+    const cleanName = rawName.replace(/\(.*?\)/g, '').trim();
+    searchInput.value = cleanName;
+    searchInput.dispatchEvent(new Event('input'));
+  }
+}
+
+// Open modal showing comprehensive details of a nested item
+function openNestedItemModal(placeId, itemIdx) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place || !place.items || !place.items[itemIdx]) return;
+  const it = place.items[itemIdx];
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  const itPerson = resolvePersonForSubItem(it);
+  const personDisplayName = it.person || it.author || (itPerson ? getLocalized(itPerson.name) : '');
+
+  const titleEl = document.getElementById('nestedItemModalTitle');
+  if (titleEl) titleEl.textContent = it.title;
+
+  const subEl = document.getElementById('nestedItemModalSubtitle');
+  if (subEl) subEl.textContent = `${getLocalized(place.title)} (${getLocalized(place.city)}, ${getLocalized(place.country)})`;
+
+  const bodyEl = document.getElementById('nestedItemModalBody');
+  if (bodyEl) {
+    bodyEl.innerHTML = `
+      <div class="nested-detail-container">
+        ${it.image ? `
+          <div class="nested-detail-image-box">
+            <img src="${it.image}" alt="${it.title}" class="nested-detail-image" loading="lazy" referrerpolicy="no-referrer">
+          </div>
+        ` : ''}
+        <div class="nested-detail-content">
+          <h3 class="nested-detail-item-title">${it.title}</h3>
+          <div class="nested-detail-meta-row">
+            ${personDisplayName ? `
+              <button type="button" class="nested-item-person-btn-lg" onclick="handlePersonClickFromItem('${itPerson ? itPerson.id : ''}', '${encodeURIComponent(personDisplayName)}')">
+                <span class="person-icon-dot" style="width:8px;height:8px;border-radius:50%;background:#2563eb;display:inline-block;"></span>
+                <span>${personDisplayName}</span> &rarr;
+              </button>
+            ` : ''}
+            ${it.year ? `<span class="nested-detail-year-badge">${it.year}</span>` : ''}
+          </div>
+          ${it.description ? `
+            <div class="nested-detail-description">
+              ${it.description}
+            </div>
+          ` : ''}
+          <div class="nested-detail-parent-place">
+            <div class="nested-parent-label">${dict.locatedInPlace || 'Знаходзіцца ў комплексе / аб’екце:'}</div>
+            <div class="nested-parent-name" onclick="closeModal('nestedItemModal'); selectPlace('${place.id}')">
+              <strong>${getLocalized(place.title)}</strong> &bull; ${getLocalized(place.city)}, ${getLocalized(place.country)} &rarr;
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  openModal('nestedItemModal');
 }
 
 // Check url hash on load
@@ -1508,6 +1642,8 @@ window.closeModal = closeModal;
 window.openAllPersonsModal = openAllPersonsModal;
 window.openPersonDetail = openPersonDetail;
 window.viewPersonPlaceOnMap = viewPersonPlaceOnMap;
+window.openNestedItemModal = openNestedItemModal;
+window.handlePersonClickFromItem = handlePersonClickFromItem;
 
 // Admin functions global exposure
 window.toggleAdminMode = toggleAdminMode;

@@ -92,7 +92,11 @@ const i18n = {
     adminModalTitle: "Мадэрацыя неправераных каардынат",
     adminExportModalTitle: "Экспарт абноўленага places.json",
     adminDownloadJson: "Спампаваць places.json",
-    adminDragMarkerHint: "У рэжыме адміна можна перацягваць маркер на карце мышкай"
+    adminDragMarkerHint: "У рэжыме адміна можна перацягваць маркер на карце мышкай",
+    aboutPerson: "Пра асобу",
+    locatedInPlace: "Знаходзіцца ў комплексе / аб'екце:",
+    clickToViewDetails: "Націсніце для прагляду дэталяў",
+    viewDetails: "Падрабязней"
   },
   ru: {
     siteTitle: "Albaruthenica",
@@ -185,7 +189,11 @@ const i18n = {
     adminModalTitle: "Модерация непроверенных координат",
     adminExportModalTitle: "Экспорт обновлённого places.json",
     adminDownloadJson: "Скачать places.json",
-    adminDragMarkerHint: "В режиме админа можно перетаскивать маркер на карте мышкой"
+    adminDragMarkerHint: "В режиме админа можно перетаскивать маркер на карте мышкой",
+    aboutPerson: "О личности",
+    locatedInPlace: "Находится в комплексе / объекте:",
+    clickToViewDetails: "Нажмите для просмотра деталей",
+    viewDetails: "Подробнее"
   },
   en: {
     siteTitle: "Albaruthenica",
@@ -278,7 +286,11 @@ const i18n = {
     adminModalTitle: "Coordinate Verification Queue",
     adminExportModalTitle: "Export updated places.json",
     adminDownloadJson: "Download places.json",
-    adminDragMarkerHint: "In admin mode you can drag the map pin directly"
+    adminDragMarkerHint: "In admin mode you can drag the map pin directly",
+    aboutPerson: "About person",
+    locatedInPlace: "Located in site / complex:",
+    clickToViewDetails: "Click to view details",
+    viewDetails: "View details"
   }
 };
 

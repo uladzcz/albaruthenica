@@ -17,7 +17,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в имении Богданово (Воложинский район). Выдающийся представитель европейского символизма и модерна. Профессор Краковской академии искусств, декан факультета изящных искусств Виленского университета. Автор легендарного полотна «Земля» (1898).",
       "en": "Born in the Bohdanava estate (Valozhyn district). A master of European symbolism and Art Nouveau, professor at Krakow Academy and dean at Vilnius University. Renowned for his monumental masterpiece 'Earth' (1898) and stage design."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ferdynand_Ruszczyc.jpg/480px-Ferdynand_Ruszczyc.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Ferdynand_Ruszczyc.jpg/330px-Ferdynand_Ruszczyc.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Фердынанд_Рушчыц",
     "placeIds": [
       "vilnia-batanichny-sad-zhylibera-dom-rushchytsa",
@@ -44,11 +44,11 @@ window.PERSONS_DATA = [
       "en": "Pioneer printer, humanist thinker, Doctor of Medicine"
     },
     "bio": {
-      "by": "Ураджэнец Полацка. У 1512 годзе ў Падуанскім універсітэце бліскуча абараніў ступень доктара медыцыны. У 1517–1519 гг. у Празе выдаў першыя друкаваныя кнігі на старабеларускай мове (Біблію Руску). У 1522 г. у Вільні заснаваў першую на землях ВКЛ друкарню («Малая падарожная кніжка»).",
-      "ru": "Уроженец Полоцка. В 1512 г. защитил степень доктора медицины в Падуанском университете. В 1517–1519 гг. в Праге издал первые печатные книги на старобелорусском языке. В 1522 г. в Вильне открыл первую типографию на землях ВКЛ.",
-      "en": "Born in Polatsk. Earned his medical doctorate at the University of Padua (1512). In Prague (1517–1519), published the first printed Bible in Old Belarusian. In 1522, established the first printing press in Vilnius."
+      "by": "Ураджэнец Полацка. Беларускі і ўсходнеславянскі першадрукар, мысліцель-гуманіст, доктар лекарскіх навук Падуанскага ўніверсітэта. У 1517–1519 гг. у Празе выдаў першыя друкаваныя кнігі на старабеларускай мове (Біблію Руску). У 1522 г. у Вільні заснаваў першую друкарню на землях ВКЛ.",
+      "ru": "Уроженец Полоцка. Белорусский и восточнославянский первопечатник, мыслитель-гуманист, доктор медицины Падуанского университета. Издал в Праге первую Библию на старобелорусском языке (1517–1519), открыл первую типографию в Вильне (1522).",
+      "en": "Born in Polatsk. Belarusian and East Slavic pioneer printer, Renaissance humanist, and Doctor of Medicine (Padua, 1512). Published the first printed Bible in Old Belarusian in Prague (1517–1519) and established the Grand Duchy's first printing shop in Vilnius (1522)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg/640px-Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Franci%C5%A1ak_Skaryna.jpg/330px-Franci%C5%A1ak_Skaryna.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Францыск_Скарына",
     "placeIds": [
       "london-skaryna-library",
@@ -86,11 +86,10 @@ window.PERSONS_DATA = [
       "ru": "Родился в местечке Смиловичи под Минском. Учился в Минске и Вильне, с 1913 года жил в Париже. Создал неповторимый экспрессионистский стиль, повлиявший на мировое искусство. Картины выставлены в Оранжери, MoMA и Помпиду.",
       "en": "Born in Smilavichy near Minsk. Studied in Minsk and Vilnius before arriving in Paris in 1913. Became a pioneer of modern expressionism whose turbulent, visceral canvases are collected by the world's leading museums."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg/640px-Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/ChaimSoutine_1935.jpg/330px-ChaimSoutine_1935.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Хаім_Суцін",
     "placeIds": [
       "new-york-moma-chagall-soutine",
-      "paris-centre-pompidou-chagall-zadkine",
       "paris-orangerie-soutine"
     ]
   },
@@ -112,7 +111,7 @@ window.PERSONS_DATA = [
       "ru": "Родился под Витебском. Основатель Витебского народного художественного училища. Пронёс образы родного Витебска через всё творчество («Я и деревня», «Над городом»). Автор плафона парижской Гранд-Опера.",
       "en": "Born near Vitebsk. Founded the Vitebsk People's Art College. His dreamlike, poetic canvases—deeply inspired by Belarusian village life and Vitebsk rooftops—are global icons of modern art."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Marc_Chagall_1941.jpg/480px-Marc_Chagall_1941.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Shagal_Choumoff.jpg/330px-Shagal_Choumoff.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Марк_Захаравіч_Шагал",
     "placeIds": [
       "new-york-moma-chagall-soutine",
@@ -138,7 +137,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Мостовлянах. Издатель газеты «Мужыцкая праўда». Руководитель восстания 1863–1864 гг. на землях Беларуси и Литвы. Автор «Писем из-под виселицы». Торжественно перезахоронен на кладбище Росса в Вильнюсе.",
       "en": "Born in Mastaŭliany. Publisher of the historic underground paper 'Mužyckaja Prauda'. Led the 1863–1864 Uprising in Belarus and Lithuania. Executed in Vilnius; reburied in state in the Rasos Cemetery chapel in 2019."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Kastus_Kalinouski_1863.jpg/480px-Kastus_Kalinouski_1863.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Konstanty_Kalinowski_-_between_1862_and_1863.jpg/330px-Konstanty_Kalinowski_-_between_1862_and_1863.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Кастусь_Каліноўскі",
     "placeIds": [
       "vilnia-bibliyateka-akademii-navuk-litvy-imya-urublew",
@@ -163,11 +162,11 @@ window.PERSONS_DATA = [
       "en": "National hero of Belarus, Poland, Lithuania, and the USA"
     },
     "bio": {
-      "by": "Нарадзіўся ва ўрочышчы Мерачоўшчына (цяпер Івацэвіцкі раён). Герой Вайны за незалежнасць ЗША, генерал, блізкі паплечнік Джорджа Вашынгтона і Томаса Джэферсана. Кіраўнік нацыянальна-вызвольнага паўстання 1794 года ў Рэчы Паспалітай. Апошнія гады правёў у Залатурне (Швейцарыя).",
-      "ru": "Родился в урочище Меречёвщина (Ивацевичский район). Герой Войны за независимость США, бригадный генерал. Руководитель освободительного восстания 1794 года. Последние годы провёл в Золотурне (Швейцария).",
-      "en": "Born in Mieračoŭščyna (Brest region). General and military engineer in the American Revolutionary War. Commander-in-chief of the 1794 Uprising against Russian imperial partition."
+      "by": "Нарадзіўся ва ўрочышчы Мерачоўшчына каля Косава (цяпер Івацэвіцкі раён Брэсцкай вобласці). Выбітны ваенны інжынер, нацыянальны герой Беларусі, Польшчы і ЗША. Кіраўнік вызваленчага паўстання 1794 года ў абарону незалежнасці Рэчы Паспалітай і ВКЛ. Ганаровы грамадзянін Францыі і генерал арміі Джорджа Вашынгтона.",
+      "ru": "Родился в урочище Меречёвщина близ Коссово (Брестская область). Выдающийся военный инженер, национальный герой Беларуси, Польши и США. Предводитель освободительного восстания 1794 года, бригадный генерал армии США.",
+      "en": "Born in Merachowshchyna near Kosava (Brest region). National hero of Belarus, Poland, and the United States, military engineer and supreme commander of the 1794 Uprising defending the freedom of the Grand Duchy and Poland."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pomnik_Tadeusza_Ko%C5%9Bciuszki_w_Warszawie.JPG/640px-Pomnik_Tadeusza_Ko%C5%9Bciuszki_w_Warszawie.JPG",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Karl_G_Schweikart_-_Tadeusz_Ko%C5%9Bciuszko_%28%C3%96aL%29.jpg/330px-Karl_G_Schweikart_-_Tadeusz_Ko%C5%9Bciuszko_%28%C3%96aL%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Касцюшка",
     "placeIds": [
       "kosciuszko-memorial-philadelphia",
@@ -176,8 +175,8 @@ window.PERSONS_DATA = [
       "kosciuszko-monument-wawel-krakow",
       "kosciuszko-monument-west-point",
       "kosciuszko-mound-krakow",
-      "kosciuszko-museum-solothurn",
       "kosciuszko-summit-plaque-australia",
+      "solothurn-kosciuszko-monument",
       "solothurn-kosciuszko-museum",
       "vilnia-kastsyol-svyatoha-yana",
       "vilnius-picture-gallery-rusiecki-ruszczyc",
@@ -198,11 +197,11 @@ window.PERSONS_DATA = [
       "en": "Romantic poet, visionary leader of the Great Emigration"
     },
     "bio": {
-      "by": "Нарадзіўся на Навагрудчыне (Завоссе). Стваральнік таварыства філаматаў у Віленскім універсітэце. Аўтар эпапеі «Пан Тадэвуш», паэмы «Дзяды», вершаў пра беларускую зямлю. Лідэр эміграцыі ў Парыжы. Першапачаткова быў пахаваны на могілках у Манмарансі (Францыя).",
-      "ru": "Родился на Новогрудчине (Заосье). Основатель общества филоматов. Автор «Пана Тадеуша» и поэмы «Дзяды». Лидер европейской эмиграции в Париже.",
-      "en": "Born in the Navahrudak region. Pioneer of European romanticism, author of 'Pan Tadeusz' and 'Dziady'. A pivotal figure in exile politics and literature in Paris."
+      "by": "Нарадзіўся на Навагрудчыне (фальварак Завоссе). Геніяльны паэт-рамантык, пачынальнік новай беларускай літаратурнай традыцыі («Літва! Мая айчына...»). Выкарыстоўваў беларускія паданні, моўныя элементы і фальклор Навагрудчыны і Свіцязі ў сусветна вядомых паэмах «Гражына», «Дзяды», «Пан Тадэвуш».",
+      "ru": "Родился на Новогрудчине (фольварк Заосье). Классик романтизма, воспевший родные новогрудские земли, озеро Свитязь и шляхетские традиции ВКЛ в бессмертных поэмах «Гражина», «Дзяды» и «Пан Тадеуш».",
+      "en": "Born in the Navahrudak region (Zavosse estate). Foremost Romantic poet whose immortal masterpieces ('Pan Tadeusz', 'Dziady', 'Grażyna') are deeply rooted in the folklore, landscapes, and heritage of Belarusian lands."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walenty_Wa%C5%84kowicz_-_Portret_Adama_Mickiewicza_na_Judahu_skale.jpg/480px-Walenty_Wa%C5%84kowicz_-_Portret_Adama_Mickiewicza_na_Judahu_skale.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Adam_Mickiewicz_wed%C5%82ug_dagerotypu_paryskiego_z_1842_roku.jpg/330px-Adam_Mickiewicz_wed%C5%82ug_dagerotypu_paryskiego_z_1842_roku.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Адам_Міцкевіч",
     "placeIds": [
       "mickiewicz-bust-weimar",
@@ -214,13 +213,11 @@ window.PERSONS_DATA = [
       "mickiewicz-museum-paris",
       "mickiewicz-plaque-rome",
       "montmorency-polish-belarusian-pantheon",
-      "santiago-domeiko-university",
       "vilnia-aposhni-adras-a-mitskevicha",
       "vilnia-bazylyanskiya-mury-memaryyalnaya-shylda-damey",
       "vilnia-brama-va-wniversitetski-dvor-imya-a-mitskevic",
       "vilnia-dom-dze-spynyawsya-mitskevich",
       "vilnia-dom-muzey-a-mitskevicha",
-      "vilnia-dom-pad-balvanami",
       "vilnia-dom-urublewskaha",
       "vilnia-drukarnya-vilenskay-ezuitskay-akademii",
       "vilnia-kellya-konrada",
@@ -249,7 +246,7 @@ window.PERSONS_DATA = [
       "ru": "Родился под Вильной. Участник восстания 1863–1864 гг. Автор сборников «Дудка беларуская» и «Смык беларускі». Работая адвокатом в Вильнюсе, защищал крестьян.",
       "en": "Born near Vilnius. Veteran of the 1863 Uprising. Under the pen name Maciej Buračok, published manifesto poetry collections establishing modern Belarusian national identity."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Francisak_Bahusevic.jpg/480px-Francisak_Bahusevic.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Franci%C5%A1ak_Bahu%C5%A1evi%C4%8D._%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%96%D1%88%D0%B0%D0%BA_%D0%91%D0%B0%D0%B3%D1%83%D1%88%D1%8D%D0%B2%D1%96%D1%87_%281880-89%29_%284%29.jpg/330px-Franci%C5%A1ak_Bahu%C5%A1evi%C4%8D._%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%96%D1%88%D0%B0%D0%BA_%D0%91%D0%B0%D0%B3%D1%83%D1%88%D1%8D%D0%B2%D1%96%D1%87_%281880-89%29_%284%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Францішак_Багушэвіч",
     "placeIds": [
       "vilnia-belaruski-narodny-dom",
@@ -277,7 +274,7 @@ window.PERSONS_DATA = [
       "ru": "Иван Луцевич родился в Вязанке. В 1913–1915 гг. жил в Вильнюсе и редактировал газету «Наша Ніва». Автор бессмертных пьес «Паўлінка», «Раскіданае гняздо», «Тутэйшыя».",
       "en": "Ivan Lutsevich (Yanka Kupala) was born in Viazynka. Lived in Vilnius as editor of 'Nasha Niva'. Authored monumental national plays and poems translated into dozens of world languages."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Vilniaus_29_Kupala.jpg/640px-Vilniaus_29_Kupala.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jan_Lucevi%C4%8D_%28Janka_Kupala%29._%D0%AF%D0%BD_%D0%9B%D1%83%D1%86%D1%8D%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0%29_%281925%29.jpg/330px-Jan_Lucevi%C4%8D_%28Janka_Kupala%29._%D0%AF%D0%BD_%D0%9B%D1%83%D1%86%D1%8D%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0%29_%281925%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Янка_Купала",
     "placeIds": [
       "riga-kupala-belarusian-school",
@@ -307,11 +304,11 @@ window.PERSONS_DATA = [
       "en": "Geologist, mineralogist, rector of the University of Chile"
     },
     "bio": {
-      "by": "Нарадзіўся ў маёнтку Мядзвядка на Навагрудчыне. Сябра таварыства філаматаў, зняволены ў Базыльянскіх мурах разам з Міцкевічам. Пасля паўстання 1831 г. эміграваў у Чылі, дзе стаў рэктарам галоўнага ўніверсітэта, рэфарматарам адукацыі і нацыянальным героем краіны. Яго імем названы мінерал дамейкіт і горны хрыбет у Андах.",
-      "ru": "Родился на Новогрудчине. Член общества филоматов. После восстания 1831 г. переехал в Чили, где возглавил Чилийский университет, реформировал науку и стал национальным героем.",
-      "en": "Born in Navahrudak region. A philomath and companion of Mickiewicz, he emigrated to Chile, transformed its educational system, served as rector of the University of Chile, and had mountain ranges named in his honor."
+      "by": "Нарадзіўся ў маёнтку Мядзвядка Навагрудскага павета (цяпер Карэліцкі раён Гродзенскай вобласці). Сябра таварыства філаматаў і блізкі сябар Адама Міцкевіча, удзельнік вызваленчага паўстання 1830–1831 гг. У эміграцыі стаў выдатным геолагам, рэктарам Чылійскага ўніверсітэта і нацыянальным героем Чылі.",
+      "ru": "Родился в имении Медвядка Новогрудского уезда (Гродненская область). Член общества филоматов, сподвижник Мицкевича, участник восстания 1830–1831 гг. Национальный герой Чили, ректор Чилийского университета.",
+      "en": "Born in Myadzvyadka near Karelichy (Hrodna region). Member of the Philomaths, comrade of Mickiewicz, and veteran of the 1831 Uprising. Became the founding father of Chilean science, mineralogy, and rector of the University of Chile."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ignacy_Domeyko_monument_in_Santiago.jpg/640px-Ignacy_Domeyko_monument_in_Santiago.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Domeyko.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Ігнат_Дамейка",
     "placeIds": [
       "domeyko-bust-universidad-chile",
@@ -319,9 +316,7 @@ window.PERSONS_DATA = [
       "domeyko-memorial-la-serena",
       "santiago-domeiko-university",
       "vilnia-bazylyanskiya-mury-memaryyalnaya-shylda-damey",
-      "vilnia-kellya-konrada",
-      "vilnia-palats-sapehaw",
-      "vilnia-vilenski-universitet-universitetskaya-bibliya"
+      "vilnia-kellya-konrada"
     ]
   },
   {
@@ -342,7 +337,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Гродно. Ведущий декоратор и художник «Русских сезонов» Дягилева в Париже и Лондоне. Его сценография к балетам «Шехеразада» и «Жар-птица» перевернула представления о моде и театре.",
       "en": "Born in Hrodna. Chief designer for Sergei Diaghilev's Ballets Russes in Paris and London. Revolutionized 20th-century stage design, aesthetics, and Parisian high fashion."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Leon_Bakst_001.jpg/640px-Leon_Bakst_001.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/L%C3%A9on_Bakst%2C_Self-Portrait%2C_1906%2C_Tretyakov_Gallery_9077.jpg/330px-L%C3%A9on_Bakst%2C_Self-Portrait%2C_1906%2C_Tretyakov_Gallery_9077.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Леон_Бакст",
     "placeIds": [
       "london-va-bakst"
@@ -366,12 +361,10 @@ window.PERSONS_DATA = [
       "ru": "Родился в Вороцевичах на Пинщине. Участник восстания 1831 г., друг Шопена в Париже. Создал более 1000 рисунков замков, усадеб и храмов Беларуси и ВКЛ.",
       "en": "Born in Varakavichy (Pinsk district). Created an unprecedented visual record of over 1,000 architectural drawings documenting historic castles and estates across Belarus and the former Grand Duchy."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg/640px-Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Napoleon_Orda_%2858971%29.jpg/330px-Napoleon_Orda_%2858971%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Напалеон_Орда",
     "placeIds": [
-      "krakow-mnk-napoleon-orda",
-      "vilnia-vilenski-universitet-universitetskaya-bibliya",
-      "warsaw-mnw-wankowicz-ruszczyc"
+      "krakow-mnk-napoleon-orda"
     ]
   },
   {
@@ -392,7 +385,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Игуменском уезде. Друг Адама Мицкевича, автор его хрестоматийного портрета на скале Аю-Даг. В Минске открыт Дом-музей Ваньковичей. Похоронен на Монмартре в Париже.",
       "en": "Born in the Ihumen district. Intimate friend of Adam Mickiewicz, creating the definitive romantic portrait of the poet. Buried in the Montmartre Cemetery in Paris."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walenty_Wa%C5%84kowicz_-_Portret_Adama_Mickiewicza_na_Judahu_skale.jpg/480px-Walenty_Wa%C5%84kowicz_-_Portret_Adama_Mickiewicza_na_Judahu_skale.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Walenty_wankowicz.jpg/330px-Walenty_wankowicz.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Валенцій_Ваньковіч",
     "placeIds": [
       "vilnius-picture-gallery-rusiecki-ruszczyc",
@@ -417,12 +410,11 @@ window.PERSONS_DATA = [
       "ru": "Родился в имении Убель Минской губернии. Создатель классической оперы, автор «Домашних песенников», опер «Галька», «Страшный двор». Написал музыку к опере «Сялянка» Дунина-Марцинкевича.",
       "en": "Born in Ubel (Minsk region). Creator of national opera, composing 'Halka' and the 'Haunted Manor', as well as the music for Dunin-Marcinkievič's groundbreaking Belarusian operetta 'Sialanka' (1852)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Church_of_St_Johns_Vilnius_2021.jpg/640px-Church_of_St_Johns_Vilnius_2021.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg/330px-Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Манюшка",
     "placeIds": [
       "vilnia-dom-myulera-memaryyalnaya-shylda-s-manyushku",
       "vilnia-haradskaya-ratusha",
-      "vilnia-kastsyol-svyatoha-yana",
       "vilnia-pomnik-manyushku"
     ]
   },
@@ -444,7 +436,7 @@ window.PERSONS_DATA = [
       "ru": "Основатель Белорусской социалистической громады, газет «Наша Доля» и «Наша Ніва», вдохновитель провозглашения независимости БНР (1918). Основал Белорусский музей в Вильнюсе. Покоится на кладбище Росса.",
       "en": "Prime mover of the 20th-century Belarusian national revival. Co-founded 'Nasha Niva' and the Belarusian Democratic Republic (BNR, 1918). Assembled the seminal Vilnius Belarusian Museum."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vilniaus_20_Lutskevich_Museum.jpg/640px-Vilniaus_20_Lutskevich_Museum.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ivan_%C5%81uckievi%C4%8D._%D0%86%D0%B2%D0%B0%D0%BD_%D0%9B%D1%83%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%281915%29.jpg/330px-Ivan_%C5%81uckievi%C4%8D._%D0%86%D0%B2%D0%B0%D0%BD_%D0%9B%D1%83%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%281915%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Іван_Луцкевіч",
     "placeIds": [
       "vilnia-bibliyateka-vedy-1911-21",
@@ -475,10 +467,9 @@ window.PERSONS_DATA = [
       "ru": "Художник виленской школы. Ученик Яна Рустема. Автор хрестоматийных картин «Литовка с вербами» (1847), «Жнея» и росписей костёлов Вильнюса.",
       "en": "Renowned painter of the Vilnius School. Famous for masterpieces like 'Girl with Palms' (1847) and frescoes in historic churches of Vilnius."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kanuty_Rusiecki_Autoportret.jpg/480px-Kanuty_Rusiecki_Autoportret.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Kanut_Rusiecki._%D0%9A%D0%B0%D0%BD%D1%83%D1%82_%D0%A0%D1%83%D1%81%D0%B5%D1%86%D0%BA%D1%96.jpg/330px-Kanut_Rusiecki._%D0%9A%D0%B0%D0%BD%D1%83%D1%82_%D0%A0%D1%83%D1%81%D0%B5%D1%86%D0%BA%D1%96.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Кануты_Русецкі",
     "placeIds": [
-      "vilnia-kastsyol-svyatoha-yana",
       "vilnius-picture-gallery-rusiecki-ruszczyc"
     ]
   },
@@ -500,7 +491,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Минске. Классик белорусской поэзии. В Вильне в типографии Мартина Кухты в 1914 г. вышел его единственный прижизненный сборник «Вянок». Автор стихотворения «Погоня».",
       "en": "One of the founding fathers of modern Belarusian literature. His sole lifetime poetry book 'Vianok' (The Wreath) was printed in Vilnius in 1914. Renowned author of the poem 'Pahonia'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Maksim_Bahdanovic_1915.jpg/480px-Maksim_Bahdanovic_1915.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Bagdanovich_M_2.jpg/330px-Bagdanovich_M_2.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Максім_Багдановіч",
     "placeIds": [
       "vilnia-drukarnya-martsina-kukhty-1911-1921"
@@ -524,13 +515,10 @@ window.PERSONS_DATA = [
       "ru": "Родился под Вильнюсом. В 1918 г. издал первую грамматику белорусского языка. Директор Виленской белорусской гимназии, депутат Сейма, лидер БСРГ.",
       "en": "Author of the seminal 'Belarusian Grammar for Schools' (1918). Principal of the Vilnius Belarusian Gymnasium and prominent parliamentary leader of Western Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Branisla%C5%AD_Tara%C5%A1kievi%C4%8D._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A2%D0%B0%D1%80%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%281920%29.jpg/480px-Branisla%C5%AD_Tara%C5%A1kievi%C4%8D._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A2%D0%B0%D1%80%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%281920%29.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Branis%C5%82a%C5%AD_Tara%C5%A1kievi%C4%8D._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A2%D0%B0%D1%80%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%2801.1927%29.jpg/330px-Branis%C5%82a%C5%AD_Tara%C5%A1kievi%C4%8D._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A2%D0%B0%D1%80%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%2801.1927%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Браніслаў_Адамавіч_Тарашкевіч",
     "placeIds": [
-      "vilnia-belaruskaya-shkola-imya-f-skaryny",
-      "vilnia-dom-tarashkevicha",
-      "vilnia-lukishskaya-turma",
-      "vilnia-shtab-kvatera-zakhodnebelaruskikh-arhanizatsy"
+      "vilnia-dom-tarashkevicha"
     ]
   },
   {
@@ -551,12 +539,10 @@ window.PERSONS_DATA = [
       "ru": "Секретарь газеты «Наша Ніва», автор «Краткой истории Беларуси» (1910). Премьер-министр правительства БНР в эмиграции, академик АН Беларуси.",
       "en": "Key figure of the Belarusian national revival, secretary of 'Nasha Niva', author of the first national history book (1910), and Prime Minister of the Belarusian Democratic Republic."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Vac%C5%82a%C5%AD_%C5%81asto%C5%ADski._%D0%92%D0%B0%D1%86%D0%BB%D0%B0%D1%9E_%D0%9B%D0%B0%D1%81%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281919%29.jpg/480px-Vac%C5%82a%C5%AD_%C5%81asto%C5%ADski._%D0%92%D0%B0%D1%86%D0%BB%D0%B0%D1%9E_%D0%9B%D0%B0%D1%81%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281919%29.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Vaclaw_Lastowski.jpg/330px-Vaclaw_Lastowski.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Вацлаў_Юсцінавіч_Ластоўскі",
     "placeIds": [
-      "vilnia-belaruskae-vydavetskae-tavarystva",
-      "vilnia-redaktsyya-nashay-nivy-1911-13-kvatera-lastow",
-      "vilnia-vydavetstva-kletskina"
+      "vilnia-redaktsyya-nashay-nivy-1911-13-kvatera-lastow"
     ]
   },
   {
@@ -577,7 +563,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Смолянах / Витебске. Выдающийся скульптор авангарда и кубизма Парижской школы. Его работы представлены в Центре Помпиду в Париже.",
       "en": "Born in Smalyany / Vitebsk. Legendary cubist sculptor of the School of Paris, celebrated for works in Centre Pompidou and Museum Zadkine in Paris."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ossip_Zadkine_%281961%29.jpg/480px-Ossip_Zadkine_%281961%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ossip_Zadkine.png",
     "wiki": "https://be.wikipedia.org/wiki/Восіп_Цадкін",
     "placeIds": [
       "paris-centre-pompidou-chagall-zadkine"
@@ -597,11 +583,11 @@ window.PERSONS_DATA = [
       "en": "Scientist, ethnographer, medical doctor, revolutionary, first President of the Senate of Hawaii"
     },
     "bio": {
-      "by": "Ураджэнец Магілёва. Вучыўся ў Пецярбургу і Кіеве, у Бухарэсце абараніў ступень доктара медыцыны. Жыў і працаваў у Францыі, Балгарыі, ЗША, Японіі і Кітаі. У 1895 годзе перасяліўся на Гаваі (пад імем Нікалас Расэль), змагаўся за правы карэнных канакаў, а ў 1901 годзе быў абраны першым прэзідэнтам Сената тэрыторыі Гаваі.",
-      "ru": "Уроженец Могилёва. Окончил Бухарестский университет со степенью доктора медицины. В 1895 году поселился на Гавайях (под именем Николас Рассель), где защищал права коренного населения и в 1901 году был избран первым президентом Сената территории Гавайи.",
-      "en": "Born in Mogilev. Studied medicine in Bucharest and worked across Europe and America before settling in Hawaii in 1895 as Nicholas Russel. A champion of native rights, he was elected the first President of the Senate of the Territory of Hawaii in 1901."
+      "by": "Ураджэнец Магілёва, выпускнік Магілёўскай гімназіі. Выдатны навуковец, этнограф, доктар медыцыны і рэвалюцыянер. Заўсёды падкрэсліваў сваё беларускае паходжанне. У 1895 г. пасяліўся на Гаваі (пад імем Нікалас Расэль), змагаўся за правы карэнных жыхароў канакаў і ў 1901 г. быў абраны першым прэзідэнтам Сената тэрыторыі Гаваі.",
+      "ru": "Уроженец Могилёва. Ученый, этнограф, доктор медицины. Неизменно подчеркивал своё белорусское происхождение. В 1895 г. поселился на Гавайях (Николас Рассель), где защищал права коренного населения и был избран первым президентом Сената территории Гавайи.",
+      "en": "Born in Mogilev. Renowned physician, ethnographer, and natural scientist who proudly maintained his Belarusian heritage. Settling in Hawaii as Nicholas Russel, he advocated for native rights and was elected the first President of the Senate of Hawaii in 1901."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Nikolay_Sudzilovsky.jpg/480px-Nikolay_Sudzilovsky.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sudzilovsky.jpg/330px-Sudzilovsky.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Мікалай_Канстанцінавіч_Судзілоўскі",
     "placeIds": [
       "sudzilouski-grave-amakusa",
@@ -622,11 +608,11 @@ window.PERSONS_DATA = [
       "en": "Polish novelist, journalist, Nobel Prize laureate in Literature (1905)"
     },
     "bio": {
-      "by": "Паходзіў са шляхецкага роду герба «Осык», які меў татарскія карані з Вялікага Княства Літоўскага. Аўтар знакамітай гістарычнай трылогіі («Агнём і мячом», «Патоп», «Пан Валадыёўскі»), рамана «Кама градашы» (Quo Vadis) і «Крыжакі». Памёр у Веве (Швейцарыя) у 1916 годзе.",
-      "ru": "Происходил из шляхетского рода с корнями в Великом Княжестве Литовском. Автор всемирно известной трилогии, романов «Камо грядеши» (Quo Vadis) и «Крестоносцы». Лауреат Нобелевской премии 1905 года.",
-      "en": "Descended from noble GDL Lipka Tatar heritage. Author of the classic Trilogy, 'Quo Vadis' and 'The Teutonic Knights'. Awarded the Nobel Prize in Literature in 1905 for his outstanding merits as an epic writer."
+      "by": "Паходзіў са шляхецкага роду герба «Осык» з татарскімі каранямі з Вялікага Княства Літоўскага. Яго сям'я мела глыбокія карані на Навагрудчыне і Гарадзеншчыне. У знакамітай гістарычнай «Трылогіі» («Патоп», «Агнём і мячом») ключавыя падзеі адбываюцца на землях ВКЛ, а галоўнымі героямі выступаюць аршанскі шляхціц Анджэй Кміціц і магнаты Радзівілы. Лаўрэат Нобелеўскай прэміі па літаратуры (1905).",
+      "ru": "Происходил из шляхетского рода с корнями в Великом Княжестве Литовском (липковские татары Новогрудчины). В знаменитой трилогии («Потоп») ключевые события разворачиваются в ВКЛ, а главными героями являются оршанский шляхтич Анджей Кмитиц и магнаты Радзивиллы. Лауреат Нобелевской премии по литературе 1905 года.",
+      "en": "Descended from Lipka Tatar nobility rooted in the Grand Duchy of Lithuania (Navahrudak and Hrodna lands). The pivotal historical scenes of his epic 'Trilogy' take place across Belarusian and Lithuanian lands, featuring characters like the Orsha nobleman Andrzej Kmicic and the Radziwiłł magnates. Nobel Prize laureate in Literature (1905)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Henryk_Sienkiewicz_Kazimierz_Mordasewicz.jpg/480px-Henryk_Sienkiewicz_Kazimierz_Mordasewicz.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Stanis%C5%82aw_Biza%C5%84ski-H.Sienkiewicz.jpg/330px-Stanis%C5%82aw_Biza%C5%84ski-H.Sienkiewicz.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Генрык_Сянкевіч",
     "placeIds": [
       "sienkiewicz-monument-rome",
@@ -647,11 +633,11 @@ window.PERSONS_DATA = [
       "en": "Writer, essayist, social activist, Nobel Prize nominee"
     },
     "bio": {
-      "by": "Нарадзілася ў маёнтку Мількаўшчына пад Гроднам. Удзельніца падтрымкі паўстання 1863 года. Аўтар раманаў «Над Нёманам», «Хам», «Нізіны», аповесцей пра лёсы беларускіх сялян і шляхты Панямоння. Жыла і тварыла ў Гродне, дзе яе дом стаў цэнтрам грамадскага жыцця.",
-      "ru": "Родилась в имении Мильковщина близ Гродно. Участница поддержки восстания 1863 года. Автор романов «Над Неманом», «Хам», повестей о белорусской жизни. Её дом в Гродно был средоточием культурной мысли.",
-      "en": "Born near Hrodna. Supported the January Uprising of 1863. Author of 'Nad Niemnem' and moving realist chronicles depicting local life along the Neman River. Nominated for the Nobel Prize in Literature."
+      "by": "Нарадзілася ў маёнтку Мількаўшчына пад Гроднам, амаль усё жыццё пражыла і тварыла ў Гродне. Удзельніца падтрымкі вызваленчага паўстання 1863 года. Выдатная пісьменніца, чые творы («Над Нёманам», «Хам», «Нізіны») прысвечаны лёсам, мове, фальклору і душы беларускага сялянства і шляхты Панямоння.",
+      "ru": "Родилась в имении Мильковщина близ Гродно, всю жизнь жила и творила в Гродно. Поддерживала восстание 1863 года. Автор классических романов («Над Неманом», «Хам»), увековечивших жизнь, язык и культуру белорусского Понеманья.",
+      "en": "Born near Hrodna, where she spent her life writing. Supported the 1863 January Uprising. Her realist epics ('Nad Niemnem', 'Cham') are dedicated entirely to the culture, language, and pastoral spirit of the people along the Neman River."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Eliza_Orzeszkowa.jpg/480px-Eliza_Orzeszkowa.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Orzeszkowa._od_1905_%2875708992%29_%28cropped%29.jpg/330px-Orzeszkowa._od_1905_%2875708992%29_%28cropped%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Эліза_Ажэшка",
     "placeIds": [
       "azheshka-monument-ksiazecem-warsaw",
@@ -672,11 +658,11 @@ window.PERSONS_DATA = [
       "en": "Linguist, Slavist, paleographer, ethnographer, rector of Warsaw University, academician"
     },
     "bio": {
-      "by": "Ураджэнец вёскі Лаша пад Гроднам. Заснавальнік навуковага беларусазнаўства. Аўтар фундаментальнага трохтамовага даследавання «Беларусы» (1903–1922) — энцыклапедыі беларускай мовы, культуры і фальклору, якая навукова абгрунтавала самабытнасць беларускай нацыі. Працаваў у Варшаве і Санкт-Пецярбургу.",
-      "ru": "Родился в деревне Лаша Гродненского уезда. Основоположник научного белорусоведения. Создатель фундаментального трёхтомного труда «Белорусы» (1903–1922). Академик Петербургской академии наук.",
-      "en": "Born near Hrodna. The foundational scholar of Belarusian philology and linguistics. Author of the monumental three-volume encyclopedia 'The Belarusians' (1903–1922), which defined the linguistic borders of the nation."
+      "by": "Ураджэнец вёскі Лаша Гродзенскага павета. Пачынальнік навуковага беларусазнаўства, акадэмік Пецярбургскай акадэміі навук. Аўтар фундаментальнай трохтамовай энцыклапедыі «Беларусы» (1903–1922), якая навукова вызначыла моўныя межы беларускага этнасу і даказала самастойнасць беларускай мовы і нацыі.",
+      "ru": "Родился в деревне Лаша Гродненского уезда. Основоположник научного белорусоведения, академик. Автор монументального труда «Белорусы» (1903–1922), научно обосновавшего самобытность белорусского языка и границы этноса.",
+      "en": "Born near Hrodna. The founding father of academic Belarusian linguistics and ethnography. Author of the landmark three-volume encyclopedia 'The Belarusians' (1903–1922), which defined the linguistic borders and autonomy of the nation."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Yefim_Karsky.jpg/480px-Yefim_Karsky.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Yefim_Karskiy.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Яўхім_Фёдаравіч_Карскі",
     "placeIds": [
       "karski-grave-smolenskoye-spb",
@@ -701,7 +687,7 @@ window.PERSONS_DATA = [
       "ru": "Дочь минского князя Володаря Глебовича. Супруга короля Дании Вальдемара I Великого. Мать датских королей Кнуда VI и Вальдемара II Победителя, а также королевы Франции Ингеборги. Похоронена в церкви Св. Бендта в Рингстеде.",
       "en": "Daughter of Prince Volodar of Minsk. Queen consort of Denmark through her marriage to Valdemar I the Great. Mother of Kings Canute VI and Valdemar II, and Queen Ingeborg of France. Buried in St. Bendt's Church in Ringsted."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Sophia_of_Minsk.jpg/480px-Sophia_of_Minsk.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Sophia_of_Minsk%2C_portrait_bust_%281855%29.jpg/330px-Sophia_of_Minsk%2C_portrait_bust_%281855%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Сафія_Валадараўна",
     "placeIds": [
       "ringsted-queen-sophia-of-minsk-tomb"
@@ -725,7 +711,7 @@ window.PERSONS_DATA = [
       "ru": "Дочь Юрия Радзивилла. Знаменита своей красотой и романтической историей тайного брака с великим князем Сигизмундом II Августом. Коронована в Кракове. Похоронена в крипте Виленского кафедрального собора.",
       "en": "Daughter of Jerzy Radziwiłł 'Hercules'. Celebrated for her extraordinary beauty and romantic marriage to Sigismund II Augustus. Crowned Queen in Kraków. Buried in the Royal Crypt of Vilnius Cathedral."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Lucas_Cranach_d.J._-_K%C3%B6nigin_Barbara_Radziwill_%28KHM_Wien%29.jpg/480px-Lucas_Cranach_d.J._-_K%C3%B6nigin_Barbara_Radziwill_%28KHM_Wien%29.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Barbara_Radziwillowna_18th.jpg/330px-Barbara_Radziwillowna_18th.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Барбара_Радзівіл",
     "placeIds": [
       "vilnius-cathedral-barbara-radziwill-crypt"
@@ -749,7 +735,7 @@ window.PERSONS_DATA = [
       "ru": "Дочь великолитовского канцлера Николая Радзивилла Старого. Более 15 лет мудро правила Мазовией и Варшавой в качестве регентши. Основательница костёла Св. Анны в Варшаве.",
       "en": "Daughter of GDL Chancellor Mikołaj Radziwiłł 'the Old'. Ruled the Duchy of Masovia and Warsaw as regent for over 15 years, defending Masovian autonomy. Founded the Church of St. Anne in Warsaw."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Anna_Radziwi%C5%82%C5%82%C3%B3wna.jpg/480px-Anna_Radziwi%C5%82%C5%82%C3%B3wna.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Anna_Radziwi%C5%82%C5%82%C3%B3wna.jpg/330px-Anna_Radziwi%C5%82%C5%82%C3%B3wna.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Ганна_Радзівіл",
     "placeIds": [
       "warsaw-duchess-anna-radziwill-st-anne"
@@ -773,7 +759,7 @@ window.PERSONS_DATA = [
       "ru": "Представитель несвижской линии Радзивиллов. Владелец дворца Радзивиллов в Берлине, где собирался цвет европейской культуры. Автор первой оперы на сюжет «Фауста» Гёте. Покровитель Шопена и Бетховена.",
       "en": "Prince of the Nieśwież-Nieborów line. Resided at Palais Radziwiłł in Berlin, hosting a premier cultural salon. Composed the first musical score for Goethe's 'Faust'. Patron to Frédéric Chopin and Beethoven."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Antoni_Henryk_Radziwi%C5%82%C5%82.jpg/480px-Antoni_Henryk_Radziwi%C5%82%C5%82.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Anton_Radzivi%C5%82._%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%28C._Celle%2C_1797%29.jpg/330px-Anton_Radzivi%C5%82._%D0%90%D0%BD%D1%82%D0%BE%D0%BD_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%28C._Celle%2C_1797%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Антон_Генрых_Радзівіл",
     "placeIds": [
       "berlin-palais-radziwill"
@@ -797,7 +783,7 @@ window.PERSONS_DATA = [
       "ru": "Могущественный род герба «Трубы», давший Великому Княжеству Литовскому десятки гетманов, канцлеров и епископов. Владельцы сотен городов и замков в Несвиже, Мире, Олыке, Варшаве и Берлине.",
       "en": "One of the wealthiest and most influential aristocratic dynasties in European history. Held supreme state and military posts in the Grand Duchy of Lithuania, building iconic palaces and castles across Belarus, Lithuania, Poland, and Ukraine."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Herb_Radziwill.svg/480px-Herb_Radziwill.svg.png",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/COA_Tr%C4%85by.svg/langbe-330px-COA_Tr%C4%85by.svg.png",
     "wiki": "https://be.wikipedia.org/wiki/Радзівілы",
     "placeIds": [
       "berlin-palais-radziwill",
@@ -828,7 +814,7 @@ window.PERSONS_DATA = [
       "ru": "Известный род из Логойска. Братья Константин и Евстафий Тышкевичи стали основателями белорусской археологии и Виленского музея древностей. Владельцы дворцов в Паланге, Кретинге, Варшаве и Логойске.",
       "en": "Noble dynasty originating from Lahoysk. Brothers Eustachy and Konstanty Tyszkiewicz founded modern Belarusian archaeology and the Vilnius Museum of Antiquities. Built majestic palaces in Palanga, Kretinga, Warsaw, and Lahoysk."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Herb_Leliwa.svg/480px-Herb_Leliwa.svg.png",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/POL_COA_Leliwa.svg/langbe-330px-POL_COA_Leliwa.svg.png",
     "wiki": "https://be.wikipedia.org/wiki/Тышкевічы",
     "placeIds": [
       "kretinga-tiskevicius-palace",
@@ -854,7 +840,7 @@ window.PERSONS_DATA = [
       "ru": "Один из величайших полководцев XVII века. В 1605 г. при Кирхгольме разгромил шведскую армию, будучи в меньшинстве. В 1621 г. возглавлял оборону Хотина от османской армии и пал смертью героя в крепости.",
       "en": "One of the greatest military strategists of 17th-century Europe. Famous for his stunning cavalry triumph over Swedish forces at Kircholm (1605) and for heroically commanding the fortress of Khotyn against massive Ottoman siege forces in 1621."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Jan_Karol_Chodkiewicz.PNG/480px-Jan_Karol_Chodkiewicz.PNG",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Jan_Karal_Chadkievi%C4%8D._%D0%AF%D0%BD_%D0%9A%D0%B0%D1%80%D0%B0%D0%BB%D1%8C_%D0%A5%D0%B0%D0%B4%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28XVII%29_%287%29.jpg/330px-Jan_Karal_Chadkievi%C4%8D._%D0%AF%D0%BD_%D0%9A%D0%B0%D1%80%D0%B0%D0%BB%D1%8C_%D0%A5%D0%B0%D0%B4%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28XVII%29_%287%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Ян_Караль_Хадкевіч",
     "placeIds": [
       "khotyn-fortress-chodkiewicz",
@@ -880,7 +866,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Островно. Выдающийся государственный деятель, мыслитель и правовед. Создатель и издатель Третьего Статута ВКЛ 1588 года на старобелорусском языке. Основатель родового пантеона в костёле Св. Михаила в Вильне и резиденций в Ружанах и Кодене.",
       "en": "Born in Astroŭna. Renowned jurist, diplomat, and statesman who formulated and financed the Third Statute of the GDL (1588) in Old Belarusian. Established grand residences in Ruzhany, Kodeń, Krasiczyn, and the Sapieha pantheon at St. Michael's Church in Vilnius."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Lew_Sapieha.PNG/480px-Lew_Sapieha.PNG",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Le%C5%AD_Sapieha._%D0%9B%D0%B5%D1%9E_%D0%A1%D0%B0%D0%BF%D0%B5%D0%B3%D0%B0_%281616%29.jpg/330px-Le%C5%AD_Sapieha._%D0%9B%D0%B5%D1%9E_%D0%A1%D0%B0%D0%BF%D0%B5%D0%B3%D0%B0_%281616%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Леў_Іванавіч_Сапега",
     "placeIds": [
       "koden-sapieha-complex",
@@ -907,7 +893,7 @@ window.PERSONS_DATA = [
       "ru": "Выдающийся государь и дипломат, объединивший белорусские и балтские земли. Перенёс столицу государства в Вильну, привлекал ремесленников со всей Европы и заложил основы могущества ВКЛ.",
       "en": "Architect of the Grand Duchy's rise as a European superpower. Consolidated Belarusian and Baltic lands, transferred the capital to Vilnius, invited Western European merchants and craftsmen, and established a dynastic line ruling for centuries."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Gediminas_statue_Vilnius.jpg/480px-Gediminas_statue_Vilnius.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Giedzimin._%D0%93%D0%B5%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D0%BD_%28A._Guagnini%2C_1578%29.jpg/330px-Giedzimin._%D0%93%D0%B5%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D0%BD_%28A._Guagnini%2C_1578%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Гедзімін",
     "placeIds": [
       "vilnius-gediminas-monument"
@@ -931,7 +917,7 @@ window.PERSONS_DATA = [
       "ru": "Сын Кейстута. При его правлении Великое Княжество Литовское достигло апогея территориального и политического могущества — от Балтики до Чёрного моря. Вместе с Ягайло разгромил Тевтонский орден в Грюнвальдской битве 1410 года.",
       "en": "Son of Kęstutis. Under his reign, the Grand Duchy expanded to its greatest territorial extent, spanning from the Baltic to the Black Sea. Co-commanded the victorious allied army at the pivotal Battle of Grunwald in 1410."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vytautas_the_Great_monument_in_Kaunas.jpg/480px-Vytautas_the_Great_monument_in_Kaunas.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Vytautas_the_great.jpg/330px-Vytautas_the_great.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Вітаўт",
     "placeIds": [
       "grunwald-battle-memorial-stebark",
@@ -954,11 +940,11 @@ window.PERSONS_DATA = [
       "en": "Academic painter, master of monumental classical scenes, co-founder of the National Museum in Krakow"
     },
     "bio": {
-      "by": "Нарадзіўся ў сям'і афіцэра шляхецкага роду з Навагрудка герба «Лебедзь». Вучыўся ў Пецярбургу, дзесяцігоддзямі жыў і тварыў у Рыме. У 1879 годзе падарыў гораду Кракаву сваё грандыёзнае палатно «Светачы хрысціянства» («Pochodnie Nerona»), што стала пачаткам Нацыянальнага музея ў Сукенніцах. Яго палотны ўпрыгожваюць лепшыя галерэі Кракава, Львова і Варшавы.",
-      "ru": "Родился в семье офицера шляхетского рода из Новогрудка. Жил и творил в Риме. В 1879 г. подарил Кракову грандиозное полотно «Светочи христианства» («Факелы Нерона»), что положило начало Национальному музею в Сукенницах.",
-      "en": "Born to a noble family with roots in Navahrudak. Celebrated for his grandiose classical antiquity canvases painted in Rome. In 1879, gifted 'Nero's Torches' to Kraków, inaugurating the collection of the National Museum at the Sukiennice."
+      "by": "Паходзіў са старадаўняга шляхецкага роду Семірадскіх герба «Лебедзь» з Навагрудчыны. Выбітны прадстаўнік еўрапейскага акадэмізму. У 1879 годзе падарыў Кракаву сваё грандыёзнае палатно «Светачы хрысціянства» («Pochodnie Nerona»), што стала пачаткам Нацыянальнага музея ў Сукенніцах.",
+      "ru": "Происходил из шляхетского рода Семирадских герба «Лебедь» из-под Новогрудка. Мастер европейского академизма. В 1879 г. подарил Кракову грандиозное полотно «Светочи христианства» («Факелы Нерона»), положив начало Национальному музею в Суконных рядах.",
+      "en": "Descended from the noble Siemiradzki family rooted in Navahrudak. Eminent master of European academic classicism whose donation of 'Nero's Torches' in 1879 founded the National Museum at the Sukiennice in Kraków."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Henryk_Siemiradzki_1880s.jpg/480px-Henryk_Siemiradzki_1880s.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/%D0%A4%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F_%D0%A1%D0%B5%D0%BC%D0%B8%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%B3%D0%BE.JPG/330px-%D0%A4%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F_%D0%A1%D0%B5%D0%BC%D0%B8%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%B3%D0%BE.JPG",
     "wiki": "https://be.wikipedia.org/wiki/Генрых_Іпалітавіч_Семірадскі",
     "placeIds": [
       "krakow-sukiennice-siemiradzki",
@@ -979,11 +965,11 @@ window.PERSONS_DATA = [
       "en": "Master painter of monumental historical scenes from GDL and Polish history"
     },
     "bio": {
-      "by": "Найбуйнейшы прадстаўнік гістарычнага жывапісу Цэнтральнай Еўропы. Стварыў неўміручыя шэдэўры, прысвечаныя ключавым падзеям беларускай і супольнай гісторыі: «Бітва пад Грунвальдам» (з вялікім князем Вітаўтам у цэнтры), «Рэйтан — заняпад Польшчы» (пра беларускага шляхціца Тадэвуша Рэйтана), «Стэфан Баторый пад Псковам» і «Люблінская унія».",
-      "ru": "Классик европейской исторической живописи. Создал монументальные полотна о ключевых вехах истории ВКЛ: «Грюнвальдская битва» (с князем Витовтом в центре), «Рейтан — упадок Польши», «Стефан Баторий под Псковом» и «Люблинская уния».",
-      "en": "Celebrated master of historical painting. Created epic works illustrating critical events of GDL history, including the 'Battle of Grunwald' (featuring Grand Duke Vytautas), 'Rejtan', and the 'Union of Lublin'."
+      "by": "Выдатны мастак гістарычнага жанру, чые найгалоўнейшыя творы прысвечаны гісторыі беларускіх зямель і ВКЛ. Аўтар палотнаў «Бітва пад Грунвальдам» (з вялікім князем Вітаўтам у цэнтры і віленскімі і полацкімі харугвамі), «Рэйтан — заняпад Польшчы» (пра беларускага шляхціца з Грушаўкі Тадэвуша Рэйтана), «Стэфан Баторый пад Псковам» і «Люблінская унія».",
+      "ru": "Выдающийся живописец, посвятивший главные полотна истории ВКЛ и белорусских земель: «Грюнвальдская битва» (с князем Витовтом и полоцкими хоругвями), «Рейтан — упадок Польши» (о шляхтиче из Грушевки Тадеуше Рейтане), «Стефан Баторий под Псковом» и «Люблинская уния».",
+      "en": "Master historical painter whose defining epics depict the heritage of the Grand Duchy of Lithuania: the 'Battle of Grunwald' (centering Grand Duke Vytautas and Polatsk banners), 'Rejtan' (honoring the Navahrudak envoy Tadeusz Rejtan), and the 'Union of Lublin'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Jan_Matejko_Self-portrait.jpg/480px-Jan_Matejko_Self-portrait.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Matejko_Self-portrait.jpg/330px-Matejko_Self-portrait.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Ян_Матэйка",
     "placeIds": [
       "lublin-castle-museum-unia-lubelska",
@@ -1005,11 +991,11 @@ window.PERSONS_DATA = [
       "en": "Landscape painter, master of country manor interiors and twilight landscapes"
     },
     "bio": {
-      "by": "Нарадзіўся ў маёнтку Ендрыхаўцы каля Росі (цяпер Ваўкавыскі раён). Вучыўся ў Маскве ў Ісака Левітана. У сваіх карцінах апяваў непаўторную паэтыку старадаўніх шляхецкіх сядзіб, пакояў з адкрытымі вокнамі ў сад, восеньскіх паркаў і лясоў Беларусі. Загінуў падчас Варшаўскага паўстання ў 1944 г.",
-      "ru": "Родился в имении Ендриховцы (Волковысский район). Ученик Левитана. Прославился тончайшими пейзажами и интерьерами дворянских усадеб с открытыми окнами в сад. Погиб во время Варшавского восстания 1944 года.",
-      "en": "Born in Yendrykhaŭtsy near Vaŭkavysk. Disciple of Isaac Levitan. World-renowned for his atmospheric depictions of old aristocratic estates, sunlit open windows, and serene forests. Died during the Warsaw Uprising in 1944."
+      "by": "Нарадзіўся ў маёнтку Ендрыхаўцы Гродзенскай губерні (цяпер Ваўкавыскі раён). Выбітны мастак-пейзажыст, вучань Ісака Левітана. У сваіх карцінах узнёсла апяваў беларускую прыроду, лясы і непаўторны свет старадаўніх шляхецкіх сядзіб Панямоння.",
+      "ru": "Родился в имении Ендриховцы Гродненской губернии (Волковысский район). Художник-пейзажист, ученик Левитана. Воспел природу Беларуси, леса и поэтику старинных дворянских усадеб Понеманья.",
+      "en": "Born in Yendrykhaŭtsy (Vawkavysk district, Hrodna region). Impressionist landscape painter who immortalized the twilight forests, seasons, and noble country estates of Western Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Stanislav_Zhukovsky_selfportrait.jpg/480px-Stanislav_Zhukovsky_selfportrait.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/%C5%BBukowski_Stanis%C5%82aw.jpg/330px-%C5%BBukowski_Stanis%C5%82aw.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Юльянавіч_Жукоўскі",
     "placeIds": [
       "moscow-tretyakov-gallery-zhukovsky"
@@ -1029,11 +1015,11 @@ window.PERSONS_DATA = [
       "en": "Film mogul, head of Metro-Goldwyn-Mayer (MGM), founder of the Academy Awards (Oscars)"
     },
     "bio": {
-      "by": "Нарадзіўся ў Мінску ў яўрэйскай сям'і. Стварыў наймагутнейшую кінастудыю залатога веку Галівуда — Metro-Goldwyn-Mayer (MGM). У 1927 годзе выступіў галоўным ініцыятарам заснавання Амерыканскай акадэміі кінамастацтваў і прэміі «Оскар». Адкрыў такіх зорак, як Грэта Гарба, Джудзі Гарленд і Кларк Гейбл.",
-      "ru": "Родился в Минске. Основатель легендарной студии Metro-Goldwyn-Mayer (MGM). Главный инициатор создания Американской киноакадемии и премии «Оскар» (1927). Открыл Грету Гарбо, Джуди Гарленд и Кларка Гейбла.",
-      "en": "Born in Minsk. Legendary studio titan who built Metro-Goldwyn-Mayer (MGM) into Hollywood's dominant force. Spearheaded the creation of the Academy of Motion Picture Arts and Sciences and the Oscar statuette in 1927."
+      "by": "Нарадзіўся ў Мінску ў яўрэйскай сям'і. Кінематаграфічны магнат, сузаснавальнік і кіраўнік найбуйнейшай галівудскай кінастудыі залатога веку Metro-Goldwyn-Mayer (MGM). У 1927 годзе выступіў галоўным ініцыятарам стварэння Амерыканскай кінаакадэміі і прэміі «Оскар».",
+      "ru": "Родился в Минске. Кинопродюсер, создатель студии Metro-Goldwyn-Mayer (MGM) и главный инициатор основания Американской киноакадемии и премии «Оскар» (1927).",
+      "en": "Born in Minsk. Legendary titan of the Golden Age of Hollywood, head of Metro-Goldwyn-Mayer (MGM), and visionary creator of the Academy of Motion Picture Arts and Sciences and the Oscar awards."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Louis_B_Mayer_1953.jpg/480px-Louis_B_Mayer_1953.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Louis_B_Mayer_cropped.jpg/330px-Louis_B_Mayer_cropped.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Луіс_Барт_Маер",
     "placeIds": [
       "los-angeles-walk-of-fame-louis-b-mayer"
@@ -1053,11 +1039,11 @@ window.PERSONS_DATA = [
       "en": "Legendary composer and lyricist, author of 'God Bless America' and 'White Christmas'"
     },
     "bio": {
-      "by": "Нарадзіўся ў мястэчку Талачын (цяпер Віцебская вобласць). Напісаў больш за 1500 песень і музыку да дзясяткаў брадвейскіх мюзіклаў і фільмаў. Яго твор «God Bless America» стаў неафіцыйным гімнам ЗША, а «White Christmas» — самай папулярнай песняй усіх часоў. Пабудаваў тэатр Music Box на Брадвеі.",
-      "ru": "Родился в Толочине (Витебская область). Автор более 1500 песен, включая неофициальный гимн США «God Bless America» и легендарный сингл «White Christmas». Построил бродвейский театр Music Box Theatre.",
-      "en": "Born in Talachyn (Vitebsk region). One of America's greatest songwriters, author of over 1,500 tunes including 'God Bless America' and 'White Christmas' (the best-selling single of all time). Built Broadway's Music Box Theatre."
+      "by": "Нарадзіўся ў мястэчку Талачын (цяпер Віцебская вобласць). Выдатны амерыканскі кампазітар, класік сусветнай музыкі, аўтар больш за 1500 песень, у тым ліку неафіцыйнага гімна ЗША «God Bless America» і культавай «White Christmas» — найбольш прадаванай песні ў гісторыі гуказапісу.",
+      "ru": "Родился в местечке Толочин (Витебская область). Выдающийся композитор, автор более 1500 песен, включая неофициальный гимн США «God Bless America» и рекордный сингл «White Christmas».",
+      "en": "Born in Talachyn (Vitebsk region). Foremost American songwriter of the 20th century, creator of over 1,500 classic melodies including 'God Bless America' and 'White Christmas'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Irving_Berlin_in_1948.jpg/480px-Irving_Berlin_in_1948.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Irving_Berlin_%281907_portrait%2C_NPG.93.388.3_-_crop%29.jpg/330px-Irving_Berlin_%281907_portrait%2C_NPG.93.388.3_-_crop%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Ірвінг_Берлін",
     "placeIds": [
       "new-york-music-box-theatre-irving-berlin"
@@ -1077,11 +1063,11 @@ window.PERSONS_DATA = [
       "en": "Pioneer of radio and television broadcasting, head of RCA, founder of NBC"
     },
     "bio": {
-      "by": "Нарадзіўся ў мястэчку Узляны Ігуменскага павета (цяпер Пухавіцкі раён Мінскай вобласці). У 1912 г. трое сутак бесперапынна прымаў радыёсігналы пра гібель «Тытаніка». Прадказаў і стварыў масавае камерцыйнае радыёвяшчанне, заснаваў сетку NBC і кіраваў медыягігантам RCA з 30 Rockefeller Plaza.",
-      "ru": "Родился в местечке Узляны под Минском. Пионер коммерческого радиовещания и телевидения. В 1912 г. принимал сигналы бедствия «Титаника». Основал телерадиосеть NBC и возглавлял корпорацию RCA.",
-      "en": "Born in Uzlyany near Minsk. Telecommunications visionary who predicted mass home radio and television. Founded the NBC network and led RCA from its headquarters at 30 Rockefeller Plaza."
+      "by": "Нарадзіўся ў мястэчку Узляны Ігуменскага павета (цяпер Пухавіцкі раён Мінскай вобласці). Піянер сусветнага радыё- і тэлевяшчання, прэзідэнт медыягіганта RCA, заснавальнік тэлесеткі NBC, кіраўнік будаўніцтва знакамітага хмарачоса 30 Rockefeller Plaza у Нью-Ёрку.",
+      "ru": "Родился в местечке Узляны под Минском. Пионер коммерческого радиовещания и телевидения, президент корпорации RCA, основатель сети NBC.",
+      "en": "Born in Uzlyany near Minsk. Telecommunications visionary, longtime president of RCA, and founder of the NBC broadcasting network based at 30 Rockefeller Plaza."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/David_Sarnoff_1922.jpg/480px-David_Sarnoff_1922.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/DavidSarnoff_1922.jpg/330px-DavidSarnoff_1922.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Давід_Сарнаў",
     "placeIds": [
       "new-york-rockefeller-center-david-sarnoff"
@@ -1105,7 +1091,7 @@ window.PERSONS_DATA = [
       "ru": "Родился в Двинске (Витебская губерния). Один из величайших живописцев XX века, пионер живописи цветового поля. Создатель знаменитой Капеллы Ротко в Хьюстоне.",
       "en": "Born in Dvinsk (Vitebsk Governorate). Renowned master of Color Field painting whose luminous rectangles of color evoke profound spiritual resonance. Creator of the Rothko Chapel in Houston, Texas."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mark_Rothko_by_Consuelo_Kanaga_1940s.jpg/480px-Mark_Rothko_by_Consuelo_Kanaga_1940s.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Consuelo_Kanaga%2C_Mark_Rothko%2C_Yorktown_Heights%2C_ca._1949.jpg/330px-Consuelo_Kanaga%2C_Mark_Rothko%2C_Yorktown_Heights%2C_ca._1949.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Марк_Ротка",
     "placeIds": [
       "houston-rothko-chapel"
@@ -1125,11 +1111,11 @@ window.PERSONS_DATA = [
       "en": "Chemist, statesman, first President of the State of Israel (1949–1952)"
     },
     "bio": {
-      "by": "Нарадзіўся ў вёсцы Моталь Кобрынскага павета (цяпер Іванаўскі раён Брэсцкай вобласці). Бліскучы вучоны-біяхімік, вынаходнік, прафесар Манчэстэрскага ўніверсітэта. Шматгадовы кіраўнік Сусветнай сіянісцкай арганізацыі. У 1934 г. заснаваў у Рэхавоце даследчы інстытут (цяпер Інстытут Вайцмана), а ў 1949 г. стаў першым прэзідэнтам Ізраіля.",
-      "ru": "Родился в деревне Мотоль Брестской области. Выдающийся биохимик, профессор. Многолетний лидер Всемирной сионистской организации. Основатель Института Вейцмана в Реховоте и первый президент Израиля (1949–1952).",
-      "en": "Born in Motal (Brest region). Distinguished biochemist who developed synthetic acetone fermentation at Manchester. Longtime president of the World Zionist Organization and founding President of the State of Israel (1949–1952)."
+      "by": "Нарадзіўся ў мястэчку Моталь Кобрынскага павета (цяпер Іванаўскі раён Брэсцкай вобласці). Выбітны навуковец-біяхімік, вынаходнік, шматгадовы лідар сусветнага сіянісцкага руху. Першы прэзідэнт Дзяржавы Ізраіль (1949–1952), заснавальнік знакамітага навукова-даследчага Інстытута Вайцмана ў Рэхавоце.",
+      "ru": "Родился в местечке Мотоль (Брестская область). Учёный-биохимик, первый президент Государства Израиль (1949–1952), основатель Института Вейцмана в Реховоте.",
+      "en": "Born in Motal (Brest region). Distinguished biochemist, leader of the Zionist movement, and the first President of the State of Israel (1949–1952). Founder of the Weizmann Institute of Science."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Chaim_Weizmann_1948.jpg/480px-Chaim_Weizmann_1948.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Flickr_-_Government_Press_Office_%28GPO%29_-_President_Chaim_Weizmann_%28retouched%29.jpg/330px-Flickr_-_Government_Press_Office_%28GPO%29_-_President_Chaim_Weizmann_%28retouched%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Хаім_Вайцман",
     "placeIds": [
       "rehovot-weizmann-house"
@@ -1149,11 +1135,11 @@ window.PERSONS_DATA = [
       "en": "President and Prime Minister of Israel, Nobel Peace Prize laureate (1994)"
     },
     "bio": {
-      "by": "Нарадзіўся ў вёсцы Вішнева Валожынскага раёна Мінскай вобласці. Адзін з айцоў-заснавальнікаў ізраільскай дзяржаўнасці, двойчы прэм'ер-міністр і 9-ы прэзідэнт Ізраіля (2007–2014). За падпісанне мірных пагадненняў у Осла ўдастоены Нобелеўскай прэміі міру. Заснавальнік Цэнтра міру і інавацый у Яфе.",
-      "ru": "Родился в деревне Вишнево Воложинского района. Патриарх израильской политики, дважды премьер-министр и 9-й президент Израиля. Лауреат Нобелевской премии мира 1994 года. Создатель Центра мира и инноваций Переса в Яффе.",
-      "en": "Born in Vishneva (Valozhyn district). Founding father of Israeli statehood, defense strategist, two-time Prime Minister, and 9th President of Israel. Awarded the Nobel Peace Prize in 1994. Founded the Peres Center for Peace and Innovation in Jaffa."
+      "by": "Нарадзіўся ў вёсцы Вішнева Валожынскага раёна Мінскай вобласці. Выбітны дзяржаўны дзеяч, патрыярх ізраільскай палітыкі, двойчы прэм'ер-міністр і 9-ы прэзідэнт Ізраіля (2007–2014). Лаўрэат Нобелеўскай прэміі міру (1994), заснавальнік Цэнтра міру і інавацый у Яфе.",
+      "ru": "Родился в деревне Вишнево Воложинского района Минской области. Патриарх израильской политики, дважды премьер-министр и 9-й президент Израиля, лауреат Нобелевской премии мира (1994).",
+      "en": "Born in Vishneva (Valozhyn district, Minsk region). Founding father of Israeli statehood, two-time Prime Minister, and 9th President of Israel (2007–2014). Nobel Peace Prize laureate (1994)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Shimon_Peres_2009.jpg/480px-Shimon_Peres_2009.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Shimon_Peres_at_2009_WEF.jpg/330px-Shimon_Peres_at_2009_WEF.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Шымон_Перэс",
     "placeIds": [
       "jaffa-peres-center-for-peace"
@@ -1173,14 +1159,110 @@ window.PERSONS_DATA = [
       "en": "World-renowned science fiction author, science popularizer, professor of biochemistry"
     },
     "bio": {
-      "by": "Нарадзіўся ў мястэчку Пятровічы Клімавіцкага павета (тады Гомельская губерня / БССР). Прафесар біяхіміі Бостанскага ўніверсітэта. Напісаў і адрэдагаваў больш за 500 кніг. Аўтар Трох законаў робататэхнікі, цыклаў «Фундацыя», «Галактычная імперыя» і «Я, робат». Шматразовы лаўрэат прэмій «Х'юга» і «Неб'юла».",
-      "ru": "Родился в местечке Петровичи Климовичского уезда. Профессор биохимии Бостонского университета. Автор более 500 книг, создатель Трёх законов робототехники и эпопей «Основание» и «Я, робот». Обладатель премий «Хьюго» и «Небьюла».",
-      "en": "Born in Petrovichi (then Gomel Governorate). Professor of biochemistry at Boston University. Author of over 500 books, pioneer of the Three Laws of Robotics, and master of the legendary 'Foundation' and 'Robot' series. Recipient of numerous Hugo and Nebula awards."
+      "by": "Нарадзіўся ў мястэчку Пятровічы Клімавіцкага павета (тады Гомельская губерня / БССР). Сусветна вядомы амерыканскі пісьменнік-фантаст, папулярызатар навукі, прафесар біяхіміі Бостанскага ўніверсітэта. Аўтар Трох законаў робататэхнікі і легендарных цыклаў «Фундацыя» і «Я, робат».",
+      "ru": "Родился в местечке Петровичи (тогда Гомельская губерния / БССР). Всемирно известный писатель-фантаст, биохимик, создатель Трёх законов робототехники и эпопеи «Основание».",
+      "en": "Born in Petrovichi (then Gomel Governorate). Master science fiction writer, biochemist, and author of over 500 books, creator of the Three Laws of Robotics and the 'Foundation' saga."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/480px-Isaac.Asimov01.jpg",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Isaac.Asimov01.jpg/330px-Isaac.Asimov01.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Айзэк_Азімаў",
     "placeIds": [
       "boston-university-asimov-archive"
+    ]
+  },
+  {
+    "id": "radaslau-astrouski",
+    "name": {
+      "by": "Радаслаў Астроўскі",
+      "ru": "Радослав Островский",
+      "en": "Radaslau Astrouski"
+    },
+    "dates": "1887–1976",
+    "role": {
+      "by": "Грамадска-палітычны дзеяч, прэзідэнт Беларускай Цэнтральнай Рады, міністр асветы БНР",
+      "ru": "Общественно-политический деятель, президент БЦР, министр просвещения БНР",
+      "en": "Statesman, President of the Belarusian Central Council, educator"
+    },
+    "bio": {
+      "by": "Ураджэнец Ігуменскага павета (Пухавіччына). Адзін з арганізатараў беларускага школьніцтва, дырэктар Віленскай беларускай гімназіі, дзеяч Беларускай Народнай Рэспублікі. У гады эміграцыі жыў у ЗША, дзе стаў ключавой фігурай грамадскага жыцця беларускай дыяспары ў Саўт-Рыверы і стварыў знакаміты беларускі некропаль.",
+      "ru": "Уроженец Пуховичского района. Директор Виленской белорусской гимназии, деятель БНР. В эмиграции в США стал основателем белорусского общественного центра и некрополя в Саут-Ривере.",
+      "en": "Born in the Pukhavichy district. Educator, director of the Vilnius Belarusian Gymnasium, and activist of the Belarusian Democratic Republic. In US exile, became the foundational leader of the South River Belarusian community and its historic cemetery."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Radas%C5%82a%C5%AD_Astro%C5%ADski._%D0%A0%D0%B0%D0%B4%D0%B0%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%81%D1%82%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281941-44%29.jpg/330px-Radas%C5%82a%C5%AD_Astro%C5%ADski._%D0%A0%D0%B0%D0%B4%D0%B0%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%81%D1%82%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281941-44%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Радаслаў_Казіміравіч_Астроўскі",
+    "placeIds": [
+      "south-river-st-euphrosyne"
+    ]
+  },
+  {
+    "id": "jurka-vicbic",
+    "name": {
+      "by": "Юрка Віцьбіч (Серафімовіч)",
+      "ru": "Юрка Витьбич (Серафимович)",
+      "en": "Jurka Vićbič"
+    },
+    "dates": "1905–1975",
+    "role": {
+      "by": "Выдатны беларускі пісьменнік, эсэіст, гісторык-краязнаўца, даследчык спадчыны",
+      "ru": "Белорусский писатель, эссеист, историк-краевед, исследователь наследия",
+      "en": "Belarusian writer, essayist, historian, chronicler of cultural heritage"
+    },
+    "bio": {
+      "by": "Ураджэнец Вяліжа (Віцебская губерня). Прыхільнік адраджэння беларускай нацыянальнай памяці, аўтар глыбокіх гістарычных аповесцей і даследаванняў пра лёсы беларускіх дзеячаў і ахвяр савецкіх рэпрэсій («Мы дойдзем!», «Плыве з-пад Святога гор Дзвіна»). У эміграцыі ў ЗША — актыўны дзеяч беларускай грамады ў Саўт-Рыверы.",
+      "ru": "Уроженец Велижа (Витебская губерния). Выдающийся прозаик и краевед, исследовавший судьбы белорусских деятелей и жертв репрессий. В эмиграции в США — видный деятель белорусской общины Саут-Ривера.",
+      "en": "Born in Vyalizh (Vitebsk Governorate). Prominent novelist, essayist, and historian dedicated to documenting Belarusian national heritage and the victims of Soviet repressions. Active member of the South River Belarusian diaspora."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Jurka_Vi%C4%87bi%C4%8D.jpg/330px-Jurka_Vi%C4%87bi%C4%8D.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Юрка_Віцьбіч",
+    "placeIds": [
+      "south-river-st-euphrosyne"
+    ]
+  },
+  {
+    "id": "yauhim-kipel",
+    "name": {
+      "by": "Яўхім Кіпель",
+      "ru": "Евфимий Кипель",
+      "en": "Yauhim Kipel"
+    },
+    "dates": "1896–1969",
+    "role": {
+      "by": "Педагог, грамадскі дзеяч, арганізатар беларускага школьніцтва ў ЗША",
+      "ru": "Педагог, общественный деятель, организатор белорусских школ в США",
+      "en": "Educator, public figure, organizer of Belarusian schools in the US"
+    },
+    "bio": {
+      "by": "Ураджэнец Бабруйскага павета. Удзельнік беларускага нацыянальнага адраджэння 1920-х гадоў, выкладчык беларускай мовы і літаратуры. Пасля Другой сусветнай вайны эміграваў у ЗША, дзе заклаў асновы беларускага школьніцтва і выхавання моладзі ў Саўт-Рыверы, сузаснавальнік Беларускага інстытута навукі і мастацтва (БІНіМ).",
+      "ru": "Уроженец Бобруйского уезда. Педагог и просветитель, участник национального движения 1920-х годов. В США заложил основы белорусского школьного образования в Саут-Ривере, сооснователь БИНИМ.",
+      "en": "Born in the Babruysk district. Pioneer educator who advanced Belarusian schooling and youth education in post-war America. Co-founder of the Belarusian Institute of Arts and Sciences (BINiM) in New York."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ja%C5%ADchim_Kipiel._%D0%AF%D1%9E%D1%85%D1%96%D0%BC_%D0%9A%D1%96%D0%BF%D0%B5%D0%BB%D1%8C_%2828.06.1944%29.jpg/330px-Ja%C5%ADchim_Kipiel._%D0%AF%D1%9E%D1%85%D1%96%D0%BC_%D0%9A%D1%96%D0%BF%D0%B5%D0%BB%D1%8C_%2828.06.1944%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Яўхім_Яўсеевіч_Кіпель",
+    "placeIds": [
+      "south-river-st-euphrosyne"
+    ]
+  },
+  {
+    "id": "adam-maldis",
+    "name": {
+      "by": "Адам Мальдзіс",
+      "ru": "Адам Мальдис",
+      "en": "Adam Maldis"
+    },
+    "dates": "1932–2022",
+    "role": {
+      "by": "Літаратуразнаўца, гісторык, культуролаг, старшыня камісіі «Вяртанне»",
+      "ru": "Литературовед, историк, культуролог, председатель комиссии «Вяртанне»",
+      "en": "Literary scholar, historian, cultural researcher, head of the 'Return' commission"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Расолы Астравецкага раёна Гродзенскай вобласці. Выдатны даследчык беларускай літаратуры і культуры, доктар філалагічных навук, прафесар. Заснавальнік і кіраўнік Нацыянальнага навукова-асветнага цэнтра імя Францыска Скарыны. Прысвяціў жыццё адшуканню і вяртанню ў Беларусь нацыянальных гісторыка-культурных каштоўнасцей, вывезеных за межы краіны (у тым ліку даследаваў нямецкія сховішчы ў Баварыі і замку Хёхштэд).",
+      "ru": "Родился в Островецком районе Гродненской области. Выдающийся исследователь белорусской литературы и культуры, доктор филологических наук. Основатель Центра имени Франциска Скорины. Возглавлял государственную комиссию по поиску и возвращению национальных культурных ценностей, утраченных в годы войн.",
+      "en": "Born in the Astravec district of Hrodna region. Renowned historian, scholar of Belarusian literature and culture, and leader of the National Center named after Francysk Skaryna. Spearheaded missions across Europe to trace, document, and return looted Belarusian treasures, including ERR war repositories such as Höchstädt Castle."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Adam_Maldzis.jpg/330px-Adam_Maldzis.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Адам_Іосіфавіч_Мальдзіс",
+    "placeIds": [
+      "germany-schloss-hoechstaedt"
     ]
   }
 ];

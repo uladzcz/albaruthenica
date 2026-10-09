@@ -809,19 +809,36 @@ window.PLACES_DATA = [
     "items": [
       {
         "title": "Магіла Радаслава Астроўскага",
+        "author": "",
         "person": "Радаслаў Астроўскі (1887–1976)",
-        "description": "Прэзідэнт Беларускай Цэнтральнай Рады, грамадска-палітычны дзеяч эміграцыі."
+        "personId": "radaslau-astrouski",
+        "year": "1976",
+        "description": "Прэзідэнт Беларускай Цэнтральнай Рады, дзеяч БНР і беларускага школьніцтва, заснавальнік паваеннай суполкі ў Саўт-Рыверы.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Radasla%C5%AD_Astro%C5%ADski._%D0%A0%D0%B0%D0%B4%D0%B0%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%81%D1%82%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281917%29.jpg/330px-Radasla%C5%AD_Astro%C5%ADski._%D0%A0%D0%B0%D0%B4%D0%B0%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%81%D1%82%D1%80%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281917%29.jpg"
       },
       {
         "title": "Магіла Юркі Віцьбіча",
+        "author": "",
         "person": "Юрка Віцьбіч (1905–1975)",
-        "description": "Пісьменнік, эсэіст і краязнаўца, аўтар кніг пра гісторыю Беларусі і савецкія рэпрэсіі."
+        "personId": "jurka-vicbic",
+        "year": "1975",
+        "description": "Выбітны пісьменнік, эсэіст, публіцыст і краязнаўца, даследчык беларускай гісторыі і рэпрэсій савецкага часу.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Jurka_Vi%C4%87bi%C4%8D.jpg/330px-Jurka_Vi%C4%87bi%C4%8D.jpg"
       },
       {
         "title": "Магіла Яўхіма Кіпеля",
+        "author": "",
         "person": "Яўхім Кіпель (1896–1969)",
-        "description": "Беларускі педагог, грамадскі дзеяч, пачынальнік арганізацыі беларускага школьніцтва ў ЗША."
+        "personId": "yauhim-kipel",
+        "year": "1969",
+        "description": "Беларускі педагог, грамадскі і культурны дзеяч, пачынальнік арганізацыі беларускага школьніцтва ў ЗША.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Jauchim_Kipel.jpg/330px-Jauchim_Kipel.jpg"
       }
+    ],
+    "personIds": [
+      "radaslau-astrouski",
+      "jurka-vicbic",
+      "yauhim-kipel"
     ]
   },
   {
@@ -8905,50 +8922,6 @@ window.PLACES_DATA = [
     ]
   },
   {
-    "id": "kosciuszko-museum-solothurn",
-    "title": {
-      "by": "Музей Тадэвуша Касцюшкі ў Залатурне",
-      "ru": "Музей Тадеуша Костюшко в Золотурне",
-      "en": "Kosciuszko Museum in Solothurn"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Швейцарыя",
-      "ru": "Швейцария",
-      "en": "Switzerland"
-    },
-    "city": {
-      "by": "Залатурн",
-      "ru": "Золотурн",
-      "en": "Solothurn"
-    },
-    "coordinates": [
-      47.208031,
-      7.536346
-    ],
-    "description": {
-      "by": "Мемарыяльны музей у доме сям'і Цэльтнер на вуліцы Гурцэльнгасэ (Gurzelngasse 12), дзе Тадэвуш Касцюшка правёў апошнія гады жыцця і памёр 15 кастрычніка 1817 года. У будынку захоўваецца пакой героя, пасмяротная маска і асабістыя рэчы.",
-      "ru": "Мемориальный музей в доме семьи Цельтнер на улице Гурцельнгассе (Gurzelngasse 12), где Тадеуш Костюшко провел последние годы жизни и скончался 15 октября 1817 года. Экспозиция включает мемориальную комнату, посмертную маску и личные вещи.",
-      "en": "Memorial museum located in the Zeltner house at Gurzelngasse 12, where Tadeusz Kościuszko spent his final years in exile and passed away on October 15, 1817. The museum features his death room, personal relics, and death mask."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Kosciuszko_plaque%2C_Solothurn.JPG",
-    "links": [
-      {
-        "title": "Вікіпедыя",
-        "url": "https://de.wikipedia.org/wiki/Kosciuszko-Museum"
-      }
-    ],
-    "tags": [
-      "Залатурн"
-    ],
-    "isUnverifiedCoordinates": true,
-    "personId": "tadeusz-kosciuszko",
-    "unverifiedCoordinates": true,
-    "personIds": [
-      "tadeusz-kosciuszko"
-    ]
-  },
-  {
     "id": "kosciuszko-monument-chicago",
     "title": {
       "by": "Конны помнік Тадэвушу Касцюшку ў Чыкага",
@@ -11427,5 +11400,106 @@ window.PLACES_DATA = [
     "personIds": [
       "isaac-asimov"
     ]
+  },
+  {
+    "id": "solothurn-kosciuszko-monument",
+    "title": {
+      "by": "Помнік Тадэвушу Касцюшку ў Залатурне (Stadtpark)",
+      "ru": "Памятник Тадеушу Костюшко в Золотурне (Stadtpark)",
+      "en": "Tadeusz Kosciuszko Monument in Solothurn (Stadtpark)"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Залатурн",
+      "ru": "Золотурн",
+      "en": "Solothurn"
+    },
+    "coordinates": [
+      47.2064,
+      7.5412
+    ],
+    "description": {
+      "by": "Помнік нацыянальнаму герою Беларусі, Польшчы і ЗША Тадэвушу Касцюшку ў гарадскім парку (Stadtpark) Залатурна — горада, дзе герой правёў апошнія гады жыцця і спачыў у 1817 годзе. Усталяваны 21 кастрычніка 2017 года да 200-годдзя з дня смерці Касцюшкі па ініцыятыве Беларускага аб'яднання ў Швейцарыі (Алесь Сапега) пры шырокай падтрымцы беларускай дыяспары. Бронзавая постаць вышынёй 181 см усталяваная на пастаменце з вялікага беларускага палявога валуна. На шыльдзе змешчаны надпіс на беларускай і нямецкай мовах: «Тадэвуш Касцюшка / Thaddäus Kosciuszko (1746–1817). Выбітны сын Беларусі».",
+      "ru": "Памятник национальному герою Беларуси, Польши и США Тадеушу Костюшко в городском парке Золотурна — города, где он провёл последние годы жизни. Установлен в 2017 году к 200-летию со дня смерти героя по инициативе Ассоциации белорусов в Швейцарии (Алесь Сапега). Бронзовая фигура на постаменте из белорусского полевого валуна с надписью «Выбітны сын Беларусі».",
+      "en": "Monument to national hero Tadeusz Kosciuszko in the Stadtpark of Solothurn, where he spent his final years and died in 1817. Erected in October 2017 on the initiative of the Association of Belarusians in Switzerland (Ales Sapeha). The 1.8-meter bronze statue stands on a boulder brought from Belarus with the inscription: 'Outstanding son of Belarus'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Kosciuszko_monument_Solothurn.jpg/640px-Kosciuszko_monument_Solothurn.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Помнік Тадэвушу Касцюшку ў Залатурне",
+        "url": "https://be.wikipedia.org/wiki/Помнік_Тадэвушу_Касцюшку_(Залатурн)"
+      }
+    ],
+    "tags": [
+      "Залатурн",
+      "Касцюшка",
+      "Помнік",
+      "Дыяспара",
+      "Швейцарыя"
+    ],
+    "personId": "tadeusz-kosciuszko",
+    "personIds": [
+      "tadeusz-kosciuszko"
+    ],
+    "unverifiedCoordinates": false,
+    "isUnverifiedCoordinates": false
+  },
+  {
+    "id": "germany-schloss-hoechstaedt",
+    "title": {
+      "by": "Замак Хёхштэд — сховішча нарабаваных нацыстамі беларускіх каштоўнасцей",
+      "ru": "Замок Хёхштедт — хранилище вывезенных нацистами белорусских ценностей",
+      "en": "Höchstädt Castle — Nazi Repository of Looted Belarusian Treasures"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Хёхштэд-на-Дунаі",
+      "ru": "Хёхштедт-на-Дунае",
+      "en": "Höchstädt an der Donau"
+    },
+    "coordinates": [
+      48.611111,
+      10.578056
+    ],
+    "description": {
+      "by": "Рэнесансны замак у Баварыі, які падчас Другой сусветнай вайны стаў адным з найбуйнейшых сховішчаў нарабаваных нацыстамі культурных каштоўнасцей Аператыўнага штаба рэйхсляйтара Розенберга (ERR). Сюды эшалонамі вывозілі шэдэўры са спаленай і акупаванай Беларусі: калекцыі Дзяржаўнай карціннай галерэі ў Мінску, экспанаты Беларускага дзяржаўнага музея, царкоўныя рэліквіі, старадрукі і гістарычныя архівы. У 1945 годзе амерыканскія эксперты па ахове помнікаў («Monuments Men») выявілі тут велізарны масіў беларускай спадчыны. Даследаваннем гэтага сховішча і вяртаннем скарбаў дзесяцігоддзямі займаўся выбітны вучоны Адам Мальдзіс.",
+      "ru": "Ренессансный замок в Баварии, служивший в годы Второй мировой войны одним из главных хранилищ награбленных нацистами культурных ценностей (штаб Розенберга - ERR). Сюда эшелонами вывозились шедевры из Беларуси: фонды Минской картинной галереи, Белорусского государственного музея, церковные реликвии, редкие старопечатные книги. В 1945 году американские «Monuments Men» обнаружили здесь колоссальный массив вывезенного наследия.",
+      "en": "Renaissance castle in Bavaria used during WWII by the Nazi Einsatzstab Reichsleiter Rosenberg (ERR) as a principal repository for cultural treasures plundered from occupied Belarus. Hundreds of crates containing masterpieces from the Minsk Picture Gallery, the Belarusian State Museum, church relics, and historic archives were hidden here before being discovered in 1945 by the Allied 'Monuments Men'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Schloss_H%C3%B6chst%C3%A4dt_01.jpg/960px-Schloss_H%C3%B6chst%C3%A4dt_01.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Höchstädt Castle",
+        "url": "https://en.wikipedia.org/wiki/Höchstädt_Castle"
+      },
+      {
+        "title": "Афіцыйны сайт замка Хёхштэд",
+        "url": "https://www.schloss-hoechstaedt.de/"
+      }
+    ],
+    "tags": [
+      "Германія",
+      "Баварыя",
+      "Хёхштэд",
+      "Каштоўнасці",
+      "Мальдзіс",
+      "Другая сусветная вайна"
+    ],
+    "personId": "adam-maldis",
+    "personIds": [
+      "adam-maldis"
+    ],
+    "unverifiedCoordinates": false,
+    "isUnverifiedCoordinates": false
   }
 ];
