@@ -2742,7 +2742,12 @@
       "en": "Born in Voŭčyn (Brest region, Belarus). Last monarch of the Polish-Lithuanian Commonwealth and GDL. Patron of Enlightenment and initiator of the Constitution of May 3, 1791. Buried in St. John's Archcathedral in Warsaw."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Stanislaw_poniatowski_bacciarelli.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82_%D0%9F%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D1%96"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82_%D0%9F%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D1%96",
+    "placeIds": [
+      "warsaw-st-john-archcathedral-stanislaw-august-tomb",
+      "volchyn-holy-trinity-church-poniatowski",
+      "spb-st-catherine-basilica-poniatowski"
+    ]
   },
   {
     "id": "sofia-menskaya",

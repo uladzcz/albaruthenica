@@ -1024,8 +1024,47 @@ function showPlaceDetail(placeId) {
     `;
   }
 
-  // Categorized links (Wikipedia, background articles, catalog)
-  const linksHtml = (place.links || []).map(l => {
+  // Categorized links (Wikipedia, background articles, catalog, sources)
+  const combinedLinks = [];
+  const seenUrls = new Set();
+
+  if (Array.isArray(place.links)) {
+    for (const l of place.links) {
+      if (l && l.url && !seenUrls.has(l.url)) {
+        seenUrls.add(l.url);
+        combinedLinks.push({ title: l.title || l.url, url: l.url });
+      }
+    }
+  }
+
+  if (place.source && typeof place.source === 'string' && !seenUrls.has(place.source)) {
+    seenUrls.add(place.source);
+    let srcTitle = dict.formSourceUrl || 'Першакрыніца';
+    if (place.source.includes('nashaniva.com')) {
+      srcTitle = 'Наша Ніва: Чытаць матэрыял';
+    } else if (place.source.includes('chagall.com')) {
+      srcTitle = 'Marc Chagall: Афіцыйны каталог';
+    } else if (place.source.includes('charter97.org')) {
+      srcTitle = 'Хартыя\'97: Чытаць матэрыял';
+    } else if (place.source.includes('racyja.com')) {
+      srcTitle = 'Радыё Рацыя: Чытаць матэрыял';
+    } else {
+      try {
+        const u = new URL(place.source);
+        srcTitle = `Першакрыніца (${u.hostname.replace(/^www\./, '')})`;
+      } catch (e) {
+        srcTitle = 'Першакрыніца';
+      }
+    }
+    combinedLinks.push({ title: srcTitle, url: place.source });
+  }
+
+  if (place.wiki && typeof place.wiki === 'string' && !seenUrls.has(place.wiki)) {
+    seenUrls.add(place.wiki);
+    combinedLinks.push({ title: 'Вікіпедыя: Артыкул', url: place.wiki });
+  }
+
+  const linksHtml = combinedLinks.map(l => {
     return `
       <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="detail-link-item">
         <span class="link-text">${l.title}</span>

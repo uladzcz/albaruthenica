@@ -19314,7 +19314,7 @@
       "ru": "Посольство Беларуси в Нидерландах (Гаага)",
       "en": "Embassy of Belarus in the Netherlands (The Hague)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "Нідэрланды",
       "ru": "Нидерланды",
@@ -19326,66 +19326,24 @@
       "en": "The Hague"
     },
     "coordinates": [
-      52.0838,
-      4.2842
+      52.085014,
+      4.288465
     ],
     "image": "",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Каралеўстве Нідэрланды (Groot Hertoginnelaan 26, 2517 EG Den Haag). Здзяйсняе дыпламатычныя, консульскія і двухбаковыя сувязі паміж Беларуссю і Нідэрландамі, а таксама прадстаўніцтва пры Арганізацыі па забароне хімічнай зброі (ААЗХЗ / OPCW) у Гаазе.",
-      "ru": "Дипломатическое представительство Республики Беларусь в Нидерландах (Groot Hertoginnelaan 26, Гаага). Обеспечивает дипломатические и консульские функции, а также работу при ОЗХО.",
-      "en": "Embassy of the Republic of Belarus in the Kingdom of the Netherlands (Groot Hertoginnelaan 26, The Hague). Facilitates bilateral relations and representation to the OPCW."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Каралеўстве Нідэрланды.\n\nАдрас: Groot Hertoginnelaan 26, 2517 EG Den Haag, Нідэрланды.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Королевстве Нидерландов.\n\nАдрес: Groot Hertoginnelaan 26, 2517 EG Den Haag, Нидерланды.",
+      "en": "Embassy of the Republic of Belarus in the Kingdom of the Netherlands.\n\nAddress: Groot Hertoginnelaan 26, 2517 EG The Hague, Netherlands."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт пасольства ў Нідэрландах",
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Нідэрландах",
         "url": "https://netherlands.mfa.gov.by"
       }
     ],
     "tags": [
       "Нідэрланды",
       "Гаага",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "poland-embassy-warsaw",
-    "title": {
-      "by": "Пасольства Беларусі ў Польшчы (Варшава)",
-      "ru": "Посольство Беларуси в Польше (Варшава)",
-      "en": "Embassy of Belarus in Poland (Warsaw)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Польшча",
-      "ru": "Польша",
-      "en": "Poland"
-    },
-    "city": {
-      "by": "Варшава",
-      "ru": "Варшава",
-      "en": "Warsaw"
-    },
-    "coordinates": [
-      52.1818,
-      21.0772
-    ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg/960px-Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg",
-    "description": {
-      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Польшчы (ul. Wiertnicza 58, 02-952 Warszawa). Комплекс будынкаў амбасады ў раёне Віланаў.",
-      "ru": "Посольство Республики Беларусь в Республике Польша (ул. Вертнича 58, Варшава).",
-      "en": "Embassy of Belarus in Poland, located at ul. Wiertnicza 58 in Warsaw."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Польшчы",
-        "url": "https://poland.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Польшча",
-      "Варшава",
       "пасольства",
       "дыпламатыя"
     ],
@@ -19435,182 +19393,13 @@
     "mustSee": false
   },
   {
-    "id": "lithuania-embassy-vilnius",
-    "title": {
-      "by": "Пасольства Беларусі ў Літве (Вільня)",
-      "ru": "Посольство Беларуси в Литве (Вильнюс)",
-      "en": "Embassy of Belarus in Lithuania (Vilnius)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Літва",
-      "ru": "Литва",
-      "en": "Lithuania"
-    },
-    "city": {
-      "by": "Вільня",
-      "ru": "Вильнюс",
-      "en": "Vilnius"
-    },
-    "coordinates": [
-      54.6756,
-      25.2755
-    ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Embassy_of_Belarus_in_Vilnius.jpg/960px-Embassy_of_Belarus_in_Vilnius.jpg",
-    "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Літоўскай Рэспубліцы (Mindaugo g. 13, 03225 Vilnius, раён Наўямесціс).",
-      "ru": "Посольство Республики Беларусь в Литве (ул. Миндауго 13, Вильнюс).",
-      "en": "Embassy of Belarus in Lithuania (Mindaugo g. 13, Vilnius)."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Літве",
-        "url": "https://lithuania.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Літва",
-      "Вільня",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "latvia-embassy-riga",
-    "title": {
-      "by": "Пасольства Беларусі ў Латвіі (Рыга)",
-      "ru": "Посольство Беларуси в Латвии (Рига)",
-      "en": "Embassy of Belarus in Latvia (Riga)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Латвія",
-      "ru": "Латвия",
-      "en": "Latvia"
-    },
-    "city": {
-      "by": "Рыга",
-      "ru": "Рига",
-      "en": "Riga"
-    },
-    "coordinates": [
-      56.9422,
-      24.1251
-    ],
-    "image": "",
-    "description": {
-      "by": "Пасольства Рэспублікі Беларусь у Латвійскай Рэспубліцы (Jēzusa baznīcas iela 12, LV-1050 Rīga).",
-      "ru": "Посольство Республики Беларусь в Латвии (ул. Езусбазницас 12, Рига).",
-      "en": "Embassy of Belarus in Latvia (Jēzusa baznīcas iela 12, Riga)."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Латвіі",
-        "url": "https://latvia.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Латвія",
-      "Рыга",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "germany-embassy-berlin",
-    "title": {
-      "by": "Пасольства Беларусі ў Германіі (Берлін)",
-      "ru": "Посольство Беларуси в Германии (Берлин)",
-      "en": "Embassy of Belarus in Germany (Berlin)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Германія",
-      "ru": "Германия",
-      "en": "Germany"
-    },
-    "city": {
-      "by": "Берлін",
-      "ru": "Берлин",
-      "en": "Berlin"
-    },
-    "coordinates": [
-      52.4891,
-      13.4682
-    ],
-    "image": "",
-    "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Беларусі ў Федэратыўнай Рэспубліцы Германія (Am Treptower Park 32, 12435 Berlin). Будынак размешчаны насупраць Трэптаў-парка.",
-      "ru": "Посольство Республики Беларусь в Германии (Am Treptower Park 32, Берлин).",
-      "en": "Embassy of Belarus in Germany, located at Am Treptower Park 32, Berlin."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Германіі",
-        "url": "https://germany.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Германія",
-      "Берлін",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "france-embassy-paris",
-    "title": {
-      "by": "Пасольства Беларусі ў Францыі (Парыж)",
-      "ru": "Посольство Беларуси во Франции (Париж)",
-      "en": "Embassy of Belarus in France (Paris)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Францыя",
-      "ru": "Франция",
-      "en": "France"
-    },
-    "city": {
-      "by": "Парыж",
-      "ru": "Париж",
-      "en": "Paris"
-    },
-    "coordinates": [
-      48.8522,
-      2.2612
-    ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ambassade_de_Bi%C3%A9lorussie_en_France%2C_38_boulevard_Suchet%2C_Paris_16e_2.jpg/960px-Ambassade_de_Bi%C3%A9lorussie_en_France%2C_38_boulevard_Suchet%2C_Paris_16e_2.jpg",
-    "description": {
-      "by": "Пасольства Рэспублікі Беларусь у Французскай Рэспубліцы (38 Boulevard Suchet, 75016 Paris, 16-я акруга Парыжа ля Булонскага лесу). Таксама з'яўляецца пастаянным прадстаўніцтвам Беларусі пры ЮНЕСКА.",
-      "ru": "Посольство Беларуси во Франции и постоянное представительство при ЮНЕСКО (38 Boulevard Suchet, Париж).",
-      "en": "Embassy of Belarus in France and permanent delegation to UNESCO, situated at 38 Boulevard Suchet in the 16th arrondissement of Paris."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Францыі",
-        "url": "https://france.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Францыя",
-      "Парыж",
-      "пасольства",
-      "ЮНЕСКА",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
     "id": "uk-embassy-london",
     "title": {
       "by": "Пасольства Беларусі ў Вялікабрытаніі (Лондан)",
       "ru": "Посольство Беларуси в Великобритании (Лондон)",
       "en": "Embassy of Belarus in the United Kingdom (London)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "Вялікабрытанія",
       "ru": "Великобритания",
@@ -19622,66 +19411,28 @@
       "en": "London"
     },
     "coordinates": [
-      51.5015,
-      -0.1887
+      51.501599,
+      -0.186803
     ],
     "image": "",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Злучаным Каралеўстве Вялікабрытаніі і Паўночнай Ірландыі (6 Kensington Court, London W8 5DL, раён Кенсінгтан).",
-      "ru": "Посольство Республики Беларусь в Великобритании (6 Kensington Court, Лондон).",
-      "en": "Embassy of Belarus in the United Kingdom (6 Kensington Court, London W8 5DL)."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Злучаным Каралеўстве Вялікабрытаніі і Паўночнай Ірландыі.\n\nАдрас: 6 Kensington Court, London W8 5DL, Вялікабрытанія.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Соединённом Королевстве Великобритании и Северной Ирландии.\n\nАдрес: 6 Kensington Court, London W8 5DL, Великобритания.",
+      "en": "Embassy of the Republic of Belarus in the United Kingdom of Great Britain and Northern Ireland.\n\nAddress: 6 Kensington Court, London W8 5DL, United Kingdom."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт пасольства ў Вялікабрытаніі",
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Вялікабрытаніі",
         "url": "https://uk.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Вялікабрытаніі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Вялікабрытаніі"
       }
     ],
     "tags": [
       "Вялікабрытанія",
       "Лондан",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "usa-embassy-washington",
-    "title": {
-      "by": "Пасольства Беларусі ў ЗША (Вашынгтон)",
-      "ru": "Посольство Беларуси в США (Вашингтон)",
-      "en": "Embassy of Belarus in the United States (Washington, D.C.)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "ЗША",
-      "ru": "США",
-      "en": "United States"
-    },
-    "city": {
-      "by": "Вашынгтон",
-      "ru": "Вашингтон",
-      "en": "Washington, D.C."
-    },
-    "coordinates": [
-      38.9118,
-      -77.0422
-    ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Embassy_of_Belarus.jpg/960px-Embassy_of_Belarus.jpg",
-    "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Злучаных Штатах Амерыкі (1619 New Hampshire Ave NW, Washington, DC 20009, раён Dupont Circle).",
-      "ru": "Посольство Республики Беларусь в США (1619 New Hampshire Ave NW, Вашингтон).",
-      "en": "Embassy of Belarus in the United States, located at 1619 New Hampshire Ave NW, Washington, D.C."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў ЗША",
-        "url": "https://usa.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "ЗША",
-      "Вашынгтон",
       "пасольства",
       "дыпламатыя"
     ],
@@ -19706,18 +19457,18 @@
       "en": "New York"
     },
     "coordinates": [
-      40.7675,
-      -73.9641
+      40.766678,
+      -73.96359
     ],
     "image": "",
     "description": {
-      "by": "Пастаяннае прадстаўніцтва Рэспублікі Беларусь пры Арганізацыі Аб'яднаных Нацый (136 E 67th St, New York, NY 10065, Манхэтэн). Беларусь з'яўляецца адной з дзяржаў-заснавальніц ААН з 1945 года.",
-      "ru": "Постоянное представительство Беларуси при ООН (136 E 67th St, Нью-Йорк). Беларусь — государство-основатель ООН с 1945 года.",
-      "en": "Permanent Mission of Belarus to the United Nations (136 E 67th St, Manhattan, New York). Belarus is an original founding member state of the UN since 1945."
+      "by": "Пастаяннае прадстаўніцтва Рэспублікі Беларусь пры Арганізацыі Аб’яднаных Нацый у Нью-Ёрку.\n\nАдрас: 136 E 67th St, New York, NY 10065, ЗША.",
+      "ru": "Постоянное представительство Республики Беларусь при Организации Объединенных Наций в Нью-Йорке.\n\nАдрес: 136 E 67th St, New York, NY 10065, США.",
+      "en": "Permanent Mission of the Republic of Belarus to the United Nations in New York.\n\nAddress: 136 E 67th St, New York, NY 10065, USA."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт прадстаўніцтва пры ААН",
+        "title": "Афіцыйны сайт: Прадстаўніцтва Беларусі пры ААН",
         "url": "https://un.mfa.gov.by"
       }
     ],
@@ -19736,7 +19487,7 @@
       "ru": "Посольство Беларуси в Бельгии и миссия при ЕС (Брюссель)",
       "en": "Embassy of Belarus in Belgium & Mission to EU (Brussels)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "Бельгія",
       "ru": "Бельгия",
@@ -19748,18 +19499,18 @@
       "en": "Brussels"
     },
     "coordinates": [
-      50.8168,
-      4.3541
+      50.815661,
+      4.35417
     ],
     "image": "",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Беларусі ў Каралеўстве Бельгія і пастаяннае прадстаўніцтва пры Еўрапейскім Саюзе (Avenue Molière 192, 1050 Ixelles, Bruxelles).",
-      "ru": "Посольство Республики Беларусь в Бельгии и постоянное представительство при ЕС (Avenue Molière 192, Брюссель).",
-      "en": "Embassy of Belarus in Belgium and Permanent Mission to the European Union (Avenue Molière 192, Brussels)."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Каралеўстве Бельгія і Пастаяннае прадстаўніцтва пры ЕС.\n\nАдрас: Avenue Molière 192, 1050 Ixelles, Брусель, Бельгія.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Королевстве Бельгия и представительство при ЕС.\n\nАдрес: Avenue Molière 192, 1050 Ixelles, Брюссель, Бельгия.",
+      "en": "Embassy of the Republic of Belarus in the Kingdom of Belgium and Mission to the EU.\n\nAddress: Avenue Molière 192, 1050 Ixelles, Brussels, Belgium."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт пасольства ў Бельгіі",
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Бельгіі",
         "url": "https://belgium.mfa.gov.by"
       }
     ],
@@ -19773,98 +19524,13 @@
     "mustSee": false
   },
   {
-    "id": "austria-embassy-vienna",
-    "title": {
-      "by": "Пасольства Беларусі ў Аўстрыі і пры АБСЕ (Вена)",
-      "ru": "Посольство Беларуси в Австрии и при ОБСЕ (Вена)",
-      "en": "Embassy of Belarus in Austria & Mission to OSCE (Vienna)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Аўстрыя",
-      "ru": "Австрия",
-      "en": "Austria"
-    },
-    "city": {
-      "by": "Вена",
-      "ru": "Вена",
-      "en": "Vienna"
-    },
-    "coordinates": [
-      48.2091,
-      16.2552
-    ],
-    "image": "",
-    "description": {
-      "by": "Пасольства Рэспублікі Беларусь у Аўстрыі і пастаяннае прадстаўніцтва пры АБСЕ і міжнародных арганізацыях у Вене (Hüttelbergstraße 6, 1140 Wien).",
-      "ru": "Посольство Республики Беларусь в Австрии и постоянное представительство при ОБСЕ (Hüttelbergstraße 6, Вена).",
-      "en": "Embassy of Belarus in Austria and Permanent Mission to the OSCE and international organizations in Vienna."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Аўстрыі",
-        "url": "https://austria.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Аўстрыя",
-      "Вена",
-      "пасольства",
-      "АБСЕ",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "switzerland-embassy-bern",
-    "title": {
-      "by": "Пасольства Беларусі ў Швейцарыі (Берн)",
-      "ru": "Посольство Беларуси в Швейцарии (Берн)",
-      "en": "Embassy of Belarus in Switzerland (Bern)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Швейцарыя",
-      "ru": "Швейцария",
-      "en": "Switzerland"
-    },
-    "city": {
-      "by": "Берн",
-      "ru": "Берн",
-      "en": "Bern"
-    },
-    "coordinates": [
-      46.9366,
-      7.4883
-    ],
-    "image": "",
-    "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Швейцарскай Канфедэрацыі (Quartierweg 6, 3074 Muri bei Bern).",
-      "ru": "Посольство Республики Беларусь в Швейцарии (Quartierweg 6, Мури-бай-Берн).",
-      "en": "Embassy of Belarus in Switzerland, located at Quartierweg 6 in Muri bei Bern."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Швейцарыі",
-        "url": "https://switzerland.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Швейцарыя",
-      "Берн",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
     "id": "czech-embassy-prague",
     "title": {
       "by": "Пасольства Беларусі ў Чэхіі (Прага)",
       "ru": "Посольство Беларуси в Чехии (Прага)",
       "en": "Embassy of Belarus in the Czech Republic (Prague)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "Чэхія",
       "ru": "Чехия",
@@ -19876,18 +19542,18 @@
       "en": "Prague"
     },
     "coordinates": [
-      50.1171,
-      14.4259
+      50.116431,
+      14.420674
     ],
     "image": "",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Чэшскай Рэспубліцы (Sádky 626, 171 00 Praha-Troja).",
-      "ru": "Посольство Республики Беларусь в Чехии (Sádky 626, Прага-Троя).",
-      "en": "Embassy of Belarus in the Czech Republic (Sádky 626, Praha-Troja)."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Чэшскай Рэспубліцы.\n\nАдрас: Sádky 326/2, Troja, 171 00 Praha 7, Чэхія.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Чешской Республике.\n\nАдрес: Sádky 326/2, Troja, 171 00 Praha 7, Чехия.",
+      "en": "Embassy of the Republic of Belarus in the Czech Republic.\n\nAddress: Sádky 326/2, Troja, 171 00 Prague 7, Czech Republic."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт пасольства ў Чэхіі",
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Чэхіі",
         "url": "https://czech.mfa.gov.by"
       }
     ],
@@ -19900,55 +19566,13 @@
     "mustSee": false
   },
   {
-    "id": "italy-embassy-rome",
-    "title": {
-      "by": "Пасольства Беларусі ў Італіі (Рым)",
-      "ru": "Посольство Беларуси в Италии (Рим)",
-      "en": "Embassy of Belarus in Italy (Rome)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Італія",
-      "ru": "Италия",
-      "en": "Italy"
-    },
-    "city": {
-      "by": "Рым",
-      "ru": "Рим",
-      "en": "Rome"
-    },
-    "coordinates": [
-      41.8344,
-      12.4936
-    ],
-    "image": "",
-    "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Італьянскай Рэспубліцы (Via Luigi Girolamo Gattoni 8, 00142 Roma). Таксама пастаяннае прадстаўніцтва пры ФАО (FAO).",
-      "ru": "Посольство Республики Беларусь в Италии (Via Luigi Girolamo Gattoni 8, Рим).",
-      "en": "Embassy of Belarus in Italy and Permanent Representation to FAO (Via Luigi Girolamo Gattoni 8, Rome)."
-    },
-    "links": [
-      {
-        "title": "Афіцыйны сайт пасольства ў Італіі",
-        "url": "https://italy.mfa.gov.by"
-      }
-    ],
-    "tags": [
-      "Італія",
-      "Рым",
-      "пасольства",
-      "дыпламатыя"
-    ],
-    "mustSee": false
-  },
-  {
     "id": "china-embassy-beijing",
     "title": {
       "by": "Пасольства Беларусі ў Кітаі (Пекін)",
       "ru": "Посольство Беларуси в Китае (Пекин)",
       "en": "Embassy of Belarus in China (Beijing)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "Кітай",
       "ru": "Китай",
@@ -19960,18 +19584,18 @@
       "en": "Beijing"
     },
     "coordinates": [
-      39.9388,
-      116.4522
+      39.913181,
+      116.441042
     ],
     "image": "",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Кітайскай Народнай Рэспубліцы (No. 1, Dong Yi Jie, San Li Tun, Chaoyang District, Beijing).",
-      "ru": "Посольство Республики Беларусь в КНР (район Чаоян, Пекин).",
-      "en": "Embassy of Belarus in the People's Republic of China, Chaoyang District, Beijing."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Кітайскай Народнай Рэспубліцы.\n\nАдрас: No. 1, Dong Yi Jie, Ri Tan Lu, Chaoyang District, Beijing, 100600, Кітай (朝阳区日坛东二街1号).",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Китайской Народной Республике.\n\nАдрес: No. 1, Dong Yi Jie, Ri Tan Lu, Chaoyang District, Beijing, 100600, Китай.",
+      "en": "Embassy of the Republic of Belarus in the People’s Republic of China.\n\nAddress: No. 1, Dong Yi Jie, Ri Tan Lu, Chaoyang District, Beijing, 100600, China."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт пасольства ў Кітаі",
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Кітаі",
         "url": "https://china.mfa.gov.by"
       }
     ],
@@ -19990,7 +19614,7 @@
       "ru": "Посольство Беларуси в Израиле (Тель-Авив)",
       "en": "Embassy of Belarus in Israel (Tel Aviv)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "Ізраіль",
       "ru": "Израиль",
@@ -20002,18 +19626,18 @@
       "en": "Tel Aviv"
     },
     "coordinates": [
-      32.0838,
-      34.7735
+      32.074586,
+      34.783265
     ],
     "image": "",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Дзяржаве Ізраіль (Rehov Beilinson 3, Tel Aviv 6435103). Звязвае Беларусь са шматтысячнай супольнасцю выхадцаў з Беларусі ў Ізраілі.",
-      "ru": "Посольство Республики Беларусь в Государстве Израиль (ул. Бейлинсон 3, Тель-Авив).",
-      "en": "Embassy of Belarus in the State of Israel (Rehov Beilinson 3, Tel Aviv)."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Дзяржаве Ізраіль.\n\nАдрас: Rehov Daniel Frisch 3, Tel Aviv-Yafo, 6473104, Ізраіль.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Государстве Израиль.\n\nАдрес: Rehov Daniel Frisch 3, Tel Aviv-Yafo, 6473104, Израиль.",
+      "en": "Embassy of the Republic of Belarus in the State of Israel.\n\nAddress: Rehov Daniel Frisch 3, Tel Aviv-Yafo, 6473104, Israel."
     },
     "links": [
       {
-        "title": "Афіцыйны сайт пасольства ў Ізраілі",
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Ізраілі",
         "url": "https://israel.mfa.gov.by"
       }
     ],
@@ -20285,6 +19909,16 @@
       "архітэктура",
       "вкл",
       "вялікабрытанія"
+    ],
+    "links": [
+      {
+        "title": "Наша Ніва: У ангельскім палацы знайшлі беларускі лес",
+        "url": "https://nashaniva.com/378830"
+      },
+      {
+        "title": "Вікіпедыя: Lytham Hall (Grade I listed country house)",
+        "url": "https://en.wikipedia.org/wiki/Lytham_Hall"
+      }
     ]
   },
   {
@@ -20403,6 +20037,20 @@
       "рэймс",
       "юнеска",
       "мастацтва"
+    ],
+    "links": [
+      {
+        "title": "Наша Ніва: У Рэймскім саборы пра Марка Шагала пішуць нісянеціцу",
+        "url": "https://nashaniva.com/399979"
+      },
+      {
+        "title": "Marc Chagall: Catalogue raisonné des vitraux",
+        "url": "https://www.marcchagall.com/fr/catalogue-raisonne"
+      },
+      {
+        "title": "Вікіпедыя: Рэймскі сабор (Cathedrale Notre-Dame de Reims)",
+        "url": "https://be.wikipedia.org/wiki/Рэймскі_сабор"
+      }
     ]
   },
   {
@@ -21393,21 +21041,31 @@
       "en": "Ankara"
     },
     "coordinates": [
-      39.8732,
-      32.8427
+      39.882758,
+      32.854778
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/960px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Турцыі",
     "description": {
-      "by": "Афіцыйная дыпламатычная місія Рэспублікі Беларусь у Турэцкай Рэспубліцы, адкрытая ў 1997 годзе ў дыпламатычным квартале Чанкая ў Анкары (Abidin Daver Sk. 17).",
-      "ru": "Официальная дипломатическая миссия Республики Беларусь в Турецкой Республике, открытая в 1997 году в Анкаре.",
-      "en": "Official diplomatic mission of the Republic of Belarus to the Republic of Turkey, located in the Çankaya district of Ankara."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Турэцкай Рэспубліцы.\n\nАдрас: Abidin Daver Sk. No: 17, 06550 Çankaya, Ankara, Турцыя.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Турецкой Республике.\n\nАдрес: Abidin Daver Sk. No: 17, 06550 Çankaya, Ankara, Турция.",
+      "en": "Embassy of the Republic of Belarus in the Republic of Turkey.\n\nAddress: Abidin Daver Sk. No: 17, 06550 Çankaya, Ankara, Turkey."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "турцыя",
       "анкара"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Турцыі",
+        "url": "https://turkey.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Турцыі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Турцыі"
+      }
     ]
   },
   {
@@ -21429,21 +21087,27 @@
       "en": "Istanbul"
     },
     "coordinates": [
-      40.9786,
-      28.8711
+      40.975858,
+      28.797842
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/960px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Генеральнае_консульства_Беларусі_ў_Стамбуле",
     "description": {
-      "by": "Генеральнае консульства Рэспублікі Беларусь у найбуйнейшым мегаполісе Турцыі — Стамбуле, якое ажыццяўляе консульскую дапамогу беларускім грамадзянам і падтрымлівае эканамічныя кантакты.",
-      "ru": "Генеральное консульство Республики Беларусь в Стамбуле.",
-      "en": "Consulate General of the Republic of Belarus in Istanbul, Turkey."
+      "by": "Генеральнае консульства Рэспублікі Беларусь у Стамбуле.\n\nАдрас: Germeyan Sk. No: 1, Florya, Şenlikköy Mah., Bakırköy, İstanbul, Турцыя.",
+      "ru": "Генеральное консульство Республики Беларусь в Стамбуле.\n\nАдрес: Germeyan Sk. No: 1, Florya, Şenlikköy Mah., Bakırköy, İstanbul, Турция.",
+      "en": "Consulate General of the Republic of Belarus in Istanbul.\n\nAddress: Germeyan Sk. No: 1, Florya, Şenlikköy Mah., Bakırköy, Istanbul, Turkey."
     },
     "tags": [
       "дыпламатыя",
       "консульства",
       "турцыя",
       "стамбул"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Генконсульства Беларусі ў Стамбуле",
+        "url": "https://istanbul.mfa.gov.by"
+      }
     ]
   },
   {
@@ -21465,57 +21129,31 @@
       "en": "Washington, D.C."
     },
     "coordinates": [
-      38.9135,
-      -77.0682
+      38.912135,
+      -77.040722
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Embassy_of_Belarus.jpg/960px-Embassy_of_Belarus.jpg",
     "wiki": "https://en.wikipedia.org/wiki/Embassy_of_Belarus,_Washington,_D.C.",
     "description": {
-      "by": "Дыпламатычная місія Рэспублікі Беларусь у Злучаных Штатах Амерыкі, размешчаная ў Вашынгтоне (1619 New Hampshire Ave NW).",
-      "ru": "Дипломатическое представительство Республики Беларусь в США, расположенное в Вашингтоне.",
-      "en": "Diplomatic mission of the Republic of Belarus to the United States, located on New Hampshire Avenue in Washington, D.C."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Злучаных Штатах Амерыкі.\n\nАдрас: 1619 New Hampshire Ave NW, Washington, DC 20009, ЗША.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Соединённых Штатах Америки.\n\nАдрес: 1619 New Hampshire Ave NW, Washington, DC 20009, США.",
+      "en": "Embassy of the Republic of Belarus in the United States of America.\n\nAddress: 1619 New Hampshire Ave NW, Washington, DC 20009, USA."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "зша",
       "вашынгтон"
-    ]
-  },
-  {
-    "id": "london-embassy-belarus",
-    "title": {
-      "by": "Пасольства Беларусі ў Вялікабрытаніі (Лондан)",
-      "ru": "Посольство Беларуси в Великобритании (Лондон)",
-      "en": "Embassy of Belarus in the United Kingdom (London)"
-    },
-    "category": "embassy",
-    "country": {
-      "by": "Вялікабрытанія",
-      "ru": "Великобритания",
-      "en": "United Kingdom"
-    },
-    "city": {
-      "by": "Лондан",
-      "ru": "Лондон",
-      "en": "London"
-    },
-    "coordinates": [
-      51.4921,
-      -0.1983
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Embassy_of_Belarus_in_London.jpg/960px-Embassy_of_Belarus_in_London.jpg",
-    "wiki": "https://en.wikipedia.org/wiki/Embassy_of_Belarus,_London",
-    "description": {
-      "by": "Дыпламатычная місія Рэспублікі Беларусь у Злучаным Каралеўстве, размешчаная ў раёне Кенсінгтан у Лондане (6 Kensington Court).",
-      "ru": "Дипломатическая миссия Республики Беларусь в Великобритании, расположенная в Кенсингтоне в Лондоне.",
-      "en": "Official diplomatic mission of Belarus to the United Kingdom, located at Kensington Court in London."
-    },
-    "tags": [
-      "дыпламатыя",
-      "пасольства",
-      "лондан",
-      "вялікабрытанія"
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў ЗША",
+        "url": "https://usa.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў ЗША",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_ЗША"
+      }
     ]
   },
   {
@@ -21537,21 +21175,31 @@
       "en": "Paris"
     },
     "coordinates": [
-      48.8654,
-      2.2687
+      48.85808,
+      2.264716
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ambassade_de_Bi%C3%A9lorussie_en_France%2C_38_boulevard_Suchet%2C_Paris_16e_2.jpg/960px-Ambassade_de_Bi%C3%A9lorussie_en_France%2C_38_boulevard_Suchet%2C_Paris_16e_2.jpg",
     "wiki": "https://fr.wikipedia.org/wiki/Ambassade_de_Bi%C3%A9lorussie_en_France",
     "description": {
-      "by": "Дыпламатычная місія Рэспублікі Беларусь у Французскай Рэспубліцы (38 Boulevard Suchet, XVI акруга Парыжа).",
-      "ru": "Посольство Республики Беларусь во Франции (38 Boulevard Suchet, Париж).",
-      "en": "Embassy of Belarus in France, located on Boulevard Suchet in the 16th arrondissement of Paris."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Французскай Рэспубліцы.\n\nАдрас: 38 Boulevard Suchet, 75016 Paris, Францыя.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь во Французской Республике.\n\nАдрес: 38 Boulevard Suchet, 75016 Paris, Франция.",
+      "en": "Embassy of the Republic of Belarus in the French Republic.\n\nAddress: 38 Boulevard Suchet, 75016 Paris, France."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "парыж",
       "францыя"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Францыі",
+        "url": "https://france.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Францыі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Францыі"
+      }
     ]
   },
   {
@@ -21573,21 +21221,31 @@
       "en": "Berlin"
     },
     "coordinates": [
-      52.5786,
-      13.4116
+      52.487039,
+      13.463744
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
     "wiki": "https://de.wikipedia.org/wiki/Belarussische_Botschaft_in_Berlin",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у ФРГ (Am Treptower Park 32, Берлін).",
-      "ru": "Посольство Республики Беларусь в Германии (Am Treptower Park 32, Берлин).",
-      "en": "Embassy of Belarus in Germany, situated at Am Treptower Park in Berlin."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Федэратыўнай Рэспубліцы Германія.\n\nАдрас: Am Treptower Park 32, 12435 Berlin, Германія.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Федеративной Республике Германия.\n\nАдрес: Am Treptower Park 32, 12435 Berlin, Германия.",
+      "en": "Embassy of the Republic of Belarus in the Federal Republic of Germany.\n\nAddress: Am Treptower Park 32, 12435 Berlin, Germany."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "берлін",
       "германія"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Германіі",
+        "url": "https://germany.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Германіі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Германіі"
+      }
     ]
   },
   {
@@ -21609,21 +21267,31 @@
       "en": "Rome"
     },
     "coordinates": [
-      41.9168,
-      12.4939
+      41.936622,
+      12.536815
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Roma_Via_Nomentana_01.jpg/960px-Roma_Via_Nomentana_01.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Італіі",
     "description": {
-      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Беларусі ў Італьянскай Рэспубліцы (Via Nomentana 361, Рым).",
-      "ru": "Посольство Республики Беларусь в Италии (Рим).",
-      "en": "Embassy of Belarus in Italy, located on Via Nomentana in Rome."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Італьянскай Рэспубліцы.\n\nАдрас: Via delle Alpi Apuane, 16, 00141 Roma, Італія (Консульскі аддзел: Via Gazza, 10).",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Итальянской Республике.\n\nАдрес: Via delle Alpi Apuane, 16, 00141 Roma, Италия (Консульский отдел: Via Gazza, 10).",
+      "en": "Embassy of the Republic of Belarus in the Italian Republic.\n\nAddress: Via delle Alpi Apuane, 16, 00141 Rome, Italy (Consular section: Via Gazza, 10)."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "рым",
       "італія"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Італіі",
+        "url": "https://italy.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Італіі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Італіі"
+      }
     ]
   },
   {
@@ -21645,21 +21313,31 @@
       "en": "Warsaw"
     },
     "coordinates": [
-      52.2131,
-      21.0267
+      52.171814,
+      21.081903
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg/960px-Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg",
     "wiki": "https://pl.wikipedia.org/wiki/Ambasada_Bia%C5%82orusi_w_Polsce",
     "description": {
-      "by": "Дыпламатычная місія Рэспублікі Беларусь у Польшчы (вул. Вертнічая 58, Варшава).",
-      "ru": "Посольство Республики Беларусь в Польше (ул. Вертнича 58, Варшава).",
-      "en": "Embassy of Belarus in Poland, situated on Wiertnicza Street in Warsaw."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Рэспубліцы Польшча.\n\nАдрас: ul. Wiertnicza 58, 02-952 Warszawa, Польшча.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Республике Польша.\n\nАдрес: ul. Wiertnicza 58, 02-952 Warszawa, Польша.",
+      "en": "Embassy of the Republic of Belarus in the Republic of Poland.\n\nAddress: ul. Wiertnicza 58, 02-952 Warsaw, Poland."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "варшава",
       "польшча"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Польшчы",
+        "url": "https://poland.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Польшчы",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Польшчы"
+      }
     ]
   },
   {
@@ -21681,21 +21359,31 @@
       "en": "Vilnius"
     },
     "coordinates": [
-      54.6978,
-      25.2673
+      54.677235,
+      25.273211
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Літве",
     "description": {
-      "by": "Дыпламатычная місія Рэспублікі Беларусь у Літоўскай Рэспубліцы (вул. Міндаўга 13, Вільня).",
-      "ru": "Посольство Республики Беларусь в Литве (ул. Миндауго 13, Вильнюс).",
-      "en": "Embassy of Belarus in Lithuania, located on Mindaugo Street in Vilnius."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Літоўскай Рэспубліцы.\n\nАдрас: Mindaugo g. 13, LT-03225 Vilnius, Літва.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Литовской Республике.\n\nАдрес: Mindaugo g. 13, LT-03225 Vilnius, Литва.",
+      "en": "Embassy of the Republic of Belarus in the Republic of Lithuania.\n\nAddress: Mindaugo g. 13, LT-03225 Vilnius, Lithuania."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "вільня",
       "літва"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Літве",
+        "url": "https://lithuania.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Літве",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Літве"
+      }
     ]
   },
   {
@@ -21717,21 +21405,31 @@
       "en": "Riga"
     },
     "coordinates": [
-      56.9664,
-      24.1165
+      56.941857,
+      24.124804
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Латвіі",
     "description": {
-      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Латвійскай Рэспубліцы (вул. Езусбазніцас 12, Рыга).",
-      "ru": "Посольство Республики Беларусь в Латвии (ул. Езусбазницас 12, Рига).",
-      "en": "Embassy of Belarus in Latvia, located on Jēzusbaznīcas Street in Riga."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Латвійскай Рэспубліцы.\n\nАдрас: Jēzusbaznīcas iela 12, Rīga, LV-1050, Латвія.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Латвийской Республике.\n\nАдрес: Jēzusbaznīcas iela 12, Rīga, LV-1050, Латвия.",
+      "en": "Embassy of the Republic of Belarus in the Republic of Latvia.\n\nAddress: Jēzusbaznīcas iela 12, Rīga, LV-1050, Latvia."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "рыга",
       "латвія"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Латвіі",
+        "url": "https://latvia.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Латвіі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Латвіі"
+      }
     ]
   },
   {
@@ -21753,21 +21451,31 @@
       "en": "Bern"
     },
     "coordinates": [
-      46.9388,
-      7.4645
+      46.933818,
+      7.488585
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Швейцарыі",
     "description": {
-      "by": "Дыпламатычная місія Беларусі ў Швейцарскай Канфедэрацыі (Quartierweg 6, Лібефельд/Берн).",
-      "ru": "Посольство Республики Беларусь в Швейцарии (Берн).",
-      "en": "Embassy of Belarus in Switzerland, located in Liebefeld/Bern."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Швейцарскай Канфедэрацыі.\n\nАдрас: Quartierweg 6, 3074 Muri bei Bern, Швейцарыя.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Швейцарской Конфедерации.\n\nАдрес: Quartierweg 6, 3074 Muri bei Bern, Швейцария.",
+      "en": "Embassy of the Republic of Belarus in the Swiss Confederation.\n\nAddress: Quartierweg 6, 3074 Muri bei Bern, Switzerland."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "берн",
       "швейцарыя"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Швейцарыі",
+        "url": "https://switzerland.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Швейцарыі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Швейцарыі"
+      }
     ]
   },
   {
@@ -21789,21 +21497,31 @@
       "en": "Vienna"
     },
     "coordinates": [
-      48.1878,
-      16.3129
+      48.203076,
+      16.257568
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Аўстрыі",
     "description": {
-      "by": "Пасольства Беларусі ў Аўстрыйскай Рэспубліцы і пастаяннае прадстаўніцтва пры АБСЕ і міжнародных арганізацыях у Вене (Hüttelbergstrasse 6).",
-      "ru": "Посольство Республики Беларусь в Австрии и постоянное представительство при международных организациях в Вене.",
-      "en": "Embassy of Belarus in Austria and Permanent Mission to international organizations in Vienna."
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Аўстрыйскай Рэспубліцы і пры міжнародных арганізацыях у Вене (АБСЕ).\n\nАдрас: Hüttelbergstraße 6, 1140 Wien, Аўстрыя.",
+      "ru": "Официальное дипломатическое представительство Республики Беларусь в Австрийской Республике и при ОБСЕ.\n\nАдрес: Hüttelbergstraße 6, 1140 Wien, Австрия.",
+      "en": "Embassy of the Republic of Belarus in the Republic of Austria and Permanent Mission to the OSCE.\n\nAddress: Hüttelbergstraße 6, 1140 Vienna, Austria."
     },
     "tags": [
       "дыпламатыя",
       "пасольства",
       "вена",
       "аўстрыя"
+    ],
+    "links": [
+      {
+        "title": "Афіцыйны сайт: Пасольства Беларусі ў Аўстрыі",
+        "url": "https://austria.mfa.gov.by"
+      },
+      {
+        "title": "Вікіпедыя: Пасольства Беларусі ў Аўстрыі",
+        "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Аўстрыі"
+      }
     ]
   },
   {
@@ -21846,6 +21564,120 @@
       "дошка",
       "саска-кэмпа",
       "памяць"
+    ],
+    "links": [
+      {
+        "title": "Хартыя'97: У Варшаве адкрылі дошку генералу Булак-Балаховічу",
+        "url": "https://charter97.org/ru/news/2009/5/11/18042/"
+      },
+      {
+        "title": "Радыё Рацыя: У Варшаве ўшанавалі памяць Станіслава Булак-Балаховіча",
+        "url": "https://racyja.com/by/sumezza/u-varsav-usanavali-pamjac-stanislava-bulak-bulachovica/"
+      },
+      {
+        "title": "Polskie Radio: Tablica gen. Stanisława Bułak-Bałachowicza",
+        "url": "https://www2.polskieradio.pl/eo/print.aspx?iid=107917"
+      }
+    ]
+  },
+  {
+    "id": "volchyn-holy-trinity-church-poniatowski",
+    "title": {
+      "by": "Касцёл Найсвяцейшай Тройцы ў Воўчыне — Месца нараджэння і перапахавання Станіслава Аўгуста Панятоўскага",
+      "ru": "Костёл Святой Троицы в Волчине — Место рождения и перезахоронения Станислава Августа Понятовского",
+      "en": "Holy Trinity Church in Voŭčyn — Birthplace and Reburial of King Stanisław August Poniatowski"
+    },
+    "category": "church",
+    "country": {
+      "by": "Беларусь",
+      "ru": "Беларусь",
+      "en": "Belarus"
+    },
+    "city": {
+      "by": "Воўчын",
+      "ru": "Волчин",
+      "en": "Voŭčyn"
+    },
+    "coordinates": [
+      52.285808,
+      23.310356
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%92%D0%BE%D1%9E%D1%87%D1%8B%D0%BD_Vo%C5%AD%C4%8Dyn_%282021%29_01.jpg",
+    "description": {
+      "by": "Адрас: вул. Леніна, 45А, в. Воўчын, Камянецкі раён, Брэсцкая вобласць.\n\nШэдэўр барока і ракако XVIII ст., збудаваны пад кіраўніцтвам архітэктара Яна Баптыста Цупіні і фундаваны падканцлерам ВКЛ Станіславам Панятоўскім. Тут у 1732 г. нарадзіўся і быў ахрышчаны апошні вялікі князь літоўскі і кароль польскі Станіслаў Аўгуст Панятоўскі.\n\nУ ліпені 1938 года ўрад СССР таемна перадаў Польшчы труну з парэшткамі Панятоўскага з Пецярбурга, і манарх быў урачыста перапахаваны ў крыпце Воўчынскага касцёла. Пасля Другой сусветнай вайны касцёл быў разрабаваны, а ў 1988–1995 гг. парэшткі караля былі перанесены ў Варшаву ў архікатэдру Святога Яна. Сёння касцёл адноўлены.",
+      "ru": "Адрес: ул. Ленина, 45А, д. Волчин, Каменецкий район, Брестская область.\n\nШедевр позднего барокко и рококо XVIII в. Здесь в 1732 г. родился и крестился последний король польский и великий князь литовский Станислав Август Понятовский. В июле 1938 г. советские власти тайно передали гроб с останками короля Польше, и он был торжественно перезахоронен в крипте Волчинского костёла. В 1988–1995 гг. прах перевезён в Варшаву в собор Св. Иоанна.",
+      "en": "Address: 45A Lenina St, Voŭčyn, Kamyanyets District, Brest Region.\n\n18th-century Baroque church where the last Grand Duke of Lithuania and King of Poland, Stanisław August Poniatowski, was born in 1732. In July 1938, his remains were secretly transferred here from Leningrad by Soviet authorities and reburied in the crypt. In 1988–1995 his ashes were moved to St. John's Cathedral in Warsaw."
+    },
+    "links": [
+      {
+        "title": "Вікіпедыя: Касцёл Найсвяцейшай Тройцы (Воўчын)",
+        "url": "https://be.wikipedia.org/wiki/Касцёл_Найсвяцейшай_Тройцы_(Воўчын)"
+      },
+      {
+        "title": "Радзіма мая — Беларусь: Касцёл Святой Тройцы ў Воўчыне",
+        "url": "https://radzima.org/be/object/665.html"
+      }
+    ],
+    "tags": [
+      "панятоўскі",
+      "воўчын",
+      "вкл",
+      "перапахаванне",
+      "сабор",
+      "барока",
+      "спадчына"
+    ],
+    "personId": "stanislaw-august-poniatowski",
+    "personIds": [
+      "stanislaw-august-poniatowski"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "spb-st-catherine-basilica-poniatowski",
+    "title": {
+      "by": "Базіліка Святой Кацярыны на Неўскім — Першапачатковае пахаванне Панятоўскага",
+      "ru": "Базилика Святой Екатерины на Невском — Первоначальное захоронение Понятовского",
+      "en": "Basilica of St. Catherine on Nevsky — Original Tomb of King Stanisław August Poniatowski"
+    },
+    "category": "church",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Санкт-Пецярбург",
+      "ru": "Санкт-Петербург",
+      "en": "Saint Petersburg"
+    },
+    "coordinates": [
+      59.935609,
+      30.329101
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Saint_Petersburg_Nevsky_Prospekt_Catholic_Church_of_St_Catherine.jpg/960px-Saint_Petersburg_Nevsky_Prospekt_Catholic_Church_of_St_Catherine.jpg",
+    "description": {
+      "by": "Адрас: Неўскі праспект, 32-34, Санкт-Пецярбург.\n\nНайстарэйшы каталіцкі храм Пецярбурга, цесна звязаны з беларускай гісторыяй. Тут пасля смерці ў 1798 г. быў пахаваны апошні кароль і вялікі князь літоўскі Станіслаў Аўгуст Панятоўскі (яго цела спачывала ў крыпце 140 гадоў да перапахавання ў Воўчыне ў 1938 г.). Таксама ў гэтым храме быў пахаваны Чэслаў Манюшка (бацька кампазітара Станіслава Манюшкі), тут маліліся тысячы беларусаў Паўночнай сталіцы.",
+      "ru": "Адрес: Невский проспект, 32-34, Санкт-Петербург.\n\nСтарейший католический храм Санкт-Петербурга. Здесь после смерти в 1798 г. был погребён Станислав Август Понятовский (его прах покоился в крипте 140 лет до перезахоронения в Волчине в 1938 г.). Также здесь был похоронен Чеслав Монюшко — отец композитора Станислава Монюшко.",
+      "en": "Address: 32-34 Nevsky Prospekt, Saint Petersburg.\n\nThe oldest Roman Catholic church in St. Petersburg. Following his death in 1798, King Stanisław August Poniatowski was interred here for 140 years before his secret reburial in Voŭčyn in 1938. Czesław Moniuszko (father of composer Stanisław Moniuszko) was also buried here."
+    },
+    "links": [
+      {
+        "title": "Вікіпедыя: Базіліка Святой Кацярыны Александрыйскай",
+        "url": "https://be.wikipedia.org/wiki/Базіліка_Святой_Кацярыны_Александрыйскай"
+      }
+    ],
+    "tags": [
+      "панятоўскі",
+      "пецярбург",
+      "манюшка",
+      "вкл",
+      "касцёл",
+      "неўскі"
+    ],
+    "personId": "stanislaw-august-poniatowski",
+    "personIds": [
+      "stanislaw-august-poniatowski"
     ]
   }
 ]
