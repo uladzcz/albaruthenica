@@ -223,7 +223,7 @@ window.INITIAL_PERSONS = [
       "mickiewicz-museum-istanbul",
       "mickiewicz-museum-paris",
       "mickiewicz-plaque-rome",
-      "montmorency-polish-belarusian-pantheon",
+      "montmorency-champeaux-cemetery-pantheon",
       "vilnia-aposhni-adras-a-mitskevicha",
       "vilnia-bazylyanskiya-mury-memaryyalnaya-shylda-damey",
       "vilnia-brama-va-wniversitetski-dvor-imya-a-mitskevic",
@@ -992,7 +992,9 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Генрых_Іпалітавіч_Семірадскі",
     "placeIds": [
       "krakow-sukiennice-siemiradzki",
-      "lviv-art-gallery-siemiradzki"
+      "lviv-art-gallery-siemiradzki",
+      "rome-villino-siemiradzki-via-gaeta",
+      "strzalkow-dwor-siemiradzkiego"
     ]
   },
   {
@@ -2877,7 +2879,10 @@ window.INITIAL_PERSONS = [
       "en": "Born in Skoki near Brest. Statesman of the Great Sejm and co-author of the Constitution of May 3, 1791. Close aide-de-camp to Tadeusz Kościuszko during the 1794 Uprising. Buried in the Polish-Lithuanian Pantheon at Montmorency near Paris."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Julian_Ursyn_Niemcewicz_11.PNG",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%AE%D0%BB%D1%8C%D1%8F%D0%BD_%D0%A3%D1%80%D1%81%D1%8B%D0%BD_%D0%9D%D1%8F%D0%BC%D1%86%D1%8D%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AE%D0%BB%D1%8C%D1%8F%D0%BD_%D0%A3%D1%80%D1%81%D1%8B%D0%BD_%D0%9D%D1%8F%D0%BC%D1%86%D1%8D%D0%B2%D1%96%D1%87",
+    "placeIds": [
+      "montmorency-champeaux-cemetery-pantheon"
+    ]
   },
   {
     "id": "aleksandr-chodzko",
@@ -2898,7 +2903,10 @@ window.INITIAL_PERSONS = [
       "en": "Born in Kryvichy. Philomath, close friend of Adam Mickiewicz. Renowned orientalist and diplomat. Succeeded Mickiewicz as professor of Slavic literatures at the Collège de France in Paris. Buried at Montmorency."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Aleksander_Chod%C5%BAko.JPG",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0",
+    "placeIds": [
+      "montmorency-champeaux-cemetery-pantheon"
+    ]
   },
   {
     "id": "leonard-chodzko",
@@ -2919,7 +2927,10 @@ window.INITIAL_PERSONS = [
       "en": "Born in Aborak near Maladzyechna. Philareth at Vilnius University, secretary to Michał Kleofas Ogiński. In Paris, published monumental works and historical maps on the Grand Duchy of Lithuania and Poland. Buried at Montmorency."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Aleksander_Chod%C5%BAko.JPG",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%9B%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B4_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9B%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B4_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0",
+    "placeIds": [
+      "montmorency-champeaux-cemetery-pantheon"
+    ]
   },
   {
     "id": "valentsin-vankovich",
@@ -3668,8 +3679,10 @@ window.INITIAL_PERSONS = [
       "en": "Leading founding father and Prime Minister of the Belarusian Democratic Republic (BNR), editor of 'Nasha Niva', and director of the Belarusian Museum in Vilnius."
     },
     "placeIds": [
-      "vilnia-pershaya-redaktsyya-nashay-nivy",
-      "kaunas-vytautas-8-duzh-dusheuski-house"
+      "kaunas-vytautas-8-duzh-dusheuski-house",
+      "paris-bnr-delegation-hotel-moderne",
+      "paris-bnr-press-bureau-clichy",
+      "vilnia-pershaya-redaktsyya-nashay-nivy"
     ],
     "wiki": "https://be.wikipedia.org/wiki/Антон_Іванавіч_Луцкевіч"
   },
@@ -3744,5 +3757,261 @@ window.INITIAL_PERSONS = [
       "vyazma-haretski-memorial"
     ],
     "wiki": "https://be.wikipedia.org/wiki/Максім_Іванавіч_Гарэцкі"
+  },
+  {
+    "id": "edward-piekarski",
+    "name": {
+      "by": "Эдвард Пякарскі",
+      "ru": "Эдуард Пекарский",
+      "en": "Edward Piekarski"
+    },
+    "role": {
+      "by": "Лінгвіст, этнограф, фалькларыст, заснавальнік якуцкай пісьменнасці",
+      "ru": "Лингвист, этнограф, фольклорист, основатель якутской письменности",
+      "en": "Linguist, ethnographer, founder of Yakut written literature"
+    },
+    "years": "1858–1934",
+    "birthPlace": "в. Пятровічы (Ігуменскі павет / Смалявіцкі раён)",
+    "description": {
+      "by": "Беларускі шляхціц, лінгвіст і фалькларыст. За ўдзел у народніцкім руху высланы ў Сібір, дзе пражыў больш за 20 гадоў у Якуціі. Стваральнік фундаментальнага «Слоўніка якуцкай мовы» ў 3 тамах (~38 000 слоў), які паклаў пачатак пісьмовай якуцкай мове. Акадэмік АН СССР.",
+      "ru": "Белорусский дворянин, лингвист. В якутской ссылке создал фундаментальный «Словарь якутского языка», заложив основы якутской письменности.",
+      "en": "Belarusian linguist and folklorist. During his exile in Yakutia, compiled the monumental 3-volume Yakut Language Dictionary (~38,000 words), founding modern Yakut written literature."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Edward_Piekarski.jpg/800px-Edward_Piekarski.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Эдвард_Карлавіч_Пякарскі",
+    "placeIds": [
+      "cherkekh-piekarski-house-museum",
+      "yakutsk-exiled-scholars-memorial"
+    ]
+  },
+  {
+    "id": "benedykt-dybowski",
+    "name": {
+      "by": "Бенядзікт Дыбоўскі",
+      "ru": "Бенедикт Дыбовский",
+      "en": "Benedykt Dybowski"
+    },
+    "role": {
+      "by": "Заолаг, географ, антраполаг, даследчык Байкала і Сібіры",
+      "ru": "Зоолог, географ, антрополог, исследователь Байкала и Сибири",
+      "en": "Zoologist, explorer of Lake Baikal and Siberia"
+    },
+    "years": "1833–1930",
+    "birthPlace": "маёнтак Адамарын (Мінскі павет)",
+    "description": {
+      "by": "Выбітны прыродазнавец, ураджэнец Міншчыны. За ўдзел у паўстанні 1863 года прыгавораны да катаргі ў Сібіры. Стаў піянерам навуковага даследавання фаўны Байкала, Ангары, Амура і Камчаткі, адкрыў сотні новых відаў. З 1884 г. прафесар Львоўскага ўніверсітэта.",
+      "ru": "Выдающийся зоолог и географ, уроженец Минщины, повстанец 1863 г. Исследователь Байкала и Камчатки, профессор Львовского университета.",
+      "en": "Naturalist and explorer born near Minsk. 1863 insurgent, pioneer researcher of Lake Baikal and Kamchatka fauna, professor at Lviv University."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Benedykt_Dybowski_1928.jpg/800px-Benedykt_Dybowski_1928.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Бенедыкт_Іванавіч_Дыбоўскі",
+    "placeIds": [
+      "lviv-dybowski-grave",
+      "lviv-dybowski-zoological-museum"
+    ]
+  },
+  {
+    "id": "andrey-vilkitsky",
+    "name": {
+      "by": "Андрэй Вількіцкі",
+      "ru": "Андрей Вилькицкий",
+      "en": "Andrey Vilkitsky"
+    },
+    "role": {
+      "by": "Гідрограф, геадэзіст, палярны даследчык, генерал-лейтэнант",
+      "ru": "Гидрограф, геодезист, полярный исследователь, генерал-лейтенант",
+      "en": "Hydrographer, geodesist, polar explorer, Lieutenant General"
+    },
+    "years": "1858–1913",
+    "birthPlace": "маёнтак Тосік (Барысаўскі павет, Мінская губерня)",
+    "description": {
+      "by": "Выбітны беларускі гідрограф і геадэзіст, генерал-лейтэнант Корпуса гідрографаў, начальнік Галоўнага гідраграфічнага ўпраўлення. Даследчык Арктыкі, Карскага мора і вусцяў рэк Об і Енісей.",
+      "ru": "Выдающийся белорусский гидрограф и геодезист, генерал-лейтенант, начальник Главного гидрографического управления. Исследователь Карского моря, Оби и Енисея.",
+      "en": "Distinguished polar hydrographer and surveyor born in Barysaw district, Minsk governorate. Head of the Main Hydrographic Directorate."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Boris_Vilkitsky.jpg/800px-Boris_Vilkitsky.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Андрэй_Іпалітавіч_Вількіцкі",
+    "placeIds": [
+      "spb-arctic-museum-vollosovich-vilkitsky",
+      "spb-smolenskoye-vilkitsky-grave"
+    ]
+  },
+  {
+    "id": "boris-vilkitsky",
+    "name": {
+      "by": "Барыс Вількіцкі",
+      "ru": "Борис Вилькицкий",
+      "en": "Boris Vilkitsky"
+    },
+    "role": {
+      "by": "Палярны даследчык, першаадкрывальнік Паўночнай Зямлі",
+      "ru": "Полярный исследователь, первооткрыватель Северной Земли",
+      "en": "Polar explorer, discoverer of Severnaya Zemlya"
+    },
+    "years": "1885–1961",
+    "birthPlace": "Санкт-Пецярбург (бацька з Барысаўскага павета)",
+    "description": {
+      "by": "Сын Андрэя Вількіцкага, капітан 2-га рангу. Узначальваў Гідраграфічную экспедыцыю Паўночнага Ледавітага акіяна (1913–1915) на ледаколах «Таймыр» і «Вайгач», якая адкрыла архіпелаг Паўночная Зямля (апошняе вялікае геаграфічнае адкрыццё на Зямлі) і праліў Вількіцкага.",
+      "ru": "Сын Андрея Вилькицкого, капитан 2-го ранга. Руководитель экспедиции на ледоколах «Таймыр» и «Вайгач», открывшей Северную Землю и пролив Вилькицкого.",
+      "en": "Naval officer and polar explorer, led the expedition that discovered Severnaya Zemlya (the last major archipelago discovered on Earth) and the Vilkitsky Strait."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Boris_Vilkitsky.jpg/800px-Boris_Vilkitsky.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Барыс_Андрэевіч_Вількіцкі",
+    "placeIds": [
+      "spb-arctic-museum-vollosovich-vilkitsky",
+      "spb-smolenskoye-vilkitsky-grave"
+    ]
+  },
+  {
+    "id": "konstantin-vollosovich",
+    "name": {
+      "by": "Канстанцін Валасовіч",
+      "ru": "Константин Воллосович",
+      "en": "Konstantin Vollosovich"
+    },
+    "role": {
+      "by": "Геолаг, геахімік, палярны даследчык Сібіры і Арктыкі",
+      "ru": "Геолог, геохимик, полярный исследователь Сибири и Арктики",
+      "en": "Geologist, geochemist, Arctic and Siberian explorer"
+    },
+    "years": "1869–1919",
+    "birthPlace": "в. Старчыцы / Ёдчыцы (Слуцкі павет, Мінская губерня)",
+    "description": {
+      "by": "Беларускі геолаг і палярны даследчык. Удзельнік Рускай палярнай экспедыцыі барона Толя на шхуне «Зара» (1900–1902), кіраўнік раскопак Саннікаўскага маманта на Новасібірскіх астравах. Яго імем названы востраў і мыс на архіпелагу Паўночная Зямля.",
+      "ru": "Белорусский геолог и полярный исследователь (уроженец Слуцкого уезда). Участник Русской полярной экспедиции Толля на шхуне «Заря», исследователь Новосибирских островов.",
+      "en": "Belarusian geologist and Arctic explorer born in Slutsk district. Participant in Eduard Toll's polar expedition on the 'Zarya' and excavator of the Sannikov mammoth."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Belarusian_ornament.svg/800px-Belarusian_ornament.svg.png",
+    "wiki": "https://be.wikipedia.org/wiki/Канстанцін_Адамавіч_Валасовіч",
+    "placeIds": [
+      "spb-arctic-museum-vollosovich-vilkitsky"
+    ]
+  },
+  {
+    "id": "jan-czerski",
+    "name": {
+      "by": "Ян Чэрскі",
+      "ru": "Ян Черский",
+      "en": "Jan Czerski"
+    },
+    "role": {
+      "by": "Геолаг, палеантолаг, геамарфолаг, першаадкрывальнік Сібіры",
+      "ru": "Геолог, палеонтолог, геоморфолог, исследователь Сибири",
+      "en": "Geologist, paleontologist, pioneer explorer of Siberia"
+    },
+    "years": "1845–1892",
+    "birthPlace": "маёнтак Свольна (Дрысенскі павет / Верхнядзвінскі раён)",
+    "description": {
+      "by": "Беларускі шляхціц, удзельнік паўстання 1863 года ў атрадзе Кастуся Каліноўскага. Высланы ў Сібір салдатам. Стаў выдатным геолагам і географам, першаадкрывальнікам Байкала, Саянаў і Калымы. У яго гонар названы Хрыбет Чэрскага ў Якуціі і Магадане, Хрыбет Чэрскага ў Забайкаллі, вулкан, горад Чэрскі і ледавік.",
+      "ru": "Белорусский дворянин, участник восстания 1863 года под руководством Кастуся Калиновского. Выдающийся геолог и исследователь Сибири.",
+      "en": "Belarusian insurgent of 1863 under Kastus Kalinouski and legendary Siberian explorer, geologist, and geographer. The Chersky Range in Yakutia and Transbaikalia are named in his honor."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Jan_%C4%8Cerski._%D0%AF%D0%BD_%D0%A7%D1%8D%D1%80%D1%81%D0%BA%D1%96_%281879%29.jpg/800px-Jan_%C4%8Cerski._%D0%AF%D0%BD_%D0%A7%D1%8D%D1%80%D1%81%D0%BA%D1%96_%281879%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Ян_Дамінікавіч_Чэрскі",
+    "placeIds": [
+      "yakutsk-exiled-scholars-memorial",
+      "irkutsk-cherny-society-belarusian-culture"
+    ]
+  },
+  {
+    "id": "stepan-krichinsky",
+    "name": {
+      "by": "Сцяпан Крычынскі",
+      "ru": "Степан Кричинский",
+      "en": "Stepan Krichinsky"
+    },
+    "role": {
+      "by": "Архітэктар, майстар мадэрну і неакласіцызму",
+      "ru": "Архитектор, мастер модерна и неоклассицизма",
+      "en": "Architect, master of Art Nouveau and Neoclassicism"
+    },
+    "years": "1874–1923",
+    "birthPlace": "маёнтак Каскевічы (Ашмянскі павет)",
+    "description": {
+      "by": "Беларуска-татарскі архітэктар са шляхецкага роду князёў Крычынскіх герба «Радван». Аўтар праекта Санкт-Пецярбургскай саборнай мячэці, дома Эміра Бухарскага і Фёдараўскага сабора.",
+      "ru": "Архитектор из белорусско-татарского дворянского рода. Автор Санкт-Петербургской соборной мечети и дома Эмира Бухарского.",
+      "en": "Belarusian-Tatar architect from Ashmyany district. Designer of the Saint Petersburg Mosque and Emir of Bukhara House."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Saint_Petersburg_Mosque_2016.jpg/800px-Saint_Petersburg_Mosque_2016.jpg",
+    "wiki": "https://ru.wikipedia.org/wiki/Кричинский,_Степан_Самойлович",
+    "placeIds": [
+      "spb-saint-petersburg-mosque-krichinsky"
+    ]
+  },
+  {
+    "id": "tomasz-dvorzhetsky",
+    "name": {
+      "by": "Тамаш Багдановіч-Дваржэцкі",
+      "ru": "Фома Богданович-Дворжецкий",
+      "en": "Tomasz Bohdanowicz-Dworzecki"
+    },
+    "role": {
+      "by": "Архітэктар, майстар неаготыкі, акадэмік архітэктуры",
+      "ru": "Архитектор, мастер неоготики, академик архитектуры",
+      "en": "Architect, master of Neo-Gothic architecture"
+    },
+    "years": "1859–1920",
+    "birthPlace": "Віцебск (з мсціслаўскіх баяр)",
+    "description": {
+      "by": "Выбітны архітэктар з беларускай шляхты Віцебшчыны. Аўтар Кафедральнага сабора Беззаганнага Зачацця ў Маскве і касцёла Сэрца Ісуса ў Самары.",
+      "ru": "Архитектор родом из Витебска. Автор собора Непорочного Зачатия в Москве и храма Пресвятого Сердца Иисуса в Самаре.",
+      "en": "Architect born in Vitebsk. Designer of the Cathedral of the Immaculate Conception in Moscow and Catholic Church in Samara."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Cathedral_of_the_Immaculate_Conception_Moscow_01.jpg/800px-Cathedral_of_the_Immaculate_Conception_Moscow_01.jpg",
+    "wiki": "https://ru.wikipedia.org/wiki/Богданович-Дворжецкий,_Фома_Осипович",
+    "placeIds": [
+      "moscow-cathedral-immaculate-conception-dvorzhetsky",
+      "samara-sacred-heart-church-dvorzhetsky"
+    ]
+  },
+  {
+    "id": "edmund-yuditsky",
+    "name": {
+      "by": "Эдмунд Юдзіцкі",
+      "ru": "Эдмунд Юдицкий",
+      "en": "Edmund Yuditsky"
+    },
+    "role": {
+      "by": "Архітэктар маскоўскага мадэрну",
+      "ru": "Архитектор московского модерна",
+      "en": "Moscow Art Nouveau architect"
+    },
+    "years": "1838–1908",
+    "birthPlace": "Глуск (Бабруйскі павет, Мінская губерня)",
+    "description": {
+      "by": "Архітэктар, ураджэнец Глуска. Аўтар знакамітага даходнага дома Пігіта на Вялікай Садовай, 10 у Маскве («нядобрая кватэра» Булгакава).",
+      "ru": "Архитектор, уроженец Глуска. Автор знаменитого дома Пигита в Москве (прообраз «нехорошей квартиры» Булгакова).",
+      "en": "Architect born in Hlusk, Belarus. Designer of the Pigit House on Bolshaya Sadovaya in Moscow (Bulgakov's 'Odd Flat')."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bolshaya_Sadovaya_10_Moscow.jpg/800px-Bolshaya_Sadovaya_10_Moscow.jpg",
+    "wiki": "https://ru.wikipedia.org/wiki/Юдицкий,_Эдмунд_Станиславович",
+    "placeIds": [
+      "moscow-pigit-house-yuditsky-bulgakov"
+    ]
+  },
+  {
+    "id": "moisei-ginzburg",
+    "name": {
+      "by": "Майсей Гінзбург",
+      "ru": "Моисей Гинзбург",
+      "en": "Moisei Ginzburg"
+    },
+    "role": {
+      "by": "Архітэктар-авангардыст, галоўны тэарэтык канструктывізму",
+      "ru": "Архитектор-авангардист, главный теоретик конструктивизма",
+      "en": "Constructivist architect and architectural theorist"
+    },
+    "years": "1892–1946",
+    "birthPlace": "Мінск",
+    "description": {
+      "by": "Ураджэнец Мінска, лідар савецкага канструктывізму, заснавальнік АСА (Аб'яднанне сучасных архітэктараў). Аўтар шэдэўра канструктывізму — дома Наркамфіна ў Маскве.",
+      "ru": "Уроженец Минска, лидер советского конструктивизма. Создатель дома Наркомфина в Москве.",
+      "en": "Minsk-born leading theorist of Soviet constructivism. Architect of the landmark Narkomfin Building in Moscow."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Narkomfin_Building_2020.jpg/800px-Narkomfin_Building_2020.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Майсей_Якаўлевіч_Гінзбург",
+    "placeIds": [
+      "moscow-narkomfin-building-ginzburg"
+    ]
   }
 ];
