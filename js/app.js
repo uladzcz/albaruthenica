@@ -13,6 +13,7 @@ let selectedPlaceId = null;
 let selectedPersonId = null;
 let pickCoordsMode = false;
 let tempPickMarker = null;
+let targetPlaceForCoordsCorrection = null;
 
 // Admin moderation state
 let isAdminMode = localStorage.getItem('albaruthenica_admin_mode') === 'true';
@@ -177,10 +178,50 @@ function initMap() {
     }
   });
 
-  // Map click for coordinate picker (Add Place modal OR Admin moderation)
+  // Map click for coordinate picker (Add Place modal, Admin moderation, or Place coordinate correction)
   map.on('click', (e) => {
     if (adminPickMode && selectedPlaceId) {
       handleAdminMapClick(e.latlng);
+      return;
+    }
+
+    if (targetPlaceForCoordsCorrection) {
+      const placeId = targetPlaceForCoordsCorrection;
+      const place = allPlaces.find(p => p.id === placeId);
+      const { lat, lng } = e.latlng;
+      const latFixed = parseFloat(lat.toFixed(5));
+      const lngFixed = parseFloat(lng.toFixed(5));
+
+      if (place) {
+        place.coordinates = [latFixed, lngFixed];
+        place.unverifiedCoordinates = false;
+
+        // Persist to localStorage overrides
+        const overrides = JSON.parse(localStorage.getItem('albaruthenica_overrides') || '{}');
+        overrides[placeId] = overrides[placeId] || {};
+        overrides[placeId].coordinates = [latFixed, lngFixed];
+        overrides[placeId].unverifiedCoordinates = false;
+        localStorage.setItem('albaruthenica_overrides', JSON.stringify(overrides));
+
+        // Update map marker position & icon
+        const marker = markersMap.get(placeId);
+        if (marker) {
+          marker.setLatLng([latFixed, lngFixed]);
+          marker.setIcon(createCustomMarkerIcon(place.category, false));
+        }
+
+        // Log contribution
+        logUserContribution('coords', placeId, {
+          title: getLocalized(place.title),
+          coordinates: [latFixed, lngFixed]
+        });
+
+        showToast(`${window.i18n[currentLang]?.coordsSaved || 'Каардынаты паспяхова захаваныя!'}: ${latFixed}, ${lngFixed}`);
+      }
+
+      targetPlaceForCoordsCorrection = null;
+      document.getElementById('pickCoordsBanner').style.display = 'none';
+      selectPlace(placeId);
       return;
     }
 
@@ -191,9 +232,13 @@ function initMap() {
 
       const latInput = document.getElementById('formLat');
       const lngInput = document.getElementById('formLng');
+      const smartInput = document.getElementById('formCoordsSmart');
       if (latInput && lngInput) {
         latInput.value = latFixed;
         lngInput.value = lngFixed;
+      }
+      if (smartInput) {
+        smartInput.value = `${latFixed}, ${lngFixed}`;
       }
 
       if (tempPickMarker) {
@@ -496,8 +541,12 @@ function handleHeroImageOrientation(img) {
 
   if (nh / nw > 1.12) {
     img.classList.add('is-portrait');
-  } else {
+    img.classList.remove('is-wide');
+  } else if (nw / nh > 1.9) {
+    img.classList.add('is-wide');
     img.classList.remove('is-portrait');
+  } else {
+    img.classList.remove('is-portrait', 'is-wide');
   }
 }
 
@@ -723,9 +772,11 @@ function selectPlace(placeId, updateHash = true) {
   selectedPlaceId = placeId;
   highlightSidebarCard(placeId);
 
-  // Pan map smoothly to place
+  // Pan map smoothly to place without zooming out if already close
   const [lat, lng] = place.coordinates;
-  map.flyTo([lat, lng], 13, { duration: 1.2 });
+  const currentZoom = (map && typeof map.getZoom === 'function') ? map.getZoom() : 13;
+  const targetZoom = Math.max(currentZoom, 14);
+  map.flyTo([lat, lng], targetZoom, { duration: 0.8 });
 
   // Open marker popup if available
   const marker = markersMap.get(placeId);
@@ -760,6 +811,7 @@ function showPlaceDetail(placeId) {
 
   const drawer = document.getElementById('placeDetailDrawer');
   if (!drawer) return;
+  drawer.scrollTop = 0;
 
   const title = getLocalized(place.title);
   const city = getLocalized(place.city);
@@ -773,7 +825,9 @@ function showPlaceDetail(placeId) {
     <div class="detail-hero-wrap" id="detailHeroWrap">
       <img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" 
            onload="handleHeroImageOrientation(this)" 
-           onerror="handleHeroImageError('${place.id}')">
+           onerror="handleHeroImageError('${place.id}')"
+           onclick="openImageLightbox('${place.image}', '${title.replace(/'/g, "\\'")}')"
+           title="Клікніце для прагляду на ўвесь экран">
       <button type="button" class="detail-hero-edit-badge" onclick="openAddImageModal('${place.id}')" title="${dict.btnChangeImage || 'Прапанаваць іншую выяву'}">
         📷 ${dict.btnChangeImage || 'Змяніць'}
       </button>
@@ -926,11 +980,20 @@ function showPlaceDetail(placeId) {
   // Unverified banner
   const unverifiedBannerHtml = place.unverifiedCoordinates ? `
     <div class="unverified-coords-banner">
-      <div style="font-weight: 700; color: var(--text-main); margin-bottom: 2px; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.04em;">
-        ${dict.unverifiedCoordsBadge || 'Неправераныя каардынаты'}
-      </div>
-      <div style="font-size: 0.78rem; color: #52525b; line-height: 1.4;">
-        ${dict.unverifiedCoordsNotice || 'Каардынаты гэтага пункта дададзены аўтаматычна з гістарычных крыніц і патрабуюць верыфікацыі.'}
+      <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 0.75rem;">
+        <div>
+          <div style="font-weight: 700; color: var(--text-main); margin-bottom: 2px; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.04em; display: flex; align-items: center; gap: 4px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            ${dict.unverifiedCoordsBadge || 'Неправераныя каардынаты'}
+          </div>
+          <div style="font-size: 0.78rem; color: #52525b; line-height: 1.4;">
+            ${dict.unverifiedCoordsNotice || 'Каардынаты гэтага пункта дададзены аўтаматычна з гістарычных крыніц і патрабуюць верыфікацыі.'}
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" onclick="startPlaceCoordinateCorrection('${place.id}')" style="white-space: nowrap; align-self: center; font-size: 0.75rem; padding: 0.35rem 0.65rem; display: inline-flex; align-items: center; gap: 0.3rem;">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+          <span>${dict.btnPickOnMap || 'Указаць на карце'}</span>
+        </button>
       </div>
     </div>
   ` : '';
@@ -994,6 +1057,9 @@ function showPlaceDetail(placeId) {
       <h2 class="detail-title">${title}</h2>
       <div class="detail-location">
         <strong>${city}, ${country}</strong> &bull; <code id="detailCoordsCode">${lat.toFixed(4)}, ${lng.toFixed(4)}</code>
+        <button type="button" class="btn-text-action" onclick="startPlaceCoordinateCorrection('${place.id}')" title="${dict.btnPickOnMap || 'Указаць на карце'}" style="background:none; border:1px solid var(--border-color); border-radius:4px; padding:2px 6px; font-size:0.72rem; cursor:pointer; color:var(--primary); margin-left:6px; display:inline-flex; align-items:center; gap:3px;">
+          📍 ${dict.btnPickOnMap || 'Указаць на карце'}
+        </button>
       </div>
       <div class="detail-description">
         ${desc}
@@ -1028,6 +1094,7 @@ function showPlaceDetail(placeId) {
   `;
 
   drawer.classList.add('open');
+  drawer.scrollTop = 0;
 }
 
 function closePlaceDetail() {
@@ -1262,20 +1329,53 @@ function setupEventListeners() {
     });
   }
 
-  // Pick coords on map button in Add modal
-  document.getElementById('btnPickOnMap')?.addEventListener('click', () => {
+  // Pick coords on map button in Add modal (both header and inline buttons)
+  const handleStartPickForAddModal = () => {
     closeModal('addPlaceModal');
     pickCoordsMode = true;
-    document.getElementById('pickCoordsBanner').style.display = 'flex';
-    showToast(window.i18n[currentLang].clickMapToPick);
-  });
+    targetPlaceForCoordsCorrection = null;
+    const banner = document.getElementById('pickCoordsBanner');
+    const bannerText = banner?.querySelector('span');
+    if (bannerText) {
+      bannerText.textContent = window.i18n[currentLang]?.clickMapToPick || 'Клікніце ў пункт на карце для выбару каардынат';
+    }
+    if (banner) banner.style.display = 'flex';
+    showToast(window.i18n[currentLang]?.clickMapToPick || 'Клікніце ў пункт на карце для выбару каардынат');
+  };
+
+  document.getElementById('btnPickOnMap')?.addEventListener('click', handleStartPickForAddModal);
+  document.getElementById('btnPickOnMapInline')?.addEventListener('click', handleStartPickForAddModal);
 
   // Cancel pick mode banner
   document.getElementById('btnCancelPick')?.addEventListener('click', () => {
     pickCoordsMode = false;
+    const prevTarget = targetPlaceForCoordsCorrection;
+    targetPlaceForCoordsCorrection = null;
     document.getElementById('pickCoordsBanner').style.display = 'none';
-    openModal('addPlaceModal');
+    if (prevTarget) {
+      selectPlace(prevTarget);
+    } else {
+      openModal('addPlaceModal');
+    }
   });
+
+  // Smart coordinates paste input
+  const smartCoordsInput = document.getElementById('formCoordsSmart');
+  if (smartCoordsInput) {
+    smartCoordsInput.addEventListener('input', (e) => {
+      const parsed = parseCoordinatesInput(e.target.value);
+      if (parsed) {
+        const [lat, lng] = parsed;
+        const latInput = document.getElementById('formLat');
+        const lngInput = document.getElementById('formLng');
+        if (latInput && lngInput) {
+          latInput.value = lat.toFixed(5);
+          lngInput.value = lng.toFixed(5);
+          showToast(`${window.i18n[currentLang]?.coordsSelected || 'Выбраныя каардынаты:'} ${lat.toFixed(5)}, ${lng.toFixed(5)}`);
+        }
+      }
+    });
+  }
 
   // Generate JSON button in Add modal
   document.getElementById('btnGenerateJson')?.addEventListener('click', handleGenerateJson);
@@ -2393,7 +2493,70 @@ function openUserProfileModal() {
   openModal('userProfileModal');
 }
 
-// Window global exposures for image and auth actions
+// Parse pasted coordinates or map links
+function parseCoordinatesInput(str) {
+  if (!str) return null;
+  str = str.trim();
+
+  // 1. Google Maps URL patterns
+  const gmapAt = str.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/);
+  if (gmapAt) {
+    return [parseFloat(gmapAt[1]), parseFloat(gmapAt[2])];
+  }
+  const gmapQuery = str.match(/[?&](?:q|ll|query)=(-?\d+\.\d+),(-?\d+\.\d+)/);
+  if (gmapQuery) {
+    return [parseFloat(gmapQuery[1]), parseFloat(gmapQuery[2])];
+  }
+
+  // 2. OpenStreetMap URL pattern
+  const osmMatch = str.match(/#map=\d+\/(-?\d+\.\d+)\/(-?\d+\.\d+)/);
+  if (osmMatch) {
+    return [parseFloat(osmMatch[1]), parseFloat(osmMatch[2])];
+  }
+
+  // 3. Simple coordinate pair: "54.6872, 25.2797" or "54.6872 25.2797"
+  const pairMatch = str.match(/^(-?\d{1,2}(?:\.\d+)?)[,\s]+(-?\d{1,3}(?:\.\d+)?)$/);
+  if (pairMatch) {
+    const lat = parseFloat(pairMatch[1]);
+    const lng = parseFloat(pairMatch[2]);
+    if (!isNaN(lat) && !isNaN(lng) && Math.abs(lat) <= 90 && Math.abs(lng) <= 180) {
+      return [lat, lng];
+    }
+  }
+
+  return null;
+}
+
+// Start user map picking for an existing place
+function startPlaceCoordinateCorrection(placeId) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place) return;
+
+  targetPlaceForCoordsCorrection = placeId;
+  closePlaceDetail();
+
+  const banner = document.getElementById('pickCoordsBanner');
+  const bannerText = banner?.querySelector('span');
+  const title = getLocalized(place.title);
+  if (bannerText) {
+    bannerText.textContent = `${window.i18n[currentLang]?.clickMapToPickForPlace || 'Клікніце на карце, каб указаць каардынаты для'}: «${title}»`;
+  }
+  if (banner) banner.style.display = 'flex';
+  showToast(bannerText ? bannerText.textContent : 'Клікніце ў пункт на карце');
+}
+
+// Open Image Lightbox
+function openImageLightbox(src, caption = '') {
+  const modal = document.getElementById('imageLightboxModal');
+  const img = document.getElementById('lightboxImg');
+  const cap = document.getElementById('lightboxCaption');
+  if (!modal || !img) return;
+  img.src = src;
+  if (cap) cap.textContent = caption;
+  openModal('imageLightboxModal');
+}
+
+// Window global exposures for image, coordinate and auth actions
 window.handleHeroImageError = handleHeroImageError;
 window.openAddImageModal = openAddImageModal;
 window.switchAddImageTab = switchAddImageTab;
@@ -2413,4 +2576,9 @@ window.handleEmailAuthSubmit = handleEmailAuthSubmit;
 window.handleSignOut = handleSignOut;
 window.openUserProfileModal = openUserProfileModal;
 window.toggleUserDropdown = toggleUserDropdown;
+
+window.parseCoordinatesInput = parseCoordinatesInput;
+window.startPlaceCoordinateCorrection = startPlaceCoordinateCorrection;
+window.openImageLightbox = openImageLightbox;
+
 

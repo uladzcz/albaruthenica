@@ -218,6 +218,20 @@
             <input type="text" id="formCity" class="form-input" placeholder="напр., Варшава / Вільня / London">
           </div>
 
+          <div class="form-group form-full">
+            <label class="form-label" data-i18n="formCoordsSmartLabel">Уставіць каардынаты або спасылку карты</label>
+            <div style="display: flex; gap: 0.5rem; align-items: stretch;">
+              <input type="text" id="formCoordsSmart" class="form-input" placeholder="54.6872, 25.2797 або спасылка Google Maps / OpenStreetMap" style="flex: 1;">
+              <button type="button" id="btnPickOnMapInline" class="btn btn-secondary" style="white-space: nowrap; display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.85rem;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span data-i18n="btnPickOnMap">Указаць на карце</span>
+              </button>
+            </div>
+            <div class="form-hint" data-i18n="formCoordsSmartHint" style="font-size: 0.75rem; color: #71717a; margin-top: 0.25rem;">
+              Устаўце каардынаты (напр. <code>54.6872, 25.2797</code>), спасылку з Google Maps ці націсніце кнопку <strong>«Указаць на карце»</strong>.
+            </div>
+          </div>
+
           <div class="form-group">
             <label class="form-label" data-i18n="formLatitude">Шырата (Latitude) *</label>
             <input type="number" step="any" id="formLat" class="form-input" required placeholder="54.6872">
@@ -626,6 +640,13 @@
           Працягнуць праз Face ID / Touch ID
         </button>
       </div>
+    </div>
+  <!-- Image Lightbox Modal -->
+  <div class="modal-overlay" id="imageLightboxModal" onclick="closeModal('imageLightboxModal')" style="background: rgba(0, 0, 0, 0.88); z-index: 2500;">
+    <div style="position: relative; max-width: 92vw; max-height: 92vh; display: flex; flex-direction: column; align-items: center; justify-content: center;" onclick="event.stopPropagation()">
+      <button class="modal-close-btn" onclick="closeModal('imageLightboxModal')" style="position: absolute; top: -2.5rem; right: 0; color: #ffffff; font-size: 2rem; background: none; border: none; cursor: pointer; line-height: 1;">&times;</button>
+      <img id="lightboxImg" src="" alt="" style="max-width: 100%; max-height: 82vh; border-radius: 6px; box-shadow: 0 10px 40px rgba(0,0,0,0.6); object-fit: contain; background: #18181b;">
+      <div id="lightboxCaption" style="color: #f4f4f5; margin-top: 0.75rem; font-size: 0.9rem; text-align: center; max-width: 700px; font-weight: 500;"></div>
     </div>
   </div>
 

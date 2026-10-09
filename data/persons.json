@@ -1515,7 +1515,6 @@
     "wiki": "https://be.wikipedia.org/wiki/Эмерык_Гутэн-Чапскі",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Emeryk_Hutten-Czapski.PNG/330px-Emeryk_Hutten-Czapski.PNG",
     "placeIds": [
-      "krakow-hutten-czapski-museum",
       "krakow-muzeum-emeryka-hutten-czapskiego"
     ]
   },
@@ -2528,5 +2527,467 @@
         "url": "https://be.wikipedia.org/wiki/Кіпрыян_Антонавіч_Кандратовіч"
       }
     ]
+  },
+  {
+    "id": "uladzimir-samoila",
+    "name": {
+      "by": "Уладзімір Самойла",
+      "ru": "Владимир Самойло",
+      "en": "Uladzimir Samoila"
+    },
+    "years": "1878–1941",
+    "role": {
+      "by": "Публіцыст, літаратурны крытык, філосаф, грамадскі дзеяч",
+      "ru": "Публицист, литературный критик, философ, общественный деятель",
+      "en": "Publicist, literary critic, philosopher, public figure"
+    },
+    "bio": {
+      "by": "Адзін з пачынальнікаў беларускага нацыянальна-адраджэнскага руху. Першым даў гісторыка-літаратурную ацэнку творчасці Янкі Купалы (артыкулы «Вячоркі», водгук на «Жалейку»). Выкладаў у Віленскай беларускай гімназіі, працаваў у Віленскім беларускім музеі імя І. Луцкевіча. Арыштаваны органамі НКУС у Вільні ў 1939 г., загінуў у зняволенні.",
+      "ru": "Один из зачинателей белорусского национального возрождения. Первым дал историко-литературную оценку творчеству Янки Купалы. Преподавал в Виленской белорусской гимназии, работал в Виленском белорусском музее. Арестован НКВД в 1939 г., погиб в заключении.",
+      "en": "One of the initiators of the Belarusian national revival. First to evaluate the poetry of Yanka Kupala in print. Taught at the Vilnius Belarusian Gymnasium, worked at the Lutskievich Museum. Arrested by NKVD in 1939, died in Soviet Gulag."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Samojla.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%A1%D0%B0%D0%BC%D0%BE%D0%B9%D0%BB%D0%B0"
+  },
+  {
+    "id": "tadevush-urubleuski",
+    "name": {
+      "by": "Тадэвуш Урублеўскі",
+      "ru": "Тадеуш Врублевский",
+      "en": "Tadeusz Wróblewski"
+    },
+    "years": "1858–1925",
+    "role": {
+      "by": "Юрыст, адвакат, грамадскі дзеяч, бібліяфіл, заснавальнік Бібліятэкі Урублеўскіх",
+      "ru": "Юрист, адвокат, общественный деятель, библиофил, основатель Библиотеки Врублевских",
+      "en": "Lawyer, attorney, public figure, bibliophile, founder of Wróblewski Library"
+    },
+    "bio": {
+      "by": "Беларускі і польскі грамадскі дзеяч, знакаміты віленскі адвакат і бібліяфіл. Абараняў у судах дзеячаў беларускага нацыянальнага руху (Цётку, Аляксандра Уласава, братоў Луцкевічаў). Сабраў унікальную калекцыю рэдкіх кніг і рукапісаў, якая склала аснову Бібліятэкі Урублеўскіх (цяпер Бібліятэка Акадэміі навук Літвы).",
+      "ru": "Белорусский и польский общественный деятель, виленский адвокат и библиофил. Защищал деятелей белорусского национального движения (Тётку, А. Власова). Собрал уникальную коллекцию рукописей и книг, ставшую основой Библиотеки Врублевских (ныне Библиотека АН Литвы).",
+      "en": "Public figure, prominent Vilnius attorney and bibliophile. Defended Belarusian national revival activists in court. Assembled a massive collection of rare books and manuscripts, founding the Wróblewski Library in Vilnius."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tadeusz_Wr%C3%B3blewski.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B4%D1%8D%D0%B2%D1%83%D1%88_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96"
+  },
+  {
+    "id": "valery-urubleuski",
+    "name": {
+      "by": "Валеры Антоній Урублеўскі",
+      "ru": "Валерий Антоний Врублевский",
+      "en": "Walery Antoni Wróblewski"
+    },
+    "years": "1836–1908",
+    "role": {
+      "by": "Рэвалюцыянер, адзін з кіраўнікоў паўстання 1863—1864 гадоў, генерал Парыжскай Камуны",
+      "ru": "Революционер, один из руководителей восстания 1863—1864 гг., генерал Парижской Коммуны",
+      "en": "Revolutionary, military commander of the 1863–1864 Uprising, General of the Paris Commune"
+    },
+    "bio": {
+      "by": "Ураджэнец мястэчка Жалудок на Гарадзеншчыне. Адзін з найбліжэйшых паплечнікаў Кастуся Каліноўскага, камандуючы паўстанцкімі сіламі Гарадзенскага і Люблінскага ваяводстваў. Пасля паражэння паўстання эміграваў у Францыю, стаў выбітным вайсковым кіраўніком і генералам Парыжскай Камуны, камандаваў левабярэжнай арміяй абароны Парыжа. Пахаваны на знакамітых парыжскіх могілках Пер-Лашэз.",
+      "ru": "Уроженец местечка Желудок на Гродненщине. Ближайший соратник Кастуся Калиновского, командующий повстанческими отрядами Гродненского и Люблинского воеводств. Генерал Парижской Коммуны, командовал левобережной армией Парижа. Похоронен на кладбище Пер-Лашез в Париже.",
+      "en": "Born in Žaludok, Hrodna region. Close associate of Kastuś Kalinoŭski, military commander during the 1863–1864 Uprising. Later General of the Paris Commune in France, commanding the left bank army. Buried at Père Lachaise Cemetery in Paris."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Valery_Antoni_%C5%ACruble%C5%ADski._%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96_%D0%8E%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96_%281860-69%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B%D0%B9_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%B9_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96"
+  },
+  {
+    "id": "yagaila",
+    "name": {
+      "by": "Уладзіслаў II Ягайла",
+      "ru": "Владислав II Ягайло",
+      "en": "Władysław II Jagiełło (Jogaila)"
+    },
+    "years": "каля 1352/1362–1434",
+    "role": {
+      "by": "Вялікі князь літоўскі (1377–1434), кароль польскі (1386–1434), заснавальнік дынастыі Ягелонаў",
+      "ru": "Великий князь литовский (1377–1434), король польский (1386–1434), основатель династии Ягеллонов",
+      "en": "Grand Duke of Lithuania (1377–1434), King of Poland (1386–1434), founder of the Jagiellonian dynasty"
+    },
+    "bio": {
+      "by": "Сын вялікага князя Альгерда і цвярской князёўны Ульяны. Вялікі князь літоўскі і кароль польскі, пераможца Тэўтонскага ордэна ў Грунвальдскай бітве 1410 г. разам з стрыечным братам Вітаўтам. Родапачынальнік каралеўскай дынастыі Ягелонаў, якая кіравала землямі ВКЛ, Польшчы, Чэхіі і Венгрыі.",
+      "ru": "Сын Ольгерда и Ульяны Тверской. Великий князь литовский и король польский, победитель Тевтонского ордена в Грюнвальдской битве 1410 года. Основатель династии Ягеллонов.",
+      "en": "Son of Algirdas and Uliana of Tver. Grand Duke of Lithuania and King of Poland. Victor over the Teutonic Order at Grunwald (1410) alongside Vytautas. Founder of the Jagiellonian dynasty."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/W%C5%82adys%C5%82aw_II_Jagie%C5%82%C5%82o.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B3%D0%B0%D0%B9%D0%BB%D0%B0"
+  },
+  {
+    "id": "kazimir-iv-yagelonchyk",
+    "name": {
+      "by": "Казімір IV Ягелончык",
+      "ru": "Казимир IV Ягеллончик",
+      "en": "Casimir IV Jagiellon"
+    },
+    "years": "1427–1492",
+    "role": {
+      "by": "Вялікі князь літоўскі (1440–1492), кароль польскі (1447–1492)",
+      "ru": "Великий князь литовский (1440–1492), король польский (1447–1492)",
+      "en": "Grand Duke of Lithuania (1440–1492), King of Poland (1447–1492)"
+    },
+    "bio": {
+      "by": "Малодшы сын Ягайлы і Соф'і Гальшанскай. Аўтар знакамітага Судзебніка 1468 г. — першага збору законаў ВКЛ на старабеларускай мове. Умацаваў аўтаномію і моц Вялікага Княства Літоўскага. Пахаваны ў капліцы Святога Крыжа Вавельскага сабора ў Кракаве пад шэдэўральным саркафагам работы Файта Штоса.",
+      "ru": "Младший сын Ягайло и Софьи Гольшанской. Издал Судебник 1468 г. — первый свод законов ВКЛ на старобелорусском языке. Укрепил Великое Княжество Литовское. Похоронен на Вавеле в Кракове.",
+      "en": "Younger son of Jogaila and Sophia of Holszany. Issued the Code of 1468 (Sudiebnik), the first codification of GDL law in Ruthenian/Old Belarusian. Buried at Wawel Cathedral under Veit Stoss's tomb."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kazimierz_IV_Jagiello%C5%84czyk.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%87%D1%8B%D0%BA"
+  },
+  {
+    "id": "aleksandr-yagelonchyk",
+    "name": {
+      "by": "Аляксандр Ягелончык",
+      "ru": "Александр Ягеллончик",
+      "en": "Alexander Jagiellon"
+    },
+    "years": "1461–1506",
+    "role": {
+      "by": "Вялікі князь літоўскі (1492–1506), кароль польскі (1501–1506)",
+      "ru": "Великий князь литовский (1492–1506), король польский (1501–1506)",
+      "en": "Grand Duke of Lithuania (1492–1506), King of Poland (1501–1506)"
+    },
+    "bio": {
+      "by": "Чацвёрты сын Казіміра IV Ягелончыка. Пастаянна жыў у Вільні, пашырыў прывілеі шляхты ВКЛ, апекаваў мастацтва і дойлідства (у т.л. касцёл Святой Ганны). Адзіны з польскіх каралёў і вялікіх князёў літоўскіх эпохі Рэнесансу, які пахаваны ў Каралеўскай крыпце Віленскага кафедральнага сабора.",
+      "ru": "Сын Казимира IV. Жил в Вильнюсе, расширил привилегии шляхты ВКЛ, поддерживал культуру. Единственный монарх, похороненный в королевской крипте Вильнюсского собора.",
+      "en": "Son of Casimir IV. Resided in Vilnius, expanded rights of GDL nobility. The only Polish king and Grand Duke buried in the Royal Crypt of Vilnius Cathedral."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/5/54/Aleksander_Jagiellonczyk_%2876851933%29_%28cropped%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%87%D1%8B%D0%BA"
+  },
+  {
+    "id": "stefan-batory",
+    "name": {
+      "by": "Стэфан Баторый",
+      "ru": "Стефан Баторий",
+      "en": "Stephen Báthory"
+    },
+    "years": "1533–1586",
+    "role": {
+      "by": "Кароль польскі і вялікі князь літоўскі (1576–1586), князь трансільванскі",
+      "ru": "Король польский и великий князь литовский (1576–1586), князь трансильванский",
+      "en": "King of Poland and Grand Duke of Lithuania (1576–1586), Prince of Transylvania"
+    },
+    "bio": {
+      "by": "Адзін з найбольш значных манархаў у гісторыі Беларусі і Рэчы Паспалітай. Зрабіў Гродна сваёй фактычнай каралеўскай рэзідэнцыяй, перабудаваўшы Стары замак. Вызваліў Полацк ад войскаў Івана Жахлівага (1579). Заснаваў Віленскі ўніверсітэт (Акадэмію). Пахаваны ў Вавельскім саборы ў Кракаве.",
+      "ru": "Король польский и великий князь литовский. Сделал Гродно своей фактической резиденцией. Освободил Полоцк в 1579 г., основал Виленский университет. Похоронен на Вавеле в Кракове.",
+      "en": "King of Poland and Grand Duke of Lithuania. Made Hrodna his de facto royal residence. Liberated Polatsk (1579) and founded Vilnius University. Buried at Wawel Cathedral."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stefan_Batory_portrait.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D1%84%D0%B0%D0%BD_%D0%91%D0%B0%D1%82%D0%BE%D1%80%D1%8B%D0%B9"
+  },
+  {
+    "id": "yan-iii-sabeski",
+    "name": {
+      "by": "Ян III Сабескі",
+      "ru": "Ян III Собеский",
+      "en": "John III Sobieski"
+    },
+    "years": "1629–1696",
+    "role": {
+      "by": "Кароль польскі і вялікі князь літоўскі (1674–1696), палкаводзец",
+      "ru": "Король польский и великий князь литовский (1674–1696), полководец",
+      "en": "King of Poland and Grand Duke of Lithuania (1674–1696), military commander"
+    },
+    "bio": {
+      "by": "Выдатны палкаводзец, пераможца бітвы пад Хоцінам (1673) і знакамітай бітвы пад Венай (1683), дзе аб'яднаныя сілы Рэчы Паспалітай і саюзнікаў спынілі асманскую экспансію ў Еўропу. Рэгулярна склікаў соймы ў Гродне. Пахаваны ў Вавельскім саборы ў Кракаве.",
+      "ru": "Выдающийся полководец, победитель при Хотине и Венской битве 1683 года. Регулярно проводил сеймы в Гродно. Похоронен на Вавеле.",
+      "en": "King of Poland and Grand Duke of Lithuania, commander who routed the Ottoman army at the Battle of Vienna (1683). Buried at Wawel Cathedral."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Jan_III_Sobieski_in_karacena.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%BD_III_%D0%A1%D0%B0%D0%B1%D0%B5%D1%81%D0%BA%D1%96"
+  },
+  {
+    "id": "stanislaw-august-poniatowski",
+    "name": {
+      "by": "Станіслаў Аўгуст Панятоўскі",
+      "ru": "Станислав Август Понятовский",
+      "en": "Stanisław August Poniatowski"
+    },
+    "years": "1732–1798",
+    "role": {
+      "by": "Апошні кароль польскі і вялікі князь літоўскі (1764–1795)",
+      "ru": "Последний король польский и великий князь литовский (1764–1795)",
+      "en": "Last King of Poland and Grand Duke of Lithuania (1764–1795)"
+    },
+    "bio": {
+      "by": "Ураджэнец мястэчка Воўчын (цяпер Камянецкі раён Брэсцкай вобласці). Апошні манарх Рэчы Паспалітай і Вялікага Княства Літоўскага. Мецэнат Асветніцтва, ініцыятар прыняцця Канстытуцыі 3 мая 1791 г. і стварэння Камісіі нацыянальнай адукацыі. Саркафаг манарха спачывае ў крыпце архікатэдры Святога Яна ў Варшаве.",
+      "ru": "Уроженец местечка Волчин (Брестская область). Последний монарх Речи Посполитой и ВКЛ. Меценат Просвещения, инициатор Конституции 3 мая 1791 года. Саркофаг покоится в соборе Св. Яна в Варшаве.",
+      "en": "Born in Voŭčyn (Brest region, Belarus). Last monarch of the Polish-Lithuanian Commonwealth and GDL. Patron of Enlightenment and initiator of the Constitution of May 3, 1791. Buried in St. John's Archcathedral in Warsaw."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Stanislaw_poniatowski_bacciarelli.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82_%D0%9F%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D1%96"
+  },
+  {
+    "id": "sofia-menskaya",
+    "name": {
+      "by": "Сафія Валадараўна (Сафія Менская)",
+      "ru": "София Володаревна (София Минская)",
+      "en": "Sophia of Minsk (Queen of Denmark)"
+    },
+    "years": "каля 1140–1198",
+    "role": {
+      "by": "Князёўна менская, каралева Даніі (1157–1182)",
+      "ru": "Княжна минская, королева Дании (1157–1182)",
+      "en": "Princess of Minsk, Queen of Denmark (1157–1182)"
+    },
+    "bio": {
+      "by": "Дачка менскага князя Валадара Глебавіча і польскай княгіні Рыксы. Каралева Даніі, жонка дацкага караля Вальдэмара I Вялікага. Маці каралёў Кнуда VI і Вальдэмара II Пераможцы, а таксама каралевы Францыі Інгеборгі. Пахаваная побач з мужам у каралеўскім пантэоне — царкве Святога Бендта ў Рынгстэдзе, Данія.",
+      "ru": "Дочь минского князя Володаря Глебовича. Королева Дании, супруга короля Вальдемара I Великого. Мать королей Кнуда VI и Вальдемара II. Похоронена в церкви Св. Бендта в Рингстеде.",
+      "en": "Daughter of Prince Valadar of Minsk and Rikissa of Poland. Queen consort of Denmark as wife of Valdemar I the Great. Mother of Danish kings Canute VI and Valdemar II. Buried at St. Bendt's Church in Ringsted, Denmark."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sankt_Bendts_Kirke_-_Sophia.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D1%84%D1%96%D1%8F_%D0%92%D0%B0%D0%BB%D0%B0%D0%B4%D0%B0%D1%80%D0%B0%D1%9E%D0%BD%D0%B0"
+  },
+  {
+    "id": "zhygimont-ii-august",
+    "name": {
+      "by": "Жыгімонт II Аўгуст",
+      "ru": "Сигизмунд II Август",
+      "en": "Sigismund II Augustus"
+    },
+    "years": "1520–1572",
+    "role": {
+      "by": "Вялікі князь літоўскі і кароль польскі (1548–1572)",
+      "ru": "Великий князь литовский и король польский (1548–1572)",
+      "en": "Grand Duke of Lithuania and King of Poland (1548–1572)"
+    },
+    "bio": {
+      "by": "Апошні манарх з дынастыі Ягелонаў па мужчынскай лініі. Правёў Аграрную рэформу (Валочная памера). Ажаніўся па каханні з Барбарай Радзівіл насуперак волі маці Боны Сфорцы і шляхты. Падпісаў Люблінскую унію 1569 г. Пахаваны ў Жыгімонтаўскай капліцы Вавельскага сабора ў Кракаве.",
+      "ru": "Последний монарх из династии Ягеллонов. Провёл волочную померу. Женился по любви на Барбаре Радзивилл. Подписал Люблинскую унию. Похоронен на Вавеле.",
+      "en": "Last monarch of the Jagiellonian dynasty in male line. Conducted the Volok Reform. Married Barbara Radziwiłł for love. Signed the Union of Lublin (1569). Buried in Sigismund Chapel at Wawel."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cranach_the_Younger_Sigismund_II_Augustus.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%96%D1%8B%D0%B3%D1%96%D0%BC%D0%BE%D0%BD%D1%82_II_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82"
+  },
+  {
+    "id": "fabian-abrantovich",
+    "name": {
+      "by": "Архімандрыт Фабіян Абрантовіч",
+      "ru": "Архимандрит Фабиан Абрантович",
+      "en": "Archimandrite Fabian Abrantovich"
+    },
+    "years": "1884–1946",
+    "role": {
+      "by": "Беларускі рэлігійны і грамадскі дзеяч, філосаф, першаіерарх місіі ў Харбіне",
+      "ru": "Белорусский религиозный и общественный деятель, философ, глава миссии в Харбине",
+      "en": "Belarusian Catholic religious leader, philosopher, head of Harbin Byzantine Mission"
+    },
+    "bio": {
+      "by": "Ураджэнец Навагрудчыны. Доктар філасофіі, святар кангрэгацыі марыянаў (MIC). Адзін з заснавальнікаў Хрысціянска-дэмакратычнай злучнасці ў Петраградзе (1917). У 1928–1939 гг. — апостальскі адміністратар і кіраўнік Беларускай каталіцкай місіі візантыйска-славянскага абраду ў Харбіне (Кітай), заснавальнік ліцэя Святога Мікалая. У 1939 г. падчас візіту ў Беларусь арыштаваны НКУС. Загінуў пасля катаванняў у Бутырскай турме ў Маскве ў 1946 г.",
+      "ru": "Уроженец Новогрудчины. Доктор философии, марианин. Руководитель Белорусской католической миссии восточного обряда в Харбине (Китай, 1928–1939). Арестован НКВД в 1939 г., погиб в Бутырской тюрьме в Москве.",
+      "en": "Born in Novogrudok district. Marian priest, Doctor of Philosophy. Head of the Byzantine Catholic Mission in Harbin, Manchuria (1928–1939). Arrested by Soviets in 1939, died in Butyrka prison in Moscow in 1946."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Fabian_Abrantowicz.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B1%D1%96%D1%8F%D0%BD_%D0%90%D0%B1%D1%80%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%96%D1%87"
+  },
+  {
+    "id": "andrei-tsikota",
+    "name": {
+      "by": "Архімандрыт Андрэй Цікота",
+      "ru": "Архимандрит Андрей Цикото",
+      "en": "Archimandrite Andrei Tsikota"
+    },
+    "years": "1891–1952",
+    "role": {
+      "by": "Генеральны настаяцель айцоў марыянаў (Рым), экзарх Харбіна, мучанік ГУЛАГу",
+      "ru": "Генеральный настоятель мариан (Рим), экзарх Харбина, мученик ГУЛАГа",
+      "en": "Superior General of the Marian Fathers (Rome), Apostolic Administrator in Harbin, Gulag martyr"
+    },
+    "bio": {
+      "by": "Ураджэнец Смаргоншчыны. Член Рады БНР, дзеяч беларускага хрысціянскага адраджэння. Генеральны суперыёр ордэна марыянаў у Рыме (1933–1939), затым апостальскі адміністратар у Харбіне (Кітай, 1939–1948). У снежні 1948 г. арыштаваны кітайскімі камуністамі, перададзены савецкаму МДБ, асуджаны на 25 гадоў ГУЛАГу. Загінуў у лагерным шпіталі Азярлагу (Новачунка каля Тайшэта). Працягваецца працэс беатыфікацыі.",
+      "ru": "Уроженец Сморгонщины. Член Рады БНР. Генеральный супериор мариан в Риме, экзарх Харбина (1939–1948). Арестован в Китае, передан СССР, погиб в Озерлаге (Тайшет).",
+      "en": "Born in Smorgon region. Member of BNR Council. Superior General of Marian Fathers in Rome (1933–1939), Apostolic Administrator in Harbin (1939–1948). Arrested in 1948, died in Ozerlag Gulag hospital near Tayshet in 1952."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%D0%90%D0%B9%D1%86%D0%B5%D1%86_%D0%90%D0%BD%D0%B4%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0"
+  },
+  {
+    "id": "yazep-hermanovich",
+    "name": {
+      "by": "Язэп Германовіч (Вінцук Адважны)",
+      "ru": "Иосиф Германович (Винцук Адважный)",
+      "en": "Yazep Hermanovich (Vintsyuk Advazhny)"
+    },
+    "years": "1890–1978",
+    "role": {
+      "by": "Грэка-каталіцкі святар (марыянін), паэт, пісьменнік, аўтар успамінаў пра ГУЛАГ",
+      "ru": "Греко-католический священник, поэт, писатель, узник ГУЛАГа",
+      "en": "Greek Catholic priest (Marian father), poet, writer, author of Gulag memoirs"
+    },
+    "bio": {
+      "by": "Ураджэнец Гальшанаў. Беларускі паэт і публіцыст (псеўданім Вінцук Адважны). Працаваў у Друйскай гімназіі, затым у місіі ў Харбіне (Кітай) і дырэктарам Ліцэя Св. Мікалая. У 1948 г. арыштаваны савецкімі органамі ў Харбіне, адбыў катаргу ў лагерах Тайшэта (1948–1955). Аўтар знакамітай кнігі «Кітай – Сібір – Масква (Успаміны спаведніка і мучаніка)». Пазней жыў і служыў у Беларускім доме марыянаў у Лондане.",
+      "ru": "Уроженец Гольшан. Белорусский поэт и священник-марианин. Работал в Харбине (директор лицея Св. Николая). Прошёл лагеря Тайшета. Автор книги «Китай – Сибирь – Москва». Позже жил в Лондоне.",
+      "en": "Born in Halshany. Belarusian poet and Marian priest. Directed St. Nicholas Lyceum in Harbin. Spent 1948–1955 in Siberian Gulag camps. Author of 'China – Siberia – Moscow'. Later served at the Marian House in London."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jazep_Hiermanovi%C4%8D._%D0%AF%D0%B7%D1%8D%D0%BF_%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87_%281932%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8D%D0%BF_%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%D0%B2%D1%96%D1%87_%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87"
+  },
+  {
+    "id": "yulian-ursyn-nyamtsevich",
+    "name": {
+      "by": "Юльян Урсын Нямцэвіч",
+      "ru": "Юлиан Урсын Немцевич",
+      "en": "Julian Ursyn Niemcewicz"
+    },
+    "years": "1758–1841",
+    "role": {
+      "by": "Пісьменнік, драматург, гісторык, паплечнік Тадэвуша Касцюшкі",
+      "ru": "Писатель, драматург, историк, соратник Тадеуша Костюшко",
+      "en": "Writer, playwright, historian, aide-de-camp to Tadeusz Kościuszko"
+    },
+    "bio": {
+      "by": "Ураджэнец маёнтка Скокі пад Брэстам (сядзіба Нямцэвічаў). Адзін з найвыбітнейшых дзеячаў Чатырохгадовага Сойма і аўтараў Канстытуцыі 3 мая 1791 г. Ад'ютант і бліжэйшы паплечнік Тадэвуша Касцюшкі ў паўстанні 1794 г. Аўтар знакамітых «Гістарычных спеваў» і ўспамінаў. Пахаваны ў беларуска-польскім пантэоне эміграцыі на могілках Шампо ў Манмарансі пад Парыжам.",
+      "ru": "Уроженец имения Скоки под Брестом. Деятель Четырёхлетнего Сейма, соавтор Конституции 3 мая 1791 года. Адъютант и соратник Тадеуша Костюшко. Похоронен на кладбище Монморанси под Парижем.",
+      "en": "Born in Skoki near Brest. Statesman of the Great Sejm and co-author of the Constitution of May 3, 1791. Close aide-de-camp to Tadeusz Kościuszko during the 1794 Uprising. Buried in the Polish-Lithuanian Pantheon at Montmorency near Paris."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Julian_Ursyn_Niemcewicz_11.PNG",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AE%D0%BB%D1%8C%D1%8F%D0%BD_%D0%A3%D1%80%D1%81%D1%8B%D0%BD_%D0%9D%D1%8F%D0%BC%D1%86%D1%8D%D0%B2%D1%96%D1%87"
+  },
+  {
+    "id": "aleksandr-chodzko",
+    "name": {
+      "by": "Аляксандр Ходзька",
+      "ru": "Александр Ходзько",
+      "en": "Aleksander Chodźko"
+    },
+    "years": "1804–1891",
+    "role": {
+      "by": "Паэт, усходазнавец, дыпламат, прафесар Калеж дэ Франс",
+      "ru": "Поэт, востоковед, дипломат, профессор Коллеж де Франс",
+      "en": "Poet, orientalist, diplomat, professor at the Collège de France"
+    },
+    "bio": {
+      "by": "Ураджэнец мястэчка Крывічы (цяпер Мядзельскі раён). Сябра таварыства філаматаў, блізкі сябар Адама Міцкевіча. Выдатны паліглот, дыпламат і ўсходазнавец, даследчык персідскай літаратуры і фальклору. Пераемнік Адама Міцкевіча на пасадзе загадчыка кафедры славянскіх літаратур у прэстыжным Калеж дэ Франс у Парыжы (1857–1883). Пахаваны на могілках у Манмарансі.",
+      "ru": "Уроженец Кривичей. Филомат, друг Адама Мицкевича. Востоковед и дипломат. Преемник Мицкевича на кафедре славянских литератур в Коллеж де Франс в Париже. Похоронен в Монморанси.",
+      "en": "Born in Kryvichy. Philomath, close friend of Adam Mickiewicz. Renowned orientalist and diplomat. Succeeded Mickiewicz as professor of Slavic literatures at the Collège de France in Paris. Buried at Montmorency."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Aleksander_Chod%C5%BAko.JPG",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0"
+  },
+  {
+    "id": "leonard-chodzko",
+    "name": {
+      "by": "Леанард Ходзька",
+      "ru": "Леонард Ходзько",
+      "en": "Leonard Chodźko"
+    },
+    "years": "1800–1871",
+    "role": {
+      "by": "Гісторык, публіцыст, картограф, выдавец гісторыі ВКЛ і Беларусі",
+      "ru": "Историк, публицист, картограф, издатель истории ВКЛ",
+      "en": "Historian, publicist, cartographer, publisher of GDL history"
+    },
+    "bio": {
+      "by": "Ураджэнец вёскі Аборак (цяпер Маладзечанскі раён). Вучыўся ў Віленскім універсітэце, быў філарэтам. Працаваў сакратаром кампазітара Міхала Клеафаса Агінскага. У Парыжы стаў адным з найбольш плённых гісторыкаў і прапагандыстаў гісторыі Беларусі, ВКЛ і Рэчы Паспалітай у Заходняй Еўропе, стварыў багатыя архівы і карты. Пахаваны ў Манмарансі.",
+      "ru": "Уроженец деревни Оборок (Молодечненский район). Филарет, секретарь М. К. Огиньского. В Париже издавал фундаментальные труды и карты по истории ВКЛ и Речи Посполитой. Похоронен в Монморанси.",
+      "en": "Born in Aborak near Maladzyechna. Philareth at Vilnius University, secretary to Michał Kleofas Ogiński. In Paris, published monumental works and historical maps on the Grand Duchy of Lithuania and Poland. Buried at Montmorency."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/7/77/Aleksander_Chod%C5%BAko.JPG",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9B%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B4_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0"
+  },
+  {
+    "id": "valentsin-vankovich",
+    "name": {
+      "by": "Валянцін Ваньковіч",
+      "ru": "Валентий Ванькович",
+      "en": "Walenty Wańkowicz"
+    },
+    "years": "1800–1842",
+    "role": {
+      "by": "Класік беларускага і еўрапейскага жывапісу рамантызму",
+      "ru": "Классик живописи эпохи романтизма",
+      "en": "Classic Romantic portrait painter"
+    },
+    "bio": {
+      "by": "Ураджэнец маёнтка Калюжыца Ігуменскага павета (цяпер Чэрвеньскі раён). Стваральнік знакамітых партрэтаў: «Міцкевіч на скале Аю-Даг», Марыі Шыманоўскай, Аляксандра Пушкіна, карціны «Напалеон каля вогнішча». Блізкі сябар Адама Міцкевіча. Памёр у Парыжы на руках у Міцкевіча. Пахаваны на знакамітых парыжскіх могілках Манмартр.",
+      "ru": "Уроженец имения Калюжица (Червенский район). Автор знаменитого портрета «Мицкевич на скале Аю-Даг», портретов Пушкина, Шимановской. Близкий друг Мицкевича. Умер в Париже на руках поэта. Похоронен на кладбище Монмартр.",
+      "en": "Born in Kałużyca near Cherven (Minsk region). Master of Romantic portraiture, painted the iconic 'Mickiewicz on the Ay-Dagh Cliff'. Close friend of Adam Mickiewicz, died in Paris in Mickiewicz's home. Buried at Montmartre Cemetery in Paris."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/9/90/Walenty_wankowicz.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D1%8F%D0%BD%D1%86%D1%96%D0%BD_%D0%92%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D1%87"
+  },
+  {
+    "id": "chaslau-sipovich",
+    "name": {
+      "by": "Біскуп Часлаў Сіповіч",
+      "ru": "Епископ Чеслав Сипович",
+      "en": "Bishop Ceslaus Sipovich"
+    },
+    "years": "1914–1981",
+    "role": {
+      "by": "Беларускі грэка-каталіцкі біскуп, заснавальнік Бібліятэкі і музея імя Скарыны ў Лондане",
+      "ru": "Белорусский греко-католический епископ, основатель Библиотеки Скорины в Лондоне",
+      "en": "Belarusian Greek Catholic Bishop, founder of the Francis Skaryna Library in London"
+    },
+    "bio": {
+      "by": "Ураджэнец Дзісненшчыны (вёска Дзедзінка). Апостальскі візітатар для беларусаў-каталікоў у эміграцыі, тытулярны біскуп Марыямэтанскі. Генеральны суперыёр Кангрэгацыі айцоў марыянаў (Рым, 1963–1969). Заснавальнік і натхняльнік Беларускай бібліятэкі і музея імя Францыска Скарыны ў Лондане. Пахаваны на могілках Сэнт-Панкрас у Лондане.",
+      "ru": "Уроженец Дисненщины. Апостольский визитатор для белорусов-католиков зарубежья. Генеральный супериор мариан в Риме. Основатель Белорусской библиотеки и музея им. Скорины в Лондоне. Похоронен в Лондоне.",
+      "en": "Born in Dzyadzinka (Dzisna district). Apostolic Visitor for Belarusian Greek Catholics abroad. Superior General of the Marian Fathers in Rome (1963–1969). Founder of the Francis Skaryna Belarusian Library and Museum in London. Buried at St Pancras and Islington Cemetery, London."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Biskup_Sipovich_u_biblijatecy.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A7%D1%8D%D1%81%D0%BB%D0%B0%D1%9E_%D0%A1%D1%96%D0%BF%D0%BE%D0%B2%D1%96%D1%87"
+  },
+  {
+    "id": "alyaksandr-nadsan",
+    "name": {
+      "by": "Айцец Аляксандр Надсан",
+      "ru": "Отец Александр Надсон",
+      "en": "Father Alexander Nadson"
+    },
+    "years": "1926–2015",
+    "role": {
+      "by": "Апостальскі візітатар, шматгадовы кіраўнік Бібліятэкі Скарыны ў Лондане, навуковец",
+      "ru": "Апостольский визитатор, руководитель Библиотеки Скорины в Лондоне, учёный",
+      "en": "Apostolic Visitor, director of the Skaryna Library in London, scholar"
+    },
+    "bio": {
+      "by": "Ураджэнец мястэчка Гарадзея (Нясвіжскі раён). Духоўны лідар беларускага замежжа, апостальскі візітатар для беларусаў-каталікоў замежжа. Больш за 30 гадоў узначальваў Беларускую бібліятэку і музей імя Францыска Скарыны ў Лондане. Аўтар навуковых прац па скарыназнаўстве і гісторыі Уніі, перакладчык літургічных тэкстаў на беларускую мову. Пахаваны ў Лондане на могілках Сэнт-Панкрас.",
+      "ru": "Уроженец Городеи (Несвижский район). Апостольский визитатор белорусов зарубежья, многолетний глава Белорусской библиотеки им. Скорины в Лондоне. Исследователь наследия Скорины. Похоронен в Лондоне.",
+      "en": "Born in Haradzeya (Nyasvizh district). Spiritual leader of the Belarusian diaspora, Apostolic Visitor for Belarusian Catholics abroad. Directed the Skaryna Library in London for decades. Scholar of Skaryna studies. Buried at St Pancras Cemetery in London."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Biskup_Sipovich_u_biblijatecy.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B0%D0%B4%D1%81%D0%B0%D0%BD"
+  },
+  {
+    "id": "uladzislaw-plyater",
+    "name": {
+      "by": "Граф Уладзіслаў Плятэр",
+      "ru": "Граф Владислав Платер",
+      "en": "Count Władysław Plater"
+    },
+    "years": "1808–1889",
+    "role": {
+      "by": "Магнат з роду Плятэраў, удзельнік паўстання 1831 г., заснавальнік музея ў Раперсвілі",
+      "ru": "Магнат из рода Плятеров, участник восстания 1831 г., основатель музея в Рапперсвиле",
+      "en": "Magnate of the Plater family, 1831 insurgent, founder of Rapperswil Museum"
+    },
+    "bio": {
+      "by": "Прадстаўнік знакамітага магнацкага роду Плятэраў (Браслаўшчына, Віленшчына, Інфлянты), стрыечны брат гераіні паўстання Эміліі Плятэр. Удзельнік вызваленчага паўстання 1830–1831 гг. У эміграцыі ў Швейцарыі ў 1870 г. выкупіў і аднавіў сярэднявечны замак Раперсвіль на Цюрыхскім возеры, дзе заснаваў Польска-Літоўскі нацыянальны музей і маўзалей Тадэвуша Касцюшкі. Пахаваны ў Раперсвілі.",
+      "ru": "Представитель магнатского рода Плятеров, двоюродный брат Эмилии Плятер. Участник восстания 1831 г. Выкупил и восстановил замок Рапперсвиль в Швейцарии, основав там Польско-Литовский национальный музей и мавзолей сердца Костюшко.",
+      "en": "Magnate of the Plater family, cousin of heroine Emilia Plater. Insurgent of 1831. Restored Rapperswil Castle in Switzerland, creating the Polish-Lithuanian National Museum and the mausoleum for Tadeusz Kościuszko's heart."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rapperswil_Schloss_Nacht.jpeg",
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9F%D0%BB%D1%8F%D1%82%D1%8D%D1%80"
+  },
+  {
+    "id": "leonilla-sayn-wittgenstein",
+    "name": {
+      "by": "Княгіня Леаніла Барацінская (Вітгенштэйн)",
+      "ru": "Княгиня Леонилла Барятинская (Витгенштейн)",
+      "en": "Princess Leonilla of Sayn-Wittgenstein-Sayn"
+    },
+    "years": "1816–1918",
+    "role": {
+      "by": "Княгіня, уладальніца Мірскага замка і радзівілаўскіх латыфундый, мецэнатка",
+      "ru": "Княгиня, владелица Мирского замка и латифундий Радзивиллов",
+      "en": "Princess, mistress of Mir Castle and Radziwiłł estates, patron of arts"
+    },
+    "bio": {
+      "by": "Адна з найпрыгажэйшых жанчын Еўропы XIX стагоддзя (вядомы партрэт Франца Ксавера Вінтэрхальтэра ў музеі Геці). Жонка князя Льва Вітгенштэйна. Пасля смерці Стэфаніі Радзівіл успадкавала каласальныя радзівілаўскія маёнткі, у тым ліку Мірскі замак. Пражыла 102 гады. Пахавана ў неагатычнай капліцы замка Зайн у Германіі.",
+      "ru": "Супруга князя Льва Витгенштейна, владелица Мирского замка и владений Радзивиллов в Беларуси. Прожила 102 года. Похоронена в дворцовой капелле Зайн в Германии.",
+      "en": "Wife of Prince Ludwig zu Sayn-Wittgenstein. Inherited vast Radziwiłł estates including Mir Castle. Renowned beauty portrayed by Winterhalter. Lived to 102. Buried in Sayn Palace Chapel, Germany."
+    },
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Schloss_Sayn_2011.jpg/1280px-Schloss_Sayn_2011.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Leonilla_Bariatinskaya"
   }
 ]

@@ -535,25 +535,35 @@ body {
 
 .detail-hero-wrap {
   width: 100%;
-  background: #f4f4f5;
+  background: #18181b;
   border-bottom: 1px solid var(--border-color);
   overflow: hidden;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 180px;
 }
 
 .detail-hero-img {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
-  background: #f4f4f5;
+  background: #18181b;
   display: block;
   transition: all 0.2s ease;
+  cursor: zoom-in;
+}
+
+.detail-hero-img.is-wide {
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+  margin: 0 auto;
 }
 
 .detail-hero-img.is-portrait {
-  height: 270px;
+  height: 280px;
   width: auto;
   max-width: 100%;
   object-fit: contain;

@@ -160,7 +160,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Вікіпедыя: Музей Марка Шагала ў Ніцы",
-        "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_National_Marc_Chagall"
+        "url": "https://en.wikipedia.org/wiki/Mus%C3%A9e_Marc_Chagall"
       },
       {
         "title": "Артыкул: Марк Шагал і віцебская школа",
@@ -3873,9 +3873,9 @@ window.INITIAL_PLACES = [
       "Гісторыя",
       "historical"
     ],
-    "personId": "adam-mickiewicz",
+    "personId": "tadevush-urubleuski",
     "personIds": [
-      "adam-mickiewicz"
+      "tadevush-urubleuski"
     ],
     "mustSee": false
   },
@@ -4974,9 +4974,9 @@ window.INITIAL_PLACES = [
       25.28776
     ],
     "description": {
-      "by": "Адрас: Žygimantų, 1/8.\n\nБібліятэка Акадэміі навук Літвы імя Урублеўскіх (раней - Дзяржаўная бібліятэка Яўстаха і Эміліі Ўрублеўскіх) паўстала з сямейная бібліятэкі Рублеўскіх, якая налічвала 98 тысяч каштоўных кніг і 28 тысяч манускрыптаў.\n\nЗнакаміты ўладальнік адвакацкай канторы Тадэвуш Урублеўскі быў адвакатам беларускага руху на пачатку 20 ст. Яго дзядзька Валеры Урублеўскі быў паплечнікам Кастуся Каліноўскага і генералам Парыжскай Камуны, а бацька заснаваў першую публічную бібліятэку ў Вільні.",
-      "ru": "Адрас: Žygimantų, 1/8.\n\nБібліятэка Акадэміі навук Літвы імя Урублеўскіх (раней - Дзяржаўная бібліятэка Яўстаха і Эміліі Ўрублеўскіх) паўстала з сямейная бібліятэкі Рублеўскіх, якая налічвала 98 тысяч каштоўных кніг і 28 тысяч манускрыптаў.\n\nЗнакаміты ўладальнік адвакацкай канторы Тадэвуш Урублеўскі быў адвакатам беларускага руху на пачатку 20 ст. Яго дзядзька Валеры Урублеўскі быў паплечнікам Кастуся Каліноўскага і генералам Парыжскай Камуны, а бацька заснаваў першую публічную бібліятэку ў Вільні.",
-      "en": "Адрас: Žygimantų, 1/8.\n\nБібліятэка Акадэміі навук Літвы імя Урублеўскіх (раней - Дзяржаўная бібліятэка Яўстаха і Эміліі Ўрублеўскіх) паўстала з сямейная бібліятэкі Рублеўскіх, якая налічвала 98 тысяч каштоўных кніг і 28 тысяч манускрыптаў.\n\nЗнакаміты ўладальнік адвакацкай канторы Тадэвуш Урублеўскі быў адвакатам беларускага руху на пачатку 20 ст. Яго дзядзька Валеры Урублеўскі быў паплечнікам Кастуся Каліноўскага і генералам Парыжскай Камуны, а бацька заснаваў першую публічную бібліятэку ў Вільні."
+      "by": "Адрас: Žygimantų, 1/8.\n\nБібліятэка Акадэміі навук Літвы імя Урублеўскіх паўстала на аснове ўнікальнага сямейнага збору кніг і рукапісаў, які налічваў дзясяткі тысяч рэдкіх выданняў, старадрукаў і дакументаў.\n\nЗаснавальнік бібліятэкі — знакаміты віленскі юрыст і адвакат Тадэвуш Урублеўскі, які ў царскіх судах бясплатна абараняў дзеячаў беларускага нацыянальнага руху (Цётку, Аляксандра Уласава, актывістаў БСГ). Ягоны родны дзядзька Валеры Урублеўскі быў паплечнікам Кастуся Каліноўскага, камандуючым паўстаннем 1863 г. і генералам Парыжскай Камуны.",
+      "ru": "Адрес: Žygimantų, 1/8.\n\nБиблиотека Академии наук Литвы им. Врублевских возникла на основе частного собрания Тадеуша Врублевского. Врублевский был выдающимся адвокатом, защищавшим деятелей белорусского движения. Его дядя Валерий Врублевский был соратником Калиновского в восстании 1863 года и генералом Парижской Коммуны.",
+      "en": "Address: Žygimantų, 1/8.\n\nThe Wroblewski Library of the Lithuanian Academy of Sciences was established from the private collection of Tadeusz Wróblewski, a distinguished Vilnius attorney who defended Belarusian national revival figures in court. His uncle Walery Antoni Wróblewski was a prominent leader of the 1863 Uprising and General of the Paris Commune."
     },
     "image": "",
     "links": [
@@ -4991,9 +4991,10 @@ window.INITIAL_PLACES = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "kastus-kalinouski",
+    "personId": "tadevush-urubleuski",
     "personIds": [
-      "kastus-kalinouski"
+      "tadevush-urubleuski",
+      "valery-urubleuski"
     ],
     "mustSee": false
   },
@@ -6562,9 +6563,9 @@ window.INITIAL_PLACES = [
       25.28341
     ],
     "description": {
-      "by": "Адрас: Liejyklos, 10/13.  \n\nТут у 1920-х – пачатку 1930-х у “маленечкай аднапакаёвай кватэры амаль на падстрэшшы” разам з жонкай ісынам жыў адзін з пачынальникащ адраджэнскага руху Уладзімір Самойла . Літаратуразнаўцы і публіцыст, Самойлы першым ацаніў у друку творчасць Янкі Купалы. Ён выклдаў у Беларускай віленкай гімназіі, працаваў бібліятэкарам Віленскага беларускага музея імя І. Луцкевіча, актыўна выступаў у друку. За шматгадовую ахвярную дзейнасць на ніве беларушчыны саветы быў арыштаваны пасля прыходу ў Вільню Чырвойнай арміі ды згінуў у савецкіх засценках.",
-      "ru": "Адрас: Liejyklos, 10/13.  \n\nТут у 1920-х – пачатку 1930-х у “маленечкай аднапакаёвай кватэры амаль на падстрэшшы” разам з жонкай ісынам жыў адзін з пачынальникащ адраджэнскага руху Уладзімір Самойла . Літаратуразнаўцы і публіцыст, Самойлы першым ацаніў у друку творчасць Янкі Купалы. Ён выклдаў у Беларускай віленкай гімназіі, працаваў бібліятэкарам Віленскага беларускага музея імя І. Луцкевіча, актыўна выступаў у друку. За шматгадовую ахвярную дзейнасць на ніве беларушчыны саветы быў арыштаваны пасля прыходу ў Вільню Чырвойнай арміі ды згінуў у савецкіх засценках.",
-      "en": "Адрас: Liejyklos, 10/13.  \n\nТут у 1920-х – пачатку 1930-х у “маленечкай аднапакаёвай кватэры амаль на падстрэшшы” разам з жонкай ісынам жыў адзін з пачынальникащ адраджэнскага руху Уладзімір Самойла . Літаратуразнаўцы і публіцыст, Самойлы першым ацаніў у друку творчасць Янкі Купалы. Ён выклдаў у Беларускай віленкай гімназіі, працаваў бібліятэкарам Віленскага беларускага музея імя І. Луцкевіча, актыўна выступаў у друку. За шматгадовую ахвярную дзейнасць на ніве беларушчыны саветы быў арыштаваны пасля прыходу ў Вільню Чырвойнай арміі ды згінуў у савецкіх засценках."
+      "by": "Адрас: Liejyklos, 10/13.\n\nТут у 1920-х – пачатку 1930-х у «маленечкай аднапакаёвай кватэры амаль на падстрэшшы» разам з жонкай і сынам жыў адзін з пачынальнікаў адраджэнскага руху Уладзімір Самойла. Літаратуразнаўца і публіцыст, Самойла першым ацаніў у друку творчасць Янкі Купалы. Ён выкладаў у Беларускай віленскай гімназіі, працаваў бібліятэкарам Віленскага беларускага музея імя І. Луцкевіча, актыўна выступаў у друку. За шматгадовую ахвярную дзейнасць на ніве беларушчыны быў арыштаваны органамі НКУС пасля прыходу ў Вільню Чырвонай арміі ў 1939 г. ды згінуў у савецкіх засценках.",
+      "ru": "Адрес: Liejyklos, 10/13.\n\nЗдесь в 1920-х – начале 1930-х жил публицист, философ и литературовед Владимир Самойло. Самойло первым в печати высоко оценил поэзию Янки Купалы. Преподавал в Виленской белорусской гимназии, работал в Белорусском музее им. И. Луцкевича. Арестован НКВД в 1939 году и погиб в заключении.",
+      "en": "Address: Liejyklos, 10/13.\n\nHere in the 1920s and early 1930s lived Uladzimir Samoila, a publicist, literary critic, and philosopher. Samoila was the first to recognize and review the poetry of Yanka Kupala in print. He taught at the Vilnius Belarusian Gymnasium and worked at the Ivan Lutskievich Museum. Arrested by the Soviet NKVD in 1939, he died in custody."
     },
     "image": "",
     "links": [
@@ -6579,9 +6580,9 @@ window.INITIAL_PLACES = [
       "Гісторыя",
       "culture"
     ],
-    "personId": "yanka-kupala",
+    "personId": "uladzimir-samoila",
     "personIds": [
-      "yanka-kupala"
+      "uladzimir-samoila"
     ],
     "mustSee": false
   },
@@ -11217,7 +11218,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Вікіпедыя: Стэфан Баторый пад Псковам",
-        "url": "https://be.wikipedia.org/wiki/Стэфан_Баторый_пад_Псковам_(карціна)"
+        "url": "https://pl.wikipedia.org/wiki/Stefan_Batory_pod_Pskowem"
       }
     ],
     "tags": [
@@ -11283,11 +11284,11 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Вікіпедыя: Люблінская унія (карціна)",
-        "url": "https://be.wikipedia.org/wiki/Люблінская_унія_(карціна)"
+        "url": "https://pl.wikipedia.org/wiki/Unia_lubelska_(obraz)"
       },
       {
         "title": "Вікіпедыя: Люблінскі замак",
-        "url": "https://be.wikipedia.org/wiki/Люблінскі_замак"
+        "url": "https://pl.wikipedia.org/wiki/Zamek_w_Lublinie"
       },
       {
         "title": "Афіцыйны сайт Muzeum Narodowe w Lublinie",
@@ -11610,7 +11611,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Вікіпедыя: Давід Сарнаў",
-        "url": "https://be.wikipedia.org/wiki/Давід_Сарнаў"
+        "url": "https://en.wikipedia.org/wiki/David_Sarnoff"
       },
       {
         "title": "Вікіпедыя: 30 Rockefeller Plaza",
@@ -11737,7 +11738,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Вікіпедыя: Хаім Вайцман",
-        "url": "https://be.wikipedia.org/wiki/Хаім_Вайцман"
+        "url": "https://en.wikipedia.org/wiki/Chaim_Weizmann"
       },
       {
         "title": "Вікіпедыя: Weizmann House",
@@ -11907,7 +11908,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Вікіпедыя: Помнік Тадэвушу Касцюшку ў Залатурне",
-        "url": "https://be.wikipedia.org/wiki/Помнік_Тадэвушу_Касцюшку_(Залатурн)"
+        "url": "https://be.wikipedia.org/wiki/Тадэвуш_Касцюшка"
       }
     ],
     "tags": [
@@ -11956,7 +11957,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Вікіпедыя: Höchstädt Castle",
-        "url": "https://en.wikipedia.org/wiki/Höchstädt_Castle"
+        "url": "https://en.wikipedia.org/wiki/Schloss_H%C3%B6chst%C3%A4dt"
       },
       {
         "title": "Афіцыйны сайт замка Хёхштэд",
@@ -12132,7 +12133,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Wikipedia: Pałac Wołowskiego w Warszawie",
-        "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Wo%C5%82owskiego_w_Warszawie"
+        "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Foksal_w_Warszawie"
       }
     ],
     "mustSee": false
@@ -12180,7 +12181,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Wikipedia: Pomnik Józefa Poniatowskiego w Warszawie",
-        "url": "https://pl.wikipedia.org/wiki/Pomnik_J%C3%B3zefa_Poniatowskiego_w_Warszawie"
+        "url": "https://pl.wikipedia.org/wiki/Pomnik_ksi%C4%99cia_J%C3%B3zefa_Poniatowskiego_w_Warszawie"
       }
     ],
     "personIds": [],
@@ -12698,7 +12699,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Wikipedia: Santi Sergio e Bacco degli Armeni",
-        "url": "https://en.wikipedia.org/wiki/Santi_Sergio_e_Bacco_degli_Armeni"
+        "url": "https://en.wikipedia.org/wiki/Santi_Sergio_e_Bacco"
       }
     ],
     "personIds": [],
@@ -12893,58 +12894,6 @@ window.INITIAL_PLACES = [
       }
     ],
     "personIds": [],
-    "mustSee": false
-  },
-  {
-    "id": "krakow-hutten-czapski-museum",
-    "title": {
-      "by": "Музей і палац Эмерыка Гутэн-Чапскага ў Кракаве",
-      "ru": "Музей и дворец Эмерика Гуттен-Чапского в Кракове",
-      "en": "Emeryk Hutten-Czapski Museum and Palace in Krakow"
-    },
-    "category": "culture",
-    "city": {
-      "by": "Кракаў",
-      "ru": "Краков",
-      "en": "Krakow"
-    },
-    "country": {
-      "by": "Польшча",
-      "ru": "Польша",
-      "en": "Poland"
-    },
-    "coordinates": [
-      50.0597,
-      19.9322
-    ],
-    "unverifiedCoordinates": true,
-    "description": {
-      "by": "Філіял Нацыянальнага музея на вул. Пілсудскага, 12 (ul. Piłsudskiego 12). Палац набыў і абсталяваў у 1894 г. граф Эмерык Гутэн-Чапскі са Станькава для сваёй неацэннай калекцыі: 30 тысяч манет, 20 тысяч тамоў станькаўскай бібліятэкі, слуцкія паясы, граматы і экслібрысы.",
-      "ru": "Филиал Национального музея на ул. Пилсудского, 12. Дворец приобрёл в 1894 г. граф Эмерик Гуттен-Чапский из Станьково для сокровищницы: 30 тысяч монет, 20 тысяч томов станьковской библиотеки, слуцкие пояса, медали и грамоты.",
-      "en": "Branch of the National Museum on Piłsudskiego 12. Palace acquired in 1894 by Count Emeryk Hutten-Czapski of Stankava to preserve his immense collection: 30,000 coins, 20,000 rare books, Slutsk sashes, and manuscripts."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Emeryk_Hutten-Czapski._%D0%AD%D0%BC%D0%B5%D1%80%D1%8B%D0%BA_%D0%93%D1%83%D1%82%D1%8D%D0%BD-%D0%A7%D0%B0%D0%BF%D1%81%D0%BA%D1%96_%281896%29.jpg/330px-Emeryk_Hutten-Czapski._%D0%AD%D0%BC%D0%B5%D1%80%D1%8B%D0%BA_%D0%93%D1%83%D1%82%D1%8D%D0%BD-%D0%A7%D0%B0%D0%BF%D1%81%D0%BA%D1%96_%281896%29.jpg",
-    "personId": "emeryk-hutten-czapski",
-    "personIds": [
-      "emeryk-hutten-czapski"
-    ],
-    "tags": [
-      "krakow",
-      "museum",
-      "czapski",
-      "stankava",
-      "numismatics"
-    ],
-    "links": [
-      {
-        "title": "Maldzis.world: Дзе на карце Кракава знайсці Беларусь",
-        "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
-      },
-      {
-        "title": "Wikipedia: Muzeum im. Emeryka Hutten-Czapskiego",
-        "url": "https://pl.wikipedia.org/wiki/Muzeum_im._Emeryka_Hutten-Czapskiego_w_Krakowie"
-      }
-    ],
     "mustSee": false
   },
   {
@@ -13696,11 +13645,11 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Салавецкі лагер — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Салавецкі_лагер_асаблівага_прызначэння"
+        "url": "https://ru.wikipedia.org/wiki/Соловецкий_лагерь_особого_назначения"
       },
       {
         "title": "Францішак Аляхновіч — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Францішак_Каралевіч_Аляхновіч"
+        "url": "https://be.wikipedia.org/wiki/Францішак_Аляхновіч"
       }
     ],
     "tags": [
@@ -13750,7 +13699,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Сандармох — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Сандармох"
+        "url": "https://ru.wikipedia.org/wiki/Сандармох"
       }
     ],
     "tags": [
@@ -13850,11 +13799,11 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Варкуцінскае паўстанне — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Варкуцінскае_паўстанне"
+        "url": "https://ru.wikipedia.org/wiki/Воркутинское_восстание"
       },
       {
         "title": "Варкутлаг — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Варкутлаг"
+        "url": "https://ru.wikipedia.org/wiki/Воркутлаг"
       }
     ],
     "tags": [
@@ -13899,7 +13848,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Маска смутку — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Маска_смутку"
+        "url": "https://ru.wikipedia.org/wiki/Маска_скорби"
       },
       {
         "title": "Сяргей Грахоўскі — Вікіпедыя",
@@ -13952,7 +13901,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Карлаг — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Карлаг"
+        "url": "https://ru.wikipedia.org/wiki/Карлаг"
       }
     ],
     "tags": [
@@ -13998,7 +13947,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Кенгірскае паўстанне — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Кенгірскае_паўстанне"
+        "url": "https://ru.wikipedia.org/wiki/Кенгирское_восстание"
       }
     ],
     "tags": [
@@ -14138,11 +14087,11 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Сабібор — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Сабібор_(лагер_смерці)"
+        "url": "https://be.wikipedia.org/wiki/Сабібор"
       },
       {
         "title": "Паўстанне ў лагеры Сабібор — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Паўстанне_ў_Сабіборы"
+        "url": "https://be.wikipedia.org/wiki/Сабібор"
       }
     ],
     "tags": [
@@ -14187,7 +14136,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Маўтхаўзен — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Маўтхаўзен_(канцэнтрацыйны_лагер)"
+        "url": "https://be.wikipedia.org/wiki/Маўтхаўзен"
       }
     ],
     "tags": [
@@ -14322,7 +14271,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Заксенхаўзен — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Заксенхаўзен"
+        "url": "https://ru.wikipedia.org/wiki/Заксенхаузен_(концентрационный_лагерь)"
       }
     ],
     "tags": [
@@ -14367,7 +14316,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Дахаў — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Дахаў_(канцэнтрацыйны_лагер)"
+        "url": "https://ru.wikipedia.org/wiki/Дахау_(концентрационный_лагерь)"
       }
     ],
     "tags": [
@@ -14412,7 +14361,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Штутгоф — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Штутгоф"
+        "url": "https://ru.wikipedia.org/wiki/Штуттгоф"
       }
     ],
     "tags": [
@@ -14618,7 +14567,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Генрых Гай — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Генрых_Юльян_Гай"
+        "url": "https://be.wikipedia.org/wiki/Генрых_Гай"
       }
     ],
     "tags": [
@@ -14914,7 +14863,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Дыпламатычныя прадстаўніцтвы БНР — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Дыпламатычныя_прадстаўніцтвы_БНР"
+        "url": "https://be.wikipedia.org/wiki/Беларуская_Народная_Рэспубліка"
       }
     ],
     "tags": [
@@ -15056,11 +15005,11 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Кунстхаўс Тахелес — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Кунстхаўс_Тахелес"
+        "url": "https://de.wikipedia.org/wiki/Kunsthaus_Tacheles"
       },
       {
         "title": "Алесь Родзін — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Алесь_Радзін"
+        "url": "https://be.wikipedia.org/wiki/Алесь_Родзін"
       }
     ],
     "tags": [
@@ -15311,7 +15260,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Carolina Rediviva — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Караліна_Рэдывіва"
+        "url": "https://en.wikipedia.org/wiki/Carolina_Rediviva"
       },
       {
         "title": "Шведская беларусістыка",
@@ -15409,12 +15358,20 @@ window.INITIAL_PLACES = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Krakow_Palac_Czapskich.jpg/960px-Krakow_Palac_Czapskich.jpg",
     "links": [
       {
-        "title": "Muzeum im. Emeryka Hutten-Czapskiego",
+        "title": "Muzeum im. Emeryka Hutten-Czapskiego (MNK)",
         "url": "https://mnk.pl/oddzial/muzeum-im-emeryka-hutten-czapskiego"
       },
       {
-        "title": "Эмерык Гутэн-Чапскі — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Эмерык_Гутэн-Чапскі"
+        "title": "Вікіпедыя: Музей імя Эмерыка Гутэн-Чапскага",
+        "url": "https://pl.wikipedia.org/wiki/Muzeum_im._Emeryka_Hutten-Czapskiego"
+      },
+      {
+        "title": "Wikipedia: Muzeum im. Emeryka Hutten-Czapskiego",
+        "url": "https://pl.wikipedia.org/wiki/Muzeum_im._Emeryka_Hutten-Czapskiego"
+      },
+      {
+        "title": "Maldzis.world: Дзе на карце Кракава знайсці Беларусь",
+        "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
       }
     ],
     "tags": [
@@ -15826,7 +15783,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Палац Тышкевічаў ва Ужутракісе — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Сядзіба_Тышкевічаў_(Ужутракіс)"
+        "url": "https://lt.wikipedia.org/wiki/U%C5%BEutrakio_dvaro_sodyba"
       }
     ],
     "tags": [
@@ -15872,7 +15829,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Палац Тышкевічаў у Ландвараве — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Сядзіба_Тышкевічаў_(Лентварыс)"
+        "url": "https://lt.wikipedia.org/wiki/Lentvario_dvaro_sodyba"
       }
     ],
     "tags": [
@@ -15921,7 +15878,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Ян Крыштаф Глаўбіц — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Ян_Крыштаф_Глаўбіц"
+        "url": "https://be.wikipedia.org/wiki/Іаган_Крыштоф_Глаўбіц"
       }
     ],
     "tags": [
@@ -15975,7 +15932,7 @@ window.INITIAL_PLACES = [
       },
       {
         "title": "Collegium Hosianum — Wikipedia",
-        "url": "https://pl.wikipedia.org/wiki/Collegium_Hosianum"
+        "url": "https://pl.wikipedia.org/wiki/Hozjanum"
       }
     ],
     "tags": [
@@ -16183,7 +16140,7 @@ window.INITIAL_PLACES = [
     "links": [
       {
         "title": "Дыпламатычныя прадстаўніцтвы БНР — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Дыпламатычныя_прадстаўніцтвы_БНР"
+        "url": "https://be.wikipedia.org/wiki/Беларуская_Народная_Рэспубліка"
       },
       {
         "title": "Музей Адама Міцкевіча ў Стамбуле — Вікіпедыя",
@@ -17691,6 +17648,1102 @@ window.INITIAL_PLACES = [
       "radziwills"
     ],
     "unverifiedCoordinates": false,
+    "mustSee": false
+  },
+  {
+    "id": "paris-pere-lachaise-valery-wroblewski-grave",
+    "title": {
+      "by": "Магіла генерала Валерыя Урублеўскага на могілках Пер-Лашэз",
+      "ru": "Могила генерала Валерия Врублевского на кладбище Пер-Лашез",
+      "en": "Grave of General Walery Wróblewski at Père Lachaise Cemetery"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.86016,
+      2.39801
+    ],
+    "description": {
+      "by": "Адрас: Cimetière du Père-Lachaise, Division 76.\n\nТут спачывае генерал Валеры Антоній Урублеўскі (1836–1908) — ураджэнец мястэчка Жалудок на Гарадзеншчыне, найбліжэйшы паплечнік Кастуся Каліноўскага і начальнік паўстанцкіх сілаў Гарадзенскага ваяводства ў паўстанні 1863–1864 гадоў. Пасля эміграцыі ў Францыю стаў адным з галоўных военачальнікаў і генералам Парыжскай Камуны 1871 г., камандуючы абаронай левага берага Сены. Помнік усталяваны недалёка ад Сцяны Камунараў.",
+      "ru": "Адрес: Cimetière du Père-Lachaise, Division 76.\n\nЗдесь похоронен генерал Валерий Антоний Врублевский (1836–1908) — уроженец местечка Желудок на Гродненщине, соратник Кастуся Калиновского и командующий повстанцами Гродненского воеводства в 1863–1864 гг. Позже генерал Парижской Коммуны, командовавший обороной левого берега Сены.",
+      "en": "Address: Père Lachaise Cemetery, Division 76.\n\nGrave and monument of General Walery Antoni Wróblewski (1836–1908), born in Žaludok near Hrodna. Close associate of Kastuś Kalinoŭski and military commander of Hrodna voivodeship during the 1863–1864 Uprising. In France, he became a renowned military leader and General of the Paris Commune (1871). Located near the Mur des Fédérés."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/P%C3%A8re-Lachaise_-_Division_76_-_Wroblewski_03.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Валерый Антоній Урублеўскі",
+        "url": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B%D0%B9_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%B9_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96"
+      }
+    ],
+    "tags": [
+      "Францыя",
+      "Парыж",
+      "Паўстанне 1863",
+      "Пер-Лашэз",
+      "grave"
+    ],
+    "personId": "valery-urubleuski",
+    "personIds": [
+      "valery-urubleuski"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "krakow-wawel-cathedral-royal-pantheon",
+    "title": {
+      "by": "Кафедральны сабор на Вавелі — Каралеўскі пантэон манархаў ВКЛ",
+      "ru": "Кафедральный собор на Вавеле — Королевский пантеон монархов ВКЛ",
+      "en": "Wawel Cathedral Royal Pantheon — Monarchs of GDL"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Kraków"
+    },
+    "coordinates": [
+      50.0545,
+      19.9354
+    ],
+    "description": {
+      "by": "Адрас: Wawel 3, Kraków.\n\nКафедральны сабор Святых Станіслава і Вацлава на Вавелі — галоўны каралеўскі некропаль манархаў Вялікага Княства Літоўскага і Рэчы Паспалітай. Тут знаходзяцца саркафагі і капліцы:\n• Уладзіслава II Ягайлы ( Jogaila ) — цудоўны гатычны саркафаг з чырвонага мармуру;\n• Казіміра IV Ягелончыка — шэдэўр сусветнага мастацтва работы Файта Штоса (1492 г.);\n• Каралевы Соф'і Гальшанскай (маці Ягелонаў, Капліца Святой Тройцы);\n• Жыгімонта I Старога і Жыгімонта II Аўгуста (знакамітая Рэнесансная Жыгімонтаўская капліца);\n• Стэфана Баторыя (надмагілле Санці Гучы ў Капліцы Маці Божай);\n• Каралёў з дынастыі Вазаў і Яна III Сабескага.",
+      "ru": "Адрес: Wawel 3, Kraków.\n\nВавельский собор — главный королевский некрополь монархов Великого Княжества Литовского и Речи Посполитой. Здесь находятся надгробия Ягайло, Казимира IV Ягеллончика (шедевр Фейта Штосса 1492 г.), королевы Софьи Гольшанской, Сигизмунда II Августа, Стефана Батория и Яна III Собеского.",
+      "en": "Address: Wawel 3, Kraków.\n\nThe Royal Archcathedral Basilica at Wawel is the principal royal necropolis of the monarchs of the Grand Duchy of Lithuania and the Polish-Lithuanian Commonwealth. Houses the tombs of Władysław II Jagiełło, Casimir IV Jagiellon (masterpiece by Veit Stoss, 1492), Queen Sophia of Holszany, Sigismund II Augustus, Stephen Báthory, and John III Sobieski."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Wawel_Cathedral_Front.jpg",
+    "links": [
+      {
+        "title": "Wawel Royal Cathedral",
+        "url": "https://www.katedra-wawelska.pl/"
+      }
+    ],
+    "tags": [
+      "Польшча",
+      "Кракаў",
+      "Вавель",
+      "Манархі ВКЛ",
+      "Ягелоны",
+      "grave"
+    ],
+    "personId": "yagaila",
+    "personIds": [
+      "yagaila",
+      "kazimir-iv-yagelonchyk",
+      "zhygimont-ii-august",
+      "stefan-batory",
+      "yan-iii-sabeski"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "vilnius-cathedral-royal-crypt",
+    "title": {
+      "by": "Каралеўская крыпта Віленскага кафедральнага сабора",
+      "ru": "Королевская крипта Вильнюсского кафедрального собора",
+      "en": "Royal Crypt of Vilnius Cathedral"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.6858,
+      25.2877
+    ],
+    "description": {
+      "by": "Адрас: Katedros a. 2, Vilnius.\n\nПад барочнай капліцай Святога Казіміра знаходзіцца Каралеўская крыпта (Karališkoji kripta). Тут спачывае вялікі князь літоўскі і кароль польскі Аляксандр Ягелончык (1461–1506) — адзіны манарх, пахаваны ў Вільні. Таксама тут захоўваецца сэрца караля і вялікага князя Уладзіслава IV Вазы, саркафагі Барбары Радзівіл і Лізаветы Габсбург (жонкі Жыгімонта Аўгуста), а таксама мемарыял вялікага князя Вітаўта Вялікага.",
+      "ru": "Адрес: Katedros a. 2, Vilnius.\n\nПод капеллой Святого Казимира расположена Королевская крипта, где покоится великий князь литовский и король Александр Ягеллончик — единственный монарх, похороненный в Вильнюсе. Также здесь хранится урна с сердцем Владислава IV Вазы, саркофаги Барбары Радзивилл и Елизаветы Габсбург.",
+      "en": "Address: Katedros a. 2, Vilnius.\n\nBeneath the Chapel of Saint Casimir lies the Royal Crypt of Vilnius Cathedral. It contains the sarcophagus of Alexander Jagiellon (1461–1506), the only monarch buried in Vilnius, the urn with the heart of King Władysław IV Vasa, and the sarcophagus of Barbara Radziwiłł."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Aleksander_Jagiellonczyk_%2876851933%29_%28cropped%29.jpg",
+    "links": [
+      {
+        "title": "Віленскі кафедральны сабор",
+        "url": "https://katedra.lt/en/crypts/"
+      }
+    ],
+    "tags": [
+      "Літва",
+      "Вільня",
+      "Кафедра",
+      "Манархі ВКЛ",
+      "grave"
+    ],
+    "personId": "aleksandr-yagelonchyk",
+    "personIds": [
+      "aleksandr-yagelonchyk",
+      "barbara-radziwill"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "ringsted-st-bendts-church-sophia-of-minsk",
+    "title": {
+      "by": "Царква Святога Бендта ў Рынгстэдзе — Магіла каралевы Сафіі Менскай",
+      "ru": "Церковь Святого Бендта в Рингстеде — Могила королевы Софии Минской",
+      "en": "St. Bendt's Church in Ringsted — Grave of Queen Sophia of Minsk"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Данія",
+      "ru": "Дания",
+      "en": "Denmark"
+    },
+    "city": {
+      "by": "Рынгстэд",
+      "ru": "Рингстед",
+      "en": "Ringsted"
+    },
+    "coordinates": [
+      55.44194,
+      11.79056
+    ],
+    "description": {
+      "by": "Адрас: Sct Bendts Kirke, Sct Bendtsgade 9, 4100 Ringsted.\n\nЦарква Святога Бендта ў Рынгстэдзе — найстарэйшая цагляная царква Паўночнай Еўропы і першы каралеўскі пантэон дацкіх манархаў. Тут у каралеўскім пахаванні спачывае Сафія Валадараўна (каля 1140–1198) — князёўна Менская, каралева Даніі, жонка караля Вальдэмара I Вялікага і маці каралёў Кнуда VI і Вальдэмара II. На магільнай пліце і мемарыяльнай дошцы пазначана яе імя (Dronning Sofia).",
+      "ru": "Адрес: Sct Bendts Kirke, Ringsted, Denmark.\n\nЦерковь Святого Бендта в Рингстеде — королевская усыпальница датских монархов. Здесь погребена минская княжна София Володаревна (ок. 1140–1198), королева Дании, супруга Вальдемара I Великого и мать королей Кнуда VI и Вальдемара II.",
+      "en": "Address: Sct Bendtsgade 9, Ringsted, Denmark.\n\nSt. Bendt's Church is the royal burial site of early Danish monarchs. Here lies Sophia of Minsk (c. 1140–1198), Princess of Minsk, Queen consort of Denmark alongside her husband King Valdemar I the Great. Mother of Danish kings Canute VI and Valdemar II."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sankt_Bendts_Kirke_-_Sophia.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Сафія Валадараўна",
+        "url": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D1%84%D1%96%D1%8F_%D0%92%D0%B0%D0%BB%D0%B0%D0%B4%D0%B0%D1%80%D0%B0%D1%9E%D0%BD%D0%B0"
+      }
+    ],
+    "tags": [
+      "Данія",
+      "Рынгстэд",
+      "Полацкае княства",
+      "Менск",
+      "Каралева Даніі",
+      "grave"
+    ],
+    "personId": "sofia-menskaya",
+    "personIds": [
+      "sofia-menskaya"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "warsaw-st-john-archcathedral-stanislaw-august-tomb",
+    "title": {
+      "by": "Архікатэдра Святога Яна ў Варшаве — Саркафаг Станіслава Аўгуста Панятоўскага",
+      "ru": "Архикафедральный собор Святого Иоанна в Варшаве — Саркофаг Станислава Августа Понятовского",
+      "en": "St. John's Archcathedral in Warsaw — Tomb of King Stanisław August Poniatowski"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.2492,
+      21.0136
+    ],
+    "description": {
+      "by": "Адрас: Świętojańska 8, Warszawa.\n\nУ крыпце архікатэдры Святога Яна ў Старым горадзе Варшавы знаходзіцца саркафаг апошняга вялікага князя літоўскага і караля польскага Станіслава Аўгуста Панятоўскага (1732–1798), ураджэнца Воўчына на Берасцейшчыне. Пасля складанага гістарычнага шляху (пахаванне ў Пецярбургу, перапахаванне ў родным Воўчыне) у 1995 г. парэшткі манарха былі ўрачыста перанесены ў крыпту варшаўскай архікатэдры.",
+      "ru": "Адрес: Świętojańska 8, Warszawa.\n\nВ крипте собора Св. Иоанна покоится саркофаг последнего великого князя литовского и короля Станислава Августа Понятовского (1732–1798), уроженца Волчина под Брестом.",
+      "en": "Address: Świętojańska 8, Warsaw.\n\nThe crypt of St. John's Archcathedral holds the sarcophagus of the last Grand Duke of Lithuania and King of Poland, Stanisław August Poniatowski (1732–1798), born in Voŭčyn, Belarus."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Bazylika_archikatedralna_%C5%9Bw._Jana_Chrzciciela_w_Warszawie_2020.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Станіслаў Аўгуст Панятоўскі",
+        "url": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82_%D0%9F%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D1%9E%D1%81%D0%BA%D1%96"
+      }
+    ],
+    "tags": [
+      "Польшча",
+      "Варшава",
+      "Панятоўскі",
+      "Манархі ВКЛ",
+      "Воўчын",
+      "grave"
+    ],
+    "personId": "stanislaw-august-poniatowski",
+    "personIds": [
+      "stanislaw-august-poniatowski"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "paris-saint-germain-des-pres-jan-casimir-tomb",
+    "title": {
+      "by": "Абацтва Сен-Жэрмэн-дэ-Прэ — Надмагілле і сэрца караля Яна II Казіміра",
+      "ru": "Аббатство Сен-Жермен-де-Пре — Надгробие и сердце короля Яна II Казимира",
+      "en": "Saint-Germain-des-Prés Abbey — Tomb and Heart of King John II Casimir"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "Paris"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.854,
+      2.3338
+    ],
+    "description": {
+      "by": "Адрас: 3 Place Saint-Germain des Prés, Paris.\n\nУ знакамітай старажытнай царкве абацтва Сен-Жэрмэн-дэ-Прэ знаходзіцца пышнае барочнае надмагілле Яна II Казіміра Вазы (1609–1672) — караля і вялікага князя літоўскага, які пасля адрачэння ад пасаду ў 1668 г. з'ехаў у Францыю і стаў абатам гэтага манастыра. Тут у металічнай урне захоўваецца сэрца манарха, а манументальная скульптура паказвае яго на каленях у малітве.",
+      "ru": "Адрес: 3 Place Saint-Germain des Prés, Paris.\n\nВ церкви аббатства Сен-Жермен-де-Пре находится монументальное надгробие короля и великого князя литовского Яна II Казимира Вазы (1609–1672), ставшего после отречения абатом монастыря. Здесь хранится сердце монарха.",
+      "en": "Address: 3 Place Saint-Germain des Prés, Paris.\n\nThe famous Abbey church of Saint-Germain-des-Prés houses the monumental Baroque tomb and heart of King and Grand Duke John II Casimir Vasa (1609–1672), who became abbot of the monastery after abdicating the throne."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Schultz_-_Portrait_de_Jean-Casimir_Vasa_%281609-1672%29%2C_roi_de_Pologne%2C_puis_abb%C3%A9_de_Saint-Germain-des-Pr%C3%A9s.jpg",
+    "links": [
+      {
+        "title": "Église de Saint-Germain-des-Prés",
+        "url": "https://en.wikipedia.org/wiki/Saint-Germain-des-Pr%C3%A9s_(abbey)"
+      }
+    ],
+    "tags": [
+      "Францыя",
+      "Парыж",
+      "Ваза",
+      "Манархі ВКЛ",
+      "grave"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "dresden-hofkirche-august-iii-tomb",
+    "title": {
+      "by": "Кафедральны сабор Найсвяцейшай Тройцы (Хофкірхе) — Пахаванне Аўгуста III",
+      "ru": "Собор Хофкирхе в Дрездене — Усыпальница Августа III",
+      "en": "Katholische Hofkirche in Dresden — Tomb of King Augustus III"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Дрэздэн",
+      "ru": "Дрезден",
+      "en": "Dresden"
+    },
+    "coordinates": [
+      51.0535,
+      13.7374
+    ],
+    "description": {
+      "by": "Адрас: Schloßplatz, Dresden.\n\nУ каралеўскай крыпце Ветынаў кафедральнага сабора Хофкірхе ў Дрэздэне спачывае вялікі князь літоўскі і кароль польскі Аўгуст III (1696–1763) і яго жонка Марыя Жазэфа. Таксама ў крыпце ў адмысловай капсуле захоўваецца сэрца караля і вялікага князя Аўгуста II Моцнага.",
+      "ru": "Адрес: Schloßplatz, Dresden.\n\nВ королевской крипте собора Хофкирхе в Дрездене покоится великий князь литовский и король Август III (1696–1763). Также здесь хранится капсула с сердцем Августа II Сильного.",
+      "en": "Address: Schloßplatz, Dresden.\n\nThe Wettin Royal Crypt at Dresden Cathedral (Hofkirche) houses the tomb of Grand Duke of Lithuania and King Augustus III (1696–1763) and the capsule containing the heart of Augustus II the Strong."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dresden%2C_Katholische_Hofkirche_--_2023_--_9410.jpg",
+    "links": [
+      {
+        "title": "Dresden Hofkirche",
+        "url": "https://en.wikipedia.org/wiki/Dresden_Cathedral"
+      }
+    ],
+    "tags": [
+      "Германія",
+      "Дрэздэн",
+      "Ветыны",
+      "Манархі ВКЛ",
+      "grave"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "new-york-central-park-king-jagiello",
+    "title": {
+      "by": "Помнік вялікаму князю і каралю Ягайлу ў Цэнтральным парку Нью-Ёрка",
+      "ru": "Памятник великому князю и королю Ягайло в Центральном парке Нью-Йорка",
+      "en": "King Jagiello Monument in Central Park, New York"
+    },
+    "category": "monument",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "USA"
+    },
+    "city": {
+      "by": "Нью-Ёрк",
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "coordinates": [
+      40.7797,
+      -73.9687
+    ],
+    "description": {
+      "by": "Адрас: 79th Street Transverse / Turtle Pond, Central Park, New York.\n\nМанументальны бронзавы конны помнік вялікаму князю літоўскаму і каралю польскаму Уладзіславу II Ягайлу (Jogaila), які трымае над галавой два скрыжаваныя Грунвальдскія мячы. Створаны скульптарам Станіславам Казімірам Астроўскім для польскага павільёна Сусветнай выставы ў Нью-Ёрку 1939 г. У 1945 г. усталяваны ў Цэнтральным парку на беразе сажалкі Цёртл-Понд каля замка Бельведэр.",
+      "ru": "Адрес: Central Park, New York.\n\nКонный бронзовый монумент Ягайло, держащему над головой два грюнвальдских меча. Создан скульптором Станиславом Островским для Всемирной выставки 1939 года. Установлен в Центральном парке в 1945 г.",
+      "en": "Address: Central Park, near Turtle Pond, New York, NY.\n\nMonumental equestrian bronze statue of Grand Duke of Lithuania and King of Poland Władysław II Jagiełło, brandishing two crossed Grunwald swords over his head. Created by sculptor Stanisław Kazimierz Ostrowski for the 1939 New York World's Fair, erected in Central Park in 1945."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Monument_a_King_Jagiello_al_Central_Park.jpg",
+    "links": [
+      {
+        "title": "Central Park: King Jagiello Monument",
+        "url": "https://www.centralparknyc.org/monuments/king-jagiello"
+      }
+    ],
+    "tags": [
+      "ЗША",
+      "Нью-Ёрк",
+      "Цэнтральны парк",
+      "Ягайла",
+      "Грунвальд",
+      "monument"
+    ],
+    "personId": "yagaila",
+    "personIds": [
+      "yagaila"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "aglona-basilica-mindaugas-memorial",
+    "title": {
+      "by": "Базіліка ў Аглоне — Помнік каралю Міндоўгу і каралеве Марце",
+      "ru": "Базилика в Аглоне — Памятник королю Миндовгу и королеве Марте",
+      "en": "Aglona Basilica — Monument to King Mindaugas and Queen Marta"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Аглона",
+      "ru": "Аглона",
+      "en": "Aglona"
+    },
+    "coordinates": [
+      56.1264,
+      27.0161
+    ],
+    "description": {
+      "by": "Адрас: Cirīšu iela 8, Aglona, Preiļu novads.\n\nКаля знакамітай Аглонскай базілікі ўсталяваны велічны бронзавы помнік першаму каралю Літвы і стваральніку ВКЛ Міндоўгу і ягонай жонцы каралеве Марце (скульптар Вітаўтас Рукас, 2015 г.). Паводле летапісных звестак і латгальскіх паданняў, каралева Марта паходзіла з гэтых зямель, а пасля забойства ў 1263 г. Міндоўг разам з сынамі быў пахаваны на тэрыторыі сучаснай Аглоны.",
+      "ru": "Адрес: Cirīšu iela 8, Aglona.\n\nПамятник основателю ВКЛ королю Миндовгу и его супруге королеве Марте у знаменитой Аглонской базилики (скульптор В. Рукас, 2015). По местным преданиям, Марта происходила из Латгалии, а Миндовг был похоронен в Аглоне.",
+      "en": "Address: Cirīšu iela 8, Aglona, Latvia.\n\nBronze monument dedicated to the founder of the Grand Duchy of Lithuania, King Mindaugas, and Queen Marta, unveiled in 2015 near the renowned Aglona Basilica. According to local traditions, Queen Marta was from Latgale and Mindaugas was buried here in 1263."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Veliuona005.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя: Міндоўг",
+        "url": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D0%BD%D0%B4%D0%BE%D1%9E%D0%B3"
+      }
+    ],
+    "tags": [
+      "Латвія",
+      "Аглона",
+      "Міндоўг",
+      "Манархі ВКЛ",
+      "monument"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "veliuona-gediminas-grave-mound",
+    "title": {
+      "by": "Курган Гедзіміна ў Вялёне (Veliuona)",
+      "ru": "Курган Гедимина в Велюоне (Veliuona)",
+      "en": "Gediminas Mound in Veliuona"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вялёна",
+      "ru": "Велюона",
+      "en": "Veliuona"
+    },
+    "coordinates": [
+      55.0747,
+      23.2753
+    ],
+    "description": {
+      "by": "Адрас: Veliuona, Jurbarko raj.\n\nКурган на маляўнічым высокім беразе Нёмана, дзе паводле Хронікі Быхаўца і старажытных паданняў у 1341 г. гераічна загінуў пры аблозе крыжацкай крэпасці Баербург вялікі князь літоўскі Гедзімін — заснавальнік дынастыі Гедзімінавічаў і новай сталіцы Вільні. На вяршыні кургана ўсталяваны мемарыяльны знак з Калюмнамі Гедзіміна.",
+      "ru": "Адрес: Veliuona, Jurbarko raj.\n\nКурган на высоком берегу Немана, где согласно Хронике Быховца в 1341 году погиб в битве с крестоносцами великий князь литовский Гедимин — основатель династии Гедиминовичей.",
+      "en": "Address: Veliuona, Jurbarkas district, Lithuania.\n\nA castle mound overlooking the Nemunas river where, according to the Bychowiec Chronicle, Grand Duke Gediminas perished in battle against Teutonic Knights in 1341. Marked by a memorial stone."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Veliuona005.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя: Гедзімін",
+        "url": "https://be.wikipedia.org/wiki/%D0%93%D0%B5%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D0%BD"
+      }
+    ],
+    "tags": [
+      "Літва",
+      "Вялёна",
+      "Гедзімін",
+      "Манархі ВКЛ",
+      "Нёман",
+      "historical"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "vienna-kahlenberg-st-joseph-sobieski",
+    "title": {
+      "by": "Касцёл Святога Юзафа на гары Каленберг — Мемарыял Яна III Сабескага",
+      "ru": "Костёл Святого Иосифа на горе Каленберг — Мемориал Яна III Собеского",
+      "en": "St. Joseph's Church on Kahlenberg — John III Sobieski Memorial"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Аўстрыя",
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "city": {
+      "by": "Вена",
+      "ru": "Вена",
+      "en": "Vienna"
+    },
+    "coordinates": [
+      48.2758,
+      16.3347
+    ],
+    "description": {
+      "by": "Адрас: Josefsdorf 38, 1190 Wien.\n\nКасцёл Святога Юзафа на гары Каленберг пад Венай. Менавіта адсюль 12 верасня 1683 г. кароль і вялікі князь Ян III Сабескі камандаваў аб'яднаным войскам Рэчы Паспалітай і саюзнікаў у вырашальнай Венскай бітве, якая спыніла турэцкае нашэсце на Цэнтральную Еўропу. У касцёле створана памятная капліца Сабескага (Sobieski-Kapelle) з карцінамі і мемарыяльнымі дошкамі.",
+      "ru": "Адрес: Josefsdorf 38, Wien.\n\nКостёл Святого Иосифа на горе Каленберг, откуда 12 сентября 1683 года Ян III Собеский руководил союзными войсками в победной Венской битве. Внутри действует капелла Собеского.",
+      "en": "Address: Josefsdorf 38, Vienna, Austria.\n\nSt. Joseph's Church on Mount Kahlenberg overlooking Vienna, where King and Grand Duke John III Sobieski commanded the allied forces during the Battle of Vienna (1683). Features the Sobieski Memorial Chapel."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Kahlenberg_%28Wien%29_-_Kirche_%281%29.JPG",
+    "links": [
+      {
+        "title": "Kahlenberg Kirche",
+        "url": "https://en.wikipedia.org/wiki/Kahlenberg"
+      }
+    ],
+    "tags": [
+      "Аўстрыя",
+      "Вена",
+      "Каленберг",
+      "Сабескі",
+      "monument"
+    ],
+    "personId": "yan-iii-sabeski",
+    "personIds": [
+      "yan-iii-sabeski"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "harbin-marian-mission-st-nicholas-lyceum",
+    "title": {
+      "by": "Беларуская каталіцкая місія і Ліцэй Святога Мікалая ў Харбіне",
+      "ru": "Белорусская католическая миссия и Лицей Святого Николая в Харбине",
+      "en": "Belarusian Marian Mission and St. Nicholas Lyceum in Harbin"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Кітай",
+      "ru": "Китай",
+      "en": "China"
+    },
+    "city": {
+      "by": "Харбін",
+      "ru": "Харбин",
+      "en": "Harbin"
+    },
+    "coordinates": [
+      45.7562,
+      126.6341
+    ],
+    "description": {
+      "by": "Адрас: вуліца Ашыхэ (цяпер Ashihe St), Харбін, Маньчжурыя.\n\nАсяродак Беларускай каталіцкай місіі ўсходняга (візантыйска-славянскага) абраду, заснаванай у 1928 г. архімандрытам Фабіянам Абрантовічам. У 1929 г. тут быў адкрыты знакаміты мужчынскі Ліцэй імя Святога Мікалая, канвікт (інтэрнат), прытулак для сірот і манастыр сясцёр-уршулянак. У 1930–1940-х гг. місіяй кіравалі архімандрыт Андрэй Цікота і святар-паэт Язэп Германовіч (Вінцук Адважны). Місія стала цэнтрам адукацыі, культуры і беларускай прысутнасці на Далёкім Усходзе да захопу Маньчжурыі савецкімі войскамі.",
+      "ru": "Адрес: Ashihe St, Харбин, Китай.\n\nЦентр Белорусской католической миссии восточного обряда и Лицей Святого Николая, основанные архимандритом Фабианом Абрантовичем в 1928 году. Миссией руководили Андрей Цикото и поэт Язеп Германович.",
+      "en": "Address: Ashihe St, Harbin, China.\n\nCenter of the Belarusian Byzantine-Slavic Catholic Mission and St. Nicholas Lyceum, established in Harbin in 1928 by Archimandrite Fabian Abrantovich. Later led by Archimandrite Andrei Tsikota and poet Yazep Hermanovich, serving as a beacon of education and Belarusian culture in the Far East."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jazep_Hiermanovi%C4%8D._%D0%AF%D0%B7%D1%8D%D0%BF_%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87_%281932%29.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Беларусы Кітая",
+        "url": "https://be.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8B_%D0%9A%D1%96%D1%82%D0%B0%D1%8F"
+      }
+    ],
+    "tags": [
+      "Кітай",
+      "Харбін",
+      "Марыяне",
+      "Беларусы Кітая",
+      "culture"
+    ],
+    "personId": "fabian-abrantovich",
+    "personIds": [
+      "fabian-abrantovich",
+      "andrei-tsikota",
+      "yazep-hermanovich"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "moscow-butyrka-fabian-abrantovich-martyrdom",
+    "title": {
+      "by": "Бутырская турма — Месца гібелі архімандрыта Фабіяна Абрантовіча",
+      "ru": "Бутырская тюрьма — Место гибели архимандрита Фабиана Абрантовича",
+      "en": "Butyrka Prison — Martyrdom Site of Archimandrite Fabian Abrantovich"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Масква",
+      "ru": "Москва",
+      "en": "Moscow"
+    },
+    "coordinates": [
+      55.7897,
+      37.5947
+    ],
+    "description": {
+      "by": "Адрас: вул. Новаслабодская 45, Масква.\n\nБутырская турма — месца зняволення, катаванняў і мучаніцкай смерці выбітнага дзеяча беларускага каталіцкага адраджэння архімандрыта Фабіяна Абрантовіча (1884–1946). Абрантовіч, які ўзначальваў Беларускую місію ў Харбіне, быў схоплены савецкімі спецслужбамі ўвосень 1939 г. на тэрыторыі Заходняй Беларусі і пасля сямі гадоў допытаў і здзекаў загінуў у Бутырцы 2 студзеня 1946 г.",
+      "ru": "Адрес: Новослободская ул., 45, Москва.\n\nБутырская тюрьма — место заключения и гибели главы Белорусской католической миссии в Харбине архимандрита Фабиана Абрантовича, умершего в застенках 2 января 1946 г.",
+      "en": "Address: Novoslobodskaya St 45, Moscow.\n\nButyrka prison was the site of the imprisonment and martyrdom of Archimandrite Fabian Abrantovich, head of the Belarusian mission in Harbin, who perished in Soviet custody on January 2, 1946."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Butyrka_prison_ed.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Фабіян Абрантовіч",
+        "url": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B1%D1%96%D1%8F%D0%BD_%D0%90%D0%B1%D1%80%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%96%D1%87"
+      }
+    ],
+    "tags": [
+      "Расія",
+      "Масква",
+      "Бутырка",
+      "Рэпрэсіі",
+      "Марыяне",
+      "historical"
+    ],
+    "personId": "fabian-abrantovich",
+    "personIds": [
+      "fabian-abrantovich"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "ozerlag-tayshet-novochunka-andrei-tsikota-grave",
+    "title": {
+      "by": "Лагпункт Азярлагу ў Новачунцы — Магіла архімандрыта Андрэя Цікоты",
+      "ru": "Лагпункт Озерлага в Новочунке — Могила архимандрита Андрея Цикото",
+      "en": "Ozerlag Camp in Novochunka — Grave of Archimandrite Andrei Tsikota"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Новачунка",
+      "ru": "Новочунка",
+      "en": "Novochunka"
+    },
+    "coordinates": [
+      56.1283,
+      99.6467
+    ],
+    "description": {
+      "by": "Адрас: станцыя Новачунка, Чунскі раён, Іркуцкая вобласць.\n\nУ савецкім канцлагеры «Азярлаг» (лагерны шпіталь № 038) 13 лютага 1952 г. загінуў архімандрыт Андрэй Цікота — Генеральны настаяцель ордэна марыянаў у Рыме і кіраўнік місіі ў Харбіне. Святара пахавалі на лагерных могілках каля чыгуначнага палатна. У 2003 г. на месцы пахавання каталіцкімі святарамі быў усталяваны мемарыяльны крыж з надпісам «Айцец Андрэй Цікота».",
+      "ru": "Адрес: станция Новочунка, Чунский район, Иркутская область.\n\nЗдесь в лагерном госпитале Озерлага 13 февраля 1952 г. погиб архимандрит Андрей Цикото, генеральный настоятель мариан. На лагерном кладбище установлен памятный крест.",
+      "en": "Address: Novochunka station, Chunsky district, Irkutsk oblast, Russia.\n\nHere in the Ozerlag Gulag hospital, Archimandrite Andrei Tsikota, Superior General of the Marian Fathers in Rome and head of the Harbin mission, died on February 13, 1952. A memorial cross was erected on the camp burial ground in 2003."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%D0%90%D0%B9%D1%86%D0%B5%D1%86_%D0%90%D0%BD%D0%B4%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Андрэй Цікота",
+        "url": "https://be.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0"
+      }
+    ],
+    "tags": [
+      "Расія",
+      "Сібір",
+      "Азярлаг",
+      "Тайшэт",
+      "Марыяне",
+      "ГУЛАГ",
+      "grave"
+    ],
+    "personId": "andrei-tsikota",
+    "personIds": [
+      "andrei-tsikota"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "solovki-monastery-gulag-clergy-memorial",
+    "title": {
+      "by": "Салавецкі лагер асаблівага прызначэння (СЛОН) — Мемарыял рэпрэсаваным святарам",
+      "ru": "Соловецкий лагерь особого назначения (СЛОН) — Мемориал репрессированным священникам",
+      "en": "Solovki Camp (SLON) — Memorial to Repressed Belarusian Clergy"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Салаўкі",
+      "ru": "Соловки",
+      "en": "Solovki"
+    },
+    "coordinates": [
+      65.0253,
+      35.7089
+    ],
+    "description": {
+      "by": "Адрас: Салавецкія астравы, Архангельская вобласць.\n\nСалавецкі лагер асаблівага прызначэння (СЛОН), Савацеўскі скіт і Секірная гара — адно з галоўных месцаў зняволення і катаванняў беларускіх каталіцкіх і праваслаўных святароў і вернікаў (даследаваных Леанідам Мараковым). Тут пакутавалі і былі расстраляныя дзесяткі беларускіх святароў (кс. Адам Лісоўскі, кс. Ян Траецкі, кс. Станіслаў Шылько і інш.). На Серафімаўскіх могілках і каля скітоў усталяваны паклонныя крыжы і памятныя знакі.",
+      "ru": "Адрес: Соловецкие острова, Архангельская область.\n\nСоловецкий лагерь особого назначения (СЛОН) — место заключения и гибели десятков белорусских священников, задокументированных исследователем Леонидом Моряковым. Установлены поклонные кресты и мемориальные знаки.",
+      "en": "Address: Solovetsky Islands, Arkhangelsk oblast, Russia.\n\nThe Solovki Special Purpose Camp (SLON) was a notorious site of imprisonment and martyrdom for dozens of Belarusian Catholic and Orthodox clergy and laity documented by researcher Leanid Marakou. Memorial crosses and markers commemorate the victims."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ensemble_of_the_Solovetsky_monastery_in_the_fog.jpg",
+    "links": [
+      {
+        "title": "Рэпрэсаваныя каталіцкія духоўныя асобы Беларусі (Л. Маракоў)",
+        "url": "https://knihi-online.com/represavanyja-katalickija-duchounyja-kansekravanyja-i-svieckija-asoby-bielarusi-marakou.html"
+      }
+    ],
+    "tags": [
+      "Расія",
+      "Салаўкі",
+      "СЛОН",
+      "Рэпрэсіі",
+      "Леанід Маракоў",
+      "historical"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "montmorency-champeaux-cemetery-pantheon",
+    "title": {
+      "by": "Могілкі Шампо ў Манмарансі — Пантэон беларуска-польскай эміграцыі",
+      "ru": "Кладбище Шампо в Монморанси — Пантеон эмиграции",
+      "en": "Champeaux Cemetery in Montmorency — Emigration Pantheon"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Манмарансі",
+      "ru": "Монморанси",
+      "en": "Montmorency"
+    },
+    "coordinates": [
+      48.9897,
+      2.3256
+    ],
+    "description": {
+      "by": "Адрас: Rue des Champeaux, 95160 Montmorency (15 км ад Парыжа).\n\nГалоўны гістарычны пантэон дзеячаў Вялікага Княства Літоўскага і Рэчы Паспалітай XIX ст. Тут спачываюць выбітныя ўраджэнцы Беларусі:\n• Юльян Урсын Нямцэвіч (1758–1841, з маёнтка Скокі пад Брэстам) — паплечнік Касцюшкі і аўтар Канстытуцыі 3 мая;\n• Аляксандр Ходзька (1804–1891, з Крывічоў) — філамат, усходазнавец, прафесар Калеж дэ Франс;\n• Леанард Ходзька (1800–1871, з Аборка) — гісторык, публіцыст і картограф ВКЛ;\n• Генерал Караль Князевіч (1762–1842);\n• Радавы склеп сям'і Адама Міцкевіча (сам паэт спачываў тут у 1855–1890 гг. да пераносу на Вавель; тут пахаваны яго сын Уладзіслаў Міцкевіч і дачка Марыя Гурэцкая);\n• Вацлаў Пелікан (1790–1873) — рэктар Віленскага ўніверсітэта.",
+      "ru": "Адрес: Rue des Champeaux, Montmorency (Франция).\n\nГлавный исторический пантеон эмиграции. Здесь похоронены Юлиан Урсын Немцевич (уроженец Скоков под Брестом), востоковед Александр Ходзько (из Кривичей), историк Леонард Ходзько, семья Адама Мицкевича (сам поэт покоился здесь до 1890 г.).",
+      "en": "Address: Rue des Champeaux, Montmorency, France.\n\nThe foremost historic necropolis of the 19th-century Great Emigration. Holds the tombs of Julian Ursyn Niemcewicz (born in Skoki near Brest), orientalist Aleksander Chodźko, historian Leonard Chodźko, and the Mickiewicz family crypt (where Adam Mickiewicz was buried until 1890)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Cimeti%C3%A8re_Champeaux_-_Montmorency_%28FR95%29_-_2024-10-13_-_1.jpg",
+    "links": [
+      {
+        "title": "Cimetière des Champeaux de Montmorency",
+        "url": "https://fr.wikipedia.org/wiki/Cimeti%C3%A8re_des_Champeaux_de_Montmorency"
+      }
+    ],
+    "tags": [
+      "Францыя",
+      "Манмарансі",
+      "Пантэон",
+      "Нямцэвіч",
+      "Ходзька",
+      "Міцкевіч",
+      "grave"
+    ],
+    "personId": "yulian-ursyn-nyamtsevich",
+    "personIds": [
+      "yulian-ursyn-nyamtsevich",
+      "aleksandr-chodzko",
+      "leonard-chodzko",
+      "adam-mickiewicz"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "paris-montmartre-valentsin-vankovich-grave",
+    "title": {
+      "by": "Магіла мастака Валянціна Ваньковіча на могілках Манмартр",
+      "ru": "Могила художника Валентия Ваньковича на кладбище Монмартр",
+      "en": "Grave of Painter Walenty Wańkowicz at Montmartre Cemetery"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.8876,
+      2.3303
+    ],
+    "description": {
+      "by": "Адрас: Cimetière de Montmartre, 20 Avenue Rachel, 75018 Paris.\n\nТут спачывае класік рамантычнага жывапісу Валянцін Ваньковіч (1800–1842), ураджэнец маёнтка Калюжыца Ігуменскага павета (Чэрвеньскі раён). Аўтар знакамітага кананічнага партрэта Адама Міцкевіча на скале Аю-Даг, партрэтаў Марыі Шыманоўскай, Аляксандра Пушкіна, карціны «Апафеоз Напалеона». Блізкі сябар Міцкевіча, які памёр у Парыжы ў яго кватэры на руках у паэта.",
+      "ru": "Адрес: Cimetière de Montmartre, 20 Avenue Rachel, Paris.\n\nЗдесь похоронен выдающийся художник-романтик Валентий Ванькович (1800–1842), уроженец Калюжицы (Червенский район). Автор хрестоматийного портрета Адама Мицкевича на скале Аю-Даг. Умер в Париже на руках у Мицкевича.",
+      "en": "Address: Montmartre Cemetery, 20 Avenue Rachel, Paris.\n\nTomb of classic Romantic portrait painter Walenty Wańkowicz (1800–1842), born in Kałużyca near Cherven (Minsk region). Creator of the iconic portrait of Adam Mickiewicz on the Ay-Dagh Cliff. Died in Paris in Mickiewicz's home."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Walenty_wankowicz.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Валянцін Ваньковіч",
+        "url": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D1%8F%D0%BD%D1%86%D1%96%D0%BD_%D0%92%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D1%87"
+      }
+    ],
+    "tags": [
+      "Францыя",
+      "Парыж",
+      "Манмартр",
+      "Ваньковіч",
+      "жывапіс",
+      "grave"
+    ],
+    "personId": "valentsin-vankovich",
+    "personIds": [
+      "valentsin-vankovich",
+      "adam-mickiewicz"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "paris-montparnasse-ossip-zadkine-grave",
+    "title": {
+      "by": "Магіла скульптара Восіпа Цадкіна на могілках Манпарнас",
+      "ru": "Могила скульптора Осипа Цадкина на кладбище Монпарнас",
+      "en": "Grave of Sculptor Ossip Zadkine at Montparnasse Cemetery"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.8412,
+      2.3275
+    ],
+    "description": {
+      "by": "Адрас: Cimetière du Montparnasse, Division 8, 3 Boulevard Edgar Quinet, 75014 Paris.\n\nТут спачывае адзін з найвыдатнейшых скульптараў сусветнага авангарду XX стагоддзя Восіп Цадкін (1890–1967), ураджэнец Віцебска. Цадкін вучыўся ў Віцебску разам з Маркам Шагалам у школе Юдэля Пэна. У Парыжы стаў піянерам кубізму ў скульптуры (аўтар славутага манумента «Разбураны горад» у Ратэрдаме). Пахаваны разам з жонкай, мастачкай Валянцінай Пракс; на магіле ўсталявана яго ўласная бронзавая скульптура.",
+      "ru": "Адрес: Cimetière du Montparnasse, Division 8, Paris.\n\nЗдесь похоронен один из величайших скульпторов XX века Осип Цадкин (1890–1967), уроженец Витебска, ученик Юделя Пэна. Пионер кубизма в скульптуре.",
+      "en": "Address: Montparnasse Cemetery, Division 8, Paris.\n\nTomb of world-renowned avant-garde sculptor Ossip Zadkine (1890–1967), born in Vitebsk and student of Yehuda Pen. A pioneer of Cubist sculpture."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Tombe_Ossip_Zadkine.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Восіп Цадкін",
+        "url": "https://be.wikipedia.org/wiki/%D0%92%D0%BE%D1%81%D1%96%D0%BF_%D0%A6%D0%B0%D0%B4%D0%BA%D1%96%D0%BD"
+      }
+    ],
+    "tags": [
+      "Францыя",
+      "Парыж",
+      "Манпарнас",
+      "Цадкін",
+      "скульптура",
+      "Віцебск",
+      "grave"
+    ],
+    "personId": "ossip-zadkine",
+    "personIds": [
+      "ossip-zadkine"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "london-st-pancras-belarusian-pantheon",
+    "title": {
+      "by": "Беларускі пантэон на могілках Сэнт-Панкрас у Лондане",
+      "ru": "Белорусский пантеон на кладбище Сент-Панкрас в Лондоне",
+      "en": "Belarusian Pantheon at St Pancras Cemetery in London"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лондан",
+      "ru": "Лондон",
+      "en": "London"
+    },
+    "coordinates": [
+      51.5976,
+      -0.1698
+    ],
+    "description": {
+      "by": "Адрас: St Pancras and Islington Cemetery, 278 High Rd, East Finchley, London N2 9AG.\n\nГалоўны нацыянальны некропаль беларускай паваеннай эміграцыі ў Вялікабрытаніі. Тут у беларускай секцыі спачываюць выбітныя духоўныя і грамадскія дзеячы:\n• Біскуп Часлаў Сіповіч (1914–1981) — апостальскі візітатар, заснавальнік Бібліятэкі і музея імя Скарыны ў Лондане;\n• Айцец Аляксандр Надсан (1926–2015) — апостальскі візітатар, шматгадовы кіраўнік Бібліятэкі Скарыны;\n• Айцец Леў Гарошка (1897–1977) — святар, рэдактар часопіса «Божым шляхам»;\n• Гай дэ Пікарда (1931–2007) — брытанскі даследчык беларускай музыкі і культуры;\n• Павел Навара, Ян Садоўскі, Вінцук Жук-Грышкевіч і дзесяткі іншых дзеячаў Згуртавання беларусаў у Вялікабрытаніі.",
+      "ru": "Адрес: St Pancras and Islington Cemetery, East Finchley, London.\n\nГлавный некрополь белорусской диаспоры в Великобритании. Здесь похоронены епископ Чеслав Сипович, отец Александр Надсон, священник Лев Горошко, исследователь Гай де Пикарда и деятели белорусского движения.",
+      "en": "Address: St Pancras and Islington Cemetery, 278 High Rd, East Finchley, London.\n\nThe principal national necropolis of the Belarusian diaspora in the UK. Houses the graves of Bishop Ceslaus Sipovich, Fr. Alexander Nadson, Fr. Leo Haroshka, Guy Picarda, and prominent members of the Association of Belarusians in Great Britain."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Biskup_Sipovich_u_biblijatecy.jpg",
+    "links": [
+      {
+        "title": "Згуртаванне беларусаў у Вялікабрытаніі",
+        "url": "https://zbvb.org.uk/"
+      }
+    ],
+    "tags": [
+      "Вялікабрытанія",
+      "Лондан",
+      "Пантэон",
+      "Сіповіч",
+      "Надсан",
+      "Скарынаўка",
+      "grave"
+    ],
+    "personId": "chaslau-sipovich",
+    "personIds": [
+      "chaslau-sipovich",
+      "alyaksandr-nadsan"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "rapperswil-castle-plater-museum",
+    "title": {
+      "by": "Замак Раперсвіль і музей графа Уладзіслава Плятэра",
+      "ru": "Замок Рапперсвиль и музей графа Владислава Плятера",
+      "en": "Rapperswil Castle & Museum of Count Władysław Plater"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Раперсвіль",
+      "ru": "Рапперсвиль",
+      "en": "Rapperswil"
+    },
+    "coordinates": [
+      47.2269,
+      8.8156
+    ],
+    "description": {
+      "by": "Адрас: Lindenhof, 8640 Rapperswil-Jona, Switzerland.\n\nЗамак на Цюрыхскім возеры, выкуплены і адноўлены ў 1870 г. графам Уладзіславам Плятэрам (з магнацкага роду Плятэраў, стрыечным братам Эміліі Плятэр). Плятэр стварыў тут Польска-Літоўскі нацыянальны музей і маўзалей, дзе дзесяцігоддзямі захоўвалася урна з сэрцам Тадэвуша Касцюшкі (перавезена ў Варшаву ў 1927 г.). Сам граф Уладзіслаў Плятэр пахаваны тут жа ў замкавай капліцы.",
+      "ru": "Адрес: Lindenhof, Rapperswil-Jona, Швейцария.\n\nЗамок на Цюрихском озере, восстановленный графом Владиславом Плятером в 1870 г. Здесь был основан Польско-Литовский национальный музей, где хранилось сердце Тадеуша Костюшко. Сам граф Плятер похоронен в замке.",
+      "en": "Address: Rapperswil Castle, Switzerland.\n\nMedieval castle restored in 1870 by Count Władysław Plater (of the Plater magnate family). Plater established the Polish-Lithuanian Museum and the mausoleum where the heart of Tadeusz Kościuszko was enshrined for decades. Count Plater is buried at the castle."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rapperswil_Schloss_Nacht.jpeg",
+    "links": [
+      {
+        "title": "Schloss Rapperswil",
+        "url": "https://en.wikipedia.org/wiki/Rapperswil_Castle"
+      }
+    ],
+    "tags": [
+      "Швейцарыя",
+      "Раперсвіль",
+      "Плятэры",
+      "Касцюшка",
+      "замак",
+      "музей",
+      "culture"
+    ],
+    "personId": "uladzislaw-plyater",
+    "personIds": [
+      "uladzislaw-plyater",
+      "tadeusz-kosciuszko"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "sayn-palace-crypt-leonilla-wittgenstein",
+    "title": {
+      "by": "Капліца палаца Зайн — Пахаванне княгіні Леанілы Барацінскай (уладальніцы Міра)",
+      "ru": "Капелла дворца Зайн — Усыпальница княгини Леониллы Барятинской (владелицы Мира)",
+      "en": "Sayn Palace Chapel — Tomb of Princess Leonilla of Sayn-Wittgenstein"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Бендорф-Зайн",
+      "ru": "Бендорф-Зайн",
+      "en": "Bendorf-Sayn"
+    },
+    "coordinates": [
+      50.4389,
+      7.5778
+    ],
+    "description": {
+      "by": "Адрас: Schloßstraße 100, 56170 Bendorf-Sayn, Rheinland-Pfalz, Germany.\n\nУ неагатычнай палацавай капліцы роду Зайн-Вітгенштэйн знаходзіцца мармуровы саркафаг княгіні Леанілы Барацінскай-Вітгенштэйн (1816–1918), якая пражыла 102 гады. Леаніла была жонкай князя Льва Вітгенштэйна і праз шлюб валодала велізарнымі зямлямі Радзівілаў на Беларусі, уключаючы Мірскі замак, які яна ў канцы XIX ст. прадала князю Мікалаю Святаполк-Мірскаму.",
+      "ru": "Адрес: Schloßstraße 100, Bendorf-Sayn, Германия.\n\nВ неоготической капелле дворца Зайн находится саркофаг княгини Леониллы Барятинской (Витгенштейн, 1816–1918), владелицы Мирского замка и владений Радзивиллов в Беларуси.",
+      "en": "Address: Schloßstraße 100, Bendorf-Sayn, Germany.\n\nThe Neo-Gothic chapel of Sayn Palace contains the marble tomb of Princess Leonilla of Sayn-Wittgenstein-Sayn (1816–1918), mistress of Mir Castle and vast Radziwiłł estates in Belarus."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Schloss_Sayn_2011.jpg/1280px-Schloss_Sayn_2011.jpg",
+    "links": [
+      {
+        "title": "Schloss Sayn",
+        "url": "https://en.wikipedia.org/wiki/Sayn_Castle"
+      }
+    ],
+    "tags": [
+      "Германія",
+      "Зайн",
+      "Мірскі замак",
+      "Радзівілы",
+      "Вітгенштэйны",
+      "grave"
+    ],
+    "personId": "leonilla-sayn-wittgenstein",
+    "personIds": [
+      "leonilla-sayn-wittgenstein"
+    ],
+    "mustSee": false
+  },
+  {
+    "id": "warsaw-powazki-stanislaw-moniuszko-grave",
+    "title": {
+      "by": "Магіла кампазітара Станіслава Манюшкі на Паванзках у Варшаве",
+      "ru": "Могила композитора Станислава Монюшко на Повонзках в Варшаве",
+      "en": "Grave of Composer Stanisław Moniuszko at Powązki Cemetery in Warsaw"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.2536,
+      20.9786
+    ],
+    "description": {
+      "by": "Адрас: Cmentarz Powązkowski, Powązkowska 14, Warszawa (Aleja Katakumbowa, каля філаматаў).\n\nТут спачывае Станіслаў Манюшка (1819–1872) — вялікі кампазітар, ураджэнец фальварка Убель Ігуменскага павета (Чэрвеньскі раён). Стваральнік першай нацыянальнай беларускамоўнай оперы «Сялянка» («Ідылія») разам з Вінцэнтам Дуніным-Марцінкевічам, а таксама знакамітых опер «Галька», «Страшны двор» і зборнікаў песень «Хатні спеўнік».",
+      "ru": "Адрес: Cmentarz Powązkowski, Варшава.\n\nЗдесь похоронен Станислав Монюшко (1819–1872) — великий композитор, уроженец фольварка Убель (Червенский район). Создатель белорусской оперы «Селянка» (вместе с Дуниным-Марцинкевичем) и польской классической оперы.",
+      "en": "Address: Powązki Cemetery, Warsaw.\n\nTomb of composer Stanisław Moniuszko (1819–1872), born in Ubiel near Minsk. Creator of the first Belarusian-language opera 'Sielanka' with Vincent Dunin-Marcinkievič, and classic operas 'Halka' and 'The Haunted Manor'."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gr%C3%B3b_Stanis%C5%82awa_Moniuszki.jpg/800px-Gr%C3%B3b_Stanis%C5%82awa_Moniuszki.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Станіслаў Манюшка",
+        "url": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0"
+      }
+    ],
+    "tags": [
+      "Польшча",
+      "Варшава",
+      "Паванзкі",
+      "Манюшка",
+      "опера",
+      "Убель",
+      "grave"
+    ],
+    "personId": "stanislaw-moniuszko",
+    "personIds": [
+      "stanislaw-moniuszko"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "warsaw-wilanow-radziwill-crypt",
+    "title": {
+      "by": "Капліца і крыпта князёў Радзівілаў у Вілянаве",
+      "ru": "Часовня и крипта князей Радзивиллов в Вилянуве",
+      "en": "Radziwiłł Crypt and Chapel in Wilanów, Warsaw"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.1656,
+      21.0903
+    ],
+    "description": {
+      "by": "Адрас: Stanisława Kostki Potockiego 1, Warszawa (касцёл Святой Ганны каля Вілянаўскага палаца).\n\nСямейная магільная капліца і крыпта князёў Радзівілаў (Krypta Radziwiłłów). Тут спачываюць выбітныя прадстаўнікі роду Радзівілаў канца XIX — XX стагоддзяў, у тым ліку князь Януш Францішак Радзівіл (1880–1967, ардынат на Алыцы, палітычны і дзяржаўны дзеяч) і яго сваякі.",
+      "ru": "Адрес: Stanisława Kostki Potockiego 1, Warszawa.\n\nФамильная усыпальница князей Радзивиллов в костёле Святой Анны в Вилянуве. Здесь похоронен князь Януш Радзивилл (1880–1967) и члены его семьи.",
+      "en": "Address: St. Anne's Church, Wilanów, Warsaw.\n\nThe family crypt and burial chapel of the Radziwiłł princes at Wilanów. Holds the tombs of Prince Janusz Franciszek Radziwiłł (1880–1967) and his relatives."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kosciol_sw_Anny_w_Wilanowie.jpg/800px-Kosciol_sw_Anny_w_Wilanowie.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Радзівілы",
+        "url": "https://be.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB%D1%8B"
+      }
+    ],
+    "tags": [
+      "Польшча",
+      "Варшава",
+      "Вілянаў",
+      "Радзівілы",
+      "магнаты",
+      "grave"
+    ],
+    "personId": "radziwills",
+    "personIds": [
+      "radziwills"
+    ],
     "mustSee": false
   }
 ];
