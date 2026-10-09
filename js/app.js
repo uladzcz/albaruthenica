@@ -56,6 +56,10 @@ const CATEGORY_CONFIG = {
   grave: {
     color: '#475569',
     icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C8.69 2 6 4.69 6 8v12h12V8c0-3.31-2.69-6-6-6zm0 4c.55 0 1 .45 1 1v1h1c.55 0 1 .45 1 1s-.45 1-1 1h-1v4c0 .55-.45 1-1 1s-1-.45-1-1v-4H9c-.55 0-1-.45-1-1s.45-1 1-1h1V7c0-.55.45-1 1-1zm-8 16h16v2H4v-2z"/></svg>`
+  },
+  embassy: {
+    color: '#0284c7',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l4 2.5-4 2.5V2zm-9 6h18v2H3V8zm2 3h2v7H5v-7zm5 0h2v7h-2v-7zm5 0h2v7h-2v-7zm5 0h2v7h-2v-7zM2 19h20v3H2v-3z"/></svg>`
   }
 };
 const CATEGORY_ICONS = CATEGORY_CONFIG;
@@ -82,6 +86,10 @@ imgReferrerObserver.observe(document.documentElement, { childList: true, subtree
 function getWikimediaThumb(url, width = 250) {
   if (!url || typeof url !== 'string') return url;
   if (!url.includes('wikimedia.org')) return url;
+  // ONLY rewrite commons.wikimedia.org URLs! Local language wikipedias (like be.wikipedia.org) do not support thumb endpoints in this manner
+  if (!url.includes('/wikipedia/commons/')) {
+    return url;
+  }
 
   // Snap requested width to closest valid Wikimedia thumbnail bucket
   const allowed = [120, 250, 330, 500, 960, 1280];
@@ -1729,10 +1737,20 @@ function openPersonDetail(personId, updateHash = true) {
       const plCity = getLocalized(pl.city);
       const plCountry = getLocalized(pl.country);
       const plThumb = getWikimediaThumb(pl.image, 250) || '';
+      const catConfig = CATEGORY_CONFIG[pl.category] || CATEGORY_CONFIG.historical || {};
+      const catIcon = catConfig.icon || '📍';
+      const catColor = catConfig.color || '#2563eb';
 
       return `
         <div class="person-place-item" onclick="viewPersonPlaceOnMap('${pl.id}')">
-          ${plThumb ? `<img src="${plThumb}" alt="${plTitle}" class="person-place-thumb" loading="lazy" referrerpolicy="no-referrer">` : `<div class="person-place-thumb" style="display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--text-muted);border:1px solid var(--border-color);"></div>`}
+          <div class="person-place-thumb-container" style="position:relative; width:48px; height:48px; flex-shrink:0; border-radius:6px; overflow:hidden; background:var(--bg-secondary);">
+            ${plThumb ? `<img src="${plThumb}" alt="${escapeHtml(plTitle)}" class="person-place-thumb" loading="lazy" referrerpolicy="no-referrer"
+                 onerror="this.style.display='none'; if(this.nextElementSibling) this.nextElementSibling.style.display='flex';"
+                 style="width:100%; height:100%; object-fit:cover;">` : ''}
+            <div class="person-place-thumb-fallback" style="${plThumb ? 'display:none;' : 'display:flex;'} width:100%; height:100%; align-items:center; justify-content:center; background:${catColor}15; color:${catColor}; border:1px solid var(--border-color);">
+              <span class="category-pill-icon" style="background-color:${catColor}; width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#ffffff;">${catIcon}</span>
+            </div>
+          </div>
           <div class="person-place-info">
             <div class="person-place-title">${formatPlaceTitle(plTitle, plCity)}</div>
             <div class="person-place-meta">${plCity}, ${plCountry}</div>

@@ -14,7 +14,8 @@ const i18n = {
       church: "Храмы і святыні",
       culture: "Музеі і культура",
       historical: "Гістарычныя мясціны",
-      plaque: "Мемарыяльныя дошкі"
+      plaque: "Мемарыяльныя дошкі",
+      embassy: "Дыпламатычныя місіі"
     },
     statsFound: "Знойдзена:",
     statsPlaces: "месцаў",
@@ -178,7 +179,8 @@ const i18n = {
       church: "Храмы и святыни",
       culture: "Музеи и культура",
       historical: "Исторические места",
-      plaque: "Мемориальные доски"
+      plaque: "Мемориальные доски",
+      embassy: "Дипломатические миссии"
     },
     statsFound: "Найдено:",
     statsPlaces: "мест",
@@ -342,7 +344,8 @@ const i18n = {
       church: "Churches & Sanctuaries",
       culture: "Museums & Culture",
       historical: "Historical Sites",
-      plaque: "Memorial Plaques"
+      plaque: "Memorial Plaques",
+      embassy: "Diplomatic Missions"
     },
     statsFound: "Found:",
     statsPlaces: "places",

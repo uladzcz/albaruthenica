@@ -31,6 +31,7 @@
   --cat-church: #7c3aed;    /* Amethyst Purple */
   --cat-plaque: #059669;    /* Emerald Green */
   --cat-grave: #475569;     /* Slate Memorial Graphite */
+  --cat-embassy: #0284c7;   /* Diplomatic Cobalt Blue */
 }
 
 * {
@@ -359,6 +360,13 @@ body {
   background: #ecfdf5;
   border-color: var(--cat-plaque);
   color: #047857;
+}
+
+
+.category-pill.active.category-embassy {
+  background: #f0f9ff;
+  border-color: var(--cat-embassy, #0284c7);
+  color: #0369a1;
 }
 
 .category-pill.active.category-grave {

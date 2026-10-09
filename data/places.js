@@ -77,7 +77,7 @@ window.INITIAL_PLACES = [
       "ru": "Знаменитый парижский музей в саду Тюильри обладает одним из крупнейших в мире собраний живописи Хаима Сутина (22 оригинальных полотна из коллекции Поля Гийома). Сутин родился в местечке Смиловичи под Минском и стал лидером мирового экспрессионизма и Парижской школы.",
       "en": "The renowned Paris museum in the Tuileries Garden houses 22 major paintings by Chaïm Soutine from the Paul Guillaume collection. Born in Smilavichy near Minsk, Soutine became a towering figure of the School of Paris and modern expressionism."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg/640px-Chaim_Soutine%2C_Le_Petit_P%C3%A2tissier.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Mus%C3%A9e_de_l%E2%80%99Orangerie_exterior.JPG?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Музей Аранжэры",
@@ -156,7 +156,7 @@ window.INITIAL_PLACES = [
       "ru": "Первый государственный музей Франции, созданный при жизни художника (1973). Посвящён грандиозному циклу «Библейское послание» и полотнам, где оживают воспоминания о Витебске и деревянных белорусских улочках.",
       "en": "The first national museum in France established during an artist's lifetime (1973). Built around the monumental 17-canvas 'Biblical Message' series, reflecting Chagall's deep memories of his native Vitebsk."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Mus%C3%A9e_National_Marc_Chagall%2C_Nice%2C_France_-_panoramio_%281%29.jpg/640px-Mus%C3%A9e_National_Marc_Chagall%2C_Nice%2C_France_-_panoramio_%281%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Mus%C3%A9e_Marc_Chagall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Музей Марка Шагала ў Ніцы",
@@ -203,9 +203,9 @@ window.INITIAL_PLACES = [
   {
     "id": "warsaw-mnw-wankowicz-ruszczyc",
     "title": {
-      "by": "Нацыянальны музей у Варшаве (Ваньковіч, Рушчыц, Орда)",
-      "ru": "Национальный музей в Варшаве (Ванькович, Рущиц, Орда)",
-      "en": "National Museum in Warsaw (Wańkowicz & Ruszczyc Collections)"
+      "by": "Нацыянальны музей у Варшаве (Матэйка, Ваньковіч, Рушчыц)",
+      "ru": "Национальный музей в Варшаве (Матейко, Ванькович, Рущиц)",
+      "en": "National Museum in Warsaw (Matejko, Wańkowicz & Ruszczyc Collections)"
     },
     "category": "culture",
     "country": {
@@ -223,9 +223,9 @@ window.INITIAL_PLACES = [
       21.0247
     ],
     "description": {
-      "by": "Адзін з галоўных мастацкіх музеяў Цэнтральнай Еўропы валодае фундаментальнымі шэдэўрамі мастакоў з Беларусі: культавым «Партрэтам Адама Міцкевіча» Валенція Ваньковіча (з Ігуменшчыны), а таксама манументальным сімвалісцкім палатном «Зямля» (1898) і краявідамі Багданава аўтарства Фердынанда Рушчыца.",
-      "ru": "Один из крупнейших музеев региона хранит знаковые шедевры художников из Беларуси: «Портрет Адама Мицкевича» Валентия Ваньковича, монументальную «Землю» (1898) и пейзажи Богданова кисти Фердинанда Рущица.",
-      "en": "One of Poland's premier art museums, holding landmark masterpieces by Belarusian-born masters: Walenty Wańkowicz's romantic 'Portrait of Adam Mickiewicz' and Ferdynand Ruszczyc's monumental symbolist canvas 'Earth' (1898)."
+      "by": "Адзін з галоўных мастацкіх музеяў Цэнтральнай Еўропы змяшчае знакавыя шэдэўры, звязаныя з Беларуссю: грандыёзнае палатно Яна Матэйкі «Бітва пад Грунвальдам» з выявай Вітаўта Вялікага і харугваў ВКЛ, культавы рамантычны «Партрэт Адама Міцкевіча» Валенція Ваньковіча, а таксама сімвалісцкую «Зямлю» і багданаўскія пейзажы Фердынанда Рушчыца.",
+      "ru": "Один из крупнейших художественных музеев региона хранит полотно Яна Матейко «Грюнвальдская битва» с великим князем Витовтом и хоругвями ВКЛ, «Портрет Адама Мицкевича» Валентия Ваньковича и шедевры Фердинанда Рущица («Земля»).",
+      "en": "Premier Polish art museum holding landmark works: Jan Matejko's monumental 'Battle of Grunwald' featuring Grand Duke Vytautas, Walenty Wańkowicz's iconic portrait of Adam Mickiewicz, and Ferdynand Ruszczyc's symbolist masterpiece 'Earth'."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ferdynand_Ruszczyc%2C_Ziemia.jpg/960px-Ferdynand_Ruszczyc%2C_Ziemia.jpg",
     "links": [
@@ -272,12 +272,21 @@ window.INITIAL_PLACES = [
         "year": "1903",
         "description": "Паэтычны вобраз роднай сядзібы Рушчыцаў у Багданаве на Валожыншчыне.",
         "personId": "ferdynand-ruszczyc"
+      },
+      {
+        "title": "«Бітва пад Грунвальдам» («Bitwa pod Grunwaldem»)",
+        "author": "Ян Матэйка",
+        "year": "1878",
+        "description": "Манументальнае гістарычнае палатно (426 × 987 см), дзе ў цэнтры бітвы выяўлены вялікі князь Вітаўт на белым кані і воіны харугваў ВКЛ.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg/960px-Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg"
       }
     ],
     "personId": "ferdynand-ruszczyc",
     "personIds": [
       "adam-mickiewicz",
       "ferdynand-ruszczyc",
+      "jan-matejko",
+      "vytautas",
       "walenty-wankowicz"
     ],
     "mustSee": false
@@ -309,7 +318,7 @@ window.INITIAL_PLACES = [
       "ru": "Национальный музей в Кракове хранит крупнейшее в мире собрание графики Наполеона Орды (свыше 1000 работ) — уроженца Вороцевичей на Пинщине. Бесценная визуальная летопись белорусских замков и усадеб XIX века.",
       "en": "The National Museum in Krakow holds the world's largest collection of drawings and watercolors by Napoleon Orda (over 1,000 works), depicting historic castles, churches, and manors across Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg/960px-Muzeum_Narodowe_w_Krakowie_-_Gmach_G%C5%82%C3%B3wny.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/National_Museum%2C_Main_Building%2C_1_May%2C_3_Avenue%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Нацыянальны музей у Кракаве",
@@ -387,7 +396,7 @@ window.INITIAL_PLACES = [
       "ru": "Музей V&A хранит великолепное собрание костюмов, декораций и эскизов Леона Бакста, родившегося в Гродно в 1866 году. Его работы для сезонов Дягилева произвели революцию в мировом театре и моде.",
       "en": "The V&A Museum houses an extraordinary collection of theatrical costumes and original set designs by Léon Bakst, born in Hrodna in 1866. His revolutionary designs transformed world ballet and international fashion."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Leon_Bakst_001.jpg/640px-Leon_Bakst_001.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Victoria_and_Albert_Museum_Logo.svg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Музей Вікторыі і Альберта",
@@ -458,7 +467,7 @@ window.INITIAL_PLACES = [
       "ru": "В одном из ведущих мировых музеев представлен легендарный шедевр Марка Шагала «Я и деревня» (1911), сотканный из воспоминаний о Витебске и Лиозно, а также экспрессивные картины Хаима Сутина.",
       "en": "Home to Marc Chagall's iconic masterpiece 'I and the Village' (1911), depicting scenes of his native Belarusian homeland and Vitebsk, alongside compelling works by Chaïm Soutine."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/The_Museum_of_Modern_Art_%28MoMA%29%2C_New_York_City.jpg/640px-The_Museum_of_Modern_Art_%28MoMA%29%2C_New_York_City.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Chagall_IandTheVillage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Музей сучаснага мастацтва (Нью-Ёрк)",
@@ -530,7 +539,7 @@ window.INITIAL_PLACES = [
       "ru": "Музей хранит обширную ретроспективу выходцев из Беларуси: Марка Шагала («Свадьба»), скульптора Осипа Цадкина (Витебщина), живописцев Михаила Кикоина (Речица) и Пинхуса Кременя (Желудок).",
       "en": "Houses a major retrospective of Belarusian-born masters: Marc Chagall, avant-garde sculptor Ossip Zadkine (born near Vitebsk), and painters Michel Kikoine (Rechytsa) and Pinchus Kremegne (Zhaludok)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Centre_Georges-Pompidou_20110323_01.jpg/640px-Centre_Georges-Pompidou_20110323_01.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ossip_Zadkine.png?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Цэнтр Жоржа Пампіду",
@@ -602,7 +611,7 @@ window.INITIAL_PLACES = [
       "ru": "Расположенная во дворце Ходкевичей, галерея хранит искусство земель ВКЛ XVI–XX вв.: шедевры Канутия Русецкого, Яна Дамеля, Валентия Ваньковича и Фердинанда Рущица.",
       "en": "Housed in the neoclassical Chodkiewicz Palace, showcasing art of the Grand Duchy of Lithuania and Vilnius Art School, including Kanuty Rusiecki, Jan Damel, and Ferdynand Ruszczyc."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Vilniaus_paveiksl%C5%B3_galerija.jpg/640px-Vilniaus_paveiksl%C5%B3_galerija.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/lt/f/f0/Vilniaus_paveiksl%C5%B3_galerija_1.jpg?utm_source=lt.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Віленская карцінная галерэя",
@@ -672,7 +681,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный исторический некрополь Вильнюса, где в центральной часовне покоятся лидеры восстания 1863–1864 гг. Кастусь Калиновский и Зыгмунт Сераковский, а также ключевые деятели белорусского Возрождения.",
       "en": "Historic cemetery where the leaders of the 1863–1864 Uprising, Kastus Kalinouski and Zygmunt Sierakowski, are interred alongside pioneers of the Belarusian national revival."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Vilnius_Rasos_Cemetery_Chapel.jpg/640px-Vilnius_Rasos_Cemetery_Chapel.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Konstanty_Kalinowski_-_between_1862_and_1863.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Могілкі Росы",
@@ -750,7 +759,7 @@ window.INITIAL_PLACES = [
       "ru": "На знаменитом Ольшанском кладбище в Праге покоятся президенты Рады БНР Пётр Кречевский и Василий Захарко, певец Михаил Забейдо-Сумицкий и деятели диаспоры.",
       "en": "The historic Olšany Cemetery in Prague holds the graves of Presidents of the BNR Council Pyotra Krecheuski and Vasil Zacharka, and tenor Michas Zabejda-Sumicki."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Mahila_Kreceuskaha.jpg/640px-Mahila_Kreceuskaha.jpg",
+    "image": "",
     "links": [
       {
         "title": "Вікіпедыя: Альшанскія могілкі",
@@ -816,7 +825,7 @@ window.INITIAL_PLACES = [
       "ru": "Саут-Ривер в Нью-Джерси — ключевой центр послевоенной белорусской эмиграции. При церкви св. Евфросинии Полоцкой находится некрополь видных деятелей диаспоры.",
       "en": "South River, NJ, served as a premier center of post-war Belarusian diaspora in North America, featuring the cemetery of prominent leaders, writers, and scholars."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg/640px-St_Euphrosynia_Belarusian_Orthodox_Church_South_River_NJ.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/State_Magazine_2004-12-_Iss_485_%28IA_sim_state-magazine_2004-12_485%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Беларусы ў ЗША",
@@ -896,7 +905,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный некрополь участников восстаний 1830–1831 и 1863 гг. во Франции. Здесь первоначально был погребён Адам Мицкевич, а также поэт Циприан Норвид и соратники освободительного движения.",
       "en": "The foremost burial ground of the Great Emigration after the 1831 and 1863 uprisings. Original resting place of Adam Mickiewicz before reburial at Wawel, as well as poet Cyprian Norwid."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg/640px-Cimeti%C3%A8re_des_Champeaux_Montmorency.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Gr%C3%B3bNorwida.jpg/960px-Gr%C3%B3bNorwida.jpg",
     "links": [
       {
         "title": "Вікіпедыя: Могілкі Шампо ў Манмарансі",
@@ -959,7 +968,7 @@ window.INITIAL_PLACES = [
       "ru": "Памятник великому белорусскому первопечатнику и просветителю Франциску Скорине возле Градчан и Королевского сада. Именно в Праге в 1517–1519 годах Скорина напечатал Библию на старобелорусском языке.",
       "en": "Monument to the prominent Belarusian pioneer printer and humanist Francysk Skaryna near Prague Castle and the Royal Garden. Skaryna published his landmark Bible in Old Belarusian here in 1517–1519."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg/640px-Pomn%C3%ADk_Franti%C5%A1ka_Skoriny_na_Hrad%C4%8Danech_%28cropped%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Franci%C5%A1ak_Skaryna.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Францыск Скарына",
@@ -1055,7 +1064,7 @@ window.INITIAL_PLACES = [
       "ru": "Исторический комплекс монастыря базилиан (Церковь Святой Троицы). В 1919–1944 гг. здесь находились Виленская белорусская гимназия, Белорусский музей имени Ивана Луцкевича и редакции изданий.",
       "en": "Historic complex of the Basilian Monastery (Holy Trinity Church). From 1919 to 1944, it housed the famed Vilnius Belarusian Gymnasium, Ivan Lutskevich Museum, and key community organizations."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vilnius_Basilian_Church.jpg/640px-Vilnius_Basilian_Church.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Vilenskaja_bie%C5%82aruskaja_gimnazija-1.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Віленская беларуская гімназія",
@@ -1101,7 +1110,7 @@ window.INITIAL_PLACES = [
       "ru": "Уникальная деревянная греко-католическая церковь в Северном Лондоне, построенная в 2016 году в память жертв Чернобыльской катастрофы по проекту Сфина Цзы Чэня. Лауреат престижных архитектурных премий.",
       "en": "A world-renowned wooden Belarusian Greek Catholic memorial church in North London, built in 2016 to commemorate victims of the Chernobyl disaster. Designed by Spheron Architects, winner of multiple architectural awards."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People%2C_London.jpg/640px-Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People%2C_London.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People_%282016-11-24%29.jpg/960px-Church_of_St_Cyril_of_Turau_and_All_the_Patron_Saints_of_the_Belarusian_People_%282016-11-24%29.jpg",
     "links": [
       {
         "title": "Вікіпедыя: Царква Святога Кірылы Тураўскага (Лондан)",
@@ -1148,7 +1157,7 @@ window.INITIAL_PLACES = [
       "ru": "Основана в 1971 г. отцом Александром Надсоном и деятелями эмиграции. Крупнейшее собрание белорусики за пределами Беларуси в Западной Европе: редкие книги, архивы, карты и артефакты.",
       "en": "Founded in 1971 by Father Alexander Nadson and Belarusian diaspora intellectuals. The largest collection of Belarusian books, manuscripts, and cultural artifacts in Western Europe."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Francis_Skaryna_Belarusian_Library_and_Museum.jpg/640px-Francis_Skaryna_Belarusian_Library_and_Museum.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Francis_Skaryna_Library_London.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Беларуская бібліятэка і музей імя Францыска Скарыны",
@@ -1211,7 +1220,7 @@ window.INITIAL_PLACES = [
       "ru": "Величественный монумент национальному герою Беларуси, Польши, Литвы и США, уроженцу Меречёвщины Тадеушу Костюшко. Точная копия памятника в Вашингтоне.",
       "en": "Monument to the national hero of Belarus, Poland, Lithuania, and the United States, born in Mieračoŭščyna (Brest region). An exact replica of the bronze statue in Lafayette Square, Washington, D.C."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pomnik_Tadeusza_Ko%C5%9Bciuszki_w_Warszawie.JPG/640px-Pomnik_Tadeusza_Ko%C5%9Bciuszki_w_Warszawie.JPG",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Karl_G_Schweikart_-_Tadeusz_Ko%C5%9Bciuszko_%28%C3%96aL%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Тадэвуш Касцюшка",
@@ -1342,7 +1351,7 @@ window.INITIAL_PLACES = [
       "ru": "Уроженец Новогрудчины, филомат и друг Адама Мицкевича Игнатий Домейко стал ректором Чилийского университета, реформатором образования и национальным героем страны. Его именем назван минерал домекит, город и хребет Домейко.",
       "en": "Born in Navahrudak region, philomath and close friend of Adam Mickiewicz, Ignacy Domeyko became rector of the University of Chile and a national hero. A mountain range, a city, and the mineral domeykite bear his name."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ignacy_Domeyko_monument_in_Santiago.jpg/640px-Ignacy_Domeyko_monument_in_Santiago.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Domeyko.jpg/960px-Domeyko.jpg",
     "links": [
       {
         "title": "Вікіпедыя: Ігнат Дамейка",
@@ -1388,7 +1397,7 @@ window.INITIAL_PLACES = [
       "ru": "Дом, в котором Костюшко провёл последние годы жизни (1815–1817) и где он скончался. Сегодня здесь открыт музей с экспозицией личных вещей и реликвий героя.",
       "en": "The house where Tadeusz Kościuszko lived in exile during his final years (1815–1817). Preserved as a memorial museum showcasing personal artifacts, letters, and documents."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kosciuszko-Museum_Solothurn.jpg/640px-Kosciuszko-Museum_Solothurn.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Solothurn_Floral_arrangement_offered_to_Tadeusz_Ko%C5%9Bciuszko_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Музей Тадэвуша Касцюшкі ў Залатурне",
@@ -1452,7 +1461,7 @@ window.INITIAL_PLACES = [
       "ru": "В историческом зале 'Sala dei Quaranta' Падуанского университета (Палаццо Бо) среди 40 выдающихся иностранных выпускников выставлен портрет доктора лекарских наук Франциска Скорины, защитившего здесь степень в 1512 году.",
       "en": "In the historic 'Sala dei Quaranta' of the University of Padua (Palazzo Bo), a portrait of Doctor of Medicine Francysk Skaryna is featured among the forty most distinguished international alumni."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Palazzo_Bo%2C_Padua.jpg/640px-Palazzo_Bo%2C_Padua.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Palazzo_Bo_%28Padua%29.jpg/960px-Palazzo_Bo_%28Padua%29.jpg",
     "links": [
       {
         "title": "Вікіпедыя: Падуанскі ўніверсітэт",
@@ -1503,7 +1512,7 @@ window.INITIAL_PLACES = [
       "ru": "Единственный в Польше музей традиционной и современной культуры автохтонных белорусов Подляшья. Включает этнографические коллекции, художественные галереи и библиотеку.",
       "en": "The premier cultural institution in Podlasie dedicated to the indigenous Belarusian heritage of the region, featuring ethnographic exhibitions, folk crafts, and fine arts."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Muzeum_Bialoruskie_Hajnowka.jpg/640px-Muzeum_Bialoruskie_Hajnowka.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/20200728_144819_Belarusian_Culture_Museum_and_Center_in_Hajn%C3%B3wka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Музей беларускай культуры ў Гайнаўцы",
@@ -1550,7 +1559,7 @@ window.INITIAL_PLACES = [
       "ru": "Двинская государственная белорусская гимназия (1922–1938) — главный центр белорусского просвещения в Латвии. Её директором был учёный-фольклорист Сергей Сахаров. Центр культурной жизни белорусов Латгалии.",
       "en": "The Daugavpils State Belarusian Gymnasium (1922–1938) was the intellectual hub of the Belarusian diaspora in Latvia, directed by prominent folklorist and educator Siarhiej Sacharau."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Daugavpils_Gimnazija_Saharov.jpg/640px-Daugavpils_Gimnazija_Saharov.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/%D0%9D%D0%B0%D1%81%D1%82%D0%B0%D1%9E%D0%BD%D1%96%D0%BA%D1%96_%D1%96_%D0%B2%D1%83%D1%87%D0%BD%D1%96_%D0%94%D0%B7%D0%B2%D1%96%D0%BD%D1%81%D0%BA%D0%B0%D0%B9_%D0%B1%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%BA%D0%B0%D0%B9_%D0%B3%D1%96%D0%BC%D0%BD%D0%B0%D0%B7%D1%96%D1%96%2C_%D0%BF%D0%B0%D1%87._1930-%D1%85_%D0%B3%D0%B0%D0%B4%D0%BE%D1%9E.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Дзвінская беларуская гімназія",
@@ -1598,7 +1607,7 @@ window.INITIAL_PLACES = [
       "ru": "В здании Дворянского собрания (ныне филармония, ул. Глинки, 3) 1 января 1919 г. был обнародован Манифест об образовании Советской Социалистической Республики Белоруссия (ССРБ) со столицей в Смоленске, до переезда правительства в Минск.",
       "en": "In the former Nobles' Assembly building (now Smolensk Philharmonic), the Manifesto declaring the Soviet Socialist Republic of Belarus (SSRB) was proclaimed on January 1, 1919, with Smolensk as its initial capital."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Smolensk_Philharmonic_Hall.jpg/640px-Smolensk_Philharmonic_Hall.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Smole%C5%84skieIRP.JPG?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: ССРБ",
@@ -10412,7 +10421,7 @@ window.INITIAL_PLACES = [
       "ru": "Историческое место краковских владений рода Ходкевичей на Королевском тракте (улица Гродзкая), ведущем к Вавельскому замку. Великий гетман литовский Ян Кароль Ходкевич и представители рода владели городскими домами-резиденциями на Гродзкой во время заседаний сеймов и коронаций (родовой архив позже поступил в Национальный архив в Кракове). В Польше также сохранился столичный Дворец Ходкевичей в Варшаве на ул. Мёдовой, 14.",
       "en": "Historical urban townhouse connection of the Chodkiewicz family situated along the historic Royal Route (Grodzka Street), connecting the Main Market Square to Wawel Castle in Kraków. Magnates of the Grand Duchy of Lithuania, particularly Grand Hetman Jan Karol Chodkiewicz, maintained urban estates here during royal coronations and general Sejms. (Note: In Warsaw, the surviving Neoclassical Chodkiewicz Palace stands at Miodowa 14)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ulica_Grodzka_w_Krakowie.JPG",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/UlicaGrodzka-WidokWKierunkuPo%C5%82udniowym-POL%2C_Krak%C3%B3w.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя",
@@ -11115,69 +11124,6 @@ window.INITIAL_PLACES = [
     "unverifiedCoordinates": true,
     "personIds": [
       "henryk-siemiradzki"
-    ],
-    "mustSee": false
-  },
-  {
-    "id": "warsaw-mnw-matejko-grunwald",
-    "title": {
-      "by": "Нацыянальны музей у Варшаве («Бітва пад Грунвальдам» Яна Матэйкі)",
-      "ru": "Национальный музей в Варшаве («Грюнвальдская битва» Яна Матейко)",
-      "en": "National Museum in Warsaw (Jan Matejko's 'Battle of Grunwald')"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Польшча",
-      "ru": "Польша",
-      "en": "Poland"
-    },
-    "city": {
-      "by": "Варшава",
-      "ru": "Варшава",
-      "en": "Warsaw"
-    },
-    "coordinates": [
-      52.23169,
-      21.02477
-    ],
-    "description": {
-      "by": "Галоўны мастацкі музей Польшчы захоўвае манументальнае палатно Яна Матэйкі «Бітва пад Грунвальдам» (1878, памер 426 × 987 см). У цэнтры кампазіцыі намаляваны вялікі князь літоўскі Вітаўт у чырвоным строі з паднятым мячом і капелюшом. На карціне выяўлены харугвы Вялікага Княства Літоўскага (віленская, троцкая, смаленская, полацкая) і воіны з беларускіх зямель, якія зрабілі вырашальны ўнёсак у перамогу над Тэўтонскім ордэнам у 1410 годзе.",
-      "ru": "Главный художественный музей Польши хранит монументальное полотно Яна Матейко «Грюнвальдская битва» (1878). В центре композиции — великий князь литовский Витовт в красном облачении с поднятым мечом, а вокруг — хоругви ВКЛ (виленские, трокские, полоцкие, смоленские), отражающие решающий вклад предков белорусов в разгром крестоносцев.",
-      "en": "Poland's premier national gallery houses Jan Matejko's monumental masterpiece 'Battle of Grunwald' (1878). At the center stands Grand Duke Vytautas in scarlet attire with a raised sword, accompanied by banners of the Grand Duchy of Lithuania (Vilnius, Trakai, Polatsk, Smolensk) representing the decisive role of Belarusian and Lithuanian lands in defeating the Teutonic Order."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg/960px-Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg",
-    "links": [
-      {
-        "title": "Вікіпедыя: Бітва пад Грунвальдам (карціна)",
-        "url": "https://be.wikipedia.org/wiki/Бітва_пад_Грунвальдам_(карціна_Яна_Матэйкі)"
-      },
-      {
-        "title": "Вікіпедыя: Нацыянальны музей у Варшаве",
-        "url": "https://pl.wikipedia.org/wiki/Muzeum_Narodowe_w_Warszawie"
-      }
-    ],
-    "tags": [
-      "Матэйка",
-      "Грунвальд",
-      "Вітаўт",
-      "ВКЛ",
-      "Варшава"
-    ],
-    "isUnverifiedCoordinates": true,
-    "items": [
-      {
-        "title": "«Бітва пад Грунвальдам» («Bitwa pod Grunwaldem»)",
-        "author": "Ян Матэйка",
-        "year": "1878",
-        "description": "Манументальнае гістарычнае палатно (426 × 987 см), дзе ў цэнтры бітвы выяўлены вялікі князь Вітаўт на белым кані і воіны харугваў ВКЛ.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg/960px-Jan_Matejko%2C_Bitwa_pod_Grunwaldem.jpg"
-      }
-    ],
-    "unverifiedCoordinates": true,
-    "personId": "jan-matejko",
-    "personIds": [
-      "jan-matejko",
-      "vytautas"
     ],
     "mustSee": false
   },
@@ -11906,7 +11852,7 @@ window.INITIAL_PLACES = [
       "ru": "Памятник национальному герою Беларуси, Польши и США Тадеушу Костюшко в городском парке Золотурна — города, где он провёл последние годы жизни. Установлен в 2017 году к 200-летию со дня смерти героя по инициативе Ассоциации белорусов в Швейцарии (Алесь Сапега). Бронзовая фигура на постаменте из белорусского полевого валуна с надписью «Выбітны сын Беларусі».",
       "en": "Monument to national hero Tadeusz Kosciuszko in the Stadtpark of Solothurn, where he spent his final years and died in 1817. Erected in October 2017 on the initiative of the Association of Belarusians in Switzerland (Ales Sapeha). The 1.8-meter bronze statue stands on a boulder brought from Belarus with the inscription: 'Outstanding son of Belarus'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Kosciuszko_monument_Solothurn.jpg/640px-Kosciuszko_monument_Solothurn.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Karl_G_Schweikart_-_Tadeusz_Ko%C5%9Bciuszko_%28%C3%96aL%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Помнік Тадэвушу Касцюшку ў Залатурне",
@@ -11955,7 +11901,7 @@ window.INITIAL_PLACES = [
       "ru": "Ренессансный замок в Баварии, служивший в годы Второй мировой войны одним из главных хранилищ награбленных нацистами культурных ценностей (штаб Розенберга - ERR). Сюда эшелонами вывозились шедевры из Беларуси: фонды Минской картинной галереи, Белорусского государственного музея, церковные реликвии, редкие старопечатные книги. В 1945 году американские «Monuments Men» обнаружили здесь колоссальный массив вывезенного наследия.",
       "en": "Renaissance castle in Bavaria used during WWII by the Nazi Einsatzstab Reichsleiter Rosenberg (ERR) as a principal repository for cultural treasures plundered from occupied Belarus. Hundreds of crates containing masterpieces from the Minsk Picture Gallery, the Belarusian State Museum, church relics, and historic archives were hidden here before being discovered in 1945 by the Allied 'Monuments Men'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Schloss_H%C3%B6chst%C3%A4dt_01.jpg/960px-Schloss_H%C3%B6chst%C3%A4dt_01.jpg",
+    "image": "",
     "links": [
       {
         "title": "Вікіпедыя: Höchstädt Castle",
@@ -12010,7 +11956,7 @@ window.INITIAL_PLACES = [
       "ru": "Знаменитый 22-метровый монумент в центре Замковой площади. Сигизмунд III Ваза утвердил Третий Статут ВКЛ 1588 года на старобелорусском языке.",
       "en": "Iconic 22-meter monument in the center of Castle Square. King Sigismund III confirmed the Third Statute of the GDL in 1588 in the Old Belarusian language."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg/960px-Kolumna_Zygmunta_III_Wazy_w_Warszawie.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Kolumna_Zygmunta_III_Wazy_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "personId": "jan-zawisza",
     "personIds": [
       "jan-zawisza",
@@ -12063,7 +12009,7 @@ window.INITIAL_PLACES = [
       "ru": "Барочный дворец на аллее «Солидарности», 62. В 1863 г. дворец приобрёл граф Ян Завиша из Кухтичей. Здесь росла его дочь, будущая главная меценатка беларусского возрождения Магдалена Радзивилл. На фасаде установлена мемориальная доска Завишей и Радзивиллов. Ныне Музей независимости.",
       "en": "Baroque palace on Aleja Solidarności 62. In 1863 acquired by Count Jan Zawisza from Kukhtzichy. Here grew up his daughter, prominent Belarusian patroness Magdalena Radziwill. Today houses the Museum of Independence."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pa%C5%82ac_Przebendowskich_Radziwi%C5%82%C5%82%C3%B3w_w_Warszawie.jpg/500px-Pa%C5%82ac_Przebendowskich_Radziwi%C5%82%C5%82%C3%B3w_w_Warszawie.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pa%C5%82ac_Przebendowskich_Radziwi%C5%82%C5%82%C3%B3w_w_Warszawie_elewacja_zachodnia.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "personId": "magdalena-radziwill",
     "personIds": [
       "jan-zawisza",
@@ -12116,7 +12062,7 @@ window.INITIAL_PLACES = [
       "ru": "Дворец на ул. Фоксаль 3/5, приобретённый Магдаленой Радзивилл в 1900 г. В 1918–1919 гг. служил главным беларусским политическим салоном в Варшаве: здесь собирались Эдвард Войнилович, Роман Скирмунт, Леон Витан-Дубейковский для решения судьбы беларусской государственности.",
       "en": "Palace on Foksal Street 3/5, owned by Magdalena Radziwill from 1900. In 1918–1919 it hosted the main Belarusian political salon in Warsaw, gathering Edward Woynillowicz, Raman Skirmunt, and Leon Vitan-Dubeikauski to discuss Belarusian statehood."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Foksal_3-5_Warszawa.jpg/500px-Foksal_3-5_Warszawa.jpg",
+    "image": "",
     "personId": "magdalena-radziwill",
     "personIds": [
       "magdalena-radziwill"
@@ -12219,7 +12165,7 @@ window.INITIAL_PLACES = [
       "ru": "Культурное и общественное пространство на площади Конституции, 6. Расположено в историческом здании штаба движения «Солидарность» 1989 года. Проводит выставки, концерты, презентации книг и курсы.",
       "en": "Cultural and social community hub on Plac Konstytucji 6, situated in the historic building of the Polish 'Solidarność' committee from 1989. Hosts concerts, exhibitions, and lectures."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Plac_Konstytucji_w_Warszawie_2021.jpg/500px-Plac_Konstytucji_w_Warszawie_2021.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/State_Magazine_2005-12-_Iss_496_%28IA_sim_state-magazine_2005-12_496%29.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "tags": [
       "warsaw",
       "culture",
@@ -12263,7 +12209,7 @@ window.INITIAL_PLACES = [
       "ru": "Общественный и культурный центр беларусской диаспоры на ул. Вейской, 13/3. Действует с 2012 года как координационный центр, проводит выставки, встречи и культурные мероприятия.",
       "en": "Public and cultural hub of the Belarusian diaspora in Poland located on Wiejska 13/3. Operating since 2012, hosting cultural events, meetings, and exhibitions."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ulica_Wiejska_w_Warszawie_2019.jpg/500px-Ulica_Wiejska_w_Warszawie_2019.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Press-conference_in_Belarusian_House_in_Warsaw_%288th_of_November%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "tags": [
       "warsaw",
       "culture",
@@ -12307,7 +12253,7 @@ window.INITIAL_PLACES = [
       "ru": "Железнодорожный узел Тбилиси, где в 1877–1880 гг. работал начальником складов классик беларусской литературы Иван Неслуховский (Янка Лучина).",
       "en": "Railway depot area in Tbilisi where classic Belarusian poet Ivan Niesluchowski (Yanka Luchyna) served as chief of warehouses from 1877 to 1880 after engineering studies."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Janka_%C5%81u%C4%8Dyna.jpg/330px-Janka_%C5%81u%C4%8Dyna.jpg",
+    "image": "",
     "personId": "yanka-luchyna",
     "personIds": [
       "yanka-luchyna"
@@ -12355,7 +12301,7 @@ window.INITIAL_PLACES = [
       "ru": "Исторический дворец на проспекте Руставели, 6. Здесь работал министр финансов БНР Александр Валькович — дипломатический представитель Белорусской Народной Республики при правительстве Грузии в 1918–1920 гг.",
       "en": "Historic palace on Rustaveli Avenue 6. Seat where the diplomatic mission of the Belarusian Democratic Republic (BNR) operated under Finance Minister and envoy Alyaksandr Valkovich in 1918–1920."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Youth_Palace%2C_Tbilisi.jpg/500px-Youth_Palace%2C_Tbilisi.jpg",
+    "image": "",
     "personId": "aleksandr-valkovich",
     "personIds": [
       "aleksandr-valkovich"
@@ -12382,7 +12328,7 @@ window.INITIAL_PLACES = [
       "ru": "Дипломатическая миссия на проспекте Руставели — Иван Красковский",
       "en": "Diplomatic Mission on Rustaveli Avenue — Ivan Kraskouski"
     },
-    "category": "plaque",
+    "category": "embassy",
     "city": {
       "by": "Тбілісі",
       "ru": "Тбилиси",
@@ -12403,7 +12349,7 @@ window.INITIAL_PLACES = [
       "ru": "Здание на проспекте Руставели, 37, где работал деятель БНР и УНР Иван Красковский (уроженец Гродненщины), возглавлявший дипломатическую миссию на Кавказе. Установлена памятная доска.",
       "en": "Building at Rustaveli Avenue 37 where Belarusian-Ukrainian diplomat and BNR figure Ivan Kraskouski led the diplomatic mission to the Caucasus. Marked with a commemorative plaque."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jan_Kraskouski.jpg/330px-Jan_Kraskouski.jpg",
+    "image": "",
     "tags": [
       "georgia",
       "tbilisi",
@@ -12448,7 +12394,7 @@ window.INITIAL_PLACES = [
       "ru": "Концертный зал Тбилисской филармонии. Здесь с триумфом выступали «Песняры». Находясь в Тбилиси, беларусский поэт Алесь Ставер написал на коробке спичек строки легендарной песни «Жураўлі на Палессе ляцяць».",
       "en": "Tbilisi State Concert Hall where the famous Belarusian band 'Pesnyary' performed. While in Tbilisi, Belarusian poet Ales Staver jotted down the lyrics to the beloved national song 'Cranes Fly to Polesia' on a matchbox."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Tbilisi_Concert_Hall_2011.jpg/500px-Tbilisi_Concert_Hall_2011.jpg",
+    "image": "",
     "tags": [
       "georgia",
       "tbilisi",
@@ -12541,7 +12487,7 @@ window.INITIAL_PLACES = [
       "ru": "Историческое кладбище Кукия в Тбилиси. В католической части похоронен выдающийся беларусский географ, геодезист и повстанец 1830 г. Иосиф (Юзеф) Ходзько (1800–1881).",
       "en": "Historic Kukiya Cemetery in Tbilisi near St. Nino's Church, where prominent Belarusian geographer, geodesist, and 1830 insurgent Józef Chodźko (1800–1881) is buried."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Chodzko%2C_General_Geodesist.jpg/330px-Chodzko%2C_General_Geodesist.jpg",
+    "image": "",
     "personId": "yazep-khodzko",
     "personIds": [
       "yazep-khodzko"
@@ -12589,7 +12535,7 @@ window.INITIAL_PLACES = [
       "ru": "Любимый курорт Янки Купалы в Грузии, где классик отдыхал в 1938–1941 гг. Здесь он создал стихотворение «Генацвале». В гостевом доме Art House Kutateli открыта экспозиция памяти поэта.",
       "en": "Beloved Georgian resort of Yanka Kupala, where he vacationed between 1938 and 1941, writing the famous lyric 'Genatsvale'. A permanent Kupala memorial exhibit is open in Art House Kutateli."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Janka_Kupa%C5%82a._%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0_%281930%29.jpg/330px-Janka_Kupa%C5%82a._%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0_%281930%29.jpg",
+    "image": "",
     "personId": "yanka-kupala",
     "personIds": [
       "yanka-kupala"
@@ -12688,7 +12634,7 @@ window.INITIAL_PLACES = [
       "ru": "Древний храм на Piazza della Madonna dei Monti, 3. С 1641 г. — римская резиденция монахов-базилиан из Жировичей. В 1718 г. здесь обнаружили чудотворную фреску Матери Божьей Жировичской («Madonna del Pascolo»), прославившуюся исцелениями.",
       "en": "Historic church on Piazza della Madonna dei Monti 3. From 1641, the main Roman seat of Basilian monks from Zyrovichy. In 1718, a miraculous fresco of the Mother of God of Zyrovichy ('Madonna del Pascolo') was rediscovered beneath the plaster."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Santi_Sergio_e_Bacco_a_Roma.jpg/500px-Santi_Sergio_e_Bacco_a_Roma.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Santi_Sergio_e_Bacco_degli_Ucraini_-_esterno.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "tags": [
       "rome",
       "church",
@@ -12737,7 +12683,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный храм ордена иезуитов в Риме, архитектурный прообраз костёла Божьего Тела в Несвиже. Здесь погребён первый кардинал в истории ВКЛ Юрий Радзивилл (1556–1600) с мраморной плитой с гербом «Трубы», а также хранятся мощи св. Андрея Боболи.",
       "en": "Mother church of the Jesuit Order in Rome, architectural prototype for the Corpus Christi Church in Nesvizh. Tomb of the first cardinal of the GDL, Jerzy Radziwiłł (1556–1600), adorned with the 'Trąby' coat of arms, and relics of St. Andrew Bobola."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Gesu_Church_Rome.jpg/500px-Gesu_Church_Rome.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Jesus_Church.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "personId": "radziwills",
     "personIds": [
       "radziwills"
@@ -12789,7 +12735,7 @@ window.INITIAL_PLACES = [
       "ru": "Неоклассический дворец Радзивиллов на ул. Бонкомпаньи, 22. Принадлежал хозяйке Несвижского замка княгине Марии Розе Радзивилл. Здесь княгиня принимала королеву Италии Елену Савойскую и европейскую аристократию.",
       "en": "Neoclassical Radziwill palace on Via Boncompagni 22, owned by Princess Maria Roza Radziwiłł of Nesvizh Castle, where she hosted Queen Elena of Italy and European dignitaries."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Palazzo_Boncompagni_Corcos_Roma.jpg/500px-Palazzo_Boncompagni_Corcos_Roma.jpg",
+    "image": "",
     "personId": "radziwills",
     "personIds": [
       "radziwills"
@@ -12836,7 +12782,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный дом Конгрегации сестёр Воскресения Господня (Casa Madre) на Via Marcantonio Colonna, 52, основанный блаженной Целиной Боженцкой (уроженкой Оршанщины) и её дочерью Ядвигой.",
       "en": "The Motherhouse (Casa Madre) of the Sisters of the Resurrection on Via Marcantonio Colonna 52, established by Blessed Celina Borzęcka (born near Orsha) and her daughter Jadwiga."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Celina_Chludzi%C5%84ska_Borz%C4%99cka.jpg",
+    "image": "",
     "personId": "celina-borzencka",
     "personIds": [
       "celina-borzencka"
@@ -12883,7 +12829,7 @@ window.INITIAL_PLACES = [
       "ru": "Исторический дворец на Piazza Pia, 3. С 1950 г. здесь работает Белорусская редакция Ватиканского радио, которую возглавляли священники Пётр Татаринович, Лев Горошко и епископ Чеслав Сипович.",
       "en": "Historic palace on Piazza Pia 3 near Castel Sant'Angelo. Since 1950, home to the Belarusian editorial desk of Vatican Radio, led by notable émigré cultural leaders."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Palazzo_Pio%2C_Rome.jpg/500px-Palazzo_Pio%2C_Rome.jpg",
+    "image": "",
     "tags": [
       "rome",
       "culture",
@@ -12928,7 +12874,7 @@ window.INITIAL_PLACES = [
       "ru": "Первый барочный храм Кракова на ул. Гродзкой, 52A. Построен Джованни Бернардони — «беларусским итальянцем», прожившим 13 лет в Несвиже по приглашению Радзивилла Сиротки; собор возведён как близкая копия несвижского костёла Божьего Тела.",
       "en": "The first Baroque church in Krakow on Grodzka 52A, designed by Giovanni Maria Bernardoni who lived 13 years in Nesvizh and modeled this church directly after the Corpus Christi Church in Nesvizh."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Krak%C3%B3w_-_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a.JPG/500px-Krak%C3%B3w_-_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a.JPG",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20200512_Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a_w_Krakowie_1731_9916_DxO.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "personId": "radziwills",
     "personIds": [
       "radziwills"
@@ -12980,7 +12926,7 @@ window.INITIAL_PLACES = [
       "ru": "Здание на ул. Каноничей, 9. Здесь в типографии Владислава Анчица в 1891 г. впервые вышла в свет книга «Дудка беларуская» Францишка Богушевича со знаменитым заветом: «Не пакідайце ж мовы нашай беларускай, каб не ўмёрлі!»",
       "en": "Building on Kanonicza 9 in Krakow. In 1891, the printing house of Władysław Anczyc published the first edition of Francišak Bahuševič's seminal poetry book 'Dudka Bielaruskaja' with the famous manifesto on preserving the Belarusian language."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dudka_bie%C5%82aruskaja.jpg/330px-Dudka_bie%C5%82aruskaja.jpg",
+    "image": "",
     "personId": "francisak-bahusevic",
     "personIds": [
       "francisak-bahusevic"
@@ -13076,7 +13022,7 @@ window.INITIAL_PLACES = [
       "ru": "Дом в районе Винограды (Bruselská 1), где в 1923–1928 гг. жил Председатель Рады БНР Пётр Кречевский. Здесь находилось представительство Рады БНР, создавался архив БНР и издавался альманах «Замежная Беларусь».",
       "en": "Residence on Bruselská 1 in Prague-Vinohrady where the 3rd President of the Rada of BNR Pyotra Krechewski lived from 1923 until his death in 1928, creating the Belarusian Foreign Archive."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Piotr_Kre%C4%8De%C5%ADski.jpg/330px-Piotr_Kre%C4%8De%C5%ADski.jpg",
+    "image": "",
     "personId": "pyotra-krecheuski",
     "personIds": [
       "pyotra-krecheuski"
@@ -13123,7 +13069,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный пражский адрес Ларисы Гениюш и доктора Янки Гениюша на улице Heřmanova 7. Здесь поэтесса создавала свои книги, ухаживала за президентом БНР Василием Захарко и хранила государственный архив и печать БНР.",
       "en": "The main Prague home of Belarusian poet Larysa Hienijuš and Dr. Yanka Hienijuš on Heřmanova 7 in Holešovice. Here she safeguarded the archives and seal of the Belarusian Democratic Republic."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/%C5%81arysa_Hieniju%C5%A1._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88_%281937%29.jpg/330px-%C5%81arysa_Hieniju%C5%A1._%D0%9B%D0%B0%D1%80%D1%8B%D1%81%D0%B0_%D0%93%D0%B5%D0%BD%D1%96%D1%8E%D1%88_%281937%29.jpg",
+    "image": "",
     "personId": "larysa-heniyush",
     "personIds": [
       "larysa-heniyush"
@@ -13217,7 +13163,7 @@ window.INITIAL_PLACES = [
       "ru": "Знаменитая церковь на Münsterhof 2. Мировую известность ей принесли 5 уникальных витражных окон хора и окно-роза, созданные уроженцем Витебска Марком Шагалом в 1970 и 1978 гг.",
       "en": "Historic abbey church on Münsterhof 2 in Zurich. Famous worldwide for the five stunning stained glass choir windows and the rose window created by Vitebsk-born artist Marc Chagall in 1970 and 1978."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg/500px-Fraum%C3%BCnster_Z%C3%BCrich_Chagall-Fenster.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Z%C3%BCrich_Switzerland-M%C3%BCnsterbr%C3%BCcke-and-Fraum%C3%BCnster-01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "personId": "marc-chagall",
     "personIds": [
       "marc-chagall"
@@ -13287,7 +13233,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный корпус Бернского университета на Hochschulstrasse 4 и прилегающая улица Tumarkinweg в честь Анны Тумаркиной — уроженки Дубровно, первой в Европе женщины-профессора философии.",
       "en": "Main building of the University of Bern on Hochschulstrasse 4 and adjacent Tumarkinweg street, honoring Dubrovno-born Anna Tumarkin, Europe's first female philosophy professor."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/en/e/e2/Anna_Tumarkin.jpg",
+    "image": "",
     "personId": "hanna-tumarkina",
     "personIds": [
       "hanna-tumarkina"
@@ -13339,7 +13285,7 @@ window.INITIAL_PLACES = [
       "ru": "Церковь в предместье Фрибура, где с 1945 по 2017 гг. покоился прах меценатки Магдалены Радзивилл (ныне перезахоронена в Минске). На стене установлена памятная доска работы Максима Петруля.",
       "en": "Church in the suburbs of Fribourg where Princess Magdalena Radziwill was buried from 1945 until her reburial in Minsk in 2017. A bronze commemorative plaque by Belarusian sculptor Maksim Petrul is placed on the wall."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Maryja_Magdalena_Radzivi%C5%82_%28Zavi%C5%A1a%29.jpg/330px-Maryja_Magdalena_Radzivi%C5%82_%28Zavi%C5%A1a%29.jpg",
+    "image": "",
     "personId": "magdalena-radziwill",
     "personIds": [
       "magdalena-radziwill"
@@ -13387,7 +13333,7 @@ window.INITIAL_PLACES = [
       "ru": "Средневековый замок на Цюрихском озере. В собрании музея хранятся подлинные слуцкие пояса, старинные гербы городов ВКЛ; здесь же хранилось сердце Тадеуша Костюшко до отправки в Варшаву.",
       "en": "Medieval castle on Lake Zurich housing genuine Slutsk sashes, Grand Duchy of Lithuania heraldry, and previously the urn with Tadeusz Kosciuszko's heart before it was transferred to Warsaw."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Schloss_Rapperswil_2011.jpg/500px-Schloss_Rapperswil_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Rapperswil_-_Hafen_-_Schloss-Pfarrkirche_-_Seedamm_2014-09-23_15-20-02.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "tags": [
       "rapperswil",
       "switzerland",
@@ -13436,7 +13382,7 @@ window.INITIAL_PLACES = [
       "ru": "Памятник на кладбище в городке Цухвиль (пригород Золотурна), где в 1817 г. после бальзамирования были захоронены внутренности Тадеуша Костюшко.",
       "en": "Memorial marker at the cemetery in Zuchwil near Solothurn where Tadeusz Kosciuszko's internal organs were interred following his embalming in 1817."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tadeusz_Kosciuszko_portrait.jpg/330px-Tadeusz_Kosciuszko_portrait.jpg",
+    "image": "",
     "personId": "tadeusz-kosciuszko",
     "personIds": [
       "tadeusz-kosciuszko"
@@ -13483,7 +13429,7 @@ window.INITIAL_PLACES = [
       "ru": "Монументальный сотканный вручную гобелен (размеры 3,8 × 10 метров) создан народным художником Беларуси Александром Кищенко в память о Чернобыльской трагедии 1986 года. 19 сентября 1991 года гобелен был торжественно передан в дар Организации Объединенных Наций от правительства и народа Беларуси министром иностранных дел Петром Кравченко и принят Генеральным секретарем ООН Хавьером Пересом де Куэльяром. Размещен в здании Генеральной Ассамблеи ООН (3-й этаж).",
       "en": "Monumental hand-woven tapestry (approx. 3.8 × 10 meters) created by People's Artist of Belarus Alexander Kishchenko to commemorate the 1986 Chernobyl nuclear disaster. Presented as an official gift to the United Nations from the government and people of Belarus on September 19, 1991 by Foreign Minister Pyotr Kravchenko and accepted by UN Secretary-General Javier Pérez de Cuéllar. Exhibited in the General Assembly Building (3rd floor)."
     },
-    "image": "https://www.un.org/ungifts/sites/www.un.org.ungifts/files/163g_belarus_2.jpg",
+    "image": "",
     "links": [
       {
         "title": "Афіцыйны рэестр падарункаў ААН: Гобелен «Чернобыль»",
@@ -13645,7 +13591,7 @@ window.INITIAL_PLACES = [
       "ru": "Первый и самый известный концлагерь системы ГУЛАГ на Соловецких островах. Место страданий белорусской национальной элиты: премьера БНР Вацлава Ластовского, драматурга Франтишка Олехновича, священников и поэтов. Олехнович после освобождения описал лагерь в знаменитой книге «В когтях ГПУ».",
       "en": "The pioneering concentration camp of the Soviet GULAG system on the Solovetsky Islands. Scene of suffering for the Belarusian intellectual and political elite, including BNR Prime Minister Vatslau Lastouski, Catholic Exarch Fabian Abrantovich, and playwright Frantsishak Alyakhnovich, whose memoir 'In the Claws of the GPU' exposed the camps to the world."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Solovetsky_Monastery_2011.jpg/960px-Solovetsky_Monastery_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/70/Solovki_USLON_Postcard_%E2%84%96_11.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Салавецкі лагер — Вікіпедыя",
@@ -13699,7 +13645,7 @@ window.INITIAL_PLACES = [
       "ru": "Лесное урочище в Карелии — место массовых тайных расстрелов НКВД (более 9500 человек), включая соловецкие этапы. Здесь погибли цвет белорусской культуры (Владислав Голубок, Симон Барановых и др.). В 2004 году установлен памятный Белорусский крест жертвам репрессий.",
       "en": "Mass execution site and cemetery of the Great Terror in Karelia where over 9,500 victims were executed by the NKVD in 1937–1938, including hundreds from the Solovki transports and Belarusian intellectuals like Uladzislaw Halubok. A memorial Belarusian Cross was erected here in 2004."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sandarmokh_cross.jpg/960px-Sandarmokh_cross.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sandarmokh_180.JPG?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Сандармох — Вікіпедыя",
@@ -13745,7 +13691,7 @@ window.INITIAL_PLACES = [
       "ru": "Особый лагерь № 1 (Минлаг) и Инталаг в Коми, где на угольных шахтах трудились политзаключенные. В 1949–1956 годах здесь отбывала заключение выдающаяся белорусская поэтесса Лариса Гениюш и ее супруг Иван Гениюш, похищенные советскими спецслужбами из Праги.",
       "en": "Special Camp No. 1 (Minlag) in the Komi Republic where thousands of political prisoners worked the coal mines. Belarusian national poet and BNR Secretary Larysa Heniyush and her husband Yanka were imprisoned here from 1949 to 1956 following their kidnapping from Prague. Here she penned heroic clandestine verses of spiritual defiance."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Inta_mining_tower.jpg/960px-Inta_mining_tower.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Political_prisoners_at_Intalag%2C_USSR.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Ларыса Геніюш — Вікіпедыя",
@@ -13799,7 +13745,7 @@ window.INITIAL_PLACES = [
       "ru": "Крупнейший арктический лагерный комплекс. В 1953 году здесь вспыхнуло легендарное Воркутинское восстание узников Речлага (шахта № 29 Юр-Шор), где белорусские политзаключенные составляли значительную часть сопротивления. На мемориале в Юр-Шоре установлены кресты погибшим узникам.",
       "en": "One of the largest polar camp complexes of the GULAG. In July–August 1953, the historic Vorkuta Uprising of Rechlag prisoners erupted here at Mine No. 29 (Yur-Shor), involving hundreds of Belarusian political prisoners. The Yur-Shor memorial cemetery preserves memorials and crosses to the victims."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vorkuta_Yurshor_memorial.jpg/960px-Vorkuta_Yurshor_memorial.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Vorkuta_in_winter.jpeg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Варкуцінскае паўстанне — Вікіпедыя",
@@ -13848,7 +13794,7 @@ window.INITIAL_PLACES = [
       "ru": "Столица Дальстроя и колымских золотых приисков. Через колымские лагеря прошли белорусские литераторы Сергей Граховский, Алесь Звонак, Станислав Шушкевич-старший и тысячи белорусов. На сопке Крутая воздвигнут монумент Эрнста Неизвестного «Маска скорби».",
       "en": "Center of Dalstroy and Kolyma gold mining camps where tens of thousands of Belarusians perished. Belarusian writers Siarhiej Hrahouski, Ales Zvonak, and Stanislaw Shushkevich Sr. survived years of hard labor here. Ernst Neizvestny's colossal 'Mask of Sorrow' monument sits atop Krutaya Hill overlooking Magadan."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mask_of_Sorrow_in_Magadan.jpg/960px-Mask_of_Sorrow_in_Magadan.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Siarhiej_Hracho%C5%ADski._%D0%A1%D1%8F%D1%80%D0%B3%D0%B5%D0%B9_%D0%93%D1%80%D0%B0%D1%85%D0%BE%D1%9E%D1%81%D0%BA%D1%96_%281933%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Маска смутку — Вікіпедыя",
@@ -13901,7 +13847,7 @@ window.INITIAL_PLACES = [
       "ru": "Карагандинский лагерь (Карлаг) — гигантский лагерный архипелаг в степях Казахстана. В Карлаге и лагере АЛЖИР отбывали сроки тысячи белорусов, включая жен расстрелянных белорусских писателей. В историческом здании Управления Карлага в Долинке открыт Музей памяти жертв политических репрессий.",
       "en": "The Karaganda labor camp (Karlag), one of the largest in the GULAG spanning territory greater than France. Held thousands of Belarusians, while its ALZHIR branch held wives of executed Belarusian poets (Mikhas Charot, Platon Halavach, Ales Dudar). The former Karlag Administration building in Dolinka now houses the Memorial Museum of Victims of Political Repression."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Karlag_Museum_Dolinka.jpg/960px-Karlag_Museum_Dolinka.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Karlag.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Карлаг — Вікіпедыя",
@@ -13947,7 +13893,7 @@ window.INITIAL_PLACES = [
       "ru": "Степной лагерь (Степлаг) около Кенгира. В мае-июне 1954 года здесь произошло самое знаменитое восстание в истории ГУЛАГа: более 5000 узников (среди которых было множество белорусов) 40 дней удерживали лагерь под своим контролем. Восстание было раздавлено танками Т-34.",
       "en": "Steplag near Kengir was the stage for the historic Kengir Uprising of May–June 1954. Over 5,000 prisoners, including many Belarusians and Ukrainians, revolted against the MVD and established a self-governing camp republic for 40 days until crushed by Soviet T-34 tanks."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Zhezkazgan_monument.jpg/960px-Zhezkazgan_monument.jpg",
+    "image": "",
     "links": [
       {
         "title": "Кенгірскае паўстанне — Вікіпедыя",
@@ -13992,7 +13938,7 @@ window.INITIAL_PLACES = [
       "ru": "Норильский лагерь за полярным кругом. В 1953 году здесь вспыхнуло Норильское восстание. У подножия горы Шмидта на месте массовых захоронений создан мемориальный комплекс «Норильская Голгофа» с крестами жертвам репрессий из Беларуси, Польши, стран Балтии.",
       "en": "Norillag labor camp above the Arctic Circle. Site of the major Norilsk Uprising in the summer of 1953. At the foot of Mount Schmidt, on the mass graves of prisoners, stands the 'Norilsk Golgotha' memorial complex honoring victims from Belarus, Poland, Lithuania, and Ukraine."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Norilsk_Golgotha_Memorial.jpg/960px-Norilsk_Golgotha_Memorial.jpg",
+    "image": "",
     "links": [
       {
         "title": "Нарыльскае паўстанне — Вікіпедыя",
@@ -14041,7 +13987,7 @@ window.INITIAL_PLACES = [
       "ru": "Крупнейший нацистский лагерь смерти. Сюда были депортированы и уничтожены сотни тысяч узников из Беларуси — евреи из гетто Гродно, Бреста, Белостока, а также белорусские подпольщики, партизаны и военнопленные.",
       "en": "The largest Nazi concentration and extermination camp. Hundreds of thousands from Belarusian lands were murdered here, predominantly Jews deported from the ghettos of Grodno, Brest, Bialystok, and Novogrudok, alongside Belarusian resistance fighters and Soviet POWs."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Auschwitz_Birkenau_Gate.jpg/960px-Auschwitz_Birkenau_Gate.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Auschwitz_memorial_plates_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Асвенцім — Вікіпедыя",
@@ -14087,7 +14033,7 @@ window.INITIAL_PLACES = [
       "ru": "Лагерь смерти в Польше. 14 октября 1943 года здесь произошло единственное успешное восстание в нацистских лагерях уничтожения, организованное советским офицером Александром Печерским и узниками Минского гетто, вырвавшимися на свободу.",
       "en": "Nazi extermination camp where roughly 250,000 Jews were murdered, including thousands transported from the Minsk Ghetto. On October 14, 1943, it witnessed the only successful mass uprising in any Nazi death camp, spearheaded by POW Alexander Pechersky and Minsk ghetto underground fighters."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sobibor_memorial_mound.jpg/960px-Sobibor_memorial_mound.jpg",
+    "image": "",
     "links": [
       {
         "title": "Сабібор — Вікіпедыя",
@@ -14136,7 +14082,7 @@ window.INITIAL_PLACES = [
       "ru": "Концлагерь высшей категории жестокости в Австрии с печально известной «Лестницей смерти». Здесь погибли тысячи белорусов. В ночь на 2 февраля 1945 года советские военнопленные Блока смертников № 20 совершили беспримерное вооруженное восстание и массовый побег.",
       "en": "Brutal Category III Nazi concentration camp in Upper Austria known for its granite quarry and 'Stairs of Death'. Held thousands of Belarusian POWs and partisans. On February 2, 1945, condemned officers in Death Block 20 mounted a legendary bare-handed assault against SS machine guns to break out."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mauthausen_monuments.jpg/960px-Mauthausen_monuments.jpg",
+    "image": "",
     "links": [
       {
         "title": "Маўтгаўзен — Вікіпедыя",
@@ -14181,7 +14127,7 @@ window.INITIAL_PLACES = [
       "ru": "Один из крупнейших концлагерей нацистской Германии близ Веймара. Здесь содержались тысячи белорусских подпольщиков, остарбайтеров и военнопленных. 11 апреля 1945 года интернациональное подполье лагеря подняло победоносное вооруженное восстание.",
       "en": "Major Nazi concentration camp established near Weimar. Imprisoned more than 250,000 victims, including thousands of captured Belarusian underground fighters and forced laborers. On April 11, 1945, the underground resistance staged an armed uprising and liberated the camp."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Buchenwald_Bell_Tower.jpg/960px-Buchenwald_Bell_Tower.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Jedemdasseine.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Бухенвальд — Вікіпедыя",
@@ -14226,7 +14172,7 @@ window.INITIAL_PLACES = [
       "ru": "Главный женский концентрационный лагерь нацистов в Германии. Сюда отправляли белорусских подпольщиц, партизанок, медсестер и женщин, захваченных в ходе карательных операций в Беларуси. Место мученичества десятков тысяч женщин.",
       "en": "The primary Nazi concentration camp for women in Germany, 90 km north of Berlin. Thousands of Belarusian female underground fighters, partisans, medical workers, and civilian hostages were imprisoned here and subjected to brutal forced labor and medical experiments."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Ravensbrueck_memorial.jpg/960px-Ravensbrueck_memorial.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Bundesarchiv_Bild_183-1985-0417-15%2C_Ravensbr%C3%BCck%2C_Konzentrationslager.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Равенсбрук — Вікіпедыя",
@@ -14271,7 +14217,7 @@ window.INITIAL_PLACES = [
       "ru": "Концентрационный лагерь близ Берлина, служивший административным центром лагерной системы СС. Здесь на «Станции Z» уничтожались советские военнопленные и участники антифашистского Сопротивления из Беларуси.",
       "en": "Model Nazi concentration camp in Oranienburg near Berlin, headquarters for the Inspectorate of Concentration Camps. Thousands of Soviet POWs and Belarusian resistance members were methodically exterminated at 'Station Z'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Sachsenhausen_Memorial_2011.jpg/960px-Sachsenhausen_Memorial_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sachsenhausen_Concentration_Camp_Oranienburg_2007.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Заксенгаўзен — Вікіпедыя",
@@ -14316,7 +14262,7 @@ window.INITIAL_PLACES = [
       "ru": "Первый нацистский концлагерь, открытый в 1933 году около Мюнхена. Через него прошли католические священники из Беларуси и Польши, политические противники нацизма и тысячи советских граждан.",
       "en": "The first Nazi concentration camp opened in 1933 near Munich. Imprisoned Catholic clergy from Belarus and Poland in the infamous 'Priest Barracks', alongside political dissidents and anti-fascist fighters."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Dachau_Jourhaus_Gate.jpg/960px-Dachau_Jourhaus_Gate.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Prisoners_liberation_dachau.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Дахаў — Вікіпедыя",
@@ -14361,7 +14307,7 @@ window.INITIAL_PLACES = [
       "ru": "Концлагерь на побережье Балтийского моря возле Гданьска. Место массового уничтожения узников из Западной Беларуси, Вильнюсского края и Белосточчины: интеллигенции, священников, антифашистов.",
       "en": "Nazi concentration camp on the Baltic coast near Gdańsk. A major site of imprisonment and murder for victims from Western Belarus, the Vilnius region, and Bialystok, including intelligentsia, clergy, and partisans."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Stutthof_Gate_of_Death.jpg/960px-Stutthof_Gate_of_Death.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sztutowo_KL_Stutthof_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Штутгоф — Вікіпедыя",
@@ -14406,7 +14352,7 @@ window.INITIAL_PLACES = [
       "ru": "Древняя святыня, тесно связанная с историей Беларуси. Здесь в Дальних пещерах более семи веков (1187–1910) покоились мощи преподобной Евфросинии Полоцкой. В лавре погребен сын Всеслава Чародея, основатель Минского княжества князь Глеб Минский (умер в 1119 г.).",
       "en": "Historic cradle of Eastern Slavic Orthodoxy. For over seven centuries (1187–1910), the holy relics of Saint Euphrosyne of Polotsk rested in its Far Caves before returning to Polotsk. The Lavra is also the final resting place of Prince Hleb of Minsk (son of Prince Usiaslaw the Sorcerer, died in captivity in 1119)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kyiv_Pechersk_Lavra_Great_Belfry_2011.jpg/960px-Kyiv_Pechersk_Lavra_Great_Belfry_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/2005-08-15_Pechersk_Lavra_seen_from_river_Dnepr_Kiev_311.JPG?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Кіева-Пячэрская лаўра — Вікіпедыя",
@@ -14460,7 +14406,7 @@ window.INITIAL_PLACES = [
       "ru": "Историческое здание Института филологии КНУ им. Тараса Шевченко (бульвар Шевченко, 14). В 1954 г. его окончил будущий классик белорусской литературы Владимир Короткевич, написавший здесь первый вариант «Дикой охоты короля Стаха». В университете также преподавал выдающийся историк Митрофан Довнар-Запольский.",
       "en": "Historic building of the Institute of Philology at Shevchenko National University of Kyiv (Taras Shevchenko Blvd 14). Alumnus Vladimir Karatkevich graduated here in 1954, conceptualizing 'King Stakh's Wild Hunt' and 'Ears of Rye Under Thy Sickle'. Historic home of pioneer Belarusian historian Professor Mitrafan Dounar-Zapolski."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kyiv_Shevchenko_University_yellow_building.jpg/960px-Kyiv_Shevchenko_University_yellow_building.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Universidad_Roja_de_Kiev.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Кіеўскі нацыянальны ўніверсітэт — Вікіпедыя",
@@ -14514,7 +14460,7 @@ window.INITIAL_PLACES = [
       "ru": "Бронзовый памятник классику белорусской литературы Владимиру Короткевичу на ул. Михаила Коцюбинского, 3. Открыт в 2011 году. Скульптура высотой 2,5 метра изображает писателя на фоне раскрытой книги с его стихами на белорусском и украинском языках.",
       "en": "Bronze monument to classic Belarusian writer Uladzimir Karatkevich on Mykhaila Kotsyubynskoho St 3. Unveiled in October 2011. Depicts the 2.5-meter figure of the writer against an open book inscribed with verses in Belarusian and Ukrainian."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/U%C5%82adzimir_Karatkievi%C4%8D.jpg/330px-U%C5%82adzimir_Karatkievi%C4%8D.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/be/9/9a/Pomnik_Karatkievi%C4%8Du_%28Kije%C5%AD%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Помнік Уладзіміру Караткевічу (Кіеў) — Вікіпедыя",
@@ -14563,7 +14509,7 @@ window.INITIAL_PLACES = [
       "ru": "Знаменитый крытый рынок Киева в стиле модерн на Бессарабской площади. Построен по проекту архитектора Генриха Гая, спроектировавшего также ключевые здания в Минске (ул. Советская, 19, ул. Карла Маркса, 30, здание МВД на пр. Независимости, 15).",
       "en": "Iconic Art Nouveau covered market hall on Bessarabska Square. Designed in 1910–1912 by architect Henryk Gay, who also designed landmark monumental buildings in central Minsk (Savetskaya St 19, Karl Marx St 30, and the MVD headquarters on Independence Ave 15)."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bessarabsky_Market_Kyiv_2013.jpg/960px-Bessarabsky_Market_Kyiv_2013.jpg",
+    "image": "",
     "links": [
       {
         "title": "Бесарабскі рынак — Вікіпедыя",
@@ -14612,7 +14558,7 @@ window.INITIAL_PLACES = [
       "ru": "Памятный знак на ул. Белорусской, 22 в Киеве, открытый в честь белорусских добровольцев (Михаил Жизневский, Алесь Черкашин, воины Полка Калиновского и др.), погибших за независимость Украины. На памятнике изображен герб «Погоня».",
       "en": "Memorial on Beloruska Street 22 in Kyiv honoring Belarusian volunteers (including Mikhail Zhyzneuski, Ales Charkashyn, Kastus Kalinouski Regiment soldiers, and others) who fell fighting for the independence of Ukraine and a free Belarus. Features the Pahonia coat of arms."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mikhail_Zhyzneuski.jpg/330px-Mikhail_Zhyzneuski.jpg",
+    "image": "",
     "links": [
       {
         "title": "Рэформ: Ціханоўская ў Кіеве ўшанавала памяць загінулых беларусаў",
@@ -14662,7 +14608,7 @@ window.INITIAL_PLACES = [
       "ru": "Памятный знак на Аллее Героев Небесной Сотни (ул. Институтская) в Киеве белорусскому активисту из Гомеля Михаилу Жизневскому (1988–2014), погибшему на Евромайдане 22 января 2014 года и посмертно удостоенному звания Героя Украины.",
       "en": "Memorial on the Alley of the Heavenly Hundred Heroes (Instytutska St) in Kyiv dedicated to Belarusian activist from Gomel Mikhail Zhyzneuski (1988–2014), who was fatally shot on January 22, 2014 during Euromaidan and became the first foreigner awarded the title Hero of Ukraine."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mikhail_Zhyzneuski.jpg/330px-Mikhail_Zhyzneuski.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/%D0%96%D0%B8%D0%B7%D0%BD%D0%B5%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9.svg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Міхаіл Жызнеўскі — Вікіпедыя",
@@ -14712,7 +14658,7 @@ window.INITIAL_PLACES = [
       "ru": "Староакадемический корпус Киево-Могилянской академии на Подоле (ул. Сковороды, 2). Колыбель просвещения, выпускниками которой были просветитель Симеон Полоцкий и архиепископ Могилевский Георгий Конисский.",
       "en": "Old Academic Building of the Kyiv-Mohyla Academy on Kontraktova Square (Podil). Historic alma mater of prominent Belarusian Baroque enlightener Simeon of Polotsk and Archbishop of Mogilev Georgij Konisskij."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Old_Academic_Building_Kyiv-Mohyla_Academy.jpg/960px-Old_Academic_Building_Kyiv-Mohyla_Academy.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/NaUKMA_seal_transp2.PNG?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Кіева-Магілянская акадэмія — Вікіпедыя",
@@ -14766,7 +14712,7 @@ window.INITIAL_PLACES = [
       "ru": "Общественно-культурное пространство белорусской диаспоры во Львове. Центр помощи белорусам и добровольцам, площадка проведения курсов белорусского языка, выставок и культурных встреч.",
       "en": "Civic and cultural community space of the Belarusian diaspora in Lviv. Center assisting Belarusian relocants and volunteers, hosting Belarusian language courses, cultural events, and art exhibitions."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lviv_Matejka_street.jpg/960px-Lviv_Matejka_street.jpg",
+    "image": "",
     "links": [
       {
         "title": "Будзьма: Курсы беларускай мовы ў Львове",
@@ -14815,7 +14761,7 @@ window.INITIAL_PLACES = [
       "ru": "Улица в Шевченковском районе Львова (микрорайон Голоско). Названа в честь Беларуси.",
       "en": "Street in the Shevchenkivskyi district of Lviv named in honor of Belarus, testifying to historic ties between Lviv and Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Lviv_panorama.jpg/960px-Lviv_panorama.jpg",
+    "image": "",
     "links": [
       {
         "title": "Вулиця Білоруська (Львів) — Вікіпедыя",
@@ -14839,7 +14785,7 @@ window.INITIAL_PLACES = [
       "ru": "Дипломатическая миссия БНР в Берлине (Motzstraße 21)",
       "en": "BNR Diplomatic Mission in Berlin (Motzstraße 21)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Германія",
       "ru": "Германия",
@@ -14859,7 +14805,7 @@ window.INITIAL_PLACES = [
       "ru": "Здание на Мотцштрассе 21 в Берлине, где в 1919–1925 годах действовала Чрезвычайная дипломатическая миссия Белорусской Народной Республики. Здесь выдавались паспорта БНР и велась работа по международному признанию Беларуси.",
       "en": "Building on Motzstraße 21 in Berlin-Schöneberg that housed the Extraordinary Diplomatic Mission of the Belarusian Democratic Republic (BNR) from 1919 to 1925, led by Arkadz Smalich and Andrei Barouski. Issued BNR passports and lobbied for international recognition of Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Motzstra%C3%9Fe_21_Berlin.jpg/960px-Motzstra%C3%9Fe_21_Berlin.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Новы Час: Беларускі Берлін",
@@ -14908,7 +14854,7 @@ window.INITIAL_PLACES = [
       "ru": "Здание на Бундесаллее 209 (бывшая Кайзераллее), где в 1920-е годы действовало Белорусское пресс-бюро БНР, выпускавшее бюллетени на немецком языке.",
       "en": "Building on Bundesallee 209 (formerly Kaiserallee) which housed the Belarusian Press Bureau in the 1920s, publishing German-language bulletins to inform the Western European public about Belarus's fight for statehood."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Bundesallee_209_Berlin.jpg/960px-Bundesallee_209_Berlin.jpg",
+    "image": "",
     "links": [
       {
         "title": "Новы Час: Беларускі Берлін",
@@ -14952,7 +14898,7 @@ window.INITIAL_PLACES = [
       "ru": "Историческое место на Потсдамер-штрассе 134, где располагалась легендарная авангардная галерея «Der Sturm». В июне 1914 года здесь прошла первая персональная выставка Марка Шагала (более 200 работ), принесшая уроженцу Витебска европейскую славу.",
       "en": "Historic location of Herwarth Walden's seminal avant-garde gallery 'Der Sturm' on Potsdamer Straße 134. In June 1914, Vitebsk-born master Marc Chagall held his breakthrough solo exhibition here featuring over 200 works, propelling him to international renown."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Potsdamer_Strasse_134_Berlin.jpg/960px-Potsdamer_Strasse_134_Berlin.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Shagal_Choumoff.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Марк Шагал — Вікіпедыя",
@@ -15005,7 +14951,7 @@ window.INITIAL_PLACES = [
       "ru": "Культовый сквот и арт-центр Kunsthaus Tacheles в центре Берлина. С 2001 года здесь находилась постоянная мастерская и экспозиция белорусского художника Алеся Родина, проводившего фестивали белорусского экспериментального искусства «Дах».",
       "en": "Iconic cultural squatted art center Kunsthaus Tacheles on Oranienburger Straße 54–56. For over a decade from 2001, Belarusian master Ales Rodzin maintained his permanent studio and monumental exhibition here, founding the avant-garde 'Dakh' festival and creating cultural ties between Belarus and Berlin."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Kunsthaus_Tacheles_2008.jpg/960px-Kunsthaus_Tacheles_2008.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Kunsthaus_tacheles.berlin.II.JPG?utm_source=de.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Кунстхаўс Тахелес — Вікіпедыя",
@@ -15059,7 +15005,7 @@ window.INITIAL_PLACES = [
       "ru": "Здание на Макс-Планк-штрассе 1 в Потсдаме, построенное в 1970-х как ресторан «Минск» в знак побратимства Потсдама и Минска. В 2022 году бережно отреставрировано и открыто как музей современного искусства DAS MINSK Kunsthaus.",
       "en": "Striking modernist pavilion on Max-Planck-Straße 1 in Potsdam, built in the 1970s as Restaurant 'Minsk' celebrating the partnership between twin cities Potsdam and Minsk. Lovingly revitalized in 2022 as 'DAS MINSK Kunsthaus' contemporary art museum, preserving its historic Belarusian name and architectural heritage."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Restaurant_Minsk_Potsdam_2022.jpg/960px-Restaurant_Minsk_Potsdam_2022.jpg",
+    "image": "",
     "links": [
       {
         "title": "DAS MINSK Kunsthaus",
@@ -15108,7 +15054,7 @@ window.INITIAL_PLACES = [
       "ru": "Уникальный напрестольный крест-реликварий конца XV века, созданный по образцу креста Евфросинии Полоцкой по заказу смоленского окольничего князя Алехны Глазыны (1494–1495 гг.). Хранил мощи 25 святых и частицу Древа Животворящего Креста. Святыня Жировичского и Виленского монастырей, вывезенная в 1915 году в Москву и хранящаяся в фондах Музеев Московского Кремля.",
       "en": "Exquisite 15th-century masterpiece of Belarusian sacral art (50 × 21 cm), crafted as a twin to St. Euphrosyne's Cross for Smolensk Prince Alekhna Hlazyna. Reliquary holding relics of 25 saints and a fragment of the True Cross. Long preserved at Zhirovichi and Vilna Holy Spirit Monasteries, evacuated to Moscow during WWI in 1915 and now held in the Moscow Kremlin Museums."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Lazkovichy_cross_Trutnev.jpg/960px-Lazkovichy_cross_Trutnev.jpg",
+    "image": "",
     "links": [
       {
         "title": "Наша Ніва: У Маскоўскім Крамлі знойдзены Лазковіцкі крыж",
@@ -15155,7 +15101,7 @@ window.INITIAL_PLACES = [
       "ru": "Международный дом писателей на шведском острове Готланд (Uddens gränd 3, Висбю). Стал важнейшим европейским центром творческих резиденций для белорусских литераторов. Здесь жили и работали Василь Быков, Владимир Орлов, Алесь Рязанов, Андрей Хаданович и другие авторы.",
       "en": "International residential center for writers and translators on Gotland (Uddens gränd 3, Visby). Celebrated sanctuary and residency hub for Belarusian literature, where Vasil Bykau, Uladzimir Arlou, Ales Razanau, and Andrei Khadanovich lived and created significant works."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Visby_Uddens_gr%C3%A4nd_3.jpg/800px-Visby_Uddens_gr%C3%A4nd_3.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Nygatan_37%2C_Visby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "links": [
       {
         "title": "Baltic Centre for Writers and Translators",
@@ -15211,7 +15157,7 @@ window.INITIAL_PLACES = [
       "ru": "Центр общественной и культурной жизни белорусов Швеции. Объединение «Разам» организует культурные события, курсы языка и дни культуры. Площадь Сергельсторг в центре Стокгольма — традиционное место акций солидарности диаспоры.",
       "en": "Hub of civic and cultural life of the Belarusian diaspora in Sweden. The Sveriges Belarusier 'Razam' organization hosts cultural festivals, educational initiatives, and language courses, with central Sergels Torg square serving as a landmark site of community solidarity."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sergels_torg_Stockholm_2011.jpg/960px-Sergels_torg_Stockholm_2011.jpg",
+    "image": "",
     "links": [
       {
         "title": "Sveriges Belarusier «Разам»",
@@ -15260,7 +15206,7 @@ window.INITIAL_PLACES = [
       "ru": "Библиотека Уппсальского университета, хранящая богатейшую коллекцию раритетов ВКЛ и Беларуси: книги виленских и полоцких типографий, карту ВКЛ Радзивилла 1613 года, архивы магнатов. Центр шведской белорусистики.",
       "en": "Main library of Scandinavia's oldest university. Houses priceless historic treasures of the Grand Duchy of Lithuania taken to Sweden during 17th–18th-century wars, including rare editions from Polotsk and Vilna, Tomasz Makowski's 1613 Radziwill Map of the GDL, and documents of the Sapieha and Radziwill families."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Carolina_Rediviva_Uppsala.jpg/960px-Carolina_Rediviva_Uppsala.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Carolina_Rediviva_in_summer.jpg/960px-Carolina_Rediviva_in_summer.jpg",
     "links": [
       {
         "title": "Carolina Rediviva — Вікіпедыя",
@@ -15310,7 +15256,7 @@ window.INITIAL_PLACES = [
       "ru": "Монументальный памятник словацкому герою Яну Налепке на Ратушной площади. В 1942–1943 гг. Налепка служил в белорусском Ельске, перешел на сторону партизан и создал чехословацкий партизанский отряд, сражавшийся в лесах Беларуси. Единственный словак — Герой Советского Союза.",
       "en": "Monument to Slovak anti-fascist commander Captain Ján Nálepka on Town Hall Square. While stationed in Yelsk (Belarus) in 1942–1943, he defected to the partisans and founded the Czechoslovak partisan detachment fighting alongside Belarusian resistance forces in Polesia."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/J%C3%A1n_N%C3%A1lepka.jpg/330px-J%C3%A1n_N%C3%A1lepka.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/J%C3%A1n_N%C3%A1lepka_-_profile_photo_%28c._1943%29.png?utm_source=be-tarask.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Ян Налепка — Вікіпедыя",
@@ -15359,7 +15305,7 @@ window.INITIAL_PLACES = [
       "ru": "Дворец и музей на ул. Пилсудского, 12 (филиал Национального музея в Кракове). Основан графом Эмериком Гуттен-Чапским для демонстрации колоссальной коллекции нумизматики и редкостей ВКЛ, перевезенных из белорусского имения Станьково. Девиз на фасаде: «Памятникам Отечества, спасенным от кораблекрушения».",
       "en": "Palace and museum on Piłsudskiego St 12 (branch of the National Museum in Kraków). Founded by Count Emeryk Hutten-Czapski to house his immense numismatic collections and rare manuscripts of the GDL and Belarus brought from his Stankava estate near Minsk. The facade bears the famous Latin motto 'Monumentis Patriae naufragio ereptis'."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Krakow_Palac_Czapskich.jpg/960px-Krakow_Palac_Czapskich.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Hutten-Czapski_palace%2C_1883_design._Antoni_Siedek%2C_10-12_Pi%C5%82sudski_street%2C_Krak%C3%B3w%2C_Poland.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Muzeum im. Emeryka Hutten-Czapskiego (MNK)",
@@ -15422,7 +15368,7 @@ window.INITIAL_PLACES = [
       "ru": "Музейный павильон в саду дворца Чапских в Кракове, открытый в 2016 году. Посвящен внуку Эмерика — художнику и писателю Юзефу Чапскому, чьи детство и юность прошли в Прилуках под Минском. Включает его картины, дневники и реконструкцию его комнаты в Мезон-Лаффит.",
       "en": "Contemporary museum pavilion in the gardens of the Czapski Palace (Piłsudskiego St 12), opened in 2016. Dedicated to painter and writer Józef Czapski (1896–1993), who grew up at the family estate in Pryluki near Minsk. Houses his paintings, notebooks, and an exact replica of his Paris room in Maisons-Laffitte."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pawilon_Jozefa_Czapskiego_Krakow.jpg/960px-Pawilon_Jozefa_Czapskiego_Krakow.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/J%C3%B3zef_Hutten-Czapski.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Павільён Юзафа Чапскага — MNK",
@@ -15475,7 +15421,7 @@ window.INITIAL_PLACES = [
       "ru": "Исторический особняк на 91 Avenue de Poissy близ Парижа — штаб-квартира Литературного института и журнала «Kultura» Ежи Гедройца. Здесь почти 40 лет жил и творил Юзеф Чапский, уроженец белорусских Прилук.",
       "en": "Historic residence at 91 Avenue de Poissy near Paris, headquarters of the Literary Institute and dissident journal 'Kultura' led by Jerzy Giedroyc. Belarusian-raised intellectual Józef Czapski lived and painted here from 1954 until his death in 1993, shaping Eastern European cultural dialogue."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/J%C3%B3zef_Czapski_1932.jpg/330px-J%C3%B3zef_Czapski_1932.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/J%C3%B3zef_Hutten-Czapski.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Юзаф Чапскі — Вікіпедыя",
@@ -15528,7 +15474,7 @@ window.INITIAL_PLACES = [
       "ru": "Колыбель европейского Возрождения, тесно связанная с культурной историей Беларуси и ВКЛ. Родина скульптора Санти Гуччи, творившего для королей и магнатов ВКЛ. В 1582 году город посетил князь Николай Христофор Радзивилл «Сиротка», принятый герцогом Медичи. Город также посещал великий гетман литовский и композитор Михаил Казимир Огинский.",
       "en": "Cradle of the Italian Renaissance with deep historic connections to Belarus and the Grand Duchy of Lithuania. Birthplace of master sculptor Santi Gucci, who crafted monuments for GDL royalty including Bona Sforza's tomb. Visited in 1582 by Prince Mikołaj Krzysztof Radziwiłł 'the Orphan' during his pilgrimage, where he was received by Grand Duke Francesco I de' Medici, as well as Grand Hetman Michał Kazimierz Ogiński."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Florence_Duomo_from_Michelangelo_esplanade.jpg/960px-Florence_Duomo_from_Michelangelo_esplanade.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Firenze_-_Piazzale_Michelangelo%2C_Firenze%2C_Italy_-_April_6%2C_2015_02.jpg/960px-Firenze_-_Piazzale_Michelangelo%2C_Firenze%2C_Italy_-_April_6%2C_2015_02.jpg",
     "links": [
       {
         "title": "Фларэнцыя — Вікіпедыя",
@@ -15625,7 +15571,7 @@ window.INITIAL_PLACES = [
       "ru": "Одна из главных резиденций несвижских Радзивиллов (наряду с Несвижем и Олыкой), принадлежавшая роду с 1569 по 1831 год. Город назывался «Бяла Радзивилловская». Монументальный барочный замок строили Александр Людвик, Михаил Казимир «Рыбонька», Екатерина Собеская. Сохранились замковая башня-ворота, валы, часовня и павильоны, где работает Музей Южного Подляшья.",
       "en": "One of the three principal residences of the Nesvizh Radziwill dynasty (alongside Nesvizh and Olyka), owned from 1569 to 1831 when the town was officially called Biała Radziwiłłowska. Built and expanded by Aleksander Ludwik, Michał Kazimierz 'Rybeńko', and Katarzyna Radziwiłłowa née Sobieska. The preserved gate tower, bastion fortifications, chapel, and pavilions now house the Museum of Southern Podlasie."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Biala_Podlaska_Brama_wjazdowa_Radziwillow.jpg/960px-Biala_Podlaska_Brama_wjazdowa_Radziwillow.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/60816_-_Tower_entrance_to_the_Radziwill_Castle_in_Biala_Podlaska_-_02.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Zespół pałacowo-parkowy Radziwiłłów w Białej Podlaskiej — Wikipedia",
@@ -15679,7 +15625,7 @@ window.INITIAL_PLACES = [
       "ru": "В венском Хофбурге (Hofjagd- und Rüstkammer Музея истории искусств Вены) хранится признанный шедевр мирового оружейного искусства — парадный рыцарский доспех великого канцлера литовского князя Николая Радзивилла «Чёрного» (1515–1565). Создан около 1555 г. знаменитым мастером Кунцем Лохнером в Нюрнберге, украшен позолотой и черной эмалью.",
       "en": "Exhibited in the Neue Burg at the Hofburg Palace (Imperial Armoury / KHM Vienna), this is one of the most famous Renaissance garnitures in the world: the parade armour of Grand Chancellor of Lithuania Prince Mikołaj Radziwiłł 'the Black' (1515–1565). Crafted around 1555 by master Kunz Lochner in Nuremberg with lavish gilding, black enamel, and heraldic eagles."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Hofjagd-_und_R%C3%BCstkammer_Wien_Radziwill_armour.jpg/960px-Hofjagd-_und_R%C3%BCstkammer_Wien_Radziwill_armour.jpg",
+    "image": "",
     "links": [
       {
         "title": "KHM Hofjagd- und Rüstkammer Wien",
@@ -15734,7 +15680,7 @@ window.INITIAL_PLACES = [
       "ru": "На втором этаже дворца Радзивиллов в Неборове размещается исторический зал «Несвижская оружейная палата» (Zbrojownia Nieświeska). Здесь экспонируются рыцарские доспехи, гусарские латы XVII века, шлемы, сабли и штандарты, спасенные и вывезенные из арсенала Несвижского замка.",
       "en": "On the second floor of the Radziwiłł Palace in Nieborów (branch of the National Museum in Warsaw) is 'The Nesvizh Armoury' room. Houses rare historical armor, 17th-century winged hussar breastplates, helmets, and weaponry preserved from the legendary arsenal of Nesvizh Castle."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Palac_w_Nieborowie_2011.jpg/960px-Palac_w_Nieborowie_2011.jpg",
+    "image": "",
     "links": [
       {
         "title": "The Nesvizh Armoury in Nieborów Palace",
@@ -16036,7 +15982,7 @@ window.INITIAL_PLACES = [
       "ru": "Историческое сердце Буэнос-Айреса (Пласа-де-Майо и собор), куда в конце апреля 1838 года прибыл Игнатий Домейко после плавания через Атлантику. Отсюда начался его знаменитый переход через пампу и перевалы Анд в Чили.",
       "en": "Historic core of Buenos Aires (Plaza de Mayo and Metropolitan Cathedral) where Ignacy Domeyko set foot on the South American mainland in late April 1838 after his transatlantic voyage, before embarking on his mule trek across the Pampas and Andes to Chile."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Plaza_de_Mayo_Buenos_Aires_2013.jpg/960px-Plaza_de_Mayo_Buenos_Aires_2013.jpg",
+    "image": "",
     "links": [
       {
         "title": "Наша вера: Ігнат Дамейка. Мае падарожжы",
@@ -16085,7 +16031,7 @@ window.INITIAL_PLACES = [
       "ru": "Стратовулкан в Андах (2979 м), на вершину которого в марте 1845 г. поднялся Игнатий Домейко. В ходе экспедиции по Араукании Домейко исследовал жизнь и язык индейцев мапуче, создав книгу «Араукания и её жители», предотвратившую войну на уничтожение коренных народов.",
       "en": "Stratovolcano in the Andes (2,979 m) ascended by scientist Ignacy Domeyko in March 1845. During his historic expedition into Araucanía, Domeyko gained the trust of the Mapuche people, authoring 'Araucanía and Its Inhabitants' (1845) which defended indigenous rights before the Chilean government and averted war."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Volcan_Antuco_Chile.jpg/960px-Volcan_Antuco_Chile.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Antuco_Volcano.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Наша вера: Ігнат Дамейка. Мае падарожжы ў Араўканію",
@@ -16140,7 +16086,7 @@ window.INITIAL_PLACES = [
       "ru": "Исторический центр Османской империи на Босфоре. Здесь провел последние дни и скончался великий поэт Адам Мицкевич. В 1919–1921 годах в Константинополе действовала Дипломатическая миссия Белорусской Народной Республики (БНР), выдававшая паспорта соотечественникам и защищавшая их интересы.",
       "en": "Historic metropolis on the Bosphorus with deep ties to Belarusian history. Here poet Adam Mickiewicz spent his final days and passed away in 1855. In 1919–1921, it hosted the Extraordinary Diplomatic Mission of the Belarusian Democratic Republic (BNR), issuing passports and representing Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bosphorus_Bridge_Istanbul.jpg/960px-Bosphorus_Bridge_Istanbul.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/960px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
     "links": [
       {
         "title": "Дыпламатычныя прадстаўніцтвы БНР — Вікіпедыя",
@@ -16215,7 +16161,7 @@ window.INITIAL_PLACES = [
       55.7766,
       37.6322
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Meshchanskaya_Street_1910s.jpg/640px-Meshchanskaya_Street_1910s.jpg",
+    "image": "",
     "description": {
       "by": "Заснаваная ў 1671 годзе царом Аляксеем Міхайлавічам адмыслова для перасяленцаў і палонных з Вялікага Княства Літоўскага і Беларусі пасля вайны 1654–1667 гг. Менавіта ад беларускага слова «мяшчане» (гараджане, жыхары места) у расійскую мову ўвайшло само паняцце «мещане»! Тут жылі беларускія рамеснікі, пераплётчыкі, збройнікі і славуты мсціслаўскі кафляр Сцяпан Палубес, які стварыў унікальную паліхромную маскоўскую кафлю. Раён сучасных Мяшчанскіх вуліц і праспекта Міру.",
       "ru": "Основана в 1671 году для выходцев из Великого Княжества Литовского и Беларуси. Именно от белорусского слова «мяшчане» (горожане) в русский язык вошло сословие «мещане». Здесь жили ремесленники, переплётчики и знаменитый керамист из Мстиславля Степан Полубес.",
@@ -16254,7 +16200,7 @@ window.INITIAL_PLACES = [
       55.7588,
       37.6045
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Stefaniya_Stanyuta.jpg/440px-Stefaniya_Stanyuta.jpg",
+    "image": "",
     "description": {
       "by": "Дзяржаўная тэатральная навучальная ўстанова, якая працавала ў Маскве ў 1921–1926 гг. пры Наркамасвеце БССР. Тут пад кіраўніцтвам дзеячаў МХАТ рыхтавалі прафесійных акцёраў для першага беларускага дзяржаўнага тэатра. Выпускнікі студыі (Стэфанія Станюта, Аляксандр Ільінскі, Павел Малчанаў) у 1926 г. заснавалі Другі беларускі дзяржаўны тэатр (БДТ-2, цяпер Нацыянальны драматычны тэатр імя Якуба Коласа ў Віцебску).",
       "ru": "Действовала в Москве в 1921–1926 годах при Наркомпросе. Выпускники студии (Стефания Станюта, Александр Ильинский, Павел Молчанов) основали в 1926 году Второй белорусский государственный театр (БДТ-2, ныне театр имени Якуба Коласа в Витебске).",
@@ -16292,7 +16238,7 @@ window.INITIAL_PLACES = [
       59.9431,
       30.2825
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Branisla%C5%AD_Epimach-%C5%A0ypila._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%AD%D0%BF%D1%96%D0%BC%D0%B0%D1%85-%D0%A8%D1%8B%D0%BF%D1%96%D0%BB%D0%B0_%281900%29.jpg/440px-Branisla%C5%AD_Epimach-%C5%A0ypila._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%AD%D0%BF%D1%96%D0%BC%D0%B0%D1%85-%D0%A8%D1%8B%D0%BF%D1%96%D0%BB%D0%B0_%281900%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/34/%D0%97%D0%B0%D0%B3%D0%BB%D1%8F%D0%BD%D0%B5_%D1%81%D0%BE%D0%BD%D1%86%D1%8D_%D0%B8_%D1%9E_%D0%BD%D0%B0%D1%88%D1%8D_%D0%B2%D0%B0%D0%BA%D0%BE%D0%BD%D1%86%D1%8D%21_%281908%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Легендарны цэнтр беларускага нацыянальнага адраджэння пачатку XX стагоддзя на Васільеўскім востраве. Тут жыў прафесар Браніслаў Эпімах-Шыпіла, і менавіта ў ягонай кватэры ў 1909–1913 гг. жыў Янка Купала падчас вучобы на курсах Чарняева. Тут збіраліся Цётка, Браніслаў Тарашкевіч, Вацлаў Іваноўскі, і дзейнічала першая беларуская выдавецкая суполка «Загляне сонца і ў наша аконца», якая надрукавала зборнікі «Гусляр», «Адвечная песня» і «Паўлінку».",
       "ru": "Исторический центр белорусского национального возрождения начала XX века. В квартире профессора Эпимах-Шипило в 1909–1913 гг. жил Янка Купала. Здесь собирались Тётка, Тарашкевич, Ивановский и действовало первое белорусское издательство «Загляне сонца і ў наша аконца».",
@@ -16336,7 +16282,7 @@ window.INITIAL_PLACES = [
       59.9336,
       30.3355
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/National_Library_of_Russia%2C_St._Petersburg.jpg/640px-National_Library_of_Russia%2C_St._Petersburg.jpg",
+    "image": "",
     "description": {
       "by": "Галоўны корпус Імператарскай публічнай бібліятэкі на рагу Неўскага і Садовай. Тут у 1850-я гг. працаваў гісторык і археограф Віктар Каліноўскі (старэйшы брат Кастуся Каліноўскага), які адшукваў і перапісваў старадаўнія рукапісы і летапісы ВКЛ. Тут захоўваецца велізарны архіў беларусікі: выданні Францыска Скарыны, дыяруш Паўла Сапегі, рукапісы Івана Грыгаровіча, першыя беларускія газеты «Дзянніца» і «Гоман». Тут праводзіліся навуковыя канферэнцыі «Санкт-Пецярбург і беларуская культура» (Мікола Нікалаеў).",
       "ru": "В Императорской публичной библиотеке работал Виктор Калиновский (старший брат Кастуся Калиновского), собиратель летописей ВКЛ. Здесь хранится богатейший архив белорусики: издания Скорины, диариуш Павла Сапеги, рукописи Григоровича.",
@@ -16377,7 +16323,7 @@ window.INITIAL_PLACES = [
       59.9042,
       30.3601
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ivan_Hryharovi%C4%8D._%D0%86%D0%B2%D0%B0%D0%BD_%D0%93%D1%80%D1%8B%D0%B3%D0%B0%D1%80%D0%BE%D0%B2%D1%96%D1%87.jpg/440px-Ivan_Hryharovi%C4%8D._%D0%86%D0%B2%D0%B0%D0%BD_%D0%93%D1%80%D1%8B%D0%B3%D0%B0%D1%80%D0%BE%D0%B2%D1%96%D1%87.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/%D0%98%D0%B2%D0%B0%D0%BD_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "На Волкаўскіх праваслаўных могілках пахаваны Іван Грыгаровіч (1792–1852) — заснавальнік беларускай археаграфіі, ураджэнец Прапойска. Укладальнік першага навуковага збору першакрыніц па гісторыі Беларусі «Беларускі архіў старажытных граматаў» (1824). Побач спачываюць і іншыя выхадцы з Беларусі.",
       "ru": "На Волковском православном кладбище похоронен Иван Григорович (1792–1852) — основоположник белорусской археографии, издатель первого свода источников «Белорусский архив древних грамот» (1824).",
@@ -16415,7 +16361,7 @@ window.INITIAL_PLACES = [
       59.9592,
       30.3204
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kastus_Kalinowski_film_poster_1928.jpg/440px-Kastus_Kalinowski_film_poster_1928.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/%D0%9C%D1%96%D0%BD%D1%81%D0%BA._%D0%93%D0%B0%D0%BB%D0%BE%D1%9E%D0%BD%D1%8B_%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81_%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%D1%84%D1%96%D0%BB%D1%8C%D0%BC_%2803%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Першая нацыянальная кінастудыя Савецкай Беларусі была створана і працавала ў Ленінградзе (вул. Малая Пасадская і наб. Мойкі) з 1928 па 1939 год з прычыны адсутнасці ўласнай матэрыяльнай базы ў Менску. Тут рэжысёр Юрый Тарыч і першапраходцы беларускага кінематографа знялі класічныя нямыя і гукавыя фільмы: «Кастусь Каліноўскі» (1928), «Да заўтра» (1929), «Адзінаццаты ліпеня» (1938), якія заклалі асновы нацыянальнага кіно.",
       "ru": "Первая белорусская государственная киностудия «Советская Беларусь» (будущий «Беларусьфильм») работала в Ленинграде с 1928 по 1939 год. Здесь были сняты классические фильмы «Кастусь Калиновский» (1928), «До завтра» и «Одиннадцатое июля».",
@@ -16438,7 +16384,7 @@ window.INITIAL_PLACES = [
       "ru": "Базельский собор (Посольство ВКЛ на Базельском соборе 1433–1434 гг.)",
       "en": "Basel Minster (Embassy of the GDL to the Council of Basel 1433–1434)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Швейцарыя",
       "ru": "Швейцария",
@@ -16453,7 +16399,7 @@ window.INITIAL_PLACES = [
       47.5564,
       7.5925
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Basler_M%C3%BCnster_2021.jpg/640px-Basler_M%C3%BCnster_2021.jpg",
+    "image": "",
     "description": {
       "by": "У велічным гатычным Базельскім кафедральным саборы ў 1431–1449 гг. праходзіў сусветны Базельскі сабор. У 1433–1434 гг. сюды прыбыло ўрачыстае дыпламатычнае пасольства Вялікага Княства Літоўскага, накіраванае вялікім князем літоўскім Свідрыгайлам і мітрапалітам Кіеўскім і ўсяе Русі Герасімам. Пасольства дамаглося міжнароднага прызнання самастойнасці ВКЛ і вяло перамовы аб царкоўнай уніі, замацаваўшы высокі еўрапейскі статус беларуска-літоўскай дзяржавы.",
       "ru": "В Базельском соборе заседал Вселенский собор. В 1433–1434 гг. сюда прибыло официальное посольство Великого Княжества Литовского от великого князя Свидригайло и митрополита Герасима, добившееся признания суверенитета ВКЛ в европейской политике.",
@@ -16489,7 +16435,7 @@ window.INITIAL_PLACES = [
       45.4069,
       11.8778
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Palazzo_del_Bo_Padova_cortile.jpg/640px-Palazzo_del_Bo_Padova_cortile.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Cortile_interno_di_Palazzo_Bo.jpg/960px-Cortile_interno_di_Palazzo_Bo.jpg",
     "description": {
       "by": "Гістарычны галоўны корпус Падуанскага ўніверсітэта (заснаванага ў 1222 г.). Тут у 1512 годзе Францыск Скарына бліскуча абараніў ступень доктара лекарскіх навук (яго партрэт упрыгожвае Залу Сарака). У двары і галерэях Палацца Бо высечаны сотні студэнцкіх гербаў, у тым ліку прадстаўнікоў ВКЛ карпарацыі «Natio Ruthena et Lithuana»: Радзівілаў, Валовічаў, Сапегаў, Агрыпаў, якія атрымлівалі тут перадавую еўрапейскую адукацыю.",
       "ru": "Исторический центр Падуанского университета. Здесь в 1512 году Франциск Скорина защитил степень доктора медицинских наук. Во дворе Палаццо Бо сохранились гербы студентов из ВКЛ (корпорация Natio Ruthena et Lithuana) — Радзивиллов, Воловичей, Сапег.",
@@ -16530,7 +16476,7 @@ window.INITIAL_PLACES = [
       50.0617,
       19.9339
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Krak%C3%B3w_Collegium_Maius_dziedziniec.jpg/640px-Krak%C3%B3w_Collegium_Maius_dziedziniec.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Herb_Uniwersytetu_Jagiello%C5%84skiego.svg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Студэнцкая рэзідэнцыя (бурса), заснаваная ў 1397 годзе каралевай Ядвігай пры Кракаўскім універсітэце адмыслова для выхадцаў з Вялікага Княства Літоўскага і Русі (Bursa Litwanorum / Bursa Pauperum на вул. Вісьльнай). Тут жылі і рыхтаваліся да заняткаў першыя беларускія студэнты, у тым ліку Францыск Скарына падчас свайго навучання ў Кракаве (1504–1506).",
       "ru": "Студенческое общежитие, основанное в 1397 году королевой Ядвигой при Краковском университете специально для студентов из ВКЛ и Руси. Здесь жили первые белорусские студенты, включая Франциска Скорину в 1504–1506 годах.",
@@ -16569,7 +16515,7 @@ window.INITIAL_PLACES = [
       48.6583,
       30.7783
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pamyatnyk_Syni_Vody.jpg/640px-Pamyatnyk_Syni_Vody.jpg",
+    "image": "",
     "description": {
       "by": "Поле славутай бітвы восені 1362 года каля ракі Сінюха (Сінія Воды). Аб'яднанае беларуска-літоўскае войска Вялікага Княства Літоўскага пад кіраўніцтвам вялікага князя Альгерда ўшчэнт разграміла войскі трох татарскіх кіраўнікоў (Хачыбея, Кутлубугі і Дзмітрыя). Гэтая эпахальная перамога вызваліла Кіеўшчыну, Падолле і Пераяслаўшчыну ад татарскага ярма і замацавала межы ВКЛ да Чорнага мора. На месцы бітвы ўсталяваны мемарыяльны памятны знак і крыж.",
       "ru": "Место битвы осени 1362 года на реке Синюхе. Войско ВКЛ под командованием великого князя Ольгерда разгромило войска трёх ордынских ханов, освободив Киевщину и Подолье от власти Золотой Орды. На месте битвы установлен мемориал.",
@@ -16647,7 +16593,7 @@ window.INITIAL_PLACES = [
       53.2097,
       23.3369
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Monaster_w_Supra%C5%9Blu_2020.jpg/640px-Monaster_w_Supra%C5%9Blu_2020.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Suprasl_monastyr_1.jpeg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Заснаваны ў 1498 г. маршалкам ВКЛ Аляксандрам Хадкевічам і праваслаўным архіепіскапам Іосіфам Солтанам. Галоўны храм — унікальны ўзор беларускай абарончай готыкі ВКЛ XVI стагоддзя з чатырма кутнімі байнічнымі вежамі і фрэскамі. Адзін з найважнейшых асяродкаў летапісання і кніжнасці ВКЛ (тут створаны Супрасльскі летапіс і доўгі час зберагаўся знакаміты Супрасльскі рукапіс XI ст. — помнік сусветнай спадчыны ЮНЕСКА).",
       "ru": "Основан в 1498 году маршалком ВКЛ Александром Ходкевичем. Уникальный шедевр оборонной готики Великого Княжества Литовского с четырьмя угловыми башнями. Крупнейший центр летописания ВКЛ, хранитель Супрасльской рукописи XI века (ЮНЕСКО).",
@@ -16686,7 +16632,7 @@ window.INITIAL_PLACES = [
       51.9142,
       23.6067
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Anny_w_Kodniu.JPG/640px-Ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Anny_w_Kodniu.JPG",
+    "image": "",
     "description": {
       "by": "Галоўная радавая рэзідэнцыя Сапегаў на Падляшшы на беразе Буга ля самай мяжы з Брэстам. У барочнай базіліцы Святой Ганны (1629–1635) зберагаецца цудатворны абраз Маці Божай Кодэньскай, вывезены Мікалаем Сапегам «Піем» з Рыма. У парку захаваліся валы замка Сапегаў і гатычная капліца Святога Духа (1530–1540) — выдатны помнік абарончага дойлідства ВКЛ.",
       "ru": "Родовая резиденция Сапег на Подляшье близ Бреста. Базилика Святой Анны хранит чудотворную икону Матери Божьей Коденьской, вывезенную Николаем Сапегой из Рима. Сохранилась замковая готическая каплица Святого Духа (1530-е гг.).",
@@ -16725,7 +16671,7 @@ window.INITIAL_PLACES = [
       54.5397,
       25.65
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Medininkai_castle_2013.JPG/640px-Medininkai_castle_2013.JPG",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/Medinink%C5%B3_pilis_i%C5%A1_dangaus_-_www.aerialmedia.tv_01.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Адзін з найбуйнейшых мураваных замкаў-кастэляў Вялікага Княства Літоўскага, пабудаваны ў першай палове XIV ст. вялікімі князямі Гедзімінам і Альгердам усяго за некалькі кіламетраў ад сучаснай мяжы з Ашмянскім раёнам. Меў велічныя сцены вышынёй да 15 метраў і чатыры вежы з галоўным данжонам. Цэнтр абароны Віленскай зямлі ад крыжакоў і рэзідэнцыя каралевіча Казіміра.",
       "ru": "Один из крупнейших каменных замков-кастелей ВКЛ XIV века, возведённый князьями Гедимином и Ольгердом у самой границы с современной Беларусью. Мощные стены высотой до 15 метров защищали Виленскую землю от крестоносцев.",
@@ -16764,7 +16710,7 @@ window.INITIAL_PLACES = [
       43.7686,
       11.2622
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Santa_Croce_-_Monumento_Oginski.jpg/440px-Santa_Croce_-_Monumento_Oginski.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Micha%C5%82_Kleafas_Aginski._%D0%9C%D1%96%D1%85%D0%B0%D0%BB_%D0%9A%D0%BB%D0%B5%D0%B0%D1%84%D0%B0%D1%81_%D0%90%D0%B3%D1%96%D0%BD%D1%81%D0%BA%D1%96_%28F._Fabre%2C_1805%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "У славутай базіліцы Санта-Крочэ ў Фларэнцыі — Пантэоне Італіі, дзе спачываюць Мікеланджэла, Галілей і Макіявелі — пахаваны выдатны дзяржаўны дзеяч ВКЛ і кампазітар Міхал Клеафас Агінскі (1765–1833), аўтар знакамітага паланэза «Развітанне з Радзімай». Мармуровы помнік Агінскаму з партрэтным барэльефам усталяваны ў капліцы Кастэлані.",
       "ru": "В знаменитой базилике Санта-Кроче во Флоренции (итальянском Пантеоне рядом с Микеланджело и Галилеем) покоится автор бессмертного полонеза «Прощание с Родиной» Михаил Клеофас Огинский. Мраморный памятник расположен в капелле Кастеллани.",
@@ -16803,7 +16749,7 @@ window.INITIAL_PLACES = [
       52.2439,
       21.0108
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Pomnik_Stanis%C5%82awa_Moniuszki_w_Warszawie.JPG/640px-Pomnik_Stanis%C5%82awa_Moniuszki_w_Warszawie.JPG",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Stanis%C5%82a%C5%AD_Maniu%C5%A1ka._%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0_%28T._Maleszewski%2C_1865%29.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Манументальны помнік стваральніку нацыянальнай класічнай оперы Станіславу Манюшку (1819–1872), ураджэнцу фальварка Убель пад Ігуменам (Чэрвенем). Усталяваны на Тэатральнай плошчы перад галоўным фасадам Нацыянальнай оперы Польшчы (Тэатра Вялікага), дзе Манюшка працаваў дырэктарам оперы і дзе адбыліся трыумфальныя пастаноўкі опер «Галька» і «Страшны двор».",
       "ru": "Памятник создателю национальной классической оперы Станиславу Монюшко, уроженцу имения Убель под Минском. Расположен на Театральной площади перед Большим театром, где композитор руководил оперной труппой.",
@@ -16972,7 +16918,7 @@ window.INITIAL_PLACES = [
       48.8317,
       2.2989
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/La_Ruche%2C_passage_de_Dantzig%2C_Paris_15e.jpg/640px-La_Ruche%2C_passage_de_Dantzig%2C_Paris_15e.jpg",
+    "image": "",
     "description": {
       "by": "Знакаміты фаланстэр мастакоў Манпарнаса ў 15-й акрузе Парыжа (Passage de Dantzig, 2). Менавіта тут, у круглым трохпавярховым ратондавым будынку, знаходзіліся майстэрні выхадцаў з Беларусі — зорных майстроў Парыжскай школы: Марка Шагала, Хаіма Суціна, Восіпа Цадкіна, Пінхуса Крэменя і Міхаіла Кікоіна. Тут нараджаліся шэдэўры сусветнага экспрэсіянізму і авангарда.",
       "ru": "Знаменитый фаланстер художников на Монпарнасе в Париже. В «Улье» жили и работали уроженцы Беларуси, ставшие лидерами Парижской школы: Марк Шагал, Хаим Сутин, Осип Цадкин, Пинхус Кремень и Михаил Кикоин.",
@@ -17013,7 +16959,7 @@ window.INITIAL_PLACES = [
       48.8394,
       2.3275
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Tombe_Chaim_Soutine.JPG/640px-Tombe_Chaim_Soutine.JPG",
+    "image": "",
     "description": {
       "by": "На знакамітых могілках Манпарнас у Парыжы пахаваны адзін з найвялікшых жывапісцаў-экспрэсіяністаў XX стагоддзя Хаім Суцін (1893–1943), ураджэнец мястэчка Смілавічы пад Мінскам. Помнік мастаку з'яўляецца месцам паломніцтва аматараў мастацтва з усяго свету.",
       "ru": "На знаменитом кладбище Монпарнас в Париже похоронен гений экспрессионизма Хаим Сутин (1893–1943), уроженец Смиловичей под Минском.",
@@ -17051,7 +16997,7 @@ window.INITIAL_PLACES = [
       48.8953,
       2.315
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Leon_Bakst_grave_Batignolles.jpg/640px-Leon_Bakst_grave_Batignolles.jpg",
+    "image": "",
     "description": {
       "by": "На Баціньёльскіх могілках у Парыжы спачывае геніяльны сцэнограф, мадэльер і мастак Леон Бакст (Лейб-Хаім Розенберг, 1866–1924), які нарадзіўся ў Гродне. Ягоныя касцюмы і дэкарацыі для «Рускіх сезонаў» Дзягілева ў Парыжы зрабілі рэвалюцыю ў сусветным тэатральным і дэкаратыўным мастацтве і дызайне.",
       "ru": "На Батиньольском кладбище в Париже похоронен гениальный театральный художник и модельер Леон Бакст (1866–1924), родившийся в Гродно. Декорации Бакста для «Русских сезонов» Дягилева произвели мировую революцию в сценографии.",
@@ -17089,7 +17035,7 @@ window.INITIAL_PLACES = [
       51.9189,
       4.4828
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/De_Verwoeste_Stad_Rotterdam.jpg/640px-De_Verwoeste_Stad_Rotterdam.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/Rotterdam_%28Niederlande%29-Ossip_ZADKINE_Die_zerst%C3%B6rte_Stadt_151.36.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "description": {
       "by": "Сусветна знакаміты бронзавы манумент «De Verwoeste Stad» (вышынёй 6 метраў), створаны ўраджэнцам Віцебска скульптарам Восіпам Цадкінам і адкрыты ў 1953 г. на плошчы Плейн 1940. Экспрэсіўная постаць з вырваным сэрцам увасабляе трагедыю Ратэрдама, знішчанага нацысцкімі бамбардзіроўкамі 1940 года. Адзін з найвялікшых антываенных помнікаў сусветнага мастацтва XX стагоддзя.",
       "ru": "Всемирно известный монумент уроженца Витебска скульптора Осипа Цадкина «Разрушенный город» (1953) в Роттердаме. Экспрессивная шестиметровая фигура с вырванным сердцем признана одним из величайших антивоенных памятников XX века.",
@@ -17128,7 +17074,7 @@ window.INITIAL_PLACES = [
       48.8431,
       2.3339
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Mus%C3%A9e_Zadkine_Paris_garden.jpg/640px-Mus%C3%A9e_Zadkine_Paris_garden.jpg",
+    "image": "",
     "description": {
       "by": "Мемарыяльны дом і сад скульптур на Манпарнасе, дзе віцебскі майстар Восіп Цадкін жыў і тварыў з 1928 года да сваёй смерці ў 1967 г. Экспануюцца арыгінальныя скульптуры з дрэва, мармуру і бронзы, гуашы і фатаграфіі скульптара, які захаваў памяць пра Віцебск і Дзвіну на ўсё жыццё.",
       "ru": "Дом-мастерская и сад скульптур Осипа Цадкина на Монпарнасе в Париже, где скульптор работал с 1928 по 1967 год. В коллекции музея — более 300 скульптур, гуашей и рисунков уроженца Витебска.",
@@ -17167,7 +17113,7 @@ window.INITIAL_PLACES = [
       50.0983,
       8.2325
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Barys_Kit_%28Boris_Kit%29.jpg/440px-Barys_Kit_%28Boris_Kit%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%D0%91%D0%B0%D1%80%D1%8B%D1%81_%D0%9A%D1%96%D1%82_105.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "На гістарычных могілках на гары Нераберг у нямецкім Вісбадэне спачывае выдатны беларускі і амерыканскі вучоны-астранаўт Барыс Кіт (1910–2018). На ягоным надмагіллі высечаны словы «Я жыў і працаваў для Беларусі» і выяўлены бел-чырвона-белы сцяг.",
       "ru": "На кладбище на горе Нероберг в Висбадене похоронен выдающийся белорусско-американский учёный в области астронавтики Борис Кит (1910–2018). На памятнике высечен бело-красно-белый флаг.",
@@ -17205,7 +17151,7 @@ window.INITIAL_PLACES = [
       54.7214,
       25.2131
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Vilna_Gaon_grave_Vilnius.jpg/640px-Vilna_Gaon_grave_Vilnius.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vilna_Gaon%2C_Winograd_picture.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Маўзалей (огель) найвялікшага духоўнага аўтарытэта літвакоў — Віленскага Гаона (Эліяху бен Шлома Залмана, 1720–1797), ураджэнца вёскі Сялец на Берасцейшчыне. Месца міжнароднага духоўнага паломніцтва вернікаў і навукоўцаў з усяго свету. Таксама ў Вільні на вул. Жыду ўсталяваны помнік і мемарыяльная дошка Гаону.",
       "ru": "Огель (мавзолей) духовного лидера литваков Виленского Гаона, родившегося в местечке Селец на Брестчине. Место паломничества верующих со всего мира.",
@@ -17244,7 +17190,7 @@ window.INITIAL_PLACES = [
       31.7511,
       35.2158
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Eliezer_Ben-Yehuda.jpg/440px-Eliezer_Ben-Yehuda.jpg",
+    "image": "",
     "description": {
       "by": "Дом-музей «Бейт Бэн-Егуда» ў Іерусаліме (раён Тальпіёт) прысвечаны жыццю і подзвігу ўраджэнца вёскі Лужкі на Віцебшчыне Эліэзера Бэн-Егуды (1858–1922). Тут прадстаўлены ягоны працоўны кабінет, рукапісы 16-томнага слоўніка і дакументы адраджэння іўрыту. Сам Бэн-Егуда пахаваны на Алейнай (Маслічнай) гары ў Іерусаліме.",
       "ru": "Дом-музей «Бейт Бен-Йехуда» в Иерусалиме посвящён подвигу уроженца Витебщины Элиэзера Бен-Йехуды, возродившего современный иврит. Похоронен на Масличной горе.",
@@ -17283,7 +17229,7 @@ window.INITIAL_PLACES = [
       42.3761,
       -71.1189
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Simon_Kuznets.jpg/440px-Simon_Kuznets.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Simon_Kuznets_1971b.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "У будынку Littauer Center у Гарвардскім універсітэце (Кембрыдж, Масачусетс) выкладаў і праводзіў фундаментальныя даследаванні Нобелеўскі лаўрэат па эканоміцы Сайман Кузнец (1901–1985), ураджэнец Пінска. Тут ён распрацоўваў тэорыю эканамічнага росту і метрыкі нацыянальнага даходу, якія вызначылі сучасную сусветную макраэканоміку.",
       "ru": "В здании Littauer Center Гарвардского университета преподавал нобелевский лауреат по экономике Саймон Кузнец, родившийся в Пинске. Здесь он создал основы современных национальных счетов и концепцию ВВП.",
@@ -17321,7 +17267,7 @@ window.INITIAL_PLACES = [
       46.4444,
       30.7289
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mendele_Mocher_Sforim_1910.jpg/440px-Mendele_Mocher_Sforim_1910.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Mendele_Mos_big.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "У Адэсе пахаваны «дзядуля яўрэйскай літаратуры» Мендэле Мойхер-Сфорым (Шолем-Якаў Абрамовіч, 1836–1917), які нарадзіўся ў мястэчку Капыль на Міншчыне. Заснавальнік сучаснай класічнай прозы на ідышы і іўрыце, які ўславіў у сваіх творах духоўны свет і побыт беларускага мястэчка.",
       "ru": "В Одессе похоронен уроженец Копыля Менделе Мойхер-Сфорим (1836–1917) — классик и основоположник литературы на идише и иврите.",
@@ -17359,7 +17305,7 @@ window.INITIAL_PLACES = [
       53.1344,
       23.1691
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ulica_Warszawska_w_Bia%C5%82ymstoku.jpg/640px-Ulica_Warszawska_w_Bia%C5%82ymstoku.jpg",
+    "image": "",
     "description": {
       "by": "Гістарычная галоўная сядзіба Беларускага грамадска-культурнага таварыства ў Польшчы (БГКТ), заснаванага ў 1956 годзе. Найстарэйшая дзеючая арганізацыя беларускай нацыянальнай меншасці ў Польшчы. На працягу дзесяцігоддзяў гэты будынак на вуліцы Варшаўскай з'яўляецца цэнтрам грамадскага, культурнага і асветніцкага жыцця беларусаў Падляшша, арганізатарам агульнапольскіх фестываляў беларускай песні і літаратурных сустрэч.",
       "ru": "Главная штаб-квартира Белорусского общественно-культурного общества в Польше (БОКО / БГКТ), созданного в 1956 году. Старейшая организация белорусского меньшинства в Польше, центр культурной жизни Подляшья.",
@@ -17395,7 +17341,7 @@ window.INITIAL_PLACES = [
       53.1317,
       23.1594
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tygodnik_Niwa_logo.png/440px-Tygodnik_Niwa_logo.png",
+    "image": "",
     "description": {
       "by": "Рэдакцыя найстарэйшага і найбуйнейшага беларускага штотыднёвіка «Ніва», які няспынна выдаецца ў Беластоку з 1956 года чыстай беларускай літаратурнай мовай. Галоўны летапіс і інтэлектуальны асяродак беларусаў Польшчы, пры якім паўстала Беларускае літаратурнае аб'яднанне «Белавежа» (Сакрат Яновіч, Надзея Артымовіч, Віталь Луба, Яўген Вапа). Пры рэдакцыі дзейнічае знанае кніжнае выдавецтва.",
       "ru": "Редакция старейшего еженедельника белорусов Польши «Нива», издающегося с 1956 года на белорусском языке. Летопись белорусской жизни Подляшья, колыбель литературного объединения «Беловежа» (Сократ Янович).",
@@ -17431,7 +17377,7 @@ window.INITIAL_PLACES = [
       53.1332,
       23.1633
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ignacy_Hryniewiecki.jpg/440px-Ignacy_Hryniewiecki.jpg",
+    "image": "",
     "description": {
       "by": "Гістарычны будынак Беластоцкай гімназіі (пазней Беластоцкае рэальнае вучылішча, цяпер VI LO імя Жыгімонта Аўгуста на вул. Касцельнай). Тут навучаліся выдатныя дзеячы: лепшы выпускнік 1875 г. Ігнат Грынявіцкі (нарадаволец, які здзейсніў замах на цара Аляксандра II і ствараў беларускую фракцыю арганізацыі); палкоўнік Мікалай Дзямідаў (выпускнік 1910 г., камендант Гродна ад БНР, камандзір Беларускага асобнага батальёна); і стваральнік эсперанта Людвік Заменгоф.",
       "ru": "Историческое здание Белостокской гимназии (ныне VI лицей). Здесь учились: лучший выпускник 1875 года Игнатий Гриневицкий (народоволец, совершивший покушение на Александра II); комендант Гродно от БНР полковник Николай Демидов (выпускник 1910 года); создатель эсперанто Людвик Заменгоф.",
@@ -17508,7 +17454,7 @@ window.INITIAL_PLACES = [
       52.7431,
       23.5822
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/II_Liceum_Og%C3%B3lnokszta%C5%82c%C4%85ce_w_Hajn%C3%B3wce.jpg/640px-II_Liceum_Og%C3%B3lnokszta%C5%82c%C4%85ce_w_Hajn%C3%B3wce.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/LO_z_DNJB_w_Hajn%C3%B3wce.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Агульнаадукацыйны ліцэй з дадатковым навучаннем беларускай мовы ў Гайнаўцы (вул. Пілсудскага 3), заснаваны ў 1949 годзе. Адзін з двух унікальных ліцэяў у Польшчы, дзе ўсе вучні вывучаюць беларускую мову, літаратуру і гісторыю. Сярод выпускнікоў — сотні беларускіх дзеячаў, навукоўцаў, журналістаў і педагогаў Польшчы. Асяродак рэгіянальнага конкурсу «Зорка» і моладзевай беларускай культуры.",
       "ru": "Общеобразовательный лицей с дополнительным обучением белорусскому языку в Гайновке, основанный в 1949 году. Один из двух белорусских лицеев в Польше, где поколения учеников изучают белорусский язык, литературу и историю.",
@@ -17768,7 +17714,7 @@ window.INITIAL_PLACES = [
       48.8614,
       2.3965
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/P%C3%A8re-Lachaise_-_Division_76_-_Wroblewski_03.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/P%C3%A8re-Lachaise_-_Division_59_-_Abramtchik_01.jpg/960px-P%C3%A8re-Lachaise_-_Division_59_-_Abramtchik_01.jpg",
     "description": {
       "by": "Сусветна вядомыя могілкі Пер-Лашэз (Cimetière du Père-Lachaise, 20-я акруга Парыжа) з'яўляюцца найважнейшым мемарыяльным месцам беларускай гісторыі ў Францыі. Тут спачываюць выбітныя дзеячы розных эпох: кіраўнік паўстання 1863 года і генерал Парыжскай камуны Валерый Урублеўскі (сект. 76), Прэзідэнт Рады Беларускай Народнай Рэспублікі Мікола Абрамчык і яго жонка пісьменніца Ніна Абрамчык (сект. 59), паўстанцы генералы Тадэвуш Тышкевіч (сект. 54) і Адам Цітус Пуслоўскі (сект. 26), мастак Парыжскай школы родам з Брэста Якаў Балглей, паэт з Глыбокага Мікалай Мінскі, а таксама жонка Бальзака графіня Эвеліна Ганская з роду Жавускіх (сект. 48).",
       "ru": "Знаменитое кладбище Пер-Лашез в Париже хранит память о выдающихся уроженцах Беларуси: генерале восстания 1863 года и Парижской коммуны Валерии Врублевском (сект. 76), Президенте Рады БНР Николае Абрамчике и его супруге Нине Абрамчик (сект. 59), генерале Тадеуше Тышкевиче (сект. 54), повстанце Адаме Тите Пусловском (сект. 26), художнике Парижской школы Якове Балглее, поэте Николае Минском и супруге Бальзака Эвелине Ганской (Ржевуской) (сект. 48).",
@@ -17825,7 +17771,7 @@ window.INITIAL_PLACES = [
         "personId": "mikola-abramchyk",
         "year": "1970",
         "description": "Сектар 59 (Division 59). Месца спачыну Старшыні (Прэзідэнта) Рады Беларускай Народнай Рэспублікі ў 1943–1970 гг. і яго жонкі, пісьменніцы і сакратаркі Рады БНР Ніны Абрамчык (Ляўковіч). На надмагіллі высечана: «Président du Conseil de la République Populaire Biélorussienne».",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/P%C3%A8re-Lachaise_-_Division_59_-_Abramtchik_01.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/P%C3%A8re-Lachaise_-_Division_59_-_Abramtchik_01.jpg/500px-P%C3%A8re-Lachaise_-_Division_59_-_Abramtchik_01.jpg"
       },
       {
         "title": "Магіла генерала графа Тадэвуша Тышкевіча",
@@ -18457,7 +18403,7 @@ window.INITIAL_PLACES = [
       "ru": "Адрес: станция Новочунка, Чунский район, Иркутская область.\n\nЗдесь в лагерном госпитале Озерлага 13 февраля 1952 г. погиб архимандрит Андрей Цикото, генеральный настоятель мариан. На лагерном кладбище установлен памятный крест.",
       "en": "Address: Novochunka station, Chunsky district, Irkutsk oblast, Russia.\n\nHere in the Ozerlag Gulag hospital, Archimandrite Andrei Tsikota, Superior General of the Marian Fathers in Rome and head of the Harbin mission, died on February 13, 1952. A memorial cross was erected on the camp burial ground in 2003."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%D0%90%D0%B9%D1%86%D0%B5%D1%86_%D0%90%D0%BD%D0%B4%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%D0%90%D0%B9%D1%86%D0%B5%D1%86_%D0%90%D0%BD%D0%B4%D1%80%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Андрэй Цікота",
@@ -18800,7 +18746,7 @@ window.INITIAL_PLACES = [
       "ru": "Адрес: Schloßstraße 100, Bendorf-Sayn, Германия.\n\nВ неоготической капелле дворца Зайн находится саркофаг княгини Леониллы Барятинской (Витгенштейн, 1816–1918), владелицы Мирского замка и владений Радзивиллов в Беларуси.",
       "en": "Address: Schloßstraße 100, Bendorf-Sayn, Germany.\n\nThe Neo-Gothic chapel of Sayn Palace contains the marble tomb of Princess Leonilla of Sayn-Wittgenstein-Sayn (1816–1918), mistress of Mir Castle and vast Radziwiłł estates in Belarus."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Schloss_Sayn_2011.jpg/1280px-Schloss_Sayn_2011.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Sayn_mit_Burg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Schloss Sayn",
@@ -18976,7 +18922,7 @@ window.INITIAL_PLACES = [
       "ru": "Адрес: Stanisława Kostki Potockiego 1, Warszawa.\n\nФамильная усыпальница князей Радзивиллов в костёле Святой Анны в Вилянуве. Здесь похоронен князь Януш Радзивилл (1880–1967) и члены его семьи.",
       "en": "Address: St. Anne's Church, Wilanów, Warsaw.\n\nThe family crypt and burial chapel of the Radziwiłł princes at Wilanów. Holds the tombs of Prince Janusz Franciszek Radziwiłł (1880–1967) and his relatives."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Kosciol_sw_Anny_w_Wilanowie.jpg/800px-Kosciol_sw_Anny_w_Wilanowie.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/80/COA_Tr%C4%85by.svg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "links": [
       {
         "title": "Вікіпедыя: Радзівілы",
@@ -19072,7 +19018,7 @@ window.INITIAL_PLACES = [
       53.1332,
       23.1678
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Warszawska_11_Bialystok.jpg/960px-Warszawska_11_Bialystok.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Siedziba_BTSK_na_ulicy_Warszawskiej_11_w_Bia%C5%82ymstoku.JPG?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Гістарычная штаб-кватэра Беларускага грамадска-культурнага таварыства ў Польшчы (вул. Варшаўская 11, Беласток). БГКТ было заснаванае ў 1956 годзе і стала найстарэйшай і найбуйнейшай арганізацыяй беларускай меншасці ў паваеннай Польшчы. Тут дзейнічалі выдавецтвы, ладзіліся фестывалі песні, выставы беларускіх мастакоў і грамадскія імпрэзы.",
       "ru": "Историческая штаб-квартира Белорусского общественно-культурного общества в Польше (ул. Варшавская 11, Белосток). Старейшая организация белорусского меньшинства в Польше, основана в 1956 г.",
@@ -19116,7 +19062,7 @@ window.INITIAL_PLACES = [
       52.7423,
       23.5781
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hajnowka_-_Muzeum_i_Osrodek_Kultury_Bialoruskiej_01.jpg/960px-Hajnowka_-_Muzeum_i_Osrodek_Kultury_Bialoruskiej_01.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Hajnowka_Muzeum_Kultury_Bialoruskiej_2.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
       "by": "Музей і асяродак беларускай культуры (вул. 3 Мая 42, Гайнаўка) — унікальная музейная ўстанова, прысвечаная гісторыі, традыцыйнаму побыту, рамёствам і мастацтву беларусаў Падляшша. У музеі дзейнічаюць экспазіцыі традыцыйнага ткацтва, ганчарства, кавальства, а таксама сучасная мастацкая галерэя і бібліятэка.",
       "ru": "Музей белорусской культуры в Гайновке (ул. 3 Мая 42) — уникальный музей традиционного быта, ремесел и искусства белорусов Подляшья.",
@@ -19160,7 +19106,7 @@ window.INITIAL_PLACES = [
       51.5542,
       -0.1195
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/52_Penn_Road_London.jpg/960px-52_Penn_Road_London.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/ZBVB_ABGB_plaque.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "description": {
       "by": "Беларускі дом у Лондане (52 Penn Road, London N7 9RE) — галоўны асяродак беларускага грамадскага і культурнага жыцця ў Вялікабрытаніі з 1960 года. Тут месціцца Згуртаванне беларусаў у Вялікай Брытаніі (ЗБВБ, заснаванае ў 1946 г.), Англа-беларускае таварыства, праходзяць урачыстасці да Дня Волі і сустрэчы беларусаў брытанскай сталіцы.",
       "ru": "Белорусский дом в Лондоне (52 Penn Road) — центр общественной жизни диаспоры с 1960 г. Штаб-квартира Объединения белорусов Великобритании (ЗБВБ, осн. 1946).",
@@ -19248,7 +19194,7 @@ window.INITIAL_PLACES = [
       43.6596,
       -79.4422
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Toronto_St_Clarens_Belarusian_Church.jpg/960px-Toronto_St_Clarens_Belarusian_Church.jpg",
+    "image": "",
     "description": {
       "by": "Беларускі цэнтр і царква Жыровіцкай Божай Маці ў Таронта (524 Saint Clarens Ave, Toronto, ON M6H 3W7). Галоўная сядзіба Згуртавання беларусаў Канады (ЗБК, засн. 1948). Тут дзесяцігоддзямі дзейнічалі школа беларусаведы, моладзевыя суполкі, музейныя і выдавецкія праекты беларусаў Канады.",
       "ru": "Белорусский центр и церковь Жировичской Богоматери в Торонто (524 St Clarens Ave). Главный центр Объединения белорусов Канады (осн. 1948).",
@@ -19291,7 +19237,7 @@ window.INITIAL_PLACES = [
       50.0865,
       14.4162
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Klementinum_2011.jpg/960px-Klementinum_2011.jpg",
+    "image": "",
     "description": {
       "by": "Прага ў міжваенны час (1920–1940-я гг.) была сталіцай урада Беларускай Народнай Рэспублікі ў эміграцыі і цэнтрам беларускага студэнцтва. У гістарычным комплексе Клеменцінум (Klementinum) і архіўных установах Прагі размяшчаўся Беларускі загранічны архіў, дзе захоўваліся ўнікальныя дзяржаўныя дакументы БНР, зборы Пятра Крэчэўскага, Васіля Захаркі, грамадскіх і студэнцкіх суполак.",
       "ru": "В межвоенный период Прага была центром правительства БНР в эмиграции и белорусского студенчества. В комплексе Клементинум и архивах Праги размещался Белорусский заграничный архив с государственными документами БНР.",
@@ -19748,7 +19694,7 @@ window.INITIAL_PLACES = [
       "ru": "Постоянное представительство Беларуси при ООН (Нью-Йорк)",
       "en": "Permanent Mission of Belarus to the United Nations (New York)"
     },
-    "category": "culture",
+    "category": "embassy",
     "country": {
       "by": "ЗША",
       "ru": "США",
@@ -20302,5 +20248,1562 @@ window.INITIAL_PLACES = [
       "bona-sforza"
     ],
     "mustSee": true
+  },
+  {
+    "id": "lytham-hall-belarusian-timber",
+    "title": {
+      "by": "Сядзіба Лайтам-хол (палац з беларускага лесу)",
+      "ru": "Усадьба Лайтэм-холл (дворец из белорусского леса)",
+      "en": "Lytham Hall (Constructed with Belarusian Timber)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лайтам-Сент-Анс",
+      "ru": "Лайтэм-Сент-Анс",
+      "en": "Lytham St Annes"
+    },
+    "coordinates": [
+      53.7428,
+      -2.9818
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Lytham_Hall_01.jpg/960px-Lytham_Hall_01.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Lytham_Hall",
+    "source": "https://nashaniva.com/378830",
+    "description": {
+      "by": "Велічны ангельскі палац XVIII ст. у Ланкашыры, помнік вышэйшай катэгорыі (Grade I). Дэндрахраналагічныя даследаванні навукоўцаў (М. Ермахін, М. Зундэ, часопіс «Dendrochronologia») пацвердзілі, што драўляныя канструкцыі і кроквы палаца збудаваны з беларускай хвоі («рыжскай хвоі»), сплаўленай па Дзвіне і Дняпры.",
+      "ru": "Величественный английский особняк XVIII в. в Ланкашире (Grade I). Дендрохронологические исследования ученых подтвердили, что несущие конструкции возведены из белорусской сосны («рижской сосны»), сплавленной по Двине.",
+      "en": "Georgian country house in Lancashire (Grade I). Dendrochronological research confirmed that its roof timbers were built using 18th-century Belarusian pine ('Riga pine') shipped down the Dzvina and Dnieper rivers."
+    },
+    "tags": [
+      "спадчына",
+      "эканоміка",
+      "архітэктура",
+      "вкл",
+      "вялікабрытанія"
+    ]
+  },
+  {
+    "id": "danson-house-belarusian-timber",
+    "title": {
+      "by": "Сядзіба Дэнсан-хаўс (палац з беларускага лесу)",
+      "ru": "Усадьба Дэнсон-хаус (дворец из белорусского леса)",
+      "en": "Danson House (Constructed with Belarusian Timber)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лондан",
+      "ru": "Лондон",
+      "en": "London"
+    },
+    "coordinates": [
+      51.4552,
+      0.1293
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Danson_Mansion.jpg/960px-Danson_Mansion.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Danson_House",
+    "source": "https://nashaniva.com/378830",
+    "description": {
+      "by": "Шэдэўр паладыянскай архітэктуры ў Вялікім Лондане (Grade I), узведзены сэрам Робертам Тэйларам у 1766 г. Дэндрахраналагічны аналіз даказаў, што перакрыцці і бэлькі маёнтка выкананы з высакаякаснай беларускай драўніны эпохі Рэчы Паспалітай.",
+      "ru": "Шедевр палладианской архитектуры в Большом Лондоне (Grade I), построенный в 1766 г. Дендрохронологический анализ доказал, что балки и перекрытия выполнены из белорусского леса.",
+      "en": "Grade I listed Palladian mansion in Bexley, London, built in 1766 by Sir Robert Taylor. Dendrochronology established that its structural roof timbers came from historical Belarusian forests."
+    },
+    "tags": [
+      "спадчына",
+      "эканоміка",
+      "лондан",
+      "архітэктура",
+      "вялікабрытанія"
+    ]
+  },
+  {
+    "id": "riga-dannenstern-house-timber",
+    "title": {
+      "by": "Камяніца Данэнштэрна (лес з маёнткаў Чартарыйскіх)",
+      "ru": "Дом Данненштерна (лес из имений Чарторыйских)",
+      "en": "Dannenstern House (Timber from Czartoryski Belarusian Estates)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9452,
+      24.1086
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Dannensternhaus_Riga.JPG/960px-Dannensternhaus_Riga.JPG",
+    "wiki": "https://en.wikipedia.org/wiki/Dannenstern_House",
+    "source": "https://nashaniva.com/378830",
+    "description": {
+      "by": "Знакаміты барочны будынак XVII ст. у Старой Рызе (вул. Марсталю, 21), узведзены багатым гандляром Эрнстам Метсу фон Данэнштэрнам. Навуковы аналіз драўніны выявіў, што яна паходзіць з беларускіх маёнткаў князёў Чартарыйскіх і сплаўлялася па Заходняй Дзвіне.",
+      "ru": "Знаменитый барочный дом XVII века в Старой Риге (ул. Марсталю, 21). Исследование подтвердило, что несущие бревна доставлены из белорусских имений князей Чарторыйских сплавом по Западной Двине.",
+      "en": "Prominent 17th-century baroque merchant house in Old Riga. Dendrochronological dating proved that its massive timbers originated from the Belarusian estates of the Czartoryski princes."
+    },
+    "tags": [
+      "рыга",
+      "латвія",
+      "гандаль",
+      "дзвіна",
+      "чартарыйскія"
+    ]
+  },
+  {
+    "id": "reims-cathedral-chagall-stained-glass",
+    "title": {
+      "by": "Рэймскі сабор — вітражы Марка Шагала",
+      "ru": "Реймсский собор — витражи Марка Шагала",
+      "en": "Reims Cathedral — Marc Chagall Stained Glass Windows"
+    },
+    "category": "church",
+    "mustSee": true,
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Рэймс",
+      "ru": "Реймс",
+      "en": "Reims"
+    },
+    "coordinates": [
+      49.2537,
+      4.034
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Reims_-_Cath%C3%A9drale_Notre-Dame%2C_int%C3%A9rieur%2C_vitraux_de_Marc_Chagall_%284%29.jpg/960px-Reims_-_Cath%C3%A9drale_Notre-Dame%2C_int%C3%A9rieur%2C_vitraux_de_Marc_Chagall_%284%29.jpg",
+    "wiki": "https://fr.wikipedia.org/wiki/Cath%C3%A9drale_Notre-Dame_de_Reims",
+    "source": "https://nashaniva.com/399979",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Славутыя вітражы Марка Шагала ў вокнах восевай капліцы Рэймскага сабора (1974 г.), створаныя разам з рэймскімі майстрамі Шарлем Маркам і Брыжыт Сімон з аднаўленнем сярэднявечных тэхналогій XIII ст. Трохаконная кампазіцыя з непаўторным шагалаўскім сінім колерам спалучае біблейскую гісторыю (Аўраам, Дрэва Есея) і гісторыю каралёў Францыі.",
+      "ru": "Знаменитые витражи Марка Шагала в центральной капелле Реймсского собора (1974 г.), созданные в сотрудничестве с мастерами Симон-Марк с возрождением средневекового синего стекла XIII века.",
+      "en": "Masterpiece stained glass windows designed by Marc Chagall in the axial chapel of Reims Cathedral (1974), featuring the iconic 'Chagall blue' glass created in collaboration with the historic Simon-Marq workshop."
+    },
+    "tags": [
+      "шагал",
+      "вітражы",
+      "рэймс",
+      "юнеска",
+      "мастацтва"
+    ]
+  },
+  {
+    "id": "paris-opera-garnier-chagall-ceiling",
+    "title": {
+      "by": "Опера Гарнье — плафон Марка Шагала",
+      "ru": "Опера Гарнье — плафон Марка Шагала",
+      "en": "Palais Garnier (Paris Opera) — Marc Chagall Ceiling"
+    },
+    "category": "culture",
+    "mustSee": true,
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.8719,
+      2.3316
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Plafond_Chagall_Garnier.jpg/960px-Plafond_Chagall_Garnier.jpg",
+    "wiki": "https://fr.wikipedia.org/wiki/Op%C3%A9ra_Garnier",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Манументальны роспіс столі парыжскай Оперы Гарнье плошчай 220 кв. метраў, замоўлены міністрам культуры Андрэ Мальро і створаны Шагалам у 1964 годзе. Плафон прысвечаны 14 выдатным кампазітарам (Моцарт, Вагнер, Чайкоўскі, Равель, Стравінскі) і з'яўляецца сусветнай візітоўкай Парыжа.",
+      "ru": "Монументальный потолочный плафон Парижской оперы площадью 220 кв. м, созданный Марком Шагалом в 1964 г. по заказу Андре Мальро. Посвящен 14 композиторам.",
+      "en": "The iconic 220 sq.m painted ceiling of the Palais Garnier auditorium, commissioned by André Malraux and painted by Marc Chagall in 1964 as a tribute to 14 great composers."
+    },
+    "tags": [
+      "шагал",
+      "парыж",
+      "опера",
+      "мастацтва",
+      "плафон"
+    ]
+  },
+  {
+    "id": "metz-cathedral-chagall-stained-glass",
+    "title": {
+      "by": "Сабор Святога Стэфана ў Мецы — вітражы Марка Шагала",
+      "ru": "Собор Святого Стефана в Меце — витражи Марка Шагала",
+      "en": "Metz Cathedral — Marc Chagall Stained Glass"
+    },
+    "category": "church",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Мец",
+      "ru": "Мец",
+      "en": "Metz"
+    },
+    "coordinates": [
+      49.1202,
+      6.1755
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Metz_cathedrale_chagall_01.JPG/960px-Metz_cathedrale_chagall_01.JPG",
+    "wiki": "https://en.wikipedia.org/wiki/Metz_Cathedral",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Гатычны сабор у Мецы («Ліхтар Гасподні») змяшчае больш за 40 кв. метраў вітражоў Шагала (1960–1968 гг.) з біблейскімі сюжэтамі (Стварэнне свету, Сон Якава, Майсей, Цар Давід), якія напаўняюць храм містычным сінім і жоўтым святлом.",
+      "ru": "Готический собор Меца с витражами Шагала (1960–1968 гг.) на библейские темы, наполняющими неф мистическим сиянием.",
+      "en": "Famed stained glass windows in Metz Cathedral created by Chagall between 1960 and 1968 depicting Genesis, Exodus, and prophetic visions."
+    },
+    "tags": [
+      "шагал",
+      "мец",
+      "вітражы",
+      "готыка"
+    ]
+  },
+  {
+    "id": "jerusalem-hadassah-chagall-windows",
+    "title": {
+      "by": "Сінагога шпіталя Хадаса ў Ерусаліме — 12 вітражоў Шагала",
+      "ru": "Синагога больницы Хадасса в Иерусалиме — 12 витражей Шагала",
+      "en": "Hadassah Hospital Synagogue — Chagall's Twelve Tribes Windows"
+    },
+    "category": "church",
+    "mustSee": true,
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Ерусалім",
+      "ru": "Иерусалим",
+      "en": "Jerusalem"
+    },
+    "coordinates": [
+      31.7656,
+      35.1492
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Hadassah_Hospital_Jerusalem_Chagall_windows_Synagogue_BW_13.JPG/960px-Hadassah_Hospital_Jerusalem_Chagall_windows_Synagogue_BW_13.JPG",
+    "wiki": "https://en.wikipedia.org/wiki/Chagall_windows_(Jerusalem)",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Сусветна вядомыя 12 вітражоў у сінагозе медыцынскага цэнтра Хадаса ў Эйн-Керэме (1962 г.), прысвечаныя дванаццаці плямёнам (каленам) Ізраіля. Адзін з галоўных шэдэўраў сакральнага мастацтва XX стагоддзя.",
+      "ru": "12 всемирно известных витражей Шагала (1962 г.), посвященных двенадцати коленам Израилевым, в синагоге больницы Хадасса.",
+      "en": "Chagall's renowned Twelve Tribes of Israel stained glass windows (1962) in the Abbell Synagogue at Hadassah University Medical Center in Ein Kerem."
+    },
+    "tags": [
+      "шагал",
+      "ерусалім",
+      "ізраіль",
+      "вітражы",
+      "хадаса"
+    ]
+  },
+  {
+    "id": "jerusalem-knesset-chagall-hall",
+    "title": {
+      "by": "Кнесет Ізраіля — Заля Марка Шагала",
+      "ru": "Кнессет Израиля — Зал Марка Шагала",
+      "en": "The Knesset (Jerusalem) — Chagall State Hall"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Ерусалім",
+      "ru": "Иерусалим",
+      "en": "Jerusalem"
+    },
+    "coordinates": [
+      31.7767,
+      35.2054
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Knesset_Chagall_Hall.jpg/960px-The_Knesset_Chagall_Hall.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Knesset",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Урачыстая заля прыёмаў у парламенце Ізраіля (Кнесеце), упрыгожаная трыма гіганцкімі габеленамі, насценнай мазаікай «Сцяна плачу» і 12 мазаічнымі пано на падлозе, створанымі Маркам Шагалам у 1966–1969 гг.",
+      "ru": "Парадный зал в здании Кнессета с тремя гигантскими гобеленами, настенной мозаикой «Стена плача» и напольными мозаиками работы Марка Шагала.",
+      "en": "The State Hall of the Israeli Parliament (Knesset), featuring three monumental tapestries, a wall mosaic of the Western Wall, and 12 floor mosaics designed by Marc Chagall."
+    },
+    "tags": [
+      "шагал",
+      "кнесет",
+      "ерусалім",
+      "мазаіка",
+      "габелены"
+    ]
+  },
+  {
+    "id": "mainz-sankt-stephan-chagall-windows",
+    "title": {
+      "by": "Царква Святога Стэфана ў Майнцы — вітражы прымірэння Шагала",
+      "ru": "Церковь Святого Стефана в Майнце — витражи примирения Шагала",
+      "en": "St. Stephan's Church (Mainz) — Chagall Peace Windows"
+    },
+    "category": "church",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Майнц",
+      "ru": "Майнц",
+      "en": "Mainz"
+    },
+    "coordinates": [
+      49.9959,
+      8.2687
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Mainz-Stephanskirche-Chagallfenster.jpg/960px-Mainz-Stephanskirche-Chagallfenster.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/St._Stephan,_Mainz",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Дзевяць велічных блакітных вітражоў (1978–1985 гг.) у царкве Св. Стэфана ў Майнцы. Гэта адзіная праца Шагала ў нямецкіх храмах, якую мастак пагадзіўся выканаць на схіле гадоў як сімвал габрэйска-хрысціянскага прымірэння і міру пасля Другой сусветнай вайны.",
+      "ru": "Девять синих витражей (1978–1985 гг.) в церкви Св. Стефана в Майнце — единственная работа Шагала для немецкой церкви, созданная как символ еврейско-христианского примирения.",
+      "en": "Nine luminous blue stained glass windows created by Marc Chagall between 1978 and 1985 as a historic symbol of Jewish-Christian and German-Jewish reconciliation."
+    },
+    "tags": [
+      "шагал",
+      "майнц",
+      "германія",
+      "вітражы",
+      "прымірэнне"
+    ]
+  },
+  {
+    "id": "tudeley-all-saints-chagall-windows",
+    "title": {
+      "by": "Царква Усіх Святых у Т'юдлі — усе 12 вітражоў Марка Шагала",
+      "ru": "Церковь Всех Святых в Тьюдли — все 12 витражей Марка Шагала",
+      "en": "All Saints' Church, Tudeley — Complete Chagall Windows"
+    },
+    "category": "church",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Т'юдлі",
+      "ru": "Тьюдли",
+      "en": "Tudeley"
+    },
+    "coordinates": [
+      51.1884,
+      0.3347
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/All_Saints_Church_Tudeley_east_window.jpg/960px-All_Saints_Church_Tudeley_east_window.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/All_Saints'_Church,_Tudeley",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Адзіная царква ў свеце, дзе ВСЕ 12 акон аформлены вітражамі Марка Шагала (1967–1985 гг.) у графстве Кент. Прысвечаны памяці загінулай у 21 год Сары д'Авігдор-Голдсмід. Усходняе акно малюе дзяўчыну пад вадой, якую суцяшае анёл.",
+      "ru": "Единственная церковь в мире, где ВСЕ 12 окон выполнены Марком Шагалом (1967–1985 гг.) в память о Саре д'Авигдор-Голдсмид.",
+      "en": "The only church in the entire world where all twelve windows were designed by Marc Chagall, commissioned in memory of Sarah d'Avigdor-Goldsmid."
+    },
+    "tags": [
+      "шагал",
+      "вялікабрытанія",
+      "вітражы",
+      "кент"
+    ]
+  },
+  {
+    "id": "chicago-art-institute-chagall-windows",
+    "title": {
+      "by": "Чыкагскі інстытут мастацтваў і Чэйз-Плаза — «Вокны Амерыкі» і мазаіка «Чатыры пары года»",
+      "ru": "Чикагский институт искусств и Чейз-Плаза — «Окна Америки» и мозаика Шагала",
+      "en": "Art Institute of Chicago & Chase Tower Plaza — America Windows and Four Seasons"
+    },
+    "category": "culture",
+    "mustSee": true,
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Чыкага",
+      "ru": "Чикаго",
+      "en": "Chicago"
+    },
+    "coordinates": [
+      41.8796,
+      -87.6237
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Chagall_America_Windows.jpg/960px-Chagall_America_Windows.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/America_Windows",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Славутыя вітражы «Вокны Амерыкі» (America Windows, 1977 г., 36 панэляў у гонар свабоды і амерыканскага двухсотгоддзя) у Чыкагскім інстытуце мастацтваў, а таксама грандыёзная адкрытая чатырохбаковая мазаіка «Чатыры пары года» (The Four Seasons, 1974 г., 21 метр даўжынёй) на плошчы Chase Tower Plaza ў цэнтры Чыкага.",
+      "ru": "Знаменитые витражи «Окна Америки» (1977 г.) в Чикагском институте искусств и грандиозная 21-метровая уличная мозаика «Четыре времени года» (1974 г.) на Chase Tower Plaza.",
+      "en": "The celebrated America Windows (1977) at the Art Institute of Chicago, and the monumental 70-foot outdoor mosaic 'The Four Seasons' (1974) at Chase Tower Plaza."
+    },
+    "tags": [
+      "шагал",
+      "чыкага",
+      "зша",
+      "вітражы",
+      "мазаіка"
+    ]
+  },
+  {
+    "id": "new-york-met-opera-chagall-murals",
+    "title": {
+      "by": "Метрапалітэн-опера (Лінкальн-цэнтр) — насценныя пано Марка Шагала",
+      "ru": "Метрополитен-опера (Линкольн-центр) — монументальные панно Марка Шагала",
+      "en": "Metropolitan Opera House (Lincoln Center) — Chagall Murals"
+    },
+    "category": "culture",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Нью-Ёрк",
+      "ru": "Нью-Йорк",
+      "en": "New York"
+    },
+    "coordinates": [
+      40.7729,
+      -73.9845
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Metropolitan_Opera_House_Lincoln_Center_September_2021_004.jpg/960px-Metropolitan_Opera_House_Lincoln_Center_September_2021_004.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Metropolitan_Opera_House_(Lincoln_Center)",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Два гіганцкія палатна памерам 9х11 метраў «Вытокі музыкі» і «Трыумф музыкі» (1966 г.), упрыгожваюць параднае фае опернага тэатра Метрапалітэн-опера ў Лінкальн-цэнтры Нью-Ёрка. Іх відаць праз шкляны фасад будынка з плошчы.",
+      "ru": "Два гигантских панно (9х11 м) «Источники музыки» и «Триумф музыки» (1966 г.), украшающие парадное фойе театра Метрополитен-опера в Линкольн-центре.",
+      "en": "Two colossal murals (30x36 ft), 'The Sources of Music' and 'The Triumph of Music' (1966), adorning the grand lobby of the Metropolitan Opera House at Lincoln Center."
+    },
+    "tags": [
+      "шагал",
+      "нью-ёрк",
+      "опера",
+      "зша",
+      "мастацтва"
+    ]
+  },
+  {
+    "id": "saint-paul-de-vence-chagall-grave",
+    "title": {
+      "by": "Сэн-Поль-дэ-Ванс — магіла Марка Шагала і мазаіка Fondation Maeght",
+      "ru": "Сен-Поль-де-Ванс — могила Марка Шагала и мозаика Fondation Maeght",
+      "en": "Saint-Paul-de-Vence — Chagall's Grave and Maeght Foundation Mosaic"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Сэн-Поль-дэ-Ванс",
+      "ru": "Сен-Поль-де-Ванс",
+      "en": "Saint-Paul-de-Vence"
+    },
+    "coordinates": [
+      43.6953,
+      7.1226
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tombe_de_Marc_Chagall.jpg/960px-Tombe_de_Marc_Chagall.jpg",
+    "wiki": "https://fr.wikipedia.org/wiki/Saint-Paul-de-Vence",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Жывапіснае праванскае мястэчка, дзе Марк Шагал жыў апошнія два дзесяцігоддзі і дзе ён пахаваны на вясковых могілках побач з жонкай Валянцінай (Вавай). Непадалёк у музеі сучаснага мастацтва Fondation Maeght знаходзіцца вялікая насценная мазаіка Шагала «Закаханыя» (Les Amoureux, 1968 г.).",
+      "ru": "Прованский городок, где Марк Шагал прожил последние два десятилетия и похоронен на местном кладбище. Рядом в музее Fondation Maeght расположена его настенная мозаика «Влюбленные» (1968).",
+      "en": "The picturesque Provençal village where Marc Chagall spent his final decades and is buried at the local cemetery. Nearby at Fondation Maeght is his monumental wall mosaic 'The Lovers' (1968)."
+    },
+    "tags": [
+      "шагал",
+      "магіла",
+      "францыя",
+      "мазаіка",
+      "пахаванне"
+    ]
+  },
+  {
+    "id": "amsterdam-stedelijk-chagall",
+    "title": {
+      "by": "Гарадскі музей Амстэрдама (Stedelijk Museum) — калекцыя Марка Шагала",
+      "ru": "Городской музей Амстердама (Стеделейк) — коллекция Марка Шагала",
+      "en": "Stedelijk Museum Amsterdam — Chagall Masterpiece Collection"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Нідэрланды",
+      "ru": "Нидерланды",
+      "en": "Netherlands"
+    },
+    "city": {
+      "by": "Амстэрдам",
+      "ru": "Амстердам",
+      "en": "Amsterdam"
+    },
+    "coordinates": [
+      52.3581,
+      4.8799
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Stedelijk_Museum_Amsterdam_%282012%29.JPG/960px-Stedelijk_Museum_Amsterdam_%282012%29.JPG",
+    "wiki": "https://en.wikipedia.org/wiki/Stedelijk_Museum_Amsterdam",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Адзін з галоўных еўрапейскіх музеяў сучаснага мастацтва захоўвае знакамітыя шэдэўры Шагала віцебскага і раннепарыжскага перыяду, у тым ліку палотны «Аўтапартрэт з сямю пальцамі» (1912–1913 гг.), «Скрыпач» (1912 г.), «Цяжарная жанчына» і «Сінагога ў Цфаце».",
+      "ru": "Один из ведущих европейских музеев современного искусства хранит шедевры Шагала: «Автопортрет с семью пальцами» (1912–1913), «Скрипач» (1912) и др.",
+      "en": "Premier Dutch modern art museum holding major Chagall masterpieces including 'Self-Portrait with Seven Fingers' (1912–13), 'The Fiddler' (1912), and 'The Synagogue at Safed'."
+    },
+    "tags": [
+      "шагал",
+      "амстэрдам",
+      "нідэрланды",
+      "музей",
+      "жывапіс"
+    ]
+  },
+  {
+    "id": "basel-kunstmuseum-chagall",
+    "title": {
+      "by": "Мастацкі музей Базеля (Kunstmuseum Basel) — калекцыя Марка Шагала",
+      "ru": "Художественный музей Базеля — коллекция Марка Шагала",
+      "en": "Kunstmuseum Basel — Marc Chagall Collection"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Базель",
+      "ru": "Базель",
+      "en": "Basel"
+    },
+    "coordinates": [
+      47.554,
+      7.5942
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kunstmuseum_Basel_Neubau_2016.jpg/960px-Kunstmuseum_Basel_Neubau_2016.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Kunstmuseum_Basel",
+    "personIds": [
+      "marc-chagall"
+    ],
+    "description": {
+      "by": "Найстарэйшы публічны музей Еўропы валодае адной з найлепшых калекцый шэдэўраў Шагала, у тым ліку культавымі карцінамі «Гандляр скацінай» (Le Marchand de bestiaux, 1912 г.), «Драбка табакі» (1912 г.), а таксама малюнкамі і эскізамі.",
+      "ru": "Базельский художественный музей владеет одной из лучших европейских коллекций ранних шедевров Шагала: «Торговец скотом» (1912), «Щепотка табака» (1912) и др.",
+      "en": "One of the most important European museum collections of Chagall's early masterworks, featuring 'The Cattle Dealer' (1912), 'The Pinch of Snuff', and key avant-garde studies."
+    },
+    "tags": [
+      "шагал",
+      "базель",
+      "швейцарыя",
+      "музей",
+      "жывапіс"
+    ]
+  },
+  {
+    "id": "yalta-bahdanovich-grave",
+    "title": {
+      "by": "Магіла і помнік Максіма Багдановіча ў Ялце",
+      "ru": "Могила и памятник Максима Богдановича в Ялте",
+      "en": "Grave and Monument of Maksim Bahdanovich in Yalta"
+    },
+    "category": "grave",
+    "mustSee": true,
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Ялта",
+      "ru": "Ялта",
+      "en": "Yalta"
+    },
+    "coordinates": [
+      44.5019,
+      34.1772
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.jpg/960px-%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D0%B0_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%B0.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Максім_Багдановіч",
+    "personIds": [
+      "maksim-bahdanovich"
+    ],
+    "description": {
+      "by": "Магіла класіка беларускай літаратуры Максіма Багдановіча на Старых гарадскіх могілках у Ялце (вул. Палікураўская). Сюды хворы на сухоты паэт прыехаў лячыцца і памёр 25 мая 1917 года ва ўзросце 25 гадоў, трымаючы пры сабе адзіны прыжыццёвы зборнік «Вянок». На магіле ўсталяваны выразны помнік з барэльефам паэта.",
+      "ru": "Могила классика белорусской литературы Максима Богдановича на Старом городском кладбище в Ялте (ул. Поликуровская), где поэт скончался в мае 1917 года в возрасте 25 лет.",
+      "en": "Grave of classic Belarusian poet Maksim Bahdanovich at the Old City Cemetery in Yalta, Crimea. Bahdanovich died here of tuberculosis in May 1917 at the age of 25, clutching his sole published poetry collection 'Vianok'."
+    },
+    "tags": [
+      "багдановіч",
+      "ялта",
+      "пахаванне",
+      "магіла",
+      "крым",
+      "літаратура"
+    ]
+  },
+  {
+    "id": "yaroslavl-bahdanovich-museum",
+    "title": {
+      "by": "Дом-музей Максіма Багдановіча ў Яраслаўлі",
+      "ru": "Дом-музей Максима Богдановича в Ярославле",
+      "en": "Maksim Bahdanovich Museum in Yaroslavl"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Яраслаўль",
+      "ru": "Ярославль",
+      "en": "Yaroslavl"
+    },
+    "coordinates": [
+      57.6258,
+      39.8732
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%D0%94%D0%BE%D0%BC%2C_%D0%B3%D0%B4%D0%B5_%D0%B6%D0%B8%D0%BB_%D0%9C._%D0%90._%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87.JPG/960px-%D0%94%D0%BE%D0%BC%2C_%D0%B3%D0%B4%D0%B5_%D0%B6%D0%B8%D0%BB_%D0%9C._%D0%90._%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87.JPG",
+    "wiki": "https://ru.wikipedia.org/wiki/Музей_Максима_Богдановича_(Ярославль)",
+    "personIds": [
+      "maksim-bahdanovich"
+    ],
+    "description": {
+      "by": "Мемарыяльны дом-музей на вул. Чайкоўскага, 21, дзе сям'я Багдановічаў жыла ў 1912–1914 гг. Менавіта тут Максім скончыў Яраслаўскі юрыдычны ліцэй Дзямідава і напісаў многія свае лепшыя паэтычныя шэдэўры. Каля Яраслаўскага ўніверсітэта таксама стаіць помнік паэту.",
+      "ru": "Мемориальный дом-музей на ул. Чайковского, 21, где семья Богдановичей жила в 1912–1914 гг. Здесь поэт окончил Демидовский лицей и создал шедевры белорусской лирики.",
+      "en": "Memorial House Museum on Chaykovskogo St. 21 in Yaroslavl, where the Bahdanovich family lived from 1912 to 1914 while Maksim studied at the Demidov Lyceum."
+    },
+    "tags": [
+      "багдановіч",
+      "яраслаўль",
+      "музей",
+      "літаратура"
+    ]
+  },
+  {
+    "id": "koreiz-bahdanovich-monument",
+    "title": {
+      "by": "Помнік Максіму Багдановічу ў Карэізе (санаторый «Беларусь»)",
+      "ru": "Памятник Максиму Богдановичу в Кореизе (санаторий «Белоруссия»)",
+      "en": "Maksim Bahdanovich Monument in Koreiz"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Украіна",
+      "ru": "Украина",
+      "en": "Ukraine"
+    },
+    "city": {
+      "by": "Карэіз",
+      "ru": "Кореиз",
+      "en": "Koreiz"
+    },
+    "coordinates": [
+      44.4297,
+      34.0924
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D1%83_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D1%83.jpg/960px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D1%83_%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D1%83.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Максім_Багдановіч",
+    "personIds": [
+      "maksim-bahdanovich"
+    ],
+    "description": {
+      "by": "Помнік паэту, усталяваны ў 1957 годзе ў парку беларускага санаторыя «Беларусь» у пасёлку Карэіз на Паўднёвым беразе Крыма (Місхорскі спуск).",
+      "ru": "Памятник поэту, установленный в 1957 г. в парке санатория «Белоруссия» в Кореизе на Южном берегу Крыма.",
+      "en": "Monument to Maksim Bahdanovich erected in 1957 in the park of Sanatorium Belarus in Koreiz, Southern Crimea."
+    },
+    "tags": [
+      "багдановіч",
+      "помнік",
+      "крым",
+      "карэіз"
+    ]
+  },
+  {
+    "id": "kaunas-petrasiunai-duzh-dusheuski-grave",
+    "title": {
+      "by": "Магіла Клаўдзія Дуж-Душэўскага (Пятрашунскія могілкі, Каўнас)",
+      "ru": "Могила Клавдия Дуж-Душевского (Петрашюнское кладбище, Каунас)",
+      "en": "Grave of Klaudziy Duzh-Dusheuski (Petrašiūnai Cemetery, Kaunas)"
+    },
+    "category": "grave",
+    "mustSee": true,
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Каўнас",
+      "ru": "Каунас",
+      "en": "Kaunas"
+    },
+    "coordinates": [
+      54.8906,
+      24.0042
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Klaudiusz_Du%C5%BC-Duszewski_gr%C3%B3b.JPG/960px-Klaudiusz_Du%C5%BC-Duszewski_gr%C3%B3b.JPG",
+    "wiki": "https://be.wikipedia.org/wiki/Клаўдзій_Сцяпанавіч_Дуж-Душэўскі",
+    "source": "https://nashaniva.com/375085",
+    "personIds": [
+      "klaudziy-duzh-dusheuski"
+    ],
+    "description": {
+      "by": "Магіла аўтара бел-чырвона-белага сцяга, выбітнага архітэктара і дзеяча БНР Клаўдзія Дуж-Душэўскага на Пятрашунскім пантэоне ў Каўнасе. У 2023 годзе на магіле адкрыты новы мемарыяльны помнік з выявай герба «Пагоня» і нацыянальнага сцяга.",
+      "ru": "Могила создателя бело-красно-белого флага, выдающегося архитектора и дипломата БНР Клавдия Дуж-Душевского на Петрашюнском кладбище в Каунасе.",
+      "en": "Grave of Klaudziy Duzh-Dusheuski, creator of the Belarusian White-Red-White flag, BNR diplomat, and renowned architect, located at the prestigious Petrašiūnai Cemetery in Kaunas."
+    },
+    "tags": [
+      "душэўскі",
+      "каўнас",
+      "магіла",
+      "бнр",
+      "сцяг",
+      "літва"
+    ]
+  },
+  {
+    "id": "kaunas-vytautas-8-duzh-dusheuski-house",
+    "title": {
+      "by": "Дом Клаўдзія Дуж-Душэўскага ў Каўнасе (пр. Вітаўта, 8)",
+      "ru": "Дом Клавдия Дуж-Душевского в Каунасе (пр. Витаутаса, 8)",
+      "en": "House of Klaudziy Duzh-Dusheuski in Kaunas (Vytauto pr. 8)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Каўнас",
+      "ru": "Каунас",
+      "en": "Kaunas"
+    },
+    "coordinates": [
+      54.8931,
+      23.9248
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Petrasiunai_2022b.jpg/960px-Petrasiunai_2022b.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Клаўдзій_Сцяпанавіч_Дуж-Душэўскі",
+    "source": "https://nashaniva.com/375085",
+    "personIds": [
+      "klaudziy-duzh-dusheuski",
+      "anton-lutskevich"
+    ],
+    "description": {
+      "by": "Гістарычны дом на праспекце Вітаўта, 8 (кв. 5) у Каўнасе, дзе жыў і працаваў Клаўдзій Дуж-Душэўскі. Адсюль ён падтрымліваў Беларускі музей у Вільні і паўгалоднага Антона Луцкевіча, сюды прыязджалі дзеячы беларускага руху, і тут сям'я Дуж-Душэўскіх ратавала габрэйскіх дзяцей у гады Халакосту.",
+      "ru": "Исторический дом на проспекте Витаутаса, 8 в Каунасе, где жил архитектор Дуж-Душевский, помогал Антону Луцкевичу и спасал еврейских детей в годы войны.",
+      "en": "Historic residence of architect Klaudziy Duzh-Dusheuski on Vytauto Avenue in Kaunas, from where he supported the Belarusian Museum in Vilnius and sheltered Jewish children during WWII."
+    },
+    "tags": [
+      "душэўскі",
+      "каўнас",
+      "луцкевіч",
+      "салідарнасць",
+      "літва"
+    ]
+  },
+  {
+    "id": "prague-olsany-belarusian-pantheon",
+    "title": {
+      "by": "Ольшанскія могілкі — Беларускі пантэон у Празе (Крэчэўскі, Захарка, Забэйда-Суміцкі)",
+      "ru": "Ольшанское кладбище — Белорусский пантеон в Праге",
+      "en": "Olšany Cemetery — Belarusian Pantheon in Prague"
+    },
+    "category": "grave",
+    "mustSee": true,
+    "country": {
+      "by": "Чэхія",
+      "ru": "Чехия",
+      "en": "Czech Republic"
+    },
+    "city": {
+      "by": "Прага",
+      "ru": "Прага",
+      "en": "Prague"
+    },
+    "coordinates": [
+      50.0815,
+      14.4705
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Ol%C5%A1ansk%C3%A9_h%C5%99bitovy_br%C3%A1na_1.jpg/960px-Ol%C5%A1ansk%C3%A9_h%C5%99bitovy_br%C3%A1na_1.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Ольшанскія_могілкі",
+    "personIds": [
+      "pyotra-krecheuski",
+      "vasil-zaharka",
+      "mikhas-zabejda-sumitski"
+    ],
+    "description": {
+      "by": "Галоўны некропаль беларускай эміграцыі ў міжваеннай Чэхаславакіі. Каля царквы Успення Багародзіцы (участак 2bis) пахаваныя Старшыні Рады Беларускай Народнай Рэспублікі Пётр Крэчэўскі (1879–1928) і Васіль Захарка (1877–1943), а таксама славуты оперны спявак Міхась Забэйда-Суміцкі (1900–1981).",
+      "ru": "Главный некрополь белорусской эмиграции в Праге. Здесь похоронены президенты Рады БНР Петр Кречевский и Василий Захарко, а также оперный тенор Михась Забейдо-Сумицкий.",
+      "en": "Main necropolis of the Belarusian diaspora in interwar Czechoslovakia. Located near the Dormition Church (section 2bis), it contains the graves of Rada BNR Presidents Pyotra Krecheuski and Vasil Zaharka, and opera tenor Mikhas Zabejda-Sumitski."
+    },
+    "tags": [
+      "прага",
+      "бнр",
+      "крэчэўскі",
+      "захарка",
+      "забэйда",
+      "пахаванне"
+    ]
+  },
+  {
+    "id": "pechishchi-kupala-museum",
+    "title": {
+      "by": "Музей Янкі Купалы ў Пячышчах (Татарстан)",
+      "ru": "Музей Янки Купалы в Печищах (Татарстан)",
+      "en": "Yanka Kupala Memorial Museum in Pechishchi"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Пячышчы",
+      "ru": "Печищи",
+      "en": "Pechishchi"
+    },
+    "coordinates": [
+      55.7761,
+      48.9744
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D1%81%D0%B5%D0%BB%D0%BE_%D0%9F%D0%B5%D1%87%D0%B8%D1%89%D0%B8_%D1%81%D0%BE_%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D1%8B_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8.JPG/960px-%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D1%81%D0%B5%D0%BB%D0%BE_%D0%9F%D0%B5%D1%87%D0%B8%D1%89%D0%B8_%D1%81%D0%BE_%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D1%8B_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8.JPG",
+    "wiki": "https://ru.wikipedia.org/wiki/Музей_Янки_Купалы_в_селе_Печищи",
+    "personIds": [
+      "yanka-kupala"
+    ],
+    "description": {
+      "by": "Адзіны музей Янкі Купалы ў Расіі, адкрыты ў 1975 годзе ў будынку старога млына на беразе Волгі, дзе народны паэт Беларусі жыў у эвакуацыі з лістапада 1941 па чэрвень 1942 года. Тут напісаны вершы «Зноў будзем шчасце мець і волю», «Беларускім партызанам».",
+      "ru": "Единственный музей Янки Купалы в России, открытый в здании мельницы на Волге, где поэт жил в эвакуации с осени 1941 по июнь 1942 года.",
+      "en": "The only Yanka Kupala museum in Russia, located in a historic Volga mill in Pechishchi near Kazan where the Belarusian national poet lived in wartime evacuation (1941–1942)."
+    },
+    "tags": [
+      "купала",
+      "музей",
+      "эвакуацыя",
+      "татарстан",
+      "волга"
+    ]
+  },
+  {
+    "id": "moscow-hotel-moskva-kupala",
+    "title": {
+      "by": "Гатэль «Масква» — месца трагічнай гібелі Янкі Купалы",
+      "ru": "Гостиница «Москва» — место гибели Янки Купалы",
+      "en": "Hotel Moskva — Site of Yanka Kupala's Tragic Death"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Масква",
+      "ru": "Москва",
+      "en": "Moscow"
+    },
+    "coordinates": [
+      55.7572,
+      37.6166
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Moskva_Hotel_in_MSK_%28img1%29.jpg/960px-Moskva_Hotel_in_MSK_%28img1%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Янка_Купала",
+    "personIds": [
+      "yanka-kupala"
+    ],
+    "description": {
+      "by": "Гістарычны будынак гатэля «Масква» на Ахотным радзе, дзе 28 чэрвеня 1942 года пры нявысветленых і загадкавых акалічнасцях (падзенне ў лесвічны пралёт паміж 9 і 10 паверхамі) загінуў пясняр Беларусі Янка Купала.",
+      "ru": "Гостиница «Москва» в Охотном ряду, где 28 июня 1942 года при невыясненных трагических обстоятельствах оборвалась жизнь национального поэта Беларуси Янки Купалы.",
+      "en": "Site of the mysterious and tragic death of Belarus's greatest national poet, Yanka Kupala, who fell down the stairwell of Hotel Moskva on June 28, 1942."
+    },
+    "tags": [
+      "купала",
+      "масква",
+      "трагедыя",
+      "гісторыя"
+    ]
+  },
+  {
+    "id": "tashkent-kolas-monument-museum",
+    "title": {
+      "by": "Помнік і вуліца Якуба Коласа ў Ташкенце",
+      "ru": "Памятник и улица Якуба Коласа в Ташкенте",
+      "en": "Yakub Kolas Monument and Street in Tashkent"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Узбекістан",
+      "ru": "Узбекистан",
+      "en": "Uzbekistan"
+    },
+    "city": {
+      "by": "Ташкент",
+      "ru": "Ташкент",
+      "en": "Tashkent"
+    },
+    "coordinates": [
+      41.3039,
+      69.2789
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kanstantin_Mickievi%C4%8D_%28Jakub_Ko%C5%82as%29._%D0%9A%D0%B0%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%96%D0%BD_%D0%9C%D1%96%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81%29_%281908%29.jpg/960px-Kanstantin_Mickievi%C4%8D_%28Jakub_Ko%C5%82as%29._%D0%9A%D0%B0%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%96%D0%BD_%D0%9C%D1%96%D1%86%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BA%D1%83%D0%B1_%D0%9A%D0%BE%D0%BB%D0%B0%D1%81%29_%281908%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Якуб_Колас",
+    "personIds": [
+      "yakub-kolas"
+    ],
+    "description": {
+      "by": "Бронзавы бюст класіка беларускай літаратуры Якуба Коласа, адкрыты ў скверы на вуліцы Якуба Коласа ў цэнтры Ташкента. Узбекістан стаў для паэта прытулкам у гады эвакуацыі (1941–1943 гг.), дзе ён напісаў паэму «Салавей» і дзясяткі патрыятычных вершаў.",
+      "ru": "Бронзовый бюст классика белорусской литературы Якуба Коласа на одноименной улице в Ташкенте, где поэт жил в эвакуации в 1941–1943 годах.",
+      "en": "Bronze bust of classic Belarusian writer Yakub Kolas in Tashkent, Uzbekistan, commemorating his evacuation years (1941–1943) during which he penned poems of wartime resistance."
+    },
+    "tags": [
+      "колас",
+      "ташкент",
+      "помнік",
+      "узбекістан",
+      "літаратура"
+    ]
+  },
+  {
+    "id": "zakopane-luczkiewicz-sanatorium",
+    "title": {
+      "by": "Закапанэ — месца смерці Івана Луцкевіча (1919)",
+      "ru": "Закопане — место смерти Ивана Луцкевича (1919)",
+      "en": "Zakopane — Deathplace of Ivan Lutskevich (1919)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Закапанэ",
+      "ru": "Закопане",
+      "en": "Zakopane"
+    },
+    "coordinates": [
+      49.2992,
+      19.9496
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Іван_Іванавіч_Луцкевіч",
+    "personIds": [
+      "ivan-lutskevich"
+    ],
+    "description": {
+      "by": "Горны курорт у Татрах, куды цяжка хворы на сухоты ідэолаг беларускага адраджэння і заснавальнік БНР Іван Луцкевіч накіраваўся на лячэнне ў санаторый і дзе ён памёр 20 жніўня 1919 года ва ўзросце 38 гадоў. Быў пахаваны на Новых могілках у Закапанэ (у 1991 г. прах урачыста перапахаваны на могілках Росы ў Вільні).",
+      "ru": "Горный курорт в Татрах, где в санатории 20 августа 1919 года скончался идеолог белорусского национального возрождения Иван Луцкевич.",
+      "en": "Tatra mountain resort where founding father of the Belarusian national revival Ivan Lutskevich passed away in a sanatorium in August 1919 before his eventual reburial in Vilnius."
+    },
+    "tags": [
+      "луцкевіч",
+      "закапанэ",
+      "бнр",
+      "польшча",
+      "гісторыя"
+    ]
+  },
+  {
+    "id": "vyazma-haretski-memorial",
+    "title": {
+      "by": "Вязьма — месца расстрэлу Максіма Гарэцкага",
+      "ru": "Вязьма — место расстрела Максима Горецкого",
+      "en": "Vyazma — Execution and Memorial Site of Maksim Haretski"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Расія",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    "city": {
+      "by": "Вязьма",
+      "ru": "Вязьма",
+      "en": "Vyazma"
+    },
+    "coordinates": [
+      55.2104,
+      34.2951
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Maksim_Harecki._%D0%9C%D0%B0%D0%BA%D1%81%D1%96%D0%BC_%D0%93%D0%B0%D1%80%D1%8D%D1%86%D0%BA%D1%96_%281920%29.jpg/960px-Maksim_Harecki._%D0%9C%D0%B0%D0%BA%D1%81%D1%96%D0%BC_%D0%93%D0%B0%D1%80%D1%8D%D1%86%D0%BA%D1%96_%281920%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Максім_Іванавіч_Гарэцкі",
+    "personIds": [
+      "maksim-haretski"
+    ],
+    "description": {
+      "by": "Месца трагічнай гібелі класіка беларускай літаратуры Максіма Гарэцкага, які пасля ссылкі працаваў настаўнікам у мястэчку Пясочня, быў паўторна арыштаваны НКУС і расстраляны 10 лютага 1938 года ў Вязьме. У горадзе ўсталяваны памятны знак рэпрэсаваным.",
+      "ru": "Место гибели классика белорусской литературы Максима Горецкого, расстрелянного органами НКВД в Вязьме 10 февраля 1938 года.",
+      "en": "Execution site of classic Belarusian prose writer Maksim Haretski, who was falsely condemned and executed by the Soviet NKVD in Vyazma on February 10, 1938."
+    },
+    "tags": [
+      "гарэцкі",
+      "вязьма",
+      "рэпрэсіі",
+      "літаратура",
+      "памяць"
+    ]
+  },
+  {
+    "id": "krakow-jagiellonian-ciotka",
+    "title": {
+      "by": "Ягелонскі ўніверсітэт — вучоба Цёткі (Алаізы Пашкевіч)",
+      "ru": "Ягеллонский университет — учеба Тётки (Алоизы Пашкевич)",
+      "en": "Jagiellonian University — Studies of Ciotka (Ałaiza Paškievič)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Кракаў",
+      "ru": "Краков",
+      "en": "Krakow"
+    },
+    "coordinates": [
+      50.0617,
+      19.9338
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/A%C5%82aiza_Pa%C5%A1kievi%C4%8D_%28Ciotka%29._%D0%90%D0%BB%D0%B0%D1%96%D0%B7%D0%B0_%D0%9F%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28%D0%A6%D1%8F%D1%82%D0%BA%D0%B0%29_%281900-16%29.jpg/960px-A%C5%82aiza_Pa%C5%A1kievi%C4%8D_%28Ciotka%29._%D0%90%D0%BB%D0%B0%D1%96%D0%B7%D0%B0_%D0%9F%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%28%D0%A6%D1%8F%D1%82%D0%BA%D0%B0%29_%281900-16%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Алаіза_Сцяпанаўна_Пашкевіч",
+    "personIds": [
+      "ciotka"
+    ],
+    "description": {
+      "by": "Старажытны Ягелонскі ўніверсітэт (Collegium Novum), дзе Алаіза Пашкевіч (Цётка) навучалася на філасофскім факультэце ў 1908–1909 гг. пад чужым імем, хаваючыся ад пераследу расійскай паліцыі, і адкуль яна кіравала выданнем беларускіх кніг.",
+      "ru": "Ягеллонский университет в Кракове, где Алоиза Пашкевич (Тётка) изучала философию в 1908–1909 гг., скрываясь от царской полиции.",
+      "en": "The prestigious Jagiellonian University in Kraków, where pioneer poet and activist Ciotka (Ałaiza Paškievič) studied philosophy in 1908–1909 while living under assumed identity."
+    },
+    "tags": [
+      "цётка",
+      "кракаў",
+      "ўніверсітэт",
+      "польшча",
+      "літаратура"
+    ]
+  },
+  {
+    "id": "kaunas-lastouski-bnr-government",
+    "title": {
+      "by": "Каўнас — рэзідэнцыя ўрада БНР і рэдакцыя «Крывіча» Вацлава Ластоўскага",
+      "ru": "Каунас — резиденция правительства БНР и редакция Вацлава Ластовского",
+      "en": "Kaunas — BNR Government Residence and Lastouski's 'Kryvich'"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Каўнас",
+      "ru": "Каунас",
+      "en": "Kaunas"
+    },
+    "coordinates": [
+      54.8978,
+      23.9036
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Вацлаў_Юсцінавіч_Ластоўскі",
+    "personIds": [
+      "vaclau-lastouski"
+    ],
+    "description": {
+      "by": "У часовай сталіцы міжваеннай Літвы дзейнічаў урад Беларускай Народнай Рэспублікі на чале з прэм'ер-міністрам Вацлавам Ластоўскім (1920–1923 гг.). Тут знаходзілася Беларускае прэс-бюро, Міністэрства беларускіх спраў Літвы і выдаваўся навукова-літаратурны часопіс «Крывіч».",
+      "ru": "В Каунасе действовало правительство БНР во главе с премьер-министром Вацлавом Ластовским (1920–1923), издавался журнал «Крывіч».",
+      "en": "Interwar Lithuanian provisional capital where the Council of Ministers of the Belarusian Democratic Republic resided under Prime Minister Vatslau Lastouski (1920–1923)."
+    },
+    "tags": [
+      "ластоўскі",
+      "каўнас",
+      "бнр",
+      "крывіч",
+      "літва"
+    ]
+  },
+  {
+    "id": "ankara-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Турцыі (Анкара)",
+      "ru": "Посольство Беларуси в Турции (Анкара)",
+      "en": "Embassy of Belarus in Turkey (Ankara)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Турцыя",
+      "ru": "Турция",
+      "en": "Turkey"
+    },
+    "city": {
+      "by": "Анкара",
+      "ru": "Анкара",
+      "en": "Ankara"
+    },
+    "coordinates": [
+      39.8732,
+      32.8427
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/960px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Турцыі",
+    "description": {
+      "by": "Афіцыйная дыпламатычная місія Рэспублікі Беларусь у Турэцкай Рэспубліцы, адкрытая ў 1997 годзе ў дыпламатычным квартале Чанкая ў Анкары (Abidin Daver Sk. 17).",
+      "ru": "Официальная дипломатическая миссия Республики Беларусь в Турецкой Республике, открытая в 1997 году в Анкаре.",
+      "en": "Official diplomatic mission of the Republic of Belarus to the Republic of Turkey, located in the Çankaya district of Ankara."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "турцыя",
+      "анкара"
+    ]
+  },
+  {
+    "id": "istanbul-consulate-belarus",
+    "title": {
+      "by": "Генеральнае консульства Беларусі ў Стамбуле",
+      "ru": "Генеральное консульство Беларуси в Стамбуле",
+      "en": "Consulate General of Belarus in Istanbul"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Турцыя",
+      "ru": "Турция",
+      "en": "Turkey"
+    },
+    "city": {
+      "by": "Стамбул",
+      "ru": "Стамбул",
+      "en": "Istanbul"
+    },
+    "coordinates": [
+      40.9786,
+      28.8711
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/960px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Генеральнае_консульства_Беларусі_ў_Стамбуле",
+    "description": {
+      "by": "Генеральнае консульства Рэспублікі Беларусь у найбуйнейшым мегаполісе Турцыі — Стамбуле, якое ажыццяўляе консульскую дапамогу беларускім грамадзянам і падтрымлівае эканамічныя кантакты.",
+      "ru": "Генеральное консульство Республики Беларусь в Стамбуле.",
+      "en": "Consulate General of the Republic of Belarus in Istanbul, Turkey."
+    },
+    "tags": [
+      "дыпламатыя",
+      "консульства",
+      "турцыя",
+      "стамбул"
+    ]
+  },
+  {
+    "id": "washington-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў ЗША (Вашынгтон)",
+      "ru": "Посольство Беларуси в США (Вашингтон)",
+      "en": "Embassy of Belarus in the United States (Washington, D.C.)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "ЗША",
+      "ru": "США",
+      "en": "United States"
+    },
+    "city": {
+      "by": "Вашынгтон",
+      "ru": "Вашингтон",
+      "en": "Washington, D.C."
+    },
+    "coordinates": [
+      38.9135,
+      -77.0682
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Embassy_of_Belarus.jpg/960px-Embassy_of_Belarus.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Embassy_of_Belarus,_Washington,_D.C.",
+    "description": {
+      "by": "Дыпламатычная місія Рэспублікі Беларусь у Злучаных Штатах Амерыкі, размешчаная ў Вашынгтоне (1619 New Hampshire Ave NW).",
+      "ru": "Дипломатическое представительство Республики Беларусь в США, расположенное в Вашингтоне.",
+      "en": "Diplomatic mission of the Republic of Belarus to the United States, located on New Hampshire Avenue in Washington, D.C."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "зша",
+      "вашынгтон"
+    ]
+  },
+  {
+    "id": "london-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Вялікабрытаніі (Лондан)",
+      "ru": "Посольство Беларуси в Великобритании (Лондон)",
+      "en": "Embassy of Belarus in the United Kingdom (London)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Вялікабрытанія",
+      "ru": "Великобритания",
+      "en": "United Kingdom"
+    },
+    "city": {
+      "by": "Лондан",
+      "ru": "Лондон",
+      "en": "London"
+    },
+    "coordinates": [
+      51.4921,
+      -0.1983
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Embassy_of_Belarus_in_London.jpg/960px-Embassy_of_Belarus_in_London.jpg",
+    "wiki": "https://en.wikipedia.org/wiki/Embassy_of_Belarus,_London",
+    "description": {
+      "by": "Дыпламатычная місія Рэспублікі Беларусь у Злучаным Каралеўстве, размешчаная ў раёне Кенсінгтан у Лондане (6 Kensington Court).",
+      "ru": "Дипломатическая миссия Республики Беларусь в Великобритании, расположенная в Кенсингтоне в Лондоне.",
+      "en": "Official diplomatic mission of Belarus to the United Kingdom, located at Kensington Court in London."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "лондан",
+      "вялікабрытанія"
+    ]
+  },
+  {
+    "id": "paris-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Францыі (Парыж)",
+      "ru": "Посольство Беларуси во Франции (Париж)",
+      "en": "Embassy of Belarus in France (Paris)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.8654,
+      2.2687
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Ambassade_de_Bi%C3%A9lorussie_en_France%2C_38_boulevard_Suchet%2C_Paris_16e_2.jpg/960px-Ambassade_de_Bi%C3%A9lorussie_en_France%2C_38_boulevard_Suchet%2C_Paris_16e_2.jpg",
+    "wiki": "https://fr.wikipedia.org/wiki/Ambassade_de_Bi%C3%A9lorussie_en_France",
+    "description": {
+      "by": "Дыпламатычная місія Рэспублікі Беларусь у Французскай Рэспубліцы (38 Boulevard Suchet, XVI акруга Парыжа).",
+      "ru": "Посольство Республики Беларусь во Франции (38 Boulevard Suchet, Париж).",
+      "en": "Embassy of Belarus in France, located on Boulevard Suchet in the 16th arrondissement of Paris."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "парыж",
+      "францыя"
+    ]
+  },
+  {
+    "id": "berlin-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Германіі (Берлін)",
+      "ru": "Посольство Беларуси в Германии (Берлин)",
+      "en": "Embassy of Belarus in Germany (Berlin)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Германія",
+      "ru": "Германия",
+      "en": "Germany"
+    },
+    "city": {
+      "by": "Берлін",
+      "ru": "Берлин",
+      "en": "Berlin"
+    },
+    "coordinates": [
+      52.5786,
+      13.4116
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://de.wikipedia.org/wiki/Belarussische_Botschaft_in_Berlin",
+    "description": {
+      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у ФРГ (Am Treptower Park 32, Берлін).",
+      "ru": "Посольство Республики Беларусь в Германии (Am Treptower Park 32, Берлин).",
+      "en": "Embassy of Belarus in Germany, situated at Am Treptower Park in Berlin."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "берлін",
+      "германія"
+    ]
+  },
+  {
+    "id": "rome-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Італіі (Рым)",
+      "ru": "Посольство Беларуси в Италии (Рим)",
+      "en": "Embassy of Belarus in Italy (Rome)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Рым",
+      "ru": "Рим",
+      "en": "Rome"
+    },
+    "coordinates": [
+      41.9168,
+      12.4939
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Італіі",
+    "description": {
+      "by": "Афіцыйнае дыпламатычнае прадстаўніцтва Беларусі ў Італьянскай Рэспубліцы (Via Nomentana 361, Рым).",
+      "ru": "Посольство Республики Беларусь в Италии (Рим).",
+      "en": "Embassy of Belarus in Italy, located on Via Nomentana in Rome."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "рым",
+      "італія"
+    ]
+  },
+  {
+    "id": "warsaw-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Польшчы (Варшава)",
+      "ru": "Посольство Беларуси в Польше (Варшава)",
+      "en": "Embassy of Belarus in Poland (Warsaw)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Варшава",
+      "ru": "Варшава",
+      "en": "Warsaw"
+    },
+    "coordinates": [
+      52.2131,
+      21.0267
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg/960px-Ambasada_Bia%C5%82orusi_w_Warszawie_ul._Wiertnicza_58.jpg",
+    "wiki": "https://pl.wikipedia.org/wiki/Ambasada_Bia%C5%82orusi_w_Polsce",
+    "description": {
+      "by": "Дыпламатычная місія Рэспублікі Беларусь у Польшчы (вул. Вертнічая 58, Варшава).",
+      "ru": "Посольство Республики Беларусь в Польше (ул. Вертнича 58, Варшава).",
+      "en": "Embassy of Belarus in Poland, situated on Wiertnicza Street in Warsaw."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "варшава",
+      "польшча"
+    ]
+  },
+  {
+    "id": "vilnius-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Літве (Вільня)",
+      "ru": "Посольство Беларуси в Литве (Вильнюс)",
+      "en": "Embassy of Belarus in Lithuania (Vilnius)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.6978,
+      25.2673
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Літве",
+    "description": {
+      "by": "Дыпламатычная місія Рэспублікі Беларусь у Літоўскай Рэспубліцы (вул. Міндаўга 13, Вільня).",
+      "ru": "Посольство Республики Беларусь в Литве (ул. Миндауго 13, Вильнюс).",
+      "en": "Embassy of Belarus in Lithuania, located on Mindaugo Street in Vilnius."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "вільня",
+      "літва"
+    ]
+  },
+  {
+    "id": "riga-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Латвіі (Рыга)",
+      "ru": "Посольство Беларуси в Латвии (Рига)",
+      "en": "Embassy of Belarus in Latvia (Riga)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Латвія",
+      "ru": "Латвия",
+      "en": "Latvia"
+    },
+    "city": {
+      "by": "Рыга",
+      "ru": "Рига",
+      "en": "Riga"
+    },
+    "coordinates": [
+      56.9664,
+      24.1165
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Латвіі",
+    "description": {
+      "by": "Дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Латвійскай Рэспубліцы (вул. Езусбазніцас 12, Рыга).",
+      "ru": "Посольство Республики Беларусь в Латвии (ул. Езусбазницас 12, Рига).",
+      "en": "Embassy of Belarus in Latvia, located on Jēzusbaznīcas Street in Riga."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "рыга",
+      "латвія"
+    ]
+  },
+  {
+    "id": "bern-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Швейцарыі (Берн)",
+      "ru": "Посольство Беларуси в Швейцарии (Берн)",
+      "en": "Embassy of Belarus in Switzerland (Bern)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Швейцарыя",
+      "ru": "Швейцария",
+      "en": "Switzerland"
+    },
+    "city": {
+      "by": "Берн",
+      "ru": "Берн",
+      "en": "Bern"
+    },
+    "coordinates": [
+      46.9388,
+      7.4645
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Швейцарыі",
+    "description": {
+      "by": "Дыпламатычная місія Беларусі ў Швейцарскай Канфедэрацыі (Quartierweg 6, Лібефельд/Берн).",
+      "ru": "Посольство Республики Беларусь в Швейцарии (Берн).",
+      "en": "Embassy of Belarus in Switzerland, located in Liebefeld/Bern."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "берн",
+      "швейцарыя"
+    ]
+  },
+  {
+    "id": "vienna-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Аўстрыі (Вена)",
+      "ru": "Посольство Беларуси в Австрии (Вена)",
+      "en": "Embassy of Belarus in Austria (Vienna)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Аўстрыя",
+      "ru": "Австрия",
+      "en": "Austria"
+    },
+    "city": {
+      "by": "Вена",
+      "ru": "Вена",
+      "en": "Vienna"
+    },
+    "coordinates": [
+      48.1878,
+      16.3129
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suprasl_monastery_interior_view_18.jpg/960px-Suprasl_monastery_interior_view_18.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Аўстрыі",
+    "description": {
+      "by": "Пасольства Беларусі ў Аўстрыйскай Рэспубліцы і пастаяннае прадстаўніцтва пры АБСЕ і міжнародных арганізацыях у Вене (Hüttelbergstrasse 6).",
+      "ru": "Посольство Республики Беларусь в Австрии и постоянное представительство при международных организациях в Вене.",
+      "en": "Embassy of Belarus in Austria and Permanent Mission to international organizations in Vienna."
+    },
+    "tags": [
+      "дыпламатыя",
+      "пасольства",
+      "вена",
+      "аўстрыя"
+    ]
   }
 ];
