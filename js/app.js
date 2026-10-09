@@ -76,6 +76,44 @@ const imgReferrerObserver = new MutationObserver((mutations) => {
 });
 imgReferrerObserver.observe(document.documentElement, { childList: true, subtree: true });
 
+// Universal Wikimedia thumbnail resolution helper
+// Standard sizes in Wikimedia: 120, 250, 330, 500, 960, 1280
+function getWikimediaThumb(url, width = 250) {
+  if (!url || typeof url !== 'string') return url;
+  if (!url.includes('wikimedia.org')) return url;
+
+  // Strip query parameters
+  const cleanUrl = url.split('?')[0];
+
+  // Match /thumb/ path: .../wikipedia/commons/thumb/a/ab/Filename.ext/([0-9]+px-Filename.ext)
+  const thumbMatch = cleanUrl.match(/^(https?:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/(?:commons|[a-z]+)\/thumb\/([^\/]+\/[^\/]+\/[^\/]+))\/(?:lossy-page\d+-)?(?:page\d+-)?\d+px-[^\/]+$/);
+  if (thumbMatch) {
+    const base = thumbMatch[1];
+    const rel = thumbMatch[2];
+    const filename = rel.split('/').pop();
+    if (filename.toLowerCase().endsWith('.svg')) {
+      return `${base}/${width}px-${filename}.png`;
+    }
+    return `${base}/${width}px-${filename}`;
+  }
+
+  // Match raw unscaled Commons path: .../wikipedia/commons/a/ab/Filename.ext
+  const rawMatch = cleanUrl.match(/^(https?:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/(?:commons|[a-z]+))\/([^\/]+\/[^\/]+\/[^\/]+)$/);
+  if (rawMatch) {
+    const hostPrefix = rawMatch[1];
+    const rel = rawMatch[2];
+    const filename = rel.split('/').pop();
+    if (filename.toLowerCase().endsWith('.svg')) {
+      return `${hostPrefix}/thumb/${rel}/${width}px-${filename}.png`;
+    }
+    return `${hostPrefix}/thumb/${rel}/${width}px-${filename}`;
+  }
+
+  return cleanUrl;
+}
+window.getWikimediaThumb = getWikimediaThumb;
+
+
 document.addEventListener('DOMContentLoaded', () => {
   // Check admin parameter in URL query or hash: ?admin or #admin
   const urlParams = new URLSearchParams(window.location.search);
@@ -121,7 +159,7 @@ function initI18n() {
 
 let baseLayers = {};
 let layerControl = null;
-let activeBaseLayerKey = 'esriStreet';
+let activeBaseLayerKey = 'osm';
 
 function setLanguage(lang) {
   if (['by', 'ru', 'en'].includes(lang)) {
@@ -230,10 +268,10 @@ function setupBaseLayers() {
   };
 
   if (!baseLayers[activeBaseLayerKey]) {
-    activeBaseLayerKey = 'esriStreet';
+    activeBaseLayerKey = 'osm';
   }
 
-  // Add default layer (Esri Street)
+  // Add default layer (OpenStreetMap)
   baseLayers[activeBaseLayerKey].addTo(map);
 
   map.on('baselayerchange', (e) => {
@@ -256,9 +294,9 @@ function updateLayerControl() {
 
   const dict = window.i18n[currentLang] || window.i18n.by;
   const layerLabels = {
-    [dict.layerStreet || 'Карта вуліц (Esri)']: baseLayers.esriStreet,
     [dict.layerOSM || 'OpenStreetMap']: baseLayers.osm,
     [dict.layerOSMHot || 'OpenStreetMap (HOT)']: baseLayers.osmHot,
+    [dict.layerStreet || 'Карта вуліц (Esri)']: baseLayers.esriStreet,
     [dict.layerTopo || 'Тапаграфічная (Esri)']: baseLayers.esriTopo,
     [dict.layerSatellite || 'Спадарожнік (Esri)']: baseLayers.satellite
   };
@@ -592,7 +630,7 @@ function renderMarkers() {
       <div class="popup-card">
         ${place.image ? `
           <div class="popup-img-wrap">
-            <img src="${place.image}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer" onload="handlePopupImageOrientation(this)">
+            <img src="${getWikimediaThumb(place.image, 500)}" alt="${title}" class="popup-img" loading="lazy" referrerpolicy="no-referrer" onload="handlePopupImageOrientation(this)">
           </div>` : ''}
         <div class="popup-body">
           <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 4px; align-items: center;">
@@ -712,7 +750,7 @@ function renderSidebarList() {
     const city = getLocalized(place.city);
     const country = getLocalized(place.country);
     const categoryName = dict.categories[place.category] || place.category;
-    const thumb = place.image || 'https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=200&q=80';
+    const thumb = getWikimediaThumb(place.image, 250) || 'https://images.unsplash.com/photo-1517824806704-9040b037703b?auto=format&fit=crop&w=200&q=80';
 
     const unverifiedBadge = place.unverifiedCoordinates ? `
       <span class="unverified-coords-badge" title="${dict.unverifiedCoordsNotice || ''}">
@@ -830,7 +868,7 @@ function showPlaceDetail(placeId) {
 
   const heroImg = place.image ? `
     <div class="detail-hero-wrap" id="detailHeroWrap">
-      <img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" 
+      <img src="${getWikimediaThumb(place.image, 960)}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" 
            onload="handleHeroImageOrientation(this)" 
            onerror="handleHeroImageError('${place.id}')"
            onclick="openImageLightbox('${place.image}', '${title.replace(/'/g, "\\'")}')"
@@ -875,7 +913,7 @@ function showPlaceDetail(placeId) {
         <div class="associated-persons-list">
           ${connectedPersons.map(p => `
             <div class="associated-person-chip" onclick="openPersonDetail('${p.id}')" title="${getLocalized(p.role)}">
-              <img src="${p.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'}" 
+              <img src="${getWikimediaThumb(p.image, 250) || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'}" 
                    alt="${getLocalized(p.name)}" class="associated-person-avatar" loading="lazy" referrerpolicy="no-referrer"
                    onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">
               <span>${getLocalized(p.name)}</span>
@@ -927,7 +965,7 @@ function showPlaceDetail(placeId) {
             </div>
             ${personBadge ? `<div class="nested-item-meta">${personBadge}</div>` : ''}
             ${it.description ? `<div class="nested-item-desc">${it.description}</div>` : ''}
-            ${it.image ? `<div class="nested-item-image-wrapper"><img src="${it.image}" alt="${it.title}" class="nested-item-thumb" loading="lazy" referrerpolicy="no-referrer"></div>` : ''}
+            ${it.image ? `<div class="nested-item-image-wrapper"><img src="${getWikimediaThumb(it.image, 330)}" alt="${it.title}" class="nested-item-thumb" loading="lazy" referrerpolicy="no-referrer"></div>` : ''}
             <div class="nested-item-card-footer">
               <span class="nested-item-view-btn">${dict.viewDetails || 'Падрабязней'} &rarr;</span>
             </div>
@@ -1199,7 +1237,7 @@ function openNestedItemModal(placeId, itemIdx) {
       <div class="nested-detail-container">
         ${it.image ? `
           <div class="nested-detail-image-box">
-            <img src="${it.image}" alt="${it.title}" class="nested-detail-image" loading="lazy" referrerpolicy="no-referrer">
+            <img src="${getWikimediaThumb(it.image, 960)}" alt="${it.title}" class="nested-detail-image" loading="lazy" referrerpolicy="no-referrer">
           </div>
         ` : ''}
         <div class="nested-detail-content">
@@ -1576,7 +1614,7 @@ function renderPersonsGrid() {
     const role = getLocalized(p.role);
     const places = getPlacesForPerson(p);
     const countLabel = `${places.length} ${dict.personPlacesCount || 'месцаў'}`;
-    const avatar = p.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
+    const avatar = getWikimediaThumb(p.image, 250) || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
 
     return `
       <div class="person-card" onclick="openPersonDetail('${p.id}')">
@@ -1600,7 +1638,7 @@ function openPersonDetail(personId, updateHash = true) {
   const name = getLocalized(person.name);
   const role = getLocalized(person.role);
   const bio = getLocalized(person.bio);
-  const avatar = person.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
+  const avatar = getWikimediaThumb(person.image, 500) || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
   const places = getPlacesForPerson(person);
 
   const titleEl = document.getElementById('personModalTitle');
@@ -1614,7 +1652,7 @@ function openPersonDetail(personId, updateHash = true) {
       const plTitle = getLocalized(pl.title);
       const plCity = getLocalized(pl.city);
       const plCountry = getLocalized(pl.country);
-      const plThumb = pl.image || '';
+      const plThumb = getWikimediaThumb(pl.image, 250) || '';
 
       return `
         <div class="person-place-item" onclick="viewPersonPlaceOnMap('${pl.id}')">
@@ -1645,7 +1683,7 @@ function openPersonDetail(personId, updateHash = true) {
       const relatedCards = relatedPersons.map(rp => {
         const rpName = getLocalized(rp.name);
         const rpRole = getLocalized(rp.role);
-        const rpAvatar = rp.image || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
+        const rpAvatar = getWikimediaThumb(rp.image, 250) || 'https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png';
         return `
           <div class="person-related-item" onclick="openPersonDetail('${rp.id}')" title="${rpRole}">
             <img src="${rpAvatar}" alt="${rpName}" class="person-related-thumb" loading="lazy" referrerpolicy="no-referrer" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png'">

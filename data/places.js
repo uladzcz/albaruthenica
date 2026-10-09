@@ -12157,16 +12157,16 @@ window.INITIAL_PLACES = [
       "en": "Poland"
     },
     "coordinates": [
-      52.2431,
-      21.0163
+      52.24303,
+      21.01614
     ],
-    "unverifiedCoordinates": true,
+    "unverifiedCoordinates": false,
     "description": {
       "by": "Конны помнік перад Прэзідэнцкім палацам на Кракаўскім прадмесці. Арыгінальная скульптура працы Бертэля Торвальдсена на працягу 82 гадоў (1840–1922) упрыгожвала парк палаца Паскевічаў у Гомелі, з'яўляючыся адзінай коннай статуяй у Беларусі, і была вернутая ў Варшаву паводле Рыжскага міру 1921 года.",
       "ru": "Конный монумент перед Президентским дворцом в Варшаве. Оригинальная скульптура Торвальдсена на протяжении 82 лет (1840–1922) стояла на террасе парка Паскевичей в Гомеле — единственная конная статуя в Беларуси, возвращённая в Варшаву по Рижскому миру 1921 г.",
       "en": "Equestrian monument in front of the Presidential Palace on Krakowskie Przedmieście. The original sculpture by Bertel Thorvaldsen stood for 82 years (1840–1922) in the park of the Paskevich Palace in Gomel as the only equestrian monument in Belarus before being returned under the Peace of Riga."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Pomnik_ksi%C4%99cia_J%C3%B3zefa_Poniatowskiego_w_Warszawie_2020.jpg/500px-Pomnik_ksi%C4%99cia_J%C3%B3zefa_Poniatowskiego_w_Warszawie_2020.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/J%C3%B3zef_Poniatowski_Monument_2014.jpg/960px-J%C3%B3zef_Poniatowski_Monument_2014.jpg",
     "tags": [
       "warsaw",
       "monument",
@@ -12184,7 +12184,9 @@ window.INITIAL_PLACES = [
         "url": "https://pl.wikipedia.org/wiki/Pomnik_ksi%C4%99cia_J%C3%B3zefa_Poniatowskiego_w_Warszawie"
       }
     ],
-    "personIds": [],
+    "personIds": [
+      "jozef-poniatowski"
+    ],
     "mustSee": false
   },
   {
@@ -14108,7 +14110,7 @@ window.INITIAL_PLACES = [
   {
     "id": "nazi-camp-mauthausen-memorial",
     "title": {
-      "by": "Маўтхаўзен — каменны кар'ер, пакуты беларусаў і паўстанне Блока № 20",
+      "by": "Маўтгаўзен — каменны кар'ер, пакуты беларусаў і паўстанне Блока № 20",
       "ru": "Маутхаузен — каменоломни смерти и восстание Блока № 20",
       "en": "Mauthausen Memorial & The Heroic Block 20 Revolt"
     },
@@ -14119,7 +14121,7 @@ window.INITIAL_PLACES = [
       "en": "Austria"
     },
     "city": {
-      "by": "Маўтхаўзен",
+      "by": "Маўтгаўзен",
       "ru": "Маутхаузен",
       "en": "Mauthausen"
     },
@@ -14135,12 +14137,12 @@ window.INITIAL_PLACES = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Mauthausen_monuments.jpg/960px-Mauthausen_monuments.jpg",
     "links": [
       {
-        "title": "Маўтхаўзен — Вікіпедыя",
-        "url": "https://be.wikipedia.org/wiki/Маўтхаўзен"
+        "title": "Маўтгаўзен — Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/Канцэнтрацыйны_лагер_Маўтгаўзен"
       }
     ],
     "tags": [
-      "Маўтхаўзен",
+      "Маўтгаўзен",
       "Аўстрыя",
       "Блок 20",
       "паўстанне",
@@ -14243,7 +14245,7 @@ window.INITIAL_PLACES = [
   {
     "id": "nazi-camp-sachsenhausen",
     "title": {
-      "by": "Заксенхаўзен — лагер пад Берлінам і знішчэнне антыфашыстаў",
+      "by": "Заксенгаўзен — лагер пад Берлінам і знішчэнне антыфашыстаў",
       "ru": "Заксенхаузен — лагерь под Берлином и уничтожение антифашистов",
       "en": "Sachsenhausen Concentration Camp Memorial in Oranienburg"
     },
@@ -14270,12 +14272,12 @@ window.INITIAL_PLACES = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Sachsenhausen_Memorial_2011.jpg/960px-Sachsenhausen_Memorial_2011.jpg",
     "links": [
       {
-        "title": "Заксенхаўзен — Вікіпедыя",
-        "url": "https://ru.wikipedia.org/wiki/Заксенхаузен_(концентрационный_лагерь)"
+        "title": "Заксенгаўзен — Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/Канцэнтрацыйны_лагер_Заксенгаўзен"
       }
     ],
     "tags": [
-      "Заксенхаўзен",
+      "Заксенгаўзен",
       "Германія",
       "Берлін",
       "Араніенбург",
@@ -16817,11 +16819,11 @@ window.INITIAL_PLACES = [
     ]
   },
   {
-    "id": "warsaw-powazki-kapuscinski-grave",
+    "id": "warsaw-cmentarz-wojskowy-powazki",
     "title": {
-      "by": "Вайсковыя могілкі Павонзкі — Магіла Рышарда Капусцінскага (Варшава)",
-      "ru": "Воинское кладбище Повонзки — Могила Рышарда Капущинского (Варшава)",
-      "en": "Powązki Military Cemetery — Grave of Ryszard Kapuściński (Warsaw)"
+      "by": "Вайсковыя могілкі Павонзкі (Варшава)",
+      "ru": "Воинское кладбище Повонзки (Варшава)",
+      "en": "Powązki Military Cemetery in Warsaw"
     },
     "category": "grave",
     "country": {
@@ -16838,21 +16840,113 @@ window.INITIAL_PLACES = [
       52.2583,
       20.9531
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ryszard_Kapu%C5%9Bci%C5%84ski_2003_%28cropped%29.jpg/440px-Ryszard_Kapu%C5%9Bci%C5%84ski_2003_%28cropped%29.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Main_gate_of_Military_Cemetery_in_Warsaw_%282023%29.jpg/960px-Main_gate_of_Military_Cemetery_in_Warsaw_%282023%29.jpg",
     "description": {
-      "by": "На Алеі заслужаных знакамітых Вайсковых могілак Павонзкі ў Варшаве пахаваны сусветна вядомы рэпарцёр і пісьменнік Рышард Капусцінскі (1932–2007), ураджэнец Пінска. Надмагільны помнік з чорнага граніту з лаканічным аўтографам пісьменніка стаў месцам ушанавання літаратараў з усяго свету.",
-      "ru": "На Аллее заслуженных Воинского кладбища Повонзки в Варшаве похоронен уроженец Пинска, всемирно признанный классик репортажа Рышард Капущинский (1932–2007).",
-      "en": "Located in the Avenue of the Merited at Warsaw's Powązki Military Cemetery. Grave of Pinsk-born literary reporter and author Ryszard Kapuściński (1932–2007)."
+      "by": "Адзін з найбольш знакамітых некропаляў Польшчы, заснаваны ў 1912 годзе на Павонзках. Тут спачываюць дзясяткі выбітных ураджэнцаў Беларусі і дзеячаў, непарыўна звязаных з беларускай зямлёй: сусветна вядомы рэпарцёр Рышард Капусцінскі (ураджэнец Пінска), генерал Люцыян Жалігоўскі (ураджэнец Ашмян), арганізатар падполля ў Асвенціме ротмістр Вітольд Пілецкі (родавы маёнтак Сукурчы пад Лідай, сімвалічны мемарыял у Пантэоне на «Łączce»), генерал Беларускай Народнай Рэспублікі Станіслаў Булак-Балаховіч (сімвалічны кенатаф), стваральнік легендарнага польскага «Буквара» Мар'ян Фальскі (в. Нача Воранаўскага р-на), мастачка Мая Беразоўская (з Баранавіч), герой Варшаўскага паўстання Януш Брохвіч-Лявінскі «Грыф» (з Ваўкавыска), паэт і дысідэнт Віктар Варашыльскі (з Гродна) і многія іншыя.",
+      "ru": "Один из главных национальных некрополей Польши, основанный в 1912 году. Здесь похоронены десятки выдающихся уроженцев Беларуси и деятелей, неразрывно связанных с белорусской историей: писатель Рышард Капущинский (из Пинска), генерал Люциан Желиговский (из Ошмян), ротмистр Витольд Пилецкий (имение Сукурчи под Лидой, мемориал на участке «Łączka»), белорусский генерал Станислав Булак-Балахович, автор польского букваря Марьян Фальский (из дер. Нача), художница Мая Березовская (из Барановичей), герой Варшавского восстания Януш Брохвич-Левинский (из Волковыска), писатель Виктор Ворошильский (из Гродно) и др.",
+      "en": "One of Poland's foremost military and national necropolises, founded in 1912. It serves as the final resting place for numerous notable figures born in or intimately connected with Belarus: literary reporter Ryszard Kapuściński (from Pinsk), General Lucjan Żeligowski (from Ashmyany), Auschwitz resistance organizer Witold Pilecki (ancestral home Sukurcze near Lida), Belarusian BNR General Stanisław Bułak-Bałachowicz, author of the legendary Polish primer Marian Falski, artist Maja Berezowska (from Baranavichy), Warsaw Uprising hero Janusz Brochwicz-Lewiński (from Vawkavysk), writer and dissident Wiktor Woroszylski (from Grodno), and many others."
     },
-    "personIds": [
-      "ryszard-kapuscinski"
+    "items": [
+      {
+        "title": "Магіла Рышарда Капусцінскага (Алея заслужаных)",
+        "description": "Сусветны класік літаратурнага рэпартажу, ураджэнец Пінска. Лаканічны надмагільны помнік з чорнага граніту з аўтографам пісьменніка на Алеі заслужаных (кватэра A2-aleja zasłużonych-1).",
+        "person": "Рышард Капусцінскі",
+        "personId": "ryszard-kapuscinski",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ryszard_Kapu%C5%9Bci%C5%84ski_gr%C3%B3b.JPG/960px-Ryszard_Kapu%C5%9Bci%C5%84ski_gr%C3%B3b.JPG",
+        "wiki": "https://be.wikipedia.org/wiki/Рышард_Капусцінскі"
+      },
+      {
+        "title": "Магіла генерала Люцыяна Жалігоўскага",
+        "description": "Генерал, вайсковы і дзяржаўны дзеяч, ураджэнец Ашмян. Камандзір 1-й беларуска-літоўскай дывізіі, кіраўнік Сярэдняй Літвы (кватэра A29-6-24).",
+        "person": "Люцыян Жалігоўскі",
+        "personId": "lucjan-zeligowski",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/%C5%BBeligowski_gr%C3%B3b.JPG/960px-%C5%BBeligowski_gr%C3%B3b.JPG",
+        "wiki": "https://be.wikipedia.org/wiki/Люцыян_Жалігоўскі"
+      },
+      {
+        "title": "Пантэон-маўзалей «Łączka» — Мемарыял ротмістра Вітольда Пілецкага",
+        "description": "Арганізатар руху супраціву ў Асвенціме і аўтар першых справаздач пра лагер смерці. Жыў і гаспадарыў у родавым маёнтку Сукурчы пад Лідай. Забіты камуністычным рэжымам у 1948 г.; сімвалічны мемарыял у Пантэоне на кватэры «Ł».",
+        "person": "Вітольд Пілецкі",
+        "personId": "witold-pilecki",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/%C5%81_Quarter_at_Military_Cemetery_in_Warsaw_%282023%29.jpg/960px-%C5%81_Quarter_at_Military_Cemetery_in_Warsaw_%282023%29.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Вітольд_Пілецкі"
+      },
+      {
+        "title": "Сімвалічны кенатаф генерала Станіслава Булак-Балаховіча",
+        "description": "Беларускі генерал, камандзір войскаў Беларускай Народнай Рэспублікі, кіраўнік Палескага паходу 1920 г. Нарадзіўся ў Мэйштах на Браслаўшчыне. Загінуў ад рук нацыстаў у Варшаве ў 1940 г. (сімвалічны крыж-кенатаф, кватэра C23-10-1).",
+        "person": "Станіслаў Булак-Балаховіч",
+        "personId": "stanislaw-bulak-balachowicz",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Bu%C5%82ak-Ba%C5%82ahowicz%27s_tombstone.JPG/960px-Bu%C5%82ak-Ba%C5%82ahowicz%27s_tombstone.JPG",
+        "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Нікадзімавіч_Булак-Балаховіч"
+      },
+      {
+        "title": "Магіла Мар'яна Фальскага — аўтара легендарнага «Буквара»",
+        "description": "Педагог і навуковец, ураджэнец вёскі Нача Воранаўскага раёна Гродзеншчыны. Аўтар самага тыражнага польскага падручніка ў гісторыі («Elementarz»), па якім вучыліся чытаць мільёны дзяцей (Алея заслужаных, кватэра A2-aleja zasłużonych-3).",
+        "person": "Мар'ян Фальскі",
+        "personId": "marian-falski",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Nagrobek_marian_falski.JPG/960px-Nagrobek_marian_falski.JPG",
+        "wiki": "https://be.wikipedia.org/wiki/Мар’ян_Фальскі"
+      },
+      {
+        "title": "Магіла мастачкі Маі Беразоўскай",
+        "description": "Выбітная мастачка, графік, карыкатурыстка і кніжная ілюстратарка, ураджэнка Баранавіч. Вязніца канцлагера Равенсбрук (кватэра A35-4-4).",
+        "person": "Мая Беразоўская",
+        "personId": "maja-berezowska",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Maja_berezowska_nagrobek.JPG/960px-Maja_berezowska_nagrobek.JPG",
+        "wiki": "https://be.wikipedia.org/wiki/Мая_Беразоўская"
+      },
+      {
+        "title": "Магіла Януша Брохвіч-Лявінскага «Грыфа»",
+        "description": "Легендарны герой Варшаўскага паўстання (батальён АК «Парасоль», камандзір абароны палацыка Міхля на Волі), ураджэнец Ваўкавыска, брыгадны генерал Войска Польскага (Алея заслужаных, кватэра G-tuje-22).",
+        "person": "Януш Брохвіч-Лявінскі («Грыф»)",
+        "personId": "janusz-brochwicz-lewinski",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Grave_of_Janusz_Brochwicz-Lewi%C5%84ski_at_Military_Cemetery_in_Warsaw_%282023%29.jpg/960px-Grave_of_Janusz_Brochwicz-Lewi%C5%84ski_at_Military_Cemetery_in_Warsaw_%282023%29.jpg",
+        "wiki": "https://be.wikipedia.org/wiki/Януш_Брохвіч-Лявінскі"
+      },
+      {
+        "title": "Магіла пісьменніка Віктара Варашыльскага",
+        "description": "Паэт, празаік, перакладчык сусветнай і беларускай паэзіі, праваабаронца і дзеяч дэмакратычнага супраціву (KOR), ураджэнец Гродна (кватэра A3-tuje-3).",
+        "person": "Віктар Варашыльскі",
+        "personId": "wiktor-woroszylski",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Nagrobek_Wiktor_Woroszylski.JPG/960px-Nagrobek_Wiktor_Woroszylski.JPG",
+        "wiki": "https://pl.wikipedia.org/wiki/Wiktor_Woroszylski"
+      }
     ],
     "links": [
       {
-        "title": "Рышард Капусцінскі (Вікіпедыя)",
-        "url": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0"
+        "title": "Cmentarz Wojskowy na Powązkach (Вікіпедыя)",
+        "url": "https://pl.wikipedia.org/wiki/Cmentarz_Wojskowy_na_Pow%C4%85zkach"
+      },
+      {
+        "title": "Вайсковыя могілкі Павонзкі (Беларуская Вікіпедыя)",
+        "url": "https://be.wikipedia.org/wiki/Вайсковыя_могілкі_Павонзкі"
       }
-    ]
+    ],
+    "personIds": [
+      "ryszard-kapuscinski",
+      "lucjan-zeligowski",
+      "witold-pilecki",
+      "stanislaw-bulak-balachowicz",
+      "marian-falski",
+      "maja-berezowska",
+      "janusz-brochwicz-lewinski",
+      "wiktor-woroszylski"
+    ],
+    "tags": [
+      "Польшча",
+      "Варшава",
+      "Павонзкі",
+      "могілкі",
+      "Капусцінскі",
+      "Жалігоўскі",
+      "Пілецкі",
+      "Балаховіч",
+      "Фальскі",
+      "Беразоўская",
+      "grave"
+    ],
+    "unverifiedCoordinates": false,
+    "mustSee": true
   },
   {
     "id": "paris-la-ruche-montparnasse",

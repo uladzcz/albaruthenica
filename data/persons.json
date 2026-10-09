@@ -2212,8 +2212,11 @@
       "ru": "Родился в Пинске, неоднократно подчеркивал значение своего полесского детства для своего взгляда на мир. Всемирно известный репортёр и автор книг «Империя», «Шахиншах», «Император», переведённых на десятки языков.",
       "en": "Born in Pinsk (Polesia, Belarus). Internationally acclaimed Polish-Belarusian journalist and writer, author of 'The Emperor', 'Shah of Shahs', and 'Imperium'. He consistently traced his worldview to his childhood among the people of Polesia."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ryszard_Kapu%C5%9Bci%C5%84ski_2003_%28cropped%29.jpg/440px-Ryszard_Kapu%C5%9Bci%C5%84ski_2003_%28cropped%29.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A0%D1%8B%D1%88%D0%B0%D1%80%D0%B4_%D0%9A%D0%B0%D0%BF%D1%83%D1%81%D1%86%D1%96%D0%BD%D1%81%D0%BA%D1%96"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ryszard_Kapu%C5%9Bci%C5%84ski.jpg/960px-Ryszard_Kapu%C5%9Bci%C5%84ski.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Рышард_Капусцінскі",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
   },
   {
     "id": "boris-kit",
@@ -2989,5 +2992,197 @@
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Schloss_Sayn_2011.jpg/1280px-Schloss_Sayn_2011.jpg",
     "wiki": "https://en.wikipedia.org/wiki/Leonilla_Bariatinskaya"
+  },
+  {
+    "id": "lucjan-zeligowski",
+    "name": {
+      "by": "Люцыян Жалігоўскі",
+      "ru": "Люциан Желиговский",
+      "en": "Lucjan Żeligowski"
+    },
+    "role": {
+      "by": "Генерал, вайсковы і дзяржаўны дзеяч, ураджэнец Ашмян",
+      "ru": "Генерал, военный и государственный деятель, уроженец Ошмян",
+      "en": "General, military and political leader, native of Ashmyany"
+    },
+    "dates": "1865–1947",
+    "bio": {
+      "by": "Нарадзіўся ў Ашмянах. Генерал, удзельнік польска-савецкай вайны, кіраўнік 1-й беларуска-літоўскай дывізіі. У кастрычніку 1920 г. узначаліў паход на Вільню і абвясціў Сярэднюю Літву (Litwa Środkowa). Аўтар успамінаў «O zapomnianej prawdzie» (Пра забытую праўду), дзе разважаў пра адраджэнне славянскіх народаў і спадчыну ВКЛ. Пахаваны на Вайсковых могілках Павонзкі ў Варшаве.",
+      "ru": "Родился в Ошмянах. Генерал, командир 1-й белорусско-литовской дивизии, глава Срединной Литвы (1920–1922). Похоронен на Воинском кладбище Повонзки в Варшаве.",
+      "en": "Born in Ashmyany. Polish general, commander of the 1st Lithuanian-Belarusian Division, head of the state of Central Lithuania (1920–1922). Buried at Powązki Military Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Zeligowski_LOC_31862u.jpg/960px-Zeligowski_LOC_31862u.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Люцыян_Жалігоўскі",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "witold-pilecki",
+    "name": {
+      "by": "Вітольд Пілецкі",
+      "ru": "Витольд Пилецкий",
+      "en": "Witold Pilecki"
+    },
+    "role": {
+      "by": "Ротмістр, арганізатар руху супраціву ў Асвенціме, герой Польшчы",
+      "ru": "Ротмистр, организатор движения сопротивления в Освенциме, национальный герой Польши",
+      "en": "Rotamaster, organizer of resistance in Auschwitz, national hero"
+    },
+    "dates": "1901–1948",
+    "bio": {
+      "by": "Родавы маёнтак сям'і Пілецкіх — Сукурчы пад Лідай, дзе ён пражыў значную частку жыцця, гаспадарыў і стварыў конны атрад. Добраахвотна трапіў у канцлагер Аўшвіц (Асвенцім), стварыў там падпольную сетку «Саюз вайсковых арганізацый» і склаў першыя ў свеце даклады пра Галакост («Справаздачы Пілецкага»). Удзельнік Варшаўскага паўстання 1944 г. Пасля вайны забіты камуністычным рэжымам у турме на Макатоўскай; сімвалічны мемарыял — у Пантэоне-маўзалеі на «Łączce» на Вайсковых могілках Павонзкі.",
+      "ru": "Родовое имение семьи Пилецких находилось в Сукурчах под Лидой. Добровольно пошел узником в Освенцим для создания подполья и передал миру первые доклады об уничтожении узников. Расстрелян коммунистическим режимом в 1948 г.; кенотаф на участке «Łączka» Воинского кладбища Повонзки.",
+      "en": "His family estate was in Sukurcze near Lida. Pilecki volunteered to be imprisoned in Auschwitz to organize resistance and gather intelligence, authoring the first comprehensive reports on the camp. Executed in 1948 by the communist regime; memorial at the 'Łączka' pantheon at Powązki Military Cemetery."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Witold_Pilecki_in_b%26w.jpg/960px-Witold_Pilecki_in_b%26w.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Вітольд_Пілецкі",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "stanislaw-bulak-balachowicz",
+    "name": {
+      "by": "Станіслаў Булак-Балаховіч",
+      "ru": "Станислав Булак-Балахович",
+      "en": "Stanisław Bułak-Bałachowicz"
+    },
+    "role": {
+      "by": "Беларускі генерал, вайсковы дзеяч БНР і кіраўнік Палескага паходу",
+      "ru": "Белорусский генерал, военный деятель БНР и руководитель Полесского похода",
+      "en": "General, military commander of the Belarusian People's Republic"
+    },
+    "dates": "1883–1940",
+    "bio": {
+      "by": "Нарадзіўся ў маёнтку Мэйшты (Браслаўшчына / Відзы). Камандзір Асобнага аддзела войскаў БНР, генерал-маёр. Увосень 1920 г. узначаліў Палескі паход супраць бальшавікоў, абвясціў у Тураве аднаўленне БНР. У міжваенны час жыў у Варшаве. У верасні 1939 г. узначаліў добраахвотніцкі атрад абароны Варшавы. Загінуў ад рук нацыстаў у Варшаве ў 1940 г. Сімвалічны кенатаф усталяваны на Вайсковых могілках Павонзкі.",
+      "ru": "Родился в Мейштах (Браславщина). Генерал войск Белорусской Народной Республики, руководитель Полесского похода 1920 г. Убит гестапо в Варшаве в 1940 г. Символический крест-кенотаф на Воинском кладбище Повонзки.",
+      "en": "Born in Meyszty (Braslaw district). General of the Belarusian People's Republic military formations and leader of the 1920 Polesia campaign against the Bolsheviks. Killed by the Gestapo in Warsaw in 1940; symbolic cenotaph cross at Powązki Military Cemetery."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ba%C5%82achowicz.JPG",
+    "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Нікадзімавіч_Булак-Балаховіч",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "marian-falski",
+    "name": {
+      "by": "Мар'ян Фальскі",
+      "ru": "Марьян Фальский",
+      "en": "Marian Falski"
+    },
+    "role": {
+      "by": "Педагог, асветнік, аўтар легендарнага «Буквара» (Elementarz)",
+      "ru": "Педагог, просветитель, автор легендарного «Букваря» (Elementarz)",
+      "en": "Pedagogue, author of the legendary primer 'Elementarz'"
+    },
+    "dates": "1881–1974",
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Нача (цяпер Воранаўскі раён Гродзенскай вобласці). Аўтар легендарнага польскага падручніка «Elementarz», які вытрымаў дзясяткі перавыданняў і па якім навучыліся чытаць некалькі пакаленняў (самы тыражны падручнік у гісторыі Польшчы). Прафесар, даследчык адукацыі. Пахаваны на Алеі заслужаных Вайсковых могілак Павонзкі.",
+      "ru": "Родился в деревне Нача (Вороновский район Гродненской области). Создатель легендарного польского букваря «Elementarz», по которому учились читать миллионы детей. Похоронен на Воинском кладбище Повонзки в Варшаве.",
+      "en": "Born in Nacza (now Voranava district, Hrodna region). Author of the legendary 'Elementarz' primer, the most published school textbook in Polish history by which generations learned to read. Buried in the Avenue of the Merited at Powązki Military Cemetery."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Marian_Falski.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Мар’ян_Фальскі",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "maja-berezowska",
+    "name": {
+      "by": "Мая Беразоўская",
+      "ru": "Мая Березовская",
+      "en": "Maja Berezowska"
+    },
+    "role": {
+      "by": "Мастачка, графік, карыкатурыстка і ілюстратарка",
+      "ru": "Художница, график, карикатуристка и иллюстратор",
+      "en": "Painter, graphic artist, caricature artist and illustrator"
+    },
+    "dates": "1898–1978",
+    "bio": {
+      "by": "Нарадзілася ў Баранавічах у сям'і інжынера-будаўніка чыгункі. Выбітная мастачка-графік, майстар эратычнага і сатырычнага малюнка. У міжваенны перыяд працавала ў Парыжы, пасля вяртання ў Польшчу была арыштаваная гестапа і выжыла ў канцлагеры Равенсбрук. Пасля вайны ілюстравала шматлікія кнігі і часопісы. Пахаваная на Вайсковых могілках Павонзкі.",
+      "ru": "Родилась в Барановичах. Выдающаяся художница-график, карикатуристка и книжный иллюстратор. Узница концлагеря Равенсбрюк. Похоронена на Воинском кладбище Повонзки.",
+      "en": "Born in Baranavichy. Prominent Polish graphic artist, caricaturist and illustrator. Ravensbrück concentration camp survivor. Buried at Powązki Military Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Maja_Berezowska_%28cropped%29.jpg/960px-Maja_Berezowska_%28cropped%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Мая_Беразоўская",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "janusz-brochwicz-lewinski",
+    "name": {
+      "by": "Януш Брохвіч-Лявінскі («Грыф»)",
+      "ru": "Януш Брохвич-Левинский («Гриф»)",
+      "en": "Janusz Brochwicz-Lewiński ('Gryf')"
+    },
+    "role": {
+      "by": "Легендарны герой Варшаўскага паўстання (батальён «Парасоль»), ураджэнец Ваўкавыска",
+      "ru": "Легендарный герой Варшавского восстания (батальон «Парасоль»), уроженец Волковыска",
+      "en": "Hero of the Warsaw Uprising ('Parasol' Battalion), native of Vawkavysk"
+    },
+    "dates": "1920–2017",
+    "bio": {
+      "by": "Нарадзіўся ў Ваўкавыску. Герой Варшаўскага паўстання 1944 г., камандзір легендарнай абароны палацыка Міхля (Pałacyk Michla) на Волі ў складзе батальёна Арміі Краёвай «Парасоль». Брыгадны генерал Войска Польскага, кавалер ордэна Virtuti Militari. Пахаваны на Вайсковых могілках Павонзкі.",
+      "ru": "Родился в Волковыске. Герой Варшавского восстания 1944 года, командир легендарной обороны дворца Михля батальона АК «Парасоль». Бригадный генерал Войска Польского. Похоронен на Воинском кладбище Повонзки.",
+      "en": "Born in Vawkavysk. Legendary hero of the 1944 Warsaw Uprising, commander of the defense of Michla Palace within the Home Army's 'Parasol' battalion. Brigadier general of the Polish Army. Buried at Powązki Military Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Janusz_Brochwicz-Lewi%C5%84ski.jpg/960px-Janusz_Brochwicz-Lewi%C5%84ski.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Януш_Брохвіч-Лявінскі",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "wiktor-woroszylski",
+    "name": {
+      "by": "Віктар Варашыльскі",
+      "ru": "Виктор Ворошильский",
+      "en": "Wiktor Woroszylski"
+    },
+    "role": {
+      "by": "Паэт, пісьменнік, перакладчык і праваабаронца, ураджэнец Гродна",
+      "ru": "Поэт, писатель, переводчик и диссидент, уроженец Гродно",
+      "en": "Poet, writer, translator and human rights activist, native of Grodno"
+    },
+    "dates": "1927–1996",
+    "bio": {
+      "by": "Нарадзіўся ў Гродне ў сям'і лекара. Выбітны паэт, празаік, перакладчык сусветнай і беларускай паэзіі. Адзін з заснавальнікаў Камітэта абароны рабочых (KOR) і незалежнага часопіса «Zapis». Пахаваны на Вайсковых могілках Павонзкі.",
+      "ru": "Родился в Гродно. Известный поэт, переводчик, деятель демократического оппозиционного движения в Польше (член KOR). Похоронен на Воинском кладбище Повонзки.",
+      "en": "Born in Grodno. Prominent poet, writer, translator and democratic dissident (member of KOR). Buried at Powązki Military Cemetery in Warsaw."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Fundacja_O%C5%9Brodka_KARTA_-_urodziny_Woroszylskiego.jpg",
+    "wiki": "https://pl.wikipedia.org/wiki/Wiktor_Woroszylski",
+    "placeIds": [
+      "warsaw-cmentarz-wojskowy-powazki"
+    ]
+  },
+  {
+    "id": "jozef-poniatowski",
+    "name": {
+      "by": "Юзаф Панятоўскі",
+      "ru": "Юзеф Понятовский",
+      "en": "Józef Poniatowski"
+    },
+    "role": {
+      "by": "Князь, маршал Францыі, галоўнакамандуючы войскам Варшаўскага герцагства",
+      "ru": "Князь, маршал Франции, главнокомандующий войсками герцогства Варшавского",
+      "en": "Prince, Marshal of the Empire, commander-in-chief of the Duchy of Warsaw"
+    },
+    "dates": "1763–1813",
+    "bio": {
+      "by": "Польскі дзяржаўны і вайсковы дзеяч, пляменнік апошняга караля Рэчы Паспалітай Станіслава Аўгуста Панятоўскага. Маршал Францыі. Яго знакаміты конны помнік працы Бертэля Торвальдсена пасля паўстання 1830–1831 гг. быў канфіскаваны і вывезены царскім фельдмаршалам Іванам Паскевічам у яго палац у Гомелі, дзе ўпрыгожваў тэрасу больш за 80 гадоў (1840–1922) да вяртання ў Варшаву паводле Рыжскага міру.",
+      "ru": "Польский полководец, племянник короля Станислава Августа, маршал Франции. Его конная статуя работы Торвальдсена на протяжении более 80 лет (1840–1922) стояла на террасе дворца Паскевичей в Гомеле перед возвращением в Варшаву.",
+      "en": "Polish general, minister of war and Marshal of France. His famous equestrian statue sculpted by Bertel Thorvaldsen stood for over 80 years (1840–1922) on the terrace of the Gomel Palace in Belarus after being confiscated by Ivan Paskevich, before being returned to Warsaw in 1922."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Prince_Jozef_Poniatowski%2C_by_Josef_Grassi.jpg/960px-Prince_Jozef_Poniatowski%2C_by_Josef_Grassi.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Юзаф_Панятоўскі",
+    "placeIds": [
+      "warsaw-poniatowski-monument"
+    ]
   }
 ]
