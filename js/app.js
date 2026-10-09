@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   initI18n();
+  initAuth();
   initMap();
   loadPlaces();
   setupEventListeners();
@@ -125,6 +126,7 @@ function setLanguage(lang) {
     currentLang = lang;
     localStorage.setItem('albaruthenica_lang', lang);
     initI18n();
+    updateAuthUI();
     updateLayerControl();
     updateAdminUI();
     renderSidebarList();
@@ -325,6 +327,9 @@ async function loadPlaces() {
       }
       if (typeof overrides[p.id].unverifiedCoordinates !== 'undefined') {
         p.unverifiedCoordinates = overrides[p.id].unverifiedCoordinates;
+      }
+      if (overrides[p.id].image) {
+        p.image = overrides[p.id].image;
       }
     }
   });
@@ -765,9 +770,37 @@ function showPlaceDetail(placeId) {
   const dict = window.i18n[currentLang];
 
   const heroImg = place.image ? `
-    <div class="detail-hero-wrap">
-      <img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" onload="handleHeroImageOrientation(this)">
-    </div>` : '';
+    <div class="detail-hero-wrap" id="detailHeroWrap">
+      <img src="${place.image}" alt="${title}" class="detail-hero-img" loading="lazy" referrerpolicy="no-referrer" 
+           onload="handleHeroImageOrientation(this)" 
+           onerror="handleHeroImageError('${place.id}')">
+      <button type="button" class="detail-hero-edit-badge" onclick="openAddImageModal('${place.id}')" title="${dict.btnChangeImage || 'Прапанаваць іншую выяву'}">
+        📷 ${dict.btnChangeImage || 'Змяніць'}
+      </button>
+    </div>` : `
+    <div class="detail-no-image-wrap" id="detailHeroWrap">
+      <div class="detail-no-image-content">
+        <div class="detail-no-image-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+        </div>
+        <div class="detail-no-image-text">
+          <span class="detail-no-image-title">${dict.noImageTitle || 'Выява пакуль адсутнічае'}</span>
+          <span class="detail-no-image-sub">${dict.noImagePrompt || 'Маеце фатаграфію ці выяву гэтага месца? Дапамажыце праекту!'}</span>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm detail-add-photo-btn" onclick="openAddImageModal('${place.id}')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px; vertical-align:-1px;">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+          ${dict.btnAddImage || 'Дадаць выяву'}
+        </button>
+      </div>
+    </div>
+  `;
 
   const tagsHtml = (place.tags || []).map(t => `<span class="detail-tag">#${t}</span>`).join('');
 
@@ -1364,6 +1397,17 @@ function handleGenerateJson() {
     outputBox.textContent = jsonStr;
     resultContainer.style.display = 'block';
   }
+
+  // Record user contribution
+  if (typeof recordUserContribution === 'function') {
+    recordUserContribution({
+      type: 'place',
+      placeId: slug,
+      title: newPlaceObj.title,
+      image: newPlaceObj.image,
+      date: Date.now()
+    });
+  }
 }
 
 function handleCopyJson() {
@@ -1871,4 +1915,502 @@ window.adminGoToPlace = adminGoToPlace;
 window.toggleAdminFilterUnverified = toggleAdminFilterUnverified;
 window.handleAdminDownloadJson = handleAdminDownloadJson;
 window.handleAdminCopyJson = handleAdminCopyJson;
+
+// ========================================================
+// Add Image & Fallback Handling
+// ========================================================
+
+function handleHeroImageError(placeId) {
+  const heroWrap = document.getElementById('detailHeroWrap');
+  if (!heroWrap) return;
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  heroWrap.className = 'detail-no-image-wrap';
+  heroWrap.innerHTML = `
+    <div class="detail-no-image-content">
+      <div class="detail-no-image-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+          <circle cx="8.5" cy="8.5" r="1.5"/>
+          <polyline points="21 15 16 10 5 21"/>
+        </svg>
+      </div>
+      <div class="detail-no-image-text">
+        <span class="detail-no-image-title">${dict.noImageTitle || 'Выява пакуль адсутнічае'}</span>
+        <span class="detail-no-image-sub">${dict.noImagePrompt || 'Маеце фатаграфію ці выяву гэтага месца? Дапамажыце праекту!'}</span>
+      </div>
+      <button type="button" class="btn btn-primary btn-sm detail-add-photo-btn" onclick="openAddImageModal('${placeId}')">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:4px; vertical-align:-1px;">
+          <line x1="12" y1="5" x2="12" y2="19"></line>
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+        </svg>
+        ${dict.btnAddImage || 'Дадаць выяву'}
+      </button>
+    </div>
+  `;
+}
+
+function openAddImageModal(placeId) {
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place) return;
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  const title = getLocalized(place.title);
+  const city = getLocalized(place.city);
+  const country = getLocalized(place.country);
+
+  const placeIdInput = document.getElementById('addImagePlaceId');
+  if (placeIdInput) placeIdInput.value = placeId;
+
+  const subEl = document.getElementById('addImageModalSubtitle');
+  if (subEl) {
+    subEl.textContent = `${title} (${city}, ${country})`;
+  }
+
+  // Reset inputs
+  const urlInp = document.getElementById('addImageUrlInput');
+  if (urlInp) urlInp.value = '';
+
+  const authInp = document.getElementById('addImageAuthorInput');
+  if (authInp) authInp.value = '';
+
+  const fileInput = document.getElementById('addImageFileInput');
+  if (fileInput) fileInput.value = '';
+
+  const previewBox = document.getElementById('addImagePreviewContainer');
+  const previewImg = document.getElementById('addImagePreviewImg');
+  if (previewBox) previewBox.style.display = 'none';
+  if (previewImg) previewImg.src = '';
+
+  switchAddImageTab('url');
+  openModal('addImageModal');
+}
+
+function switchAddImageTab(tab) {
+  const tabUrl = document.getElementById('tabImgUrl');
+  const tabFile = document.getElementById('tabImgFile');
+  const secUrl = document.getElementById('sectionImgUrl');
+  const secFile = document.getElementById('sectionImgFile');
+
+  if (tab === 'url') {
+    tabUrl?.classList.add('active');
+    tabFile?.classList.remove('active');
+    if (secUrl) secUrl.style.display = 'block';
+    if (secFile) secFile.style.display = 'none';
+  } else {
+    tabUrl?.classList.remove('active');
+    tabFile?.classList.add('active');
+    if (secUrl) secUrl.style.display = 'none';
+    if (secFile) secFile.style.display = 'block';
+  }
+}
+
+function previewAddImageUrl(url) {
+  const previewBox = document.getElementById('addImagePreviewContainer');
+  const previewImg = document.getElementById('addImagePreviewImg');
+  if (!url || !url.trim().startsWith('http')) {
+    if (previewBox) previewBox.style.display = 'none';
+    return;
+  }
+  if (previewImg && previewBox) {
+    previewImg.src = url.trim();
+    previewBox.style.display = 'block';
+  }
+}
+
+function handleImageFileSelected(input) {
+  const file = input.files?.[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const dataUrl = e.target.result;
+    const previewBox = document.getElementById('addImagePreviewContainer');
+    const previewImg = document.getElementById('addImagePreviewImg');
+    if (previewImg && previewBox) {
+      previewImg.src = dataUrl;
+      previewBox.style.display = 'block';
+    }
+  };
+  reader.readAsDataURL(file);
+}
+
+function submitAddedImage() {
+  const placeIdInput = document.getElementById('addImagePlaceId');
+  if (!placeIdInput) return;
+  const placeId = placeIdInput.value;
+  const place = allPlaces.find(p => p.id === placeId);
+  if (!place) return;
+
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  let finalImage = '';
+
+  const activeTab = document.getElementById('tabImgUrl')?.classList.contains('active') ? 'url' : 'file';
+  if (activeTab === 'url') {
+    const url = document.getElementById('addImageUrlInput')?.value.trim();
+    if (!url) {
+      showToast(dict.imageErrorToast || 'Калі ласка, увядзіце спасылку на выяву.');
+      return;
+    }
+    finalImage = url;
+  } else {
+    const previewImg = document.getElementById('addImagePreviewImg');
+    if (!previewImg || !previewImg.src || previewImg.src === window.location.href) {
+      showToast(dict.imageErrorToast || 'Калі ласка, выберыце файл выявы.');
+      return;
+    }
+    finalImage = previewImg.src;
+  }
+
+  const author = document.getElementById('addImageAuthorInput')?.value.trim() || '';
+
+  // Update place in memory and localStorage overrides
+  place.image = finalImage;
+  savePlaceOverride(place.id, { image: finalImage, imageAuthor: author });
+
+  // Record user contribution if authenticated or guest
+  recordUserContribution({
+    type: 'image',
+    placeId: place.id,
+    title: place.title,
+    image: finalImage,
+    author: author,
+    date: Date.now()
+  });
+
+  closeModal('addImageModal');
+  renderSidebarList();
+  showPlaceDetail(place.id);
+  showToast(dict.imageSuccessToast || 'Выява паспяхова дададзена! Дзякуй за ваш унёсак!');
+}
+
+// ========================================================
+// User Authentication & Registration System (Google, Apple, Email)
+// ========================================================
+
+let currentUser = null;
+
+function initAuth() {
+  try {
+    const stored = localStorage.getItem('albaruthenica_current_user');
+    if (stored) {
+      currentUser = JSON.parse(stored);
+    }
+  } catch (e) {
+    currentUser = null;
+  }
+  updateAuthUI();
+}
+
+function saveCurrentUser(user) {
+  currentUser = user;
+  if (user) {
+    localStorage.setItem('albaruthenica_current_user', JSON.stringify(user));
+  } else {
+    localStorage.removeItem('albaruthenica_current_user');
+  }
+  updateAuthUI();
+}
+
+function updateAuthUI() {
+  const container = document.getElementById('userAuthContainer');
+  if (!container) return;
+  const dict = window.i18n[currentLang] || window.i18n.by;
+
+  if (!currentUser) {
+    container.innerHTML = `
+      <button id="btnSignIn" class="btn btn-secondary btn-sm" onclick="openAuthModal()">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: -2px;">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+        <span class="btn-text-label">${dict.btnSignIn || 'Увайсці'}</span>
+      </button>
+    `;
+  } else {
+    const initial = (currentUser.name || currentUser.email || 'U')[0].toUpperCase();
+    const avatarHtml = currentUser.avatar ? 
+      `<img src="${currentUser.avatar}" alt="${currentUser.name}" class="user-profile-avatar" referrerpolicy="no-referrer">` :
+      `<div class="user-profile-avatar">${initial}</div>`;
+
+    const providerIcon = currentUser.provider === 'google' ? 'Google' : (currentUser.provider === 'apple' ? 'Apple' : 'Email');
+
+    container.innerHTML = `
+      <div class="user-profile-menu-wrap" style="position: relative;">
+        <button type="button" class="user-profile-btn" onclick="toggleUserDropdown(event)">
+          ${avatarHtml}
+          <span class="user-profile-name">${currentUser.name || currentUser.email}</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+        <div class="user-profile-dropdown" id="userProfileDropdown">
+          <div class="user-dropdown-header">
+            <div class="user-dropdown-name">${currentUser.name || 'Карыстальнік'}</div>
+            <div class="user-dropdown-email">${currentUser.email || ''}</div>
+            <span class="user-provider-tag">${providerIcon}</span>
+          </div>
+          <button type="button" class="user-dropdown-item" onclick="openUserProfileModal()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            ${dict.userProfileTitle || 'Профіль і ўнёскі'}
+          </button>
+          <button type="button" class="user-dropdown-item danger" onclick="handleSignOut()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+            ${dict.btnSignOut || 'Выйсці'}
+          </button>
+        </div>
+      </div>
+    `;
+  }
+}
+
+function toggleUserDropdown(event) {
+  event?.stopPropagation();
+  const dropdown = document.getElementById('userProfileDropdown');
+  if (dropdown) {
+    dropdown.classList.toggle('open');
+  }
+}
+
+// Close dropdown on outside click
+document.addEventListener('click', (e) => {
+  const dropdown = document.getElementById('userProfileDropdown');
+  if (dropdown && dropdown.classList.contains('open') && !e.target.closest('.user-profile-menu-wrap')) {
+    dropdown.classList.remove('open');
+  }
+});
+
+function openAuthModal() {
+  openModal('authModal');
+}
+
+function closeAuthModal() {
+  closeModal('authModal');
+}
+
+function switchAuthMode(mode) {
+  const tabLogin = document.getElementById('authTabLoginBtn');
+  const tabReg = document.getElementById('authTabRegisterBtn');
+  const nameGroup = document.getElementById('authNameGroup');
+  const submitBtn = document.getElementById('authSubmitBtn');
+  const dict = window.i18n[currentLang] || window.i18n.by;
+
+  if (mode === 'login') {
+    tabLogin?.classList.add('active');
+    tabReg?.classList.remove('active');
+    if (nameGroup) nameGroup.style.display = 'none';
+    if (submitBtn) submitBtn.innerHTML = `<span>${dict.authSubmitLogin || 'Увайсці ў акаўнт'}</span>`;
+  } else {
+    tabLogin?.classList.remove('active');
+    tabReg?.classList.add('active');
+    if (nameGroup) nameGroup.style.display = 'block';
+    if (submitBtn) submitBtn.innerHTML = `<span>${dict.authSubmitRegister || 'Зарэгістравацца'}</span>`;
+  }
+}
+
+// Google Sign-in flow
+function handleGoogleSignIn() {
+  closeModal('authModal');
+  openModal('googleAuthPromptModal');
+}
+
+function confirmGoogleLogin(name, email) {
+  const user = {
+    id: 'google_' + Math.random().toString(36).substring(2, 10),
+    name: name,
+    email: email,
+    avatar: 'https://lh3.googleusercontent.com/a/default-user=s96-c',
+    provider: 'google',
+    createdAt: Date.now(),
+    contributions: getUserContributions()
+  };
+  saveCurrentUser(user);
+  closeModal('googleAuthPromptModal');
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(`${dict.authSuccessLogin || 'Вітаем!'} (${name})`);
+}
+
+function confirmCustomGoogleLogin() {
+  const nameInput = document.getElementById('customGoogleName')?.value.trim();
+  const emailInput = document.getElementById('customGoogleEmail')?.value.trim();
+  if (!emailInput) {
+    showToast('Калі ласка, увядзіце email.');
+    return;
+  }
+  confirmGoogleLogin(nameInput || emailInput.split('@')[0], emailInput);
+}
+
+// Apple Sign-in flow
+function handleAppleSignIn() {
+  closeModal('authModal');
+  openModal('appleAuthPromptModal');
+}
+
+function confirmAppleLogin() {
+  const name = document.getElementById('appleUserNameInput')?.value.trim() || 'Apple Карыстальнік';
+  const hideEmail = document.getElementById('appleHideEmailCheckbox')?.checked;
+  const email = hideEmail ? 'privaterelay_' + Math.random().toString(36).substring(2, 8) + '@privaterelay.appleid.com' : 'user@icloud.com';
+
+  const user = {
+    id: 'apple_' + Math.random().toString(36).substring(2, 10),
+    name: name,
+    email: email,
+    avatar: '',
+    provider: 'apple',
+    createdAt: Date.now(),
+    contributions: getUserContributions()
+  };
+  saveCurrentUser(user);
+  closeModal('appleAuthPromptModal');
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(`${dict.authSuccessLogin || 'Вітаем!'} (${name})`);
+}
+
+// Email/Password login & registration flow
+function handleEmailAuthSubmit(e) {
+  e.preventDefault();
+  const isRegister = document.getElementById('authTabRegisterBtn')?.classList.contains('active');
+  const email = document.getElementById('authEmailInput')?.value.trim();
+  const name = document.getElementById('authNameInput')?.value.trim() || email.split('@')[0];
+  const dict = window.i18n[currentLang] || window.i18n.by;
+
+  if (!email) return;
+
+  const user = {
+    id: 'usr_' + Math.random().toString(36).substring(2, 10),
+    name: name,
+    email: email,
+    avatar: '',
+    provider: 'email',
+    createdAt: Date.now(),
+    contributions: getUserContributions()
+  };
+  saveCurrentUser(user);
+  closeModal('authModal');
+  showToast(isRegister ? (dict.authSuccessRegister || 'Акаўнт паспяхова створаны!') : (dict.authSuccessLogin || 'Вы паспяхова ўвайшлі!'));
+}
+
+function handleSignOut() {
+  saveCurrentUser(null);
+  closeModal('userProfileModal');
+  const dropdown = document.getElementById('userProfileDropdown');
+  if (dropdown) dropdown.classList.remove('open');
+  const dict = window.i18n[currentLang] || window.i18n.by;
+  showToast(dict.authLoggedOut || 'Вы выйшлі з уліковага запісу.');
+}
+
+// Contributions management
+function getUserContributions() {
+  try {
+    const list = localStorage.getItem('albaruthenica_user_contributions');
+    return list ? JSON.parse(list) : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function recordUserContribution(item) {
+  const list = getUserContributions();
+  list.unshift(item);
+  localStorage.setItem('albaruthenica_user_contributions', JSON.stringify(list));
+  if (currentUser) {
+    currentUser.contributions = list;
+    localStorage.setItem('albaruthenica_current_user', JSON.stringify(currentUser));
+  }
+}
+
+function openUserProfileModal() {
+  const bodyEl = document.getElementById('userProfileBody');
+  if (!bodyEl) return;
+  const dict = window.i18n[currentLang] || window.i18n.by;
+
+  if (!currentUser) {
+    bodyEl.innerHTML = `<p>${dict.noResults || 'Карыстальнік не аўтарызаваны.'}</p>`;
+    openModal('userProfileModal');
+    return;
+  }
+
+  const initial = (currentUser.name || currentUser.email || 'U')[0].toUpperCase();
+  const avatarHtml = currentUser.avatar ? 
+    `<img src="${currentUser.avatar}" alt="${currentUser.name}" class="user-profile-big-avatar" referrerpolicy="no-referrer">` :
+    `<div class="user-profile-big-avatar">${initial}</div>`;
+
+  const contributions = getUserContributions();
+  const imageCount = contributions.filter(c => c.type === 'image').length;
+  const placeCount = contributions.filter(c => c.type === 'place').length;
+
+  const contribListHtml = contributions.length > 0 ? contributions.map(c => {
+    const title = getLocalized(c.title) || c.placeId || 'Унёсак';
+    const typeLabel = c.type === 'image' ? '📷 Фотаздымак' : '📍 Месца';
+    const dateStr = c.date ? new Date(c.date).toLocaleDateString() : '';
+    return `
+      <div class="user-contrib-item">
+        <div>
+          <span style="font-weight: 600;">${title}</span>
+          <div style="font-size: 0.72rem; color: var(--text-muted);">${typeLabel} &bull; ${dateStr}</div>
+        </div>
+        ${c.image ? `<img src="${c.image}" style="width: 32px; height: 32px; object-fit: cover; border-radius: 2px;" referrerpolicy="no-referrer">` : ''}
+      </div>
+    `;
+  }).join('') : `
+    <div style="padding: 0.75rem; color: var(--text-muted); font-size: 0.8rem; text-align: center;">
+      ${dict.userNoContributions || 'У вас пакуль няма захаваных унёскаў на гэтай прыладзе.'}
+    </div>
+  `;
+
+  bodyEl.innerHTML = `
+    <div class="user-profile-header-card">
+      ${avatarHtml}
+      <div>
+        <div style="font-size: 1rem; font-weight: 700; color: var(--text-main);">${currentUser.name}</div>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">${currentUser.email}</div>
+        <span class="user-provider-tag" style="margin-top: 0.25rem;">${currentUser.provider.toUpperCase()}</span>
+      </div>
+    </div>
+
+    <div class="user-profile-stats-grid">
+      <div class="user-profile-stat-box">
+        <div class="user-profile-stat-num">${placeCount}</div>
+        <div class="user-profile-stat-lbl">Дададзеныя месцы</div>
+      </div>
+      <div class="user-profile-stat-box">
+        <div class="user-profile-stat-num">${imageCount}</div>
+        <div class="user-profile-stat-lbl">Дададзеныя выявы</div>
+      </div>
+    </div>
+
+    <div style="margin-top: 1rem;">
+      <div style="font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.5rem;">
+        ${dict.userContributions || 'Мае ўнёскі'} (${contributions.length})
+      </div>
+      <div class="user-contributions-list">
+        ${contribListHtml}
+      </div>
+    </div>
+  `;
+
+  const dropdown = document.getElementById('userProfileDropdown');
+  if (dropdown) dropdown.classList.remove('open');
+  openModal('userProfileModal');
+}
+
+// Window global exposures for image and auth actions
+window.handleHeroImageError = handleHeroImageError;
+window.openAddImageModal = openAddImageModal;
+window.switchAddImageTab = switchAddImageTab;
+window.previewAddImageUrl = previewAddImageUrl;
+window.handleImageFileSelected = handleImageFileSelected;
+window.submitAddedImage = submitAddedImage;
+
+window.openAuthModal = openAuthModal;
+window.closeAuthModal = closeAuthModal;
+window.switchAuthMode = switchAuthMode;
+window.handleGoogleSignIn = handleGoogleSignIn;
+window.confirmGoogleLogin = confirmGoogleLogin;
+window.confirmCustomGoogleLogin = confirmCustomGoogleLogin;
+window.handleAppleSignIn = handleAppleSignIn;
+window.confirmAppleLogin = confirmAppleLogin;
+window.handleEmailAuthSubmit = handleEmailAuthSubmit;
+window.handleSignOut = handleSignOut;
+window.openUserProfileModal = openUserProfileModal;
+window.toggleUserDropdown = toggleUserDropdown;
 

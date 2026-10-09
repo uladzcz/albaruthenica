@@ -66,6 +66,17 @@
       <button id="btnAddPlace" class="btn btn-primary btn-sm">
         <span class="btn-text-label" data-i18n="btnAddPlace">Дадаць месца</span>
       </button>
+
+      <!-- User Authentication & Profile -->
+      <div class="user-auth-wrap" id="userAuthContainer">
+        <button id="btnSignIn" class="btn btn-secondary btn-sm" onclick="openAuthModal()">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; vertical-align: -2px;">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span class="btn-text-label" data-i18n="btnSignIn">Увайсці</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -372,6 +383,248 @@
         <button class="btn btn-secondary" onclick="closeModal('adminExportModal')" data-i18n="closeModal">Закрыць</button>
         <button id="btnAdminCopyFullJson" class="btn btn-secondary" data-i18n="btnCopyJson">Скапіяваць JSON</button>
         <button id="btnAdminDownloadJson" class="btn btn-primary" data-i18n="adminDownloadJson">Спампаваць places.json</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Image Modal -->
+  <div class="modal-overlay" id="addImageModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" data-i18n="addImageModalTitle">Дадаць выяву да месца</h3>
+          <p class="modal-subtitle" id="addImageModalSubtitle"></p>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('addImageModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="addImagePlaceId" value="">
+
+        <!-- Tab switches: URL vs File Upload -->
+        <div class="tab-pills" style="margin-bottom: 1.25rem; display: flex; gap: 0.5rem;">
+          <button type="button" class="tab-pill active" id="tabImgUrl" onclick="switchAddImageTab('url')">
+            🔗 <span data-i18n="tabImageUrl">Спасылка на выяву</span>
+          </button>
+          <button type="button" class="tab-pill" id="tabImgFile" onclick="switchAddImageTab('file')">
+            📁 <span data-i18n="tabImageUpload">Загрузіць файл</span>
+          </button>
+        </div>
+
+        <div id="sectionImgUrl">
+          <div class="form-group">
+            <label class="form-label" data-i18n="formImageUrl">Спасылка на выяву (URL)</label>
+            <input type="url" id="addImageUrlInput" class="form-input" placeholder="https://upload.wikimedia.org/.../photo.jpg" oninput="previewAddImageUrl(this.value)">
+            <p class="form-hint" style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.35rem;">
+              Спасылка з Wikimedia Commons, музея альбо прамы URL выявы.
+            </p>
+          </div>
+        </div>
+
+        <div id="sectionImgFile" style="display: none;">
+          <div class="form-group">
+            <label class="form-label" data-i18n="formImageFile">Выберыце фотаздымак з прылады</label>
+            <div class="file-drop-zone" id="imageDropZone" onclick="document.getElementById('addImageFileInput').click()">
+              <input type="file" id="addImageFileInput" accept="image/*" style="display: none;" onchange="handleImageFileSelected(this)">
+              <div class="file-drop-icon">📷</div>
+              <div class="file-drop-text" data-i18n="dropImagePrompt">Клікніце для выбару файла або перацягніце фота сюды</div>
+              <div class="file-drop-sub" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem;">PNG, JPG, WebP да 5 MB</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Preview -->
+        <div class="image-preview-container" id="addImagePreviewContainer" style="display: none; margin-top: 1rem;">
+          <label class="form-label" data-i18n="imagePreviewLabel">Перадпрагляд выявы:</label>
+          <div class="image-preview-box">
+            <img id="addImagePreviewImg" src="" alt="Preview" class="image-preview-thumb">
+          </div>
+        </div>
+
+        <div class="form-group" style="margin-top: 1rem;">
+          <label class="form-label" data-i18n="imageAuthorSource">Аўтарства / Крыніца / Ліцэнзія</label>
+          <input type="text" id="addImageAuthorInput" class="form-input" placeholder="Напр.: Уласнае фота, CC BY-SA 4.0, архіў...">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeModal('addImageModal')" data-i18n="closeModal">Скасаваць</button>
+        <button class="btn btn-primary" onclick="submitAddedImage()" data-i18n="btnSaveImage">Захаваць выяву</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Authentication / Registration Modal -->
+  <div class="modal-overlay" id="authModal">
+    <div class="modal-card" style="max-width: 440px;">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" data-i18n="authModalTitle">Уваход і рэгістрацыя</h3>
+          <p class="modal-subtitle" data-i18n="authModalSubtitle">Далучайцеся да супольнасці Albaruthenica</p>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('authModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        
+        <!-- Social OAuth Sign-in buttons -->
+        <div class="auth-social-buttons">
+          <!-- Google Sign In -->
+          <button type="button" class="btn-auth-provider btn-auth-google" onclick="handleGoogleSignIn()">
+            <svg class="auth-provider-logo" viewBox="0 0 24 24" width="20" height="20">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+            </svg>
+            <span data-i18n="authContinueGoogle">Працягнуць праз Google</span>
+          </button>
+
+          <!-- Apple Sign In -->
+          <button type="button" class="btn-auth-provider btn-auth-apple" onclick="handleAppleSignIn()">
+            <svg class="auth-provider-logo" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.63-.78 1.06-1.87.94-2.97-1 .04-2.18.67-2.88 1.49-.57.65-1.07 1.74-.93 2.82 1.11.09 2.24-.56 2.87-1.34z"/>
+            </svg>
+            <span data-i18n="authContinueApple">Працягнуць праз Apple</span>
+          </button>
+        </div>
+
+        <div class="auth-divider">
+          <span data-i18n="authOrEmail">або праз электронную пошту</span>
+        </div>
+
+        <!-- Auth Mode Tabs (Login / Register) -->
+        <div class="tab-pills" style="margin-bottom: 1rem; display: flex; gap: 0.5rem;">
+          <button type="button" class="tab-pill active" id="authTabLoginBtn" onclick="switchAuthMode('login')">
+            <span data-i18n="authTabLogin">Уваход</span>
+          </button>
+          <button type="button" class="tab-pill" id="authTabRegisterBtn" onclick="switchAuthMode('register')">
+            <span data-i18n="authTabRegister">Рэгістрацыя</span>
+          </button>
+        </div>
+
+        <form id="authEmailForm" onsubmit="handleEmailAuthSubmit(event)">
+          <div class="form-group" id="authNameGroup" style="display: none;">
+            <label class="form-label" data-i18n="authNameLabel">Ваша імя / нікнэйм</label>
+            <input type="text" id="authNameInput" class="form-input" placeholder="Імя Прозвішча">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="authEmailLabel">Электронная пошта</label>
+            <input type="email" id="authEmailInput" class="form-input" required placeholder="user@example.com">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-i18n="authPasswordLabel">Пароль</label>
+            <input type="password" id="authPasswordInput" class="form-input" required minlength="6" placeholder="••••••••">
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.75rem;" id="authSubmitBtn">
+            <span data-i18n="authSubmitLogin">Увайсці ў акаўнт</span>
+          </button>
+        </form>
+
+        <p class="auth-terms-note" data-i18n="authTermsNote">
+          Аўтарызуючыся, вы згаджаецеся з правіламі супольнасці і апрацоўкай персанальных дадзеных.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- User Profile Modal -->
+  <div class="modal-overlay" id="userProfileModal">
+    <div class="modal-card" style="max-width: 500px;">
+      <div class="modal-header">
+        <div>
+          <h3 class="modal-title" data-i18n="userProfileTitle">Профіль удзельніка</h3>
+          <p class="modal-subtitle" id="userProfileSubtitle">Супольнасць Albaruthenica</p>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('userProfileModal')">&times;</button>
+      </div>
+      <div class="modal-body" id="userProfileBody">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="modal-footer" style="display: flex; justify-content: space-between;">
+        <button class="btn btn-secondary btn-sm" onclick="handleSignOut()" style="color: #dc2626;" data-i18n="btnSignOut">
+          Выйсці
+        </button>
+        <button class="btn btn-secondary btn-sm" onclick="closeModal('userProfileModal')" data-i18n="closeModal">
+          Закрыць
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Auth Chooser Prompt -->
+  <div class="modal-overlay" id="googleAuthPromptModal">
+    <div class="modal-card" style="max-width: 420px; border-radius: 8px;">
+      <div class="modal-header" style="border-bottom: 1px solid #e5e7eb; padding: 1rem 1.25rem;">
+        <div style="display: flex; align-items: center; gap: 0.6rem;">
+          <svg viewBox="0 0 24 24" width="22" height="22">
+            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+          </svg>
+          <span style="font-weight: 600; font-size: 0.95rem;">Уваход праз Google</span>
+        </div>
+        <button class="modal-close-btn" onclick="closeModal('googleAuthPromptModal')">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 1.25rem;">
+        <p style="font-size: 0.85rem; color: #4b5563; margin-bottom: 1rem;">
+          Выберыце ўліковы запіс для ўваходу ў сэрвіс <strong>Albaruthenica</strong>:
+        </p>
+        <div class="google-account-list">
+          <div class="google-account-item" onclick="confirmGoogleLogin('Беларускі Вандроўнік', 'vandrounik@gmail.com')">
+            <div class="google-account-avatar">Б</div>
+            <div class="google-account-info">
+              <div class="google-account-name">Беларускі Вандроўнік</div>
+              <div class="google-account-email">vandrounik@gmail.com</div>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 1rem; border-top: 1px solid #f3f4f6; padding-top: 0.85rem;">
+          <div style="font-size: 0.78rem; font-weight: 600; color: #374151; margin-bottom: 0.4rem;">Або ўвядзіце ваш Google-акаўнт:</div>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
+            <input type="text" id="customGoogleName" class="form-input" style="font-size: 0.85rem;" placeholder="Ваша імя">
+            <input type="email" id="customGoogleEmail" class="form-input" style="font-size: 0.85rem;" placeholder="email@gmail.com">
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm" style="width: 100%;" onclick="confirmCustomGoogleLogin()">
+            Увайсці з гэтымі дадзенымі
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Apple Auth Chooser Prompt -->
+  <div class="modal-overlay" id="appleAuthPromptModal">
+    <div class="modal-card" style="max-width: 420px; border-radius: 12px; background: #000000; color: #ffffff;">
+      <div class="modal-header" style="border-bottom: 1px solid #27272a; padding: 1rem 1.25rem;">
+        <div style="display: flex; align-items: center; gap: 0.6rem;">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#ffffff">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.63-.78 1.06-1.87.94-2.97-1 .04-2.18.67-2.88 1.49-.57.65-1.07 1.74-.93 2.82 1.11.09 2.24-.56 2.87-1.34z"/>
+          </svg>
+          <span style="font-weight: 600; font-size: 0.95rem; color: #ffffff;">Sign in with Apple</span>
+        </div>
+        <button class="modal-close-btn" style="color: #a1a1aa;" onclick="closeModal('appleAuthPromptModal')">&times;</button>
+      </div>
+      <div class="modal-body" style="padding: 1.25rem; color: #e4e4e7;">
+        <p style="font-size: 0.85rem; color: #a1a1aa; margin-bottom: 1rem;">
+          Выкарыстоўваць свой Apple ID для ўваходу ў <strong>Albaruthenica</strong>:
+        </p>
+        <div style="background: #18181b; border: 1px solid #27272a; border-radius: 8px; padding: 0.85rem; margin-bottom: 1rem;">
+          <div style="font-size: 0.8rem; color: #a1a1aa;">Apple ID:</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #ffffff;" id="appleIdDisplayEmail">user@icloud.com</div>
+        </div>
+        <div class="form-group" style="margin-bottom: 0.75rem;">
+          <label class="form-label" style="color: #a1a1aa; font-size: 0.75rem;">Імя профілю:</label>
+          <input type="text" id="appleUserNameInput" class="form-input" style="background: #18181b; border-color: #3f3f46; color: #ffffff;" value="Apple Карыстальнік">
+        </div>
+        <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: #a1a1aa; cursor: pointer;">
+          <input type="checkbox" id="appleHideEmailCheckbox" checked>
+          <span>Схаваць мой email (Hide My Email / пераадрасацыя Apple)</span>
+        </label>
+        <button type="button" class="btn btn-primary" style="width: 100%; margin-top: 1.25rem; background: #ffffff; color: #000000; font-weight: 600;" onclick="confirmAppleLogin()">
+          Працягнуць праз Face ID / Touch ID
+        </button>
       </div>
     </div>
   </div>

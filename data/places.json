@@ -12488,7 +12488,7 @@
       "ru": "Академия художеств на ул. Грибоедова, 22. Здесь в 1929 г. учился классик беларусской скульптуры Заир Азгур. Ранее в здании находился штаб 1-го Кавказского корпуса генерала Киприана Кондратовича — главнокомандующего войсками БНР.",
       "en": "Academy of Arts on Griboedov Street 22. Here renowned Belarusian sculptor Zair Azgur refined his craft in 1929. Previously housed the military headquarters of Gen. Kipryan Kandratovich, commander-in-chief of the BNR forces."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tbilisi_State_Academy_of_Arts.jpg/500px-Tbilisi_State_Academy_of_Arts.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tbilisi_Art_Acdemy_photo_from_archive.jpg",
     "tags": [
       "georgia",
       "tbilisi",
@@ -12502,7 +12502,10 @@
         "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
       }
     ],
-    "personIds": [],
+    "personIds": [
+      "zair-azgur",
+      "kipryjan-kandratovich"
+    ],
     "mustSee": false
   },
   {
@@ -17579,5 +17582,115 @@
         "url": "https://www.sb.by/articles/tsudy-tayamn-tsy-padlyashskay-zyaml.html"
       }
     ]
+  },
+  {
+    "id": "vilnius-monument-sigismund-barbara-radziwill",
+    "title": {
+      "by": "Помнік Жыгімонту Аўгусту і Барбары Радзівіл («Жыгімонт і Барбара»)",
+      "ru": "Памятник Сигизмунду Августу и Барбаре Радзивилл («Сигизмунд и Барбара»)",
+      "en": "Monument to Sigismund Augustus & Barbara Radziwill ('Sigismund & Barbara')"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.6882,
+      25.288
+    ],
+    "description": {
+      "by": "Адкрыты 10 верасня 2026 г. у двары Бібліятэкі імя Урублеўскіх Акадэміі навук Літвы (палац Клеменціны Тышкевіч). Скульптар Гядзімінас Пякурас і архітэктарка Аўшра Гвільдзене стварылі глыбока сімвалічную кампазіцыю: два залатыя чарапы — дакладныя анатамічныя копіі сапраўдных чарапоў Жыгімонта Аўгуста і Барбары Радзівіл, выяўленых у каралеўскай крыпце Віленскай кафедры пасля паводкі 1931 г. Кампазіцыя размешчана ў гістарычным раёне Пушкарні, дзе ў XVI ст. знаходзіўся палац Радзівілаў, адкуль цераз раку Вільню вёў таемны мост для спатканняў караля з Барбарай.",
+      "ru": "Открыт 10 сентября 2026 г. во дворе Библиотеки имени Врублевских (дворец Клементины Тышкевич). Скульптор Гедиминас Пекурас и архитектор Аушра Гвильдзене создали концептуальный монумент: два золотых черепа — анатомические копии подлинных черепов короля Сигизмунда Августа и Барбары Радзивилл из виленской крипты. Памятник установлен в историческом районе Пушкарни, где стоял дворец Радзивиллов и тайный мост свиданий пары.",
+      "en": "Unveiled on September 10, 2026, in the courtyard of the Wroblewski Library (Clementina Tyszkiewicz Palace). Sculptor Gediminas Piekuras and architect Aušra Gvildienė created a conceptual monument featuring two golden skulls — exact anatomical replicas of the skulls of King Sigismund II Augustus and Queen Barbara Radziwill discovered in the Vilnius Cathedral crypt after the 1931 flood. Located where the 16th-century Radziwill palace and secret lovers' bridge once stood."
+    },
+    "image": "",
+    "links": [
+      {
+        "title": "Наша Ніва: У Вільні адкрылі незвычайны помнік Жыгімонту Аўгусту і Барбары Радзівіл",
+        "url": "https://nashaniva.com/404473"
+      },
+      {
+        "title": "Барбара Радзівіл — Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/Барбара_Радзівіл"
+      }
+    ],
+    "tags": [
+      "vilnius",
+      "lithuania",
+      "barbara-radziwill",
+      "radziwill",
+      "monument",
+      "art",
+      "sigismund"
+    ],
+    "personId": "barbara-radziwill",
+    "personIds": [
+      "barbara-radziwill",
+      "radziwills"
+    ],
+    "unverifiedCoordinates": false,
+    "mustSee": true
+  },
+  {
+    "id": "vilnius-sculpture-barbara-radziwill-vokieciu",
+    "title": {
+      "by": "Скульптура Барбары Радзівіл на Нямецкай вуліцы",
+      "ru": "Скульптура Барбары Радзивилл на Немецкой улице",
+      "en": "Sculpture of Barbara Radziwill on Vokiečių Street"
+    },
+    "category": "monument",
+    "country": {
+      "by": "Літва",
+      "ru": "Литва",
+      "en": "Lithuania"
+    },
+    "city": {
+      "by": "Вільня",
+      "ru": "Вильнюс",
+      "en": "Vilnius"
+    },
+    "coordinates": [
+      54.6787,
+      25.2858
+    ],
+    "description": {
+      "by": "Класічная скульптура вялікай княгіні літоўскай і каралевы Барбары Радзівіл аўтарства выбітнага літоўскага скульптара Уладаса Вільджунаса, усталяваная ў 1982 годзе на пешаходнай Нямецкай вуліцы (Vokiečių g.). У савецкія часы афіцыйна забаранялася згадваць імя Барбары Радзівіл, таму скульптура праходзіла па дакументах як безыменны «дэкаратыўны гарадскі элемент». Сёння гэта адзін з пазнавальных сімвалаў Старога горада Вільні.",
+      "ru": "Классическая городская скульптура великой княгини литовской и королевы Барбары Радзивилл работы литовского скульптора Владаса Вильджунаса, установленная в 1982 году на Немецкой улице (Vokiečių g.). В советское время имя королевы было под запретом, и монумент числился просто как «декоративный элемент».",
+      "en": "Iconic city sculpture of Grand Duchess of Lithuania and Queen Barbara Radziwill by Lithuanian sculptor Vladas Vildžiūnas, erected in 1982 on pedestrian Vokiečių Street. In Soviet times, mentioning Barbara Radziwill was officially prohibited, so it was documented simply as a decorative element."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Vladas_Vild%C5%BEi%C5%ABnas_%22Barbora%22.png",
+    "links": [
+      {
+        "title": "Наша Ніва: У Вільні адкрылі незвычайны помнік Жыгімонту Аўгусту і Барбары Радзівіл",
+        "url": "https://nashaniva.com/404473"
+      },
+      {
+        "title": "Барбара Радзівіл — Вікіпедыя",
+        "url": "https://be.wikipedia.org/wiki/Барбара_Радзівіл"
+      }
+    ],
+    "tags": [
+      "vilnius",
+      "lithuania",
+      "barbara-radziwill",
+      "radziwill",
+      "monument",
+      "vildziunas",
+      "vokieciu"
+    ],
+    "personId": "barbara-radziwill",
+    "personIds": [
+      "barbara-radziwill",
+      "radziwills"
+    ],
+    "unverifiedCoordinates": false,
+    "mustSee": false
   }
 ]
