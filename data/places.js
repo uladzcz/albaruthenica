@@ -784,7 +784,9 @@ window.INITIAL_PLACES = [
         "description": "Выбітны беларускі оперны спявак (тэнар), саліст тэатра «Ла Скала» і Пражскай оперы."
       }
     ],
-    "personIds": [],
+    "personIds": [
+      "mikhas-zabejda-sumitski"
+    ],
     "mustSee": true
   },
   {
@@ -15781,7 +15783,7 @@ window.INITIAL_PLACES = [
       "ru": "Великолепный неоклассический дворец графов Тышкевичей на полуострове озера Гальве, прямо напротив Тракайского замка. Построен в 1898–1901 гг. графом Юзефом Тышкевичем по проекту Юзефа Гуса. Окружен роскошным парком Эдуарда Андре.",
       "en": "Magnificent neoclassical manor of the Counts Tyszkiewicz built in 1898–1901 by Count Józef Tyszkiewicz directly across from the medieval Trakai Island Castle on Lake Galvė. Surrounded by an exquisite park designed by French landscape master Édouard André."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Uzutrakis_Manor_2012.jpg/960px-Uzutrakis_Manor_2012.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/U%C5%BEutrakio_dvaras_31.JPG/960px-U%C5%BEutrakio_dvaras_31.JPG",
     "links": [
       {
         "title": "Палац Тышкевічаў ва Ужутракісе — Вікіпедыя",
@@ -15827,7 +15829,7 @@ window.INITIAL_PLACES = [
       "ru": "Монументальный неоготический замок-дворец графа Владислава Тышкевича на берегу озера в Лентварисе. Перестроен в 1899 году в стиле тюдоровской неоготики. Окружен живописным парком Эдуарда Андре.",
       "en": "Monumental Neo-Gothic Tudor-style palace of Count Władysław Tyszkiewicz set beside Lake Lentvaris. Redesigned in 1899 by architect Tadeusz Rostworowski, featuring an imposing tower and a park by Édouard André."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lentvaris_Manor_House.jpg/960px-Lentvaris_Manor_House.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Lentvario_dvaras%2C_2024_vasaris_%282%29.jpg/960px-Lentvario_dvaras%2C_2024_vasaris_%282%29.jpg",
     "links": [
       {
         "title": "Палац Тышкевічаў у Ландвараве — Вікіпедыя",
@@ -15872,7 +15874,7 @@ window.INITIAL_PLACES = [
       "ru": "Триумф школы «виленского барокко», созданный архитектором Иоганном Кристофом Глаубицем (автором перестройки полоцкого Софийского собора). Волнообразный фасад костёла Святых Иоаннов в университете и триумфальные Базилианские ворота монастыря Святой Троицы являются жемчужинами европейского барокко.",
       "en": "The crowning achievement of 'Vilnius Baroque' created by master architect Johann Christoph Glaubitz (who also rebuilt Saint Sophia Cathedral in Polotsk). Features the undulating facade and high altar of the University Church of St. Johns, alongside Glaubitz's magnificent Basilian Gate at Holy Trinity Monastery."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vilnius_St_Johns_Church_facade.jpg/960px-Vilnius_St_Johns_Church_facade.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Vilnius%2C_gate_of_the_Basilian_monastery_of_the_Holy_Trinity.jpg/960px-Vilnius%2C_gate_of_the_Basilian_monastery_of_the_Holy_Trinity.jpg",
     "links": [
       {
         "title": "Касцёл Святых Янаў (Вільнюс) — Вікіпедыя",
@@ -15926,7 +15928,7 @@ window.INITIAL_PLACES = [
       "ru": "Знаменитый иезуитский коллегиум (Collegium Hosianum) в Вармии, основанный в 1565 году, где учились многие уроженцы ВКЛ. В 1601 году в типографии коллегиума Георгом Шёнфельсом было впервые напечатано латинское издание «Перегринации» князя Николая Христофора Радзивилла «Сиротки» в переводе Томаша Третера — один из популярнейших европейских путеводителей XVII века.",
       "en": "Renowned Jesuit college (Collegium Hosianum) in Warmia founded in 1565 by Cardinal Stanislaus Hosius, alma mater of many GDL scholars. In 1601, printer Georg Schönfels published the first edition of Prince Mikołaj Krzysztof Radziwiłł 'the Orphan's' celebrated travelogue 'Hierosolymitana Peregrinatio', translated into Latin by Thomas Treter, becoming an international European bestseller."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Braniewo_Collegium_Hosianum.jpg/960px-Braniewo_Collegium_Hosianum.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Braniewo_Gda%C5%84ska_17_19_Liceum_Hosianum.JPG/960px-Braniewo_Gda%C5%84ska_17_19_Liceum_Hosianum.JPG",
     "links": [
       {
         "title": "Нацыянальная бібліятэка Беларусі: 420 год «Перэгрынацыі» Радзівіла Сіроткі",
@@ -18862,7 +18864,7 @@ window.INITIAL_PLACES = [
         "description": "Музыкант, спявак і рок-наватар сусветнага ўзроўню, ураджэнец вёскі Старыя Васілішкі (Шчучынскі раён). Узяў псеўданім у гонар ракі Нёман. Аўтар культавых песень «Dziwny jest ten świat», «Sen o Warszawie» і альбомаў на вершы Цыпрыяна Норвіда (Катакомбы, шэраг 94).",
         "person": "Чэслаў Немен",
         "personId": "czeslaw-niemen",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Czes%C5%82aw_Niemen_1975_%28cropped%29.jpg/960px-Czes%C5%82aw_Niemen_1975_%28cropped%29.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/PL_Warsaw_Stare_Pow%C4%85zki_czeslaw_niemen_2.jpg/500px-PL_Warsaw_Stare_Pow%C4%85zki_czeslaw_niemen_2.jpg",
         "wiki": "https://be.wikipedia.org/wiki/Чэслаў_Немен"
       },
       {
@@ -18870,7 +18872,7 @@ window.INITIAL_PLACES = [
         "description": "«Бацька» беларускай і польскай мастацкай фатаграфіі, ураджэнец маёнтка Асташын каля Навагрудка. Заснавальнік піктарыялізму і канцэпцыі «айчыннай фатаграфікі», аўтар класічных фоталетапісаў Вільні, Навагрудка, Міра і Нясвіжа (кватэра 229-4-1).",
         "person": "Ян Булгак",
         "personId": "jan-bulhak",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Jan_Bu%C5%82hak_portrait.jpg/960px-Jan_Bu%C5%82hak_portrait.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jan_Bu%C5%82hak_-_gr%C3%B3b.jpg/500px-Jan_Bu%C5%82hak_-_gr%C3%B3b.jpg",
         "wiki": "https://be.wikipedia.org/wiki/Ян_Булгак"
       },
       {
@@ -18878,7 +18880,7 @@ window.INITIAL_PLACES = [
         "description": "Адзін з найбольш чытаных і экранізаваных еўрапейскіх пісьменнікаў міжваеннага часу, аўтар культавых раманаў «Знахар», «Прафесар Вільчур» і «Кар'ера Нікадзіма Дызмы». Нарадзіўся ў маёнтку Акунёва каля Глыбокага. Прах перапахаваны ў Катакомбах на Павонзках у 1978 г. (Катакомбы, ніша 108).",
         "person": "Тадэвуш Даленга-Мастовіч",
         "personId": "tadeusz-dolega-mostowicz",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Tadeusz_Do%C5%82%C4%99ga-Mostowicz_%281898-1939%29.jpg/960px-Tadeusz_Do%C5%82%C4%99ga-Mostowicz_%281898-1939%29.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tadeusz_Do%C5%82%C4%99ga-Mostowicz_Polish_writer.jpg/500px-Tadeusz_Do%C5%82%C4%99ga-Mostowicz_Polish_writer.jpg",
         "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Даленга-Мастовіч"
       },
       {
@@ -18886,7 +18888,7 @@ window.INITIAL_PLACES = [
         "description": "Выбітны кампазітар-неарамантык сімфанічнай музыкі і альпініст, ураджэнец маёнтка Вішнева (цяпер Валожынскі / Смаргонскі раён) у сям'і этнографа Яна Карловіча. Аўтар «Літоўскай рапсодыі» і «Адвечных песень» (кватэра 33-4-24).",
         "person": "Мечыслаў Карловіч",
         "personId": "mieczyslaw-karlowicz",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Mieczyslaw_Karlowicz.jpg/960px-Mieczyslaw_Karlowicz.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mieczys%C5%82aw_Kar%C5%82owicz_-_gr%C3%B3b.jpg/500px-Mieczys%C5%82aw_Kar%C5%82owicz_-_gr%C3%B3b.jpg",
         "wiki": "https://be.wikipedia.org/wiki/Мечыслаў_Карловіч"
       },
       {
@@ -18894,7 +18896,7 @@ window.INITIAL_PLACES = [
         "description": "Паэт, перакладчык, сябра таварыства філаматаў і блізкі сябар Адама Міцкевіча, з якім вандраваў па Еўропе. Нарадзіўся ў фальварку Гейстуны Ашмянскага павета (кватэра 22-2-19).",
         "person": "Антоні Эдвард Адынец",
         "personId": "antoni-edward-odyniec",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Antoni_Edward_Odyniec_1858.jpg/960px-Antoni_Edward_Odyniec_1858.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Antoni_Edward_Odyniec_-_gr%C3%B3b.jpg/960px-Antoni_Edward_Odyniec_-_gr%C3%B3b.jpg",
         "wiki": "https://be.wikipedia.org/wiki/Антоні_Эдвард_Адынец"
       },
       {
@@ -18902,7 +18904,7 @@ window.INITIAL_PLACES = [
         "description": "Выбітная жанчына-фатограф, князёўна з роду Друцкіх-Любецкіх, нарадзілася ў маёнтку Парахонск Пінскага павета. Аўтарка ўнікальнай фотахронікі жыцця Палесся і даваеннай Варшавы (кватэра 229-3-1).",
         "person": "Сафія Хамянтоўская",
         "personId": "zofia-chometowska",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Zofia_Chom%C4%99towska.jpg/960px-Zofia_Chom%C4%99towska.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Zofia_Chom%C4%99towska_%28lata_1930%29.jpg/500px-Zofia_Chom%C4%99towska_%28lata_1930%29.jpg",
         "wiki": "https://be.wikipedia.org/wiki/Сафія_Хамянтоўская"
       },
       {
@@ -18910,7 +18912,7 @@ window.INITIAL_PLACES = [
         "description": "Прафесар, выбітны гісторык ВКЛ і Рэчы Паспалітай, аўтар фундаментальных даследаванняў пра ўнутраны лад ВКЛ і паўстанне Касцюшкі. Нарадзіўся ў Мінску (кватэра 74-2-1).",
         "person": "Тадэвуш Корзан",
         "personId": "tadeusz-korzon",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Marian_Falski.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tadeusz_Korzon.png/500px-Tadeusz_Korzon.png",
         "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Корзан"
       }
     ],
@@ -20076,5 +20078,229 @@ window.INITIAL_PLACES = [
       "дыпламатыя"
     ],
     "mustSee": false
+  },
+  {
+    "id": "bologna-archiginnasio-university",
+    "title": {
+      "by": "Балонскі ўніверсітэт і палац Архігімназія",
+      "ru": "Болонский университет и дворец Архигимназия",
+      "en": "University of Bologna & Archiginnasio Palace"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Балоння",
+      "ru": "Болонья",
+      "en": "Bologna"
+    },
+    "coordinates": [
+      44.4925,
+      11.3433
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Archiginnasio_di_Bologna_dal_cortile.jpg/960px-Archiginnasio_di_Bologna_dal_cortile.jpg",
+    "description": {
+      "by": "Найстарэйшы ўніверсітэт Еўропы (заснаваны ў 1088 г.) і яго гістарычная рэзідэнцыя — Палац Архігімназія (Palazzo dell'Archiginnasio, 1563 г.). Пачынаючы з Адраджэння тут навучаліся ліцвіны — шляхта і інтэлектуалы з беларускіх земляў ВКЛ (Мікалай Сапега, прадстаўнікі родаў Радзівілаў, Хадкевічаў, Валовічаў), на сценах унутранага двара і заляў захаваліся іх гістарычныя гербы. Таксама ў Балонні завяршыўся жыццёвы шлях двух выбітных магнатаў ВКЛ: тут памёр маршалак вялікі літоўскі і ваявода полацкі Аляксандр Людвік Радзівіл (1654 г.), а таксама яго сын — падканцлер і гетман польны літоўскі Міхал Казімір Радзівіл (1680 г.).",
+      "ru": "Старейший университет Европы (1088 г.) и его резиденция — дворец Архигимназия (1563 г.). Здесь обучались выходцы из ВКЛ (Сапеги, Радзивиллы, Ходкевичи), в залах сохранились их гербы. В Болонье скончались два видных магната ВКЛ: Александр Людвик Радзивилл (1654 г.) и Михаил Казимир Радзивилл (1680 г.).",
+      "en": "The oldest university in the world (founded 1088) and its historic seat, Palazzo dell'Archiginnasio (1563). For centuries, Lithuanian-Belarusian nobility studied here (Sapiehas, Radziwiłłs), leaving their heraldic crests on the walls. Bologna was also the place of death of Grand Marshal Aleksander Ludwik Radziwiłł (1654) and Field Hetman Michał Kazimierz Radziwiłł (1680)."
+    },
+    "links": [
+      {
+        "title": "Вікіпедыя: Балонскі ўніверсітэт",
+        "url": "https://be.wikipedia.org/wiki/Балонскі_ўніверсітэт"
+      },
+      {
+        "title": "Вікіпедыя: Аляксандр Людвік Радзівіл",
+        "url": "https://be.wikipedia.org/wiki/Аляксандр_Людвік_Радзівіл"
+      },
+      {
+        "title": "Вікіпедыя: Міхал Казімір Радзівіл",
+        "url": "https://be.wikipedia.org/wiki/Міхал_Казімір_Радзівіл"
+      }
+    ],
+    "tags": [
+      "Італія",
+      "Балоння",
+      "універсітэт",
+      "Радзівілы",
+      "Сапегі",
+      "ВКЛ",
+      "адукацыя"
+    ],
+    "personIds": [
+      "aleksandr-lyudvik-radziwill",
+      "michal-kazimir-radziwill"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "milan-teatro-alla-scala",
+    "title": {
+      "by": "Тэатр Ла Скала ў Мілане",
+      "ru": "Театр Ла Скала в Милане",
+      "en": "Teatro alla Scala in Milan"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Мілан",
+      "ru": "Милан",
+      "en": "Milan"
+    },
+    "coordinates": [
+      45.4674,
+      9.1897
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Milano_-_Teatro_alla_Scala_0187.jpg/960px-Milano_-_Teatro_alla_Scala_0187.jpg",
+    "description": {
+      "by": "Сусветна вядомы оперны тэатр у Мілане, з якім шчыльна звязаныя выбітныя старонкі беларускай музычнай культуры. У 1930-я гады тут выступаў знакаміты беларускі тэнар Міхась Забэйда-Суміцкі, які вучыўся ў Мілане ў маэстра Фернанда Карпі і бліскуча выконваў вядучыя партыі ў «Травіяце», «Рыгалета» і «Севільскім цырульніку», адначасна папулярызуючы беларускую песню на еўрапейскіх сцэнах. Раней, у канцы XVIII стагоддзя, пры двары Міхала Казіміра Агінскага ў Слоніме («Слонімскіх Афінах») працаваў італьянскі дойлід і сцэнограф Іначэнца Мараіна, які кіраваў будаўніцтвам «Новага дому опэр» на вадзе, а пасля ствараў дэкарацыі для «Ла Скала». Таксама ў 1905 годзе на міланскай сцэне была з поспехам пастаўлена класічная опера «Галька» нашага земляка Станіслава Манюшкі.",
+      "ru": "Всемирно известный оперный театр в Милане, с которым связаны яркие страницы беларусской музыкальной истории. В 1930-е годы на сцене «Ла Скала» пел выдающийся беларусский тенор Михаил Забейдо-Сумицкий («Травиата», «Риголетто», «Севильский цирюльник»). В конце XVIII века придворный архитектор и декоратор слонимского театра Михала Казимира Огинского Иноченцо Мараино создавал декорации для «Ла Скала». В 1905 году в Милане была с триумфом поставлена опера «Галька» Станислава Монюшко.",
+      "en": "World-famous opera house in Milan, intimately connected with Belarusian musical heritage. In the 1930s, celebrated Belarusian tenor Mikhas Zabejda-Sumitski performed here ('La Traviata', 'Rigoletto', 'The Barber of Seville'). In the late 18th century, Innocenzo Maraino, chief architect and set designer of Prince Michał Kazimierz Ogiński's theatre in Slonim, designed scenery for La Scala. In 1905, Stanisław Moniuszko's masterpiece opera 'Halka' was staged in Milan."
+    },
+    "links": [
+      {
+        "title": "Вікіпедыя: Ла Скала",
+        "url": "https://be.wikipedia.org/wiki/Ла_Скала"
+      },
+      {
+        "title": "Вікіпедыя: Міхаіл Забэйда-Суміцкі",
+        "url": "https://be.wikipedia.org/wiki/Міхаіл_Забэйда-Суміцкі"
+      },
+      {
+        "title": "Вікіпедыя: Слонімскі тэатр Агінскага",
+        "url": "https://be.wikipedia.org/wiki/Слонімскі_тэатр_Агінскага"
+      }
+    ],
+    "tags": [
+      "Італія",
+      "Мілан",
+      "Ла Скала",
+      "тэатр",
+      "опера",
+      "Забэйда-Суміцкі",
+      "Агінскі",
+      "Манюшка"
+    ],
+    "personIds": [
+      "mikhas-zabejda-sumitski",
+      "stanislaw-moniuszko"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "milan-piazza-duomo-mindaugas-radziwill",
+    "title": {
+      "by": "Саборная плошча Мілана (пасольства Міндоўга і Радзівіл Сіротка)",
+      "ru": "Соборная площадь Милана (посольство Миндовга и Радзивилл Сиротка)",
+      "en": "Piazza del Duomo in Milan (Mindaugas Embassy & Radziwiłł Sirotka)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Мілан",
+      "ru": "Милан",
+      "en": "Milan"
+    },
+    "coordinates": [
+      45.4641,
+      9.1919
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg/960px-Milan_Cathedral_from_Piazza_del_Duomo.jpg",
+    "description": {
+      "by": "Гістарычнае сэрца Мілана, непасрэдна звязанае з вытокамі дыпламатыі і культуры ВКЛ. Менавіта ў Мілан у ліпені 1251 года прыбыло пасольства вялікага князя Міндоўга да папы рымскага Інакенція IV: пантыфік прыняў ліцвінскіх паслоў, абвясціў прыняцце Літвы пад апеку Святога Пасаду і падпісаў папскія булы пра каранацыю Міндоўга каралём (булы ад 17 ліпеня 1251 г.). У 1560-я гады падчас гранд-тура Мілан наведаў Мікалай Крыштаф Радзівіл «Сіротка», знаёмства якога з ламбардскім рэнесансам паўплывала на перабудову Нясвіжа. Таксама ад лацінскай назвы Мілана (Mediolanum) паходзіць славутая парода вартаўнічых і паляўнічых сабак шляхты ВКЛ — «медзяляны», увезеныя з Ламбардыі і згаданыя ў Статуце ВКЛ.",
+      "ru": "Историческое сердце Милана. В июле 1251 года сюда прибыло посольство великого князя Миндовга к папе Иннокентию IV, издавшему буллы о коронации Миндовга королём Литвы. В 1560-е годы Милан посетил Николай Криштоф Радзивилл Сиротка. От латинского названия Милана (Mediolanum) происходит порода охотничьих мастифов знати ВКЛ — «меделяне».",
+      "en": "Historic heart of Milan. In July 1251, Grand Duke Mindaugas sent an embassy here to Pope Innocent IV, who issued papal bulls declaring Lithuania under the protection of the Holy See and authorizing Mindaugas' royal coronation. In the 1560s, Mikołaj Krzysztof Radziwiłł 'Sirotka' visited Milan during his grand tour. The Latin name Mediolanum also gave rise to the historic GDL mastiff breed 'medelyany' (Mediolan dogs) kept by the nobility."
+    },
+    "links": [
+      {
+        "title": "Вікіпедыя: Міндоўг",
+        "url": "https://be.wikipedia.org/wiki/Міндоўг"
+      },
+      {
+        "title": "Вікіпедыя: Мікалай Крыштаф Радзівіл Сіротка",
+        "url": "https://be.wikipedia.org/wiki/Мікалай_Крыштаф_Радзівіл_Сіротка"
+      }
+    ],
+    "tags": [
+      "Італія",
+      "Мілан",
+      "Міндоўг",
+      "дыпламатыя",
+      "ВКЛ",
+      "Радзівіл Сіротка",
+      "медзяляны",
+      "пасольства"
+    ],
+    "personIds": [
+      "radziwill-sirotka"
+    ],
+    "mustSee": true
+  },
+  {
+    "id": "naples-castel-capuano-bona-sforza",
+    "title": {
+      "by": "Замак Кастэль-Капуана ў Неапалі (вянчанне Боны Сфорца і «неапалітанскія сумы»)",
+      "ru": "Замок Кастель-Капуано в Неаполе (венчание Боны Сфорца и «неаполитанские суммы»)",
+      "en": "Castel Capuano in Naples (Wedding of Bona Sforza & Neapolitan Sums)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Італія",
+      "ru": "Италия",
+      "en": "Italy"
+    },
+    "city": {
+      "by": "Неапаль",
+      "ru": "Неаполь",
+      "en": "Naples"
+    },
+    "coordinates": [
+      40.8533,
+      14.2655
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Napoli_-_Castel_Capuano.jpg/960px-Napoli_-_Castel_Capuano.jpg",
+    "description": {
+      "by": "Знакаміты нармандска-арагонскі замак у Неапалі, цесна звязаны з лёсам вялікай княгіні літоўскай і каралевы польскай Боны Сфорца. 6 снежня 1517 года тут адбылося пышнае вянчанне Боны з каралём польскім і вялікім князем літоўскім Жыгімонтам I Старым (па даверанасці). Бона Сфорца аказала каласальны ўплыў на беларускія землі: праводзіла аграрную рэформу («Валочная памера»), будавала каналы ў Кобрыне і Пінску, заснавала горад Моталь, прывезла міжземнаморскую культуру і кухню. З гэтым жа неапалітанскім кантэкстам звязаны сусветна вядомы фінансава-дыпламатычны дэтэктыў — «неапалітанскія сумы»: у 1557 г. Бона пазычыла каралю Філіпу II Неапалітанскаму 430 000 залатых дукатаў, пасля чаго была атручаная ў Бары; спробы вярнуць гэты доўг ВКЛ доўжыліся больш за два стагоддзі.",
+      "ru": "Нормандско-арагонский замок в Неаполе. 6 декабря 1517 года здесь состоялось венчание Боны Сфорца с королём и великим князем Сигизмундом I Старым. Бона провела в ВКЛ грандиозную аграрную реформу («Волочная помера»), строила каналы в Кобрине и Пинске, основала Мотоль. С Неаполем связан исторический детектив — «неаполитанские суммы» (долг короля Филиппа II в 430 000 дукатов, который дипломаты ВКЛ пытались взыскать более двух столетий).",
+      "en": "Historic castle in Naples where, on 6 December 1517, Duchess Bona Sforza was married by proxy to Sigismund I the Old, King of Poland and Grand Duke of Lithuania. Bona went on to revolutionize Belarusian lands with sweeping land reforms ('Valochnaya Pamera'), canals in Kobryn and Pinsk, and Italian Renaissance horticulture. Naples is also home to the famous saga of the 'Neapolitan Sums' — 430,000 gold ducats lent by Bona to King Philip II, leading to her poisoning in Bari and over two centuries of diplomatic recovery efforts."
+    },
+    "links": [
+      {
+        "title": "Вікіпедыя: Бона Сфорца",
+        "url": "https://be.wikipedia.org/wiki/Бона_Сфорца"
+      },
+      {
+        "title": "Вікіпедыя: Неапалітанскія сумы",
+        "url": "https://be.wikipedia.org/wiki/Неапалітанскія_сумы"
+      },
+      {
+        "title": "Вікіпедыя: Кастэль-Капуана",
+        "url": "https://be.wikipedia.org/wiki/Кастэль-Капуана"
+      }
+    ],
+    "tags": [
+      "Італія",
+      "Неапаль",
+      "Бона Сфорца",
+      "Кастэль-Капуана",
+      "неапалітанскія сумы",
+      "ВКЛ",
+      "замак"
+    ],
+    "personIds": [
+      "bona-sforza"
+    ],
+    "mustSee": true
   }
 ];

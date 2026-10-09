@@ -46,7 +46,7 @@ const CATEGORY_CONFIG = {
   },
   church: {
     color: '#7c3aed',
-    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M11 2h2v2h2v2h-2v2.24l6 3.6V22h-5v-5c0-1.1-.9-2-2-2s-2 .9-2 2v5H3v-10.16l6-3.6V6H7V4h2V2h2z"/></svg>`
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M11 1.5h2v2.5h2.5v2H13v3l6 4v9h-6v-5a1 1 0 0 0-2 0v5H5v-9l6-4V6H8.5V4H11V1.5z"/></svg>`
   },
 
   plaque: {
@@ -78,10 +78,19 @@ const imgReferrerObserver = new MutationObserver((mutations) => {
 imgReferrerObserver.observe(document.documentElement, { childList: true, subtree: true });
 
 // Universal Wikimedia thumbnail resolution helper
-// Standard sizes in Wikimedia: 120, 250, 330, 500, 960, 1280
+// Valid thumbnail buckets allowed by Wikimedia Commons: 120, 250, 330, 500, 960, 1280
 function getWikimediaThumb(url, width = 250) {
   if (!url || typeof url !== 'string') return url;
   if (!url.includes('wikimedia.org')) return url;
+
+  // Snap requested width to closest valid Wikimedia thumbnail bucket
+  const allowed = [120, 250, 330, 500, 960, 1280];
+  let targetWidth = 250;
+  if (allowed.includes(width)) {
+    targetWidth = width;
+  } else {
+    targetWidth = allowed.reduce((prev, curr) => Math.abs(curr - width) < Math.abs(prev - width) ? curr : prev);
+  }
 
   // Strip query parameters
   const cleanUrl = url.split('?')[0];
@@ -93,9 +102,9 @@ function getWikimediaThumb(url, width = 250) {
     const rel = thumbMatch[2];
     const filename = rel.split('/').pop();
     if (filename.toLowerCase().endsWith('.svg')) {
-      return `${base}/${width}px-${filename}.png`;
+      return `${base}/${targetWidth}px-${filename}.png`;
     }
-    return `${base}/${width}px-${filename}`;
+    return `${base}/${targetWidth}px-${filename}`;
   }
 
   // Match raw unscaled Commons path: .../wikipedia/commons/a/ab/Filename.ext
@@ -105,9 +114,9 @@ function getWikimediaThumb(url, width = 250) {
     const rel = rawMatch[2];
     const filename = rel.split('/').pop();
     if (filename.toLowerCase().endsWith('.svg')) {
-      return `${hostPrefix}/thumb/${rel}/${width}px-${filename}.png`;
+      return `${hostPrefix}/thumb/${rel}/${targetWidth}px-${filename}.png`;
     }
-    return `${hostPrefix}/thumb/${rel}/${width}px-${filename}`;
+    return `${hostPrefix}/thumb/${rel}/${targetWidth}px-${filename}`;
   }
 
   return cleanUrl;
@@ -450,7 +459,7 @@ function renderCategoryPills() {
   const dict = window.i18n[currentLang];
   const categories = [
     { id: 'all', label: dict.allCategories },
-    { id: 'mustSee', label: dict.filterMustSee || '⭐ Must-see' },
+    { id: 'mustSee', label: dict.filterMustSee || 'Must-see' },
     { id: 'city', label: dict.categories.city || 'Гарады' },
     { id: 'monument', label: dict.categories.monument },
     { id: 'grave', label: dict.categories.grave },
@@ -832,10 +841,7 @@ function updateStats() {
   const countries = new Set(filtered.map(p => getLocalized(p.country)));
   const dict = window.i18n[currentLang];
 
-  counterEl.innerHTML = `
-    ${dict.statsFound} <strong>${filtered.length}</strong> ${dict.statsPlaces} 
-    (<strong>${countries.size}</strong> ${dict.statsCountries})
-  `;
+  counterEl.innerHTML = `<span>${dict.statsFound} <strong>${filtered.length}</strong> ${dict.statsPlaces} (<strong>${countries.size}</strong> ${dict.statsCountries})</span>`;
 }
 
 // Select a place (click from card or map)
@@ -999,7 +1005,7 @@ function showPlaceDetail(placeId) {
             </div>
             ${personBadge ? `<div class="nested-item-meta">${personBadge}</div>` : ''}
             ${it.description ? `<div class="nested-item-desc">${it.description}</div>` : ''}
-            ${it.image ? `<div class="nested-item-image-wrapper"><img src="${getWikimediaThumb(it.image, 330)}" alt="${it.title}" class="nested-item-thumb" loading="lazy" referrerpolicy="no-referrer"></div>` : ''}
+            ${it.image ? `<div class="nested-item-image-wrapper"><img src="${getWikimediaThumb(it.image, 330)}" alt="${it.title}" class="nested-item-thumb" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.nested-item-image-wrapper')?.remove()"></div>` : ''}
             <div class="nested-item-card-footer">
               <span class="nested-item-view-btn">${dict.viewDetails || 'Падрабязней'} &rarr;</span>
             </div>
@@ -2712,8 +2718,8 @@ function updatePickMarkerPopup() {
   const targetPlace = isCorrection ? allPlaces.find(p => p.id === targetPlaceForCoordsCorrection) : null;
   const placeTitle = targetPlace ? getLocalized(targetPlace.title) : '';
 
-  const saveLabel = window.i18n[currentLang]?.btnConfirmCoords || '✅ Захаваць каардынаты';
-  const cancelLabel = window.i18n[currentLang]?.btnCancel || 'Адмена';
+  const saveLabel = window.i18n[currentLang]?.btnConfirmCoords || '✅ Захаваць і прымяніць';
+  const cancelLabel = window.i18n[currentLang]?.btnCancelPick || '✕ Выйсці з выбару';
   const headerHtml = isCorrection
     ? `<div class="popup-title">📍 Новыя каардынаты для:<br><strong>«${escapeHtml(placeTitle)}»</strong></div>`
     : `<div class="popup-title">📍 Выбраная кропка</div>`;
@@ -2746,7 +2752,7 @@ function updatePickBannerCoords() {
 
   if (pendingPickedCoords) {
     const { lat, lng } = pendingPickedCoords;
-    const saveLabel = window.i18n[currentLang]?.btnConfirmCoords || '✅ Захаваць каардынаты';
+    const saveLabel = window.i18n[currentLang]?.btnConfirmCoords || '✅ Захаваць і прымяніць';
     bannerText.innerHTML = `📍 Выбрана: <span class="coords-indicator">${lat}, ${lng}</span>`;
     if (btnConfirm) {
       btnConfirm.textContent = saveLabel;
@@ -2804,7 +2810,7 @@ function confirmPickedCoordinates(customLat, customLng) {
         coordinates: [lat, lng]
       });
 
-      showToast(`${window.i18n[currentLang]?.coordsSaved || 'Каардынаты паспяхова захаваныя!'}: ${lat}, ${lng}`);
+      showToast(`${window.i18n[currentLang]?.coordsSaved || 'Каардынаты паспяхова захаваныя і прымененыя!'}: ${lat}, ${lng}`);
     }
 
     cleanUpPickMarker();
@@ -2812,6 +2818,7 @@ function confirmPickedCoordinates(customLat, customLng) {
     pickCoordsMode = false;
     const banner = document.getElementById('pickCoordsBanner');
     if (banner) banner.style.display = 'none';
+    if (map && typeof map.closePopup === 'function') map.closePopup();
     selectPlace(placeId);
     return;
   }
@@ -2834,6 +2841,7 @@ function confirmPickedCoordinates(customLat, customLng) {
     pickCoordsMode = false;
     const banner = document.getElementById('pickCoordsBanner');
     if (banner) banner.style.display = 'none';
+    if (map && typeof map.closePopup === 'function') map.closePopup();
     openModal('addPlaceModal');
   }
 }
@@ -2848,6 +2856,7 @@ function cancelPickedCoordinates() {
 
   const banner = document.getElementById('pickCoordsBanner');
   if (banner) banner.style.display = 'none';
+  if (map && typeof map.closePopup === 'function') map.closePopup();
 
   if (prevTarget) {
     selectPlace(prevTarget);
