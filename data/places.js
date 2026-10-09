@@ -9096,8 +9096,8 @@ window.INITIAL_PLACES = [
       "en": "Rome"
     },
     "coordinates": [
-      41.90226,
-      12.48161
+      41.90258,
+      12.48206
     ],
     "description": {
       "by": "Мармуровая мемарыяльная дошка на будынку па адрасе Via del Pozzetto, 113, дзе Міцкевіч у 1848 годзе арганізоўваў Польскі легіён для падтрымкі вызваленчай барацьбы Італіі. Таксама ў Рыме ў парку Віла Баргезэ (на пагорку Пінча) яго імем названа маляўнічая алея — Viale Adamo Mickievicz.",
@@ -9114,9 +9114,9 @@ window.INITIAL_PLACES = [
     "tags": [
       "Рым"
     ],
-    "isUnverifiedCoordinates": true,
+    "isUnverifiedCoordinates": false,
     "personId": "adam-mickiewicz",
-    "unverifiedCoordinates": true,
+    "unverifiedCoordinates": false,
     "personIds": [
       "adam-mickiewicz"
     ],

@@ -272,7 +272,9 @@ function updateLayerControl() {
 // Client-side overrides for coordinates & verification status (moderation)
 function getPlaceOverrides() {
   try {
-    return JSON.parse(localStorage.getItem('albaruthenica_place_overrides') || '{}');
+    const o1 = JSON.parse(localStorage.getItem('albaruthenica_place_overrides') || '{}');
+    const o2 = JSON.parse(localStorage.getItem('albaruthenica_overrides') || '{}');
+    return { ...o2, ...o1 };
   } catch (e) {
     return {};
   }
@@ -284,7 +286,12 @@ function savePlaceOverride(placeId, data) {
     ...(overrides[placeId] || {}),
     ...data
   };
-  localStorage.setItem('albaruthenica_place_overrides', JSON.stringify(overrides));
+  try {
+    localStorage.setItem('albaruthenica_place_overrides', JSON.stringify(overrides));
+    localStorage.setItem('albaruthenica_overrides', JSON.stringify(overrides));
+  } catch (e) {
+    console.warn('Failed to save override to localStorage:', e);
+  }
   updateAdminUI();
 }
 
@@ -324,6 +331,7 @@ async function loadPlaces() {
       }
       if (typeof overrides[p.id].unverifiedCoordinates !== 'undefined') {
         p.unverifiedCoordinates = overrides[p.id].unverifiedCoordinates;
+        p.isUnverifiedCoordinates = overrides[p.id].unverifiedCoordinates;
       }
       if (overrides[p.id].image) {
         p.image = overrides[p.id].image;
@@ -441,6 +449,39 @@ function getLocalized(obj) {
   return obj[currentLang] || obj.by || obj.ru || obj.en || '';
 }
 
+// Helper to escape HTML safely
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+// Format title with parenthesized subtitles in gray bold (падзагаловак)
+function formatPlaceTitle(title) {
+  if (!title) return '';
+  const str = String(title).trim();
+
+  // 1. Trailing parentheses: e.g. "Дзяржаўная Траццякоўская галерэя (калекцыя Станіслава Жукоўскага)"
+  const trailingMatch = str.match(/^(.*?)\s*\(([^()]+)\)*\s*$/);
+  if (trailingMatch && trailingMatch[1].trim()) {
+    const mainText = trailingMatch[1].trim();
+    const subText = trailingMatch[2].trim();
+    return `<span class="title-main">${escapeHtml(mainText)}</span><span class="title-sub">${escapeHtml(subText)}</span>`;
+  }
+
+  // 2. Mid-string parentheses: e.g. "Месца абвяшчэння ССРБ (БССР) у Смаленску"
+  if (str.includes('(') && str.includes(')')) {
+    const formatted = escapeHtml(str).replace(/\(([^()]+)\)/g, '<span class="title-sub-inline">($1)</span>');
+    return `<span class="title-main">${formatted}</span>`;
+  }
+
+  return `<span class="title-main">${escapeHtml(str)}</span>`;
+}
+
 // Create custom pin HTML icon (round colored pin with centered white SVG icon)
 function createCustomMarkerIcon(category, isUnverified = false) {
   const conf = CATEGORY_CONFIG[category] || CATEGORY_CONFIG.historical;
@@ -545,7 +586,7 @@ function renderMarkers() {
             ${nestedPopupNotice}
           </div>
           ${unverifiedPopupNotice}
-          <div class="popup-title">${title}</div>
+          <div class="popup-title">${formatPlaceTitle(title)}</div>
           <div class="popup-loc">${city}, ${country}</div>
           <button class="btn btn-primary btn-sm" style="width: 100%" onclick="selectPlace('${place.id}')">
             ${window.i18n[currentLang].detailsHeading}
@@ -684,7 +725,7 @@ function renderSidebarList() {
         <img src="${thumb}" alt="${title}" class="place-card-thumb" loading="lazy" referrerpolicy="no-referrer">
         <div class="place-card-content">
           <div>
-            <div class="place-card-title">${title}</div>
+            <div class="place-card-title">${formatPlaceTitle(title)}</div>
             <div class="place-card-meta">${city}, ${country}</div>
           </div>
           <div class="place-card-badges">
@@ -1007,7 +1048,7 @@ function showPlaceDetail(placeId) {
         ${categoryName}
       </span>
       ${place.isUserCreated ? '<span class="badge-user-created" style="display:inline-block; font-size:0.7rem; font-weight:700; background:#ecfdf5; color:#059669; border:1px solid #a7f3d0; padding:2px 8px; border-radius:4px; margin-left:6px;">👤 Створана вамі</span>' : ''}
-      <h2 class="detail-title">${title}</h2>
+      <h2 class="detail-title">${formatPlaceTitle(title)}</h2>
       <div class="detail-location">
         <strong>${city}, ${country}</strong> &bull; <code id="detailCoordsCode">${lat.toFixed(4)}, ${lng.toFixed(4)}</code>
         <button type="button" class="btn-text-action" onclick="startPlaceCoordinateCorrection('${place.id}')" title="${dict.btnPickOnMap || 'Указаць на карце'}" style="background:none; border:1px solid var(--border-color); border-radius:4px; padding:2px 6px; font-size:0.72rem; cursor:pointer; color:var(--primary); margin-left:6px; display:inline-flex; align-items:center; gap:3px;">
@@ -1565,7 +1606,7 @@ function openPersonDetail(personId, updateHash = true) {
         <div class="person-place-item" onclick="viewPersonPlaceOnMap('${pl.id}')">
           ${plThumb ? `<img src="${plThumb}" alt="${plTitle}" class="person-place-thumb" loading="lazy" referrerpolicy="no-referrer">` : `<div class="person-place-thumb" style="display:flex;align-items:center;justify-content:center;font-size:0.75rem;color:var(--text-muted);border:1px solid var(--border-color);"></div>`}
           <div class="person-place-info">
-            <div class="person-place-title">${plTitle}</div>
+            <div class="person-place-title">${formatPlaceTitle(plTitle)}</div>
             <div class="person-place-meta">${plCity}, ${plCountry}</div>
           </div>
           <span class="person-place-btn">${dict.showOnMap || 'На карце &rarr;'}</span>
@@ -1892,7 +1933,7 @@ function renderAdminQueue() {
     return `
       <div class="admin-queue-item" id="queue-item-${place.id}">
         <div class="admin-queue-info">
-          <div class="admin-queue-title">${title}</div>
+          <div class="admin-queue-title">${formatPlaceTitle(title)}</div>
           <div class="admin-queue-meta">
             <span>${city}, ${country}</span>
             <span>&bull;</span>
@@ -2486,16 +2527,6 @@ function parseCoordinatesInput(str) {
 // Coordinate Picking & Custom Place Management
 // ========================================================
 
-function escapeHtml(str) {
-  if (!str) return '';
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
-
 // Start user map picking for an existing place
 function startPlaceCoordinateCorrection(placeId) {
   const place = allPlaces.find(p => p.id === placeId);
@@ -2616,20 +2647,35 @@ function confirmPickedCoordinates(customLat, customLng) {
     if (place) {
       place.coordinates = [lat, lng];
       place.unverifiedCoordinates = false;
+      place.isUnverifiedCoordinates = false;
 
-      // Save to localStorage overrides
-      const overrides = JSON.parse(localStorage.getItem('albaruthenica_overrides') || '{}');
-      overrides[placeId] = overrides[placeId] || {};
-      overrides[placeId].coordinates = [lat, lng];
-      overrides[placeId].unverifiedCoordinates = false;
-      localStorage.setItem('albaruthenica_overrides', JSON.stringify(overrides));
+      // Centralized savePlaceOverride (writes to both place_overrides and overrides)
+      savePlaceOverride(placeId, {
+        coordinates: [lat, lng],
+        unverifiedCoordinates: false,
+        isUnverifiedCoordinates: false
+      });
 
-      // Update map marker
-      const marker = markersMap.get(placeId);
-      if (marker) {
-        marker.setLatLng([lat, lng]);
-        marker.setIcon(createCustomMarkerIcon(place.category, false));
+      // If user-created place, update in albaruthenica_user_places
+      if (place.isUserCreated) {
+        try {
+          const userPlaces = JSON.parse(localStorage.getItem('albaruthenica_user_places') || '[]');
+          const idx = userPlaces.findIndex(p => p.id === placeId);
+          if (idx >= 0) {
+            userPlaces[idx].coordinates = [lat, lng];
+            userPlaces[idx].unverifiedCoordinates = false;
+            userPlaces[idx].isUnverifiedCoordinates = false;
+            localStorage.setItem('albaruthenica_user_places', JSON.stringify(userPlaces));
+          }
+        } catch (e) {
+          console.error('Error updating user place coords:', e);
+        }
       }
+
+      // Re-render markers to update Leaflet markerCluster properly
+      renderMarkers();
+      renderSidebarList();
+      updateStats();
 
       logUserContribution('coords', placeId, {
         title: getLocalized(place.title),
