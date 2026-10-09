@@ -15500,9 +15500,9 @@ window.INITIAL_PLACES = [
   {
     "id": "florence-city-hub",
     "title": {
-      "by": "Фларэнцыя — беларускія і рэнесансныя сляды (комплексны аб’ект)",
-      "ru": "Флоренция — белорусские и ренессансные следы (комплексный объект)",
-      "en": "Florence — Belarusian & Renaissance Footprints (City Hub)"
+      "by": "Фларэнцыя — беларускія і рэнесансныя сляды",
+      "ru": "Флоренция — белорусские и ренессансные следы",
+      "en": "Florence — Belarusian & Renaissance Footprints"
     },
     "category": "city",
     "country": {
@@ -16112,9 +16112,9 @@ window.INITIAL_PLACES = [
   {
     "id": "istanbul-city-hub",
     "title": {
-      "by": "Стамбул (Канстанцінопаль) — беларускія сляды (комплексны аб’ект)",
-      "ru": "Стамбул (Константинополь) — белорусские следы (комплексный объект)",
-      "en": "Istanbul (Constantinople) — Belarusian Footprints (City Hub)"
+      "by": "Стамбул (Канстанцінопаль) — беларускія сляды",
+      "ru": "Стамбул (Константинополь) — белорусские следы",
+      "en": "Istanbul (Constantinople) — Belarusian Footprints"
     },
     "category": "city",
     "country": {

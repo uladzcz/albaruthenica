@@ -298,7 +298,7 @@ function savePlaceOverride(placeId, data) {
 // Fetch places & persons data
 async function loadPlaces() {
   try {
-    const response = await fetch('data/places.json');
+    const response = await fetch('data/places.json?v=' + Date.now());
     if (!response.ok) throw new Error('Failed to load places.json');
     allPlaces = await response.json();
   } catch (error) {
@@ -340,7 +340,7 @@ async function loadPlaces() {
   });
 
   try {
-    const responsePersons = await fetch('data/persons.json');
+    const responsePersons = await fetch('data/persons.json?v=' + Date.now());
     if (!responsePersons.ok) throw new Error('Failed to load persons.json');
     allPersons = await responsePersons.json();
   } catch (error) {
@@ -460,12 +460,26 @@ function escapeHtml(str) {
     .replace(/'/g, '&#039;');
 }
 
-// Format title with parenthesized subtitles in gray bold (падзагаловак)
+// Format title with subtitles in gray bold (падзагаловак)
 function formatPlaceTitle(title) {
   if (!title) return '';
-  const str = String(title).trim();
+  let str = String(title).trim();
 
-  // 1. Trailing parentheses: e.g. "Дзяржаўная Траццякоўская галерэя (калекцыя Станіслава Жукоўскага)"
+  // 1. Strip redundant bracketed marker like "(комплексны аб’ект)" or "(комплексны аб'ект)"
+  str = str.replace(/\s*\((?:комплексны аб[’']ект|комплексный объект|complex object|city hub)\)\s*/gi, '').trim();
+
+  // 2. Dash separator: "Main Title — Subtitle" or "Main Title – Subtitle"
+  // e.g. "Фларэнцыя — беларускія і рэнесансныя сляды"
+  // e.g. "Царква Фраўмюнстэр — вітражы Марка Шагала"
+  const dashMatch = str.match(/^(.*?)\s+[—–]\s+(.+)$/);
+  if (dashMatch && dashMatch[1].trim() && dashMatch[2].trim()) {
+    const mainText = dashMatch[1].trim();
+    let subText = dashMatch[2].trim();
+    subText = subText.replace(/^\((.+)\)$/, '$1');
+    return `<span class="title-main">${escapeHtml(mainText)}</span><span class="title-sub">${escapeHtml(subText)}</span>`;
+  }
+
+  // 3. Trailing parentheses: e.g. "Дзяржаўная Траццякоўская галерэя (калекцыя Станіслава Жукоўскага)"
   const trailingMatch = str.match(/^(.*?)\s*\(([^()]+)\)*\s*$/);
   if (trailingMatch && trailingMatch[1].trim()) {
     const mainText = trailingMatch[1].trim();
@@ -473,7 +487,7 @@ function formatPlaceTitle(title) {
     return `<span class="title-main">${escapeHtml(mainText)}</span><span class="title-sub">${escapeHtml(subText)}</span>`;
   }
 
-  // 2. Mid-string parentheses: e.g. "Месца абвяшчэння ССРБ (БССР) у Смаленску"
+  // 4. Mid-string parentheses: e.g. "Месца абвяшчэння ССРБ (БССР) у Смаленску"
   if (str.includes('(') && str.includes(')')) {
     const formatted = escapeHtml(str).replace(/\(([^()]+)\)/g, '<span class="title-sub-inline">($1)</span>');
     return `<span class="title-main">${formatted}</span>`;
