@@ -154,12 +154,13 @@
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Konstanty_Kalinowski_-_between_1862_and_1863.jpg/330px-Konstanty_Kalinowski_-_between_1862_and_1863.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Кастусь_Каліноўскі",
     "placeIds": [
+      "vilnia-zamkavaya-hara-z-vezhay-hedymina",
+      "llavallol-cultural-center-kastus-kalinouski",
       "vilnia-bibliyateka-akademii-navuk-litvy-imya-urublew",
       "vilnia-dom-pad-balvanami",
       "vilnia-kryzh-pamyatsi-pawstantsaw",
-      "vilnia-palats-radzivilaw-sapehaw-patsaw",
-      "vilnia-zamkavaya-hara-z-vezhay-hedymina",
-      "vilnius-rasos-kalinouski"
+      "vilnius-rasos-kalinouski",
+      "vilnia-palats-radzivilaw-sapehaw-patsaw"
     ],
     "wikidataId": "Q710236"
   },
@@ -298,20 +299,21 @@
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jan_Lucevi%C4%8D_%28Janka_Kupala%29._%D0%AF%D0%BD_%D0%9B%D1%83%D1%86%D1%8D%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0%29_%281925%29.jpg/330px-Jan_Lucevi%C4%8D_%28Janka_Kupala%29._%D0%AF%D0%BD_%D0%9B%D1%83%D1%86%D1%8D%D0%B2%D1%96%D1%87_%28%D0%AF%D0%BD%D0%BA%D0%B0_%D0%9A%D1%83%D0%BF%D0%B0%D0%BB%D0%B0%29_%281925%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Янка_Купала",
     "placeIds": [
+      "vilnia-vydavetstva-kletskina",
       "moscow-hotel-moskva-kupala",
-      "pechishchi-kupala-museum",
+      "vilnia-redaktsyya-nashay-nivy-1914-15-memaryyalnaya-",
+      "tskaltubo-kupala-kutateli",
       "riga-kupala-belarusian-school",
       "riga-pastanowka-pawlinki",
-      "tskaltubo-kupala-kutateli",
-      "vilnia-belaruskae-vydavetskae-tavarystva",
-      "vilnia-bibliyateka-vedy-1908-11",
-      "vilnia-kavyarnya-krasnyy-shtral",
-      "vilnia-klub-sokal",
+      "pechishchi-kupala-museum",
       "vilnia-kvatera-kupaly",
+      "vilnia-kavyarnya-krasnyy-shtral",
+      "vilnia-belaruskae-vydavetskae-tavarystva",
       "vilnia-kvatera-samoyly",
-      "vilnia-redaktsyya-nashay-nivy-1914-15-memaryyalnaya-",
+      "vilnia-bibliyateka-vedy-1908-11",
       "vilnia-restaran-shuman",
-      "vilnia-vydavetstva-kletskina"
+      "vilnia-klub-sokal",
+      "obera-parque-de-las-naciones-colectividad-bielorrusa"
     ],
     "wikidataId": "Q377"
   },
@@ -4377,5 +4379,30 @@
       "bialystok-all-saints-orthodox-cemetery"
     ],
     "wikidataId": null
+  },
+  {
+    "id": "kastus-merlyak",
+    "name": {
+      "by": "Кастусь Мерляк",
+      "ru": "Константин Мерляк",
+      "en": "Kastus Merlyak"
+    },
+    "dates": "1919–2007",
+    "role": {
+      "by": "Дзеяч беларускай эміграцыі ў Аргенціне і ЗША, кіраўнік прадстаўніцтва Рады БНР у Аргенціне",
+      "ru": "Деятель белорусской эмиграции в Аргентине и США, глава представительства Рады БНР в Аргентине",
+      "en": "Leader of the Belarusian diaspora in Argentina and the US, representative of Rada BNR in Argentina"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Дзяцел Навагрудскага павета. Пасля Другой сусветнай вайны прыбыў у Буэнас-Айрэс, дзе ў 1948 годзе стаў адным з заснавальнікаў і старшынёй Згуртавання беларусаў у Аргенціне (ЗБА) і прадстаўніком Рады БНР. Пасля пераезду ў ЗША ўзначальваў Беларуска-Амерыканскую Асацыяцыю (БАЗА) і быў адным з заснавальнікаў сабора Св. Кірылы Тураўскага ў Брукліне.",
+      "ru": "Родился в д. Дятел Новогрудского уезда. В 1948 г. в Буэнос-Айресе возглавил Объединение белорусов в Аргентине и представительство Рады БНР. Позднее в США — многолетний председатель БАЗА и деятель прихода св. Кирилла Туровского в Бруклине.",
+      "en": "Born in Dziatsel, Navahrudak district. Founded and led the Association of Belarusians in Argentina (1948) and the Rada BNR South American mission. Later in the US, chaired the Belarusian-American Association (BAZA) and co-founded St. Cyril of Turau Cathedral in Brooklyn."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kal_arg_bel.JPG/800px-Kal_arg_bel.JPG",
+    "wiki": "https://be.wikipedia.org/wiki/Кастусь_Мерляк",
+    "placeIds": [
+      "buenos-aires-zhurtavannie-belarusau-arhentine-merlyak"
+    ],
+    "wikidataId": "Q13031030"
   }
 ]
