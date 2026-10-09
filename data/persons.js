@@ -28,7 +28,8 @@ window.INITIAL_PERSONS = [
       "vilnia-vilenskaya-mastatskaya-akademiya",
       "vilnius-picture-gallery-rusiecki-ruszczyc",
       "warsaw-mnw-wankowicz-ruszczyc"
-    ]
+    ],
+    "wikidataId": "Q1392368"
   },
   {
     "id": "francysk-skaryna",
@@ -63,7 +64,8 @@ window.INITIAL_PERSONS = [
       "vilnia-belaruskaya-shkola-imya-f-skaryny",
       "vilnia-drukarnya-frantsishka-skaryny",
       "vilnia-drukarnya-mamonichaw-skulptura-letapisets"
-    ]
+    ],
+    "wikidataId": "Q435320"
   },
   {
     "id": "chaim-soutine",
@@ -88,7 +90,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "new-york-moma-chagall-soutine",
       "paris-orangerie-soutine"
-    ]
+    ],
+    "wikidataId": "Q160141"
   },
   {
     "id": "marc-chagall",
@@ -127,7 +130,8 @@ window.INITIAL_PERSONS = [
       "saint-paul-de-vence-chagall-grave",
       "tudeley-all-saints-chagall-windows",
       "zurich-fraumunster-chagall"
-    ]
+    ],
+    "wikidataId": "Q93284"
   },
   {
     "id": "kastus-kalinouski",
@@ -156,7 +160,8 @@ window.INITIAL_PERSONS = [
       "vilnia-palats-radzivilaw-sapehaw-patsaw",
       "vilnia-zamkavaya-hara-z-vezhay-hedymina",
       "vilnius-rasos-kalinouski"
-    ]
+    ],
+    "wikidataId": "Q710236"
   },
   {
     "id": "tadeusz-kosciuszko",
@@ -192,7 +197,8 @@ window.INITIAL_PERSONS = [
       "vilnius-picture-gallery-rusiecki-ruszczyc",
       "warsaw-kosciuszko-monument",
       "zuchwil-kosciuszko-grave"
-    ]
+    ],
+    "wikidataId": "Q191479"
   },
   {
     "id": "adam-mickiewicz",
@@ -237,7 +243,8 @@ window.INITIAL_PERSONS = [
       "vilnia-vilenski-universitet-universitetskaya-bibliya",
       "vilnius-ostra-brama",
       "warsaw-mnw-wankowicz-ruszczyc"
-    ]
+    ],
+    "wikidataId": "Q79822"
   },
   {
     "id": "francisak-bahusevic",
@@ -267,7 +274,8 @@ window.INITIAL_PERSONS = [
       "vilnia-drukarnya-martsina-kukhty-1911-1921",
       "vilnia-shylda-na-mestsy-doma-bahushevicha",
       "vilnia-dom-pad-balvanami"
-    ]
+    ],
+    "wikidataId": "Q2996666"
   },
   {
     "id": "yanka-kupala",
@@ -304,7 +312,8 @@ window.INITIAL_PERSONS = [
       "vilnia-redaktsyya-nashay-nivy-1914-15-memaryyalnaya-",
       "vilnia-restaran-shuman",
       "vilnia-vydavetstva-kletskina"
-    ]
+    ],
+    "wikidataId": "Q377"
   },
   {
     "id": "ignacy-domeyko",
@@ -336,7 +345,8 @@ window.INITIAL_PERSONS = [
       "montevideo-cathedral-domeyko",
       "buenos-aires-mayo-domeyko",
       "araucania-antuco-domeyko-expedition"
-    ]
+    ],
+    "wikidataId": "Q458245"
   },
   {
     "id": "leon-bakst",
@@ -360,7 +370,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Леон_Бакст",
     "placeIds": [
       "london-va-bakst"
-    ]
+    ],
+    "wikidataId": "Q214666"
   },
   {
     "id": "napoleon-orda",
@@ -384,7 +395,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Напалеон_Орда",
     "placeIds": [
       "krakow-mnk-napoleon-orda"
-    ]
+    ],
+    "wikidataId": "Q941622"
   },
   {
     "id": "walenty-wankowicz",
@@ -409,7 +421,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "vilnius-picture-gallery-rusiecki-ruszczyc",
       "warsaw-mnw-wankowicz-ruszczyc"
-    ]
+    ],
+    "wikidataId": "Q1795226"
   },
   {
     "id": "stanislaw-moniuszko",
@@ -433,7 +446,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Манюшка",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": "Q217613"
   },
   {
     "id": "ivan-lutskevich",
@@ -465,7 +479,8 @@ window.INITIAL_PERSONS = [
       "vilnius-bazyliany-gymnasium",
       "vilnius-rasos-kalinouski",
       "zakopane-luczkiewicz-sanatorium"
-    ]
+    ],
+    "wikidataId": "Q168867"
   },
   {
     "id": "kanuty-rusiecki",
@@ -488,8 +503,10 @@ window.INITIAL_PERSONS = [
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Kanut_Rusiecki._%D0%9A%D0%B0%D0%BD%D1%83%D1%82_%D0%A0%D1%83%D1%81%D0%B5%D1%86%D0%BA%D1%96.jpg/330px-Kanut_Rusiecki._%D0%9A%D0%B0%D0%BD%D1%83%D1%82_%D0%A0%D1%83%D1%81%D0%B5%D1%86%D0%BA%D1%96.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Кануты_Русецкі",
     "placeIds": [
-      "vilnius-picture-gallery-rusiecki-ruszczyc"
-    ]
+      "vilnius-picture-gallery-rusiecki-ruszczyc",
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": null
   },
   {
     "id": "maksim-bahdanovich",
@@ -516,7 +533,8 @@ window.INITIAL_PERSONS = [
       "vilnia-drukarnya-martsina-kukhty-1911-1921",
       "yalta-bahdanovich-grave",
       "yaroslavl-bahdanovich-museum"
-    ]
+    ],
+    "wikidataId": "Q471207"
   },
   {
     "id": "branislau-tarashkevich",
@@ -540,7 +558,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Браніслаў_Адамавіч_Тарашкевіч",
     "placeIds": [
       "vilnia-dom-tarashkevicha"
-    ]
+    ],
+    "wikidataId": "Q2150090"
   },
   {
     "id": "vaclau-lastouski",
@@ -565,7 +584,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "kaunas-lastouski-bnr-government",
       "vilnia-redaktsyya-nashay-nivy-1911-13-kvatera-lastow"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "ossip-zadkine",
@@ -589,7 +609,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Восіп_Цадкін",
     "placeIds": [
       "paris-centre-pompidou-chagall-zadkine"
-    ]
+    ],
+    "wikidataId": "Q160172"
   },
   {
     "id": "nikolai-sudzilovsky",
@@ -614,7 +635,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "sudzilouski-grave-amakusa",
       "sudzilouski-senate-iolani-palace"
-    ]
+    ],
+    "wikidataId": "Q2630619"
   },
   {
     "id": "henryk-sienkiewicz",
@@ -639,7 +661,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "sienkiewicz-monument-rome",
       "sienkiewicz-monument-vevey"
-    ]
+    ],
+    "wikidataId": "Q41502"
   },
   {
     "id": "eliza-orzeszkowa",
@@ -664,7 +687,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "azheshka-monument-ksiazecem-warsaw",
       "azheshka-monument-praski-warsaw"
-    ]
+    ],
+    "wikidataId": "Q240174"
   },
   {
     "id": "yafim-karski",
@@ -689,7 +713,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "karski-grave-smolenskoye-spb",
       "karski-institute-saint-petersburg"
-    ]
+    ],
+    "wikidataId": "Q2632584"
   },
   {
     "id": "sophia-of-minsk",
@@ -713,7 +738,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Сафія_Валадараўна",
     "placeIds": [
       "ringsted-queen-sophia-of-minsk-tomb"
-    ]
+    ],
+    "wikidataId": "Q2026887"
   },
   {
     "id": "barbara-radziwill",
@@ -742,7 +768,8 @@ window.INITIAL_PERSONS = [
     ],
     "relatedPersonIds": [
       "radziwills"
-    ]
+    ],
+    "wikidataId": "Q233823"
   },
   {
     "id": "anna-radziwill",
@@ -769,7 +796,8 @@ window.INITIAL_PERSONS = [
     ],
     "relatedPersonIds": [
       "radziwills"
-    ]
+    ],
+    "wikidataId": "Q16160549"
   },
   {
     "id": "antoni-radziwill",
@@ -796,7 +824,8 @@ window.INITIAL_PERSONS = [
     ],
     "relatedPersonIds": [
       "radziwills"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "radziwills",
@@ -838,7 +867,8 @@ window.INITIAL_PERSONS = [
       "antoni-radziwill",
       "magdalena-radziwill",
       "anna-radziwill"
-    ]
+    ],
+    "wikidataId": "Q260388"
   },
   {
     "id": "tyszkiewicz",
@@ -864,7 +894,8 @@ window.INITIAL_PERSONS = [
       "kretinga-tiskevicius-palace",
       "palanga-tiskevicius-palace",
       "warszawa-palac-tyszkiewiczow"
-    ]
+    ],
+    "wikidataId": "Q2006978"
   },
   {
     "id": "jan-karol-chodkiewicz",
@@ -890,7 +921,8 @@ window.INITIAL_PERSONS = [
       "khotyn-fortress-chodkiewicz",
       "krakow-chodkiewicz-residence",
       "vilnius-chodkiewicz-palace"
-    ]
+    ],
+    "wikidataId": "Q540840"
   },
   {
     "id": "lew-sapieha",
@@ -917,7 +949,8 @@ window.INITIAL_PERSONS = [
       "krasiczyn-castle-sapieha",
       "vilnius-antakalnis-sapieha-palace",
       "vilnius-st-michael-church-sapieha"
-    ]
+    ],
+    "wikidataId": "Q727122"
   },
   {
     "id": "gediminas",
@@ -941,7 +974,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Гедзімін",
     "placeIds": [
       "vilnius-gediminas-monument"
-    ]
+    ],
+    "wikidataId": "Q244852"
   },
   {
     "id": "vytautas",
@@ -968,7 +1002,8 @@ window.INITIAL_PERSONS = [
       "kaunas-vytautas-the-great-monument",
       "senieji-trakai-vytautas-monument",
       "warsaw-mnw-wankowicz-ruszczyc"
-    ]
+    ],
+    "wikidataId": "Q218186"
   },
   {
     "id": "henryk-siemiradzki",
@@ -995,7 +1030,8 @@ window.INITIAL_PERSONS = [
       "lviv-art-gallery-siemiradzki",
       "rome-villino-siemiradzki-via-gaeta",
       "strzalkow-dwor-siemiradzkiego"
-    ]
+    ],
+    "wikidataId": "Q192544"
   },
   {
     "id": "jan-matejko",
@@ -1021,7 +1057,8 @@ window.INITIAL_PERSONS = [
       "lublin-castle-museum-unia-lubelska",
       "warsaw-mnw-wankowicz-ruszczyc",
       "warsaw-royal-castle-matejko"
-    ]
+    ],
+    "wikidataId": "Q189117"
   },
   {
     "id": "stanislaw-zukowski",
@@ -1045,7 +1082,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Юльянавіч_Жукоўскі",
     "placeIds": [
       "moscow-tretyakov-gallery-zhukovsky"
-    ]
+    ],
+    "wikidataId": "Q2498462"
   },
   {
     "id": "louis-b-mayer",
@@ -1069,7 +1107,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Луіс_Барт_Маер",
     "placeIds": [
       "los-angeles-walk-of-fame-louis-b-mayer"
-    ]
+    ],
+    "wikidataId": "Q319682"
   },
   {
     "id": "irving-berlin",
@@ -1093,7 +1132,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Ірвінг_Берлін",
     "placeIds": [
       "new-york-music-box-theatre-irving-berlin"
-    ]
+    ],
+    "wikidataId": "Q128746"
   },
   {
     "id": "david-sarnoff",
@@ -1117,7 +1157,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Давід_Сарнаў",
     "placeIds": [
       "new-york-rockefeller-center-david-sarnoff"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "mark-rothko",
@@ -1141,7 +1182,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Марк_Ротка",
     "placeIds": [
       "houston-rothko-chapel"
-    ]
+    ],
+    "wikidataId": "Q160149"
   },
   {
     "id": "chaim-weizmann",
@@ -1165,7 +1207,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Хаім_Вайцман",
     "placeIds": [
       "rehovot-weizmann-house"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "shimon-peres",
@@ -1189,7 +1232,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Шымон_Перэс",
     "placeIds": [
       "jaffa-peres-center-for-peace"
-    ]
+    ],
+    "wikidataId": "Q57410"
   },
   {
     "id": "isaac-asimov",
@@ -1213,7 +1257,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Айзэк_Азімаў",
     "placeIds": [
       "boston-university-asimov-archive"
-    ]
+    ],
+    "wikidataId": "Q34981"
   },
   {
     "id": "radaslau-astrouski",
@@ -1237,7 +1282,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Радаслаў_Казіміравіч_Астроўскі",
     "placeIds": [
       "south-river-st-euphrosyne"
-    ]
+    ],
+    "wikidataId": "Q2620756"
   },
   {
     "id": "jurka-vicbic",
@@ -1261,7 +1307,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Юрка_Віцьбіч",
     "placeIds": [
       "south-river-st-euphrosyne"
-    ]
+    ],
+    "wikidataId": "Q13134346"
   },
   {
     "id": "yauhim-kipel",
@@ -1285,7 +1332,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Яўхім_Яўсеевіч_Кіпель",
     "placeIds": [
       "south-river-st-euphrosyne"
-    ]
+    ],
+    "wikidataId": "Q11127172"
   },
   {
     "id": "adam-maldis",
@@ -1310,7 +1358,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "germany-schloss-hoechstaedt",
       "krakow-st-barbara-yuravichy-icon"
-    ]
+    ],
+    "wikidataId": "Q3920085"
   },
   {
     "id": "magdalena-radziwill",
@@ -1340,7 +1389,8 @@ window.INITIAL_PERSONS = [
     ],
     "relatedPersonIds": [
       "radziwills"
-    ]
+    ],
+    "wikidataId": "Q2607554"
   },
   {
     "id": "jan-zawisza",
@@ -1365,7 +1415,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "warsaw-przebendowski-palace",
       "warsaw-sigismund-column"
-    ]
+    ],
+    "wikidataId": "Q6550521"
   },
   {
     "id": "yazep-khodzko",
@@ -1389,7 +1440,8 @@ window.INITIAL_PERSONS = [
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Chodzko%2C_General_Jozef%2C_par_W.Barkanov%2C_BNF_Gallica.jpg/330px-Chodzko%2C_General_Jozef%2C_par_W.Barkanov%2C_BNF_Gallica.jpg",
     "placeIds": [
       "tbilisi-kukiya-grave-chodzko"
-    ]
+    ],
+    "wikidataId": "Q2987274"
   },
   {
     "id": "yanka-luchyna",
@@ -1413,7 +1465,8 @@ window.INITIAL_PERSONS = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Janka_%C5%81u%C4%8Dyna%2C_Belarussian_poet.jpg",
     "placeIds": [
       "tbilisi-railway-station-luchyna"
-    ]
+    ],
+    "wikidataId": "Q2590303"
   },
   {
     "id": "pyotra-krecheuski",
@@ -1438,7 +1491,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "prague-krecheuski-house",
       "prague-olsany-belarusian-pantheon"
-    ]
+    ],
+    "wikidataId": "Q1137995"
   },
   {
     "id": "larysa-heniyush",
@@ -1463,7 +1517,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "prague-heniyush-hermanova",
       "gulag-inta-geniyush"
-    ]
+    ],
+    "wikidataId": "Q454901"
   },
   {
     "id": "vasil-bykau",
@@ -1488,7 +1543,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "prague-bykau-last-flat",
       "visby-baltic-centre-writers-bcwt"
-    ]
+    ],
+    "wikidataId": "Q335794"
   },
   {
     "id": "hanna-tumarkina",
@@ -1512,7 +1568,8 @@ window.INITIAL_PERSONS = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/%D7%90%D7%A0%D7%94_%D7%98%D7%95%D7%9E%D7%A8%D7%A7%D7%99%D7%9F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "placeIds": [
       "bern-university-tumarkinweg"
-    ]
+    ],
+    "wikidataId": "Q124439"
   },
   {
     "id": "emeryk-hutten-czapski",
@@ -1536,7 +1593,8 @@ window.INITIAL_PERSONS = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Krakow_2018_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "placeIds": [
       "krakow-muzeum-emeryka-hutten-czapskiego"
-    ]
+    ],
+    "wikidataId": "Q2564275"
   },
   {
     "id": "jazafat-kuncevic",
@@ -1560,7 +1618,8 @@ window.INITIAL_PERSONS = [
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/JKuncewicz.jpg/330px-JKuncewicz.jpg",
     "placeIds": [
       "rome-st-peter-kuncevic"
-    ]
+    ],
+    "wikidataId": "Q355884"
   },
   {
     "id": "celina-borzencka",
@@ -1584,7 +1643,8 @@ window.INITIAL_PERSONS = [
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Celina_Chludzi%C5%84ska-Borz%C4%99cka.jpg",
     "placeIds": [
       "rome-resurrectionists-casa-madre"
-    ]
+    ],
+    "wikidataId": "Q268990"
   },
   {
     "id": "aleksandr-valkovich",
@@ -1608,7 +1668,8 @@ window.INITIAL_PERSONS = [
     "image": "",
     "placeIds": [
       "tbilisi-youth-palace-valkovich"
-    ]
+    ],
+    "wikidataId": "Q3920279"
   },
   {
     "id": "yanka-paznyak",
@@ -1633,7 +1694,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "vilnia-kvatera-paznyaka",
       "vilnia-drukarnya-imya-f-skaryny-1926-30"
-    ]
+    ],
+    "wikidataId": "Q1979101"
   },
   {
     "id": "eustachy-tyszkiewicz",
@@ -1657,7 +1719,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Яўстах_Піевіч_Тышкевіч",
     "placeIds": [
       "vilnia-dom-pad-balvanami"
-    ]
+    ],
+    "wikidataId": "Q2624092"
   },
   {
     "id": "yakub-kolas",
@@ -1682,7 +1745,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "tashkent-kolas-monument-museum",
       "vilnia-dom-pad-balvanami"
-    ]
+    ],
+    "wikidataId": "Q483709"
   },
   {
     "id": "alexander-kishchenko",
@@ -1706,7 +1770,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://ru.wikipedia.org/wiki/Кищенко,_Александр_Михайлович",
     "placeIds": [
       "un-hq-chernobyl-tapestry"
-    ]
+    ],
+    "wikidataId": "Q6395790"
   },
   {
     "id": "bona-sforza",
@@ -1732,7 +1797,8 @@ window.INITIAL_PERSONS = [
       "bari-castello-svevo-bona-sforza",
       "bari-basilica-san-nicola-bona-sforza-tomb",
       "naples-castel-capuano-bona-sforza"
-    ]
+    ],
+    "wikidataId": "Q229434"
   },
   {
     "id": "francisak-alyakhnovich",
@@ -1756,7 +1822,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Францішак_Каралевіч_Аляхновіч",
     "placeIds": [
       "gulag-solovki-slon"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "siarhiej-hrahouski",
@@ -1780,7 +1847,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Сяргей_Іванавіч_Грахоўскі",
     "placeIds": [
       "gulag-kolyma-maska-smutku"
-    ]
+    ],
+    "wikidataId": "Q3920304"
   },
   {
     "id": "uladzimir-karatkevich",
@@ -1805,7 +1873,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "kyiv-university-philology-karatkevich",
       "kyiv-karatkevich-monument"
-    ]
+    ],
+    "wikidataId": "Q508975"
   },
   {
     "id": "mitrafan-dounar-zapolski",
@@ -1829,7 +1898,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Мітрафан_Віктаравіч_Доўнар-Запольскі",
     "placeIds": [
       "kyiv-university-philology-karatkevich"
-    ]
+    ],
+    "wikidataId": "Q2500814"
   },
   {
     "id": "mikhail-zhyzneuski",
@@ -1854,7 +1924,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "kyiv-memorial-zhyzneuski",
       "kyiv-memorial-fallen-belarusians"
-    ]
+    ],
+    "wikidataId": "Q15636069"
   },
   {
     "id": "ales-rodzin",
@@ -1878,7 +1949,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Алесь_Радзін",
     "placeIds": [
       "berlin-tacheles-ales-rodzin"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "jan-nalepka",
@@ -1902,7 +1974,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be-tarask.wikipedia.org/wiki/Ян_Налепка",
     "placeIds": [
       "spisska-nova-ves-jan-nalepka-monument"
-    ]
+    ],
+    "wikidataId": "Q385147"
   },
   {
     "id": "jozef-czapski",
@@ -1927,7 +2000,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "krakow-pawilon-jozefa-czapskiego",
       "maisons-laffitte-kultura-czapski"
-    ]
+    ],
+    "wikidataId": "Q932390"
   },
   {
     "id": "uladzimir-arlou",
@@ -1951,7 +2025,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Уладзімір_Аляксеевіч_Арлоў",
     "placeIds": [
       "visby-baltic-centre-writers-bcwt"
-    ]
+    ],
+    "wikidataId": "Q1463452"
   },
   {
     "id": "hleb-usyaslavich",
@@ -1975,7 +2050,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Глеб_Усяславіч",
     "placeIds": [
       "kyiv-pechersk-lavra-hleb-minskirad"
-    ]
+    ],
+    "wikidataId": "Q2991706"
   },
   {
     "id": "simeon-polotsky",
@@ -1999,7 +2075,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Сімяон_Полацкі",
     "placeIds": [
       "kyiv-mohyla-academy-polotsky-konissky"
-    ]
+    ],
+    "wikidataId": "Q561635"
   },
   {
     "id": "euphrosyne-polotsk",
@@ -2023,7 +2100,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Еўфрасіння_Полацкая",
     "placeIds": [
       "kyiv-pechersk-lavra-hleb-minskirad"
-    ]
+    ],
+    "wikidataId": "Q257706"
   },
   {
     "id": "santi-gucci",
@@ -2048,7 +2126,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "bari-basilica-san-nicola-bona-sforza-tomb",
       "florence-city-hub"
-    ]
+    ],
+    "wikidataId": "Q266103"
   },
   {
     "id": "radziwill-sirotka",
@@ -2078,7 +2157,8 @@ window.INITIAL_PERSONS = [
     ],
     "relatedPersonIds": [
       "radziwills"
-    ]
+    ],
+    "wikidataId": "Q968484"
   },
   {
     "id": "michal-kazimir-oginski",
@@ -2102,7 +2182,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Міхал_Казімір_Агінскі",
     "placeIds": [
       "florence-city-hub"
-    ]
+    ],
+    "wikidataId": "Q704506"
   },
   {
     "id": "johann-christoph-glaubitz",
@@ -2126,7 +2207,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Ян_Крыштаф_Глаўбіц",
     "placeIds": [
       "vilnia-glaubitz-st-johns"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "mikolaj-radziwill-black",
@@ -2152,7 +2234,8 @@ window.INITIAL_PERSONS = [
       "radziwills",
       "radziwill-sirotka",
       "barbara-radziwill"
-    ]
+    ],
+    "wikidataId": "Q967015"
   },
   {
     "id": "vilna-gaon",
@@ -2173,7 +2256,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Sielec near Brest (Belarus). The leading spiritual authority of Litvak Judaism, known as the Genius of Vilna. Authored seminal commentaries on the Torah and Talmud as well as treatises on geometry and astronomy. Buried at the Sudervė Cemetery in Vilnius."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Vilna_Gaon%2C_Winograd_picture.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D1%96_%D0%B3%D0%B0%D0%BE%D0%BD"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D1%96_%D0%B3%D0%B0%D0%BE%D0%BD",
+    "wikidataId": "Q279359"
   },
   {
     "id": "eliezer-ben-yehuda",
@@ -2194,7 +2278,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Luzhki, Vitebsk region (Belarus). Known as the Father of Modern Hebrew; he accomplished the historic revival of Hebrew as a spoken everyday language and authored the first comprehensive modern Hebrew dictionary. Buried on the Mount of Olives in Jerusalem."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Portrait_of_Eliezer_Ben-Yehuda_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%AD%D0%BB%D1%96%D1%8D%D0%B7%D0%B5%D1%80_%D0%91%D1%8D%D0%BD-%D0%95%D0%B3%D1%83%D0%B4%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AD%D0%BB%D1%96%D1%8D%D0%B7%D0%B5%D1%80_%D0%91%D1%8D%D0%BD-%D0%95%D0%B3%D1%83%D0%B4%D0%B0",
+    "wikidataId": "Q181728"
   },
   {
     "id": "simon-kuznets",
@@ -2215,7 +2300,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Pinsk (Belarus). Harvard University economist awarded the Nobel Prize in Economic Sciences in 1971. Pioneered national income accounting and developed the concept of Gross Domestic Product (GDP), transforming macroeconomic measurement globally."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Simon_Kuznets_1971b.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD_%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD_%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86",
+    "wikidataId": "Q192577"
   },
   {
     "id": "ryszard-kapuscinski",
@@ -2239,7 +2325,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Рышард_Капусцінскі",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q216813"
   },
   {
     "id": "boris-kit",
@@ -2260,7 +2347,8 @@ window.INITIAL_PERSONS = [
       "en": "Born to a Belarusian family, directed the Novogrudok Belarusian Gymnasium. In the US, he became a key rocket propulsion expert for NASA, pioneering liquid hydrogen fuel systems for the Apollo lunar missions and space shuttles. Lived to 107 and is buried in Wiesbaden under the Belarusian white-red-white flag."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/%D0%91%D0%B0%D1%80%D1%8B%D1%81_%D0%9A%D1%96%D1%82_105.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D1%8B%D1%81_%D0%9A%D1%96%D1%82"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D1%8B%D1%81_%D0%9A%D1%96%D1%82",
+    "wikidataId": "Q45305"
   },
   {
     "id": "michal-kleofas-oginski",
@@ -2284,7 +2372,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D1%85%D0%B0%D0%BB_%D0%9A%D0%BB%D0%B5%D0%B0%D1%84%D0%B0%D1%81_%D0%90%D0%B3%D1%96%D0%BD%D1%81%D0%BA%D1%96",
     "relatedPersonIds": [
       "michal-kazimir-oginski"
-    ]
+    ],
+    "wikidataId": "Q709977"
   },
   {
     "id": "alhierd",
@@ -2305,7 +2394,8 @@ window.INITIAL_PERSONS = [
       "en": "Grand Duke of Lithuania who unified all Belarusian principalities under the GDL and expanded borders to the Black Sea. Defeated the Golden Horde at the Battle of Blue Waters (1362), liberating Kyiv and Podolia."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Algirdas_kunigaik%C5%A1tis.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B3%D0%B5%D1%80%D0%B4"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B3%D0%B5%D1%80%D0%B4",
+    "wikidataId": "Q336754"
   },
   {
     "id": "sciapan-palubes",
@@ -2326,7 +2416,8 @@ window.INITIAL_PERSONS = [
       "en": "Master ceramist born in Mstsislaw (Belarus), pioneer of Belarusian polychrome relief tiles in Moscow. Lived in the Meshchanskaya Sloboda and decorated the New Jerusalem Monastery and Izmaylovo Church with his famous 'peacock eye' ceramic friezes."
     },
     "image": "",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%86%D1%8F%D0%BF%D0%B0%D0%BD_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%9F%D0%B0%D0%BB%D1%83%D0%B1%D0%B5%D1%81"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%86%D1%8F%D0%BF%D0%B0%D0%BD_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%9F%D0%B0%D0%BB%D1%83%D0%B1%D0%B5%D1%81",
+    "wikidataId": null
   },
   {
     "id": "branislaw-epimakh-shypila",
@@ -2347,7 +2438,8 @@ window.INITIAL_PERSONS = [
       "en": "Bibliographer and professor at Saint Petersburg University. Co-founded the pioneering Belarusian publishing society 'Zahliane sontsa i ŭ nasha akontsa' (1906). In his apartment at 4th Line V.O. 45, poet Yanka Kupala lived from 1909 to 1913."
     },
     "image": "",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D0%B0%D0%B2%D1%96%D1%87_%D0%AD%D0%BF%D1%96%D0%BC%D0%B0%D1%85-%D0%A8%D1%8B%D0%BF%D1%96%D0%BB%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%86%D0%B3%D0%BD%D0%B0%D1%82%D0%B0%D0%B2%D1%96%D1%87_%D0%AD%D0%BF%D1%96%D0%BC%D0%B0%D1%85-%D0%A8%D1%8B%D0%BF%D1%96%D0%BB%D0%B0",
+    "wikidataId": "Q3920666"
   },
   {
     "id": "ivan-hryharovich",
@@ -2368,7 +2460,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Propoysk (now Slawharad, Belarus). Founder of Belarusian archeography, editor of the first comprehensive source collection 'Belarusian Archive of Ancient Deeds' (1824). Buried at the Volkovo Orthodox Cemetery in Saint Petersburg."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/%D0%98%D0%B2%D0%B0%D0%BD_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%86%D0%B2%D0%B0%D0%BD_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%93%D1%80%D1%8B%D0%B3%D0%B0%D1%80%D0%BE%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%86%D0%B2%D0%B0%D0%BD_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%93%D1%80%D1%8B%D0%B3%D0%B0%D1%80%D0%BE%D0%B2%D1%96%D1%87",
+    "wikidataId": "Q3918984"
   },
   {
     "id": "mikhail-mikeshin",
@@ -2389,7 +2482,8 @@ window.INITIAL_PERSONS = [
       "en": "Sculptor of Belarusian descent, graduated from the Saint Petersburg Academy of Arts. Created iconic monuments including Catherine the Great in Saint Petersburg, the Millennium of Russia in Novgorod, and Bohdan Khmelnytsky in Kyiv."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Mikeshin_by_Repin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D1%85%D0%B0%D1%96%D0%BB_%D0%92%D1%81%D0%B5%D0%B2%D0%B0%D0%BB%D0%B0%D0%B4%D0%B0%D0%B2%D1%96%D1%87_%D0%9C%D1%96%D0%BA%D0%B5%D1%88%D1%8B%D0%BD"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D1%85%D0%B0%D1%96%D0%BB_%D0%92%D1%81%D0%B5%D0%B2%D0%B0%D0%BB%D0%B0%D0%B4%D0%B0%D0%B2%D1%96%D1%87_%D0%9C%D1%96%D0%BA%D0%B5%D1%88%D1%8B%D0%BD",
+    "wikidataId": null
   },
   {
     "id": "mendele-mocher-sforim",
@@ -2410,7 +2504,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Kapyl (Belarus). Celebrated as the Grandfather of modern Yiddish and Hebrew literature. Masterfully depicted the life of the Belarusian shtetl. Buried at the Second Christian Cemetery in Odesa (Ukraine)."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Mendele_Mos_big.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D1%8D%D0%BB%D0%B5_%D0%9C%D0%BE%D0%B9%D1%85%D0%B5%D1%80-%D0%A1%D1%84%D0%BE%D1%80%D1%8B%D0%BC"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D1%8D%D0%BB%D0%B5_%D0%9C%D0%BE%D0%B9%D1%85%D0%B5%D1%80-%D0%A1%D1%84%D0%BE%D1%80%D1%8B%D0%BC",
+    "wikidataId": "Q359694"
   },
   {
     "id": "stefaniya-stanyuta",
@@ -2431,7 +2526,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Minsk to painter Mikhail Stanyuta. Graduated from the Belarusian Dramatic Studio in Moscow in 1926. Became a premier star of the Kupala National Theatre and classical cinema ('White Dew', 'Farewell')."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/100_years_since_the_birth_of_SM_Stanyuta.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D1%84%D0%B0%D0%BD%D1%96%D1%8F_%D0%9C%D1%96%D1%85%D0%B0%D0%B9%D0%BB%D0%B0%D1%9E%D0%BD%D0%B0_%D0%A1%D1%82%D0%B0%D0%BD%D1%8E%D1%82%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D1%84%D0%B0%D0%BD%D1%96%D1%8F_%D0%9C%D1%96%D1%85%D0%B0%D0%B9%D0%BB%D0%B0%D1%9E%D0%BD%D0%B0_%D0%A1%D1%82%D0%B0%D0%BD%D1%8E%D1%82%D0%B0",
+    "wikidataId": "Q3920849"
   },
   {
     "id": "ihnat-hryniavicki",
@@ -2452,7 +2548,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Basin, Bobruysk district (Belarus). Graduated with highest honors from the Białystok Gymnasium (1875). Core member of Narodnaya Volya who initiated its Belarusian circle. On 1 March 1881 in Saint Petersburg, threw the bomb that mortally wounded Tsar Alexander II, dying in the explosion."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ihnat_Hryniavicki._%D0%86%D0%B3%D0%BD%D0%B0%D1%82_%D0%93%D1%80%D1%8B%D0%BD%D1%8F%D0%B2%D1%96%D1%86%D0%BA%D1%96_%28XIX%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%86%D0%B3%D0%BD%D0%B0%D1%82_%D0%93%D1%80%D1%8B%D0%BD%D1%8F%D0%B2%D1%96%D1%86%D0%BA%D1%96"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%86%D0%B3%D0%BD%D0%B0%D1%82_%D0%93%D1%80%D1%8B%D0%BD%D1%8F%D0%B2%D1%96%D1%86%D0%BA%D1%96",
+    "wikidataId": "Q2415488"
   },
   {
     "id": "tamara-salanevich",
@@ -2473,7 +2570,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Narewka (Podlasie). Celebrated documentary filmmaker and chronicler of the Belarusian minority in Poland. Her films ('Kresowa poleczka', 'Black Dawn', 'Man from the Earth') captured the living culture and dialect of Podlasie. A public square in Białystok bears her name."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_Placeholder.png/440px-Portrait_Placeholder.png",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BC%D0%B0%D1%80%D0%B0_%D0%A1%D0%B0%D0%BB%D0%B0%D0%BD%D0%B5%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BC%D0%B0%D1%80%D0%B0_%D0%A1%D0%B0%D0%BB%D0%B0%D0%BD%D0%B5%D0%B2%D1%96%D1%87",
+    "wikidataId": "Q9355414"
   },
   {
     "id": "mikola-hajduk",
@@ -2494,7 +2592,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Kobylany (Podlasie). Renowned educator, folklorist, and author who collected oral traditions and taught at the Belarusian Lyceum in Bielsk Podlaski. Primary School No. 3 in Bielsk Podlaski is named in his honor."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Portrait_Placeholder.png/440px-Portrait_Placeholder.png",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D0%BA%D0%BE%D0%BB%D0%B0_%D0%93%D0%B0%D0%B9%D0%B4%D1%83%D0%BA"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D0%BA%D0%BE%D0%BB%D0%B0_%D0%93%D0%B0%D0%B9%D0%B4%D1%83%D0%BA",
+    "wikidataId": "Q13031590"
   },
   {
     "id": "zair-azgur",
@@ -2523,7 +2622,8 @@ window.INITIAL_PERSONS = [
         "title": "Заір Азгур — Вікіпедыя",
         "url": "https://be.wikipedia.org/wiki/Заір_Ісакавіч_Азгур"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "kipryjan-kandratovich",
@@ -2552,7 +2652,8 @@ window.INITIAL_PERSONS = [
         "title": "Кіпрыян Кандратовіч — Вікіпедыя",
         "url": "https://be.wikipedia.org/wiki/Кіпрыян_Антонавіч_Кандратовіч"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "uladzimir-samoila",
@@ -2573,7 +2674,8 @@ window.INITIAL_PERSONS = [
       "en": "One of the initiators of the Belarusian national revival. First to evaluate the poetry of Yanka Kupala in print. Taught at the Vilnius Belarusian Gymnasium, worked at the Lutskievich Museum. Arrested by NKVD in 1939, died in Soviet Gulag."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Samojla.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%A1%D0%B0%D0%BC%D0%BE%D0%B9%D0%BB%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%A1%D0%B0%D0%BC%D0%BE%D0%B9%D0%BB%D0%B0",
+    "wikidataId": "Q172955"
   },
   {
     "id": "tadevush-urubleuski",
@@ -2594,7 +2696,8 @@ window.INITIAL_PERSONS = [
       "en": "Public figure, prominent Vilnius attorney and bibliophile. Defended Belarusian national revival activists in court. Assembled a massive collection of rare books and manuscripts, founding the Wróblewski Library in Vilnius."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tadeusz_Wr%C3%B3blewski.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B4%D1%8D%D0%B2%D1%83%D1%88_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B4%D1%8D%D0%B2%D1%83%D1%88_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96",
+    "wikidataId": "Q3917737"
   },
   {
     "id": "valery-urubleuski",
@@ -2618,7 +2721,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D1%8B%D0%B9_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D1%96%D0%B9_%D0%A3%D1%80%D1%83%D0%B1%D0%BB%D0%B5%D1%9E%D1%81%D0%BA%D1%96",
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
-    ]
+    ],
+    "wikidataId": "Q726985"
   },
   {
     "id": "yagaila",
@@ -2639,7 +2743,8 @@ window.INITIAL_PERSONS = [
       "en": "Son of Algirdas and Uliana of Tver. Grand Duke of Lithuania and King of Poland. Victor over the Teutonic Order at Grunwald (1410) alongside Vytautas. Founder of the Jagiellonian dynasty."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/W%C5%82adys%C5%82aw_II_Jagie%C5%82%C5%82o.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B3%D0%B0%D0%B9%D0%BB%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B3%D0%B0%D0%B9%D0%BB%D0%B0",
+    "wikidataId": "Q54049"
   },
   {
     "id": "kazimir-iv-yagelonchyk",
@@ -2660,7 +2765,8 @@ window.INITIAL_PERSONS = [
       "en": "Younger son of Jogaila and Sophia of Holszany. Issued the Code of 1468 (Sudiebnik), the first codification of GDL law in Ruthenian/Old Belarusian. Buried at Wawel Cathedral under Veit Stoss's tomb."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kazimierz_IV_Jagiello%C5%84czyk.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%87%D1%8B%D0%BA"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B7%D1%96%D0%BC%D1%96%D1%80_%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%87%D1%8B%D0%BA",
+    "wikidataId": "Q53459"
   },
   {
     "id": "aleksandr-yagelonchyk",
@@ -2681,7 +2787,8 @@ window.INITIAL_PERSONS = [
       "en": "Son of Casimir IV. Resided in Vilnius, expanded rights of GDL nobility. The only Polish king and Grand Duke buried in the Royal Crypt of Vilnius Cathedral."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/5/54/Aleksander_Jagiellonczyk_%2876851933%29_%28cropped%29.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%87%D1%8B%D0%BA"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%87%D1%8B%D0%BA",
+    "wikidataId": "Q53450"
   },
   {
     "id": "stefan-batory",
@@ -2702,7 +2809,8 @@ window.INITIAL_PERSONS = [
       "en": "King of Poland and Grand Duke of Lithuania. Made Hrodna his de facto royal residence. Liberated Polatsk (1579) and founded Vilnius University. Buried at Wawel Cathedral."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stefan_Batory_portrait.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D1%84%D0%B0%D0%BD_%D0%91%D0%B0%D1%82%D0%BE%D1%80%D1%8B%D0%B9"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D1%8D%D1%84%D0%B0%D0%BD_%D0%91%D0%B0%D1%82%D0%BE%D1%80%D1%8B%D0%B9",
+    "wikidataId": "Q54030"
   },
   {
     "id": "yan-iii-sabeski",
@@ -2727,7 +2835,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "vienna-kahlenberg-st-joseph-sobieski",
       "vienna-kahlenberg-sobieski-pedestal-monument"
-    ]
+    ],
+    "wikidataId": "Q53454"
   },
   {
     "id": "stanislaw-august-poniatowski",
@@ -2753,7 +2862,8 @@ window.INITIAL_PERSONS = [
       "warsaw-st-john-archcathedral-stanislaw-august-tomb",
       "volchyn-holy-trinity-church-poniatowski",
       "spb-st-catherine-basilica-poniatowski"
-    ]
+    ],
+    "wikidataId": "Q54019"
   },
   {
     "id": "sofia-menskaya",
@@ -2774,7 +2884,8 @@ window.INITIAL_PERSONS = [
       "en": "Daughter of Prince Valadar of Minsk and Rikissa of Poland. Queen consort of Denmark as wife of Valdemar I the Great. Mother of Danish kings Canute VI and Valdemar II. Buried at St. Bendt's Church in Ringsted, Denmark."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sankt_Bendts_Kirke_-_Sophia.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D1%84%D1%96%D1%8F_%D0%92%D0%B0%D0%BB%D0%B0%D0%B4%D0%B0%D1%80%D0%B0%D1%9E%D0%BD%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D1%84%D1%96%D1%8F_%D0%92%D0%B0%D0%BB%D0%B0%D0%B4%D0%B0%D1%80%D0%B0%D1%9E%D0%BD%D0%B0",
+    "wikidataId": "Q2026887"
   },
   {
     "id": "zhygimont-ii-august",
@@ -2795,7 +2906,8 @@ window.INITIAL_PERSONS = [
       "en": "Last monarch of the Jagiellonian dynasty in male line. Conducted the Volok Reform. Married Barbara Radziwiłł for love. Signed the Union of Lublin (1569). Buried in Sigismund Chapel at Wawel."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Cranach_the_Younger_Sigismund_II_Augustus.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%96%D1%8B%D0%B3%D1%96%D0%BC%D0%BE%D0%BD%D1%82_II_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%96%D1%8B%D0%B3%D1%96%D0%BC%D0%BE%D0%BD%D1%82_II_%D0%90%D1%9E%D0%B3%D1%83%D1%81%D1%82",
+    "wikidataId": "Q54058"
   },
   {
     "id": "fabian-abrantovich",
@@ -2816,7 +2928,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Novogrudok district. Marian priest, Doctor of Philosophy. Head of the Byzantine Catholic Mission in Harbin, Manchuria (1928–1939). Arrested by Soviets in 1939, died in Butyrka prison in Moscow in 1946."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Fabian_Abrantowicz.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B1%D1%96%D1%8F%D0%BD_%D0%90%D0%B1%D1%80%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B1%D1%96%D1%8F%D0%BD_%D0%90%D0%B1%D1%80%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%96%D1%87",
+    "wikidataId": "Q2635683"
   },
   {
     "id": "andrei-tsikota",
@@ -2837,7 +2950,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Smorgon region. Member of BNR Council. Superior General of Marian Fathers in Rome (1933–1939), Apostolic Administrator in Harbin (1939–1948). Arrested in 1948, died in Ozerlag Gulag hospital near Tayshet in 1952."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/c/c7/%D0%90%D0%B9%D1%86%D0%B5%D1%86_%D0%90%D0%BD%D0%B4%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BD%D0%B4%D1%80%D1%8D%D0%B9_%D0%A6%D1%96%D0%BA%D0%BE%D1%82%D0%B0",
+    "wikidataId": "Q2638506"
   },
   {
     "id": "yazep-hermanovich",
@@ -2858,7 +2972,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Halshany. Belarusian poet and Marian priest. Directed St. Nicholas Lyceum in Harbin. Spent 1948–1955 in Siberian Gulag camps. Author of 'China – Siberia – Moscow'. Later served at the Marian House in London."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jazep_Hiermanovi%C4%8D._%D0%AF%D0%B7%D1%8D%D0%BF_%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87_%281932%29.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8D%D0%BF_%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%D0%B2%D1%96%D1%87_%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%AF%D0%B7%D1%8D%D0%BF_%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2%D0%B0%D0%B2%D1%96%D1%87_%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87",
+    "wikidataId": "Q1656862"
   },
   {
     "id": "yulian-ursyn-nyamtsevich",
@@ -2882,7 +2997,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/%D0%AE%D0%BB%D1%8C%D1%8F%D0%BD_%D0%A3%D1%80%D1%81%D1%8B%D0%BD_%D0%9D%D1%8F%D0%BC%D1%86%D1%8D%D0%B2%D1%96%D1%87",
     "placeIds": [
       "montmorency-champeaux-cemetery-pantheon"
-    ]
+    ],
+    "wikidataId": "Q458241"
   },
   {
     "id": "aleksandr-chodzko",
@@ -2906,7 +3022,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0",
     "placeIds": [
       "montmorency-champeaux-cemetery-pantheon"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "leonard-chodzko",
@@ -2930,7 +3047,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/%D0%9B%D0%B5%D0%B0%D0%BD%D0%B0%D1%80%D0%B4_%D0%A5%D0%BE%D0%B4%D1%8C%D0%BA%D0%B0",
     "placeIds": [
       "montmorency-champeaux-cemetery-pantheon"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "valentsin-vankovich",
@@ -2951,7 +3069,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Kałużyca near Cherven (Minsk region). Master of Romantic portraiture, painted the iconic 'Mickiewicz on the Ay-Dagh Cliff'. Close friend of Adam Mickiewicz, died in Paris in Mickiewicz's home. Buried at Montmartre Cemetery in Paris."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/9/90/Walenty_wankowicz.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D1%8F%D0%BD%D1%86%D1%96%D0%BD_%D0%92%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%92%D0%B0%D0%BB%D1%8F%D0%BD%D1%86%D1%96%D0%BD_%D0%92%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%D0%B2%D1%96%D1%87",
+    "wikidataId": "Q1795226"
   },
   {
     "id": "chaslau-sipovich",
@@ -2972,7 +3091,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Dzyadzinka (Dzisna district). Apostolic Visitor for Belarusian Greek Catholics abroad. Superior General of the Marian Fathers in Rome (1963–1969). Founder of the Francis Skaryna Belarusian Library and Museum in London. Buried at St Pancras and Islington Cemetery, London."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Biskup_Sipovich_u_biblijatecy.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A7%D1%8D%D1%81%D0%BB%D0%B0%D1%9E_%D0%A1%D1%96%D0%BF%D0%BE%D0%B2%D1%96%D1%87"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A7%D1%8D%D1%81%D0%BB%D0%B0%D1%9E_%D0%A1%D1%96%D0%BF%D0%BE%D0%B2%D1%96%D1%87",
+    "wikidataId": "Q3181227"
   },
   {
     "id": "alyaksandr-nadsan",
@@ -2993,7 +3113,8 @@ window.INITIAL_PERSONS = [
       "en": "Born in Haradzeya (Nyasvizh district). Spiritual leader of the Belarusian diaspora, Apostolic Visitor for Belarusian Catholics abroad. Directed the Skaryna Library in London for decades. Scholar of Skaryna studies. Buried at St Pancras Cemetery in London."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Biskup_Sipovich_u_biblijatecy.jpg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B0%D0%B4%D1%81%D0%B0%D0%BD"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%90%D0%BB%D1%8F%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9D%D0%B0%D0%B4%D1%81%D0%B0%D0%BD",
+    "wikidataId": "Q2500864"
   },
   {
     "id": "uladzislaw-plyater",
@@ -3014,7 +3135,8 @@ window.INITIAL_PERSONS = [
       "en": "Magnate of the Plater family, cousin of heroine Emilia Plater. Insurgent of 1831. Restored Rapperswil Castle in Switzerland, creating the Polish-Lithuanian National Museum and the mausoleum for Tadeusz Kościuszko's heart."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Rapperswil_Schloss_Nacht.jpeg",
-    "wiki": "https://be.wikipedia.org/wiki/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9F%D0%BB%D1%8F%D1%82%D1%8D%D1%80"
+    "wiki": "https://be.wikipedia.org/wiki/%D0%A3%D0%BB%D0%B0%D0%B4%D0%B7%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9F%D0%BB%D1%8F%D1%82%D1%8D%D1%80",
+    "wikidataId": "Q203029"
   },
   {
     "id": "leonilla-sayn-wittgenstein",
@@ -3035,7 +3157,8 @@ window.INITIAL_PERSONS = [
       "en": "Wife of Prince Ludwig zu Sayn-Wittgenstein. Inherited vast Radziwiłł estates including Mir Castle. Renowned beauty portrayed by Winterhalter. Lived to 102. Buried in Sayn Palace Chapel, Germany."
     },
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Schloss_Sayn_2011.jpg/1280px-Schloss_Sayn_2011.jpg",
-    "wiki": "https://en.wikipedia.org/wiki/Leonilla_Bariatinskaya"
+    "wiki": "https://en.wikipedia.org/wiki/Leonilla_Bariatinskaya",
+    "wikidataId": "Q7244669"
   },
   {
     "id": "lucjan-zeligowski",
@@ -3059,7 +3182,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Люцыян_Жалігоўскі",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q458532"
   },
   {
     "id": "witold-pilecki",
@@ -3083,7 +3207,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Вітольд_Пілецкі",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q315691"
   },
   {
     "id": "stanislaw-bulak-balachowicz",
@@ -3108,7 +3233,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "warsaw-bulak-balachowicz-plaque",
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q2350484"
   },
   {
     "id": "marian-falski",
@@ -3132,7 +3258,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Мар’ян_Фальскі",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q219570"
   },
   {
     "id": "maja-berezowska",
@@ -3156,7 +3283,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Мая_Беразоўская",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q274368"
   },
   {
     "id": "janusz-brochwicz-lewinski",
@@ -3180,7 +3308,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Януш_Брохвіч-Лявінскі",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "wiktor-woroszylski",
@@ -3204,7 +3333,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://pl.wikipedia.org/wiki/Wiktor_Woroszylski",
     "placeIds": [
       "warsaw-cmentarz-wojskowy-powazki"
-    ]
+    ],
+    "wikidataId": "Q3568076"
   },
   {
     "id": "jozef-poniatowski",
@@ -3228,7 +3358,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Юзаф_Панятоўскі",
     "placeIds": [
       "warsaw-poniatowski-monument"
-    ]
+    ],
+    "wikidataId": "Q154382"
   },
   {
     "id": "czeslaw-niemen",
@@ -3252,7 +3383,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Чэслаў_Немен",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": "Q458213"
   },
   {
     "id": "jan-bulhak",
@@ -3276,7 +3408,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Ян_Булгак",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": "Q941506"
   },
   {
     "id": "tadeusz-dolega-mostowicz",
@@ -3300,7 +3433,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Даленга-Мастовіч",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": "Q973270"
   },
   {
     "id": "mieczyslaw-karlowicz",
@@ -3325,7 +3459,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki",
       "tatra-kamien-karlowicza-monument"
-    ]
+    ],
+    "wikidataId": "Q508891"
   },
   {
     "id": "antoni-edward-odyniec",
@@ -3349,7 +3484,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Антоні_Эдвард_Адынец",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": "Q597298"
   },
   {
     "id": "zofia-chometowska",
@@ -3373,7 +3509,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Сафія_Хамянтоўская",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "tadeusz-korzon",
@@ -3397,7 +3534,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Тадэвуш_Корзан",
     "placeIds": [
       "warsaw-cmentarz-powazkowski-stare-powazki"
-    ]
+    ],
+    "wikidataId": "Q2623727"
   },
   {
     "id": "mikola-abramchyk",
@@ -3421,7 +3559,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Мікола_Абрамчык"
+    "wiki": "https://be.wikipedia.org/wiki/Мікола_Абрамчык",
+    "wikidataId": "Q2385121"
   },
   {
     "id": "nina-abramchyk",
@@ -3445,7 +3584,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Ніна_Абрамчык"
+    "wiki": "https://be.wikipedia.org/wiki/Ніна_Абрамчык",
+    "wikidataId": "Q6522591"
   },
   {
     "id": "tadeusz-tyszkiewicz",
@@ -3468,7 +3608,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "tytus-puslowski",
@@ -3491,7 +3632,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "jacob-balgley",
@@ -3514,7 +3656,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "mikalaj-minski",
@@ -3537,7 +3680,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "ewelina-hanska",
@@ -3560,7 +3704,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "paris-cmentarz-pere-lachaise"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "aleksandr-lyudvik-radziwill",
@@ -3583,7 +3728,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "bologna-archiginnasio-university"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "michal-kazimir-radziwill",
@@ -3606,7 +3752,8 @@ window.INITIAL_PERSONS = [
     },
     "placeIds": [
       "bologna-archiginnasio-university"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "mikhas-zabejda-sumitski",
@@ -3632,7 +3779,8 @@ window.INITIAL_PERSONS = [
       "milan-teatro-alla-scala",
       "olsany-cemetery-prague",
       "prague-olsany-belarusian-pantheon"
-    ]
+    ],
+    "wikidataId": "Q9241000"
   },
   {
     "id": "klaudziy-duzh-dusheuski",
@@ -3657,7 +3805,8 @@ window.INITIAL_PERSONS = [
       "kaunas-petrasiunai-duzh-dusheuski-grave",
       "kaunas-vytautas-8-duzh-dusheuski-house"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Клаўдзій_Сцяпанавіч_Дуж-Душэўскі"
+    "wiki": "https://be.wikipedia.org/wiki/Клаўдзій_Сцяпанавіч_Дуж-Душэўскі",
+    "wikidataId": "Q3495280"
   },
   {
     "id": "anton-lutskevich",
@@ -3684,7 +3833,8 @@ window.INITIAL_PERSONS = [
       "paris-bnr-press-bureau-clichy",
       "vilnia-pershaya-redaktsyya-nashay-nivy"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Антон_Іванавіч_Луцкевіч"
+    "wiki": "https://be.wikipedia.org/wiki/Антон_Іванавіч_Луцкевіч",
+    "wikidataId": "Q168859"
   },
   {
     "id": "vasil-zaharka",
@@ -3708,7 +3858,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "prague-olsany-belarusian-pantheon"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Васіль_Іванавіч_Захарка"
+    "wiki": "https://be.wikipedia.org/wiki/Васіль_Іванавіч_Захарка",
+    "wikidataId": "Q2380808"
   },
   {
     "id": "ciotka",
@@ -3732,7 +3883,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "krakow-jagiellonian-ciotka"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Алаіза_Сцяпанаўна_Пашкевіч"
+    "wiki": "https://be.wikipedia.org/wiki/Алаіза_Сцяпанаўна_Пашкевіч",
+    "wikidataId": "Q2986655"
   },
   {
     "id": "maksim-haretski",
@@ -3756,7 +3908,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "vyazma-haretski-memorial"
     ],
-    "wiki": "https://be.wikipedia.org/wiki/Максім_Іванавіч_Гарэцкі"
+    "wiki": "https://be.wikipedia.org/wiki/Максім_Іванавіч_Гарэцкі",
+    "wikidataId": "Q2500903"
   },
   {
     "id": "edward-piekarski",
@@ -3782,7 +3935,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "cherkekh-piekarski-house-museum",
       "yakutsk-exiled-scholars-memorial"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "benedykt-dybowski",
@@ -3808,7 +3962,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "lviv-dybowski-grave",
       "lviv-dybowski-zoological-museum"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "andrey-vilkitsky",
@@ -3834,7 +3989,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "spb-arctic-museum-vollosovich-vilkitsky",
       "spb-smolenskoye-vilkitsky-grave"
-    ]
+    ],
+    "wikidataId": "Q502084"
   },
   {
     "id": "boris-vilkitsky",
@@ -3860,7 +4016,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "spb-arctic-museum-vollosovich-vilkitsky",
       "spb-smolenskoye-vilkitsky-grave"
-    ]
+    ],
+    "wikidataId": "Q560766"
   },
   {
     "id": "konstantin-vollosovich",
@@ -3885,7 +4042,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Канстанцін_Адамавіч_Валасовіч",
     "placeIds": [
       "spb-arctic-museum-vollosovich-vilkitsky"
-    ]
+    ],
+    "wikidataId": "Q61653615"
   },
   {
     "id": "jan-czerski",
@@ -3911,7 +4069,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "yakutsk-exiled-scholars-memorial",
       "irkutsk-cherny-society-belarusian-culture"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "stepan-krichinsky",
@@ -3936,7 +4095,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://ru.wikipedia.org/wiki/Кричинский,_Степан_Самойлович",
     "placeIds": [
       "spb-saint-petersburg-mosque-krichinsky"
-    ]
+    ],
+    "wikidataId": "Q51215"
   },
   {
     "id": "tomasz-dvorzhetsky",
@@ -3962,7 +4122,8 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "moscow-cathedral-immaculate-conception-dvorzhetsky",
       "samara-sacred-heart-church-dvorzhetsky"
-    ]
+    ],
+    "wikidataId": "Q436972"
   },
   {
     "id": "edmund-yuditsky",
@@ -3987,7 +4148,8 @@ window.INITIAL_PERSONS = [
     "wiki": "https://ru.wikipedia.org/wiki/Юдицкий,_Эдмунд_Станиславович",
     "placeIds": [
       "moscow-pigit-house-yuditsky-bulgakov"
-    ]
+    ],
+    "wikidataId": "Q4533854"
   },
   {
     "id": "moisei-ginzburg",
@@ -4012,6 +4174,208 @@ window.INITIAL_PERSONS = [
     "wiki": "https://be.wikipedia.org/wiki/Майсей_Якаўлевіч_Гінзбург",
     "placeIds": [
       "moscow-narkomfin-building-ginzburg"
-    ]
+    ],
+    "wikidataId": "Q2493977"
+  },
+  {
+    "id": "stanislaw-bonifacy-jundzill",
+    "name": {
+      "by": "Станіслаў Баніфацы Юндзіл",
+      "ru": "Станислав Бонифаций Юндзилл",
+      "en": "Stanisław Bonifacy Jundziłł"
+    },
+    "dates": "1761–1847",
+    "role": {
+      "by": "Прыродазнавец, батанік, прафесар Віленскага ўніверсітэта",
+      "ru": "Естествоиспытатель, ботаник, профессор Виленского университета",
+      "en": "Naturalist, botanist, professor at Vilnius University"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Ясянцы Лідскага павета. Адзін з першых даследчыкаў расліннага і жывёльнага свету Беларусі і Літвы. Аўтар фундаментальных прац «Апісанне раслін, якія растуць у правінцыі ВКЛ» (1791) і «Прыкладная батаніка» (1799). Заснавальнік Батанічнага саду Віленскага ўніверсітэта ў Сэрэкішках.",
+      "ru": "Родился в д. Ясенцы Лидского уезда. Выдающийся естествоиспытатель, автор первых научных трудов о флоре и фауне земель ВКЛ и основатель Вильнюсского ботанического сада.",
+      "en": "Born in Jasiency, Lida district. Pioneer of botanical and zoological research in Belarus and Lithuania. Founded the Botanical Garden of Vilnius University."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Stanis%C5%82aw_Bonifacy_Jundzi%C5%82%C5%82.jpg/800px-Stanis%C5%82aw_Bonifacy_Jundzi%C5%82%C5%82.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Станіслаў_Баніфацый_Юндзіл",
+    "placeIds": [
+      "vilnia-dom-yundzila",
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q2362764"
+  },
+  {
+    "id": "kamila-martsinkevich",
+    "name": {
+      "by": "Каміла Марцінкевіч",
+      "ru": "Камилла Марцинкевич",
+      "en": "Kamila Martsinkevich"
+    },
+    "dates": "1837–1887",
+    "role": {
+      "by": "Піяністка, кампазітарка, педагог, удзельніца паўстання 1863 года",
+      "ru": "Пианистка, композитор, педагог, участница восстания 1863 года",
+      "en": "Pianist, composer, educator, 1863 January Uprising activist"
+    },
+    "bio": {
+      "by": "Дачка класіка беларускай літаратуры Вінцэнта Дуніна-Марцінкевіча. Таленавітая піяністка і кампазітарка, выступала з канцэртамі ў Мінску, Вільні і Варшаве. Арганізатарка нелегальнай школы для бедных дзяцей у Мінску і патрыятычных маніфестацый 1861 года. Была арыштаваная царскімі ўладамі і сасланая ў Салікамск. Пасля вызвалення жыла і памерла ў Вільні.",
+      "ru": "Дочь классика белорусской литературы В. Дунина-Марцинкевича. Пианистка и композитор. Активная участница национально-освободительного движения в Минске перед восстанием 1863 г., была сослана в Соликамск.",
+      "en": "Daughter of Belarusian literary classic Vincent Dunin-Marcinkievič. Accomplished pianist, composer, and educator. Exiled to Solikamsk for her patriotic activism prior to the 1863 Uprising."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kamila_Martsinkevich.jpg/600px-Kamila_Martsinkevich.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Каміла_Марцінкевіч",
+    "placeIds": [
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q13030955"
+  },
+  {
+    "id": "franciszak-ramejka",
+    "name": {
+      "by": "Францішак Рамейка",
+      "ru": "Франтишек Ромейко",
+      "en": "Franciszak Ramejka"
+    },
+    "dates": "1885–1931",
+    "role": {
+      "by": "Беларускі каталіцкі святар, грамадскі і асветніцкі дзеяч",
+      "ru": "Белорусский католический священник, общественный деятель",
+      "en": "Belarusian Catholic priest, national revival activist"
+    },
+    "bio": {
+      "by": "Дзеяч беларускага хрысціянскага адраджэння, актывіст Беларускай хрысціянскай дэмакратыі (БХД). Паслядоўна выступаў за беларусізацыю касцельнага жыцця, гаварыў казанні на беларускай мове, адкрываў беларускія школы і падтрымліваў нацыянальны друк у Заходняй Беларусі. Пахаваны на Бернардзінскіх могілках.",
+      "ru": "Деятель белорусского католического возрождения, соратник Белорусской христианской демократии. Последовательно внедрял белорусский язык в костёлах Западной Беларуси.",
+      "en": "Prominent Belarusian Catholic priest and advocate of the Belarusian Christian Democratic movement who fought for the use of Belarusian in church liturgy."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Franciszak_Ramejka.jpg/600px-Franciszak_Ramejka.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Францішак_Рамейка",
+    "placeIds": [
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q620437"
+  },
+  {
+    "id": "apolinar-bahusevic",
+    "name": {
+      "by": "Апалінар Багушэвіч",
+      "ru": "Аполлинарий Богушевич",
+      "en": "Apolinar Bahusevic"
+    },
+    "dates": "1846–1930",
+    "role": {
+      "by": "Удзельнік паўстання 1863 года, брат Францішка Багушэвіча",
+      "ru": "Участник восстания 1863 года, брат Франтишка Богушевича",
+      "en": "1863 Insurgent, brother of Francišak Bahuševič"
+    },
+    "bio": {
+      "by": "Родны брат пачынальніка новай беларускай літаратуры Францішка Багушэвіча. Разам з братам браў чынны ўдзел у паўстанні 1863–1864 гадоў. Пазней працаваў у віленскім акруговым судзе і быў прысяжным павераным.",
+      "ru": "Брат белорусского поэта Франтишка Богушевича. Участник восстания 1863 года, юрист Виленского окружного суда.",
+      "en": "Brother of national poet Francišak Bahuševič. Veteran of the 1863 January Uprising and attorney in Vilnius."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Bernardine_Cemetery7.jpg/600px-Bernardine_Cemetery7.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Бернардзінскія_могілкі_(Вільня)",
+    "placeIds": [
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q2362479"
+  },
+  {
+    "id": "leon-borowski",
+    "name": {
+      "by": "Лявон Бароўскі",
+      "ru": "Леон Боровский",
+      "en": "Leon Borowski"
+    },
+    "dates": "1784–1846",
+    "role": {
+      "by": "Філолаг, прафесар Віленскага ўніверсітэта, настаўнік Адама Міцкевіча",
+      "ru": "Филолог, профессор Виленского университета, учитель Адама Мицкевича",
+      "en": "Philologist, Vilnius University professor, mentor to Adam Mickiewicz"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Баравая на Піншчыне. Выбітны літаратуразнаўца і тэарэтык літаратуры, прафесар красамоўства і паэзіі Віленскага ўніверсітэта. Духоўны настаўнік Адама Міцкевіча і філаматаў, які першым распазнаў геній Міцкевіча і падтрымаў рамантычны кірунак у літаратуры.",
+      "ru": "Уроженец Пинщины, профессор риторики и поэзии Виленского университета. Духовный наставник Адама Мицкевича и филоматов.",
+      "en": "Born in Pinsk district. Professor of rhetoric and literature at Vilnius University, critical mentor to Adam Mickiewicz and the Philomaths."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Leon_Borowski.jpg/600px-Leon_Borowski.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Лявон_Бароўскі",
+    "placeIds": [
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q2492691"
+  },
+  {
+    "id": "ignat-zdanovich",
+    "name": {
+      "by": "Ігнат Здановіч",
+      "ru": "Игнатий Зданович",
+      "en": "Ignat Zdanovich"
+    },
+    "dates": "1841–1864",
+    "role": {
+      "by": "Кіраўнік паўстання 1863 года ў Вільні, паплечнік Кастуся Каліноўскага",
+      "ru": "Руководитель восстания 1863 года в Вильне, соратник Кастуся Калиновского",
+      "en": "Leader of the 1863 Uprising in Vilnius, associate of Kastuś Kalinoŭski"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў Вільні ў сям'і гісторыка Аляксандра Здановіча (родам з Ігуменшчыны). Публіцыст, адзін з кіраўнікоў віленскай паўстанцкай арганізацыі ў 1863 г., блізкі паплечнік Кастуся Каліноўскага. Пакараны смерцю праз павешанне на Лукішскім пляцы 2 студзеня 1864 года. На сямейнай магіле Здановічаў на Бернардзінскіх могілках усталяваны яго сімвалічны кенатаф.",
+      "ru": "Публицист, один из руководителей виленской повстанческой организации, соратник К. Калиновского. Казнён на Лукишках в 1864 г. Символический кенотаф находится на семейном участке на Бернардинском кладбище.",
+      "en": "Publicist and key organizer of the 1863 January Uprising in Vilnius alongside Kastuś Kalinoŭski. Executed on Lukiškių Square in 1864; commemorated on the family tomb at Bernardine Cemetery."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Ihnat_Zdanovi%C4%8D._%D0%86%D0%B3%D0%BD%D0%B0%D1%82_%D0%97%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87_%281863%29.jpg/600px-Ihnat_Zdanovi%C4%8D._%D0%86%D0%B3%D0%BD%D0%B0%D1%82_%D0%97%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D1%96%D1%87_%281863%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Ігнат_Аляксандравіч_Здановіч",
+    "placeIds": [
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q2785049"
+  },
+  {
+    "id": "jozef-czechowicz",
+    "name": {
+      "by": "Юзаф Чаховіч",
+      "ru": "Юзеф Чехович",
+      "en": "Józef Czechowicz"
+    },
+    "dates": "1819–1888",
+    "role": {
+      "by": "Фатограф, піянер мастацкай фатаграфіі ў Беларусі і Літве",
+      "ru": "Фотограф, пионер художественной фотографии в Беларуси и Литве",
+      "en": "Pioneering landscape and urban photographer"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў маёнтку Паперня Полацкага павета. Выдатны майстар святлапісу, заснавальнік аднаго з першых фотаатэлье ў Вільні. Стварыў неацэнную серыю фатаграфій Вільні, Полацка, Віцебска і Кіева 1860–1880-х гадоў.",
+      "ru": "Уроженец Полоцкого уезда, выдающийся мастер фотографии, автор бесценных видовых фотолетописей Вильны и городов Беларуси XIX века.",
+      "en": "Born in Polotsk district. Pioneering 19th-century photographer who captured historic urban landscapes of Vilnius, Polotsk, and Vitebsk."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/J%C3%B3zef_Czechowicz_autoportret.jpg/600px-J%C3%B3zef_Czechowicz_autoportret.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Юзаф_Чаховіч_(фатограф)",
+    "placeIds": [
+      "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla"
+    ],
+    "wikidataId": "Q16454658"
+  },
+  {
+    "id": "viktar-szwed",
+    "name": {
+      "by": "Віктар Швед",
+      "ru": "Виктор Швед",
+      "en": "Viktar Szwed"
+    },
+    "dates": "1925–2020",
+    "role": {
+      "by": "Беларускі паэт, перакладчык, грамадскі дзеяч Беласточчыны",
+      "ru": "Белорусский поэт, переводчик, общественный деятель Подляшья",
+      "en": "Belarusian poet, translator, community activist in Podlasie"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Мора каля Гайнаўкі на Падляшшы. Выдатны паэт беларускага замежжа, аўтар дзясяткаў зборнікаў паэзіі, сябра Беларускага літаратурнага аб'яднання «Белавежа» і Саюза польскіх пісьменнікаў. Пахаваны на могілках Усіх Святых у Беластоку.",
+      "ru": "Родился в д. Море близ Гайновки. Известный белорусский поэт Польши, участник литературного объединения «Беловежа». Похоронен на кладбище Всех Святых в Белостоке.",
+      "en": "Born in Morze near Hajnówka. Prominent Belarusian poet in Poland, core member of the 'Biełavieža' literary group. Buried at All Saints Cemetery in Białystok."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bia%C5%82ystok_-_Cmentarz_prawos%C5%82awny_Wszystkich_%C5%9Awi%C4%99tych.jpg/800px-Bia%C5%82ystok_-_Cmentarz_prawos%C5%82awny_Wszystkich_%C5%9Awi%C4%99tych.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Віктар_Нічыпаравіч_Швед",
+    "placeIds": [
+      "bialystok-all-saints-orthodox-cemetery"
+    ],
+    "wikidataId": null
   }
 ];

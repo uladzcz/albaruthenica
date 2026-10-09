@@ -31,6 +31,7 @@
   --cat-church: #7c3aed;    /* Amethyst Purple */
   --cat-plaque: #059669;    /* Emerald Green */
   --cat-grave: #475569;     /* Slate Memorial Graphite */
+  --cat-prison: #475569;    /* Detention & Prison Slate */
   --cat-embassy: #0284c7;   /* Diplomatic Cobalt Blue */
 }
 
@@ -372,6 +373,12 @@ body {
 .category-pill.active.category-grave {
   background: #f8fafc;
   border-color: var(--cat-grave);
+  color: #334155;
+}
+
+.category-pill.active.category-prison {
+  background: #f8fafc;
+  border-color: var(--cat-prison, #475569);
   color: #334155;
 }
 

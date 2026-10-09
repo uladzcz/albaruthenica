@@ -57,6 +57,10 @@ const CATEGORY_CONFIG = {
     color: '#475569',
     icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2C8.69 2 6 4.69 6 8v12h12V8c0-3.31-2.69-6-6-6zm0 4c.55 0 1 .45 1 1v1h1c.55 0 1 .45 1 1s-.45 1-1 1h-1v4c0 .55-.45 1-1 1s-1-.45-1-1v-4H9c-.55 0-1-.45-1-1s.45-1 1-1h1V7c0-.55.45-1 1-1zm-8 16h16v2H4v-2z"/></svg>`
   },
+  prison: {
+    color: '#475569',
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M2 3h20v2H2V3zm0 16h20v2H2v-2zM5 5h2v14H5V5zm4 0h2v14H9V5zm4 0h2v14h-2V5zm4 0h2v14h-2V5z"/></svg>`
+  },
   embassy: {
     color: '#0284c7',
     icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2l4 2.5-4 2.5V2zm-9 6h18v2H3V8zm2 3h2v7H5v-7zm5 0h2v7h-2v-7zm5 0h2v7h-2v-7zm5 0h2v7h-2v-7zM2 19h20v3H2v-3z"/></svg>`
@@ -471,10 +475,12 @@ function renderCategoryPills() {
     { id: 'city', label: dict.categories.city || 'Гарады' },
     { id: 'monument', label: dict.categories.monument },
     { id: 'grave', label: dict.categories.grave },
+    { id: 'prison', label: dict.categories.prison || 'Месцы зняволення' },
     { id: 'church', label: dict.categories.church },
     { id: 'culture', label: dict.categories.culture },
     { id: 'historical', label: dict.categories.historical },
-    { id: 'plaque', label: dict.categories.plaque }
+    { id: 'plaque', label: dict.categories.plaque },
+    { id: 'embassy', label: dict.categories.embassy || 'Дыпламатычныя місіі' }
   ];
 
   container.innerHTML = categories.map(cat => {

@@ -48,7 +48,8 @@
     "personIds": [
       "ferdynand-ruszczyc"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "paris-orangerie-soutine",
@@ -127,7 +128,13 @@
     "personIds": [
       "chaim-soutine"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q726781",
+    "wikidataCoords": [
+      48.863845,
+      2.322538
+    ],
+    "wikidataDistKm": 0.013
   },
   {
     "id": "nice-chagall-museum",
@@ -198,7 +205,13 @@
     "personIds": [
       "marc-chagall"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3329265",
+    "wikidataCoords": [
+      43.709167,
+      7.269536
+    ],
+    "wikidataDistKm": 0.044
   },
   {
     "id": "warsaw-mnw-wankowicz-ruszczyc",
@@ -289,7 +302,13 @@
       "vytautas",
       "walenty-wankowicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q153306",
+    "wikidataCoords": [
+      52.231667,
+      21.024722
+    ],
+    "wikidataDistKm": 0.004
   },
   {
     "id": "krakow-mnk-napoleon-orda",
@@ -367,7 +386,13 @@
     "personIds": [
       "napoleon-orda"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q195311",
+    "wikidataCoords": [
+      50.060278,
+      19.923889
+    ],
+    "wikidataDistKm": 0.04
   },
   {
     "id": "london-va-bakst",
@@ -438,7 +463,13 @@
     "personIds": [
       "leon-bakst"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q213322",
+    "wikidataCoords": [
+      51.49685,
+      -0.17162
+    ],
+    "wikidataDistKm": 0.049
   },
   {
     "id": "new-york-moma-chagall-soutine",
@@ -510,7 +541,13 @@
       "chaim-soutine",
       "marc-chagall"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q188740",
+    "wikidataCoords": [
+      40.761667,
+      -73.9775
+    ],
+    "wikidataDistKm": 0.031
   },
   {
     "id": "paris-centre-pompidou-chagall-zadkine",
@@ -582,7 +619,13 @@
       "marc-chagall",
       "ossip-zadkine"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q178065",
+    "wikidataCoords": [
+      48.860642,
+      2.352245
+    ],
+    "wikidataDistKm": 0.006
   },
   {
     "id": "vilnius-picture-gallery-rusiecki-ruszczyc",
@@ -652,7 +695,13 @@
       "tadeusz-kosciuszko",
       "walenty-wankowicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q15408474",
+    "wikidataCoords": [
+      54.680556,
+      25.288889
+    ],
+    "wikidataDistKm": 0.181
   },
   {
     "id": "vilnius-rasos-kalinouski",
@@ -730,7 +779,13 @@
       "ivan-lutskevich",
       "kastus-kalinouski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q340065",
+    "wikidataCoords": [
+      54.668333,
+      25.304444
+    ],
+    "wikidataDistKm": 0.242
   },
   {
     "id": "olsany-cemetery-prague",
@@ -796,7 +851,13 @@
     "personIds": [
       "mikhas-zabejda-sumitski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q2661974",
+    "wikidataCoords": [
+      50.080556,
+      14.470556
+    ],
+    "wikidataDistKm": 0.094
   },
   {
     "id": "south-river-st-euphrosyne",
@@ -876,7 +937,8 @@
       "radaslau-astrouski",
       "yauhim-kipel"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3918996"
   },
   {
     "id": "skaryna-prague-monument",
@@ -922,7 +984,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "vilnius-ostra-brama",
@@ -972,7 +1035,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q937212",
+    "wikidataCoords": [
+      54.674444,
+      25.289444
+    ],
+    "wikidataDistKm": 0.006
   },
   {
     "id": "vilnius-bazyliany-gymnasium",
@@ -1018,7 +1087,13 @@
     "personIds": [
       "ivan-lutskevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3917343",
+    "wikidataCoords": [
+      54.675273,
+      25.28755
+    ],
+    "wikidataDistKm": 0.04
   },
   {
     "id": "london-st-cyril-church",
@@ -1065,7 +1140,8 @@
       "Дыяспара"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "london-skaryna-library",
@@ -1128,7 +1204,13 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q3918721",
+    "wikidataCoords": [
+      51.6162,
+      -0.1848
+    ],
+    "wikidataDistKm": 0.222
   },
   {
     "id": "warsaw-kosciuszko-monument",
@@ -1173,7 +1255,8 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "warsaw-free-belarus-museum",
@@ -1216,7 +1299,8 @@
       "Фоксал"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "toronto-st-cyril-center",
@@ -1259,7 +1343,8 @@
       "Эміграцыя"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "santiago-domeiko-university",
@@ -1305,7 +1390,8 @@
     "personIds": [
       "ignacy-domeyko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "solothurn-kosciuszko-museum",
@@ -1369,7 +1455,8 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "padua-skaryna-aula-magna",
@@ -1420,54 +1507,13 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
-  },
-  {
-    "id": "hajnowka-museum-belarusian-culture",
-    "title": {
-      "by": "Музей беларускай культуры ў Гайнаўцы",
-      "ru": "Музей белорусской культуры в Гайновке",
-      "en": "Museum of Belarusian Culture in Hajnówka"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Польшча",
-      "ru": "Польша",
-      "en": "Poland"
-    },
-    "city": {
-      "by": "Гайнаўка",
-      "ru": "Гайновка",
-      "en": "Hajnówka"
-    },
-    "coordinates": [
-      52.7431,
-      23.5786
+    "mustSee": false,
+    "wikidataId": "Q193510",
+    "wikidataCoords": [
+      45.42,
+      11.87
     ],
-    "description": {
-      "by": "Адзіны ў Польшчы комплексны музей традыцыйнай і сучаснай культуры аўтахтонных беларусаў Падляшша. Месціць этнаграфічныя экспазіцыі, мастацкія выставы і бібліятэку.",
-      "ru": "Единственный в Польше музей традиционной и современной культуры автохтонных белорусов Подляшья. Включает этнографические коллекции, художественные галереи и библиотеку.",
-      "en": "The premier cultural institution in Podlasie dedicated to the indigenous Belarusian heritage of the region, featuring ethnographic exhibitions, folk crafts, and fine arts."
-    },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/20200728_144819_Belarusian_Culture_Museum_and_Center_in_Hajn%C3%B3wka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "links": [
-      {
-        "title": "Вікіпедыя: Музей беларускай культуры ў Гайнаўцы",
-        "url": "https://be.wikipedia.org/wiki/Музей_беларускай_культуры_ў_Гайнаўцы"
-      },
-      {
-        "title": "Muzeum Białoruskie w Hajnówce",
-        "url": "https://muzeumbialoruskie.hajnowka.pl"
-      }
-    ],
-    "tags": [
-      "Падляшша",
-      "Этнаграфія",
-      "Польшча",
-      "Традыцыі"
-    ],
-    "personIds": [],
-    "mustSee": false
+    "wikidataDistKm": 1.579
   },
   {
     "id": "daugavpils-belarusian-gymnasium",
@@ -1515,7 +1561,13 @@
       "Адукацыя"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q9170528",
+    "wikidataCoords": [
+      55.87273,
+      26.53581
+    ],
+    "wikidataDistKm": 1.251
   },
   {
     "id": "smolensk-ssrb-1919",
@@ -1563,7 +1615,13 @@
       "1919"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2454841",
+    "wikidataCoords": [
+      54.7828,
+      32.0453
+    ],
+    "wikidataDistKm": 0.033
   },
   {
     "id": "vilnia-bazylyanskiya-mury-memaryyalnaya-shylda-damey",
@@ -1610,7 +1668,8 @@
       "adam-mickiewicz",
       "ignacy-domeyko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kellya-konrada",
@@ -1619,7 +1678,7 @@
       "ru": "Келля Конрада",
       "en": "Келля Конрада"
     },
-    "category": "church",
+    "category": "prison",
     "country": {
       "by": "Літва",
       "ru": "Литва",
@@ -1650,14 +1709,16 @@
       "Беларуская Вільня",
       "Вільня",
       "Гісторыя",
-      "church"
+      "church",
+      "prison"
     ],
     "personId": "adam-mickiewicz",
     "personIds": [
       "adam-mickiewicz",
       "ignacy-domeyko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-tsarkva-svyatoy-troitsy",
@@ -1700,7 +1761,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-tsarkva-svyatoha-dukhu-z-klyashtaram",
@@ -1743,7 +1805,8 @@
       "grave"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pomnik-knyazyu-hedyminu",
@@ -1786,7 +1849,8 @@
       "monument"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-zamkavaya-hara-z-vezhay-hedymina",
@@ -1832,7 +1896,8 @@
     "personIds": [
       "kastus-kalinouski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-litowski-natsyyanalny-muzey",
@@ -1875,7 +1940,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pomnik-karalyu-mindowhu",
@@ -1918,7 +1984,8 @@
       "monument"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-maysternya-pyotry-serhievicha",
@@ -1961,7 +2028,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-belaruski-instytut-haspadarki",
@@ -2004,7 +2072,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-akademiya-romeraw",
@@ -2047,7 +2116,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-tarashkevicha",
@@ -2093,7 +2163,8 @@
     "personIds": [
       "branislau-tarashkevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pasolski-klub-zmahanne",
@@ -2136,7 +2207,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatoha-kazimira",
@@ -2179,7 +2251,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-bibliyateka-vedy-1908-11",
@@ -2225,7 +2298,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kavyarnya-krasnyy-shtral",
@@ -2271,7 +2345,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-arkhikafedralny-sabor",
@@ -2314,7 +2389,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-belaruskae-vydavetskae-tavarystva",
@@ -2360,7 +2436,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-shpital-mishmeras-khoylem",
@@ -2403,7 +2480,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-antokalskiya-mohilki",
@@ -2446,7 +2524,8 @@
       "grave"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-kulbaka",
@@ -2489,7 +2568,8 @@
       "plaque"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-natsyyanalnaya-mastatskaya-halereya-litvy",
@@ -2535,7 +2615,8 @@
     "personIds": [
       "ferdynand-ruszczyc"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-slushki",
@@ -2578,7 +2659,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-dze-spynyawsya-mitskevich",
@@ -2624,7 +2706,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kryzh-pamyatsi-pawstantsaw",
@@ -2670,7 +2753,8 @@
     "personIds": [
       "kastus-kalinouski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-byly-dom-prafsayuzaw",
@@ -2713,7 +2797,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-serhievicha",
@@ -2756,7 +2841,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-brama-va-wniversitetski-dvor-imya-a-mitskevic",
@@ -2802,7 +2888,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-vilenskaha-biskupa",
@@ -2845,7 +2932,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-narbuta",
@@ -2888,7 +2976,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-yundzila",
@@ -2930,8 +3019,11 @@
       "Гісторыя",
       "historical"
     ],
-    "personIds": [],
-    "mustSee": false
+    "personIds": [
+      "stanislaw-bonifacy-jundzill"
+    ],
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-batanichny-sad-zhylibera-dom-rushchytsa",
@@ -2977,7 +3069,8 @@
     "personIds": [
       "ferdynand-ruszczyc"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-krashewskaha",
@@ -3020,7 +3113,8 @@
       "plaque"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-syrkina",
@@ -3063,7 +3157,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-ksyandza-stankevicha",
@@ -3106,7 +3201,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-shylda-na-mestsy-doma-bahushevicha",
@@ -3152,7 +3248,8 @@
     "personIds": [
       "francisak-bahusevic"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatykh-pyatra-i-pawla",
@@ -3195,7 +3292,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-lukishskaya-turma",
@@ -3204,7 +3302,7 @@
       "ru": "Лукішская турма",
       "en": "Лукішская турма"
     },
-    "category": "historical",
+    "category": "prison",
     "country": {
       "by": "Літва",
       "ru": "Литва",
@@ -3235,13 +3333,15 @@
       "Беларуская Вільня",
       "Вільня",
       "Гісторыя",
-      "historical"
+      "historical",
+      "prison"
     ],
     "personId": "ivan-lutskevich",
     "personIds": [
       "ivan-lutskevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pomnik-adamu-mitskevichu",
@@ -3287,7 +3387,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-imya-f-skaryny-1930-36",
@@ -3331,7 +3432,8 @@
     ],
     "personId": null,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-nahrodskaha",
@@ -3377,7 +3479,8 @@
     "personIds": [
       "francisak-bahusevic"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-halkowskaha",
@@ -3423,7 +3526,8 @@
     "personIds": [
       "francisak-bahusevic"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-vydavetstva-kletskina",
@@ -3469,7 +3573,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-syabryna",
@@ -3512,7 +3617,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-sapehaw",
@@ -3555,7 +3661,8 @@
       "monument"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-belaruskaya-shkola-imya-f-skaryny",
@@ -3601,7 +3708,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-vilenskaya-katalitskaya-dukhownaya-seminaryya",
@@ -3644,7 +3752,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-frantsishka-skaryny",
@@ -3690,7 +3799,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-mamonichaw-skulptura-letapisets",
@@ -3736,7 +3846,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-tsentr-belarusistyki-vilenskaha-peduniversite",
@@ -3779,7 +3890,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-urublewskaha",
@@ -3825,7 +3937,8 @@
     "personIds": [
       "tadevush-urubleuski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-radzivilaw-sapehaw-patsaw",
@@ -3871,7 +3984,8 @@
     "personIds": [
       "kastus-kalinouski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-vilenskay-ezuitskay-akademii",
@@ -3917,7 +4031,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatoha-yana",
@@ -3963,7 +4078,8 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-ulyubyony-bar-karatkevicha",
@@ -4006,7 +4122,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatoha-mikhala",
@@ -4052,7 +4169,8 @@
     "personIds": [
       "ivan-lutskevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-administratsyya-ehu",
@@ -4095,7 +4213,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-navuchalny-korpus-ehu",
@@ -4138,7 +4257,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-martsina-kukhty-1911-1921",
@@ -4185,7 +4305,8 @@
       "francisak-bahusevic",
       "maksim-bahdanovich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-martsina-kukhty-1906-1911",
@@ -4228,7 +4349,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-vilenski-universitet-universitetskaya-bibliya",
@@ -4274,7 +4396,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatoha-bartalameya",
@@ -4317,7 +4440,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-rushchytsa",
@@ -4363,7 +4487,8 @@
     "personIds": [
       "ferdynand-ruszczyc"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kanstytutsyynaya-stsyana",
@@ -4406,7 +4531,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-bibliyateka-vedy-1911-21",
@@ -4452,7 +4578,8 @@
     "personIds": [
       "ivan-lutskevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1914-15-memaryyalnaya-",
@@ -4498,7 +4625,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pershaya-redaktsyya-nashay-doli",
@@ -4541,7 +4669,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-radzivilaw-muzey",
@@ -4584,7 +4713,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pomnik-manyushku",
@@ -4630,7 +4760,8 @@
     "personIds": [
       "stanislaw-moniuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-shtab-kvatera-zakhodnebelaruskikh-arhanizatsy",
@@ -4673,7 +4804,8 @@
       "plaque"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-klub-sokal",
@@ -4719,7 +4851,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-rezidentsyya-radzivilaw-belaruski-bank-i-reda",
@@ -4765,7 +4898,8 @@
     "personIds": [
       "ivan-lutskevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-myulera-memaryyalnaya-shylda-s-manyushku",
@@ -4811,7 +4945,8 @@
     "personIds": [
       "stanislaw-moniuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-antoni-tyzenhawza",
@@ -4854,7 +4989,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pomnik-b-radzivil",
@@ -4897,7 +5033,8 @@
       "monument"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-bibliyateka-akademii-navuk-litvy-imya-urublew",
@@ -4944,7 +5081,8 @@
       "tadevush-urubleuski",
       "valery-urubleuski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-redaktsyya-adnowlenay-nashay-nivy-1991-96",
@@ -4987,14 +5125,15 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-bernardynskiya-mohilki-dze-pakhavany-stanisla",
     "title": {
-      "by": "Бернардынскія могілкі, дзе пахаваны Станіслаў Юндзіл",
-      "ru": "Бернардынскія могілкі, дзе пахаваны Станіслаў Юндзіл",
-      "en": "Бернардынскія могілкі, дзе пахаваны Станіслаў Юндзіл"
+      "by": "Бернардзінскія могілкі ў Вільні",
+      "ru": "Бернардинское кладбище в Вильнюсе",
+      "en": "Bernardine Cemetery in Vilnius"
     },
     "category": "grave",
     "country": {
@@ -5012,12 +5151,16 @@
       25.30792
     ],
     "description": {
-      "by": "Адрас: Žvirgždyno, 3.\n\nНа віленскіх Бернардынскіх могілках, што на Зарэччы, мярод іншых пахаваны  адзін з першых даследчыкаў расліннага і жывёльнага свету Беларусі, прафесар батанікі і заалогіі Віленскага ўніверсітэта Станіслаў Баніфацы Юндзіл (1761-1847).",
-      "ru": "Адрас: Žvirgždyno, 3.\n\nНа віленскіх Бернардынскіх могілках, што на Зарэччы, мярод іншых пахаваны  адзін з першых даследчыкаў расліннага і жывёльнага свету Беларусі, прафесар батанікі і заалогіі Віленскага ўніверсітэта Станіслаў Баніфацы Юндзіл (1761-1847).",
-      "en": "Адрас: Žvirgždyno, 3.\n\nНа віленскіх Бернардынскіх могілках, што на Зарэччы, мярод іншых пахаваны  адзін з першых даследчыкаў расліннага і жывёльнага свету Беларусі, прафесар батанікі і заалогіі Віленскага ўніверсітэта Станіслаў Баніфацы Юндзіл (1761-1847)."
+      "by": "Адрас: Žvirgždyno g. 3, Užupis (Зарэчча), Вільня.\n\nАдзін з найстарэйшых і найбольш каштоўных гістарычных некропаляў Вільні, заснаваны ў 1810 годзе на маляўнічым беразе ракі Вільні. На ўваходнай класіцыстычнай браме (1820) высечаны лацінскі дэвіз «Non omnis moriar» («Увесь я не памру»). Тут спачываюць выбітныя дзеячы навукі, культуры, мастацтва і вызвольнага руху Беларусі і Літвы XIX–XX стагоддзяў:\n• Станіслаў Баніфацы Юндзіл (1761–1847) — прафесар батанікі і заалогіі Віленскага ўніверсітэта, даследчык прыроды Беларусі, і яго пляменнік Юзаф Юндзіл (1794–1877);\n• Каміла Марцінкевіч (1837–1887) — піяністка, кампазітарка, дачка Вінцэнта Дуніна-Марцінкевіча, удзельніца патрыятычных маніфестацый 1861–1863 гг., сасланая ў Салікамск;\n• Францішак Рамейка (1885–1931) — беларускі каталіцкі святар, паслядоўны дзеяч Беларускай хрысціянскай дэмакратыі (БХД);\n• Апалінар Багушэвіч (1846–1930) — родны брат Францішка Багушэвіча, удзельнік паўстання 1863 года;\n• Канут Русецкі (1800–1860) і яго сын Баляслаў Русецкі (1824–1913) — славутыя мастакі віленскай школы («Літвінка з вербамі», «Жняя»);\n• Лявон Бароўскі (1784–1846) — ураджэнец Піншчыны, прафесар рыторыкі і паэзіі, духоўны настаўнік Адама Міцкевіча і філаматаў;\n• Сям'я Здановічаў: гісторык Аляксандр Здановіч (1805–1868) і кенатаф яго сына Ігната Здановіча (1841–1864) — кіраўніка паўстання Каліноўскага ў Вільні, пакаранага на Лукішках;\n• Юзаф Чаховіч (1819–1888) — пачынальнік мастацкай фатаграфіі ў Беларусі і Літве (ураджэнец Полаччыны);\n• Францішак Нарвойш (1742–1819) — матэматык і астраном;\n• Вікенцій і Аляксандр Сляндзінскія — мастакі;\n• Люцыян Узембла (1864–1942) — гісторык культуры і краязнавец.",
+      "ru": "Žvirgždyno g. 3, Вильнюс. Один из старейших некрополей Вильнюса (осн. 1810 г.) в Заречье (Ужупис). Здесь похоронены выдающиеся деятели науки, культуры и освободительного движения Беларуси и Литвы: профессор С. Б. Юндзилл, пианистка и повстанка Камилла Марцинкевич (дочь В. Дунина-Марцинкевича), ксёндз-возрожденец Ф. Ромейко, брат Франтишка Богушевича Аполлинарий Богушевич, художники Канутий и Болеслав Русецкие, профессор Леон Боровский (учитель А. Мицкевича), фотограф Юзеф Чехович, семья Здановичей с кенотафом повстанца Игнатия Здановича.",
+      "en": "Žvirgždyno g. 3, Užupis, Vilnius. Founded in 1810, the Bernardine Cemetery is one of Vilnius's most significant historical necropolises. Inscribed above its gate is 'Non omnis moriar'. Interred here are prominent figures of Belarusian and Lithuanian history: botanist Stanisław Bonifacy Jundziłł, composer and 1863 rebel Kamila Martsinkevich (daughter of Vincent Dunin-Marcinkievič), Belarusian revivalist priest Franciszak Ramejka, Apolinar Bahushevich (brother of Francišak Bahuševič), classic painters Kanuty and Bolesław Rusiecki, professor Leon Borowski (tutor to Adam Mickiewicz), pioneering photographer Józef Czechowicz, and the Zdanowicz family memorial (including 1863 insurgent Ignat Zdanowicz)."
     },
-    "image": "",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Bernardine_Cemetery1.jpg/800px-Bernardine_Cemetery1.jpg",
     "links": [
+      {
+        "title": "Бернардзінскія могілкі (be.wikipedia)",
+        "url": "https://be.wikipedia.org/wiki/Бернардзінскія_могілкі_(Вільня)"
+      },
       {
         "title": "Карта «Беларуская Вільня»",
         "url": "https://www.google.com/maps/d/viewer?mid=1fohygMcC3bikWPX5K1r288vnOFs"
@@ -5029,8 +5172,81 @@
       "Гісторыя",
       "grave"
     ],
-    "personIds": [],
-    "mustSee": false
+    "personIds": [
+      "stanislaw-bonifacy-jundzill",
+      "kamila-martsinkevich",
+      "franciszak-ramejka",
+      "apolinar-bahusevic",
+      "kanuty-rusiecki",
+      "leon-borowski",
+      "ignat-zdanovich",
+      "jozef-czechowicz"
+    ],
+    "mustSee": true,
+    "items": [
+      {
+        "title": "Магіла прафесара Станіслава Баніфацыя Юндзіла",
+        "person": "Станіслаў Баніфацы Юндзіл (1761–1847)",
+        "personId": "stanislaw-bonifacy-jundzill",
+        "year": "1847",
+        "description": "Магіла выбітнага прыродазнаўца, даследчыка флоры і фаўны Беларусі і Літвы, прафесара батанікі і заалогіі Віленскага ўніверсітэта. Побач пахаваны яго пляменнік і паслядоўнік прафесар Юзаф Юндзіл (1794–1877)."
+      },
+      {
+        "title": "Магіла Камілы Марцінкевіч",
+        "person": "Каміла Марцінкевіч (1837–1887)",
+        "personId": "kamila-martsinkevich",
+        "year": "1887",
+        "description": "Месца спачыну таленавітай піяністкі, кампазітаркі і педагога, дачкі класіка беларускай літаратуры Вінцэнта Дуніна-Марцінкевіча. За патрыятычныя выступы ў Мінску была арыштаваная і высланая ў Сібір (Салікамск)."
+      },
+      {
+        "title": "Магіла ксяндза Францішка Рамейкі",
+        "person": "Францішак Рамейка (1885–1931)",
+        "personId": "franciszak-ramejka",
+        "year": "1931",
+        "description": "Магіла беларускага каталіцкага святара-адраджэнца, дзеяча Беларускай хрысціянскай дэмакратыі (БХД), які паслядоўна ўводзіў беларускую мову ў набажэнствы і змагаўся за правы беларусаў у міжваеннай Польшчы."
+      },
+      {
+        "title": "Магіла Апалінара Багушэвіча",
+        "person": "Апалінар Багушэвіч (1846–1930)",
+        "personId": "apolinar-bahusevic",
+        "year": "1930",
+        "description": "Магіла роднага брата пачынальніка новай беларускай літаратуры Францішка Багушэвіча. Удзельнік вызвольнага паўстання 1863 года, судовы дзеяч у Вільні."
+      },
+      {
+        "title": "Надмагілле мастакоў Канута і Баляслава Русецкіх",
+        "person": "Канут Русецкі (1800–1860), Баляслаў Русецкі (1824–1913)",
+        "personId": "kanuty-rusiecki",
+        "year": "1860",
+        "description": "Фамільнае пахаванне славутых жывапісцаў віленскай школы. Канут Русецкі — аўтар культавых палотнаў «Літвінка з вербамі», «Жняя» і фрэсак віленскіх храмаў; яго сын Баляслаў працягнуў традыцыі бацькі."
+      },
+      {
+        "title": "Магіла прафесара Лявона Бароўскага",
+        "person": "Лявон Бароўскі (1784–1846)",
+        "personId": "leon-borowski",
+        "year": "1846",
+        "description": "Магіла ўраджэнца Піншчыны, літаратуразнаўцы і прафесара Віленскага ўніверсітэта, які быў духоўным настаўнікам Адама Міцкевіча і філаматаў."
+      },
+      {
+        "title": "Сямейны помнік Здановічаў (кенатаф паўстанца Ігната Здановіча)",
+        "person": "Аляксандр Здановіч (1805–1868), Ігнат Здановіч (1841–1864)",
+        "personId": "ignat-zdanovich",
+        "year": "1868",
+        "description": "Сямейная магіла гісторыка і педагога Аляксандра Здановіча. На надмагільным помніку высечаны мемарыяльны надпіс (кенатаф) у гонар яго сына Ігната Здановіча — кіраўніка паўстання Каліноўскага ў Вільні, пакаранага Мураўёвым на Лукішках."
+      },
+      {
+        "title": "Магіла фатографа Юзафа Чаховіча",
+        "person": "Юзаф Чаховіч (1819–1888)",
+        "personId": "jozef-czechowicz",
+        "year": "1888",
+        "description": "Магіла выбітнага майстра святлапісу, ураджэнца Полацкага павета. Піянер гарадской фатаграфіі, які пакінуў неацэнныя відавыя здымкі Вільні, Віцебска і Беларусі другой паловы XIX ст."
+      }
+    ],
+    "wikidataId": "Q2362479",
+    "wikidataCoords": [
+      54.68,
+      25.307
+    ],
+    "wikidataDistKm": 0.064
   },
   {
     "id": "vilnia-muzey-akhvyaraw-henatsydu",
@@ -5073,7 +5289,8 @@
       "monument"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kniharnya-belaruskaha-vydavetskaha-tavarystva",
@@ -5116,7 +5333,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-syrakomli-belaruski-bank",
@@ -5159,7 +5377,8 @@
       "plaque"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-muzey-a-mitskevicha",
@@ -5205,7 +5424,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-syadziba-tavarystva-belaruskay-kultury-w-litv",
@@ -5251,7 +5471,8 @@
     "personIds": [
       "ivan-lutskevich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pyatnitskaya-tsarkva",
@@ -5294,7 +5515,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-patsa",
@@ -5337,7 +5559,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-hashtoldaw",
@@ -5380,7 +5603,8 @@
       "plaque"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-aposhni-adras-a-mitskevicha",
@@ -5426,7 +5650,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-abramovichaw",
@@ -5469,7 +5694,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-litowskaya-kniharnya",
@@ -5512,7 +5738,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-zavishaw",
@@ -5555,7 +5782,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatoy-hanny",
@@ -5598,7 +5826,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-vilenskaya-mastatskaya-akademiya",
@@ -5644,7 +5873,8 @@
     "personIds": [
       "ferdynand-ruszczyc"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-prachystsenski-kafedralny-sabor",
@@ -5687,7 +5917,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-universitetski-panadvorak-imya-a-mitskevicha",
@@ -5733,7 +5964,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kastsyol-svyatoha-mikalaya",
@@ -5776,7 +6008,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-palats-bzhastowskikh",
@@ -5819,7 +6052,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-zalkinda",
@@ -5862,7 +6096,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-drukarnya-imya-f-skaryny-1926-30",
@@ -5908,7 +6143,8 @@
     "personIds": [
       "yanka-paznyak"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-shyrmy",
@@ -5951,7 +6187,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-belaruski-narodny-dom",
@@ -5997,7 +6234,8 @@
     "personIds": [
       "francisak-bahusevic"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1911-13-kvatera-lastow",
@@ -6044,7 +6282,8 @@
       "ivan-lutskevich",
       "vaclau-lastouski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-dom-pad-balvanami",
@@ -6093,7 +6332,8 @@
       "yakub-kolas",
       "kastus-kalinouski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "vilnia-redaktsyya-nashay-nivy-1907",
@@ -6136,7 +6376,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-restaran-shuman",
@@ -6182,7 +6423,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-pershaya-redaktsyya-nashay-nivy",
@@ -6225,7 +6467,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-nizhni-zamak-palats-vyalikikh-knyazyow-litows",
@@ -6268,7 +6511,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-kupaly",
@@ -6314,7 +6558,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-sakalovay-lekant",
@@ -6357,7 +6602,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-rak-mikhaylowskaha",
@@ -6400,7 +6646,8 @@
       "church"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-stankevicha",
@@ -6443,7 +6690,8 @@
       "culture"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-internat-belaruskay-himnazii",
@@ -6486,7 +6734,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-samoyly",
@@ -6532,7 +6781,8 @@
     "personIds": [
       "uladzimir-samoila"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-kvatera-paznyaka",
@@ -6578,7 +6828,8 @@
     "personIds": [
       "yanka-paznyak"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-redaktsyya-chasopisa-malanka",
@@ -6621,7 +6872,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-belaruski-bank-pachatak-1930-kh",
@@ -6664,7 +6916,8 @@
       "historical"
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-haradskaya-ratusha",
@@ -6710,7 +6963,8 @@
     "personIds": [
       "stanislaw-moniuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-arhanizatsy-zbor-bel-kamitetu",
@@ -6758,7 +7012,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-skhod-belarusaw-vayskowtsaw-paunochnaha-",
@@ -6806,7 +7061,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-1-y-skhod-belaruskoy-kalonii",
@@ -6854,7 +7110,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-kansulat-bnr-z-26-9-19-pa-10-20",
@@ -6902,7 +7159,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-vayskova-dyplyamatychnaya-misiya",
@@ -6950,7 +7208,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-kansulat-bnr-z-8-01-20-pa-1-02-21",
@@ -6998,7 +7257,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-t-va-batskawshchyna",
@@ -7046,7 +7306,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-t-va-belaruskae-moladzi",
@@ -7094,7 +7355,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-t-va-belaruskaha-teatru",
@@ -7142,7 +7404,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-belaruskaya-sinahoha",
@@ -7190,7 +7453,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-pazyka-dabrachynnae-tavarystva",
@@ -7238,7 +7502,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-bel-adzel-min-asvety",
@@ -7286,7 +7551,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-belaruskae-vydavetstva-w-latvii",
@@ -7334,7 +7600,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-1-aya-belaruskaya-pachatkovaya-shkola",
@@ -7382,7 +7649,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-pastanowka-pawlinki",
@@ -7433,7 +7701,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-2-aya-belaruskaya-pachatkovaya-shkola",
@@ -7481,7 +7750,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-belaruskaya-vyachernyaya-himnaziya",
@@ -7529,7 +7799,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-pazyka-ashchadnae-tavarystva",
@@ -7577,7 +7848,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-belaruskaya-pachatkovaya-torensberhskaya",
@@ -7625,7 +7897,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-prawlenne-t-va-run",
@@ -7673,7 +7946,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-mirny-sad",
@@ -7721,7 +7995,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-belaruskaya-shkola-w-latvii",
@@ -7769,7 +8044,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-shkola-i-zhytstsyo",
@@ -7817,7 +8093,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-holas-belarusa",
@@ -7865,7 +8142,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-haspadar",
@@ -7913,7 +8191,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-haspadar-950",
@@ -7961,7 +8240,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-belaruskae-slova",
@@ -8009,7 +8289,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-drukarnya-e-levina",
@@ -8057,7 +8338,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-kasa-belaruskaha-pazychkova-ashchadnaha-",
@@ -8105,7 +8387,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-t-va-belaruskikh-nastawnikaw",
@@ -8153,7 +8436,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-klub-uley",
@@ -8201,7 +8485,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-zalъ-latyshskoho-obщestva",
@@ -8249,7 +8534,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-skaryna-square",
@@ -8296,7 +8582,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-national-library-belarusian-solidarity",
@@ -8340,7 +8627,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-kupala-belarusian-school",
@@ -8391,7 +8679,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-svitanak-association",
@@ -8439,7 +8728,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "riga-mova-nanova-pils",
@@ -8483,7 +8773,8 @@
     ],
     "unverifiedCoordinates": true,
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "skaryna-monument-prague",
@@ -8528,7 +8819,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "skaryna-plaque-clementinum-prague",
@@ -8573,7 +8865,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "skaryna-aula-dei-quaranta-padua",
@@ -8618,7 +8911,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "skaryna-plaque-vilnius",
@@ -8663,7 +8957,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "skaryna-monument-kaliningrad",
@@ -8708,7 +9003,8 @@
     "personIds": [
       "francysk-skaryna"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "mickiewicz-monument-bourdelle-paris",
@@ -8753,7 +9049,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3323414",
+    "wikidataCoords": [
+      48.864344,
+      2.304931
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "mickiewicz-museum-paris",
@@ -8798,7 +9100,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3051109",
+    "wikidataCoords": [
+      48.85125,
+      2.355694
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "mickiewicz-monument-krakow",
@@ -8843,7 +9151,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q348381",
+    "wikidataCoords": [
+      50.061389,
+      19.937778
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "mickiewicz-monument-vilnius",
@@ -8888,7 +9202,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q305270",
+    "wikidataCoords": [
+      54.682811,
+      25.293322
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "mickiewicz-museum-istanbul",
@@ -8933,7 +9253,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q4679495",
+    "wikidataCoords": [
+      41.038777,
+      28.9771
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "mickiewicz-monument-lviv",
@@ -8978,7 +9304,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q348387",
+    "wikidataCoords": [
+      49.839425,
+      24.030012
+    ],
+    "wikidataDistKm": 0.003
   },
   {
     "id": "mickiewicz-bust-weimar",
@@ -9023,7 +9355,13 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q47000156",
+    "wikidataCoords": [
+      50.981389,
+      11.333
+    ],
+    "wikidataDistKm": 0.001
   },
   {
     "id": "mickiewicz-plaque-rome",
@@ -9068,7 +9406,8 @@
     "personIds": [
       "adam-mickiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "kosciuszko-monument-washington",
@@ -9113,7 +9452,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q4967190",
+    "wikidataCoords": [
+      38.9,
+      -77.035389
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "kosciuszko-memorial-philadelphia",
@@ -9158,7 +9503,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2408350",
+    "wikidataCoords": [
+      39.943331,
+      -75.147508
+    ],
+    "wikidataDistKm": 0.023
   },
   {
     "id": "kosciuszko-monument-west-point",
@@ -9203,7 +9554,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q6433021",
+    "wikidataCoords": [
+      41.3946,
+      -73.9526
+    ],
+    "wikidataDistKm": 0.005
   },
   {
     "id": "kosciuszko-mound-krakow",
@@ -9248,7 +9605,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q641398",
+    "wikidataCoords": [
+      50.0549,
+      19.89328
+    ],
+    "wikidataDistKm": 0.006
   },
   {
     "id": "kosciuszko-monument-wawel-krakow",
@@ -9293,7 +9656,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q7674490",
+    "wikidataCoords": [
+      50.055,
+      19.935
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "kosciuszko-monument-chicago",
@@ -9338,7 +9707,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q29267776",
+    "wikidataCoords": [
+      41.866277,
+      -87.61249
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "kosciuszko-summit-plaque-australia",
@@ -9383,7 +9758,13 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q178167",
+    "wikidataCoords": [
+      -36.45583,
+      148.26351
+    ],
+    "wikidataDistKm": 0.009
   },
   {
     "id": "domeyko-bust-universidad-chile",
@@ -9428,7 +9809,8 @@
     "personIds": [
       "ignacy-domeyko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "domeyko-grave-santiago",
@@ -9473,7 +9855,8 @@
     "personIds": [
       "ignacy-domeyko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "domeyko-memorial-la-serena",
@@ -9518,7 +9901,8 @@
     "personIds": [
       "ignacy-domeyko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "sudzilouski-senate-iolani-palace",
@@ -9563,7 +9947,8 @@
     "personIds": [
       "nikolai-sudzilovsky"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "sudzilouski-grave-amakusa",
@@ -9608,7 +9993,8 @@
     "personIds": [
       "nikolai-sudzilovsky"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "sienkiewicz-monument-rome",
@@ -9653,7 +10039,8 @@
     "personIds": [
       "henryk-sienkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "sienkiewicz-monument-vevey",
@@ -9698,7 +10085,8 @@
     "personIds": [
       "henryk-sienkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "azheshka-monument-ksiazecem-warsaw",
@@ -9743,7 +10131,13 @@
     "personIds": [
       "eliza-orzeszkowa"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q37361971",
+    "wikidataCoords": [
+      52.230111,
+      21.02825
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "azheshka-monument-praski-warsaw",
@@ -9788,7 +10182,13 @@
     "personIds": [
       "eliza-orzeszkowa"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q16589906",
+    "wikidataCoords": [
+      52.25375,
+      21.025972
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "karski-institute-saint-petersburg",
@@ -9833,7 +10233,8 @@
     "personIds": [
       "yafim-karski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "karski-grave-smolenskoye-spb",
@@ -9878,7 +10279,8 @@
     "personIds": [
       "yafim-karski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "berlin-palais-radziwill",
@@ -9924,7 +10326,13 @@
       "antoni-radziwill",
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q698208",
+    "wikidataCoords": [
+      52.511667,
+      13.381944
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "warszawa-palac-radziwillow",
@@ -9969,7 +10377,13 @@
     "personIds": [
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q608932",
+    "wikidataCoords": [
+      52.242778,
+      21.015833
+    ],
+    "wikidataDistKm": 0.038
   },
   {
     "id": "nieborow-palac-radziwillow",
@@ -10014,7 +10428,13 @@
     "personIds": [
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q4562906",
+    "wikidataCoords": [
+      52.066556,
+      20.070194
+    ],
+    "wikidataDistKm": 0.014
   },
   {
     "id": "olyka-radziwill-castle",
@@ -10059,7 +10479,13 @@
     "personIds": [
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2577195",
+    "wikidataCoords": [
+      50.723333,
+      25.808611
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "olyka-holy-trinity-collegiate",
@@ -10104,7 +10530,8 @@
     "personIds": [
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "szydlowiec-radziwill-castle",
@@ -10149,7 +10576,8 @@
     "personIds": [
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "palanga-tiskevicius-palace",
@@ -10194,7 +10622,13 @@
     "personIds": [
       "tyszkiewicz"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q826824",
+    "wikidataCoords": [
+      55.906944,
+      21.055833
+    ],
+    "wikidataDistKm": 0.014
   },
   {
     "id": "kretinga-tiskevicius-palace",
@@ -10239,7 +10673,13 @@
     "personIds": [
       "tyszkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q5620534",
+    "wikidataCoords": [
+      55.9,
+      21.248611
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "warszawa-palac-tyszkiewiczow",
@@ -10284,7 +10724,13 @@
     "personIds": [
       "tyszkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2463480",
+    "wikidataCoords": [
+      52.240556,
+      21.017222
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "vilnius-chodkiewicz-palace",
@@ -10329,7 +10775,13 @@
     "personIds": [
       "jan-karol-chodkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q12651955",
+    "wikidataCoords": [
+      54.6806,
+      25.2889
+    ],
+    "wikidataDistKm": 0.005
   },
   {
     "id": "krakow-chodkiewicz-residence",
@@ -10374,7 +10826,13 @@
     "personIds": [
       "jan-karol-chodkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q9365213",
+    "wikidataCoords": [
+      50.05767,
+      19.93808
+    ],
+    "wikidataDistKm": 0.004
   },
   {
     "id": "khotyn-fortress-chodkiewicz",
@@ -10419,7 +10877,13 @@
     "personIds": [
       "jan-karol-chodkiewicz"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q141012",
+    "wikidataCoords": [
+      48.521944,
+      26.498333
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "vilnius-st-michael-church-sapieha",
@@ -10464,7 +10928,13 @@
     "personIds": [
       "lew-sapieha"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q1982296",
+    "wikidataCoords": [
+      54.682778,
+      25.292222
+    ],
+    "wikidataDistKm": 0.003
   },
   {
     "id": "vilnius-antakalnis-sapieha-palace",
@@ -10509,7 +10979,13 @@
     "personIds": [
       "lew-sapieha"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3113788",
+    "wikidataCoords": [
+      54.698611,
+      25.313889
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "koden-sapieha-complex",
@@ -10554,7 +11030,13 @@
     "personIds": [
       "lew-sapieha"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2748935",
+    "wikidataCoords": [
+      51.9136,
+      23.6075
+    ],
+    "wikidataDistKm": 0.032
   },
   {
     "id": "krasiczyn-castle-sapieha",
@@ -10599,7 +11081,13 @@
     "personIds": [
       "lew-sapieha"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2969507",
+    "wikidataCoords": [
+      49.7764,
+      22.649367
+    ],
+    "wikidataDistKm": 0.089
   },
   {
     "id": "ringsted-queen-sophia-of-minsk-tomb",
@@ -10644,7 +11132,8 @@
     "personIds": [
       "sophia-of-minsk"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnius-cathedral-barbara-radziwill-crypt",
@@ -10690,7 +11179,8 @@
       "barbara-radziwill",
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "warsaw-duchess-anna-radziwill-st-anne",
@@ -10736,7 +11226,8 @@
       "anna-radziwill",
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnius-gediminas-monument",
@@ -10781,7 +11272,13 @@
     "personIds": [
       "gediminas"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q1988837",
+    "wikidataCoords": [
+      54.685278,
+      25.2875
+    ],
+    "wikidataDistKm": 0.019
   },
   {
     "id": "kaunas-vytautas-the-great-monument",
@@ -10826,7 +11323,8 @@
     "personIds": [
       "vytautas"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "senieji-trakai-vytautas-monument",
@@ -10871,7 +11369,13 @@
     "personIds": [
       "vytautas"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3446896",
+    "wikidataCoords": [
+      54.616667,
+      24.966667
+    ],
+    "wikidataDistKm": 1.503
   },
   {
     "id": "grunwald-battle-memorial-stebark",
@@ -10916,7 +11420,13 @@
     "personIds": [
       "vytautas"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q33570",
+    "wikidataCoords": [
+      53.486111,
+      20.124722
+    ],
+    "wikidataDistKm": 0.129
   },
   {
     "id": "krakow-sukiennice-siemiradzki",
@@ -10991,7 +11501,8 @@
     "personIds": [
       "henryk-siemiradzki"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "lviv-art-gallery-siemiradzki",
@@ -11062,7 +11573,8 @@
     "personIds": [
       "henryk-siemiradzki"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "warsaw-royal-castle-matejko",
@@ -11136,7 +11648,13 @@
     "personIds": [
       "jan-matejko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q756098",
+    "wikidataCoords": [
+      52.247778,
+      21.014167
+    ],
+    "wikidataDistKm": 0.077
   },
   {
     "id": "lublin-castle-museum-unia-lubelska",
@@ -11202,7 +11720,13 @@
     "personIds": [
       "jan-matejko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2604117",
+    "wikidataCoords": [
+      51.200528,
+      22.571733
+    ],
+    "wikidataDistKm": 5.552
   },
   {
     "id": "vilnia-ndg-ruszczyc",
@@ -11272,7 +11796,8 @@
     "personIds": [
       "ferdynand-ruszczyc"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "moscow-tretyakov-gallery-zhukovsky",
@@ -11351,7 +11876,13 @@
     "personIds": [
       "stanislaw-zukowski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q183334",
+    "wikidataCoords": [
+      55.741389,
+      37.620864
+    ],
+    "wikidataDistKm": 0.04
   },
   {
     "id": "los-angeles-walk-of-fame-louis-b-mayer",
@@ -11405,7 +11936,8 @@
     "personIds": [
       "louis-b-mayer"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "new-york-music-box-theatre-irving-berlin",
@@ -11463,7 +11995,8 @@
     "personIds": [
       "irving-berlin"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "new-york-rockefeller-center-david-sarnoff",
@@ -11517,7 +12050,13 @@
     "personIds": [
       "david-sarnoff"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q680614",
+    "wikidataCoords": [
+      40.758972,
+      -73.979389
+    ],
+    "wikidataDistKm": 0.022
   },
   {
     "id": "houston-rothko-chapel",
@@ -11590,7 +12129,13 @@
     "personIds": [
       "mark-rothko"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2956755",
+    "wikidataCoords": [
+      29.7375,
+      -95.396111
+    ],
+    "wikidataDistKm": 0.016
   },
   {
     "id": "rehovot-weizmann-house",
@@ -11648,7 +12193,13 @@
     "personIds": [
       "chaim-weizmann"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2903120",
+    "wikidataCoords": [
+      31.906453,
+      34.818564
+    ],
+    "wikidataDistKm": 0.517
   },
   {
     "id": "jaffa-peres-center-for-peace",
@@ -11706,7 +12257,13 @@
     "personIds": [
       "shimon-peres"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q1070787",
+    "wikidataCoords": [
+      32.037222,
+      34.746056
+    ],
+    "wikidataDistKm": 0.029
   },
   {
     "id": "boston-university-asimov-archive",
@@ -11760,7 +12317,8 @@
     "personIds": [
       "isaac-asimov"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "solothurn-kosciuszko-monument",
@@ -11809,7 +12367,8 @@
     ],
     "unverifiedCoordinates": false,
     "isUnverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "germany-schloss-hoechstaedt",
@@ -11863,7 +12422,8 @@
     ],
     "unverifiedCoordinates": false,
     "isUnverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "warsaw-sigismund-column",
@@ -11916,7 +12476,13 @@
         "url": "https://pl.wikipedia.org/wiki/Kolumna_Zygmunta_III_Wazy_w_Warszawie"
       }
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q958585",
+    "wikidataCoords": [
+      52.24725,
+      21.013389
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "warsaw-przebendowski-palace",
@@ -11969,7 +12535,13 @@
         "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Przebendowskich_w_Warszawie"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q676565",
+    "wikidataCoords": [
+      52.245393,
+      21.004269
+    ],
+    "wikidataDistKm": 0.102
   },
   {
     "id": "warsaw-foksal-palace-bourbon",
@@ -12021,7 +12593,8 @@
         "url": "https://pl.wikipedia.org/wiki/Pa%C5%82ac_Foksal_w_Warszawie"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "warsaw-poniatowski-monument",
@@ -12072,7 +12645,13 @@
     "personIds": [
       "jozef-poniatowski"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q1683191",
+    "wikidataCoords": [
+      52.242806,
+      21.015472
+    ],
+    "wikidataDistKm": 0.052
   },
   {
     "id": "warsaw-belarusian-youth-hub",
@@ -12116,7 +12695,8 @@
       }
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "warsaw-belarusian-house",
@@ -12160,7 +12740,8 @@
       }
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tbilisi-railway-station-luchyna",
@@ -12208,7 +12789,8 @@
         "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tbilisi-youth-palace-valkovich",
@@ -12256,7 +12838,8 @@
         "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tbilisi-unr-bnr-mission",
@@ -12301,7 +12884,8 @@
       }
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tbilisi-philharmonic-staver",
@@ -12346,7 +12930,8 @@
       }
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tbilisi-art-academy-azgur",
@@ -12394,7 +12979,8 @@
       "zair-azgur",
       "kipryjan-kandratovich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tbilisi-kukiya-grave-chodzko",
@@ -12442,7 +13028,8 @@
         "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "tskaltubo-kupala-kutateli",
@@ -12489,7 +13076,8 @@
         "url": "https://maldzis.world/gajd-pa-belaruskih-mjascinah-sakartvjela/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "rome-st-peter-kuncevic",
@@ -12541,7 +13129,13 @@
         "url": "https://be.wikipedia.org/wiki/Базіліка_Святога_Пятра"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q12512",
+    "wikidataCoords": [
+      41.902222,
+      12.453417
+    ],
+    "wikidataDistKm": 0.04
   },
   {
     "id": "rome-sergius-bacchus-zyrovici",
@@ -12590,7 +13184,13 @@
       }
     ],
     "personIds": [],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q2308633",
+    "wikidataCoords": [
+      41.895067,
+      12.490844
+    ],
+    "wikidataDistKm": 0.096
   },
   {
     "id": "rome-il-gesu-radziwill",
@@ -12642,7 +13242,13 @@
         "url": "https://en.wikipedia.org/wiki/Church_of_the_Ges%C3%B9"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q719794",
+    "wikidataCoords": [
+      41.895833,
+      12.479722
+    ],
+    "wikidataDistKm": 0.01
   },
   {
     "id": "rome-radziwill-palace-boncompagni",
@@ -12689,7 +13295,8 @@
         "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "rome-resurrectionists-casa-madre",
@@ -12736,7 +13343,8 @@
         "url": "https://maldzis.world/belaruskija-mjasciny-vechnym-goradze/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "rome-palazzo-pio-vatican-radio",
@@ -12781,7 +13389,8 @@
       }
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "krakow-peter-paul-church-bernardoni",
@@ -12833,7 +13442,13 @@
         "url": "https://pl.wikipedia.org/wiki/Ko%C5%9Bci%C3%B3%C5%82_%C5%9Awi%C4%99tych_Aposto%C5%82%C3%B3w_Piotra_i_Paw%C5%82a_w_Krakowie"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q338657",
+    "wikidataCoords": [
+      50.056944,
+      19.938889
+    ],
+    "wikidataDistKm": 0.005
   },
   {
     "id": "krakow-anczyc-printing-bahusevic",
@@ -12881,7 +13496,8 @@
         "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "krakow-st-barbara-yuravichy-icon",
@@ -12929,7 +13545,8 @@
         "url": "https://maldzis.world/dze-na-karce-polskaga-krakava-znajsci-belarus/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "prague-krecheuski-house",
@@ -12976,7 +13593,8 @@
         "url": "https://maldzis.world/belaruskaja-praga-sabrali-gistoryi-pra-ajchynnyh-litaratara-i-zvjazanyja-z-imi-mescy-stalicy-chjehii/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "prague-heniyush-hermanova",
@@ -13023,7 +13641,8 @@
         "url": "https://maldzis.world/belaruskaja-praga-sabrali-gistoryi-pra-ajchynnyh-litaratara-i-zvjazanyja-z-imi-mescy-stalicy-chjehii/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "prague-bykau-last-flat",
@@ -13070,7 +13689,8 @@
         "url": "https://maldzis.world/belaruskaja-praga-sabrali-gistoryi-pra-ajchynnyh-litaratara-i-zvjazanyja-z-imi-mescy-stalicy-chjehii/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "zurich-fraumunster-chagall",
@@ -13139,7 +13759,13 @@
         "url": "https://en.wikipedia.org/wiki/Fraum%C3%BCnster"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q690944",
+    "wikidataCoords": [
+      47.369722,
+      8.541111
+    ],
+    "wikidataDistKm": 0.007
   },
   {
     "id": "bern-university-tumarkinweg",
@@ -13191,7 +13817,8 @@
         "url": "https://en.wikipedia.org/wiki/Anna_Tumarkin"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "bourguillon-magdalena-radziwill",
@@ -13239,7 +13866,8 @@
         "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "rapperswil-polish-museum-sluck",
@@ -13288,7 +13916,13 @@
       }
     ],
     "personIds": [],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q1354897",
+    "wikidataCoords": [
+      47.226667,
+      8.818333
+    ],
+    "wikidataDistKm": 0.208
   },
   {
     "id": "zuchwil-kosciuszko-grave",
@@ -13336,7 +13970,8 @@
         "url": "https://maldzis.world/shagal-po-cjurihu-ne-tolko-mark-ili-belarusskie-mesta-v-shvejcarii/"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "un-hq-chernobyl-tapestry",
@@ -13389,7 +14024,8 @@
       "alexander-kishchenko"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "bari-castello-svevo-bona-sforza",
@@ -13443,7 +14079,13 @@
       "bona-sforza"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q790430",
+    "wikidataCoords": [
+      41.128107,
+      16.866374
+    ],
+    "wikidataDistKm": 0.077
   },
   {
     "id": "bari-basilica-san-nicola-bona-sforza-tomb",
@@ -13498,7 +14140,13 @@
       "santi-gucci"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q550514",
+    "wikidataCoords": [
+      41.130261,
+      16.870281
+    ],
+    "wikidataDistKm": 0.042
   },
   {
     "id": "gulag-solovki-slon",
@@ -13507,7 +14155,7 @@
       "ru": "Соловецкий лагерь особого назначения (СЛОН) — Голгофа белорусской элиты",
       "en": "Solovki Special Purpose Camp (SLON) — Cradle of the GULAG"
     },
-    "category": "historical",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -13545,14 +14193,21 @@
       "Аляхновіч",
       "Ластоўскі",
       "рэпрэсіі",
-      "historical"
+      "historical",
+      "prison"
     ],
     "personId": "francisak-alyakhnovich",
     "personIds": [
       "francisak-alyakhnovich"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q2443828",
+    "wikidataCoords": [
+      65.024444,
+      35.710556
+    ],
+    "wikidataDistKm": 0.067
   },
   {
     "id": "gulag-sandarmokh-memorial",
@@ -13598,7 +14253,13 @@
       "monument"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q2664713",
+    "wikidataCoords": [
+      62.887958,
+      34.679591
+    ],
+    "wikidataDistKm": 13.828
   },
   {
     "id": "gulag-inta-geniyush",
@@ -13607,7 +14268,7 @@
       "ru": "Минлаг / Инталаг в Инте — лагерная ссылка Ларисы Гениюш",
       "en": "Intalag / Minlag Camp in Inta — Larysa Heniyush's GULAG Poems"
     },
-    "category": "historical",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -13645,14 +14306,16 @@
       "Геніюш",
       "Комі",
       "вершы",
-      "historical"
+      "historical",
+      "prison"
     ],
     "personId": "larysa-heniyush",
     "personIds": [
       "larysa-heniyush"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q4294996"
   },
   {
     "id": "gulag-vorkuta-repost",
@@ -13661,7 +14324,7 @@
       "ru": "Воркутлаг и мемориал Юр-Шор — Воркутинское восстание 1953 года",
       "en": "Vorkutlag & Yur-Shor Memorial — Vorkuta Uprising of 1953"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -13698,10 +14361,17 @@
       "Юр-Шор",
       "паўстанне",
       "Рэчлаг",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q686273",
+    "wikidataCoords": [
+      67.514167,
+      64.083889
+    ],
+    "wikidataDistKm": 9.118
   },
   {
     "id": "gulag-kolyma-maska-smutku",
@@ -13710,7 +14380,7 @@
       "ru": "Колыма и монумент «Маска скорби» в Магадане — золото на костях",
       "en": "Kolyma & 'Mask of Sorrow' in Magadan — The Coldest Hell of the GULAG"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -13747,14 +14417,21 @@
       "Магадан",
       "Маска смутку",
       "Грахоўскі",
-      "monument"
+      "monument",
+      "prison"
     ],
     "personId": "siarhiej-hrahouski",
     "personIds": [
       "siarhiej-hrahouski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q1635369",
+    "wikidataCoords": [
+      59.591665,
+      150.812137
+    ],
+    "wikidataDistKm": 0.093
   },
   {
     "id": "gulag-karlag-dolinka",
@@ -13763,7 +14440,7 @@
       "ru": "Карлаг и Музей памяти жертв политических репрессий в Долинке (Казахстан)",
       "en": "Karlag Memorial Museum in Dolinka (Kazakhstan)"
     },
-    "category": "culture",
+    "category": "prison",
     "country": {
       "by": "Казахстан",
       "ru": "Казахстан",
@@ -13797,10 +14474,17 @@
       "Казахстан",
       "АЛЖЫР",
       "музей",
-      "culture"
+      "culture",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q955521",
+    "wikidataCoords": [
+      49.6775,
+      72.681944
+    ],
+    "wikidataDistKm": 0.643
   },
   {
     "id": "gulag-kengir-steplag",
@@ -13809,7 +14493,7 @@
       "ru": "Степлаг и Кенгирское восстание 1954 года (Жезказган)",
       "en": "Steplag & The 40 Days of Kengir Uprising in Zhezkazgan"
     },
-    "category": "historical",
+    "category": "prison",
     "country": {
       "by": "Казахстан",
       "ru": "Казахстан",
@@ -13842,10 +14526,17 @@
       "Сцяплаг",
       "паўстанне",
       "Казахстан",
-      "historical"
+      "historical",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q1738747",
+    "wikidataCoords": [
+      47.841111,
+      67.615
+    ],
+    "wikidataDistKm": 13.025
   },
   {
     "id": "gulag-norillag-memorial",
@@ -13854,7 +14545,7 @@
       "ru": "Норильлаг и мемориал «Норильская Голгофа» — восстание 1953 года",
       "en": "Norillag & 'Norilsk Golgotha' Memorial at Mount Schmidt"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -13891,10 +14582,17 @@
       "Нарыльлаг",
       "Галгофа",
       "паўстанне",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q2454186",
+    "wikidataCoords": [
+      69.566667,
+      88.366667
+    ],
+    "wikidataDistKm": 28.507
   },
   {
     "id": "nazi-camp-auschwitz-birkenau",
@@ -13903,7 +14601,7 @@
       "ru": "Аушвиц-Биркенау — лагерь уничтожения и память жертв из Беларуси",
       "en": "Auschwitz-Birkenau Memorial and Museum"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Польшча",
       "ru": "Польша",
@@ -13937,10 +14635,17 @@
       "нацызм",
       "лагер смерці",
       "Польшча",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q7341",
+    "wikidataCoords": [
+      50.035833,
+      19.178333
+    ],
+    "wikidataDistKm": 2.112
   },
   {
     "id": "nazi-camp-sobibor-revolt",
@@ -13949,7 +14654,7 @@
       "ru": "Собибор — лагерь уничтожения и восстание узников Минского гетто 1943 года",
       "en": "Sobibor Extermination Camp & Partisan Revolt of 1943"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Польшча",
       "ru": "Польша",
@@ -13986,10 +14691,12 @@
       "паўстанне",
       "Пячэрскі",
       "Халакост",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "nazi-camp-mauthausen-memorial",
@@ -13998,7 +14705,7 @@
       "ru": "Маутхаузен — каменоломни смерти и восстание Блока № 20",
       "en": "Mauthausen Memorial & The Heroic Block 20 Revolt"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Аўстрыя",
       "ru": "Австрия",
@@ -14031,10 +14738,12 @@
       "Блок 20",
       "паўстанне",
       "нацызм",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "nazi-camp-buchenwald-memorial",
@@ -14043,7 +14752,7 @@
       "ru": "Концлагерь Бухенвальд — мемориал и память белорусских узников",
       "en": "Buchenwald Memorial & Resistance"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Германія",
       "ru": "Германия",
@@ -14076,10 +14785,17 @@
       "Ваймар",
       "паўстанне",
       "нацызм",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q152802",
+    "wikidataCoords": [
+      51.021198,
+      11.248999
+    ],
+    "wikidataDistKm": 0.112
   },
   {
     "id": "nazi-camp-ravensbruck-women",
@@ -14088,7 +14804,7 @@
       "ru": "Равенсбрюк — главный женский концлагерь и подвиг белорусских женщин",
       "en": "Ravensbrück Memorial — Nazi Women's Concentration Camp"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Германія",
       "ru": "Германия",
@@ -14121,10 +14837,12 @@
       "жанчыны",
       "партызанкі",
       "нацызм",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "nazi-camp-sachsenhausen",
@@ -14133,7 +14851,7 @@
       "ru": "Заксенхаузен — лагерь под Берлином и уничтожение антифашистов",
       "en": "Sachsenhausen Concentration Camp Memorial in Oranienburg"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Германія",
       "ru": "Германия",
@@ -14166,10 +14884,12 @@
       "Берлін",
       "Араніенбург",
       "нацызм",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "nazi-camp-dachau-memorial",
@@ -14178,7 +14898,7 @@
       "ru": "Дахау — первый нацистский концлагерь в Баварии и белорусские узники",
       "en": "Dachau Concentration Camp Memorial Site"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Германія",
       "ru": "Германия",
@@ -14211,10 +14931,17 @@
       "Баварыя",
       "Мюнхен",
       "нацызм",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q151198",
+    "wikidataCoords": [
+      48.2699,
+      11.4683
+    ],
+    "wikidataDistKm": 0.011
   },
   {
     "id": "nazi-camp-stutthof-memorial",
@@ -14223,7 +14950,7 @@
       "ru": "Штуттгоф — концлагерь под Гданьском и жертвы из Западной Беларуси",
       "en": "Stutthof Concentration Camp Memorial in Sztutowo"
     },
-    "category": "monument",
+    "category": "prison",
     "country": {
       "by": "Польшча",
       "ru": "Польша",
@@ -14256,10 +14983,12 @@
       "Гданьск",
       "Заходняя Беларусь",
       "нацызм",
-      "monument"
+      "monument",
+      "prison"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "kyiv-pechersk-lavra-hleb-minskirad",
@@ -14313,7 +15042,13 @@
       "euphrosyne-polotsk"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q242711",
+    "wikidataCoords": [
+      50.434148,
+      30.558323
+    ],
+    "wikidataDistKm": 0.076
   },
   {
     "id": "kyiv-university-philology-karatkevich",
@@ -14367,7 +15102,13 @@
       "mitrafan-dounar-zapolski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q84151",
+    "wikidataCoords": [
+      50.441903,
+      30.511314
+    ],
+    "wikidataDistKm": 0.142
   },
   {
     "id": "kyiv-karatkevich-monument",
@@ -14416,7 +15157,13 @@
       "uladzimir-karatkevich"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q113686269",
+    "wikidataCoords": [
+      50.44693,
+      30.50377
+    ],
+    "wikidataDistKm": 0.246
   },
   {
     "id": "kyiv-bessarabsky-market",
@@ -14465,7 +15212,8 @@
       "culture"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "kyiv-memorial-fallen-belarusians",
@@ -14515,7 +15263,8 @@
       "mikhail-zhyzneuski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "kyiv-memorial-zhyzneuski",
@@ -14565,7 +15314,8 @@
       "mikhail-zhyzneuski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "kyiv-mohyla-academy-polotsky-konissky",
@@ -14619,7 +15369,8 @@
       "simeon-polotsky"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q3496636"
   },
   {
     "id": "lviv-dom-volnay-belarusi",
@@ -14668,7 +15419,8 @@
       "culture"
     ],
     "unverifiedCoordinates": true,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q109644662"
   },
   {
     "id": "lviv-beloruska-street",
@@ -14712,7 +15464,13 @@
       "culture"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q16695253",
+    "wikidataCoords": [
+      49.85725,
+      24.012056
+    ],
+    "wikidataDistKm": 1.102
   },
   {
     "id": "berlin-bnr-diplomatic-mission",
@@ -14761,7 +15519,8 @@
       "historical"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q842199"
   },
   {
     "id": "berlin-bnr-press-bureau",
@@ -14805,7 +15564,8 @@
       "historical"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "berlin-der-sturm-chagall",
@@ -14858,7 +15618,8 @@
       "marc-chagall"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "berlin-tacheles-ales-rodzin",
@@ -14912,7 +15673,13 @@
       "ales-rodzin"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q571421",
+    "wikidataCoords": [
+      52.525556,
+      13.388611
+    ],
+    "wikidataDistKm": 0.04
   },
   {
     "id": "potsdam-das-minsk-kunsthaus",
@@ -14961,7 +15728,8 @@
       "culture"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "moscow-kremlin-lazkovichy-cross",
@@ -15008,7 +15776,8 @@
       "culture"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "visby-baltic-centre-writers-bcwt",
@@ -15064,7 +15833,8 @@
       "uladzimir-arlou"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q17045031"
   },
   {
     "id": "stockholm-sveriges-belarusier-razam",
@@ -15113,7 +15883,8 @@
       "culture"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q17045031"
   },
   {
     "id": "uppsala-carolina-rediviva-belarustreasures",
@@ -15163,7 +15934,13 @@
       "culture"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q1044419",
+    "wikidataCoords": [
+      59.855,
+      17.631111
+    ],
+    "wikidataDistKm": 0.006
   },
   {
     "id": "spisska-nova-ves-jan-nalepka-monument",
@@ -15212,7 +15989,8 @@
       "jan-nalepka"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "krakow-muzeum-emeryka-hutten-czapskiego",
@@ -15275,7 +16053,13 @@
       "emeryk-hutten-czapski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q1338606",
+    "wikidataCoords": [
+      50.059983,
+      19.93015
+    ],
+    "wikidataDistKm": 0.08
   },
   {
     "id": "krakow-pawilon-jozefa-czapskiego",
@@ -15328,7 +16112,8 @@
       "jozef-czapski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "maisons-laffitte-kultura-czapski",
@@ -15381,7 +16166,8 @@
       "jozef-czapski"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "florence-city-hub",
@@ -15478,7 +16264,13 @@
         "wikiUrl": "https://be.wikipedia.org/wiki/Міхал_Казімір_Агінскі"
       }
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q2044",
+    "wikidataCoords": [
+      43.771389,
+      11.254167
+    ],
+    "wikidataDistKm": 0.238
   },
   {
     "id": "biala-podlaska-radziwill-palace",
@@ -15532,7 +16324,13 @@
       "radziwills"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q3956398",
+    "wikidataCoords": [
+      52.0433,
+      23.1678
+    ],
+    "wikidataDistKm": 3.081
   },
   {
     "id": "vienna-hofburg-radziwill-armour",
@@ -15587,7 +16385,8 @@
       "radziwills"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q106863103"
   },
   {
     "id": "nieborow-nesvizh-armoury",
@@ -15636,7 +16435,8 @@
       "radziwills"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": null
   },
   {
     "id": "trakai-uzutrakis-tyszkiewicz-palace",
@@ -15682,7 +16482,8 @@
       "historical"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": null
   },
   {
     "id": "lentvaris-tyszkiewicz-palace",
@@ -15727,7 +16528,8 @@
       "historical"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vilnia-glaubitz-st-johns",
@@ -15781,7 +16583,13 @@
       "johann-christoph-glaubitz"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q2994043",
+    "wikidataCoords": [
+      54.682778,
+      25.288333
+    ],
+    "wikidataDistKm": 0.026
   },
   {
     "id": "braniewo-jesuit-college-sirotka-peregrinatio",
@@ -15836,7 +16644,8 @@
       "radziwill-sirotka"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": null
   },
   {
     "id": "montevideo-cathedral-domeyko",
@@ -15889,7 +16698,13 @@
       "ignacy-domeyko"
     ],
     "mustSee": false,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q1050600",
+    "wikidataCoords": [
+      -34.907,
+      -56.204111
+    ],
+    "wikidataDistKm": 0.022
   },
   {
     "id": "buenos-aires-mayo-domeyko",
@@ -15938,7 +16753,8 @@
       "ignacy-domeyko"
     ],
     "mustSee": false,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": null
   },
   {
     "id": "araucania-antuco-domeyko-expedition",
@@ -15993,7 +16809,13 @@
       "ignacy-domeyko"
     ],
     "mustSee": true,
-    "unverifiedCoordinates": false
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q609982",
+    "wikidataCoords": [
+      -37.41,
+      -71.351111
+    ],
+    "wikidataDistKm": 1.116
   },
   {
     "id": "istanbul-city-hub",
@@ -16073,7 +16895,13 @@
         "needsCoords": true,
         "coordsRequest": true
       }
-    ]
+    ],
+    "wikidataId": "Q4679495",
+    "wikidataCoords": [
+      41.038777,
+      28.9771
+    ],
+    "wikidataDistKm": 3.402
   },
   {
     "id": "moscow-meshchanskaya-sloboda",
@@ -16112,7 +16940,13 @@
         "title": "Мещанская слобода (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9C%D1%8F%D1%88%D1%87%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%BB%D0%B0%D0%B1%D0%B0%D0%B4%D0%B0"
       }
-    ]
+    ],
+    "wikidataId": "Q4292525",
+    "wikidataCoords": [
+      55.775715,
+      37.628184
+    ],
+    "wikidataDistKm": 0.27
   },
   {
     "id": "moscow-belarusian-drama-studio",
@@ -16150,7 +16984,8 @@
         "title": "Беларуская драматычная студыя (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%BA%D0%B0%D1%8F_%D0%B4%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D1%8B%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%83%D0%B4%D1%8B%D1%8F"
       }
-    ]
+    ],
+    "wikidataId": "Q19833093"
   },
   {
     "id": "petersburg-epimakh-shypila-flat",
@@ -16194,7 +17029,8 @@
         "title": "Загляне сонца і ў наша аконца (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D1%8F%D0%BD%D0%B5_%D1%81%D0%BE%D0%BD%D1%86%D0%B0_%D1%96_%D1%9E_%D0%BD%D0%B0%D1%88%D0%B0_%D0%B0%D0%BA%D0%BE%D0%BD%D1%86%D0%B0"
       }
-    ]
+    ],
+    "wikidataId": "Q3920491"
   },
   {
     "id": "petersburg-national-library-kalinouski",
@@ -16235,7 +17071,8 @@
         "title": "Беларускі Пецярбург (Радыё Свабода)",
         "url": "https://www.svaboda.org/a/24876672.html"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "petersburg-volkovo-hryharovich",
@@ -16273,7 +17110,8 @@
         "title": "Іван Грыгаровіч (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%86%D0%B2%D0%B0%D0%BD_%D0%86%D0%B2%D0%B0%D0%BD%D0%B0%D0%B2%D1%96%D1%87_%D0%93%D1%80%D1%8B%D0%B3%D0%B0%D1%80%D0%BE%D0%B2%D1%96%D1%87"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "petersburg-kinofabryka-belarusfilm",
@@ -16311,7 +17149,8 @@
         "title": "Беларусьфільм (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C%D1%84%D1%96%D0%BB%D1%8C%D0%BC"
       }
-    ]
+    ],
+    "wikidataId": "Q2621941"
   },
   {
     "id": "basel-munster-vkl-embassy",
@@ -16347,7 +17186,8 @@
         "title": "Базельскі сабор (vkl.by)",
         "url": "http://web.archive.org/web/20210512140534/http://vkl.by/articles/203"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "padua-palazzo-bo-vkl-students",
@@ -16388,7 +17228,13 @@
         "title": "Падуанскі ўніверсітэт (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9F%D0%B0%D0%B4%D1%83%D0%B0%D0%BD%D1%81%D0%BA%D1%96_%D1%9E%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%82%D1%8D%D1%82"
       }
-    ]
+    ],
+    "wikidataId": "Q193510",
+    "wikidataCoords": [
+      45.42,
+      11.87
+    ],
+    "wikidataDistKm": 1.579
   },
   {
     "id": "krakow-bursa-litwanorum",
@@ -16427,7 +17273,13 @@
         "title": "Ягелонскі ўніверсітэт (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%AF%D0%B3%D0%B5%D0%BB%D0%BE%D0%BD%D1%81%D0%BA%D1%96_%D1%9E%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%82%D1%8D%D1%82"
       }
-    ]
+    ],
+    "wikidataId": "Q189441",
+    "wikidataCoords": [
+      50.061667,
+      19.933889
+    ],
+    "wikidataDistKm": 0.004
   },
   {
     "id": "sinia-vody-battlefield-memorial",
@@ -16466,7 +17318,13 @@
         "title": "Бітва на Сініх Водах (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%91%D1%96%D1%82%D0%B2%D0%B0_%D0%BD%D0%B0_%D0%A1%D1%96%D0%BD%D1%96%D1%85_%D0%92%D0%BE%D0%B4%D0%B0%D1%85"
       }
-    ]
+    ],
+    "wikidataId": "Q954356",
+    "wikidataCoords": [
+      48.658333,
+      30.783333
+    ],
+    "wikidataDistKm": 0.37
   },
   {
     "id": "salaspils-kirchholm-battle-memorial",
@@ -16505,7 +17363,13 @@
         "title": "Бітва пад Кірхгольмам (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%91%D1%96%D1%82%D0%B2%D0%B0_%D0%BF%D0%B0%D0%B4_%D0%9A%D1%96%D1%80%D1%85%D0%B3%D0%BE%D0%BB%D1%8C%D0%BC%D0%B0%D0%BC"
       }
-    ]
+    ],
+    "wikidataId": "Q937332",
+    "wikidataCoords": [
+      56.848611,
+      24.348056
+    ],
+    "wikidataDistKm": 1.111
   },
   {
     "id": "suprasl-annunciation-monastery",
@@ -16544,7 +17408,13 @@
         "title": "Супрасльскі Дабравешчанскі манастыр (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%A1%D1%83%D0%BF%D1%80%D0%B0%D1%81%D0%BB%D1%8C%D1%81%D0%BA%D1%96_%D0%94%D0%B0%D0%B1%D1%80%D0%B0%D0%B2%D0%B5%D1%88%D1%87%D0%B0%D0%BD%D1%81%D0%BA%D1%96_%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80"
       }
-    ]
+    ],
+    "wikidataId": "Q2987314",
+    "wikidataCoords": [
+      53.210967,
+      23.337092
+    ],
+    "wikidataDistKm": 0.141
   },
   {
     "id": "koden-sanctuary-sapieha-castle",
@@ -16583,7 +17453,8 @@
         "title": "Кодэнь (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D1%8D%D0%BD%D1%8C"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "medininkai-castle",
@@ -16622,7 +17493,13 @@
         "title": "Медніцкі замак (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%BD%D1%96%D1%86%D0%BA%D1%96_%D0%B7%D0%B0%D0%BC%D0%B0%D0%BA"
       }
-    ]
+    ],
+    "wikidataId": "Q2652794",
+    "wikidataCoords": [
+      54.53942,
+      25.64997
+    ],
+    "wikidataDistKm": 0.031
   },
   {
     "id": "florence-santa-croce-oginski-tomb",
@@ -16661,7 +17538,8 @@
         "title": "Міхал Клеафас Агінскі (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9C%D1%96%D1%85%D0%B0%D0%BB_%D0%9A%D0%BB%D0%B5%D0%B0%D1%84%D0%B0%D1%81_%D0%90%D0%B3%D1%96%D0%BD%D1%81%D0%BA%D1%96"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "warsaw-teatr-wielki-moniuszko",
@@ -16700,7 +17578,8 @@
         "title": "Станіслаў Манюшка (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%9C%D0%B0%D0%BD%D1%8E%D1%88%D0%BA%D0%B0"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "warsaw-cmentarz-wojskowy-powazki",
@@ -16830,7 +17709,13 @@
       "grave"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q2790054",
+    "wikidataCoords": [
+      52.258333,
+      20.953056
+    ],
+    "wikidataDistKm": 0.005
   },
   {
     "id": "paris-la-ruche-montparnasse",
@@ -16871,7 +17756,8 @@
         "title": "La Ruche (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%92%D1%83%D0%BB%D0%B5%D0%B9_(%D1%84%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D1%82%D1%8D%D1%80)"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "paris-montparnasse-soutine-grave",
@@ -16909,7 +17795,8 @@
         "title": "Хаім Суцін (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%A5%D0%B0%D1%96%D0%BC_%D0%A1%D1%83%D1%86%D1%96%D0%BD"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "paris-batignolles-bakst-grave",
@@ -16947,7 +17834,8 @@
         "title": "Леон Бакст (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9B%D0%B5%D0%BE%D0%BD_%D0%91%D0%B0%D0%BA%D1%81%D1%82"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "rotterdam-zadkine-destroyed-city",
@@ -16986,7 +17874,8 @@
         "title": "Разбураны горад (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D1%83%D1%80%D0%B0%D0%BD%D1%8B_%D0%B3%D0%BE%D1%80%D0%B0%D0%B4"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "paris-musee-zadkine",
@@ -17025,7 +17914,8 @@
         "title": "Музей Цадкіна (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9_%D0%A6%D0%B0%D0%B4%D0%BA%D1%96%D0%BD%D0%B0"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "wiesbaden-neroberg-boris-kit-grave",
@@ -17063,7 +17953,8 @@
         "title": "Барыс Кіт (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D1%8B%D1%81_%D0%9A%D1%96%D1%82"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "vilnius-suderve-vilna-gaon-mausoleum",
@@ -17102,7 +17993,8 @@
         "title": "Віленскі гаон (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%92%D1%96%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D1%96_%D0%B3%D0%B0%D0%BE%D0%BD"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "jerusalem-beit-ben-yehuda",
@@ -17141,7 +18033,8 @@
         "title": "Эліэзер Бэн-Егуда (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%AD%D0%BB%D1%96%D1%8D%D0%B7%D0%B5%D1%80_%D0%91%D1%8D%D0%BD-%D0%95%D0%B3%D1%83%D0%B4%D0%B0"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "harvard-littauer-center-kuznets",
@@ -17179,7 +18072,8 @@
         "title": "Сайман Кузнец (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD_%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "odesa-second-cemetery-mendele",
@@ -17217,7 +18111,8 @@
         "title": "Мендэле Мойхер-Сфорым (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D1%8D%D0%BB%D0%B5_%D0%9C%D0%BE%D0%B9%D1%85%D0%B5%D1%80-%D0%A1%D1%84%D0%BE%D1%80%D1%8B%D0%BC"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "bialystok-warszawska-11-bgkt",
@@ -17253,7 +18148,8 @@
         "title": "Беларускае грамадска-культурнае таварыства (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D0%BA%D0%B0%D0%B5_%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%D0%B4%D1%81%D0%BA%D0%B0-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%BD%D0%B0%D0%B5_%D1%82%D0%B0%D0%B2%D0%B0%D1%80%D1%8B%D1%81%D1%82%D0%B2%D0%BE"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "bialystok-redakcyja-niwa",
@@ -17289,7 +18185,8 @@
         "title": "Ніва (штотыднёвік) (Вікіпедыя)",
         "url": "https://be.wikipedia.org/wiki/%D0%9D%D1%96%D0%B2%D0%B0_(%D1%88%D1%82%D1%8B%D0%B4%D0%BD%D1%96%D0%B2%D1%96%D0%BA)"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "bialystok-gimnazija-vi-lo",
@@ -17328,7 +18225,8 @@
         "title": "Беларускія месцы Беластока: гімназія (MOST Media)",
         "url": "https://mostmedia.io/2023/03/30/belaruskija-mescy-belastoka-gimnazija/"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "bialystok-skver-tamary-salanevich",
@@ -17366,7 +18264,8 @@
         "title": "Сквер Тамары Саланевіч (MOST Media)",
         "url": "https://mostmedia.io/2022/02/23/skver-tamary-salanevich/"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "hajnowka-ii-lo-belaruski-licej",
@@ -17387,8 +18286,8 @@
       "en": "Hajnowka"
     },
     "coordinates": [
-      52.7431,
-      23.5822
+      52.735547,
+      23.592505
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/LO_z_DNJB_w_Hajn%C3%B3wce.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
@@ -17402,7 +18301,14 @@
         "title": "Liceum z Dodatkową Nauką Języka Białoruskiego w Hajnówce (Вікіпедыя)",
         "url": "https://pl.wikipedia.org/wiki/Liceum_Og%C3%B3lnokszta%C5%82c%C4%85ce_z_Dodatkow%C4%85_Nauk%C4%85_J%C4%99zyka_Bia%C5%82oruskiego_w_Hajn%C3%B3wce"
       }
-    ]
+    ],
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q11755775",
+    "wikidataCoords": [
+      52.7358,
+      23.5922
+    ],
+    "wikidataDistKm": 0.035
   },
   {
     "id": "bielsk-podlaski-szkola-3-hajduk",
@@ -17423,8 +18329,8 @@
       "en": "Bielsk Podlaski"
     },
     "coordinates": [
-      52.7719,
-      23.1956
+      52.766891,
+      23.193512
     ],
     "image": "",
     "description": {
@@ -17440,7 +18346,8 @@
         "title": "Szkoła Podstawowa nr 3 w Bielsku Podlaskim",
         "url": "https://trojka.szkolnastrona.pl/p,1,szkola"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "studziwody-muzej-maloj-backauszcyny",
@@ -17461,8 +18368,8 @@
       "en": "Bielsk Podlaski"
     },
     "coordinates": [
-      52.7564,
-      23.2189
+      52.743353,
+      23.188919
     ],
     "image": "",
     "description": {
@@ -17476,7 +18383,8 @@
         "title": "Stowarzyszenie Muzeum Małej Ojczyzny w Studziwodach (Facebook)",
         "url": "https://www.facebook.com/stowarzyszenie.abba/"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "grabarka-sviataya-hara",
@@ -17516,7 +18424,8 @@
         "title": "Цуды і таямніцы падляшскай зямлі (СБ)",
         "url": "https://www.sb.by/articles/tsudy-tayamn-tsy-padlyashskay-zyaml.html"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "vilnius-monument-sigismund-barbara-radziwill",
@@ -17571,7 +18480,8 @@
       "radziwills"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "vilnius-sculpture-barbara-radziwill-vokieciu",
@@ -17626,7 +18536,8 @@
       "radziwills"
     ],
     "unverifiedCoordinates": false,
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "paris-cmentarz-pere-lachaise",
@@ -17749,7 +18660,13 @@
         "description": "Сектар 48 (Division 48). Знакамітая грабніца выдатнага французскага класіка Анарэ дэ Бальзака і яго каханай жонкі і музы графіні Эвеліны Ганскай з магнацкага роду Жавускіх.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/P%C3%A8re-Lachaise_-_Division_48_-_Balzac_02.jpg"
       }
-    ]
+    ],
+    "wikidataId": "Q311",
+    "wikidataCoords": [
+      48.861111,
+      2.394167
+    ],
+    "wikidataDistKm": 0.174
   },
   {
     "id": "krakow-wawel-cathedral-royal-pantheon",
@@ -17801,7 +18718,8 @@
       "stefan-batory",
       "yan-iii-sabeski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "vilnius-cathedral-royal-crypt",
@@ -17849,7 +18767,8 @@
       "aleksandr-yagelonchyk",
       "barbara-radziwill"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "ringsted-st-bendts-church-sophia-of-minsk",
@@ -17897,7 +18816,8 @@
     "personIds": [
       "sofia-menskaya"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "warsaw-st-john-archcathedral-stanislaw-august-tomb",
@@ -17945,7 +18865,8 @@
     "personIds": [
       "stanislaw-august-poniatowski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "paris-saint-germain-des-pres-jan-casimir-tomb",
@@ -17988,7 +18909,13 @@
       "Манархі ВКЛ",
       "grave"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q334186",
+    "wikidataCoords": [
+      48.853889,
+      2.334444
+    ],
+    "wikidataDistKm": 0.049
   },
   {
     "id": "dresden-hofkirche-august-iii-tomb",
@@ -18031,7 +18958,13 @@
       "Манархі ВКЛ",
       "grave"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q666935",
+    "wikidataCoords": [
+      51.05349,
+      13.73735
+    ],
+    "wikidataDistKm": 0.004
   },
   {
     "id": "new-york-central-park-king-jagiello",
@@ -18084,7 +19017,13 @@
       "yagaila"
     ],
     "mustSee": true,
-    "wiki": "https://en.wikipedia.org/wiki/King_Jagiello_Monument"
+    "wiki": "https://en.wikipedia.org/wiki/King_Jagiello_Monument",
+    "wikidataId": "Q649312",
+    "wikidataCoords": [
+      40.7789,
+      -73.9667
+    ],
+    "wikidataDistKm": 0.003
   },
   {
     "id": "aglona-basilica-mindaugas-memorial",
@@ -18127,7 +19066,8 @@
       "Манархі ВКЛ",
       "monument"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "veliuona-gediminas-grave-mound",
@@ -18171,7 +19111,8 @@
       "Нёман",
       "historical"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "vienna-kahlenberg-st-joseph-sobieski",
@@ -18218,7 +19159,13 @@
     "personIds": [
       "yan-iii-sabeski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q697119",
+    "wikidataCoords": [
+      48.2761,
+      16.3333
+    ],
+    "wikidataDistKm": 0.112
   },
   {
     "id": "harbin-marian-mission-st-nicholas-lyceum",
@@ -18267,7 +19214,8 @@
       "andrei-tsikota",
       "yazep-hermanovich"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "moscow-butyrka-fabian-abrantovich-martyrdom",
@@ -18276,7 +19224,7 @@
       "ru": "Бутырская тюрьма — Место гибели архимандрита Фабиана Абрантовича",
       "en": "Butyrka Prison — Martyrdom Site of Archimandrite Fabian Abrantovich"
     },
-    "category": "historical",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -18309,13 +19257,15 @@
       "Бутырка",
       "Рэпрэсіі",
       "Марыяне",
-      "historical"
+      "historical",
+      "prison"
     ],
     "personId": "fabian-abrantovich",
     "personIds": [
       "fabian-abrantovich"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "ozerlag-tayshet-novochunka-andrei-tsikota-grave",
@@ -18364,7 +19314,8 @@
     "personIds": [
       "andrei-tsikota"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "solovki-monastery-gulag-clergy-memorial",
@@ -18373,7 +19324,7 @@
       "ru": "Соловецкий лагерь особого назначения (СЛОН) — Мемориал репрессированным священникам",
       "en": "Solovki Camp (SLON) — Memorial to Repressed Belarusian Clergy"
     },
-    "category": "historical",
+    "category": "prison",
     "country": {
       "by": "Расія",
       "ru": "Россия",
@@ -18406,9 +19357,11 @@
       "СЛОН",
       "Рэпрэсіі",
       "Леанід Маракоў",
-      "historical"
+      "historical",
+      "prison"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "montmorency-champeaux-cemetery-pantheon",
@@ -18501,7 +19454,13 @@
         "person": "Вацлаў Пелікан (1790–1873)",
         "description": "Прафесар хірургіі, рэктар Віленскага ўніверсітэта."
       }
-    ]
+    ],
+    "wikidataId": "Q24545",
+    "wikidataCoords": [
+      48.99362,
+      2.323514
+    ],
+    "wikidataDistKm": 0.037
   },
   {
     "id": "paris-montmartre-valentsin-vankovich-grave",
@@ -18550,7 +19509,8 @@
       "valentsin-vankovich",
       "adam-mickiewicz"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "paris-montparnasse-ossip-zadkine-grave",
@@ -18599,7 +19559,8 @@
     "personIds": [
       "ossip-zadkine"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "london-st-pancras-belarusian-pantheon",
@@ -18649,7 +19610,8 @@
       "chaslau-sipovich",
       "alyaksandr-nadsan"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "rapperswil-castle-plater-museum",
@@ -18699,7 +19661,13 @@
       "uladzislaw-plyater",
       "tadeusz-kosciuszko"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q1354897",
+    "wikidataCoords": [
+      47.226667,
+      8.818333
+    ],
+    "wikidataDistKm": 0.208
   },
   {
     "id": "sayn-palace-crypt-leonilla-wittgenstein",
@@ -18747,7 +19715,13 @@
     "personIds": [
       "leonilla-sayn-wittgenstein"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q601887",
+    "wikidataCoords": [
+      50.439,
+      7.5793
+    ],
+    "wikidataDistKm": 0.107
   },
   {
     "id": "warsaw-cmentarz-powazkowski-stare-powazki",
@@ -18875,7 +19849,13 @@
       "Карловіч",
       "grave"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q168886",
+    "wikidataCoords": [
+      52.251944,
+      20.972778
+    ],
+    "wikidataDistKm": 0.437
   },
   {
     "id": "warsaw-wilanow-radziwill-crypt",
@@ -18923,7 +19903,8 @@
     "personIds": [
       "radziwills"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q260388"
   },
   {
     "id": "warsaw-sigismund-column-shaft",
@@ -18976,7 +19957,13 @@
         "url": "https://pl.wikipedia.org/wiki/Kolumna_Zygmunta_III_Wazy_w_Warszawie"
       }
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": "Q958585",
+    "wikidataCoords": [
+      52.24725,
+      21.013389
+    ],
+    "wikidataDistKm": 0.068
   },
   {
     "id": "bialystok-bgkt",
@@ -19020,7 +20007,8 @@
       "дыяспара",
       "культура"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q3919541"
   },
   {
     "id": "hajnowka-museum-belarusian",
@@ -19041,8 +20029,8 @@
       "en": "Hajnówka"
     },
     "coordinates": [
-      52.7423,
-      23.5781
+      52.737462,
+      23.586646
     ],
     "image": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Hajnowka_Muzeum_Kultury_Bialoruskiej_2.jpg?utm_source=be.wikipedia.org&utm_campaign=api&utm_content=original",
     "description": {
@@ -19064,7 +20052,14 @@
       "этнаграфія",
       "культура"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "unverifiedCoordinates": false,
+    "wikidataId": "Q16912746",
+    "wikidataCoords": [
+      52.737832,
+      23.586518
+    ],
+    "wikidataDistKm": 0.042
   },
   {
     "id": "london-belarusian-house-zbvb",
@@ -19107,7 +20102,8 @@
       "дыяспара",
       "культура"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q3918722"
   },
   {
     "id": "london-church-st-cyril-turau",
@@ -19152,7 +20148,13 @@
       "архітэктура",
       "Чарнобыль"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q23541304",
+    "wikidataCoords": [
+      51.6167,
+      -0.1847
+    ],
+    "wikidataDistKm": 0.28
   },
   {
     "id": "toronto-belarusian-center",
@@ -19195,7 +20197,8 @@
       "дыяспара",
       "культура"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q13030857"
   },
   {
     "id": "prague-belarusian-archive-bnr",
@@ -19239,7 +20242,8 @@
       "гісторыя",
       "Клеменцінум"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q13028769"
   },
   {
     "id": "netherlands-hague-belarusians-mara",
@@ -19287,7 +20291,8 @@
       "Мара",
       "культура"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q141506852"
   },
   {
     "id": "netherlands-embassy-hague",
@@ -19329,7 +20334,8 @@
       "пасольства",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "poland-consulate-bialystok",
@@ -19372,7 +20378,8 @@
       "консульства",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "uk-embassy-london",
@@ -19418,7 +20425,8 @@
       "пасольства",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "un-mission-new-york",
@@ -19460,7 +20468,8 @@
       "ААН",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "belgium-embassy-brussels",
@@ -19503,7 +20512,8 @@
       "ЕС",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "czech-embassy-prague",
@@ -19545,7 +20555,8 @@
       "пасольства",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "china-embassy-beijing",
@@ -19587,7 +20598,8 @@
       "пасольства",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "israel-embassy-tel-aviv",
@@ -19629,7 +20641,8 @@
       "пасольства",
       "дыпламатыя"
     ],
-    "mustSee": false
+    "mustSee": false,
+    "wikidataId": null
   },
   {
     "id": "bologna-archiginnasio-university",
@@ -19686,7 +20699,13 @@
       "aleksandr-lyudvik-radziwill",
       "michal-kazimir-radziwill"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q131262",
+    "wikidataCoords": [
+      44.493889,
+      11.342778
+    ],
+    "wikidataDistKm": 0.16
   },
   {
     "id": "milan-teatro-alla-scala",
@@ -19744,7 +20763,13 @@
       "mikhas-zabejda-sumitski",
       "stanislaw-moniuszko"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q5471",
+    "wikidataCoords": [
+      45.4675,
+      9.189167
+    ],
+    "wikidataDistKm": 0.043
   },
   {
     "id": "milan-piazza-duomo-mindaugas-radziwill",
@@ -19797,7 +20822,8 @@
     "personIds": [
       "radziwill-sirotka"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "naples-castel-capuano-bona-sforza",
@@ -19853,7 +20879,8 @@
     "personIds": [
       "bona-sforza"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q9348126"
   },
   {
     "id": "lytham-hall-belarusian-timber",
@@ -19901,7 +20928,13 @@
         "title": "Вікіпедыя: Lytham Hall (Grade I listed country house)",
         "url": "https://en.wikipedia.org/wiki/Lytham_Hall"
       }
-    ]
+    ],
+    "wikidataId": "Q6710327",
+    "wikidataCoords": [
+      53.7441,
+      -2.9768
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "danson-house-belarusian-timber",
@@ -19939,7 +20972,8 @@
       "лондан",
       "архітэктура",
       "вялікабрытанія"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "riga-dannenstern-house-timber",
@@ -19977,7 +21011,8 @@
       "гандаль",
       "дзвіна",
       "чартарыйскія"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "reims-cathedral-chagall-stained-glass",
@@ -20033,7 +21068,13 @@
         "title": "Вікіпедыя: Рэймскі сабор (Cathedrale Notre-Dame de Reims)",
         "url": "https://be.wikipedia.org/wiki/Рэймскі_сабор"
       }
-    ]
+    ],
+    "wikidataId": "Q206823",
+    "wikidataCoords": [
+      49.253889,
+      4.034167
+    ],
+    "wikidataDistKm": 0.022
   },
   {
     "id": "paris-opera-garnier-chagall-ceiling",
@@ -20074,7 +21115,8 @@
       "опера",
       "мастацтва",
       "плафон"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "metz-cathedral-chagall-stained-glass",
@@ -20113,7 +21155,8 @@
       "мец",
       "вітражы",
       "готыка"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "jerusalem-hadassah-chagall-windows",
@@ -20154,7 +21197,8 @@
       "ізраіль",
       "вітражы",
       "хадаса"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "jerusalem-knesset-chagall-hall",
@@ -20194,7 +21238,8 @@
       "ерусалім",
       "мазаіка",
       "габелены"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "mainz-sankt-stephan-chagall-windows",
@@ -20234,7 +21279,8 @@
       "германія",
       "вітражы",
       "прымірэнне"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "tudeley-all-saints-chagall-windows",
@@ -20273,7 +21319,8 @@
       "вялікабрытанія",
       "вітражы",
       "кент"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "chicago-art-institute-chagall-windows",
@@ -20314,7 +21361,8 @@
       "зша",
       "вітражы",
       "мазаіка"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "new-york-met-opera-chagall-murals",
@@ -20354,7 +21402,8 @@
       "опера",
       "зша",
       "мастацтва"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "saint-paul-de-vence-chagall-grave",
@@ -20394,7 +21443,8 @@
       "францыя",
       "мазаіка",
       "пахаванне"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "amsterdam-stedelijk-chagall",
@@ -20434,7 +21484,8 @@
       "нідэрланды",
       "музей",
       "жывапіс"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "basel-kunstmuseum-chagall",
@@ -20474,7 +21525,8 @@
       "швейцарыя",
       "музей",
       "жывапіс"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "yalta-bahdanovich-grave",
@@ -20516,7 +21568,8 @@
       "магіла",
       "крым",
       "літаратура"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "yaroslavl-bahdanovich-museum",
@@ -20555,7 +21608,8 @@
       "яраслаўль",
       "музей",
       "літаратура"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "koreiz-bahdanovich-monument",
@@ -20594,7 +21648,8 @@
       "помнік",
       "крым",
       "карэіз"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "kaunas-petrasiunai-duzh-dusheuski-grave",
@@ -20637,7 +21692,8 @@
       "бнр",
       "сцяг",
       "літва"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "kaunas-vytautas-8-duzh-dusheuski-house",
@@ -20679,7 +21735,8 @@
       "луцкевіч",
       "салідарнасць",
       "літва"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "prague-olsany-belarusian-pantheon",
@@ -20723,7 +21780,8 @@
       "захарка",
       "забэйда",
       "пахаванне"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "pechishchi-kupala-museum",
@@ -20781,7 +21839,13 @@
         "title": "Музеи России: Музей Янки Купалы в с. Печищи",
         "url": "http://www.museum.ru/M1302"
       }
-    ]
+    ],
+    "wikidataId": "Q19638129",
+    "wikidataCoords": [
+      55.77611,
+      48.95056
+    ],
+    "wikidataDistKm": 0.711
   },
   {
     "id": "moscow-hotel-moskva-kupala",
@@ -20820,7 +21884,8 @@
       "масква",
       "трагедыя",
       "гісторыя"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "tashkent-kolas-monument-museum",
@@ -20860,7 +21925,8 @@
       "помнік",
       "узбекістан",
       "літаратура"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "zakopane-luczkiewicz-sanatorium",
@@ -20900,7 +21966,8 @@
       "бнр",
       "польшча",
       "гісторыя"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "vyazma-haretski-memorial",
@@ -20940,7 +22007,8 @@
       "рэпрэсіі",
       "літаратура",
       "памяць"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "krakow-jagiellonian-ciotka",
@@ -20980,7 +22048,8 @@
       "ўніверсітэт",
       "польшча",
       "літаратура"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "kaunas-lastouski-bnr-government",
@@ -21020,7 +22089,8 @@
       "бнр",
       "крывіч",
       "літва"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "ankara-embassy-belarus",
@@ -21066,7 +22136,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Турцыі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Турцыі"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "istanbul-consulate-belarus",
@@ -21108,7 +22179,8 @@
         "title": "Афіцыйны сайт: Генконсульства Беларусі ў Стамбуле",
         "url": "https://istanbul.mfa.gov.by"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "washington-embassy-belarus",
@@ -21154,7 +22226,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў ЗША",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_ЗША"
       }
-    ]
+    ],
+    "wikidataId": "Q5369567"
   },
   {
     "id": "paris-embassy-belarus",
@@ -21200,7 +22273,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Францыі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Францыі"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "berlin-embassy-belarus",
@@ -21246,7 +22320,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Германіі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Германіі"
       }
-    ]
+    ],
+    "wikidataId": "Q22250207"
   },
   {
     "id": "rome-embassy-belarus",
@@ -21292,7 +22367,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Італіі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Італіі"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "warsaw-embassy-belarus",
@@ -21338,7 +22414,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Польшчы",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Польшчы"
       }
-    ]
+    ],
+    "wikidataId": "Q9149465"
   },
   {
     "id": "vilnius-embassy-belarus",
@@ -21384,7 +22461,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Літве",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Літве"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "riga-embassy-belarus",
@@ -21430,7 +22508,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Латвіі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Латвіі"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "bern-embassy-belarus",
@@ -21476,7 +22555,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Швейцарыі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Швейцарыі"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "vienna-embassy-belarus",
@@ -21522,7 +22602,8 @@
         "title": "Вікіпедыя: Пасольства Беларусі ў Аўстрыі",
         "url": "https://be.wikipedia.org/wiki/Пасольства_Беларусі_ў_Аўстрыі"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "warsaw-bulak-balachowicz-plaque",
@@ -21578,7 +22659,8 @@
         "title": "Polskie Radio: Tablica gen. Stanisława Bułak-Bałachowicza",
         "url": "https://www2.polskieradio.pl/eo/print.aspx?iid=107917"
       }
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "volchyn-holy-trinity-church-poniatowski",
@@ -21631,7 +22713,13 @@
     "personIds": [
       "stanislaw-august-poniatowski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q6031766",
+    "wikidataCoords": [
+      52.285556,
+      23.310278
+    ],
+    "wikidataDistKm": 0.029
   },
   {
     "id": "spb-st-catherine-basilica-poniatowski",
@@ -21678,7 +22766,13 @@
     "personId": "stanislaw-august-poniatowski",
     "personIds": [
       "stanislaw-august-poniatowski"
-    ]
+    ],
+    "wikidataId": "Q2618766",
+    "wikidataCoords": [
+      59.935511,
+      30.328939
+    ],
+    "wikidataDistKm": 0.014
   },
   {
     "id": "tatra-kamien-karlowicza-monument",
@@ -21732,7 +22826,13 @@
     "personIds": [
       "mieczyslaw-karlowicz"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q11734463",
+    "wikidataCoords": [
+      49.2385,
+      20.0109
+    ],
+    "wikidataDistKm": 0.003
   },
   {
     "id": "vienna-kahlenberg-sobieski-pedestal-monument",
@@ -21790,7 +22890,13 @@
     "personIds": [
       "yan-iii-sabeski"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q200855",
+    "wikidataCoords": [
+      48.235,
+      16.335
+    ],
+    "wikidataDistKm": 4.512
   },
   {
     "id": "vienna-khm-durer-venetian-woman-vankovich",
@@ -21848,7 +22954,8 @@
     "personIds": [
       "valentsin-vankovich"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q3937735"
   },
   {
     "id": "kraslava-plater-palace",
@@ -21892,7 +22999,8 @@
       "дзвіна",
       "латгалія",
       "вкл"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "bagdoniskis-romer-manor",
@@ -21935,7 +23043,8 @@
       "літва",
       "жывапіс",
       "мастакі"
-    ]
+    ],
+    "wikidataId": "Q31199535"
   },
   {
     "id": "taiwan-touliao-faina-vakhreva-tomb",
@@ -21983,7 +23092,13 @@
       "кітай",
       "пахаванне",
       "маўзалей"
-    ]
+    ],
+    "wikidataId": "Q7828875",
+    "wikidataCoords": [
+      24.8483,
+      121.286
+    ],
+    "wikidataDistKm": 0.012
   },
   {
     "id": "rome-villino-siemiradzki-via-gaeta",
@@ -22034,7 +23149,8 @@
     "personIds": [
       "henryk-siemiradzki"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "strzalkow-dwor-siemiradzkiego",
@@ -22083,7 +23199,13 @@
     "personId": "henryk-siemiradzki",
     "personIds": [
       "henryk-siemiradzki"
-    ]
+    ],
+    "wikidataId": "Q3894798",
+    "wikidataCoords": [
+      51.0503,
+      19.4892
+    ],
+    "wikidataDistKm": 0.487
   },
   {
     "id": "yakutsk-exiled-scholars-memorial",
@@ -22142,7 +23264,8 @@
     "personIds": [
       "jan-czerski",
       "edward-piekarski"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "cherkekh-piekarski-house-museum",
@@ -22192,7 +23315,8 @@
     "personId": "edward-piekarski",
     "personIds": [
       "edward-piekarski"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "turgenevka-belarusian-village-siberia",
@@ -22244,7 +23368,13 @@
       "дыяспара",
       "culture"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": "Q19654948",
+    "wikidataCoords": [
+      53.026703,
+      105.668736
+    ],
+    "wikidataDistKm": 0.0
   },
   {
     "id": "irkutsk-cherny-society-belarusian-culture",
@@ -22297,7 +23427,8 @@
     ],
     "personIds": [
       "jan-czerski"
-    ]
+    ],
+    "wikidataId": "Q118192243"
   },
   {
     "id": "tomsk-belarusian-community-vilenka",
@@ -22343,13 +23474,14 @@
       "Віленка",
       "перасяленцы",
       "culture"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "monroe-arrow-park-kupala-monument",
     "title": {
-      "by": "Помнік Янку Купалу ў Ароў-Парку (Нью-Ёрк)",
-      "ru": "Памятник Янке Купале в Эрроу-Парке (Нью-Йорк)",
+      "by": "Помнік Янку Купалу ў Ароў-Парку (Манро, штат Нью-Ёрк)",
+      "ru": "Памятник Янке Купале в Эрроу-Парке (Монро, штат Нью-Йорк)",
       "en": "Yanka Kupala Monument in Arrow Park (Monroe, NY)"
     },
     "category": "monument",
@@ -22364,13 +23496,13 @@
       "en": "Monroe"
     },
     "coordinates": [
-      41.285774,
-      -74.179269
+      41.286401,
+      -74.18261
     ],
     "description": {
-      "by": "Адрас: Arrow Park Road, Monroe, Orange County, New York, USA.\n\nБронзавы помнік класіку беларускай літаратуры Янку Купалу, усталяваны ў 1973 годзе ў мемарыяльным парку Arrow Park. Аўтар скульптуры — народны мастак Беларусі Анатоль Анікейчык. Помнік стаіць на Алеі славутых паэтаў побач з манументамі Тарасу Шаўчэнку, Уолту Уітмэну і Аляксандру Пушкіну.",
-      "ru": "Памятник классику белорусской литературы Янке Купале в парке Эрроу-Парк (Монро, штат Нью-Йорк), установленный в 1973 г. Скульптор — А. Аникейчик.",
-      "en": "Bronze statue of Belarusian national poet Yanka Kupala, erected in 1973 in Arrow Park (Monroe, New York). Sculpted by Anatol Anikeychyk alongside Walt Whitman, Taras Shevchenko, and Alexander Pushkin."
+      "by": "Адрас: 1061 Orange Turnpike, Monroe, Orange County, New York 10950, USA.\n\nБронзавы помнік класіку беларускай літаратуры Янку Купалу, усталяваны ў 1973 годзе ў мемарыяльным парку Arrow Park (мястэчка Манро, акруга Орандж, за 80 км на поўнач ад Нью-Ёрка каля парку Харыман). Аўтар скульптуры — народны мастак Беларусі Анатоль Анікейчык (архітэктар С. Баткоўскі). Помнік стаіць у мемарыяльным Садзе паэтаў («Чатыры бессмяротныя») побач з манументамі Тарасу Шаўчэнку, Уолту Уітмэну і Аляксандру Пушкіну. Адзіны помнік Янку Купалу ў Заходнім паўшар'і.",
+      "ru": "1061 Orange Turnpike, Monroe, NY 10950. Памятник белорусскому классику Янке Купале в Эрроу-Парке (Монро, штат Нью-Йорк, в 80 км к северу от Манхэттена), установленный в 1973 г. Скульптор — А. Аникейчик.",
+      "en": "1061 Orange Turnpike, Monroe, NY 10950. Bronze monument to Belarusian national poet Yanka Kupala erected in 1973 in Arrow Park (Monroe, Orange County, New York, ~80 km north of NYC). Sculpted by Anatol Anikeychyk in the 'Poets Garden' alongside Taras Shevchenko, Walt Whitman, and Alexander Pushkin."
     },
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Janka_Kupala_1920s.jpg/800px-Janka_Kupala_1920s.jpg",
     "links": [
@@ -22390,7 +23522,8 @@
     "personIds": [
       "yanka-kupala"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "moscow-kutuzovsky-kupala-monument",
@@ -22436,7 +23569,13 @@
     "personId": "yanka-kupala",
     "personIds": [
       "yanka-kupala"
-    ]
+    ],
+    "wikidataId": "Q17476585",
+    "wikidataCoords": [
+      55.742392,
+      37.539575
+    ],
+    "wikidataDistKm": 0.089
   },
   {
     "id": "spb-university-kupala-bust",
@@ -22482,7 +23621,8 @@
     "personId": "yanka-kupala",
     "personIds": [
       "yanka-kupala"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "saratoga-national-park-kosciuszko",
@@ -22533,7 +23673,8 @@
     "personIds": [
       "tadeusz-kosciuszko"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "new-york-kosciuszko-bridge",
@@ -22579,7 +23720,13 @@
     "personId": "tadeusz-kosciuszko",
     "personIds": [
       "tadeusz-kosciuszko"
-    ]
+    ],
+    "wikidataId": "Q6433023",
+    "wikidataCoords": [
+      40.7278,
+      -73.9292
+    ],
+    "wikidataDistKm": 0.004
   },
   {
     "id": "paris-bnr-delegation-hotel-moderne",
@@ -22631,7 +23778,8 @@
     "personIds": [
       "anton-lutskevich"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "paris-bnr-press-bureau-clichy",
@@ -22677,7 +23825,8 @@
     "personId": "anton-lutskevich",
     "personIds": [
       "anton-lutskevich"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "lviv-dybowski-grave",
@@ -22727,7 +23876,8 @@
     "personId": "benedykt-dybowski",
     "personIds": [
       "benedykt-dybowski"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "lviv-dybowski-zoological-museum",
@@ -22773,7 +23923,13 @@
     "personId": "benedykt-dybowski",
     "personIds": [
       "benedykt-dybowski"
-    ]
+    ],
+    "wikidataId": "Q12107052",
+    "wikidataCoords": [
+      49.834,
+      24.032
+    ],
+    "wikidataDistKm": 0.018
   },
   {
     "id": "tokyo-embassy-belarus",
@@ -22782,7 +23938,7 @@
       "ru": "Посольство Беларуси в Японии (Токио)",
       "en": "Embassy of Belarus in Japan (Tokyo)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Японія",
       "ru": "Япония",
@@ -22813,8 +23969,9 @@
       "Японія",
       "Токіа",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "seoul-embassy-belarus",
@@ -22823,7 +23980,7 @@
       "ru": "Посольство Беларуси в Южной Корее (Сеул)",
       "en": "Embassy of Belarus in South Korea (Seoul)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Паўднёвая Карэя",
       "ru": "Южная Корея",
@@ -22854,8 +24011,9 @@
       "Карэя",
       "Сеул",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "new-delhi-embassy-belarus",
@@ -22864,7 +24022,7 @@
       "ru": "Посольство Беларуси в Индии (Нью-Дели)",
       "en": "Embassy of Belarus in India (New Delhi)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Індыя",
       "ru": "Индия",
@@ -22895,8 +24053,9 @@
       "Індыя",
       "Нью-Дэлі",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "hanoi-embassy-belarus",
@@ -22905,7 +24064,7 @@
       "ru": "Посольство Беларуси во Вьетнаме (Ханой)",
       "en": "Embassy of Belarus in Vietnam (Hanoi)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "В'етнам",
       "ru": "Вьетнам",
@@ -22936,8 +24095,9 @@
       "В'етнам",
       "Ханой",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "jakarta-embassy-belarus",
@@ -22946,7 +24106,7 @@
       "ru": "Посольство Беларуси в Индонезии (Джакарта)",
       "en": "Embassy of Belarus in Indonesia (Jakarta)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Інданезія",
       "ru": "Индонезия",
@@ -22977,8 +24137,9 @@
       "Інданезія",
       "Джакарта",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "abu-dhabi-embassy-belarus",
@@ -22987,7 +24148,7 @@
       "ru": "Посольство Беларуси в ОАЭ (Абу-Даби)",
       "en": "Embassy of Belarus in the UAE (Abu Dhabi)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "ААЭ",
       "ru": "ОАЭ",
@@ -23018,8 +24179,9 @@
       "ААЭ",
       "Абу-Дабі",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "astana-embassy-belarus",
@@ -23028,7 +24190,7 @@
       "ru": "Посольство Беларуси в Казахстане (Астана)",
       "en": "Embassy of Belarus in Kazakhstan (Astana)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Казахстан",
       "ru": "Казахстан",
@@ -23059,8 +24221,9 @@
       "Казахстан",
       "Астана",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "tashkent-embassy-belarus",
@@ -23069,7 +24232,7 @@
       "ru": "Посольство Беларуси в Узбекистане (Ташкент)",
       "en": "Embassy of Belarus in Uzbekistan (Tashkent)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Узбекістан",
       "ru": "Узбекистан",
@@ -23100,8 +24263,9 @@
       "Узбекістан",
       "Ташкент",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "tbilisi-embassy-belarus",
@@ -23110,7 +24274,7 @@
       "ru": "Посольство Беларуси в Грузии (Тбилиси)",
       "en": "Embassy of Belarus in Georgia (Tbilisi)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Грузія",
       "ru": "Грузия",
@@ -23141,8 +24305,9 @@
       "Грузія",
       "Тбілісі",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "baku-embassy-belarus",
@@ -23151,7 +24316,7 @@
       "ru": "Посольство Беларуси в Азербайджане (Баку)",
       "en": "Embassy of Belarus in Azerbaijan (Baku)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Азербайджан",
       "ru": "Азербайджан",
@@ -23182,8 +24347,9 @@
       "Азербайджан",
       "Баку",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "yerevan-embassy-belarus",
@@ -23192,7 +24358,7 @@
       "ru": "Посольство Беларуси в Армении (Ереван)",
       "en": "Embassy of Belarus in Armenia (Yerevan)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Арменія",
       "ru": "Армения",
@@ -23223,8 +24389,9 @@
       "Арменія",
       "Ерэван",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "ulaanbaatar-embassy-belarus",
@@ -23233,7 +24400,7 @@
       "ru": "Посольство Беларуси в Монголии (Улан-Батор)",
       "en": "Embassy of Belarus in Mongolia (Ulaanbaatar)"
     },
-    "category": "historical",
+    "category": "embassy",
     "country": {
       "by": "Манголія",
       "ru": "Монголия",
@@ -23264,8 +24431,9 @@
       "Манголія",
       "Улан-Батар",
       "пасольства",
-      "historical"
-    ]
+      "embassy"
+    ],
+    "wikidataId": null
   },
   {
     "id": "tobolsk-kremlin-belarusian-presence",
@@ -23311,7 +24479,8 @@
       "Сібір",
       "крамлін",
       "historical"
-    ]
+    ],
+    "wikidataId": "Q112187287"
   },
   {
     "id": "tyumen-belarusian-community",
@@ -23356,7 +24525,8 @@
       "Цюмень",
       "дыяспара",
       "culture"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "krasnoyarsk-belarusian-autonomy",
@@ -23398,7 +24568,8 @@
       "Сібір",
       "дыяспара",
       "culture"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "malbork-castle-gd-lithuania-collection",
@@ -23444,7 +24615,13 @@
       "ВКЛ",
       "замак",
       "culture"
-    ]
+    ],
+    "wikidataId": "Q71279",
+    "wikidataCoords": [
+      54.039722,
+      19.027778
+    ],
+    "wikidataDistKm": 0.033
   },
   {
     "id": "spb-smolenskoye-vilkitsky-grave",
@@ -23495,7 +24672,8 @@
     "personIds": [
       "andrey-vilkitsky",
       "boris-vilkitsky"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "spb-arctic-museum-vollosovich-vilkitsky",
@@ -23548,7 +24726,8 @@
       "boris-vilkitsky",
       "andrey-vilkitsky",
       "konstantin-vollosovich"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "spb-saint-petersburg-mosque-krichinsky",
@@ -23597,7 +24776,13 @@
     ],
     "personIds": [
       "stepan-krichinsky"
-    ]
+    ],
+    "wikidataId": "Q281900",
+    "wikidataCoords": [
+      59.955167,
+      30.323889
+    ],
+    "wikidataDistKm": 0.015
   },
   {
     "id": "moscow-cathedral-immaculate-conception-dvorzhetsky",
@@ -23648,7 +24833,8 @@
     "personIds": [
       "tomasz-dvorzhetsky"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "samara-sacred-heart-church-dvorzhetsky",
@@ -23693,7 +24879,8 @@
     ],
     "personIds": [
       "tomasz-dvorzhetsky"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "moscow-pigit-house-yuditsky-bulgakov",
@@ -23742,7 +24929,8 @@
     ],
     "personIds": [
       "edmund-yuditsky"
-    ]
+    ],
+    "wikidataId": null
   },
   {
     "id": "moscow-narkomfin-building-ginzburg",
@@ -23792,7 +24980,8 @@
     "personIds": [
       "moisei-ginzburg"
     ],
-    "mustSee": true
+    "mustSee": true,
+    "wikidataId": null
   },
   {
     "id": "saint-remy-glanum-mausoleum-naroulia",
@@ -23838,6 +25027,111 @@
       "Нароўля",
       "антычнасць",
       "historical"
-    ]
+    ],
+    "wikidataId": "Q3301847",
+    "wikidataCoords": [
+      43.7764,
+      4.83099
+    ],
+    "wikidataDistKm": 0.243
+  },
+  {
+    "id": "hajnowka-holy-trinity-orthodox-cathedral",
+    "title": {
+      "by": "Сабор Святой Тройцы ў Гайнаўцы",
+      "ru": "Собор Святой Троицы в Гайновке",
+      "en": "Holy Trinity Orthodox Cathedral in Hajnówka"
+    },
+    "category": "church",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Гайнаўка",
+      "ru": "Гайновка",
+      "en": "Hajnówka"
+    },
+    "coordinates": [
+      52.745691,
+      23.579045
+    ],
+    "description": {
+      "by": "Адрас: вул. ксяндза Антонія Дзевятоўскага 11 (ul. Ks. Dziewiatowskiego 11), Гайнаўка.\n\nМанументальны двухпавярховы сабор з арыгінальнымі хвалістымі жалезабетоннымі скляпеннямі, пабудаваны ў 1974–1992 гг. паводле наватарскага праекта прафесара Аляксандра Грыгар'евіча. Галоўная святыня і духоўны цэнтр праваслаўнага Падляшша. Дзякуючы ўнікальнай акустыцы тут штогод праходзіць сусветна вядомы Міжнародны фестываль царкоўнай музыкі «Гайнаўка» (Międzynarodowy Festiwal Muzyki Cerkiewnej).",
+      "ru": "Ул. Дзевятовского 11, Гайновка. Кафедральный собор Святой Троицы (арх. Александр Григорович), главная святыня православного Подляшья и место проведения Международного фестиваля церковной музыки «Гайновка».",
+      "en": "Holy Trinity Orthodox Cathedral in Hajnówka (designed by Aleksander Grygorowicz, built 1974–1992). An architectural landmark with exceptional acoustics, hosting the renowned International Festival of Orthodox Church Music."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sob%C3%B3r_%C5%9Awi%C4%99tej_Tr%C3%B3jcy_w_Hajn%C3%B3wce.jpg/800px-Sob%C3%B3r_%C5%9Awi%C4%99tej_Tr%C3%B3jcy_w_Hajn%C3%B3wce.jpg",
+    "links": [
+      {
+        "title": "Sobór Świętej Trójcy w Hajnówce (pl.wikipedia)",
+        "url": "https://pl.wikipedia.org/wiki/Sob%C3%B3r_%C5%9Awi%C4%99tej_Tr%C3%B3jcy_w_Hajn%C3%B3wce"
+      }
+    ],
+    "tags": [
+      "Гайнаўка",
+      "Падляшша",
+      "царква",
+      "church"
+    ],
+    "mustSee": true,
+    "wikidataId": "Q1138724",
+    "wikidataCoords": [
+      52.745622,
+      23.579311
+    ],
+    "wikidataDistKm": 0.019
+  },
+  {
+    "id": "bialystok-all-saints-orthodox-cemetery",
+    "title": {
+      "by": "Праваслаўныя могілкі Усіх Святых у Беластоку",
+      "ru": "Православное кладбище Всех Святых в Белостоке",
+      "en": "All Saints Orthodox Cemetery in Białystok"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Беласток",
+      "ru": "Белосток",
+      "en": "Białystok"
+    },
+    "coordinates": [
+      53.1517,
+      23.1812
+    ],
+    "description": {
+      "by": "Адрас: вул. Уладыслава Высоцкага 1 (ul. Władysława Wysockiego 1), раён Ярашоўка / Выгода, Беласток.\n\nГалоўны гістарычны праваслаўны некропаль Беластока, заснаваны ў 1887 годзе і занесены ў рэестр помнікаў Падляшскага ваяводства. Для беларусаў Падляшша гэты некропаль з'яўляецца сапраўдным нацыянальным пантэонам. Тут спачываюць выбітныя дзеячы беларускага руху і культуры Польшчы:\n• Мікола Гайдук (1933–1998) — пісьменнік, навуковец-фалькларыст, педагог, аўтар падручнікаў беларускай мовы і літаратуры;\n• Віктар Швед (1925–2020) — знакаміты беларускі паэт, журналіст і грамадскі дзеяч Беласточчыны;\n• дзеячы Беларускага грамадска-культурнага таварыства (БГКТ), настаўнікі беларускіх школ і творцы;\n• пахаванні сям'і беларускага сенатара і дзеяча БНР Вячаслава Багдановіча.",
+      "ru": "Ул. Высоцкого 1, Белосток. Православное кладбище Всех Святых (осн. 1887 г.) — главный православный некрополь Белостока и пантеон белорусских деятелей Подляшья (Николай Гайдук, Виктор Швед и др.).",
+      "en": "All Saints Orthodox Cemetery in Białystok (ul. Władysława Wysockiego 1, founded 1887). The main historical Orthodox necropolis and cultural pantheon for Belarusians in Podlasie, interring prominent writer Mikoła Hajduk, poet Viktar Szwed, and community activists."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bia%C5%82ystok_-_Cmentarz_prawos%C5%82awny_Wszystkich_%C5%9Awi%C4%99tych.jpg/800px-Bia%C5%82ystok_-_Cmentarz_prawos%C5%82awny_Wszystkich_%C5%9Awi%C4%99tych.jpg",
+    "links": [
+      {
+        "title": "Polskie Radio: Наведваем некропаль у Беластоку",
+        "url": "https://www.polskieradio.pl/396/7819/artykul/3272947"
+      },
+      {
+        "title": "Cmentarz Wszystkich Świętych w Białymstoku (pl.wikipedia)",
+        "url": "https://pl.wikipedia.org/wiki/Cmentarz_Wszystkich_%C5%9Awi%C4%99tych_w_Bia%C5%82ymstoku"
+      }
+    ],
+    "tags": [
+      "Беласток",
+      "Падляшша",
+      "могілкі",
+      "grave"
+    ],
+    "personIds": [
+      "mikola-hajduk",
+      "viktar-szwed"
+    ],
+    "mustSee": true,
+    "wikidataId": null
   }
 ]
