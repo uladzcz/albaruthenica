@@ -1390,44 +1390,16 @@ function setupEventListeners() {
     });
   }
 
-  if (searchClear) {
-    searchClear.addEventListener('click', () => {
-      if (searchInput) {
-        searchInput.value = '';
-        searchQuery = '';
-        searchClear.style.display = 'none';
-        filterAndRender();
-      }
-    });
-  }
-}
-
-// Global handler to filter dataset by tag
-function filterByTag(tag) {
-  if (!tag) return;
-  const cleanTag = String(tag).replace(/^#/, '').trim();
-  const searchInput = document.getElementById('searchInput');
-  const searchClear = document.getElementById('searchClear');
-  if (searchInput) {
-    searchInput.value = '#' + cleanTag;
-  }
-  if (searchClear) {
-    searchClear.style.display = 'block';
-  }
-  searchQuery = cleanTag;
-
-  // Reset category filter so tag search matches across all categories
-  activeCategory = 'all';
-  renderCategoryPills();
-
-  // Close detail view so user sees the filtered list and map markers
-  if (typeof closePlaceDetail === 'function') {
-    closePlaceDetail();
-  }
-
-  filterAndRender();
-}
-window.filterByTag = filterByTag;
+    if (searchClear) {
+      searchClear.addEventListener('click', () => {
+        if (searchInput) {
+          searchInput.value = '';
+          searchQuery = '';
+          searchClear.style.display = 'none';
+          filterAndRender();
+        }
+      });
+    }
 
 
   // Language buttons
@@ -1528,6 +1500,34 @@ window.filterByTag = filterByTag;
   document.getElementById('btnAdminDownloadJson')?.addEventListener('click', handleAdminDownloadJson);
   document.getElementById('btnAdminCopyFullJson')?.addEventListener('click', handleAdminCopyJson);
 }
+
+// Global handler to filter dataset by tag
+function filterByTag(tag) {
+  if (!tag) return;
+  const cleanTag = String(tag).replace(/^#/, '').trim();
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
+  if (searchInput) {
+    searchInput.value = '#' + cleanTag;
+  }
+  if (searchClear) {
+    searchClear.style.display = 'block';
+  }
+  searchQuery = cleanTag;
+
+  // Reset category filter so tag search matches across all categories
+  activeCategory = 'all';
+  renderCategoryPills();
+
+  // Close detail view so user sees the filtered list and map markers
+  if (typeof closePlaceDetail === 'function') {
+    closePlaceDetail();
+  }
+
+  filterAndRender();
+}
+window.filterByTag = filterByTag;
+
 
 // Modals management
 function openModal(id) {
