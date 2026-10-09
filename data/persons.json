@@ -3305,10 +3305,11 @@
       "ru": "Родился в имении Вишнево в семье этнографа Яна Карловича. Выдающийся композитор-неоромантик (симфоническая поэма «Литовская рапсодия», «Извечные песни»). Похоронен на Старых Повонзках в Варшаве.",
       "en": "Born in Vishneva to the family of folklorist Jan Karłowicz. Outstanding late-Romantic symphonic composer ('Lithuanian Rhapsody', 'Eternal Songs'). Buried at Powązki Cemetery in Warsaw."
     },
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mieczys%C5%82aw_Kar%C5%82owicz_-_gr%C3%B3b.jpg/500px-Mieczys%C5%82aw_Kar%C5%82owicz_-_gr%C3%B3b.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mieczys%C5%82aw_Kar%C5%82owicz_%28-1909%29.jpg/960px-Mieczys%C5%82aw_Kar%C5%82owicz_%28-1909%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Мечыслаў_Карловіч",
     "placeIds": [
-      "warsaw-cmentarz-powazkowski-stare-powazki"
+      "warsaw-cmentarz-powazkowski-stare-powazki",
+      "tatra-kamien-karlowicza-monument"
     ]
   },
   {
