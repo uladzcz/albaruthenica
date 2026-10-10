@@ -559,6 +559,7 @@
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Branis%C5%82a%C5%AD_Tara%C5%A1kievi%C4%8D._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A2%D0%B0%D1%80%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%2801.1927%29.jpg/330px-Branis%C5%82a%C5%AD_Tara%C5%A1kievi%C4%8D._%D0%91%D1%80%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D1%9E_%D0%A2%D0%B0%D1%80%D0%B0%D1%88%D0%BA%D0%B5%D0%B2%D1%96%D1%87_%2801.1927%29.jpg",
     "wiki": "https://be.wikipedia.org/wiki/Браніслаў_Адамавіч_Тарашкевіч",
     "placeIds": [
+      "bielsk-podlaski-lyceum-taraszkiewicz",
       "vilnia-dom-tarashkevicha"
     ],
     "wikidataId": "Q2150090"
@@ -2101,6 +2102,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Euphrosyne_of_Polotsk._Sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "wiki": "https://be.wikipedia.org/wiki/Еўфрасіння_Полацкая",
     "placeIds": [
+      "jerusalem-euphrosyne-polotsk-pilgrimage",
       "kyiv-pechersk-lavra-hleb-minskirad"
     ],
     "wikidataId": "Q257706"
@@ -4404,5 +4406,131 @@
       "buenos-aires-zhurtavannie-belarusau-arhentine-merlyak"
     ],
     "wikidataId": "Q13031030"
+  },
+  {
+    "id": "radziwill-sierotka",
+    "name": {
+      "by": "Мікалай Крыштаф Радзівіл «Сіротка»",
+      "ru": "Николай Христофор Радзивилл «Сиротка»",
+      "en": "Mikołaj Krzysztof Radziwiłł 'the Orphan'"
+    },
+    "dates": "1549–1616",
+    "role": {
+      "by": "Дзяржаўны і вайсковы дзеяч ВКЛ, маршалак вялікі літоўскі, ваявода віленскі і троцкі, князь нясвіжскі, падарожнік і мецэнат",
+      "ru": "Государственный деятель ВКЛ, маршалок великий литовский, воевода виленский и трокский, князь несвижский, меценат",
+      "en": "Grand Duchy statesman, Grand Marshal, Voivode of Vilnius and Trakai, Prince of Niasviž, patron and explorer"
+    },
+    "bio": {
+      "by": "Адзін з найвыбітнейшых магнатаў і інтэлектуалаў ВКЛ эпохі Рэнесансу, заснавальнік Нясвіжскага замка, калегіума езуітаў і Касцёла Божага Цела. У 1582–1584 гг. здзейсніў грандыёзнае паломніцтва і даследчую выправу ў Святую Зямлю (пасвечаны ў рыцары Гроба Гасподняга ў Іерусаліме), Сірыю і Егіпет, дзе навукова вывучыў і абмераў піраміды Гізы, Сфінкса і пахаванні ў Сакары. Аўтар еўрапейскага бестселера «Паломніцтва ў Святую Зямлю» («Hierosolymitana peregrinatio», 1601), ініцыятар і фундатар стварэння Вялікай карты ВКЛ (Радзівілаўскай карты) 1613 года.",
+      "ru": "Выдающийся государственный деятель Великого Княжества Литовского, строитель Несвижского замка и костёла Божьего Тела. В 1582–1584 гг. совершил экспедицию в Святую Землю (Иерусалим) и Египет, где исследовал пирамиды Гизы и мумии. Автор знаменитой книги «Паломничество в Святую Землю» (1601) и создатель Радзивилловской карты ВКЛ (1613).",
+      "en": "Eminent Renaissance statesman of the Grand Duchy of Lithuania, builder of Nesvizh Castle. Led a renowned expedition to the Holy Land (Jerusalem) and Egypt (1582–1584), providing Europe with the first detailed modern measurements of the Giza Pyramids and ancient mummies. Author of 'Peregrination to the Holy Land' (1601) and sponsor of the landmark 1613 Radziwiłł Map of the GDL."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mika%C5%82aj_Kry%C5%A1taf_Radzivi%C5%82_%C2%ABSirotka%C2%BB._%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9A%D1%80%D1%8B%D1%88%D1%82%D0%B0%D1%84_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%C2%AB%D0%A1%D1%96%D1%80%D0%BE%D1%82%D0%BA%D0%B0%C2%BB_%281600-49%29.jpg/800px-Mika%C5%82aj_Kry%C5%A1taf_Radzivi%C5%82_%C2%ABSirotka%C2%BB._%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9A%D1%80%D1%8B%D1%88%D1%82%D0%B0%D1%84_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%C2%AB%D0%A1%D1%96%D1%80%D0%BE%D1%82%D0%BA%D0%B0%C2%BB_%281600-49%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Мікалай_Крыштоф_Радзівіл_Сіротка",
+    "wikidataId": "Q543162",
+    "placeIds": [
+      "jerusalem-radziwill-sierotka-holy-sepulchre",
+      "giza-pyramids-radziwill-sierotka-egypt"
+    ]
+  },
+  {
+    "id": "zalman-shazar",
+    "name": {
+      "by": "Залман Шазар (Шнэўр Залман Рубашоў)",
+      "ru": "Залман Шазар (Шнеур Залман Рубашов)",
+      "en": "Zalman Shazar (Shneur Zalman Rubashov)"
+    },
+    "dates": "1889–1974",
+    "role": {
+      "by": "Трэці прэзідэнт Ізраіля (1963–1973), пісьменнік, гісторык, дзеяч сіянісцкага руху, ураджэнец мястэчка Мір",
+      "ru": "Третий президент Израиля (1963–1973), писатель, историк, уроженец местечка Мир",
+      "en": "3rd President of Israel (1963–1973), writer, historian, native of Mir (Belarus)"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў мястэчку Мір Навагрудскага павета (цяпер Карэліцкі раён Гродзенскай вобласці). Выдатны інтэлектуал, гісторык і публіцыст. Першы міністр адукацыі Дзяржавы Ізраіль (увёў закон аб усеагульнай бясплатнай пачатковай адукацыі). У 1963–1973 гадах — трэці прэзідэнт Дзяржавы Ізраіль. На працягу ўсяго жыцця захоўваў цёплыя ўспаміны пра родны Мір і беларускае мястэчка, прысвяціўшы яму кранальныя гістарычныя і мемуарныя нарысы.",
+      "ru": "Родился в местечке Мир (ныне Кореличский район Гродненской области). Историк, публицист, первый министр образования Израиля. В 1963–1973 гг. — третий президент Израиля. Автор мемуаров и исследований об истории еврейских общин Беларуси.",
+      "en": "Born in Mir, Navahrudak district (modern Grodno Region, Belarus). Scholar, writer, and Israel's founding Minister of Education who introduced compulsory schooling. Served as President of Israel from 1963 to 1973, leaving celebrated essays about life in Mir and Belarus."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flickr_-_Government_Press_Office_%28GPO%29_-_PRESIDENT_ZALMAN_SHAZAR._%281%29.jpg/800px-Flickr_-_Government_Press_Office_%28GPO%29_-_PRESIDENT_ZALMAN_SHAZAR._%281%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Залман_Шазар",
+    "wikidataId": "Q299592",
+    "placeIds": [
+      "jerusalem-zalman-shazar-center-grave"
+    ]
+  },
+  {
+    "id": "ben-yehuda",
+    "name": {
+      "by": "Эліэзер Бен-Егуда (Эліэзер Іцхак Пэрэльман)",
+      "ru": "Элиэзер Бен-Йехуда",
+      "en": "Eliezer Ben-Yehuda"
+    },
+    "dates": "1858–1922",
+    "role": {
+      "by": "«Бацька сучаснага іўрыта», мовазнавец і лексікограф, ураджэнец мястэчка Лужкі на Віленшчыне (цяпер Віцебшчына)",
+      "ru": "«Отец современного иврита», лексикограф, уроженец местечка Лужки (Витебская область)",
+      "en": "Father of Modern Hebrew, lexicographer, native of Lužki (Belarus)"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў мястэчку Лужкі Дзісненскага павета Віленскай губерні (цяпер Шаркаўшчынскі раён Віцебскай вобласці). Прысвяціў жыццё адраджэнню іўрыта як жывой гутарковай мовы. Заснавальнік Камітэта мовы іўрыт (цяпер Акадэмія мовы іўрыт у Іерусаліме), стваральнік фундаментальнага 16-томнага Поўнага слоўніка старажытнага і сучаснага іўрыта. Яго сын Ітамар стаў першым дзіцем у найноўшай гісторыі, для якога іўрыт стаў роднай мовай з нараджэння.",
+      "ru": "Родился в местечке Лужки Дисненского уезда (ныне Шарковщинский район). Посвятил жизнь возрождению иврита как разговорного языка. Основатель Академии языка иврит в Иерусалиме, составитель полного 16-томного словаря иврита.",
+      "en": "Born in Lužki (Disna district, modern Sharkawshchyna district of Belarus). The pioneering driving force behind the revival of Hebrew as a spoken everyday language. Founded the Academy of the Hebrew Language in Jerusalem and authored the monumental 16-volume Dictionary of Ancient and Modern Hebrew."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Eliezer_Ben-Yehuda.jpg/800px-Eliezer_Ben-Yehuda.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Эліэзер_Бен-Егуда",
+    "wikidataId": "Q181262",
+    "placeIds": [
+      "jerusalem-eliezer-ben-yehuda-house"
+    ]
+  },
+  {
+    "id": "jaroslaw-kostycewicz",
+    "name": {
+      "by": "Яраслаў Кастыцэвіч",
+      "ru": "Ярослав Костыцевич",
+      "en": "Jarosław Kostycewicz"
+    },
+    "dates": "1893–1971",
+    "role": {
+      "by": "Выдатны беларускі педагог, асветнік і грамадскі дзеяч Падляшша, арганізатар беларускага школьніцтва ў Бельску Падляскім",
+      "ru": "Белорусский педагог и общественный деятель Подляшья, создатель белорусского школьного образования в Бельске-Подляском",
+      "en": "Prominent Belarusian educator, founder of post-war Belarusian education in Bielsk Podlaski"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Пасынкі каля Бельска Падляскага. У верасні 1944 года ў Бельску Падляскім заснаваў і ўзначаліў першую пасляваенную Беларускую гімназію і ліцэй. Заснавальнік і шматгадовы кіраўнік Пачатковай школы №3 з беларускай мовай навучання ў Бельску Падляскім, якая сёння носіць яго імя. Актыўны дзеяч Беларускага грамадска-культурнага таварыства (БГКТ).",
+      "ru": "Родился около Бельска-Подляского. В 1944 году открыл и возглавил Белорусскую гимназию в Бельске-Подляском. Основатель и директор начальной школы №3 с дополнительным белорусским языком, носящей ныне его имя.",
+      "en": "Born near Bielsk Podlaski. In 1944, established and directed the post-war Belarusian Gymnasium and Lyceum in Bielsk Podlaski. Founder and longtime principal of Primary School No. 3 with Belarusian language instruction, which proudly bears his name."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Jaros%C5%82aw_Kostycewicz.jpg/600px-Jaros%C5%82aw_Kostycewicz.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Яраслаў_Кастыцэвіч",
+    "wikidataId": "Q11720892",
+    "placeIds": [
+      "bielsk-podlaski-szkola-3-kostycewicz"
+    ]
+  },
+  {
+    "id": "doroteusz-fionik",
+    "name": {
+      "by": "Дарафей Фіёнік",
+      "ru": "Дорофей Фионик",
+      "en": "Doroteusz Fionik"
+    },
+    "dates": "нар. 1968",
+    "role": {
+      "by": "Беларускі гісторык, этнограф, дзеяч культуры Падляшша, заснавальнік Музея малой бацькаўшчыны ў Студзіводах",
+      "ru": "Белорусский историк, этнограф Подляшья, создатель Музея малой родины в Студиводах (Бельск-Подляски)",
+      "en": "Belarusian historian, ethnographer, founder of the Museum of Small Homeland in Studziwody (Bielsk Podlaski)"
+    },
+    "bio": {
+      "by": "Ураджэнец Бельска Падляскага. Выдатны даследчык традыцыйнай культуры, фальклору і гісторыі беларусаў Падляшша. У 1993 годзе заснаваў у гістарычнай частцы Бельска Падляскага (Студзіводы) прыватны скансэн драўлянага дойлідства і традыцыйнай культуры — Музей малой бацькаўшчыны. Старшыня Музейнага таварыства ABBA, выдавец часопіса «Бельскі гостінец», арганізатар штогадовых этнаграфічных фэстаў «Там па маёй карчме» і «Тры тысячы гадоў Студзіводаў».",
+      "ru": "Уроженец Бельска-Подляского. Исследователь истории и традиционной культуры белорусов Подляшья. В 1993 году основал в Студиводах (Бельск-Подляски) Музей малой родины (скансен деревянного зодчества). Глава общества ABBA, издатель журнала «Бельскі гостінец».",
+      "en": "Born in Bielsk Podlaski. Historian, ethnographer, and folklorist of Podlasie Belarusians. In 1993, created the Museum of the Small Homeland in Studziwody (an open-air skansen of historic Podlasie wooden architecture). Chair of the ABBA Museum Association and publisher of Bielski Hostineć."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Doroteusz_Fionik_2015.jpg/600px-Doroteusz_Fionik_2015.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Дарафей_Фіёнік",
+    "wikidataId": "Q11694318",
+    "placeIds": [
+      "studziwody-muzej-maloj-backauszcyny"
+    ]
   }
 ]

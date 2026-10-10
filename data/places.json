@@ -18311,50 +18311,11 @@
     "wikidataDistKm": 0.035
   },
   {
-    "id": "bielsk-podlaski-szkola-3-hajduk",
-    "title": {
-      "by": "Беларуская пачатковая школа №3 імя Міколы Гайдука ў Бельску Падляскім",
-      "ru": "Белорусская начальная школа №3 имени Николая Гайдука в Бельске-Подляском",
-      "en": "Primary School No. 3 im. Mikołaja Hajduka with Belarusian Language (Bielsk Podlaski)"
-    },
-    "category": "culture",
-    "country": {
-      "by": "Польшча",
-      "ru": "Польша",
-      "en": "Poland"
-    },
-    "city": {
-      "by": "Бельск Падляскі",
-      "ru": "Бельск-Подляски",
-      "en": "Bielsk Podlaski"
-    },
-    "coordinates": [
-      52.766891,
-      23.193512
-    ],
-    "image": "",
-    "description": {
-      "by": "Пачатковая школа №3 з дадатковым навучаннем беларускай мовы ў Бельску Падляскім (вул. Панятоўскага 9). Носіць імя выдатнага беларускага пісьменніка, краязнаўца, фалькларыста і настаўніка Міколы Гайдука (1933–1998). Тут выкладаецца беларуская мова, дзеці вывучаюць традыцыі Падляшша, дзейнічаюць беларускія фальклорныя і тэатральныя калектывы.",
-      "ru": "Начальная школа №3 с обучением белорусскому языку в Бельске-Подляском. Носит имя писателя, фольклориста и педагога Николая Гайдука. Дети изучают белорусский язык и традиции родного края.",
-      "en": "Primary School No. 3 in Bielsk Podlaski with supplementary Belarusian language instruction, named after Belarusian author and folklorist Mikoła Hajduk (1933–1998). Teaches Belarusian language, regional heritage, and folklore."
-    },
-    "personIds": [
-      "mikola-hajduk"
-    ],
-    "links": [
-      {
-        "title": "Szkoła Podstawowa nr 3 w Bielsku Podlaskim",
-        "url": "https://trojka.szkolnastrona.pl/p,1,szkola"
-      }
-    ],
-    "wikidataId": null
-  },
-  {
     "id": "studziwody-muzej-maloj-backauszcyny",
     "title": {
-      "by": "Музей малой бацькаўшчыны ў Студзіводах (Stowarzyszenie ABBA, Бельск Падляскі)",
-      "ru": "Музей малой родины в Студиводах (Stowarzyszenie ABBA, Бельск-Подляски)",
-      "en": "Museum of the Small Homeland in Studziwody (ABBA Association, Bielsk Podlaski)"
+      "by": "Музей малой бацькаўшчыны ў Студзіводах (Бельск Падляскі, Stowarzyszenie ABBA)",
+      "ru": "Музей малой родины в Студиводах (Бельск-Подляски, Stowarzyszenie ABBA)",
+      "en": "Museum of the Small Homeland in Studziwody (Bielsk Podlaski, ABBA Association)"
     },
     "category": "culture",
     "country": {
@@ -18368,23 +18329,41 @@
       "en": "Bielsk Podlaski"
     },
     "coordinates": [
-      52.743353,
-      23.188919
+      52.743071,
+      23.193516
     ],
     "image": "",
     "description": {
-      "by": "Унікальны прыватны скансен і культурна-асветніцкі асяродак традыцыйнай беларускай культуры Падляшша ў гістарычным прадмесці Студзіводы (вул. Сасновая 34, Бельск Падляскі), заснаваны этнографам і гісторыкам Дарафеем Фіёнікам і таварыствам «Музей малой бацькаўшчыны» (ABBA). Складаецца з аўтэнтычных драўляных сядзіб і хат XIX–XX стст., багатага этнаграфічнага архіва, выдавецтва краязнаўчай літаратуры і знанага спеўнага фальклорнага ансамбля «Жэмэрва».",
-      "ru": "Этнографический музей-скансен традиционной белорусской культуры Подляшья в предместье Студиводы (Бельск-Подляски), основанный историком Дорофеем Фиоником и ассоциацией ABBA. Включает деревянные усадьбы XIX–XX веков, богатый архив и ансамбль «Жэмерва».",
-      "en": "Open-air ethnographic museum and cultural center of traditional Podlasie Belarusian heritage in Studziwody (Bielsk Podlaski), created by historian Doroteusz Fionik and the ABBA Association. Preserves wooden homesteads, vernacular crafts, publishing archives, and the 'Żemerwa' vocal ensemble."
+      "by": "Адрас: ul. Sosnowa 17, 17-100 Bielsk Podlaski (раён Студзіводы / Studziwody).\n\nУнікальны прыватны скансэн беларускага драўлянага дойлідства, традыцыйнай культуры і фальклору Падляшша, заснаваны ў 1993 годзе гісторыкам і краязнаўцам Дарафеем Фіёнікам. На тэрыторыі музея сабраны аўтэнтычныя драўляныя пабудовы: хата сям'і Кандрацюкоў 1925 года з вёскі Кастравец, клець 1935 года, свіран, стадола. У музеі дзейнічае багатая экспазіцыя традыцыйнага ткацтва, вышыўкі, ганчарства, беларускіх старадрукаў і рукапісаў. Тут базуецца Музейнае таварыства ABBA, выдаецца краязнаўчы часопіс «Бельскі гостінец» і праводзяцца знакамітыя фальклорна-этнаграфічныя святы і майстар-класы традыцыйных танцаў і спеваў Падляшша.",
+      "ru": "ul. Sosnowa 17, 17-100 Бельск-Подляски (район Студиводы). Уникальный музей-скансен традиционной деревянной архитектуры и культуры белорусов Подляшья, созданный в 1993 году Дорофеем Фиоником. Экспозиция включает подлинные деревянные усадьбы и хозяйственные постройки, коллекции ткачества, вышивки, старинных книг и этнографических материалов общества ABBA.",
+      "en": "ul. Sosnowa 17, 17-100 Bielsk Podlaski (Studziwody district). A renowned open-air ethnographic museum (skansen) dedicated to the traditional wooden architecture, folklore, and heritage of Podlasie Belarusians, founded in 1993 by historian Doroteusz Fionik. Houses authentic wooden dwellings, barns, historic textiles, and rare manuscripts."
     },
     "mustSee": true,
     "links": [
       {
-        "title": "Stowarzyszenie Muzeum Małej Ojczyzny w Studziwodach (Facebook)",
-        "url": "https://www.facebook.com/stowarzyszenie.abba/"
+        "title": "Музей малой бацькаўшчыны ў Студзіводах",
+        "url": "https://studziwody.pl"
+      },
+      {
+        "title": "Stowarzyszenie Muzeum Małej Ojczyzny w Studziwodach",
+        "url": "https://be.wikipedia.org/wiki/Дарафей_Фіёнік"
       }
     ],
-    "wikidataId": null
+    "wikidataId": null,
+    "personIds": [
+      "doroteusz-fionik"
+    ],
+    "tags": [
+      "Бельск Падляскі",
+      "Студзіводы",
+      "Падляшша",
+      "скансэн",
+      "музей",
+      "этнаграфія",
+      "фальклор",
+      "драўлянае дойлідства",
+      "Дарафей Фіёнік"
+    ]
   },
   {
     "id": "grabarka-sviataya-hara",
@@ -25830,5 +25809,811 @@
     "personIds": [],
     "mustSee": true,
     "wikidataId": null
+  },
+  {
+    "id": "bielsk-podlaski-szkola-3-kostycewicz",
+    "title": {
+      "by": "Беларуская пачатковая школа №3 імя Яраслава Кастыцэвіча ў Бельску Падляскім",
+      "ru": "Белорусская начальная школа №3 имени Ярослава Костыцевича в Бельске-Подляском",
+      "en": "Primary School No. 3 with Belarusian Language named after Jarosław Kostycewicz (Bielsk Podlaski)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Бельск Падляскі",
+      "ru": "Бельск-Подляски",
+      "en": "Bielsk Podlaski"
+    },
+    "coordinates": [
+      52.766891,
+      23.193512
+    ],
+    "description": {
+      "by": "Адрас: ul. Józefa Poniatowskiego 9, 17-100 Bielsk Podlaski (Польшча).\n\nSzkoła Podstawowa nr 3 z Dodatkową Nauką Języka Białoruskiego im. Jarosława Kostycewicza — вядучая базавая навучальная ўстанова з вывучэннем беларускай мовы і культуры ў Бельску Падляскім. Школа носіць імя свайго заснавальніка — выбітнага беларускага педагога, арганізатара беларускай пасляваеннай адукацыі на Падляшшы Яраслава Кастыцэвіча (1893–1971). У школе праводзяцца заняткі па беларускай мове, літаратуры, гісторыі і краязнаўстве, дзейнічаюць фальклорныя і музычныя калектывы (у тым ліку вядомы дзіцячы калектыў «Васілёчкі»), адзначаюцца традыцыйныя святы.",
+      "ru": "ul. Józefa Poniatowskiego 9, 17-100 Бельск-Подляски. Начальная школа №3 с дополнительным обучением белорусскому языку имени Ярослава Костыцевича — важнейший центр белорусского образования на Подляшье. Названа в честь выдающегося педагога Ярослава Костыцевича (1893–1971). При школе действуют белорусские детские фольклорные ансамбли (включая «Василёчки»).",
+      "en": "ul. Józefa Poniatowskiego 9, 17-100 Bielsk Podlaski, Poland. Primary School No. 3 with Additional Instruction in Belarusian Language named after Jarosław Kostycewicz. Founded by pioneering Belarusian educator Jarosław Kostycewicz (1893–1971), it serves as a central hub of Belarusian bilingual education and cultural life for youth in Podlasie."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bielsk_Podlaski_-_Ratusz_01.jpg/960px-Bielsk_Podlaski_-_Ratusz_01.jpg",
+    "links": [
+      {
+        "title": "Szkoła Podstawowa nr 3 w Bielsku Podlaskim",
+        "url": "https://sp3bielsk.edupage.org"
+      },
+      {
+        "title": "Яраслаў Кастыцэвіч у Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Яраслаў_Кастыцэвіч"
+      }
+    ],
+    "tags": [
+      "Бельск Падляскі",
+      "Падляшша",
+      "школа",
+      "адукацыя",
+      "беларуская мова",
+      "Яраслаў Кастыцэвіч"
+    ],
+    "personIds": [
+      "jaroslaw-kostycewicz"
+    ],
+    "wikidataId": null
+  },
+  {
+    "id": "bielsk-podlaski-lyceum-taraszkiewicz",
+    "title": {
+      "by": "Беларускі ліцэй імя Браніслава Тарашкевіча ў Бельску Падляскім (II LO z BJN)",
+      "ru": "Белорусский лицей имени Бронислава Тарашкевича в Бельске-Подляском (II LO)",
+      "en": "II Lyceum with Belarusian Language Instruction named after Bronisław Taraszkiewicz (Bielsk Podlaski)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Бельск Падляскі",
+      "ru": "Бельск-Подляски",
+      "en": "Bielsk Podlaski"
+    },
+    "coordinates": [
+      52.767282,
+      23.193663
+    ],
+    "description": {
+      "by": "Адрас: ul. Mikołaja Kopernika 4, 17-100 Bielsk Podlaski (Польшча).\n\nII Liceum Ogólnokształcące z Białoruskim Językiem Nauczania im. Bronisława Taraszkiewicza ў Бельску Падляскім — найстарэйшая пасляваенная беларуская сярэдняя школа ў Польшчы, заснаваная ў верасні 1944 года педагогам Яраславам Кастыцэвічам як Беларуская дзяржаўная гімназія і ліцэй. У 1969 годзе ліцэю прысвоена імя выбітнага беларускага мовазнаўцы, стваральніка першай граматыкі сучаснай беларускай мовы і дэпутата Сейма Браніслава Тарашкевіча (1892–1938). Ліцэй з'яўляецца кузняй беларускай інтэлігенцыі Падляшша, дзе сфарміраваліся пакаленні дзеячаў навукі, мастацтва, журналістыкі і літаратуры.",
+      "ru": "ul. Mikołaja Kopernika 4, 17-100 Бельск-Подляски. II общеобразовательный лицей с обучением на белорусском языке имени Бронислава Тарашкевича — старейшая послевоенная белорусская средняя школа в Польше (основана в сентябре 1944 года). Носит имя выдающегося языковеда Бронислава Тарашкевича (1892–1938).",
+      "en": "ul. Mikołaja Kopernika 4, 17-100 Bielsk Podlaski, Poland. II High School with Belarusian Language of Instruction named after Bronisław Taraszkiewicz. Established in September 1944 as the first post-war Belarusian gymnasium in Poland. Bears the name of renowned linguist and parliamentarian Branislaŭ Taraškevič (1892–1938)."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bielsk_Podlaski_-_Ratusz_01.jpg/960px-Bielsk_Podlaski_-_Ratusz_01.jpg",
+    "links": [
+      {
+        "title": "II Liceum Ogólnokształcące z BJN im. B. Taraszkiewicza",
+        "url": "http://lozbjn.edu.pl"
+      },
+      {
+        "title": "Браніслаў Тарашкевіч у Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Браніслаў_Адамавіч_Тарашкевіч"
+      }
+    ],
+    "tags": [
+      "Бельск Падляскі",
+      "Падляшша",
+      "ліцэй",
+      "гімназія",
+      "адукацыя",
+      "беларуская мова",
+      "Браніслаў Тарашкевіч"
+    ],
+    "personIds": [
+      "branislau-tarashkevich"
+    ],
+    "wikidataId": "Q11710920"
+  },
+  {
+    "id": "bielsk-podlaski-gora-zamkowa",
+    "title": {
+      "by": "Замкавая гара ў Бельску Падляскім (Бельскі замак ВКЛ і Сейм 1564 года)",
+      "ru": "Замковая гора в Бельске-Подляском (Бельский замок ВКЛ и Сейм 1564 года)",
+      "en": "Castle Hill in Bielsk Podlaski (GDL Royal Castle and Sejm of 1564)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Бельск Падляскі",
+      "ru": "Бельск-Подляски",
+      "en": "Bielsk Podlaski"
+    },
+    "coordinates": [
+      52.764874,
+      23.191421
+    ],
+    "description": {
+      "by": "Лакацыя: скрыжаванне вуліц Zamkowa і Studziwodzka, Bielsk Podlaski (Польшча).\n\nГістарычнае гарадзішча XII–XVI стагоддзяў і дзядзінец сярэднявечнага каралеўскага замка Вялікага Княства Літоўскага. Тут рэгулярна спыняліся вялікія князі літоўскія і каралі польскія. У 1501 годзе вялікі князь Аляксандр Ягелончык падпісаў у замку знакаміты Бельскі прывілей, які пацвердзіў самакіраванне і правы шляхты Падляшша. У 1564 годзе кароль Жыгімонт II Аўгуст правёў на Замкавай гары Генеральны сойм ВКЛ (Бельскі сойм), на якім была праведзена фундаментальная судовая рэформа Вялікага Княства і падрыхтавана прыняцце Другога Статута ВКЛ (1566).",
+      "ru": "Замковая гора в Бельске-Подляском — средневековое замчище и резиденция Великих князей литовских. В 1501 г. великий князь Александр издал здесь Бельский привилей. В 1564 г. король Сигизмунд II Август провел здесь Генеральный сейм ВКЛ, заложивший основы судебной реформы и Второго Статута ВКЛ.",
+      "en": "Góra Zamkowa in Bielsk Podlaski. A historic medieval hillfort and the site of the Royal Castle of the Grand Duchy of Lithuania. Here, Grand Duke Alexander issued the Bielsk Privilege in 1501, and King Sigismund II Augustus convened the General Sejm of the GDL in 1564, advancing the Second Lithuanian Statute (1566)."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bielsk_Podlaski_-_Ratusz_01.jpg/960px-Bielsk_Podlaski_-_Ratusz_01.jpg",
+    "links": [
+      {
+        "title": "Góra Zamkowa w Bielsku Podlaskim",
+        "url": "https://pl.wikipedia.org/wiki/G%C3%B3ra_Zamkowa_w_Bielsku_Podlaskim"
+      }
+    ],
+    "tags": [
+      "Бельск Падляскі",
+      "Замкавая гара",
+      "замак",
+      "ВКЛ",
+      "Статут ВКЛ",
+      "Сейм ВКЛ",
+      "гісторыя"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "bielsk-podlaski-cerkiew-sw-michala",
+    "title": {
+      "by": "Драўляная царква Святога Міхала Арханёла ў Бельску Падляскім (1789)",
+      "ru": "Деревянная церковь Святого Михаила Архангела в Бельске-Подляском (1789)",
+      "en": "Wooden Church of St. Michael the Archangel in Bielsk Podlaski (1789)"
+    },
+    "category": "church",
+    "country": {
+      "by": "Польшча",
+      "ru": "Польша",
+      "en": "Poland"
+    },
+    "city": {
+      "by": "Бельск Падляскі",
+      "ru": "Бельск-Подляски",
+      "en": "Bielsk Podlaski"
+    },
+    "coordinates": [
+      52.767628,
+      23.191072
+    ],
+    "description": {
+      "by": "Адрас: ul. Adama Mickiewicza 36, 17-100 Bielsk Podlaski (Польшча).\n\nШэдэўр традыцыйнага беларускага народнага драўлянага дойлідства Падляшша, узведзены ў 1789 годзе. Адна з найстарэйшых драўляных праваслаўных святынь рэгіёна, якая захавала аўтэнтычныя формы барока з мясцовымі падляшскімі матывамі. У інтэр'еры царквы беражліва захоўваюцца старадаўнія абразы XVII–XVIII стагоддзяў і разны іканастас. Святыня з'яўляецца важным духоўным цэнтрам праваслаўных беларусаў Бельскай зямлі.",
+      "ru": "ul. Adama Mickiewicza 36, 17-100 Бельск-Подляски. Памятник традиционного деревянного зодчества Подляшья, построенный в 1789 году. Один из старейших сохранившихся деревянных православных храмов региона с уникальным иконостасом и иконами XVII–XVIII веков.",
+      "en": "ul. Adama Mickiewicza 36, 17-100 Bielsk Podlaski, Poland. A historic 1789 wooden Orthodox church, representing the finest vernacular wooden baroque architecture of the Podlasie region. Preserves 17th–18th-century icons and serves as a vital spiritual sanctuary for the local Belarusian community."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Bielsk_Podlaski_-_Ratusz_01.jpg/960px-Bielsk_Podlaski_-_Ratusz_01.jpg",
+    "links": [
+      {
+        "title": "Cerkiew św. Michała Archanioła w Bielsku Podlaskim",
+        "url": "https://pl.wikipedia.org/wiki/Cerkiew_%C5%9Bw._Micha%C5%82a_Archanio%C5%82a_w_Bielsku_Podlaskim"
+      }
+    ],
+    "tags": [
+      "Бельск Падляскі",
+      "Падляшша",
+      "царква",
+      "драўлянае дойлідства",
+      "праваслаўе",
+      "дойлідства"
+    ],
+    "personIds": [],
+    "wikidataId": "Q9188849"
+  },
+  {
+    "id": "havana-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі на Кубе (Гавана)",
+      "ru": "Посольство Беларуси на Кубе (Гавана)",
+      "en": "Embassy of Belarus in Cuba (Havana)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Куба",
+      "ru": "Куба",
+      "en": "Cuba"
+    },
+    "city": {
+      "by": "Гавана",
+      "ru": "Гавана",
+      "en": "Havana"
+    },
+    "coordinates": [
+      23.109156,
+      -82.43425
+    ],
+    "description": {
+      "by": "Адрас: Ave. 5ta, No. 6405, entre 64 y 66, Miramar, Playa, La Habana, 11300, Cuba.\n\nАфіцыйнае дыпламатычнае прадстаўніцтва Рэспублікі Беларусь у Рэспубліцы Куба. Адкрыта ў 1999 годзе ў прэстыжным дыпламатычным раёне Мірамар на 5-й авеню. Пасольства таксама курыруе адносіны Беларусі з шэрагам краін Карыбскага басейна і Цэнтральнай Амерыкі (у тым ліку Нікарагуа і Дамініканскай Рэспублікай). Забяспечвае гандлёва-эканамічнае, навукова-тэхнічнае і гуманітарнае супрацоўніцтва.",
+      "ru": "Ave. 5ta, No. 6405, между 64 и 66, Мирамар, Плайя, Гавана. Дипломатическое представительство Республики Беларусь на Кубе, открытое в 1999 году. Также представляет интересы Беларуси в ряде стран Карибского бассейна и Центральной Америки (включая Никарагуа).",
+      "en": "Ave. 5ta, No. 6405, entre 64 y 66, Miramar, Playa, Havana, Cuba. The official Embassy of the Republic of Belarus to the Republic of Cuba, established in 1999. Also oversees relations with several Caribbean and Central American nations, including Nicaragua."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/La_Habana_-_Miramar_-_Embajadas.jpg/960px-La_Habana_-_Miramar_-_Embajadas.jpg",
+    "links": [
+      {
+        "title": "Посольство Республики Беларусь в Республике Куба",
+        "url": "https://cuba.mfa.gov.by"
+      }
+    ],
+    "tags": [
+      "Куба",
+      "Гавана",
+      "пасольства",
+      "embassy",
+      "Цэнтральная Амерыка",
+      "Карыбы"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "caracas-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Венесуэле (Каракас)",
+      "ru": "Посольство Беларуси в Венесуэле (Каракас)",
+      "en": "Embassy of Belarus in Venezuela (Caracas)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Венесуэла",
+      "ru": "Венесуэла",
+      "en": "Venezuela"
+    },
+    "city": {
+      "by": "Каракас",
+      "ru": "Каракас",
+      "en": "Caracas"
+    },
+    "coordinates": [
+      10.504068,
+      -66.828793
+    ],
+    "description": {
+      "by": "Адрас: Quinta Campanera, Tercera transversal (calle Aveledo) con 7ma avenida, urbanización Los Chorros, municipio Sucre, Caracas 1071, Venezuela.\n\nПасольства Рэспублікі Беларусь у Баліварыянскай Рэспубліцы Венесуэла, адкрытае ў снежні 2007 года ў Каракасе. Ключавы фарпост беларускай дыпламатыі і гандлёва-эканамічнага супрацоўніцтва ў Паўночнай частцы Паўднёвай Амерыкі. Каардынуе праекты ў сферы прамысловай кааперацыі (зборка беларускіх трактароў МТЗ, грузавікоў МАЗ), будаўніцтва жылля і нафтаздабычы, а таксама прадстаўляе інтарэсы Беларусі ў Балівіі.",
+      "ru": "Quinta Campanera, Tercera transversal con 7ma avenida, Los Chorros, Сукре, Каракас 1071. Посольство Беларуси в Боливарианской Республике Венесуэла, открытое в декабре 2007 года. Координирует промышленное и энергетическое сотрудничество в Южной Америке.",
+      "en": "Quinta Campanera, 3ra transversal con 7ma avenida, Los Chorros, Sucre, Caracas 1071, Venezuela. Official Embassy of the Republic of Belarus to the Bolivarian Republic of Venezuela, inaugurated in December 2007. Serves as a major diplomatic hub in northern South America."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Caracas_Skyline_2017.jpg/960px-Caracas_Skyline_2017.jpg",
+    "links": [
+      {
+        "title": "Посольство Республики Беларусь в Боливарианской Республике Венесуэла",
+        "url": "https://venezuela.mfa.gov.by"
+      }
+    ],
+    "tags": [
+      "Венесуэла",
+      "Каракас",
+      "пасольства",
+      "embassy",
+      "Паўднёвая Амерыка"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "bogota-embassy-belarus",
+    "title": {
+      "by": "Пасольства Беларусі ў Калумбіі (Багата)",
+      "ru": "Посольство Беларуси в Колумбии (Богота)",
+      "en": "Embassy of Belarus in Colombia (Bogota)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Калумбія",
+      "ru": "Колумбия",
+      "en": "Colombia"
+    },
+    "city": {
+      "by": "Багата",
+      "ru": "Богота",
+      "en": "Bogota"
+    },
+    "coordinates": [
+      4.662658,
+      -74.052821
+    ],
+    "description": {
+      "by": "Адрас: Calle 79 № 9-10, edificio «979», oficina № 501 (piso 5), Localidad Chapinero / El Nogal, Bogotá, D.C., Colombia.\n\nПасольства Рэспублікі Беларусь у Рэспубліцы Калумбія. Пачало працу ў 2020 годзе, афіцыйная цырымонія адкрыцця адбылася ў 2021 годзе ў дзелавым раёне Чапінера сталіцы Калумбіі Багаце. Пасольства курыруе развіццё дыпламатычных, гандлёва-эканамічных і адукацыйных сувязей паміж Беларуссю і Калумбіяй, пастаўкі беларускай тэхнікі і калійных угнаенняў у рэгіён Анд.",
+      "ru": "Calle 79 № 9-10, edificio «979», оф. 501, Богота. Полноформатное посольство Республики Беларусь в Республике Колумбия, открытое в 2020–2021 гг. Развивает торговые, дипломатические и гуманитарные связи со странами Андского региона.",
+      "en": "Calle 79 № 9-10, building '979', office 501, Chapinero, Bogotá, Colombia. Embassy of the Republic of Belarus to the Republic of Colombia, established in 2020–2021 to foster trade, diplomatic relations, and technical exports to the Andean community."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bogota_-_Centro_Internacional.jpg/960px-Bogota_-_Centro_Internacional.jpg",
+    "links": [
+      {
+        "title": "Посольство Республики Беларусь в Республике Колумбия",
+        "url": "https://colombia.mfa.gov.by"
+      }
+    ],
+    "tags": [
+      "Калумбія",
+      "Багата",
+      "пасольства",
+      "embassy",
+      "Паўднёвая Амерыка"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "quito-former-embassy-belarus",
+    "title": {
+      "by": "Былое Пасольства Беларусі ў Эквадоры (Кіта, 2014–2021)",
+      "ru": "Бывшее Посольство Беларуси в Эквадоре (Кито, 2014–2021)",
+      "en": "Former Embassy of Belarus in Ecuador (Quito, 2014–2021)"
+    },
+    "category": "embassy",
+    "country": {
+      "by": "Эквадор",
+      "ru": "Эквадор",
+      "en": "Ecuador"
+    },
+    "city": {
+      "by": "Кіта",
+      "ru": "Кито",
+      "en": "Quito"
+    },
+    "coordinates": [
+      -0.1807,
+      -78.4842
+    ],
+    "description": {
+      "by": "Лакацыя: Quito, Ecuador.\n\nДыпламатычнае прадстаўніцтва Беларусі ў Рэспубліцы Эквадор, якое функцыянавала з 2014 года. Пасольства забяспечвала супрацоўніцтва з Эквадорам, а таксама прадстаўляла інтарэсы Беларусі па сумяшчальніцтве ў Калумбіі, Панаме і Нікарагуа. Увосень 2021 года ў рамках аптымізацыі дыпламатычнай сеткі Беларусі пасольства ў Кіта было зачынена, а функцыі дыпламатычнага прадстаўніцтва ў рэгіёне перайшлі да новастворанага пасольства ў Калумбіі (Багата).",
+      "ru": "Дипломатическое представительство Беларуси в Эквадоре (Кито), действовавшее в 2014–2021 годах. Было закрыто осенью 2021 года, после чего функции были переданы посольству в Колумбии.",
+      "en": "Former Embassy of the Republic of Belarus in Quito, Ecuador, operational between 2014 and 2021, when its regional functions were reorganized and transferred to the embassy in Bogotá, Colombia."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Bogota_-_Centro_Internacional.jpg/960px-Bogota_-_Centro_Internacional.jpg",
+    "links": [
+      {
+        "title": "МИД Беларуси",
+        "url": "https://mfa.gov.by"
+      }
+    ],
+    "tags": [
+      "Эквадор",
+      "Кіта",
+      "пасольства",
+      "embassy",
+      "Паўднёвая Амерыка"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "cyprus-peoples-embassy-belarus",
+    "title": {
+      "by": "Народная амбасада Беларусі на Кіпры (Лімасол / Нікасія)",
+      "ru": "Народное посольство Беларуси на Кипре (Лимасол / Никосия)",
+      "en": "People's Embassy of Belarus in Cyprus (Limassol / Nicosia)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Кіпр",
+      "ru": "Кипр",
+      "en": "Cyprus"
+    },
+    "city": {
+      "by": "Лімасол",
+      "ru": "Лимасол",
+      "en": "Limassol"
+    },
+    "coordinates": [
+      34.68529,
+      33.033266
+    ],
+    "description": {
+      "by": "Сайт: cyprus.belarusabroad.org (Лімасол і Нікасія, Кіпр).\n\nНародная амбасада Беларусі на Кіпры — грамадска-дыпламатычная ініцыятыва беларускай дыяспары, абвешчаная 10 снежня 2020 года ў межах глабальнага праекта Народных амбасад Беларусі (belarusabroad.org). Кіпр з'яўляецца адным з найбуйнейшых цэнтраў беларускай высокатэхналагічнай і IT-эміграцыі (кампаніі Wargaming, BuzzGuru і інш.). Народная амбасада прадстаўляе інтарэсы дэмакратычнай Беларусі перад органамі ўлады Рэспублікі Кіпр, дапамагае суайчыннікам з легалізацыяй і працягам тэрміну дакументаў, абараняе правы беларускіх грамадзян і ладзіць культурныя і адукацыйныя ініцыятывы.",
+      "ru": "cyprus.belarusabroad.org (Лимасол / Никосия). Народное посольство Беларуси на Кипре, открытое 10 декабря 2020 года. Кипр стал одним из ведущих европейских IT-хабов для белорусских специалистов. Посольство помогает с легализацией, защитой прав и культурными проектами диаспоры.",
+      "en": "cyprus.belarusabroad.org (Limassol / Nicosia). People's Embassy of Belarus in Cyprus, established on December 10, 2020, as part of the worldwide network of People's Embassies. Serves a large Belarusian diaspora and tech community (including Wargaming), supporting legalization, cultural identity, and civic engagement."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Limassol_Marina.jpg/960px-Limassol_Marina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "links": [
+      {
+        "title": "Народная амбасада Беларусі на Кіпры",
+        "url": "https://cyprus.belarusabroad.org"
+      },
+      {
+        "title": "Народныя амбасады Беларусі (belarusabroad.org)",
+        "url": "https://www.belarusabroad.org"
+      }
+    ],
+    "tags": [
+      "Кіпр",
+      "Лімасол",
+      "Нікасія",
+      "Народныя амбасады",
+      "дыяспара",
+      "IT",
+      "belarusabroad"
+    ],
+    "personIds": [],
+    "wikidataId": "Q104192606"
+  },
+  {
+    "id": "spain-peoples-embassy-belarus",
+    "title": {
+      "by": "Народная амбасада Беларусі ў Іспаніі (Мадрыд)",
+      "ru": "Народное посольство Беларуси в Испании (Мадрид)",
+      "en": "People's Embassy of Belarus in Spain (Madrid)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Іспанія",
+      "ru": "Испания",
+      "en": "Spain"
+    },
+    "city": {
+      "by": "Мадрыд",
+      "ru": "Мадрид",
+      "en": "Madrid"
+    },
+    "coordinates": [
+      40.416775,
+      -3.70379
+    ],
+    "description": {
+      "by": "Сайт: spain.belarusabroad.org (Мадрыд, Іспанія).\n\nНародная амбасада Беларусі ў Іспаніі, заснаваная ў снежні 2020 года беларускай дыяспарай у адказ на палітычны крызіс і парушэнні правоў чалавека ў Беларусі. З'яўляецца часткай глабальнай сеткі Народных амбасад Беларусі (belarusabroad.org). Прадстаўляе інтарэсы дэмакратычнай Беларусі, інфармуе іспанскае грамадства, СМІ і ўрадавыя структуры пра сітуацыю ў краіне, каардынуе сумесныя дзеянні беларускіх асацыяцый у Мадрыдзе, Барселоне, Валенсіі і Андалусіі, і аказвае дапамогу вымушаным рэлакантам.",
+      "ru": "spain.belarusabroad.org. Народное посольство Беларуси в Испании, основанное в декабре 2020 года. Координирует белорусские сообщества Мадрида, Барселоны, Валенсии и Малаги, представляет интересы демократической Беларуси в Испании.",
+      "en": "spain.belarusabroad.org. People's Embassy of Belarus in Spain, established in December 2020 as part of the belarusabroad.org initiative. Unites the diaspora across Madrid, Barcelona, and Valencia, advocating for human rights and supporting Belarusians in Spain."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Plaza_Mayor_de_Madrid_02.jpg/960px-Plaza_Mayor_de_Madrid_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "links": [
+      {
+        "title": "Народная амбасада Беларусі ў Іспаніі",
+        "url": "https://spain.belarusabroad.org"
+      },
+      {
+        "title": "Беларусы Іспаніі ў Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Беларусы_Іспаніі"
+      }
+    ],
+    "tags": [
+      "Іспанія",
+      "Мадрыд",
+      "Народныя амбасады",
+      "дыяспара",
+      "belarusabroad"
+    ],
+    "personIds": [],
+    "wikidataId": "Q104192606"
+  },
+  {
+    "id": "madrid-mission-democratic-belarus",
+    "title": {
+      "by": "Місія дэмакратычнай Беларусі ў Мадрыдзе (Таццяна Марыніч)",
+      "ru": "Миссия демократической Беларуси в Мадриде (Татьяна Маринич)",
+      "en": "Mission of Democratic Belarus in Madrid"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Іспанія",
+      "ru": "Испания",
+      "en": "Spain"
+    },
+    "city": {
+      "by": "Мадрыд",
+      "ru": "Мадрид",
+      "en": "Madrid"
+    },
+    "coordinates": [
+      40.42,
+      -3.69
+    ],
+    "description": {
+      "by": "Лакацыя: Мадрыд, Іспанія.\n\nАфіцыйнае дыпламатычнае прадстаўніцтва дэмакратычных сіл Беларусі ў Каралеўстве Іспанія, створанае ў 2024 годзе. Кіраўніцай місіі прызначана прадпрымальніца і грамадская дзеячка Таццяна Марыніч. Місія цесна супрацоўнічае з Міністэрствам замежных спраў, Міністэрствам інклюзіі і міграцыі Іспаніі. У выніку яе дзейнасці ў студзені 2024 года ўлады Іспаніі прынялі спецыяльную афіцыйную інструкцыю па легалізацыі беларускіх грамадзян з пратэрмінаванымі пашпартамі і выдачы іспанскіх праязных дакументаў для іншаземцаў.",
+      "ru": "Мадрид, Испания. Миссия демократических сил Беларуси в Испании, созданная в 2024 году под руководством Татьяны Маринич. Добилась принятия испанскими властями специальной инструкции о защите белорусов с истекшими паспортами.",
+      "en": "Madrid, Spain. Representative Mission of Democratic Belarus in the Kingdom of Spain, founded in 2024 and headed by Tatiana Marinich. Successfully worked with the Spanish government to secure legal recognition for Belarusians with expired passports."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Plaza_Mayor_de_Madrid_02.jpg/960px-Plaza_Mayor_de_Madrid_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "links": [
+      {
+        "title": "Беларусы Іспаніі ў Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Беларусы_Іспаніі"
+      }
+    ],
+    "tags": [
+      "Іспанія",
+      "Мадрыд",
+      "дыпламатыя",
+      "дыяспара",
+      "Місія дэмакратычнай Беларусі"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "barcelona-belarusian-community",
+    "title": {
+      "by": "Беларуская грамада і культурны асяродак у Барселоне (Каталонія)",
+      "ru": "Белорусское сообщество и культурный центр в Барселоне (Каталония)",
+      "en": "Belarusian Community and Cultural Hub in Barcelona (Catalonia)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Іспанія",
+      "ru": "Испания",
+      "en": "Spain"
+    },
+    "city": {
+      "by": "Барселона",
+      "ru": "Барселона",
+      "en": "Barcelona"
+    },
+    "coordinates": [
+      41.3851,
+      2.1734
+    ],
+    "description": {
+      "by": "Лакацыя: Барселона, Каталонія, Іспанія.\n\nАктыўны асяродак беларускай дыяспары ў Каталоніі (Асацыяцыя беларусаў Каталоніі). Аб'ядноўвае беларускіх навукоўцаў, спецыялістаў у сферы ІТ і мастацтва. Праводзіць рэгулярныя беларускія культурныя мерапрыемствы, дні беларускай культуры і мовы, акцыі салідарнасці і дабрачынныя выставы ў Барселоне.",
+      "ru": "Барселона, Каталония, Испания. Центр белорусской диаспоры в Каталонии. Проводит дни белорусской культуры, выставки, образовательные и благотворительные мероприятия.",
+      "en": "Barcelona, Catalonia, Spain. Vibrant center of the Belarusian diaspora in Catalonia. Regularly organizes Belarusian language gatherings, cultural festivals, exhibitions, and solidarity initiatives."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Plaza_Mayor_de_Madrid_02.jpg/960px-Plaza_Mayor_de_Madrid_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "links": [
+      {
+        "title": "Беларусы Іспаніі ў Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Беларусы_Іспаніі"
+      }
+    ],
+    "tags": [
+      "Іспанія",
+      "Барселона",
+      "Каталонія",
+      "дыяспара",
+      "культура"
+    ],
+    "personIds": [],
+    "wikidataId": null
+  },
+  {
+    "id": "jerusalem-euphrosyne-polotsk-pilgrimage",
+    "title": {
+      "by": "Святая Еўфрасіння Полацкая ў Святой Зямлі (Лаўра св. Феадосія / Іерусалім)",
+      "ru": "Святая Евфросиния Полоцкая в Святой Земле (Лавра св. Феодосия / Иерусалим)",
+      "en": "Saint Euphrosyne of Polotsk in the Holy Land (Jerusalem / St. Theodosius Monastery)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Іерусалім",
+      "ru": "Иерусалим",
+      "en": "Jerusalem"
+    },
+    "coordinates": [
+      31.7056,
+      35.2575
+    ],
+    "description": {
+      "by": "Лакацыя: Манастыр Феадосія Вялікага (Лаўра св. Феадосія каля Іерусаліма і Віфлеема).\n\nМесца малітоўнага подзвігу і першапачатковага спачыну святой нябеснай заступніцы Беларусі ігуменні Еўфрасінні Полацкай (каля 1104–1173). На схіле дзён славутая асветніца здзейсніла паломніцтва ў Святую Зямлю, пакланілася Храму Гроба Гасподняга і памерла ў Іерусаліме ў 1173 годзе. Была пахаваная ў манастыры Святога Феадосія каля Іерусаліма ў пячоры святых айцоў. У 1187 годзе яе святыя мошчы былі перанесены ў Кіева-Пячэрскую лаўру, а ў 1910 годзе — урачыста вернуты ў Полацк.",
+      "ru": "Монастырь Феодосия Великого (близ Иерусалима и Вифлеема). Место упокоения небесной покровительницы Беларуси Евфросинии Полоцкой (ок. 1104–1173), скончавшейся во время паломничества в Иерусалим. Её мощи покоились здесь до перенесения в Киево-Печерскую лавру (1187) и возвращения в Полоцк (1910).",
+      "en": "Monastery of St. Theodosius the Cenobiarch near Jerusalem and Bethlehem. The final sanctuary and original burial site of the patron saint of Belarus, Euphrosyne of Polotsk (c. 1104–1173), who passed away during her pilgrimage to the Holy Sepulchre. Her relics rested in the cave of the fathers before being translated to Kyiv-Pechersk Lavra in 1187 and returned to Polotsk in 1910."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Euphrosyne_of_Polotsk._Sculpture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "links": [
+      {
+        "title": "Еўфрасіння Полацкая ў Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Еўфрасіння_Полацкая"
+      }
+    ],
+    "tags": [
+      "Іерусалім",
+      "Святая Зямля",
+      "Еўфрасіння Полацкая",
+      "паломніцтва",
+      "праваслаўе",
+      "святыня"
+    ],
+    "personIds": [
+      "euphrosyne-polotsk"
+    ],
+    "wikidataId": "Q257706"
+  },
+  {
+    "id": "jerusalem-radziwill-sierotka-holy-sepulchre",
+    "title": {
+      "by": "Храм Гроба Гасподняга і выправа Мікалая Крыштафа Радзівіла «Сіроткі» (Іерусалім)",
+      "ru": "Храм Гроба Господня и паломничество Николая Христофора Радзивилла «Сиротки» (Иерусалим)",
+      "en": "Church of the Holy Sepulchre and Radziwiłł 'Sierotka' Pilgrimage (Jerusalem)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Іерусалім",
+      "ru": "Иерусалим",
+      "en": "Jerusalem"
+    },
+    "coordinates": [
+      31.7785,
+      35.2297
+    ],
+    "description": {
+      "by": "Лакацыя: Храм Гроба Гасподняга (Базіліка Уваскрэсення Хрыстова), Стары горад, Іерусалім.\n\nУ чэрвені 1583 года дзяржаўны дзеяч ВКЛ, князь нясвіжскі Мікалай Крыштаф Радзівіл «Сіротка» наведаў Храм Гроба Гасподняга падчас свайго знакамітага падарожжа. У храме князь правёў у малітве дзве ночы і быў урачыста пасвечаны ў рыцары Святога Гроба Гасподняга. Ён ахвяраваў на алтар храма каштоўны залаты кубак з радавым гербам «Трубы». Падрабязнае апісанне святынь Іерусаліма, Гаўгофы і Алейнай гары ўвайшло ў яго знакамітую кнігу «Паломніцтва ў Святую Зямлю» («Peregrynacja do Ziemi Świętej», 1601), якая стала класікай еўрапейскай літаратуры падарожжаў.",
+      "ru": "Храм Гроба Господня, Старый город, Иерусалим. В июне 1583 года князь несвижский Николай Христофор Радзивилл «Сиротка» провел здесь две ночи в молитве и был посвящен в рыцари Святого Гроба Господня. Автор европейского бестселлера «Паломничество в Святую Землю» (1601).",
+      "en": "Church of the Holy Sepulchre, Old City of Jerusalem. In June 1583, Grand Duchy magnate Prince Mikołaj Krzysztof Radziwiłł 'Sierotka' prayed here and was knighted into the Order of the Holy Sepulchre, donating a golden chalice with his family crest. Detailed in his acclaimed travelogue 'Peregrination to the Holy Land' (1601)."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mika%C5%82aj_Kry%C5%A1taf_Radzivi%C5%82_%C2%ABSirotka%C2%BB._%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9A%D1%80%D1%8B%D1%88%D1%82%D0%B0%D1%84_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%C2%AB%D0%A1%D1%96%D1%80%D0%BE%D1%82%D0%BA%D0%B0%C2%BB_%281600-49%29.jpg/800px-Mika%C5%82aj_Kry%C5%A1taf_Radzivi%C5%82_%C2%ABSirotka%C2%BB._%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9A%D1%80%D1%8B%D1%88%D1%82%D0%B0%D1%84_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%C2%AB%D0%A1%D1%96%D1%80%D0%BE%D1%82%D0%BA%D0%B0%C2%BB_%281600-49%29.jpg",
+    "links": [
+      {
+        "title": "Мікалай Крыштоф Радзівіл Сіротка ў Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Мікалай_Крыштоф_Радзівіл_Сіротка"
+      },
+      {
+        "title": "Peregrynacja do Ziemi Świętej",
+        "url": "https://pl.wikipedia.org/wiki/Peregrynacja_do_Ziemi_%C5%9Awi%C4%99tej"
+      }
+    ],
+    "tags": [
+      "Іерусалім",
+      "Святая Зямля",
+      "Радзівіл Сіротка",
+      "паломніцтва",
+      "ВКЛ",
+      "Храм Гроба Гасподняга"
+    ],
+    "personIds": [
+      "radziwill-sierotka"
+    ],
+    "wikidataId": "Q543162"
+  },
+  {
+    "id": "giza-pyramids-radziwill-sierotka-egypt",
+    "title": {
+      "by": "Піраміды Гізы і даследаванні князя Радзівіла «Сіроткі» ў Егіпце (1583)",
+      "ru": "Пирамиды Гизы и экспедиция князя Радзивилла «Сиротки» в Египет (1583)",
+      "en": "Giza Pyramids and Prince Radziwiłł 'Sierotka' Expedition to Egypt (1583)"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Егіпет",
+      "ru": "Египет",
+      "en": "Egypt"
+    },
+    "city": {
+      "by": "Гіза / Каір",
+      "ru": "Гиза / Каир",
+      "en": "Giza / Cairo"
+    },
+    "coordinates": [
+      29.9792,
+      31.1342
+    ],
+    "description": {
+      "by": "Лакацыя: Плато Гіза каля Каіра (Егіпет).\n\nУ ліпені–жніўні 1583 года князь нясвіжскі Мікалай Крыштаф Радзівіл «Сіротка» наведаў Егіпет (Каір, Александрыю і Гізу). Ён стаў адным з першых еўрапейскіх падарожнікаў новага часу, які асабіста падняўся на Вялікую піраміду Хеопса, пранік у яе ўнутраныя пакоі і склаў першыя ва Усходняй Еўропе навукова дакладныя абмеры пірамід. Сіротка пакінуў яркія нататкі пра Вялікага Сфінкса, разлівы Ніла, раскопкі старажытнаегіпецкіх пахаванняў у Сакары і нават набыў дзве старажытныя муміі (мужчыны і жанчыны), каб прывезці іх у Нясвіжскі замак.",
+      "ru": "Плато Гиза, Каир, Египет. Летом 1583 года князь Николай Христофор Радзивилл «Сиротка» исследовал пирамиды Гизы и Сфинкса. Он поднялся на пирамиду Хеопса, произвел точные замеры внутренних камер и описал мумии Саккары в своих путевых записках.",
+      "en": "Giza Plateau, near Cairo, Egypt. In the summer of 1583, Prince Mikołaj Krzysztof Radziwiłł 'Sierotka' explored the Great Pyramid of Giza and the Sphinx. He climbed the pyramid, measured its inner chambers, examined ancient tombs at Saqqara, and purchased two mummies for his Nesvizh Castle collection."
+    },
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mika%C5%82aj_Kry%C5%A1taf_Radzivi%C5%82_%C2%ABSirotka%C2%BB._%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9A%D1%80%D1%8B%D1%88%D1%82%D0%B0%D1%84_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%C2%AB%D0%A1%D1%96%D1%80%D0%BE%D1%82%D0%BA%D0%B0%C2%BB_%281600-49%29.jpg/800px-Mika%C5%82aj_Kry%C5%A1taf_Radzivi%C5%82_%C2%ABSirotka%C2%BB._%D0%9C%D1%96%D0%BA%D0%B0%D0%BB%D0%B0%D0%B9_%D0%9A%D1%80%D1%8B%D1%88%D1%82%D0%B0%D1%84_%D0%A0%D0%B0%D0%B4%D0%B7%D1%96%D0%B2%D1%96%D0%BB_%C2%AB%D0%A1%D1%96%D1%80%D0%BE%D1%82%D0%BA%D0%B0%C2%BB_%281600-49%29.jpg",
+    "links": [
+      {
+        "title": "Wyprawa Mikołaja Krzysztofa Radziwiłła Sierotki",
+        "url": "https://www.historiaposzukaj.pl/wiedza,osoby,1697,osoba_mikolaj_krzysztof_radziwill_sierotka_i_wyprawa_do_syrii_i_egiptu.html"
+      }
+    ],
+    "tags": [
+      "Егіпет",
+      "Каір",
+      "Гіза",
+      "піраміды",
+      "Радзівіл Сіротка",
+      "ВКЛ",
+      "падарожжы"
+    ],
+    "personIds": [
+      "radziwill-sierotka"
+    ],
+    "wikidataId": "Q543162"
+  },
+  {
+    "id": "jerusalem-eliezer-ben-yehuda-house",
+    "title": {
+      "by": "Дом-музей Эліэзера Бен-Егуды ў Іерусаліме (Бейт Бен-Егуда)",
+      "ru": "Дом-музей Элиэзера Бен-Йехуды в Иерусалиме (Бейт Бен-Йехуда)",
+      "en": "Beit Ben-Yehuda (House and Heritage of Eliezer Ben-Yehuda, Jerusalem)"
+    },
+    "category": "culture",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Іерусалім",
+      "ru": "Иерусалим",
+      "en": "Jerusalem"
+    },
+    "coordinates": [
+      31.7523,
+      35.2185
+    ],
+    "description": {
+      "by": "Адрас: Ein Gedi St 28, Talpiot, Jerusalem (Ізраіль).\n\nГістарычны дом-музей Эліэзера Бен-Егуды (1858–1922) — ураджэнца беларускага мястэчка Лужкі Дзісненскага павета (цяпер Шаркаўшчынскі раён Віцебскай вобласці), які здзейсніў неверагодны лінгвістычны подзвіг і адрадзіў іўрыт як жывую гутарковую мову. У гэтым доме ён працаваў над стварэннем Поўнага слоўніка іўрыта. Таксама ў цэнтры Іерусаліма яго імя носіць галоўная пешаходная вуліца Бен-Егуда (Ben Yehuda Street), а на Алейнай гары (Mount of Olives) знаходзіцца яго гістарычная магіла.",
+      "ru": "Ein Gedi St 28, Тальпиот, Иерусалим. Дом-музей Элиэзера Бен-Йехуды (1858–1922) — уроженца белорусского местечка Лужки (Шарковщинский район), возродившего иврит как разговорный язык. Его имя носит знаменитая центральная улица Бен-Йехуда в Иерусалиме.",
+      "en": "Ein Gedi St 28, Talpiot, Jerusalem, Israel. Historic home and museum of Eliezer Ben-Yehuda (1858–1922), native of the Belarusian village of Lužki, who single-handedly revived Hebrew as a living modern spoken language. His legacy is also commemorated on Jerusalem's iconic pedestrian Ben Yehuda Street and his grave on the Mount of Olives."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Eliezer_Ben-Yehuda.jpg/800px-Eliezer_Ben-Yehuda.jpg",
+    "links": [
+      {
+        "title": "Эліэзер Бен-Егуда ў Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Эліэзер_Бен-Егуда"
+      },
+      {
+        "title": "Beit Ben Yehuda Jerusalem",
+        "url": "https://beit-ben-yehuda.org"
+      }
+    ],
+    "tags": [
+      "Ізраіль",
+      "Іерусалім",
+      "Эліэзер Бен-Егуда",
+      "іўрыт",
+      "мовазнаўства",
+      "Лужкі"
+    ],
+    "personIds": [
+      "ben-yehuda"
+    ],
+    "wikidataId": "Q181262"
+  },
+  {
+    "id": "jerusalem-zalman-shazar-center-grave",
+    "title": {
+      "by": "Цэнтр Залмана Шазара і магіла 3-га прэзідэнта Ізраіля на гары Герцля (Іерусалім)",
+      "ru": "Центр Залмана Шазара и могила 3-го президента Израиля на горе Герцля (Иерусалим)",
+      "en": "Zalman Shazar Center and Presidential Tomb on Mount Herzl (Jerusalem)"
+    },
+    "category": "grave",
+    "country": {
+      "by": "Ізраіль",
+      "ru": "Израиль",
+      "en": "Israel"
+    },
+    "city": {
+      "by": "Іерусалім",
+      "ru": "Иерусалим",
+      "en": "Jerusalem"
+    },
+    "coordinates": [
+      31.7742,
+      35.1808
+    ],
+    "description": {
+      "by": "Лакацыя: Mount Herzl (Гара Герцля, Пантэон лідараў нацыі) / Zalman Shazar Center, Jerusalem (Ізраіль).\n\nМесца пахавання і мемарыяльны цэнтр Залмана Шазара (Шнэўра Залмана Рубашова, 1889–1974) — трэцяга прэзідэнта Дзяржавы Ізраіль, выбітнага пісьменніка і гісторыка, які нарадзіўся ў беларускім мястэчку Мір (цяпер Карэліцкі раён Гродзенскай вобласці). Шазар пахаваны на гары Герцля на Алеі вялікіх дзеячаў нацыі (Хэлкат Гдолей ха-Ума). У Іерусаліме таксама дзейнічае заснаваны ім Цэнтр Залмана Шазара (Zalman Shazar Center), які спецыялізуецца на даследаванні гісторыі яўрэйскага народа і абшчын Усходняй Еўропы.",
+      "ru": "Гора Герцль (пантеон лидеров нации) и Центр Залмана Шазара в Иерусалиме. Место упокоения третьего президента Израиля Залмана Шазара (1889–1974), уроженца белорусского местечка Мир (Кореличский район).",
+      "en": "Mount Herzl National Cemetery and Zalman Shazar Center, Jerusalem. Resting place and research institution of Zalman Shazar (1889–1974), the 3rd President of Israel, prominent historian, and native of Mir (Belarus)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flickr_-_Government_Press_Office_%28GPO%29_-_PRESIDENT_ZALMAN_SHAZAR._%281%29.jpg/800px-Flickr_-_Government_Press_Office_%28GPO%29_-_PRESIDENT_ZALMAN_SHAZAR._%281%29.jpg",
+    "links": [
+      {
+        "title": "Залман Шазар у Вікіпедыі",
+        "url": "https://be.wikipedia.org/wiki/Залман_Шазар"
+      },
+      {
+        "title": "Zalman Shazar Center",
+        "url": "https://shazar.org.il"
+      }
+    ],
+    "tags": [
+      "Ізраіль",
+      "Іерусалім",
+      "Залман Шазар",
+      "прэзідэнт",
+      "Мір",
+      "магала",
+      "гара Герцля"
+    ],
+    "personIds": [
+      "zalman-shazar"
+    ],
+    "wikidataId": "Q299592"
   }
 ]
