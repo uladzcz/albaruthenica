@@ -4532,5 +4532,30 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "studziwody-muzej-maloj-backauszcyny"
     ]
+  },
+  {
+    "id": "raman-symanovich",
+    "name": {
+      "by": "Раман Сымановіч",
+      "ru": "Роман Симонович",
+      "en": "Roman Symonowicz"
+    },
+    "dates": "1768–1813",
+    "role": {
+      "by": "Геолаг, мінералог, ад'юнкт Віленскага ўніверсітэта, стваральнік адной з найбагацейшых мінералагічных калекцый Еўропы",
+      "ru": "Геолог, минералог, адъюнкт Виленского университета, создатель одной из крупнейших коллекций минералов Европы",
+      "en": "Pioneering mineralogist and geologist, adjunct of Vilnius University, assembled Europe's 4th largest mineral collection"
+    },
+    "bio": {
+      "by": "Выбітны навуковец, геолаг і мінералог канца XVIII — пачатку XIX стагоддзя. Ад'юнкт Віленскага ўніверсітэта, кіраўнік кабінета натуральнай гісторыі. За ўласны кошт і шляхам навуковых экспедыцый сабраў унікальную калекцыю з больш чым 12 600 мінералаў і выкапняў, якая ў той час лічылася чацвёртай у Еўропе. Даследаваў геалагічную будову Магілёўшчыны, Валыні і Падолля, а таксама гор каля Крэмянца. Аўтар фундаментальнай навуковай працы «O stanie dzisiejszym mineralogii» (Вільня, 1806) і распрацоўнік рэгіянальнай мінералагічнай тэрміналогіі.",
+      "ru": "Выдающийся геолог и минералог, адъюнкт Виленского университета. Собрал коллекцию из более 12 600 минералов (четвертую по величине в Европе). Исследовал недра Могилёвской губернии и Волыни, автор фундаментального труда «O stanie dzisiejszym mineralogii» (1806).",
+      "en": "Renowned geologist and mineralogist, adjunct at Vilnius University. Assembled a collection of over 12,600 mineral specimens, ranking as the 4th most significant in Europe. Conducted pioneering geological surveys of Mogilev province, Volhynia, and Podolia; authored 'O stanie dzisiejszym mineralogii' (1806)."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Vilnia%2C_Universetet._Вільня%2C_Універсітэт_%281898-1914%29.jpg/800px-Vilnia%2C_Universetet._Вільня%2C_Універсітэт_%281898-1914%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Раман_Сымановіч",
+    "wikidataId": "Q117794409",
+    "placeIds": [
+      "vilnia-universitet-symanovich-mineraly"
+    ]
   }
 ];
