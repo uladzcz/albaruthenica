@@ -38,7 +38,7 @@ const CATEGORY_CONFIG = {
   },
   historical: {
     color: '#dc2626',
-    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M2 4h4v3h2V4h4v3h2V4h4v3h2V4h2v16H2V4zm2 14h16V9h-2v2h-4V9h-2v2h-4V9H4v9zm7-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5h-4v-5z"/></svg>`
+    icon: `<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18 20V8.5l-2-1.5V4h-2v3h-1V4h-2v3h-1V4H8v3l-2 1.5V20H2v2h20v-2h-4zM9 19H7v-8h2v8zm4 0h-2v-4a1 1 0 0 1 2 0v4zm4 0h-2v-8h2v8z"/></svg>`
   },
   culture: {
     color: '#2563eb',

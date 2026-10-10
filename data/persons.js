@@ -4557,5 +4557,30 @@ window.INITIAL_PERSONS = [
     "placeIds": [
       "vilnia-universitet-symanovich-mineraly"
     ]
+  },
+  {
+    "id": "aljaksandr-rypinski",
+    "name": {
+      "by": "Аляксандр Рыпінскі",
+      "ru": "Александр Рыпинский",
+      "en": "Aleksander Rypiński"
+    },
+    "dates": "1811–1886",
+    "role": {
+      "by": "Паэт, фалькларыст, графік, кнігавыдавец, заснавальнік першай беларускай друкарні ў Лондане",
+      "ru": "Поэт, фольклорист, график, книгоиздатель, создатель первой белорусской типографии в Лондоне",
+      "en": "Poet, folklorist, pioneer publisher, founded the first Belarusian printing house in London"
+    },
+    "bio": {
+      "by": "Ураджэнец вёскі Кукавячына Віцебскага павета. Удзельнік вызвольнага паўстання 1830–1831 гадоў. У эміграцыі ў Парыжы заклаў падмуркі навуковай беларусістыкі і фалькларыстыкі: 21 лістапада 1839 г. прачытаў у Польскім літаратурным таварыстве першы навуковы даклад пра беларускі фальклор, а ў 1840 г. выдаў кнігу «Беларусь» («Białoruś»), дзе ўпершыню сістэматызаваў вусную народную творчасць беларусаў. З 1846 года жыў у Лондане (Тотэнхэм), дзе стварыў уласную друкарню, выдаў па-беларуску баладу «Нячысцік» (1853) і адзін з першых увёў літару «ŭ» («у нескладовае») у беларускую лацінку. Выбітны мастак і піянер фотамастацтва.",
+      "ru": "Уроженец Витебщины, участник восстания 1830–1831 годов. В Париже издал фундаментальное этнографическое исследование «Беларусь» (1840). С 1846 г. жил в Лондоне, где основал типографию, напечатал романтическую балладу «Нечистик» (1853) и впервые внедрил букву «ŭ» (у нескладовое) в белорусскую латиницу.",
+      "en": "Born in Kukaviachyna near Vitebsk, insurgent of the 1830–1831 Uprising. Published the pioneering study 'Białoruś' in Paris (1840), establishing modern Belarusian ethnography. Settled in London (Tottenham) in 1846, where he set up an independent printing house, published the ballad 'Niachyscik' (1853), and first introduced the letter 'ŭ' into the Belarusian Latin alphabet."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Alaksandar_Rypinski._Аляксандар_Рыпінскі_%281850%29.jpg/600px-Alaksandar_Rypinski._Аляксандар_Рыпінскі_%281850%29.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Аляксандр_Феліксавіч_Рыпінскі",
+    "wikidataId": "Q3918082",
+    "placeIds": [
+      "london-rypinski-printing-house"
+    ]
   }
 ];
