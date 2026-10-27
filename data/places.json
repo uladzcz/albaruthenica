@@ -26918,5 +26918,113 @@
     ],
     "personIds": [],
     "wikidataId": "Q166942"
+  },
+  {
+    "id": "pierrefonds-castle-wyganowski",
+    "title": {
+      "by": "Замак П’ерфон — шэдэўр рэстаўрацыі Люцыяна Выганоўскага і Віяле-лё-Дзюка",
+      "ru": "Замок Пьерфон — шедевр реставрации Люциана Выгановского и Виолле-ле-Дюка",
+      "en": "Château de Pierrefonds — Architectural Masterpiece Restored by Lucjan Wyganowski and Viollet-le-Duc"
+    },
+    "category": "historical",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "П’ерфон",
+      "ru": "Пьерфон",
+      "en": "Pierrefonds"
+    },
+    "coordinates": [
+      49.346967,
+      2.979737
+    ],
+    "description": {
+      "by": "Адрас: Rue Viollet le Duc, 60350 Pierrefonds (дэпартамент Уаза, Францыя). Велічны ўмацаваны замак канца XIV стагоддзя герцага Людовіка Арлеанскага, пераўтвораны ў XIX стагоддзі ў эталон сярэднявечнага абарончага дойлідства па заказе імператара Напалеона III. Галоўным кіраўніком і інспектарам будаўнічых работ (conducteur des travaux / inspecteur) на працягу 27 гадоў (1858–1885) быў выхаванец Віленскага ўніверсітэта і паўстанец 1830–1831 гг. Люцыян Выганоўскі, прызначаны вялікім архітэктарам Эжэнам Віяле-лё-Дзюкам. Выганоўскі непасрэдна кіраваў кожным этапам аднаўлення вежаў, пад’ёмных мастоў і заляў, жыў у П’ерфоне да канца сваіх дзён і памёр тут 15 мая 1886 г. Для Сусветнай выстаўкі 1878 года ў Парыжы пад яго кіраўніцтвам быў выраблены знакаміты каменны макет замка вагой 4500 кг. Рабочыя дзённікі рэстаўрацыі і асабісты архіў Выганоўскага (фонд 65 J) зберагаюцца ў архіве дэпартамента Уаза ў Бавэ.",
+      "ru": "Адрес: Rue Viollet le Duc, 60350 Pierrefonds (департамент Уаза, Франция). Величественный замок конца XIV века герцога Людовика Орлеанского, восстановленный в XIX веке как эталон средневекового зодчества по заказу императора Наполеона III. Главным руководителем и инспектором строительных работ на протяжении 27 лет (1858–1885) являлся воспитанник Виленского университета и повстанец 1830–1831 гг. Люциан Выгановский, назначенный архитектором Эженом Виолле-ле-Дюком. Выгановский непосредственно руководил всеми этапами сложнейшей реставрации башен, мостов и залов, жил в Пьерфоне до конца дней и скончался здесь 15 мая 1886 г. Для Всемирной выставки 1878 года в Париже под его руководством был создан знаменитый каменный макет замка весом 4,5 тонны. Личный архив Выгановского хранится в Архиве департамента Уаза в Бове.",
+      "en": "Address: Rue Viollet le Duc, 60350 Pierrefonds, Oise, France. A magnificent late 14th-century fortress of Louis I, Duke of Orléans, masterfully restored in the 19th century under Emperor Napoleon III. For 27 years (1858–1885), Vilnius University architecture alumnus and 1830–1831 insurgent Lucjan Wyganowski served as chief inspector and site director of the monumental restoration, appointed by Eugène Viollet-le-Duc. Wyganowski directly supervised the masonry, towers, drawbridges, and interior restoration, living in Pierrefonds until his death on May 15, 1886. For the 1878 Paris Exposition Universelle, he directed the creation of a celebrated 4.5-ton stone model of the castle. His restoration notebooks and personal papers are preserved in the Archives départementales de l'Oise in Beauvais."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Le_Ch%C3%A2teau_de_Pierrefonds.jpg/640px-Le_Ch%C3%A2teau_de_Pierrefonds.jpg",
+    "links": [
+      {
+        "title": "Вікіпедыя: Люцыян Выганоўскі",
+        "url": "https://be.wikipedia.org/wiki/Люцыян_Выганоўскі"
+      },
+      {
+        "title": "Château de Pierrefonds (Centre des monuments nationaux)",
+        "url": "https://www.chateau-pierrefonds.fr/"
+      }
+    ],
+    "tags": [
+      "замак",
+      "Францыя",
+      "готыка",
+      "архітэктура",
+      "рэстаўрацыя",
+      "Выганоўскі",
+      "паўстанне 1830"
+    ],
+    "personId": "lucjan-wyganowski",
+    "personIds": [
+      "lucjan-wyganowski"
+    ],
+    "mustSee": true,
+    "wikidataId": "Q376699"
+  },
+  {
+    "id": "paris-saint-jean-baptiste-belleville-wyganowski",
+    "title": {
+      "by": "Касцёл Сен-Жан-Батыст дэ Бельвіль у Парыжы (архітэктары Люцыян Выганоўскі і Жан-Батыст Ласю)",
+      "ru": "Церковь Сен-Жан-Батист де Бельвиль в Париже (архитекторы Люциан Выгановский и Жан-Батист Лассю)",
+      "en": "Church of Saint-Jean-Baptiste de Belleville in Paris (Architects Lucjan Wyganowski and Jean-Baptiste Lassus)"
+    },
+    "category": "church",
+    "country": {
+      "by": "Францыя",
+      "ru": "Франция",
+      "en": "France"
+    },
+    "city": {
+      "by": "Парыж",
+      "ru": "Париж",
+      "en": "Paris"
+    },
+    "coordinates": [
+      48.875657,
+      2.389319
+    ],
+    "description": {
+      "by": "Адрас: 139 rue de Belleville, 75019 Paris, Францыя. Адзін з першых і найбольш дасканалых неагатычных храмаў Парыжа, збудаваны ў 1854–1859 гадах. Храм быў спраектаваны і пабудаваны выбітным французскім архітэктарам Жанам-Батыстам Ласю сумесна з яго бліжэйшым паплечнікам Люцыянам Выганоўскім — ураджэнцам беларускіх зямель, выхаванцам Віленскага ўніверсітэта і паўстанцам 1830–1831 гг. Разам з Ласю Выганоўскі таксама ўдзельнічаў у наглядзе за рэстаўрацыяй парыжскай каралеўскай капліцы Сент-Шапель (з 1839 г.) і славутага сабора Нотр-Дам дэ Пары (з 1845 г.). Велічны храм Бельвіля з двума 57-метровымі шпілямі і вітражамі з'яўляецца выдатным помнікам архітэктуры французскай сталіцы.",
+      "ru": "Адрес: 139 rue de Belleville, 75019 Paris, Франция. Один из первых и наиболее значительных неоготических храмов Парижа, возведённый в 1854–1859 годах. Церковь была спроектирована и построена выдающимся французским архитектором Жаном-Батистом Лассю совместно с его ближайшим соратником Люцианом Выгановским — уроженцем белорусских земель, питомцем Виленского университета и участником восстания 1830–1831 гг. Вместе с Лассю Выгановский также инспектировал реставрацию парижской королевской капеллы Сент-Шапель (с 1839 г.) и собора Нотр-Дам де Пари (с 1845 г.). Две 57-метровые башни храма формируют силуэт исторического парижского квартала Бельвиль.",
+      "en": "Address: 139 rue de Belleville, 75019 Paris, France. One of the earliest and most accomplished neo-Gothic churches in Paris, built between 1854 and 1859. The church was designed and constructed by prominent French architect Jean-Baptiste Lassus in close collaboration with Lucjan Wyganowski, an 1830–1831 insurgent and Vilnius University architecture alumnus. Alongside Lassus, Wyganowski also supervised the restorations of Sainte-Chapelle (from 1839) and Notre-Dame de Paris (from 1845). With its two soaring 57-metre spires and rich stained glass, Belleville church remains an outstanding monument of 19th-century Parisian Gothic Revival architecture."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/%C3%89glise_Saint-Jean-Baptiste_de_Belleville1.JPG/640px-%C3%89glise_Saint-Jean-Baptiste_de_Belleville1.JPG",
+    "links": [
+      {
+        "title": "Вікіпедыя: Люцыян Выганоўскі",
+        "url": "https://be.wikipedia.org/wiki/Люцыян_Выганоўскі"
+      },
+      {
+        "title": "Église Saint-Jean-Baptiste de Belleville",
+        "url": "https://sjbb.fr/"
+      }
+    ],
+    "tags": [
+      "касцёл",
+      "Парыж",
+      "Францыя",
+      "неаготыка",
+      "архітэктура",
+      "Выганоўскі",
+      "Ласю"
+    ],
+    "personId": "lucjan-wyganowski",
+    "personIds": [
+      "lucjan-wyganowski"
+    ],
+    "mustSee": false,
+    "wikidataId": "Q3581916"
   }
 ]

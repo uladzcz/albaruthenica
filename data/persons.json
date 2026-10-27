@@ -4582,5 +4582,31 @@
     "placeIds": [
       "london-rypinski-printing-house"
     ]
+  },
+  {
+    "id": "lucjan-wyganowski",
+    "name": {
+      "by": "Люцыян Выганоўскі",
+      "ru": "Люциан Выгановский",
+      "en": "Lucjan Wyganowski"
+    },
+    "dates": "1814–1886",
+    "role": {
+      "by": "Архітэктар, рэстаўратар гатычных помнікаў Францыі, інспектар гістарычных помнікаў, удзельнік паўстання 1830–1831 гг.",
+      "ru": "Архитектор, реставратор готических памятников Франции, инспектор исторических памятников, участник восстания 1830–1831 гг.",
+      "en": "Architect, restorer of French Gothic monuments, historic monuments inspector, 1830–1831 insurgent"
+    },
+    "bio": {
+      "by": "Нарадзіўся ў вёсцы Выганава (Беласточчына / Навагрудскі павет). Скончыў Свіслацкую гімназію і вывучаў архітэктуру ў Віленскім універсітэце. Удзельнік паўстання 1830–1831 гадоў (ваяваў у Белавежскай пушчы, падафіцэр 11-га ўланскага палка). Пасля паразы паўстання эміграваў у Францыю (Безансон, Бержэрак, Ам’ен, Парыж, Версаль). У Францыі стаў адным з найвыбітнейшых архітэктараў-практыкаў і рэстаўратараў готыкі. Разам з Жанам-Батыстам Ласю з 1839 г. наглядаў за рэстаўрацыяй Сент-Шапель, а з 1845 г. — сабора Нотр-Дам у Парыжы; спраектаваў і ўзвёў у Парыжы адзін з першых неагатычных храмаў — касцёл Сен-Жан-Батыст дэ Бельвіль (1854–1859). З 1858 г. па прапанове Эжэна Віяле-лё-Дзюка на працягу 27 гадоў служыў галоўным інспектарам грандыёзнай рэстаўрацыі сярэднявечнага каралеўскага замка П’ерфон (дэпартамент Уаза). Для Сусветнай выстаўкі 1878 г. у Парыжы стварыў унікальны каменны макет замка П'ерфон вагой 4,5 тоны. Асабісты архіў Выганоўскага захоўваецца ў Архіве дэпартамента Уаза ў Бавэ.",
+      "ru": "Родился в деревне Выганово (Белосточчина / Новогрудский уезд). Окончил Свислочскую гимназию и изучал архитектуру в Виленском университете. Участник восстания 1830–1831 годов (сражался в Беловежской пуще, подофицер 11-го уланского полка). После поражения эмигрировал во Францию. Стал одним из виднейших архитекторов-практиков и реставраторов готики во Франции. Вместе с Жаном-Батистом Лассю с 1839 г. руководил реставрацией Сент-Шапель, а с 1845 г. — собора Нотр-Дам в Париже; построил в Париже один из первых неоготических храмов — костёл Сен-Жан-Батист де Бельвиль (1854–1859). С 1858 года по приглашению Эжена Виолле-ле-Дюка на протяжении 27 лет был главным инспектором грандиозной реставрации средневекового замка Пьерфон (департамент Уаза). Для Всемирной выставки 1878 г. в Париже создал каменный макет замка Пьерфон весом 4,5 тонны. Личный архив Выгановского хранится в Архиве департамента Уаза в Бове.",
+      "en": "Born in the village of Vyhanava (Białystok / Navahrudak district). Graduated from Svislach Gymnasium and studied architecture at Vilnius University. Participated in the 1830–1831 Uprising in the Białowieża Forest (non-commissioned officer of the 11th Uhlan Regiment). After the uprising's defeat, he emigrated to France, becoming a leading practical architect and restorer of French Gothic heritage. Working with Jean-Baptiste Lassus, he supervised the restoration of Sainte-Chapelle (from 1839) and Notre-Dame de Paris (from 1845), and co-designed and constructed the neo-Gothic Church of Saint-Jean-Baptiste de Belleville in Paris (1854–1859). From 1858, appointed chief inspector of works by Eugène Viollet-le-Duc, he led the monumental 27-year restoration of the medieval Château de Pierrefonds for Napoleon III. He also created the famed 4.5-ton stone model of Pierrefonds for the 1878 Paris Exposition Universelle. His personal archive is preserved in the Archives départementales de l'Oise in Beauvais."
+    },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Le_Ch%C3%A2teau_de_Pierrefonds.jpg/640px-Le_Ch%C3%A2teau_de_Pierrefonds.jpg",
+    "wiki": "https://be.wikipedia.org/wiki/Люцыян_Выганоўскі",
+    "placeIds": [
+      "pierrefonds-castle-wyganowski",
+      "paris-saint-jean-baptiste-belleville-wyganowski"
+    ],
+    "wikidataId": "Q123753579"
   }
 ]
